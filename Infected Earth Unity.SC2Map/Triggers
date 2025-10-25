@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TriggerData>
+    <Root>
+        <Item Type="Category" Id="D457C402"/>
+    </Root>
+    <Element Type="Category" Id="D457C402">
+        <Item Type="CustomScript" Id="1B8D0A58"/>
+    </Element>
+    <Element Type="CustomScript" Id="1B8D0A58">
+        <Identifier>Bootstrap</Identifier>
+        <ScriptCode>
+            include &quot;scripts/main&quot;
+        </ScriptCode>
+    </Element>
+</TriggerData>

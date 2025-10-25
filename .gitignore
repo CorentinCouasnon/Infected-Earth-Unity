@@ -1,0 +1,7 @@
+*.orig
+*.temp
+notes/
+Release/
+.vscode/
+Classic/
+env/

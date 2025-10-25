@@ -1,0 +1,6 @@
+include "scripts/Header"
+include "scripts/MapInit"
+
+void main(){
+    TriggerAddEventMapInit(TriggerCreate("MapInit_Main"));
+}
