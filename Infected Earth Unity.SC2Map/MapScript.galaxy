@@ -5,10 +5,19 @@
 // Name:   Just Another StarCraft II Map
 // 
 //==================================================================================================
-include "TriggerLibs/natives"
+include "TriggerLibs/NativeLib"
+include "TriggerLibs/LibertyLib"
 
 //--------------------------------------------------------------------------------------------------
-// Custom Script: Untitled Custom Script 001
+// Library Initialization
+//--------------------------------------------------------------------------------------------------
+void InitLibs () {
+    libNtve_InitLib();
+    libLbty_InitLib();
+}
+
+//--------------------------------------------------------------------------------------------------
+// Custom Script: Bootstrap
 //--------------------------------------------------------------------------------------------------
 include "scripts/main"
 
@@ -22,5 +31,6 @@ void InitCustomScript () {
 // Map Initialization
 //--------------------------------------------------------------------------------------------------
 void InitMap () {
+    InitLibs();
     InitCustomScript();
 }

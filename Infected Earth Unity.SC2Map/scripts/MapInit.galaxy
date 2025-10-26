@@ -1,7 +1,8 @@
 // only function that is called on map init, runs all initialization functions
 bool MapInit_Main(bool testConds, bool runActions) {
     
-    //libLbty_gf_EnableDisablePingPanel(true, PlayerGroupAll());
+    libLbty_gf_EnableDisablePingPanel(true, PlayerGroupAll());
+    
     GameSetMissionTimePaused(true);
 
     Wait(10, 0);

@@ -5,11 +5,34 @@
     </Root>
     <Element Type="Category" Id="D457C402">
         <Item Type="CustomScript" Id="1B8D0A58"/>
+        <Item Type="FunctionDef" Id="C94586AB"/>
     </Element>
     <Element Type="CustomScript" Id="1B8D0A58">
         <Identifier>Bootstrap</Identifier>
         <ScriptCode>
             include &quot;scripts/main&quot;
         </ScriptCode>
+    </Element>
+    <Element Type="FunctionDef" Id="C94586AB">
+        <Identifier>ImportDefaultLibraries</Identifier>
+        <Disabled/>
+        <FlagCall/>
+        <FunctionCall Type="FunctionCall" Id="934E9DD0"/>
+    </Element>
+    <Element Type="FunctionCall" Id="934E9DD0">
+        <FunctionDef Type="FunctionDef" Library="Lbty" Id="2FF7A88E"/>
+        <Parameter Type="Param" Id="76E58170"/>
+        <Parameter Type="Param" Id="0B7D92F0"/>
+    </Element>
+    <Element Type="Param" Id="76E58170">
+        <ParameterDef Type="ParamDef" Library="Lbty" Id="92022543"/>
+        <Preset Type="PresetValue" Library="Ntve" Id="00000063"/>
+    </Element>
+    <Element Type="Param" Id="0B7D92F0">
+        <ParameterDef Type="ParamDef" Library="Lbty" Id="3F243140"/>
+        <FunctionCall Type="FunctionCall" Id="C1A52450"/>
+    </Element>
+    <Element Type="FunctionCall" Id="C1A52450">
+        <FunctionDef Type="FunctionDef" Library="Ntve" Id="00000192"/>
     </Element>
 </TriggerData>
