@@ -1,0 +1,13 @@
+void Debug_ShowUnitGroupCount(string groupName, unitgroup group)
+{
+    UIDisplayMessage(PlayerGroupAll(), c_messageAreaChat, 
+        StringToText("[DEBUG] Nombre d'unités du groupe \"") + StringToText(groupName) + StringToText("\" : ") + IntToText(UnitGroupCount(group, 0))
+    );
+}
+
+void Debug_ShowAbilityExists(string abilityName, unit u)
+{
+    UIDisplayMessage(PlayerGroupAll(), c_messageAreaChat, 
+        StringToText("[DEBUG] L'ability \"") + StringToText(abilityName) + StringToText("\" existe : ") + IntToText(BoolToInt(UnitAbilityExists(u, abilityName)))
+    );
+}

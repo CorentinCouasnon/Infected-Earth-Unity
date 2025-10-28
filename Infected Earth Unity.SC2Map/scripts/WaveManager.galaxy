@@ -36,6 +36,8 @@ bool Wave_SpawnAction(bool testConds, bool runActions) {
     int numUnits;
     int i;
     unit newUnit;
+    unit playerUnit;
+    unitgroup playerUnitGroup;
 
     if (g_currentWave >= 10) 
     {
@@ -49,7 +51,8 @@ bool Wave_SpawnAction(bool testConds, bool runActions) {
 
     g_currentWave += 1;
     numUnits = 5; // Exemple : 5 unités par niveau de vague (augmente la difficulté)
-    
+    UnitGroupClear(g_waveGroup);
+
     for (i = 0; i < numUnits; i += 1) {
         libNtve_gf_CreateUnitsWithDefaultFacing(1, "Zergling", 1, 15, g_spawnPoint);
         newUnit = UnitLastCreated();
@@ -57,9 +60,12 @@ bool Wave_SpawnAction(bool testConds, bool runActions) {
     }
     
     g_unitsAlive = numUnits;
-    
-    // Faire attaquer le groupe vers le point d'attaque (attaque-move)
-    UnitGroupIssueOrder(g_waveGroup, OrderTargetingUnit(AbilityCommand("attack", 0), UnitGroupUnit(UnitGroup(null, 1, RegionEntireMap(), UnitFilter(0, 0, 0, 0), 10), 1)), c_orderQueueReplace);
+
+    playerUnitGroup = UnitGroup(null, 1, RegionEntireMap(), UnitFilter(0, 0, 0, 0), 10);
+    playerUnit = UnitGroupUnit(playerUnitGroup, 1);
+
+    // Faire attaquer le groupe
+    UnitGroupIssueOrder(g_waveGroup, OrderTargetingUnit(AbilityCommand("attack", 0), playerUnit), c_orderQueueReplace);
     
     // Message optionnel pour le joueur
     UIDisplayMessage(PlayerGroupAll(), c_messageAreaChat, StringToText("Vague " + IntToString(g_currentWave) + " !"));
@@ -73,6 +79,7 @@ void Wave_Init() {
     trigger deathTrigger;
     g_currentWave = 0;
     g_unitsAlive = 0;
+    g_waveGroup = UnitGroupEmpty();
     g_spawnPoint = RegionGetCenter(RegionFromName("EnemySpawnPoint"));
     g_attackPoint = RegionGetCenter(RegionFromName("EnemySpawnPoint"));
     
