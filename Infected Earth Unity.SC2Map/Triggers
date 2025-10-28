@@ -4,14 +4,65 @@
         <Item Type="Category" Id="D457C402"/>
     </Root>
     <Element Type="Category" Id="D457C402">
+        <Item Type="Trigger" Id="EA95D54A"/>
         <Item Type="CustomScript" Id="1B8D0A58"/>
         <Item Type="FunctionDef" Id="C94586AB"/>
+    </Element>
+    <Element Type="Trigger" Id="EA95D54A">
+        <Identifier>InitialTrigger</Identifier>
+        <Disabled/>
+        <Event Type="FunctionCall" Id="7BD5B59A"/>
+        <Action Type="FunctionCall" Id="197207FF"/>
+        <Action Type="FunctionCall" Id="67DB2AA4"/>
+        <Action Type="FunctionCall" Id="1E2ACAD0"/>
+        <Action Type="FunctionCall" Id="62853BAC"/>
+        <Action Type="FunctionCall" Id="D80FE1CA"/>
+    </Element>
+    <Element Type="FunctionCall" Id="7BD5B59A">
+        <FunctionDef Type="FunctionDef" Library="Ntve" Id="00000120"/>
+    </Element>
+    <Element Type="FunctionCall" Id="197207FF">
+        <Disabled/>
+        <FunctionDef Type="FunctionDef" Library="Ntve" Id="00000108"/>
+        <Parameter Type="Param" Id="E92DD7A2"/>
+        <Parameter Type="Param" Id="59C8728A"/>
+    </Element>
+    <Element Type="Param" Id="E92DD7A2">
+        <ParameterDef Type="ParamDef" Library="Ntve" Id="00000172"/>
+        <FunctionCall Type="FunctionCall" Id="25A983FA"/>
+    </Element>
+    <Element Type="FunctionCall" Id="25A983FA">
+        <FunctionDef Type="FunctionDef" Library="Ntve" Id="59BA1DDF"/>
+        <Parameter Type="Param" Id="8F3076CE"/>
+    </Element>
+    <Element Type="Param" Id="8F3076CE">
+        <ParameterDef Type="ParamDef" Library="Ntve" Id="C2F687E6"/>
+        <Value>AiurLightBridgeAbandonedNE12</Value>
+        <ValueType Type="abilcmd"/>
+        <ValueTypeInfo Value="0"/>
+    </Element>
+    <Element Type="Param" Id="59C8728A">
+        <ParameterDef Type="ParamDef" Library="Ntve" Id="00000173"/>
+        <Preset Type="PresetValue" Library="Ntve" Id="00000039"/>
+    </Element>
+    <Element Type="FunctionCall" Id="67DB2AA4">
+        <FunctionDef Type="FunctionDef" Library="Ntve" Id="00000143"/>
+    </Element>
+    <Element Type="FunctionCall" Id="1E2ACAD0">
+        <FunctionDef Type="FunctionDef" Library="Ntve" Id="00000145"/>
+    </Element>
+    <Element Type="FunctionCall" Id="62853BAC">
+        <FunctionDef Type="FunctionDef" Library="Ntve" Id="00000150"/>
+    </Element>
+    <Element Type="FunctionCall" Id="D80FE1CA">
+        <FunctionDef Type="FunctionDef" Library="Ntve" Id="00000148"/>
     </Element>
     <Element Type="CustomScript" Id="1B8D0A58">
         <Identifier>Bootstrap</Identifier>
         <ScriptCode>
             include &quot;scripts/main&quot;
         </ScriptCode>
+        <InitFunc>main</InitFunc>
     </Element>
     <Element Type="FunctionDef" Id="C94586AB">
         <Identifier>ImportDefaultLibraries</Identifier>

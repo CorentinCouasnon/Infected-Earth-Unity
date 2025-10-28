@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CUnit id="TaurenSpaceMarineBroken">
+        <DeathRevealRadius value="3"/>
+        <Race value="Terr"/>
+        <Mob value="OnHold"/>
+        <FlagArray index="UseLineOfSight" value="1"/>
+        <FlagArray index="ArmySelect" value="1"/>
+        <PlaneArray index="Ground" value="1"/>
+        <Collide index="Ground" value="1"/>
+        <Collide index="Small" value="1"/>
+        <Attributes index="Light" value="1"/>
+        <Attributes index="Biological" value="1"/>
+        <LifeStart value="250"/>
+        <LifeMax value="250"/>
+        <LifeArmor value="10"/>
+        <LifeRegenRate value="0.25"/>
+        <LifeArmorName value="Unit/LifeArmorName/TerranInfantryArmor"/>
+        <Mover value="Ground2"/>
+        <Speed value="3.25"/>
+        <Acceleration value="1000"/>
+        <LateralAcceleration value="46.0625"/>
+        <StationaryTurningRate value="129.9023"/>
+        <TurningRate value="719.2968"/>
+        <Sight value="10"/>
+        <CostResource index="Minerals" value="50"/>
+        <RepairTime value="20"/>
+        <AttackTargetPriority value="20"/>
+        <AbilArray Link="stop2"/>
+        <AbilArray Link="attack2"/>
+        <AbilArray Link="move2"/>
+        <AbilArray Link="TaurenStimpack2"/>
+        <WeaponArray Link="Starfoule"/>
+        <CardLayouts>
+            <LayoutButtons Face="Move2" Type="AbilCmd" AbilCmd="move2,0" Row="0" Column="0"/>
+            <LayoutButtons Face="Stop2" Type="AbilCmd" AbilCmd="stop2,0" Row="0" Column="1"/>
+            <LayoutButtons Face="MoveHoldPosition2" Type="AbilCmd" AbilCmd="move2,2" Row="0" Column="2"/>
+            <LayoutButtons Face="Attack2" Type="AbilCmd" AbilCmd="attack2,0" Row="0" Column="4"/>
+            <LayoutButtons Face="MovePatrol2" Type="AbilCmd" AbilCmd="move2,1" Row="0" Column="3"/>
+            <LayoutButtons Face="Stim2" Type="AbilCmd" AbilCmd="TaurenStimpack2,0" Row="2" Column="0"/>
+        </CardLayouts>
+        <Radius value="0.75"/>
+        <SeparationRadius value="0.75"/>
+        <InnerRadius value="0.75"/>
+        <CargoSize value="1"/>
+        <ScoreResult value="BuildOrder"/>
+        <SubgroupPriority value="6"/>
+        <MinimapRadius value="0.75"/>
+        <EditorCategories value="ObjectType:Unit,ObjectFamily:Melee"/>
+        <TacticalAIThink value="AIThinkMarine"/>
+    </CUnit>
+</Catalog>

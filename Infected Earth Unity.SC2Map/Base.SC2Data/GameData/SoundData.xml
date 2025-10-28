@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CSound id="TaurenSpaceMarine_Attack2" parent="TerranAck">
+        <EditorCategories value="Race:Neutral"/>
+        <AssetArray File="LocalizedData\Sounds\TerranVO\CampaignUnits\TaurenSpaceMarine\TaurenSpaceMarine_Attack00.ogg" FacialAnim="TaurenSpaceMarine_Attack00"/>
+        <AssetArray File="LocalizedData\Sounds\TerranVO\CampaignUnits\TaurenSpaceMarine\TaurenSpaceMarine_Attack01.ogg" FacialAnim="TaurenSpaceMarine_Attack01"/>
+        <AssetArray File="LocalizedData\Sounds\TerranVO\CampaignUnits\TaurenSpaceMarine\TaurenSpaceMarine_Attack02.ogg" FacialAnim="TaurenSpaceMarine_Attack02"/>
+        <AssetArray File="LocalizedData\Sounds\TerranVO\CampaignUnits\TaurenSpaceMarine\TaurenSpaceMarine_Attack03.ogg" FacialAnim="TaurenSpaceMarine_Attack03"/>
+        <AssetArray File="LocalizedData\Sounds\TerranVO\CampaignUnits\TaurenSpaceMarine\TaurenSpaceMarine_Attack04.ogg" FacialAnim="TaurenSpaceMarine_Attack04"/>
+    </CSound>
+    <CSound id="TaurenSpaceMarine_AttackImpact2" parent="Combat">
+        <EditorCategories value="Race:Neutral"/>
+        <AssetArray File="Assets\Sounds\Terran\SharedEffects\Explosions\Terran_ExplosionSmall0.wav" Pitch="-3.000000,3.000000"/>
+        <AssetArray File="Assets\Sounds\Terran\SharedEffects\Explosions\Terran_ExplosionSmall1.wav" Pitch="-3.000000,3.000000"/>
+        <AssetArray File="Assets\Sounds\Terran\SharedEffects\Explosions\Terran_ExplosionSmall2.wav" Pitch="-3.000000,3.000000"/>
+        <AssetArray File="Assets\Sounds\Terran\SharedEffects\Explosions\Terran_ExplosionSmall3.wav" Pitch="-3.000000,3.000000"/>
+        <AssetArray File="Assets\Sounds\Terran\SharedEffects\Explosions\Terran_ExplosionSmall4.wav" Pitch="-3.000000,3.000000"/>
+        <AssetArray File="Assets\Sounds\Terran\SharedEffects\Explosions\Terran_ExplosionSmall5.wav" Pitch="-3.000000,3.000000"/>
+        <AssetArray File="Assets\Sounds\Terran\SharedEffects\Explosions\Terran_ExplosionSmall6.wav" Pitch="-3.000000,3.000000"/>
+        <AssetArray File="Assets\Sounds\Terran\SharedEffects\Explosions\Terran_ExplosionSmall7.wav" Pitch="-3.000000,3.000000"/>
+        <AssetArray File="Assets\Sounds\Terran\SharedEffects\Explosions\Terran_ExplosionSmall8.wav" Pitch="-3.000000,3.000000"/>
+        <AssetArray File="Assets\Sounds\Terran\SharedEffects\Explosions\Terran_ExplosionSmall9.wav" Pitch="-3.000000,3.000000"/>
+        <DupeDestroyCount value="5"/>
+        <DupeMaximumMethod value="Replace"/>
+        <Pitch value="-0.500000,0.500000"/>
+        <Volume value="-7.500000,-6.000000"/>
+    </CSound>
+    <CSound id="TaurenSpaceMarine_AttackLaunch2" parent="Combat">
+        <EditorCategories value="Race:Neutral"/>
+        <AssetArray File="Assets\Sounds\Terran\Marine\Marine_AttackLaunch0.wav"/>
+        <AssetArray File="Assets\Sounds\Terran\Marine\Marine_AttackLaunch1.wav"/>
+        <AssetArray File="Assets\Sounds\Terran\Marine\Marine_AttackLaunch2.wav"/>
+        <AssetArray File="Assets\Sounds\Terran\Marine\Marine_AttackLaunch3.wav"/>
+        <AssetArray File="Assets\Sounds\Terran\Marine\Marine_AttackLaunch4.wav"/>
+        <AssetArray File="Assets\Sounds\Terran\Marine\Marine_AttackLaunch5.wav"/>
+        <AssetArray File="Assets\Sounds\Terran\Marine\Marine_AttackLaunch6.wav"/>
+        <AssetArray File="Assets\Sounds\Terran\Marine\Marine_AttackLaunch7.wav"/>
+        <AssetArray File="Assets\Sounds\Terran\Marine\Marine_AttackLaunch8.wav"/>
+        <DupeDestroyCount value="6"/>
+        <DupeMuteCount value="64"/>
+        <Pitch value="-0.890000,0.840000"/>
+        <Volume value="-9.160000,-8.960000"/>
+    </CSound>
+    <CSound id="TaurenSpaceMarine_Explode2" parent="Combat">
+        <EditorCategories value="Race:Neutral"/>
+        <AssetArray File="Assets\Sounds\Zerg\SharedEffects\Explosions\Zerg_ExplosionMedium0.wav" Pitch="-3.000000,3.000000"/>
+        <AssetArray File="Assets\Sounds\Zerg\SharedEffects\Explosions\Zerg_ExplosionMedium1.wav" Pitch="-3.000000,3.000000"/>
+        <AssetArray File="Assets\Sounds\Zerg\SharedEffects\Explosions\Zerg_ExplosionMedium2.wav" Pitch="-3.000000,3.000000"/>
+        <AssetArray File="Assets\Sounds\Zerg\SharedEffects\Explosions\Zerg_ExplosionMedium3.wav" Pitch="-3.000000,3.000000"/>
+        <AssetArray File="Assets\Sounds\Zerg\SharedEffects\Explosions\Zerg_ExplosionMedium4.wav" Pitch="-3.000000,3.000000"/>
+        <AssetArray File="Assets\Sounds\Zerg\SharedEffects\Explosions\Zerg_ExplosionMedium5.wav" Pitch="-3.000000,3.000000"/>
+        <AssetArray File="Assets\Sounds\Zerg\SharedEffects\Explosions\Zerg_ExplosionMedium6.wav" Pitch="-3.000000,3.000000"/>
+        <DupeMuteCount value="6"/>
+        <Volume value="-8.000000,-8.000000"/>
+    </CSound>
+    <CSound id="TaurenSpaceMarine_Help2" parent="TerranAck">
+        <EditorCategories value="Race:Neutral"/>
+        <AssetArray File="LocalizedData\Sounds\TerranVO\CampaignUnits\TaurenSpaceMarine\TaurenSpaceMarine_Help00.ogg" FacialAnim="TaurenSpaceMarine_Help00"/>
+        <AssetArray File="LocalizedData\Sounds\TerranVO\CampaignUnits\TaurenSpaceMarine\TaurenSpaceMarine_Help01.ogg" FacialAnim="TaurenSpaceMarine_Help01"/>
+    </CSound>
+    <CSound id="TaurenSpaceMarine_Pissed2" parent="Pissed">
+        <EditorCategories value="Race:Neutral"/>
+        <AssetArray File="LocalizedData\Sounds\TerranVO\CampaignUnits\TaurenSpaceMarine\TaurenSpaceMarine_Pissed00.ogg" FacialAnim="TaurenSpaceMarine_Pissed00"/>
+        <AssetArray File="LocalizedData\Sounds\TerranVO\CampaignUnits\TaurenSpaceMarine\TaurenSpaceMarine_Pissed01.ogg" FacialAnim="TaurenSpaceMarine_Pissed01"/>
+        <AssetArray File="LocalizedData\Sounds\TerranVO\CampaignUnits\TaurenSpaceMarine\TaurenSpaceMarine_Pissed02.ogg" FacialAnim="TaurenSpaceMarine_Pissed02"/>
+        <AssetArray File="LocalizedData\Sounds\TerranVO\CampaignUnits\TaurenSpaceMarine\TaurenSpaceMarine_Pissed03.ogg" FacialAnim="TaurenSpaceMarine_Pissed03"/>
+        <AssetArray File="LocalizedData\Sounds\TerranVO\CampaignUnits\TaurenSpaceMarine\TaurenSpaceMarine_Pissed04.ogg" FacialAnim="TaurenSpaceMarine_Pissed04"/>
+        <AssetArray File="LocalizedData\Sounds\TerranVO\CampaignUnits\TaurenSpaceMarine\TaurenSpaceMarine_Pissed05.ogg" FacialAnim="TaurenSpaceMarine_Pissed05"/>
+        <AssetArray File="LocalizedData\Sounds\TerranVO\CampaignUnits\TaurenSpaceMarine\TaurenSpaceMarine_Pissed06.ogg" FacialAnim="TaurenSpaceMarine_Pissed06"/>
+        <AssetArray File="LocalizedData\Sounds\TerranVO\CampaignUnits\TaurenSpaceMarine\TaurenSpaceMarine_Pissed07.ogg" FacialAnim="TaurenSpaceMarine_Pissed07"/>
+    </CSound>
+    <CSound id="TaurenSpaceMarine_Ready2" parent="Ready">
+        <EditorCategories value="Race:Neutral"/>
+        <AssetArray File="LocalizedData\Sounds\TerranVO\CampaignUnits\TaurenSpaceMarine\TaurenSpaceMarine_Ready00.ogg" FacialAnim="TaurenSpaceMarine_Ready00"/>
+    </CSound>
+    <CSound id="TaurenSpaceMarine_What2" parent="TerranAck">
+        <EditorCategories value="Race:Neutral"/>
+        <AssetArray File="LocalizedData\Sounds\TerranVO\CampaignUnits\TaurenSpaceMarine\TaurenSpaceMarine_What00.ogg" FacialAnim="TaurenSpaceMarine_What00"/>
+        <AssetArray File="LocalizedData\Sounds\TerranVO\CampaignUnits\TaurenSpaceMarine\TaurenSpaceMarine_What01.ogg" FacialAnim="TaurenSpaceMarine_What01"/>
+        <AssetArray File="LocalizedData\Sounds\TerranVO\CampaignUnits\TaurenSpaceMarine\TaurenSpaceMarine_What02.ogg" FacialAnim="TaurenSpaceMarine_What02"/>
+        <AssetArray File="LocalizedData\Sounds\TerranVO\CampaignUnits\TaurenSpaceMarine\TaurenSpaceMarine_What03.ogg" FacialAnim="TaurenSpaceMarine_What03"/>
+        <AssetArray File="LocalizedData\Sounds\TerranVO\CampaignUnits\TaurenSpaceMarine\TaurenSpaceMarine_What04.ogg" FacialAnim="TaurenSpaceMarine_What04"/>
+        <AssetArray File="LocalizedData\Sounds\TerranVO\CampaignUnits\TaurenSpaceMarine\TaurenSpaceMarine_What05.ogg" FacialAnim="TaurenSpaceMarine_What05"/>
+        <AssetArray File="LocalizedData\Sounds\TerranVO\CampaignUnits\TaurenSpaceMarine\TaurenSpaceMarine_What06.ogg" FacialAnim="TaurenSpaceMarine_What06"/>
+        <AssetArray File="LocalizedData\Sounds\TerranVO\CampaignUnits\TaurenSpaceMarine\TaurenSpaceMarine_What07.ogg" FacialAnim="TaurenSpaceMarine_What07"/>
+        <AssetArray File="LocalizedData\Sounds\TerranVO\CampaignUnits\TaurenSpaceMarine\TaurenSpaceMarine_What08.ogg" FacialAnim="TaurenSpaceMarine_What08"/>
+    </CSound>
+    <CSound id="TaurenSpaceMarine_Yes2" parent="TerranAck">
+        <EditorCategories value="Race:Neutral"/>
+        <AssetArray File="LocalizedData\Sounds\TerranVO\CampaignUnits\TaurenSpaceMarine\TaurenSpaceMarine_Yes00.ogg" FacialAnim="TaurenSpaceMarine_Yes00"/>
+        <AssetArray File="LocalizedData\Sounds\TerranVO\CampaignUnits\TaurenSpaceMarine\TaurenSpaceMarine_Yes01.ogg" FacialAnim="TaurenSpaceMarine_Yes01"/>
+        <AssetArray File="LocalizedData\Sounds\TerranVO\CampaignUnits\TaurenSpaceMarine\TaurenSpaceMarine_Yes03.ogg" FacialAnim="TaurenSpaceMarine_Yes03"/>
+        <AssetArray File="LocalizedData\Sounds\TerranVO\CampaignUnits\TaurenSpaceMarine\TaurenSpaceMarine_Yes04.ogg" FacialAnim="TaurenSpaceMarine_Yes04"/>
+        <AssetArray File="LocalizedData\Sounds\TerranVO\CampaignUnits\TaurenSpaceMarine\TaurenSpaceMarine_Yes05.ogg" FacialAnim="TaurenSpaceMarine_Yes05"/>
+        <AssetArray File="LocalizedData\Sounds\TerranVO\CampaignUnits\TaurenSpaceMarine\TaurenSpaceMarine_Yes06.ogg" FacialAnim="TaurenSpaceMarine_Yes06"/>
+        <AssetArray File="LocalizedData\Sounds\TerranVO\CampaignUnits\TaurenSpaceMarine\TaurenSpaceMarine_Yes07.ogg" FacialAnim="TaurenSpaceMarine_Yes07"/>
+        <AssetArray File="LocalizedData\Sounds\TerranVO\CampaignUnits\TaurenSpaceMarine\TaurenSpaceMarine_Yes08.ogg" FacialAnim="TaurenSpaceMarine_Yes08"/>
+        <AssetArray File="LocalizedData\Sounds\TerranVO\CampaignUnits\TaurenSpaceMarine\TaurenSpaceMarine_Yes09.ogg" FacialAnim="TaurenSpaceMarine_Yes09"/>
+        <AssetArray File="LocalizedData\Sounds\TerranVO\CampaignUnits\TaurenSpaceMarine\TaurenSpaceMarine_Yes10.ogg" FacialAnim="TaurenSpaceMarine_Yes10"/>
+    </CSound>
+</Catalog>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CActorModel id="GenericAttackDamageModel2" parent="ModelAnimationStyleOneShotNoOrphan">
+        <Flags index="SuppressCreationErrors" value="1"/>
+        <Inherits index="Visibility" value="1"/>
+        <Model value="GenericAttackModel"/>
+        <ModelFlags index="AllowHitTest" value="0"/>
+    </CActorModel>
+    <CActorSound id="GenericAttackDamageSound2" parent="SoundOneShot">
+        <Flags index="SuppressCreationErrors" value="1"/>
+        <Sound value="GenericAttackSound"/>
+    </CActorSound>
+    <CActorModel id="GenericAttackImpactModel2" parent="ModelAnimationStyleOneShotNoOrphan">
+        <Flags index="SuppressCreationErrors" value="1"/>
+        <Inherits index="Visibility" value="1"/>
+        <Model value="GenericAttackModel"/>
+        <ModelFlags index="AllowHitTest" value="0"/>
+    </CActorModel>
+    <CActorSound id="GenericAttackImpactSound2" parent="SoundOneShot">
+        <Flags index="SuppressCreationErrors" value="1"/>
+        <Sound value="GenericAttackSound"/>
+    </CActorSound>
+    <CActorModel id="GenericAttackLaunchModel2" parent="ModelAnimationStyleOneShotNoOrphan">
+        <Flags index="SuppressCreationErrors" value="1"/>
+        <Inherits index="Visibility" value="1"/>
+        <Model value="GenericAttackModel"/>
+        <ModelFlags index="AllowHitTest" value="0"/>
+    </CActorModel>
+    <CActorSound id="GenericAttackLaunchSound2" parent="SoundOneShot">
+        <Flags index="SuppressCreationErrors" value="1"/>
+        <Sound value="GenericAttackSound"/>
+    </CActorSound>
+    <CActorUnit id="TaurenSpaceMarine2" parent="GenericUnitStandard" unitName="TaurenSpaceMarineBroken">
+        <Aliases value="_UnitSmall"/>
+        <Model value="TaurenSpaceMarine2"/>
+        <BuildModel value="TaurenSpaceMarine2"/>
+        <DeathArray index="Normal" ModelLink="TaurenSpaceMarine2" SoundLink="TaurenSpaceMarine_Explode2"/>
+        <DeathCustoms index="0" ModelLink="ZergSmallUnitDeathLow2" Name="AntiGravGeneric"/>
+        <DeathCustoms index="1" ModelLink="ProtossSmallUnitDeathLow2" Name="AntiGravProtoss"/>
+        <DeathCustoms index="2" ModelLink="TerranSmallUnitDeathLow2" Name="AntiGravTerran"/>
+        <DeathCustoms index="3" ModelLink="ZergSmallUnitDeathLow2" Name="AntiGravZerg"/>
+        <DeathCustoms index="4" ModelLink="Invisible2" Name="Vortex"/>
+        <PlacementModel value="TaurenSpaceMarine2"/>
+        <PortraitModel value="TaurenMarinePortrait2"/>
+        <StandAnimTurnTime value="3"/>
+        <WalkAnimMoveSpeed value="4.0976"/>
+        <BarOffset value="40"/>
+        <BarWidth value="72"/>
+        <GroupIcon>
+            <Image value="Assets\Textures\Wireframe-Terran-taurenspacemarine.dds"/>
+        </GroupIcon>
+        <HeroIcon value="Assets\Textures\BTN-Unit-Terran-TaurenSpaceMarine.dds"/>
+        <HighlightTooltip value="Unit/Name/TaurenSpaceMarine2"/>
+        <LifeArmorIcon value="Assets\Textures\btn-upgrade-terran-infantryarmorlevel0.dds"/>
+        <SoundArray index="Ready" value="TaurenSpaceMarine_Ready2"/>
+        <SoundArray index="Help" value="TaurenSpaceMarine_Help2"/>
+        <SoundArray index="What" value="TaurenSpaceMarine_What2"/>
+        <SoundArray index="Yes" value="TaurenSpaceMarine_Yes2"/>
+        <SoundArray index="Attack" value="TaurenSpaceMarine_Attack2"/>
+        <SoundArray index="Pissed" value="TaurenSpaceMarine_Pissed2"/>
+        <UnitIcon value="Assets\Textures\BTN-Unit-Terran-TaurenSpaceMarine.dds"/>
+        <Wireframe>
+            <Image value="Assets\Textures\Wireframe-Terran-taurenspacemarine.dds"/>
+        </Wireframe>
+    </CActorUnit>
+    <CActorAction id="TaurenSpaceMarineAttack2" parent="GenericAttack" effectAttack="TaurenSpaceMarineGaussRifleDamage2">
+        <LaunchAssets Model="TaurenSpaceMarineAttackLaunch2" Sound="TaurenSpaceMarine_AttackLaunch2"/>
+        <LaunchModel value="GenericAttackLaunchModel2"/>
+        <LaunchSound value="GenericAttackLaunchSound2"/>
+        <ContainerModel value="GenericAttackLaunchModel2"/>
+        <ContainerSound value="GenericAttackLaunchSound2"/>
+        <ImpactMap index="None" Model="TaurenSpaceMarineAttackImpact2" Sound="TaurenSpaceMarine_AttackImpact2"/>
+        <ImpactModel value="GenericAttackImpactModel2"/>
+        <ImpactSound value="GenericAttackImpactSound2"/>
+        <DamageModel value="GenericAttackDamageModel2"/>
+        <DamageSound value="GenericAttackDamageSound2"/>
+    </CActorAction>
+</Catalog>

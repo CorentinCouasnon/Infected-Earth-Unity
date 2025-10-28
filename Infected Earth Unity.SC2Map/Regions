@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Regions>
+    <region id="1">
+        <name value="EnemySpawnPoint"/>
+        <shape type="circle">
+            <center value="50.9143,41.5134"/>
+            <radius value="6.5617"/>
+        </shape>
+    </region>
+</Regions>

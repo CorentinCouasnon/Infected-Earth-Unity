@@ -6,4 +6,6 @@
     <DataComponent Type="mapi">MapInfo</DataComponent>
     <DataComponent Type="trig">Triggers</DataComponent>
     <DataComponent Type="terr">t3Terrain.xml</DataComponent>
+    <DataComponent Type="regi">Regions</DataComponent>
+    <DataComponent Type="plob">Objects</DataComponent>
 </Components>

@@ -2,3 +2,4 @@
 CustomScript/Name/1B8D0A58=Bootstrap
 FunctionDef/Grammar/C94586AB=Dummy function to include default libraries.
 FunctionDef/Name/C94586AB=Untitled Function 001
+Trigger/Name/EA95D54A=Untitled Trigger 001

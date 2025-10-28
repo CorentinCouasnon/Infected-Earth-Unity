@@ -1,6 +1,7 @@
 include "scripts/Header"
+include "scripts/WaveManager"
 include "scripts/MapInit"
 
-void main(){
+void main() {
     TriggerAddEventMapInit(TriggerCreate("MapInit_Main"));
 }

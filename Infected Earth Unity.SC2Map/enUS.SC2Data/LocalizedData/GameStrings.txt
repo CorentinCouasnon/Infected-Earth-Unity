@@ -1,6 +1,30 @@
-﻿DocInfo/DescLong=Completely devoid of any description whatsoever.
+﻿Abil/Name/TaurenStimpack2=Tauren Stimpack
+Abil/Name/attack2=Attack
+Abil/Name/move2=Move
+Abil/Name/stop2=Stop
+Abil/TargetMessage/attack2=<IMG path="Assets\Textures\tutorialmouseleftbuttondown.dds" alignment="absolutemiddle"/>   To Attack<n/><IMG path="Assets\Textures\tutorialmouserightbuttondown.dds" alignment="absolutemiddle"/>   Cancel
+Button/Name/Attack2=Attack
+Button/Name/Move2=Move
+Button/Name/MoveHoldPosition2=Hold Position
+Button/Name/MovePatrol2=Patrol
+Button/Name/Stim2=Stimpack
+Button/Name/Stop2=Stop
+Button/Tooltip/Attack2=Orders selected units to move to the target point, fighting nearby enemies along the way. Targeting a unit with the Attack command orders that it be attacked until it is destroyed.
+Button/Tooltip/MasteryRaynorStim2DurationAppend=<n/><n/><c val="FFFF8A">Mastery:</c> Increases duration by <c val="FFFF8A"><d ref="Effect,MasteryRaynorStimDurationDisplayDummy,Amount" precision="1"/></c> seconds.
+Button/Tooltip/Move2=Orders selected units to move to the target area or follow the target unit. Moving units will not engage enemies.
+Button/Tooltip/MoveHoldPosition2=Orders selected units to stay where they are and attack enemies that are within range. Units will neither chase down enemies nor move to engage.
+Button/Tooltip/MovePatrol2=Orders selected units to patrol between their current position and the target area. Units will attack enemies and move to engage nearby enemies.
+Button/Tooltip/Stim2=Injects the unit with powerful stimulants that greatly increase attack and movement speeds for <d ref="Behavior,Stimpack,Duration" precision="1"/> seconds. Injures the unit for <d ref="Abil,Stimpack,Cost[0].Vital[Life]"/> of the unit's life.
+Button/Tooltip/Stop2=Orders selected units to cancel all orders and stop moving.
+Button/Tooltip/TaurenSpaceMarineBroken=For the Horde.
+DocInfo/DescLong=Completely devoid of any description whatsoever.
 DocInfo/DescShort=Any
 DocInfo/Name=Just Another StarCraft II Map
+Effect/Name/TaurenSpaceMarineGaussRifleDamage2=Tauren Space Marine Gauss Rifle Damage
 MapInfo/Player00/Name=Neutral
 MapInfo/Player01/Name=Player 1
 MapInfo/Player02/Name=Hostile
+SimpleDisplay/Attack2=<s val="@@@SimpleCommandRow">%hotkey</c> then</s> <IMG path="Assets\Textures\tutorialmouseleftbuttondown.dds" alignment="absolutemiddle"/> <s val="@@@SimpleCommandRow">ground to Auto-attack</s>
+SimpleDisplay/Move2=<IMG path="Assets\Textures\tutorialmouserightbuttondown.dds" alignment="absolutemiddle"/> <s val="@@@SimpleCommandRow">to Move</s>
+Unit/Name/TaurenSpaceMarineBroken=Tauren Space Marine Broken
+Weapon/Name/Starfoule=Starfoule
