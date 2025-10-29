@@ -1,0 +1,4 @@
+void CameraFocusOnUnit(int player, unit u)
+{
+    CameraPan(player, UnitGetPosition(u), 0, -1, 10, true);
+}

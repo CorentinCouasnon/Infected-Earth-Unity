@@ -1,0 +1,6 @@
+struct PlayerData {
+    unit heroUnit;
+};
+
+PlayerData gv_playerData;
+unitgroup gv_enemiesGroup;

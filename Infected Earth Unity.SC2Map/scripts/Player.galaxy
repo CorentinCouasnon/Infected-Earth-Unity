@@ -1,0 +1,21 @@
+void SetHeroUnit()
+{
+    gv_playerData.heroUnit = UnitGroupUnit(UnitGroup(null, 1, RegionEntireMap(), UnitFilter(0, 0, 0, 0), 10), 1);
+}
+
+bool Player_OnUnitDeath(bool testConds, bool runActions)
+{
+    if (!UnitIsAlive(gv_playerData.heroUnit))
+    {
+        GameOver(1, c_gameOverDefeat, true, true);
+    }
+
+    return true;
+}
+
+void PlayerInitialize()
+{
+    SetHeroUnit();
+    TriggerAddEventUnitDied(TriggerCreate("Player_OnUnitDeath"), null);
+    CameraFocusOnUnit(1, gv_playerData.heroUnit);
+}
