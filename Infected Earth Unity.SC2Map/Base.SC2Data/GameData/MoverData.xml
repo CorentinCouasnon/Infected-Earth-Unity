@@ -5,4 +5,14 @@
             <Bits index="GroundNoSpawn" value="1"/>
         </PlacementArray>
     </CMoverAvoid>
+    <CMoverAvoid id="Ground3">
+        <PlacementArray index="Prevent">
+            <Bits index="GroundNoSpawn" value="1"/>
+        </PlacementArray>
+    </CMoverAvoid>
+    <CMoverAvoid id="Ground4">
+        <PlacementArray index="Prevent">
+            <Bits index="GroundNoSpawn" value="1"/>
+        </PlacementArray>
+    </CMoverAvoid>
 </Catalog>

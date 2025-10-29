@@ -1,30 +1,112 @@
-﻿Abil/Name/TaurenStimpack2=Tauren Stimpack
+﻿Abil/Name/BurrowZerglingDown2=Burrow (Zergling)
+Abil/Name/MorphZerglingToBaneling2=Morph (Zergling -> Baneling)
+Abil/Name/SpawningPoolResearch2=Research (Spawning Pool)
+Abil/Name/SpawningPoolResearch3=Research (Spawning Pool)
+Abil/Name/StimpackRedirect2=Stimpack Redirect
+Abil/Name/StimpackZerg=StimpackZerg
+Abil/Name/TaurenStimpack2=Tauren Stimpack
 Abil/Name/attack2=Attack
 Abil/Name/move2=Move
+Abil/Name/que12=Queue (1)
 Abil/Name/stop2=Stop
 Abil/TargetMessage/attack2=<IMG path="Assets\Textures\tutorialmouseleftbuttondown.dds" alignment="absolutemiddle"/>   To Attack<n/><IMG path="Assets\Textures\tutorialmouserightbuttondown.dds" alignment="absolutemiddle"/>   Cancel
+Behavior/Name/Stimpack2=Stimpack
+Behavior/Name/ZerglingArmorShredTarget2=Armor Negated
+Behavior/Name/ZerglingSunder2=Sundered
+Behavior/Tooltip/Stimpack2=This unit moves and attacks more quickly while under the effects of Stimpack.
+Behavior/Tooltip/ZerglingArmorShredTarget2=This unit's armor has been reduced to 0.
+Behavior/Tooltip/ZerglingSunder2=This unit receives extra damage from ranged attacks.
 Button/Name/Attack2=Attack
+Button/Name/Attack3=Attack
+Button/Name/Attack4=Attack
+Button/Name/Baneling2=Morph to Baneling
+Button/Name/Baneling3=Morph to Baneling
+Button/Name/BurrowDown2=Burrow
+Button/Name/BurrowDown3=Burrow
 Button/Name/Move2=Move
+Button/Name/Move3=Move
+Button/Name/Move4=Move
 Button/Name/MoveHoldPosition2=Hold Position
+Button/Name/MoveHoldPosition3=Hold Position
+Button/Name/MoveHoldPosition4=Hold Position
 Button/Name/MovePatrol2=Patrol
+Button/Name/MovePatrol3=Patrol
+Button/Name/MovePatrol4=Patrol
 Button/Name/Stim2=Stimpack
+Button/Name/Stim3=Stimpack
+Button/Name/Stim4=Stimpack
 Button/Name/Stop2=Stop
+Button/Name/Stop3=Stop
+Button/Name/Stop4=Stop
 Button/Tooltip/Attack2=Orders selected units to move to the target point, fighting nearby enemies along the way. Targeting a unit with the Attack command orders that it be attacked until it is destroyed.
+Button/Tooltip/Attack3=Orders selected units to move to the target point, fighting nearby enemies along the way. Targeting a unit with the Attack command orders that it be attacked until it is destroyed.
+Button/Tooltip/Attack4=Orders selected units to move to the target point, fighting nearby enemies along the way. Targeting a unit with the Attack command orders that it be attacked until it is destroyed.
+Button/Tooltip/Baneling2=Suicide unit. Does damage over a small area on death. <n/><n/><c val="ffff8a">Can attack ground units.</c>
+Button/Tooltip/Baneling3=Suicide unit. Does damage over a small area on death. <n/><n/><c val="ffff8a">Can attack ground units.</c>
+Button/Tooltip/BanelingCocoon2=This cocoon contains a Zergling that is morphing into a Baneling.
+Button/Tooltip/BurrowDown2=Buries the unit underground. Burrowed units are unable to move or attack, but they cannot be seen without detection.
+Button/Tooltip/BurrowDown3=Buries the unit underground. Burrowed units are unable to move or attack, but they cannot be seen without detection.
+Button/Tooltip/HotSRaptor2=Fast melee unit. Leaps over obstacles and onto targets from range. Deals increased damage. Can morph into a Baneling.<n/><n/><c val="FFFF8A">Can attack ground units.</c>
+Button/Tooltip/HotSRaptor3=Fast melee unit. Leaps over obstacles and onto targets from range. Deals increased damage. Can morph into a Baneling.<n/><n/><c val="FFFF8A">Can attack ground units.</c>
+Button/Tooltip/HotSSwarmling2=Fast melee unit. Spawns in groups of three. Morphs almost instantly. Can morph into a Baneling.<n/><n/><c val="FFFF8A">Can attack ground units.</c>
+Button/Tooltip/HotSSwarmling3=Fast melee unit. Spawns in groups of three. Morphs almost instantly. Can morph into a Baneling.<n/><n/><c val="FFFF8A">Can attack ground units.</c>
 Button/Tooltip/MasteryRaynorStim2DurationAppend=<n/><n/><c val="FFFF8A">Mastery:</c> Increases duration by <c val="FFFF8A"><d ref="Effect,MasteryRaynorStimDurationDisplayDummy,Amount" precision="1"/></c> seconds.
+Button/Tooltip/MasteryRaynorStim3DurationAppend=<n/><n/><c val="FFFF8A">Mastery:</c> Increases duration by <c val="FFFF8A"><d ref="Effect,MasteryRaynorStimDurationDisplayDummy,Amount" precision="1"/></c> seconds.
+Button/Tooltip/MasteryRaynorStim4DurationAppend=<n/><n/><c val="FFFF8A">Mastery:</c> Increases duration by <c val="FFFF8A"><d ref="Effect,MasteryRaynorStimDurationDisplayDummy,Amount" precision="1"/></c> seconds.
 Button/Tooltip/Move2=Orders selected units to move to the target area or follow the target unit. Moving units will not engage enemies.
+Button/Tooltip/Move3=Orders selected units to move to the target area or follow the target unit. Moving units will not engage enemies.
+Button/Tooltip/Move4=Orders selected units to move to the target area or follow the target unit. Moving units will not engage enemies.
 Button/Tooltip/MoveHoldPosition2=Orders selected units to stay where they are and attack enemies that are within range. Units will neither chase down enemies nor move to engage.
+Button/Tooltip/MoveHoldPosition3=Orders selected units to stay where they are and attack enemies that are within range. Units will neither chase down enemies nor move to engage.
+Button/Tooltip/MoveHoldPosition4=Orders selected units to stay where they are and attack enemies that are within range. Units will neither chase down enemies nor move to engage.
 Button/Tooltip/MovePatrol2=Orders selected units to patrol between their current position and the target area. Units will attack enemies and move to engage nearby enemies.
+Button/Tooltip/MovePatrol3=Orders selected units to patrol between their current position and the target area. Units will attack enemies and move to engage nearby enemies.
+Button/Tooltip/MovePatrol4=Orders selected units to patrol between their current position and the target area. Units will attack enemies and move to engage nearby enemies.
 Button/Tooltip/Stim2=Injects the unit with powerful stimulants that greatly increase attack and movement speeds for <d ref="Behavior,Stimpack,Duration" precision="1"/> seconds. Injures the unit for <d ref="Abil,Stimpack,Cost[0].Vital[Life]"/> of the unit's life.
+Button/Tooltip/Stim3=Injects the unit with powerful stimulants that greatly increase attack and movement speeds for <d ref="Behavior,Stimpack,Duration" precision="1"/> seconds. Injures the unit for <d ref="Abil,Stimpack,Cost[0].Vital[Life]"/> of the unit's life.
+Button/Tooltip/Stim4=Injects the unit with powerful stimulants that greatly increase attack and movement speeds for <d ref="Behavior,Stimpack,Duration" precision="1"/> seconds. Injures the unit for <d ref="Abil,Stimpack,Cost[0].Vital[Life]"/> of the unit's life.
 Button/Tooltip/Stop2=Orders selected units to cancel all orders and stop moving.
+Button/Tooltip/Stop3=Orders selected units to cancel all orders and stop moving.
+Button/Tooltip/Stop4=Orders selected units to cancel all orders and stop moving.
 Button/Tooltip/TaurenSpaceMarineBroken=For the Horde.
+Button/Tooltip/Zergling2=Fast melee creature. Can morph into a Baneling.<n/><n/><c val="FFFF8A">Can attack ground units.</c>
 DocInfo/DescLong=Completely devoid of any description whatsoever.
 DocInfo/DescShort=Any
 DocInfo/Name=Just Another StarCraft II Map
+Effect/Name/Claws2=Claws (Damage)
+Effect/Name/HotSZerglingClaws2=Hot SZergling Claws
+Effect/Name/Stimpack2=Stim Pack (Apply Buff)
 Effect/Name/TaurenSpaceMarineGaussRifleDamage2=Tauren Space Marine Gauss Rifle Damage
+Effect/Name/ZerglingArmorShredTargetAB2=Shredding Claws Target AB
+Effect/Name/ZerglingFrenzy2=Zergling Frenzy
+Effect/Name/ZerglingRangeReapply2=Zergling Range Reapply
+Effect/Name/ZerglingSunder2=Zergling Sunder
 MapInfo/Player00/Name=Neutral
 MapInfo/Player01/Name=Player 1
 MapInfo/Player02/Name=Hostile
+RequirementNode/Tooltip/AllowAbilStimpackZerg02357366498TechTreeCheat=Cc Umby c'est Siengeur
 SimpleDisplay/Attack2=<s val="@@@SimpleCommandRow">%hotkey</c> then</s> <IMG path="Assets\Textures\tutorialmouseleftbuttondown.dds" alignment="absolutemiddle"/> <s val="@@@SimpleCommandRow">ground to Auto-attack</s>
+SimpleDisplay/Attack3=<s val="@@@SimpleCommandRow">%hotkey</c> then</s> <IMG path="Assets\Textures\tutorialmouseleftbuttondown.dds" alignment="absolutemiddle"/> <s val="@@@SimpleCommandRow">ground to Auto-attack</s>
+SimpleDisplay/Attack4=<s val="@@@SimpleCommandRow">%hotkey</c> then</s> <IMG path="Assets\Textures\tutorialmouseleftbuttondown.dds" alignment="absolutemiddle"/> <s val="@@@SimpleCommandRow">ground to Auto-attack</s>
 SimpleDisplay/Move2=<IMG path="Assets\Textures\tutorialmouserightbuttondown.dds" alignment="absolutemiddle"/> <s val="@@@SimpleCommandRow">to Move</s>
+SimpleDisplay/Move3=<IMG path="Assets\Textures\tutorialmouserightbuttondown.dds" alignment="absolutemiddle"/> <s val="@@@SimpleCommandRow">to Move</s>
+SimpleDisplay/Move4=<IMG path="Assets\Textures\tutorialmouserightbuttondown.dds" alignment="absolutemiddle"/> <s val="@@@SimpleCommandRow">to Move</s>
+Unit/Name/Baneling2=Baneling
+Unit/Name/BanelingCocoon2=Baneling Cocoon
+Unit/Name/HotSRaptor2=Zergling
+Unit/Name/HotSRaptor3=Zergling
+Unit/Name/HotSSwarmling2=Zergling
+Unit/Name/HotSSwarmling3=Zergling
+Unit/Name/Marine2=Marine
 Unit/Name/TaurenSpaceMarineBroken=Tauren Space Marine Broken
+Unit/Name/Zergling=ZerglingStim
+Unit/Name/Zergling2=ZerglingStim
+Unit/Name/Zergling3=Zergling
+Unit/Name/Zergling4=ZerglingStim
+Unit/Name/Zergling5=ZerglingStim
+UnitSubtitle/HotSRaptor2=Raptor Strain
+UnitSubtitle/HotSRaptor3=Raptor Strain
+UnitSubtitle/HotSSwarmling2=Swarmling Strain
+UnitSubtitle/HotSSwarmling3=Swarmling Strain
+Weapon/Name/Claws3=Claws
 Weapon/Name/Starfoule=Starfoule

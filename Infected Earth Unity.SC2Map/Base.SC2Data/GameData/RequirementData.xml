@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CRequirement id="UseStimpack">
+        <NodeArray index="Use" Link="AllowAbilStimpackZerg02357366498TechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="UseStimpack2">
+        <EditorCategories value="Race:Zerg,TechType:Ability"/>
+        <NodeArray index="Use" Link="CountUpgradeStimpackCompleteOnly80611996TechTreeCheat"/>
+    </CRequirement>
+</Catalog>

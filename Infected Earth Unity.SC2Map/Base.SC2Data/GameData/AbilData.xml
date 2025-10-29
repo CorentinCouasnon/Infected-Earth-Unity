@@ -1,5 +1,139 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Catalog>
+    <CAbilMorph id="BurrowZerglingDown2">
+        <AbilSetId value="BrwD"/>
+        <EditorCategories value="Race:Zerg,AbilityorEffectType:MorphsandBurrows"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="BurrowDown">
+            <Flags index="ToSelection" value="1"/>
+        </CmdButtonArray>
+        <CmdButtonArray index="Cancel" DefaultButtonFace="Cancel"/>
+        <ActorKey value="BurrowDown"/>
+        <Flags index="Interruptible" value="1"/>
+        <Flags index="IgnoreFacing" value="1"/>
+        <Flags index="IgnorePlacement" value="0"/>
+        <Flags index="SuppressMovement" value="1"/>
+        <InfoArray Unit="ZerglingStim" RandomDelayMax="0.3703">
+            <SectionArray index="Actor">
+                <DurationArray index="Duration" value="1.333"/>
+            </SectionArray>
+            <SectionArray index="Collide">
+                <DurationArray index="Delay" value="0.5556"/>
+            </SectionArray>
+            <SectionArray index="Stats">
+                <DurationArray index="Delay" value="1"/>
+            </SectionArray>
+        </InfoArray>
+    </CAbilMorph>
+    <CAbilTrain id="MorphZerglingToBaneling2">
+        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
+        <RefundFraction>
+            <Resource index="Minerals" value="-0.75"/>
+            <Resource index="Vespene" value="-0.75"/>
+            <Resource index="Terrazine" value="-0.75"/>
+            <Resource index="Custom" value="-0.75"/>
+        </RefundFraction>
+        <Activity value="UI/Morphing"/>
+        <ActorKey value="BanelingAspect"/>
+        <Flags index="KillOnFinish" value="1"/>
+        <Flags index="Select" value="1"/>
+        <MorphUnit value="BanelingCocoon2"/>
+        <InfoArray index="Train1" Time="10" Alert="MorphComplete_Zerg">
+            <Button DefaultButtonFace="Baneling" Requirements="CoopBasicBaneling">
+                <Flags index="ShowInGlossary" value="1"/>
+            </Button>
+            <Unit value="Baneling2"/>
+            <Flags index="IgnorePlacement" value="1"/>
+        </InfoArray>
+        <Alert value="MorphComplete_Zerg"/>
+    </CAbilTrain>
+    <CAbilResearch id="SpawningPoolResearch2">
+        <EditorCategories value="Race:Zerg,AbilityorEffectType:Structures"/>
+        <InfoArray index="Research1" Time="60" Upgrade="zerglingattackspeed">
+            <Resource index="Minerals" value="150"/>
+            <Resource index="Vespene" value="150"/>
+            <Button DefaultButtonFace="zerglingattackspeed" Requirements="LearnAdrenalGlands"/>
+        </InfoArray>
+        <InfoArray index="Research2" Time="60" Upgrade="zerglingmovementspeed2">
+            <Resource index="Minerals" value="100"/>
+            <Resource index="Vespene" value="100"/>
+            <Button DefaultButtonFace="zerglingmovementspeed" Requirements="LearnMetabolicBoost"/>
+        </InfoArray>
+        <InfoArray index="Research3" Time="60" Upgrade="HotSZerglingHealth">
+            <Resource index="Minerals" value="150"/>
+            <Resource index="Vespene" value="150"/>
+            <Button DefaultButtonFace="EvolveHardenedCarapace" Requirements="LearnHardenedCarapace"/>
+        </InfoArray>
+        <InfoArray index="Research4" Time="90" Upgrade="ZerglingArmorShred">
+            <Resource index="Minerals" value="150"/>
+            <Resource index="Vespene" value="150"/>
+            <Button DefaultButtonFace="EvolveZerglingArmorShred" Requirements="LearnZerglingArmorShred"/>
+        </InfoArray>
+        <InfoArray index="Research5" Time="60" Upgrade="BileLauncherIncreasedRange">
+            <Resource index="Minerals" value="100"/>
+            <Resource index="Vespene" value="100"/>
+            <Button DefaultButtonFace="EvolveBileLauncherIncreasedRange" Requirements="LearnBileLauncherIncreasedRange"/>
+        </InfoArray>
+        <InfoArray index="Research6" Time="90" Upgrade="BileLauncherBombardmentCooldown">
+            <Resource index="Minerals" value="150"/>
+            <Resource index="Vespene" value="150"/>
+            <Button DefaultButtonFace="EvolveBileLauncherBombardmentCooldown" Requirements="LearnBileLauncherBombardmentCooldown"/>
+        </InfoArray>
+    </CAbilResearch>
+    <CAbilResearch id="SpawningPoolResearch3">
+        <EditorCategories value="Race:Zerg,AbilityorEffectType:Structures"/>
+        <InfoArray index="Research1" Time="60" Upgrade="zerglingattackspeed">
+            <Resource index="Minerals" value="150"/>
+            <Resource index="Vespene" value="150"/>
+            <Button DefaultButtonFace="zerglingattackspeed" Requirements="LearnAdrenalGlands"/>
+        </InfoArray>
+        <InfoArray index="Research2" Time="60" Upgrade="zerglingmovementspeed3">
+            <Resource index="Minerals" value="100"/>
+            <Resource index="Vespene" value="100"/>
+            <Button DefaultButtonFace="zerglingmovementspeed" Requirements="LearnMetabolicBoost"/>
+        </InfoArray>
+        <InfoArray index="Research3" Time="60" Upgrade="HotSZerglingHealth">
+            <Resource index="Minerals" value="150"/>
+            <Resource index="Vespene" value="150"/>
+            <Button DefaultButtonFace="EvolveHardenedCarapace" Requirements="LearnHardenedCarapace"/>
+        </InfoArray>
+        <InfoArray index="Research4" Time="90" Upgrade="ZerglingArmorShred">
+            <Resource index="Minerals" value="150"/>
+            <Resource index="Vespene" value="150"/>
+            <Button DefaultButtonFace="EvolveZerglingArmorShred" Requirements="LearnZerglingArmorShred"/>
+        </InfoArray>
+        <InfoArray index="Research5" Time="60" Upgrade="BileLauncherIncreasedRange">
+            <Resource index="Minerals" value="100"/>
+            <Resource index="Vespene" value="100"/>
+            <Button DefaultButtonFace="EvolveBileLauncherIncreasedRange" Requirements="LearnBileLauncherIncreasedRange"/>
+        </InfoArray>
+        <InfoArray index="Research6" Time="90" Upgrade="BileLauncherBombardmentCooldown">
+            <Resource index="Minerals" value="150"/>
+            <Resource index="Vespene" value="150"/>
+            <Button DefaultButtonFace="EvolveBileLauncherBombardmentCooldown" Requirements="LearnBileLauncherBombardmentCooldown"/>
+        </InfoArray>
+    </CAbilResearch>
+    <CAbilEffectInstant id="StimpackZerg">
+        <AbilSetId value="Stimpack"/>
+        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
+        <InfoTooltipPriority value="1"/>
+        <Effect index="0" value="Stimpack2"/>
+        <Flags index="Transient" value="1"/>
+        <Cost>
+            <Vital index="Life" value="10"/>
+        </Cost>
+        <AINotifyEffect value="Stimpack2"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="Stim4" Requirements="UseStimpack">
+            <Flags index="AllowSelfCast" value="1"/>
+            <Flags index="ToSelection" value="1"/>
+        </CmdButtonArray>
+    </CAbilEffectInstant>
+    <CAbilRedirectInstant id="StimpackRedirect2">
+        <AbilSetId value="Stimpack"/>
+        <Abil value="StimpackZerg"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="StimRedirect" Requirements="UseStimpack">
+            <Flags index="ToSelection" value="1"/>
+        </CmdButtonArray>
+    </CAbilRedirectInstant>
     <CAbilEffectInstant id="TaurenStimpack2">
         <AbilSetId value="Stimpack"/>
         <EditorCategories value="Race:Terran,AbilityorEffectType:Units"/>
@@ -13,7 +147,7 @@
     </CAbilEffectInstant>
     <CAbilAttack id="attack2">
         <TargetMessage value="Abil/TargetMessage/attack2"/>
-        <MinAttackSpeedMultiplier value="1"/>
+        <MinAttackSpeedMultiplier value="0.25"/>
         <MaxAttackSpeedMultiplier value="128"/>
     </CAbilAttack>
     <CAbilMove id="move2">
@@ -24,6 +158,10 @@
         <MinPatrolDistance value="1"/>
         <FollowFilters value="-;Hover"/>
     </CAbilMove>
+    <CAbilQueue id="que12">
+        <EditorCategories value="Race:Neutral,AbilityorEffectType:Structures"/>
+        <QueueSize value="1"/>
+    </CAbilQueue>
     <CAbilStop id="stop2">
         <CmdButtonArray index="HoldFire" DefaultButtonFace="HoldFireSpecial"/>
     </CAbilStop>

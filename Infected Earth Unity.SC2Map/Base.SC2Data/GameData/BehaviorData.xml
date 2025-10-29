@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CBehaviorBuff id="Stimpack2">
+        <Alignment value="Positive"/>
+        <InfoIcon value="Assets\Textures\btn-ability-terran-stimpack.dds"/>
+        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
+        <Duration value="15"/>
+        <Modification MoveSpeedMultiplier="1.5" AttackSpeedMultiplier="1.5"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ZerglingArmorShredTarget2">
+        <InfoIcon value="Assets\Textures\btn-upgrade-zerg-tunnelingclaws.dds"/>
+        <EditorCategories value="AbilityorEffectType:Units,Race:Zerg"/>
+        <Duration value="10"/>
+        <Modification LifeArmorMultiplier="0"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ZerglingFrenzy2">
+        <InfoFlags index="Hidden" value="1"/>
+        <Duration value="5"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ZerglingRange2">
+        <InfoFlags index="Hidden" value="1"/>
+        <Duration value="0.9"/>
+        <Modification WeaponRange="0.9"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ZerglingSunder2">
+        <InfoIcon value="Assets\Textures\abilityicon_corrosivespores_square.dds"/>
+        <Duration value="10"/>
+        <DamageResponse ModifyFraction="1.3">
+            <Kind index="Spell" value="0"/>
+            <Kind index="Melee" value="0"/>
+            <Kind index="Splash" value="0"/>
+            <Chance value="1"/>
+        </DamageResponse>
+    </CBehaviorBuff>
+</Catalog>

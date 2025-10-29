@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Preload>
 <Actor id="SYSTEM_ActorConfig"/>
-<Terrain id="BelShirEx1"/>
-<Unit id="TaurenSpaceMarineBroken"/>
+<Actor id="Aiur_EnergyWall"/>
+<Actor id="ProtossBase_Wall" Variations="0"/>
+<Actor id="Purifier_Protoss_Turret_Med"/>
+<Actor id="StarShipAdun_Giant_Walls" Variations="0"/>
+<Terrain id="KorhalWastes"/>
+<Unit id="Marine"/>
 </Preload>

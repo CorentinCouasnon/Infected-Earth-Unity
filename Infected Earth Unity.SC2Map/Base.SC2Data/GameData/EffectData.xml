@@ -1,8 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Catalog>
+    <CEffectDamage id="Claws2" parent="DU_WEAP">
+        <EditorCategories value="Race:Zerg"/>
+        <Amount value="5"/>
+    </CEffectDamage>
+    <CEffectSet id="HotSZerglingClaws2">
+        <EditorCategories value="Race:Zerg"/>
+        <EffectArray value="ZerglingFrenzy2"/>
+        <EffectArray value="ZerglingSunder2"/>
+        <EffectArray value="ZerglingRangeReapply2"/>
+        <EffectArray value="ZerglingArmorShredTargetAB2"/>
+        <EffectArray value="Claws2"/>
+    </CEffectSet>
+    <CEffectApplyBehavior id="Stimpack2">
+        <EditorCategories value="Race:Zerg"/>
+    </CEffectApplyBehavior>
     <CEffectDamage id="TaurenSpaceMarineGaussRifleDamage2" parent="DU_WEAP">
         <EditorCategories value="Race:Terran"/>
         <Kind value="Ranged"/>
         <Amount value="24"/>
     </CEffectDamage>
+    <CEffectApplyBehavior id="ZerglingArmorShredTargetAB2">
+        <ValidatorArray index="0" value="HaveZerglingArmorShred"/>
+        <EditorCategories value="Race:Zerg"/>
+        <Behavior value="ZerglingArmorShredTarget2"/>
+    </CEffectApplyBehavior>
+    <CEffectApplyBehavior id="ZerglingFrenzy2">
+        <ValidatorArray value="HaveHotSZerglingFrenzy"/>
+        <EditorCategories value="Race:Zerg"/>
+        <WhichUnit Value="Caster"/>
+    </CEffectApplyBehavior>
+    <CEffectApplyBehavior id="ZerglingRangeReapply2">
+        <ValidatorArray index="0" value="HaveZerglingRangeBehavior"/>
+        <EditorCategories value="Race:Zerg"/>
+        <WhichUnit Value="Caster"/>
+        <Behavior value="ZerglingRange2"/>
+    </CEffectApplyBehavior>
+    <CEffectApplyBehavior id="ZerglingSunder2">
+        <ValidatorArray value="HaveHotSZerglingSunder"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CEffectApplyBehavior>
 </Catalog>

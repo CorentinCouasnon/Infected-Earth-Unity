@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CRequirementAllowAbil id="AllowAbilStimpackZerg02357366498TechTreeCheat">
+        <Flags index="TechTreeCheat" value="1"/>
+        <Link value="StimpackZerg"/>
+    </CRequirementAllowAbil>
+</Catalog>

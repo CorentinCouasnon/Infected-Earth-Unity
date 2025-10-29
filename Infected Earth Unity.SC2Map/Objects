@@ -1,4 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PlacedObjects Version="27">
-    <ObjectUnit Id="1219022976" Position="61.6782,41.164,0" Rotation="3.8937" Scale="1,1,1" UnitType="TaurenSpaceMarineBroken" Player="1"/>
+    <ObjectDoodad Id="831281961" Position="47.2998,113.7597,7.9995" Rotation="4.4948" Scale="1,1,1" Type="ProtossBase_Wall"/>
+    <ObjectDoodad Id="337650702" Position="134.1367,105.448,13.9997" Scale="1,1,1" Type="Purifier_Protoss_Turret_Med"/>
+    <ObjectDoodad Id="1475298470" Position="134.5705,118.8974,13.9997" Rotation="0.2905" Scale="1,1,1" Type="Aiur_EnergyWall"/>
+    <ObjectDoodad Id="1968783324" Position="133.5812,136.9401,13.9997" Rotation="4.8085" Scale="1,1,1" Type="StarShipAdun_Giant_Walls"/>
+    <ObjectUnit Id="637578298" Position="79.2604,190.7756,0" Rotation="3.1857" Scale="1,1,1" UnitType="Marine" Player="1"/>
+    <ObjectUnit Id="359093435" Position="79.1232,193.8566,0" Rotation="4.3234" Scale="1,1,1" UnitType="Marine" Player="1"/>
+    <ObjectUnit Id="913466506" Position="73.8557,190.0952,0" Rotation="4.5874" Scale="1,1,1" UnitType="Marine" Player="1"/>
+    <ObjectUnit Id="510919855" Position="75.782,192.6315,0" Rotation="1.295" Scale="1,1,1" UnitType="Marine" Player="1"/>
+    <ObjectUnit Id="726983544" Position="77.4516,190.6166,0" Rotation="3.5632" Scale="1,1,1" UnitType="Marine" Player="1"/>
+    <ObjectUnit Id="1057880228" Position="80.3696,190.9348,0" Rotation="3.422" Scale="1,1,1" UnitType="Marine" Player="1"/>
+    <ObjectUnit Id="597634017" Position="76.8923,194.0178,0" Rotation="6.2565" Scale="1,1,1" UnitType="Marine" Player="1"/>
+    <ObjectUnit Id="1664973941" Position="73.708,192.1511,0" Rotation="5.3361" Scale="1,1,1" UnitType="Marine" Player="1"/>
+    <ObjectUnit Id="1169440998" Position="78.7077,191.2988,0" Rotation="3.0744" Scale="1,1,1" UnitType="Marine" Player="1"/>
+    <ObjectUnit Id="277946327" Position="77.1765,188.7761,0" Rotation="0.6501" Scale="1,1,1" UnitType="Marine" Player="1"/>
+    <ObjectUnit Id="2029163528" Position="77.7287,192.3112,0" Rotation="4.5297" Scale="1,1,1" UnitType="Marine" Player="1"/>
 </PlacedObjects>
