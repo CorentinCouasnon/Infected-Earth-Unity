@@ -1,0 +1,10 @@
+bool EnemyGroupAttack(bool testConds, bool runActions)
+{
+    UnitGroupIssueOrder(gv_enemiesGroup, OrderTargetingUnit(AbilityCommand("attack", 0), gv_playerData.heroUnit), c_orderQueueReplace);
+    return true;
+}
+
+void EnemyInitialize()
+{
+    TriggerAddEventTimePeriodic(TriggerCreate("EnemyGroupAttack"), 1, 1);
+}
