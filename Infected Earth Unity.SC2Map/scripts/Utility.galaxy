@@ -1,0 +1,53 @@
+bool Utility_IsNumber (string input) {
+    int length = StringLength(input);
+    int currentPosition;
+    string currentCharacter = "";
+    bool hasDecimalPoint;
+
+    if (length == 0) {
+        return false;
+    }
+
+    currentCharacter = StringSub(input, (currentPosition + 1), (currentPosition + 1));
+    if (currentCharacter == "-") {
+        if (length == 1) {
+            return false;
+        }
+
+        currentPosition += 1;
+    }
+
+    while (currentPosition < length) {
+        currentCharacter = StringSub(input, (currentPosition + 1), (currentPosition + 1));
+        if (currentCharacter == ".") {
+            if (hasDecimalPoint == false) {
+                hasDecimalPoint = true;
+            }
+            else {
+                return false;
+            }
+        }
+        else {
+            if (currentCharacter == "0"
+                || currentCharacter == "1"
+                || currentCharacter == "2"
+                || currentCharacter == "3"
+                || currentCharacter == "4"
+                || currentCharacter == "5"
+                || currentCharacter == "6"
+                || currentCharacter == "7"
+                || currentCharacter == "8"
+                || currentCharacter == "9") {
+            }
+            else {
+                return false;
+            }
+        }
+        currentPosition += 1;
+    }
+    return true;
+}
+
+bool Utility_IsInt(fixed input) {
+    return Round(input) == input;
+}

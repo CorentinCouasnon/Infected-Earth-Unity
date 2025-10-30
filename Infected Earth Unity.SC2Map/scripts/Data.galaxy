@@ -1,0 +1,13 @@
+struct UnitInWave {
+    fixed spawnAfterSeconds;
+    fixed spawnRegion;
+    string unitType;
+};
+
+struct Wave {
+    UnitInWave[500] units;
+};
+
+Wave[225] waves;
+
+waves[0] = 

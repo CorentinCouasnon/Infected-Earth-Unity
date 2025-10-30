@@ -3,4 +3,7 @@ struct PlayerData {
 };
 
 PlayerData gv_playerData;
+
+int gv_currentWave;
+int gv_unitsAlive;
 unitgroup gv_enemiesGroup;

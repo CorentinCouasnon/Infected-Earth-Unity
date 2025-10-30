@@ -153,6 +153,7 @@ Unit/EditorSuffix/HotSSwarmling3=- Swarmling (Hatches 3)
 Unit/EditorSuffix/ZerglingBurrowed2=(Burrowed)
 Unit/EditorSuffix/ZerglingBurrowed3=(Burrowed)
 Unit/EditorSuffix/ZerglingStim=(Burrowed)
+User/Name/WaveTable=WaveTable
 Weapon/EditorPrefix/Claws2=Zergling -
 Weapon/EditorPrefix/Claws3=Zergling -
 Weapon/EditorPrefix/Starfoule=Tauren Space Marine -
