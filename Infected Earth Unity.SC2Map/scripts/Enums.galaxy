@@ -1,0 +1,5 @@
+// parts
+const int c_Part_None       = -1;
+const int c_Part_Terran     = 0;
+const int c_Part_Protoss    = 1;
+const int c_Part_Zerg       = 2;

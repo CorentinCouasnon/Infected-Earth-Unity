@@ -5,6 +5,11 @@ bool Wave_SpawnCondition() {
 
 // Action appelée à chaque mort d'unité (décompte et vérifie fin de vague)
 bool Wave_OnUnitDeath_Action(bool testConds, bool runActions) {
+    if (EventPlayer() != 15)
+    {
+        return true;
+    }
+    
     if (gv_unitsAlive > 0) {
         gv_unitsAlive -= 1;
     }
@@ -58,7 +63,7 @@ bool Wave_SpawnAction(bool testConds, bool runActions) {
         numUnits += count;
 
         for (j = 0; j < count; j += 1) {
-            libNtve_gf_CreateUnitsWithDefaultFacing(1, u, 1, 15, RegionGetCenter(RegionFromName("EnemySpawnPoint")));
+            libNtve_gf_CreateUnitsWithDefaultFacing(1, u, 1, 15, RegionRandomPoint(GetRandomSpawnRegion(c_Part_Terran)));
             newUnit = UnitLastCreated();
             UnitGroupAdd(gv_enemiesGroup, newUnit);
         }

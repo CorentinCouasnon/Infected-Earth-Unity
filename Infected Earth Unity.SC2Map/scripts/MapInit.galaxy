@@ -2,6 +2,7 @@
 bool MapInit_Main(bool testConds, bool runActions) {
     
     Chat_Init();
+    Region_Init();
     PlayerInitialize();
     EnemyInitialize();
     Wave_Init();

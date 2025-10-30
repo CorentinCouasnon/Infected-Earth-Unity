@@ -1,0 +1,45 @@
+void Region_Init()
+{
+    int i;
+
+    // Terran regions
+    for (i = 1; i < c_terranSpawnRegionCount; i += 1)
+    {
+        gv_terranSpawnRegions[i] = RegionFromName("Terran_SpawnRegion" + IntToString(i));
+    }
+
+    // Protoss regions
+    for (i = 1; i < c_terranSpawnRegionCount; i += 1)
+    {
+        gv_protossSpawnRegions[i] = RegionFromName("Protoss_SpawnRegion" + IntToString(i));
+    }
+
+    // Zerg regions
+    for (i = 1; i < c_terranSpawnRegionCount; i += 1)
+    {
+        gv_zergSpawnRegions[i] = RegionFromName("Zerg_SpawnRegion" + IntToString(i));
+    }
+}
+
+region GetRandomSpawnRegion(int part)
+{
+    int r;
+    
+    if (part == 0) 
+    {
+        r = RandomInt(0, c_terranSpawnRegionCount - 1);
+        return gv_terranSpawnRegions[r];
+    } 
+    else if (part == 1) 
+    {
+        r = RandomInt(0, c_protossSpawnRegionCount - 1);
+        return gv_protossSpawnRegions[r];
+    } 
+    else if (part == 2)
+    {
+        r = RandomInt(0, c_zergSpawnRegionCount - 1);
+        return gv_zergSpawnRegions[r];
+    }
+    
+    return null;
+}

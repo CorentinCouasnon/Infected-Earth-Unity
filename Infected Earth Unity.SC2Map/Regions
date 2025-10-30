@@ -1,10 +1,95 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Regions>
     <region id="1">
-        <name value="EnemySpawnPoint"/>
+        <name value="Terran_SpawnRegion1"/>
+        <color value="255,255,0,0"/>
         <shape type="circle">
-            <center value="178.9143,41.5134"/>
-            <radius value="6.5617"/>
+            <center value="143.9545,249.4162"/>
+            <radius value="6"/>
+        </shape>
+    </region>
+    <region id="2">
+        <name value="Terran_SpawnRegion2"/>
+        <color value="255,255,0,0"/>
+        <shape type="circle">
+            <center value="144.092,161.2797"/>
+            <radius value="6"/>
+        </shape>
+    </region>
+    <region id="3">
+        <name value="Terran_SpawnRegion4"/>
+        <color value="255,255,0,0"/>
+        <shape type="circle">
+            <center value="6.0356,249.9592"/>
+            <radius value="6"/>
+        </shape>
+    </region>
+    <region id="4">
+        <name value="Terran_SpawnRegion3"/>
+        <color value="255,255,0,0"/>
+        <shape type="circle">
+            <center value="8.0612,160.281"/>
+            <radius value="6"/>
+        </shape>
+    </region>
+    <region id="5">
+        <name value="Protoss_SpawnRegion1"/>
+        <shape type="circle">
+            <center value="22.3801,103.9904"/>
+            <radius value="6"/>
+        </shape>
+    </region>
+    <region id="6">
+        <name value="Protoss_SpawnRegion2"/>
+        <shape type="circle">
+            <center value="91.699,102.4174"/>
+            <radius value="6"/>
+        </shape>
+    </region>
+    <region id="7">
+        <name value="Protoss_SpawnRegion3"/>
+        <shape type="circle">
+            <center value="23.7468,23.754"/>
+            <radius value="6"/>
+        </shape>
+    </region>
+    <region id="8">
+        <name value="Protoss_SpawnRegion4"/>
+        <shape type="circle">
+            <center value="91.7395,27.0764"/>
+            <radius value="6"/>
+        </shape>
+    </region>
+    <region id="9">
+        <name value="Zerg_SpawnRegion1"/>
+        <color value="255,128,64,0"/>
+        <shape type="circle">
+            <center value="247.7531,128.0886"/>
+            <radius value="6"/>
+        </shape>
+    </region>
+    <region id="10">
+        <name value="Zerg_SpawnRegion2"/>
+        <color value="255,128,64,0"/>
+        <shape type="circle">
+            <center value="248.3325,6.748"/>
+            <radius value="6"/>
+        </shape>
+    </region>
+    <region id="11">
+        <name value="Zerg_SpawnRegion3"/>
+        <color value="255,128,64,0"/>
+        <shape type="circle">
+            <center value="144.6784,10.6433"/>
+            <radius value="6"/>
+        </shape>
+    </region>
+    <region id="12">
+        <name value="Zerg_SpawnRegion4"/>
+        <color value="255,128,64,0"/>
+        <shape type="circle">
+            <center value="146.8022,123.7961"/>
+            <radius value="6"/>
         </shape>
     </region>
 </Regions>
