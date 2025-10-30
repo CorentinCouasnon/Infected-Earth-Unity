@@ -1,4 +1,5 @@
 ﻿Abil/Name/BurrowZerglingDown2=Burrow (Zergling)
+Abil/Name/Explode2=Explode
 Abil/Name/MorphZerglingToBaneling2=Morph (Zergling -> Baneling)
 Abil/Name/SpawningPoolResearch2=Research (Spawning Pool)
 Abil/Name/SpawningPoolResearch3=Research (Spawning Pool)
@@ -23,6 +24,7 @@ Button/Name/Baneling2=Morph to Baneling
 Button/Name/Baneling3=Morph to Baneling
 Button/Name/BurrowDown2=Burrow
 Button/Name/BurrowDown3=Burrow
+Button/Name/Explode2=Explode
 Button/Name/Move2=Move
 Button/Name/Move3=Move
 Button/Name/Move4=Move
@@ -42,14 +44,20 @@ Button/Tooltip/Attack2=Orders selected units to move to the target point, fighti
 Button/Tooltip/Attack3=Orders selected units to move to the target point, fighting nearby enemies along the way. Targeting a unit with the Attack command orders that it be attacked until it is destroyed.
 Button/Tooltip/Attack4=Orders selected units to move to the target point, fighting nearby enemies along the way. Targeting a unit with the Attack command orders that it be attacked until it is destroyed.
 Button/Tooltip/Baneling2=Suicide unit. Does damage over a small area on death. <n/><n/><c val="ffff8a">Can attack ground units.</c>
+Button/Tooltip/Baneling22=Suicide unit. Does damage over a small area on death. <n/><n/><c val="ffff8a">Can attack ground units.</c>
 Button/Tooltip/Baneling3=Suicide unit. Does damage over a small area on death. <n/><n/><c val="ffff8a">Can attack ground units.</c>
 Button/Tooltip/BanelingCocoon2=This cocoon contains a Zergling that is morphing into a Baneling.
 Button/Tooltip/BurrowDown2=Buries the unit underground. Burrowed units are unable to move or attack, but they cannot be seen without detection.
 Button/Tooltip/BurrowDown3=Buries the unit underground. Burrowed units are unable to move or attack, but they cannot be seen without detection.
+Button/Tooltip/Explode2=The Baneling detonates where it is standing, damaging nearby enemy units and structures.
+Button/Tooltip/HotSHunter2=Suicide unit. Deals damage over a small area upon death. Launches toward enemy at range 6.<n/><n/><c val="ffff8a">Can attack ground units.</c>
 Button/Tooltip/HotSRaptor2=Fast melee unit. Leaps over obstacles and onto targets from range. Deals increased damage. Can morph into a Baneling.<n/><n/><c val="FFFF8A">Can attack ground units.</c>
 Button/Tooltip/HotSRaptor3=Fast melee unit. Leaps over obstacles and onto targets from range. Deals increased damage. Can morph into a Baneling.<n/><n/><c val="FFFF8A">Can attack ground units.</c>
+Button/Tooltip/HotSSplitterlingBig2=Suicide unit. Deals damage over a small area upon death. Splits into smaller units as it dies. <n/><n/><c val="ffff8a">Can attack ground units.</c>
+Button/Tooltip/HotSSplitterlingMedium2=Suicide unit. Deals damage over a small area upon death. <n/><n/><c val="ffff8a">Can attack ground units.</c>
 Button/Tooltip/HotSSwarmling2=Fast melee unit. Spawns in groups of three. Morphs almost instantly. Can morph into a Baneling.<n/><n/><c val="FFFF8A">Can attack ground units.</c>
 Button/Tooltip/HotSSwarmling3=Fast melee unit. Spawns in groups of three. Morphs almost instantly. Can morph into a Baneling.<n/><n/><c val="FFFF8A">Can attack ground units.</c>
+Button/Tooltip/InfestedExploderBurrowed2=Suicide unit. Does damage over a small area on death. <n/><n/><c val="ffff8a">Can attack ground units.</c>
 Button/Tooltip/MasteryRaynorStim2DurationAppend=<n/><n/><c val="FFFF8A">Mastery:</c> Increases duration by <c val="FFFF8A"><d ref="Effect,MasteryRaynorStimDurationDisplayDummy,Amount" precision="1"/></c> seconds.
 Button/Tooltip/MasteryRaynorStim3DurationAppend=<n/><n/><c val="FFFF8A">Mastery:</c> Increases duration by <c val="FFFF8A"><d ref="Effect,MasteryRaynorStimDurationDisplayDummy,Amount" precision="1"/></c> seconds.
 Button/Tooltip/MasteryRaynorStim4DurationAppend=<n/><n/><c val="FFFF8A">Mastery:</c> Increases duration by <c val="FFFF8A"><d ref="Effect,MasteryRaynorStimDurationDisplayDummy,Amount" precision="1"/></c> seconds.
@@ -69,7 +77,6 @@ Button/Tooltip/Stop2=Orders selected units to cancel all orders and stop moving.
 Button/Tooltip/Stop3=Orders selected units to cancel all orders and stop moving.
 Button/Tooltip/Stop4=Orders selected units to cancel all orders and stop moving.
 Button/Tooltip/TaurenSpaceMarineBroken=For the Horde.
-Button/Tooltip/Zergling2=Fast melee creature. Can morph into a Baneling.<n/><n/><c val="FFFF8A">Can attack ground units.</c>
 DocInfo/DescLong=Completely devoid of any description whatsoever.
 DocInfo/DescShort=Any
 DocInfo/Name=Just Another StarCraft II Map
@@ -92,18 +99,23 @@ SimpleDisplay/Move2=<IMG path="Assets\Textures\tutorialmouserightbuttondown.dds"
 SimpleDisplay/Move3=<IMG path="Assets\Textures\tutorialmouserightbuttondown.dds" alignment="absolutemiddle"/> <s val="@@@SimpleCommandRow">to Move</s>
 SimpleDisplay/Move4=<IMG path="Assets\Textures\tutorialmouserightbuttondown.dds" alignment="absolutemiddle"/> <s val="@@@SimpleCommandRow">to Move</s>
 Unit/Name/Baneling2=Baneling
+Unit/Name/Baneling22=Baneling
+Unit/Name/Baneling3=Baneling
 Unit/Name/BanelingCocoon2=Baneling Cocoon
+Unit/Name/HotSHunter2=Baneling
 Unit/Name/HotSRaptor2=Zergling
 Unit/Name/HotSRaptor3=Zergling
+Unit/Name/HotSSplitterlingBig2=Baneling
+Unit/Name/HotSSplitterlingMedium2=Baneling Spawn
 Unit/Name/HotSSwarmling2=Zergling
 Unit/Name/HotSSwarmling3=Zergling
 Unit/Name/Marine2=Marine
 Unit/Name/TaurenSpaceMarineBroken=Tauren Space Marine Broken
-Unit/Name/Zergling=ZerglingStim
-Unit/Name/Zergling2=ZerglingStim
+Unit/Name/Zergling=ZerglingStim1
 Unit/Name/Zergling3=Zergling
 Unit/Name/Zergling4=ZerglingStim
 Unit/Name/Zergling5=ZerglingStim
+UnitSubtitle/HotSHunter2=Hunter Strain
 UnitSubtitle/HotSRaptor2=Raptor Strain
 UnitSubtitle/HotSRaptor3=Raptor Strain
 UnitSubtitle/HotSSwarmling2=Swarmling Strain

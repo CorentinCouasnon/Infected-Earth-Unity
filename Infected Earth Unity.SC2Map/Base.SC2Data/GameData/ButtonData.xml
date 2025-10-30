@@ -46,6 +46,12 @@
         <EditorCategories value="Race:Zerg"/>
         <Universal value="1"/>
     </CButton>
+    <CButton id="Explode2">
+        <TooltipAppender Validator="HaveMasteryZagaraBanelingDamageandIsNotBanelingSpawnCombine" Text="Button/Tooltip/MasteryZagaraBanelingDamageAppend"/>
+        <Icon value="Assets\Textures\btn-ability-zerg-explode-color.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-zerg-explode-color.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CButton>
     <CButton id="Move2">
         <Icon value="Assets\Textures\btn-command-move.dds"/>
         <AlertIcon value="Assets\Textures\btn-command-move.dds"/>
@@ -128,8 +134,8 @@
     </CButton>
     <CButton id="Stim4">
         <TooltipAppender Validator="HaveMasteryRaynorStimDuration" Text="Button/Tooltip/MasteryRaynorStim4DurationAppend"/>
-        <Icon value="Assets\Textures\btn-ability-terran-stimpack-color.dds"/>
-        <AlertIcon value="Assets\Textures\btn-ability-terran-stimpack-color.dds"/>
+        <Icon value="Assets\Textures\btn-upgrade-tychus-weapons-level1.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-terran-infantryweaponslevel1.dds"/>
         <EditorCategories value="Race:Terran"/>
         <Universal value="1"/>
     </CButton>

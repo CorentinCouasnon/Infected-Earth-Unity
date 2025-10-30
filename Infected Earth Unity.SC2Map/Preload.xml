@@ -7,4 +7,5 @@
 <Actor id="StarShipAdun_Giant_Walls" Variations="0"/>
 <Terrain id="KorhalWastes"/>
 <Unit id="Marine"/>
+<Unit id="Raynor01"/>
 </Preload>
