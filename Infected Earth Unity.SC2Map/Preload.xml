@@ -2,10 +2,28 @@
 <Preload>
 <Actor id="SYSTEM_ActorConfig"/>
 <Actor id="Aiur_EnergyWall"/>
+<Actor id="Aiur_Temple_GiantWalls_Long" Variations="0,2,3"/>
+<Actor id="CompoundMansion_Mengsk_Statue"/>
 <Actor id="ProtossBase_Wall" Variations="0"/>
 <Actor id="Purifier_Protoss_Turret_Med"/>
+<Actor id="Shakuras_Temple_Pillar_Small" Variations="1"/>
 <Actor id="StarShipAdun_Giant_Walls" Variations="0"/>
+<Actor id="Tarsonis_BuildingWall_Concrete_Straight" Variations="0"/>
+<Actor id="UmojanLabZergCratesOpen" Variations="0,1"/>
+<Actor id="XelNaga_Cavern_Wall_Statue" Variations="0"/>
+<Actor id="PathingBlocker1x1Doodad"/>
+<Actor id="RooftopEntrance"/>
+<Actor id="PipesSmallShort"/>
 <Terrain id="KorhalWastes"/>
+<TerrainObject id="TerrainObjectCharNydusNest2"/>
 <Unit id="Marine"/>
+<Unit id="XelNaga_Caverns_DoorEOpened"/>
+<Unit id="XelNaga_Caverns_DoorNE"/>
+<Unit id="XelNaga_Caverns_DoorNOpened"/>
+<Unit id="XelNaga_Caverns_DoorNW"/>
+<Unit id="XelNaga_Caverns_DoorSE"/>
+<Unit id="XelNaga_Caverns_DoorSOpened"/>
+<Unit id="XelNaga_Caverns_DoorSW"/>
+<Unit id="XelNaga_Caverns_DoorWOpened"/>
 <Unit id="Raynor01"/>
 </Preload>

@@ -1,22 +1,308 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PlacedObjects Version="27">
-    <ObjectDoodad Id="831281961" Position="48.1032,124.2416,7.9995" Rotation="4.4948" Scale="1,1,1" Type="ProtossBase_Wall">
+    <ObjectDoodad Id="2073231798" Position="74.5,218.5,7.9995" Rotation="4.2155" Scale="1,1,1" Type="PathingBlocker1x1Doodad"/>
+    <ObjectDoodad Id="1022993057" Position="85.5,188.5,7.9995" Rotation="2.5964" Scale="1,1,1" Type="PathingBlocker1x1Doodad"/>
+    <ObjectDoodad Id="1078943418" Position="68.5,207.5,7.9995" Rotation="0.634" Scale="1,1,1" Type="PathingBlocker1x1Doodad"/>
+    <ObjectDoodad Id="997329616" Position="62.5,196.5,7.9995" Rotation="1.6242" Scale="1,1,1" Type="PathingBlocker1x1Doodad"/>
+    <ObjectDoodad Id="1013724467" Position="74.5,217.5,7.9995" Rotation="0.634" Scale="1,1,1" Type="PathingBlocker1x1Doodad"/>
+    <ObjectDoodad Id="2087687799" Position="205.7368,247.0524,7.9995" Rotation="3.153" Scale="1,1,1" Type="XelNaga_Cavern_Wall_Statue">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="337650702" Position="209.369,171.7001,7.9997" Scale="1,1,1" Type="Purifier_Protoss_Turret_Med">
+    <ObjectDoodad Id="2024385831" Position="174.4047,213.9077,7.9995" Scale="1,1,1" Type="CompoundMansion_Mengsk_Statue">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1475298470" Position="211.333,187.5798,7.9995" Rotation="0.2905" Scale="1,1,1" Type="Aiur_EnergyWall">
+    <ObjectDoodad Id="1446688997" Position="197.2368,230.5524,7.9995" Rotation="4.7478" Scale="1,1,1" Type="XelNaga_Cavern_Wall_Statue">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
+    <ObjectDoodad Id="225444750" Position="248.2368,217.0524,7.9995" Rotation="1.548" Scale="1,1,1" Type="XelNaga_Cavern_Wall_Statue">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="1672905053" Variation="3" Position="192.5395,215.1623,7.9995" Scale="1,1,1" Type="Aiur_Temple_GiantWalls_Long">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="2051035372" Position="97.5,195.5,7.9995" Rotation="0.634" Scale="1,1,1" Type="PathingBlocker1x1Doodad"/>
+    <ObjectDoodad Id="1907305339" Position="197.2368,221.5524,7.9995" Rotation="4.7478" Scale="1,1,1" Type="XelNaga_Cavern_Wall_Statue">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="509100834" Position="206.1865,202.102,7.9995" Rotation="3.145" Scale="1,1,1" Type="Tarsonis_BuildingWall_Concrete_Straight">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="1630611225" Position="200.7038,206.559,7.9995" Rotation="1.5651" Scale="1,1,1" Type="Tarsonis_BuildingWall_Concrete_Straight">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="255475993" Position="248.2368,220.0524,7.9995" Rotation="1.548" Scale="1,1,1" Type="XelNaga_Cavern_Wall_Statue">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="53932092" Position="206.3947,199.014,7.9995" Rotation="0.0083" Scale="1,1,1" Type="XelNaga_Cavern_Wall_Statue">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="1463059839" Position="206.102,204.6811,7.9995" Rotation="3.163" Scale="1,1,1" Type="Tarsonis_BuildingWall_Concrete_Straight">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="673107631" Position="67.363,199.498,7.9995" Rotation="0.634" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+        <Flag Index="ForcePlacement" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="1083464493" Position="65.887,196.72,7.9995" Rotation="2.3103" Scale="1,1,1" Type="RooftopEntrance">
+        <Flag Index="ForcePlacement" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="1290576431" Position="131.6972,248.8625,7.9995" Rotation="5.479" Scale="1,1,1" Type="UmojanLabZergCratesOpen"/>
+    <ObjectDoodad Id="1020264991" Position="146.26,178.4196,7.9995" Rotation="5.0498" Scale="1,1,1" Type="UmojanLabZergCratesOpen"/>
+    <ObjectDoodad Id="1397982856" Position="97.5,209.5,7.9995" Rotation="0.634" Scale="1,1,1" Type="PathingBlocker1x1Doodad"/>
+    <ObjectDoodad Id="78792228" Position="218.2368,199.0524,7.9995" Rotation="0.0083" Scale="1,1,1" Type="XelNaga_Cavern_Wall_Statue">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="966482503" Position="215.2368,199.0524,7.9995" Rotation="0.0083" Scale="1,1,1" Type="XelNaga_Cavern_Wall_Statue">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="1459102197" Position="61.5,196.5,7.9995" Rotation="0.634" Scale="1,1,1" Type="PathingBlocker1x1Doodad"/>
+    <ObjectDoodad Id="2022890833" Position="217.7368,247.0524,7.9995" Rotation="3.1528" Scale="1,1,1" Type="XelNaga_Cavern_Wall_Statue">
+        <Flag Index="HeightOffset" Value="1"/>
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="483064475" Position="63.5,196.5,7.9995" Rotation="0.634" Scale="1,1,1" Type="PathingBlocker1x1Doodad"/>
+    <ObjectDoodad Id="1546626902" Position="211.7368,247.0524,7.9995" Rotation="3.153" Scale="1,1,1" Type="XelNaga_Cavern_Wall_Statue">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="1573443413" Position="67.474,198.2321,7.9995" Rotation="2.5534" Scale="1,1,1" Type="RooftopEntrance">
+        <Flag Index="ForcePlacement" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="1562271598" Position="232.7368,247.0524,7.9995" Rotation="3.153" Scale="1,1,1" Type="XelNaga_Cavern_Wall_Statue">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="644989558" Position="62.5,210.5,7.9995" Rotation="0.634" Scale="1,1,1" Type="PathingBlocker1x1Doodad"/>
+    <ObjectDoodad Id="436343636" Position="245.0688,208.57,7.9995" Rotation="4.6914" Scale="1,1,1" Type="Tarsonis_BuildingWall_Concrete_Straight">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="69805219" Position="233.2368,199.0524,7.9995" Rotation="0.0083" Scale="1,1,1" Type="XelNaga_Cavern_Wall_Statue">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="2023574401" Position="67.5,206.5,7.9995" Rotation="0.634" Scale="1,1,1" Type="PathingBlocker1x1Doodad"/>
+    <ObjectDoodad Id="1843370702" Position="96.5,196.5,7.9995" Rotation="0.094" Scale="1,1,1" Type="PathingBlocker1x1Doodad"/>
+    <ObjectDoodad Id="366478757" Position="65.5,208.5,7.9995" Rotation="0.634" Scale="1,1,1" Type="PathingBlocker1x1Doodad"/>
+    <ObjectDoodad Id="1238414008" Position="235.7368,247.0524,7.9995" Rotation="3.153" Scale="1,1,1" Type="XelNaga_Cavern_Wall_Statue">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="1284658688" Position="69.5131,186.0043,7.9995" Rotation="6.184" Scale="1,1,1" Type="PipesSmallShort"/>
     <ObjectDoodad Id="1968783324" Position="187.1647,182.1594,7.9995" Rotation="4.8085" Scale="1,1,1" Type="StarShipAdun_Giant_Walls">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
+    <ObjectDoodad Id="1802969369" Position="69.5,206.5,7.9995" Rotation="0.634" Scale="1,1,1" Type="PathingBlocker1x1Doodad"/>
+    <ObjectDoodad Id="1416356828" Position="86.5,187.5,7.9995" Rotation="0.634" Scale="1,1,1" Type="PathingBlocker1x1Doodad"/>
+    <ObjectDoodad Id="1040679404" Position="74.5,219.5,7.9995" Rotation="0.634" Scale="1,1,1" Type="PathingBlocker1x1Doodad"/>
+    <ObjectDoodad Id="1039540980" Variation="2" Position="183.9428,214.8,7.9995" Scale="1,1,1" Type="Aiur_Temple_GiantWalls_Long">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="1593651450" Position="229.7368,247.0524,7.9995" Rotation="3.153" Scale="1,1,1" Type="XelNaga_Cavern_Wall_Statue">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="154422279" Position="69.5,200.5,7.9995" Rotation="0.634" Scale="1,1,1" Type="PathingBlocker1x1Doodad"/>
+    <ObjectDoodad Id="718623641" Position="236.2368,199.0524,7.9995" Rotation="0.0083" Scale="1,1,1" Type="XelNaga_Cavern_Wall_Statue">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="597450517" Position="208.7368,247.1022,7.9995" Rotation="3.153" Scale="1,1,1" Type="XelNaga_Cavern_Wall_Statue">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="1880063496" Position="248.2368,223.0524,7.9995" Rotation="1.548" Scale="1,1,1" Type="XelNaga_Cavern_Wall_Statue">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="1798655750" Position="188.1662,214.97,7.9995" Scale="1,1,1" Type="Aiur_Temple_GiantWalls_Long">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="555756878" Position="238.8227,241.6545,7.9995" Rotation="0.032" Scale="1,1,1" Type="Tarsonis_BuildingWall_Concrete_Straight">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="1196263499" Position="217.9304,202.2045,7.9995" Rotation="3.1718" Scale="1,1,1" Type="Tarsonis_BuildingWall_Concrete_Straight">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="184444187" Position="239.0695,205.0893,7.9995" Rotation="3.164" Scale="1,1,1" Type="Tarsonis_BuildingWall_Concrete_Straight">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="381158643" Position="96.749,196.3781,7.9995" Rotation="2.1511" Scale="1,1,1" Type="PipesSmallShort">
+        <Flag Index="ForcePlacement" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="1284260189" Position="248.2368,211.5524,7.9995" Rotation="1.548" Scale="1,1,1" Type="XelNaga_Cavern_Wall_Statue">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="419887" Position="68.72,202.63,7.9995" Rotation="0.178" Scale="1,1,1" Type="RooftopEntrance">
+        <Flag Index="HeightAbsolute" Value="1"/>
+        <Flag Index="ForcePlacement" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="1037758898" Position="62.5,195.5,7.9995" Rotation="0.634" Scale="1,1,1" Type="PathingBlocker1x1Doodad"/>
+    <ObjectDoodad Id="1662189264" Position="239.1184,202.2905,7.9995" Rotation="3.1525" Scale="1,1,1" Type="Tarsonis_BuildingWall_Concrete_Straight">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="290842878" Position="197.2368,215.5524,7.9995" Rotation="4.7478" Scale="1,1,1" Type="XelNaga_Cavern_Wall_Statue">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="317508522" Position="212.2368,199.0524,7.9995" Rotation="0.0083" Scale="1,1,1" Type="XelNaga_Cavern_Wall_Statue">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="326271101" Position="86.5,186.5,7.9995" Rotation="0.815" Scale="1,1,1" Type="PathingBlocker1x1Doodad"/>
+    <ObjectDoodad Id="831281961" Position="48.1032,124.2416,7.9995" Rotation="4.4948" Scale="1,1,1" Type="ProtossBase_Wall">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="1503651435" Position="62.5,209.5,7.9995" Rotation="0.634" Scale="1,1,1" Type="PathingBlocker1x1Doodad"/>
+    <ObjectDoodad Id="2038433045" Position="73.5,186.5,7.9995" Rotation="6.0981" Scale="1,1,1" Type="PathingBlocker1x1Doodad"/>
+    <ObjectDoodad Id="40645674" Position="64.5,209.5,7.9995" Rotation="4.1635" Scale="1,1,1" Type="PathingBlocker1x1Doodad"/>
+    <ObjectDoodad Id="914076785" Position="203.2631,206.599,7.9995" Rotation="1.5822" Scale="1,1,1" Type="Tarsonis_BuildingWall_Concrete_Straight">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="553611716" Position="63.475,209.9807,7.9995" Rotation="2.406" Scale="1,1,1" Type="PipesSmallShort"/>
+    <ObjectDoodad Id="1164241848" Position="62.5,211.5,7.9995" Rotation="0.634" Scale="1,1,1" Type="PathingBlocker1x1Doodad"/>
+    <ObjectDoodad Id="1391977190" Position="214.7368,247.0524,7.9995" Rotation="3.153" Scale="1,1,1" Type="XelNaga_Cavern_Wall_Statue">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="1696820470" Position="248.2368,214.0524,7.9995" Rotation="1.548" Scale="1,1,1" Type="XelNaga_Cavern_Wall_Statue">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="1255316480" Position="209.2368,199.0524,7.9995" Rotation="0.0083" Scale="1,1,1" Type="XelNaga_Cavern_Wall_Statue">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="962673851" Position="226.7368,247.0524,7.9995" Rotation="3.153" Scale="1,1,1" Type="XelNaga_Cavern_Wall_Statue">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="1453223975" Position="197.2368,224.5524,7.9995" Rotation="4.7478" Scale="1,1,1" Type="XelNaga_Cavern_Wall_Statue">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="674777524" Position="248.2368,229.0524,7.9995" Rotation="1.548" Scale="1,1,1" Type="XelNaga_Cavern_Wall_Statue">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="591107625" Position="239.2368,199.0524,7.9995" Rotation="0.0083" Scale="1,1,1" Type="XelNaga_Cavern_Wall_Statue">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="680158454" Position="242.395,237.9821,7.9995" Rotation="4.729" Scale="1,1,1" Type="Tarsonis_BuildingWall_Concrete_Straight">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="1978094367" Position="73.5,219.5,7.9995" Rotation="1.6611" Scale="1,1,1" Type="PathingBlocker1x1Doodad"/>
+    <ObjectDoodad Id="1145201620" Position="85.3618,188.537,7.9995" Rotation="2.4587" Scale="1,1,1" Type="PipesSmallShort"/>
+    <ObjectDoodad Id="1583531605" Position="87.5,219.5,7.9995" Rotation="0.634" Scale="1,1,1" Type="PathingBlocker1x1Doodad"/>
+    <ObjectDoodad Id="382271133" Position="97.5,196.5,7.9995" Rotation="0.094" Scale="1,1,1" Type="PathingBlocker1x1Doodad"/>
+    <ObjectDoodad Id="1848340973" Position="197.2368,236.5524,7.9995" Rotation="4.7478" Scale="1,1,1" Type="XelNaga_Cavern_Wall_Statue">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="2133174076" Variation="1" Position="23.5527,155.3974,7.9995" Rotation="1.4445" Scale="1,1,1" Type="UmojanLabZergCratesOpen"/>
+    <ObjectDoodad Id="1912726814" Position="73.326,217.992,7.9995" Rotation="5.6845" Scale="1,1,1" Type="PipesSmallShort"/>
+    <ObjectDoodad Id="1475298470" Position="211.333,187.5798,7.9995" Rotation="0.2905" Scale="1,1,1" Type="Aiur_EnergyWall">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="797452625" Position="197.2368,233.5524,7.9995" Rotation="4.7478" Scale="1,1,1" Type="XelNaga_Cavern_Wall_Statue">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="1386808791" Position="202.8913,236.7612,7.9995" Rotation="1.601" Scale="1,1,1" Type="Tarsonis_BuildingWall_Concrete_Straight">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="318319701" Position="197.2368,212.5524,7.9995" Rotation="4.7478" Scale="1,1,1" Type="XelNaga_Cavern_Wall_Statue">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="158254092" Position="226.6738,243.953,7.9995" Rotation="0.0261" Scale="1,1,1" Type="Tarsonis_BuildingWall_Concrete_Straight">
+        <Flag Index="HeightOffset" Value="1"/>
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="634319760" Position="64.3967,208.408,7.9995" Rotation="1.2575" Scale="1,1,1" Type="PipesSmallShort"/>
+    <ObjectDoodad Id="992331861" Position="63.5,209.5,7.9995" Rotation="0.634" Scale="1,1,1" Type="PathingBlocker1x1Doodad"/>
+    <ObjectDoodad Id="377530735" Position="85.5,187.5,7.9995" Rotation="6.0981" Scale="1,1,1" Type="PathingBlocker1x1Doodad"/>
+    <ObjectDoodad Id="1655554026" Position="68.8681,199.9924,7.9995" Rotation="2.5534" Scale="1,1,1" Type="RooftopEntrance">
+        <Flag Index="ForcePlacement" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="2135800942" Position="205.65,243.9675,7.9995" Rotation="0.0456" Scale="1,1,1" Type="Tarsonis_BuildingWall_Concrete_Straight">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="288447653" Position="242.4892,208.565,7.9995" Rotation="4.7011" Scale="1,1,1" Type="Tarsonis_BuildingWall_Concrete_Straight">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="1093670370" Position="238.8344,247.2155,7.9995" Rotation="3.1528" Scale="1,1,1" Type="XelNaga_Cavern_Wall_Statue">
+        <Flag Index="HeightOffset" Value="1"/>
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="1181537774" Position="248.2368,226.0524,7.9995" Rotation="1.548" Scale="1,1,1" Type="XelNaga_Cavern_Wall_Statue">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="796600173" Position="74.518,218.1113,7.9995" Rotation="4.8703" Scale="1,1,1" Type="PipesSmallShort"/>
+    <ObjectDoodad Id="599656089" Position="205.5917,241.3242,7.9995" Rotation="0.0034" Scale="1,1,1" Type="Tarsonis_BuildingWall_Concrete_Straight">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="1614600593" Position="248.2368,238.0524,7.9995" Rotation="1.548" Scale="1,1,1" Type="XelNaga_Cavern_Wall_Statue">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="933490191" Position="248.2368,235.0524,7.9995" Rotation="1.548" Scale="1,1,1" Type="XelNaga_Cavern_Wall_Statue">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="323634801" Position="248.2368,232.0524,7.9995" Rotation="1.548" Scale="1,1,1" Type="XelNaga_Cavern_Wall_Statue">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="302983429" Position="197.2368,227.5524,7.9995" Rotation="4.7478" Scale="1,1,1" Type="XelNaga_Cavern_Wall_Statue">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="2134348707" Position="16.5,249,7.9995" Rotation="0.6618" Scale="1,1,1" Type="UmojanLabZergCratesOpen"/>
+    <ObjectDoodad Id="337650702" Position="209.369,171.7001,7.9997" Scale="1,1,1" Type="Purifier_Protoss_Turret_Med">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="1449342468" Position="200.2404,236.7121,7.9995" Rotation="1.6076" Scale="1,1,1" Type="Tarsonis_BuildingWall_Concrete_Straight">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="1182172225" Position="245.0756,237.9636,7.9995" Rotation="4.7321" Scale="1,1,1" Type="Tarsonis_BuildingWall_Concrete_Straight">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="1109814018" Position="65.5,207.5,7.9995" Rotation="0.634" Scale="1,1,1" Type="PathingBlocker1x1Doodad"/>
+    <ObjectDoodad Id="971712464" Position="68.8354,205.1782,7.9995" Rotation="0.4736" Scale="1,1,1" Type="RooftopEntrance">
+        <Flag Index="ForcePlacement" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="1568338187" Position="197.2368,218.5524,7.9995" Rotation="4.7478" Scale="1,1,1" Type="XelNaga_Cavern_Wall_Statue">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="1567714132" Position="238.7341,244.184,7.9995" Rotation="0.0346" Scale="1,1,1" Type="Tarsonis_BuildingWall_Concrete_Straight">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="733093243" Position="66.5,208.5,7.9995" Rotation="0.634" Scale="1,1,1" Type="PathingBlocker1x1Doodad"/>
+    <ObjectDoodad Id="87180021" Position="62.671,196.1477,7.9995" Rotation="5.6228" Scale="1,1,1" Type="PipesSmallShort"/>
+    <ObjectDoodad Id="1460726987" Position="217.5864,243.9821,7.9995" Rotation="6.2683" Scale="1,1,1" Type="Tarsonis_BuildingWall_Concrete_Straight">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="569812377" Position="227.2368,199.0524,7.9995" Rotation="0.0083" Scale="1,1,1" Type="XelNaga_Cavern_Wall_Statue">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="26006429" Position="248.2368,208.5524,7.9995" Rotation="1.548" Scale="1,1,1" Type="XelNaga_Cavern_Wall_Statue">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="1326245768" Position="197.7368,206.5524,7.9995" Rotation="4.7478" Scale="1,1,1" Type="XelNaga_Cavern_Wall_Statue">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="180152472" Position="64.6733,209.3706,7.9995" Rotation="4.6928" Scale="1,1,1" Type="PipesSmallShort"/>
+    <ObjectDoodad Id="243115893" Position="197.7368,209.5524,7.9995" Rotation="4.7478" Scale="1,1,1" Type="XelNaga_Cavern_Wall_Statue">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="2126436630" Variation="1" Position="67.155,207.7668,7.9995" Rotation="2.2714" Scale="1,1,1" Type="Shakuras_Temple_Pillar_Small"/>
+    <ObjectDoodad Id="1018668948" Position="63.5,210.5,7.9995" Rotation="0.634" Scale="1,1,1" Type="PathingBlocker1x1Doodad"/>
+    <ObjectDoodad Id="2114533737" Position="97.4042,196.4104,7.9995" Rotation="0.9013" Scale="1,1,1" Type="PipesSmallShort"/>
+    <ObjectDoodad Id="1463147400" Position="63.841,197.0031,7.9995" Rotation="3.7543" Scale="1,1,1" Type="PipesSmallShort"/>
+    <ObjectDoodad Id="527302359" Position="227.1821,202.1684,7.9995" Rotation="3.1118" Scale="1,1,1" Type="Tarsonis_BuildingWall_Concrete_Straight">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="1072291542" Position="86.4592,187.3547,7.9995" Rotation="3.3354" Scale="1,1,1" Type="PipesSmallShort">
+        <Flag Index="ForcePlacement" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="171282444" Position="230.2368,199.0524,7.9995" Rotation="0.0083" Scale="1,1,1" Type="XelNaga_Cavern_Wall_Statue">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="1888926594" Position="64.5,208.5,7.9995" Rotation="0.634" Scale="1,1,1" Type="PathingBlocker1x1Doodad"/>
+    <ObjectDoodad Id="267591446" Position="86.7155,186.5881,7.9995" Rotation="2.231" Scale="1,1,1" Type="PipesSmallShort"/>
+    <ObjectDoodad Id="612425992" Position="74.475,217.5986,7.9995" Rotation="0.3046" Scale="1,1,1" Type="PipesSmallShort">
+        <Flag Index="ForcePlacement" Value="1"/>
+    </ObjectDoodad>
     <ObjectUnit Id="653891890" Position="77.403,203.7832,0" Rotation="0.8544" Scale="1,1,1" UnitType="Marine" Player="1"/>
     <ObjectUnit Id="2113095203" Position="78.3583,202.4494,0" Rotation="1.6464" Scale="1,1,1" UnitType="Raynor01" Player="1"/>
+    <ObjectUnit Id="364655964" Position="92,214,0" Rotation="5.4975" Scale="1,1,1" UnitType="XelNaga_Caverns_DoorSW"/>
+    <ObjectUnit Id="468732476" Position="68,191,0" Rotation="2.356" Scale="1,1,1" UnitType="XelNaga_Caverns_DoorNE"/>
+    <ObjectUnit Id="782724234" Position="68,215,0" Rotation="0.7851" Scale="1,1,1" UnitType="XelNaga_Caverns_DoorSE"/>
+    <ObjectUnit Id="1812117253" Position="79.2263,201.6235,0" Rotation="3.294" Scale="1,1,1" UnitType="Marine" Player="1"/>
+    <ObjectUnit Id="124432359" Position="38.6435,243.2905,0" Rotation="2.2556" Scale="1,1,1" UnitType="Marine" Player="1"/>
+    <ObjectUnit Id="1325557168" Position="62,203,0" Rotation="1.5705" Scale="1,1,1" UnitType="XelNaga_Caverns_DoorEOpened" Player="1"/>
+    <ObjectUnit Id="651233697" Position="80,187,0" Rotation="3.1413" Scale="1,1,1" UnitType="XelNaga_Caverns_DoorNOpened" Player="1"/>
+    <ObjectUnit Id="597215872" Position="98,203,0" Rotation="4.7121" Scale="1,1,1" UnitType="XelNaga_Caverns_DoorWOpened" Player="1"/>
+    <ObjectUnit Id="1959127095" Position="92,191,0" Rotation="3.9267" Scale="1,1,1" UnitType="XelNaga_Caverns_DoorNW"/>
     <ObjectUnit Id="344804607" Position="76.9807,202.1562,0" Rotation="3.968" Scale="1,1,1" UnitType="Marine" Player="1"/>
     <ObjectUnit Id="159047189" Position="79.9865,201.8256,0" Rotation="0.1665" Scale="1,1,1" UnitType="Marine" Player="1"/>
-    <ObjectUnit Id="1812117253" Position="79.2263,201.6235,0" Rotation="3.294" Scale="1,1,1" UnitType="Marine" Player="1"/>
+    <ObjectUnit Id="933942362" Position="81,219,0" Scale="1,1,1" UnitType="XelNaga_Caverns_DoorSOpened" Player="1"/>
     <ObjectUnit Id="1240049201" Position="79.105,203.6447,0" Rotation="2.2558" Scale="1,1,1" UnitType="Marine" Player="1"/>
     <ObjectUnit Id="169062947" Position="79.9084,202.8505,0" Rotation="5.1286" Scale="1,1,1" UnitType="Marine" Player="1"/>
 </PlacedObjects>
