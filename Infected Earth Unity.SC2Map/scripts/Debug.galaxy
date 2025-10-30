@@ -11,3 +11,13 @@ void Debug_ShowAbilityExists(string abilityName, unit u)
         StringToText("[DEBUG] L'ability \"") + StringToText(abilityName) + StringToText("\" existe : ") + IntToText(BoolToInt(UnitAbilityExists(u, abilityName)))
     );
 }
+
+void Debug_ShowMessage(string message)
+{
+    UIDisplayMessage(PlayerGroupAll(), c_messageAreaChat, StringToText(message));
+}
+
+void Debug_ShowMessageInt(int number)
+{
+    UIDisplayMessage(PlayerGroupAll(), c_messageAreaChat, IntToText(number));
+}

@@ -1,10 +1,12 @@
 include "scripts/Header"
+include "scripts/Utility"
 include "scripts/GlobalVariables"
 include "scripts/Debug"
 include "scripts/WaveManager"
 include "scripts/Camera"
 include "scripts/Enemy"
 include "scripts/Player"
+include "scripts/Chat"
 include "scripts/MapInit"
 
 void main() {

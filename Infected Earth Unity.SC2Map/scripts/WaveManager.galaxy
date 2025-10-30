@@ -1,23 +1,17 @@
-// Déclarations globales
-int g_currentWave;          // Numéro de la vague actuelle (commence à 0)
-int g_unitsAlive;           // Nombre d'unités vivantes dans la vague actuelle
-point g_spawnPoint;         // Point de spawn des ennemis (ajuste les coords)
-point g_attackPoint;        // Point d'attaque vers la base du joueur (ajuste les coords)
-
 // Condition pour spawn la prochaine vague : pas d'unités vivantes et moins de 10 vagues
 bool Wave_SpawnCondition() {
-    return (g_unitsAlive == 0 && g_currentWave < 10);
+    return (gv_unitsAlive == 0 && gv_currentWave < 10);
 }
 
 // Action appelée à chaque mort d'unité (décompte et vérifie fin de vague)
 bool Wave_OnUnitDeath_Action(bool testConds, bool runActions) {
-    if (g_unitsAlive > 0) {
-        g_unitsAlive -= 1;
+    if (gv_unitsAlive > 0) {
+        gv_unitsAlive -= 1;
     }
     
     // Si fin de vague
-    if (g_unitsAlive == 0 && g_currentWave > 0) {
-        if (g_currentWave == 10) {
+    if (gv_unitsAlive == 0 && gv_currentWave > 0) {
+        if (gv_currentWave == 10) {
             // Victoire pour le Joueur 1 !
             GameOver(1, c_gameOverVictory, true, true);
             UIDisplayMessage(PlayerGroupAll(), c_messageAreaChat, StringToText("Victoire ! Toutes les vagues sont vaincues !"));
@@ -34,9 +28,12 @@ bool Wave_OnUnitDeath_Action(bool testConds, bool runActions) {
 bool Wave_SpawnAction(bool testConds, bool runActions) {
     int numUnits;
     int i;
+    int j;
     unit newUnit;
+    string u;
+    int count;
 
-    if (g_currentWave >= 10) 
+    if (gv_currentWave >= 10) 
     {
         return false;
     }
@@ -46,19 +43,30 @@ bool Wave_SpawnAction(bool testConds, bool runActions) {
         return false;
     }
 
-    g_currentWave += 1;
-    numUnits = 15;
+    gv_currentWave += 1;
+    numUnits = 0;
     UnitGroupClear(gv_enemiesGroup);
 
-    for (i = 0; i < numUnits; i += 1) {
-        libNtve_gf_CreateUnitsWithDefaultFacing(1, "Zergling", 1, 15, g_spawnPoint);
-        newUnit = UnitLastCreated();
-        UnitGroupAdd(gv_enemiesGroup, newUnit);
-    }
-    
-    g_unitsAlive = numUnits;
+    for (i = 1; i <= 5; i += 1) {
+        u = UserDataGetUnit("WaveTable", IntToString(gv_currentWave), "unit", i);
+        count = UserDataGetInt("WaveTable", IntToString(gv_currentWave), "count", i);
 
-    UIDisplayMessage(PlayerGroupAll(), c_messageAreaChat, StringToText("Vague " + IntToString(g_currentWave) + " !"));
+        if (count == 0) {
+            continue;
+        }
+
+        numUnits += count;
+
+        for (j = 0; j < count; j += 1) {
+            libNtve_gf_CreateUnitsWithDefaultFacing(1, u, 1, 15, RegionGetCenter(RegionFromName("EnemySpawnPoint")));
+            newUnit = UnitLastCreated();
+            UnitGroupAdd(gv_enemiesGroup, newUnit);
+        }
+    }
+
+    gv_unitsAlive = numUnits;
+
+    UIDisplayMessage(PlayerGroupAll(), c_messageAreaChat, StringToText("Vague " + IntToString(gv_currentWave) + " !"));
 
     return true;
 }
@@ -67,11 +75,9 @@ bool Wave_SpawnAction(bool testConds, bool runActions) {
 void Wave_Init() {
     trigger spawnTrigger;
     trigger deathTrigger;
-    g_currentWave = 0;
-    g_unitsAlive = 0;
+    gv_currentWave = 0;
+    gv_unitsAlive = 0;
     gv_enemiesGroup = UnitGroupEmpty();
-    g_spawnPoint = RegionGetCenter(RegionFromName("EnemySpawnPoint"));
-    g_attackPoint = RegionGetCenter(RegionFromName("EnemySpawnPoint"));
     
     // Créer le trigger pour vérifier et spawn la prochaine vague (toutes les 1 seconde)
     spawnTrigger = TriggerCreate("Wave_SpawnAction");

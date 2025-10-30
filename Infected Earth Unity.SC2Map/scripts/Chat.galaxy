@@ -1,0 +1,16 @@
+void Chat_Init()
+{
+    TriggerAddEventChatMessage(TriggerCreate("Chat_SetZoom"), c_playerAny, "-zoom", false);
+}
+
+bool Chat_SetZoom(bool testConds, bool runActions)
+{
+    string param = StringWord(EventChatMessage(false), 2);
+
+    if (Utility_IsNumber(param))
+    {
+        CameraSetZoomForPlayer(EventPlayer(), StringToInt(param));
+    }
+
+    return true;
+}

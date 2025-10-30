@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CUser id="WaveTable">
+        <Fields>
+            <Id value="unit"/>
+            <Type value="Unit"/>
+            <Count value="5"/>
+            <EditorColumn value="1"/>
+            <EditorText value="Name"/>
+        </Fields>
+        <Fields>
+            <Id value="count"/>
+            <Type value="Int"/>
+            <Count value="5"/>
+            <EditorColumn value="1"/>
+            <EditorText value="Name"/>
+        </Fields>
+        <Instances Id="[Default]"/>
+        <Instances Id="1">
+            <Int Int="5">
+                <Field Id="count"/>
+            </Int>
+            <Unit Unit="Zergling">
+                <Field Id="unit"/>
+            </Unit>
+        </Instances>
+        <Instances Id="2">
+            <Int Int="6">
+                <Field Id="count"/>
+            </Int>
+            <Unit Unit="Zergling">
+                <Field Id="unit"/>
+            </Unit>
+        </Instances>
+        <Instances Id="3">
+            <Int Int="7">
+                <Field Id="count"/>
+            </Int>
+            <Unit Unit="Zergling">
+                <Field Id="unit"/>
+            </Unit>
+        </Instances>
+        <Instances Id="4">
+            <Int Int="8">
+                <Field Id="count"/>
+            </Int>
+            <Unit Unit="Zergling">
+                <Field Id="unit"/>
+            </Unit>
+        </Instances>
+        <Instances Id="5">
+            <Int Int="9">
+                <Field Id="count"/>
+            </Int>
+            <Unit Unit="Zergling">
+                <Field Id="unit"/>
+            </Unit>
+        </Instances>
+        <Instances Id="6">
+            <Int Int="10">
+                <Field Id="count"/>
+            </Int>
+            <Unit Unit="Zergling">
+                <Field Id="unit"/>
+            </Unit>
+        </Instances>
+        <Instances Id="7">
+            <Int Int="10">
+                <Field Id="count"/>
+            </Int>
+            <Unit Unit="Zergling">
+                <Field Id="unit"/>
+            </Unit>
+        </Instances>
+        <Instances Id="8">
+            <Int Int="10">
+                <Field Id="count"/>
+            </Int>
+            <Unit Unit="Zergling">
+                <Field Id="unit"/>
+            </Unit>
+        </Instances>
+        <Instances Id="9">
+            <Int Int="10">
+                <Field Id="count"/>
+            </Int>
+            <Unit Unit="Zergling">
+                <Field Id="unit"/>
+            </Unit>
+        </Instances>
+        <Instances Id="10">
+            <Int Int="5">
+                <Field Id="count"/>
+            </Int>
+            <Int Int="1">
+                <Field Id="count" Index="1"/>
+            </Int>
+            <Unit Unit="Zergling">
+                <Field Id="unit"/>
+            </Unit>
+            <Unit Unit="Hydralisk">
+                <Field Id="unit" Index="1"/>
+            </Unit>
+        </Instances>
+    </CUser>
+</Catalog>
