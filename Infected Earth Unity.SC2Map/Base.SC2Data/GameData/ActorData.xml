@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Catalog>
+    <CActorForceSphere id="BanelingAttackForce2">
+        <On Terms="Effect.VolatileBurstU.Start; At Caster" Send="Create"/>
+        <On Terms="ActorCreation" Send="Create BanelingAttackForceUp"/>
+        <On Terms="Effect.HotSBanelingExplodeLargeSearch.Start; At Caster" Send="Create"/>
+        <On Terms="Effect.HotSBanelingExplodeLargeSearchAll.Start; At Caster" Send="Create"/>
+        <On Terms="Effect.SlivanCreepExplodeDamage.Start; At Caster" Send="Create"/>
+        <HostSiteOps Ops="SOpShadow SOpRandomPointInCircleDot25"/>
+        <Model value="ActorForceField2"/>
+        <Duration value="0.300000"/>
+        <Magnitude value="16.000000,8.000000"/>
+        <Radius value="2.100000,0.300000"/>
+    </CActorForceSphere>
     <CActorUnit id="ChangelingMarine2" parent="GenericUnitMorph" unitName="ChangelingMarine">
         <Aliases value="_UnitSmall"/>
         <Macros value="TerrainSquibAnimations"/>
@@ -345,6 +357,24 @@
         <On Terms="Abil.StimpackZerg.SourceCastStart" Send="Create"/>
         <Sound value="Marine_Stimpack"/>
     </CActorSound>
+    <CActorModel id="RegenerativeBileBuff2" parent="ModelAnimationStyleOneShot">
+        <Inherits index="CloakEffect" value="1"/>
+        <Inherits index="Visibility" value="1"/>
+        <On Terms="Effect.HotSBanelingExplodeLargeHealSearchHeal.Start; At Target; !ValidateUnit HaveHotSHunter" Send="Create"/>
+        <On Terms="Effect.HotSBanelingExplodeSmallHealSearchHeal.Start; At Target; !ValidateUnit HaveHotSHunter" Send="Create"/>
+        <Host Subject="_Unit"/>
+        <HostSiteOps Ops="SOpAttachCenter SOpForwardNorth" HoldRotation="1"/>
+        <Model value="MendBuff2"/>
+    </CActorModel>
+    <CActorModel id="RegenerativeBileBuffB2" parent="ModelAnimationStyleOneShot">
+        <Inherits index="CloakEffect" value="1"/>
+        <Inherits index="Visibility" value="1"/>
+        <On Terms="Effect.HotSBanelingExplodeLargeHealSearchHeal.Start; At Target; ValidatePlayer HaveHotSHunter" Send="Create"/>
+        <On Terms="Effect.HotSBanelingExplodeSmallHealSearchHeal.Start; At Target; ValidatePlayer HaveHotSHunter" Send="Create"/>
+        <Host Subject="_Unit"/>
+        <HostSiteOps Ops="SOpAttachCenter SOpForwardNorth" HoldRotation="1"/>
+        <Model value="MendBuff2"/>
+    </CActorModel>
     <CActorModel id="StimpackEndImpact2" parent="ModelAnimationStyleOneShot">
         <Inherits index="CloakEffect" value="1"/>
         <On Terms="Behavior.StimpackForZerg1.Off; ValidateUnit NotDead" Send="Create"/>

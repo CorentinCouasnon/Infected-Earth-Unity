@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Catalog>
+    <CBehaviorBuff id="SplitterlingBirthHeight2">
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
+        <Duration value="0.625"/>
+        <Modification Height="1.5">
+            <StateFlags index="Invulnerable" value="1"/>
+            <StateFlags index="Stun" value="1"/>
+            <HeightTime index="Start" value="0.25"/>
+            <HeightTime index="Stop" value="0.25"/>
+        </Modification>
+    </CBehaviorBuff>
     <CBehaviorBuff id="Stimpack2">
         <Alignment value="Positive"/>
         <InfoIcon value="Assets\Textures\btn-ability-terran-stimpack.dds"/>

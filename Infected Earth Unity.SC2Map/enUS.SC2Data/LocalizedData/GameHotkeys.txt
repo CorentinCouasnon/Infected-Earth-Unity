@@ -5,6 +5,7 @@ Button/Hotkey/Baneling2=E
 Button/Hotkey/Baneling3=E
 Button/Hotkey/BurrowDown2=R
 Button/Hotkey/BurrowDown3=R
+Button/Hotkey/Explode2=X
 Button/Hotkey/Move2=M
 Button/Hotkey/Move3=M
 Button/Hotkey/Move4=M
