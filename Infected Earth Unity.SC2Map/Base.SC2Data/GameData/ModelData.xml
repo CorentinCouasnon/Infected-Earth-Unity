@@ -241,8 +241,8 @@
         <EditorCategories value="Race:Terran"/>
         <Occlusion value="Show"/>
         <PlanetPanelCamera value="Star2CameraMid03"/>
-        <ScaleMax value="1.200000,1.200000,1.200000"/>
-        <ScaleMin value="1.200000,1.200000,1.200000"/>
+        <ScaleMax value="4.000000,4.000000,4.000000"/>
+        <ScaleMin value="4.000000,4.000000,4.000000"/>
         <SelectionRadius value="0.416500"/>
         <ShadowRadius value="0.416500"/>
         <TechPurchaseCamera value="TechPurchaseInfantry"/>

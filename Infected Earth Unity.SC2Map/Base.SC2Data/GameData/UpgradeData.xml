@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Catalog>
+    <CUpgrade id="RaynorCommanderArmorVanadium2">
+        <EffectArray Operation="Set" Reference="Abil,ArmoryResearchVoidCoop,InfoArray[Research4].Upgrade" Value="RaynorTalentedTerranVehicleAndShipPlatingLevel1"/>
+        <EffectArray Operation="Set" Reference="Abil,ArmoryResearchVoidCoop,InfoArray[Research5].Upgrade" Value="RaynorTalentedTerranVehicleAndShipPlatingLevel2"/>
+        <EffectArray Operation="Set" Reference="Abil,ArmoryResearchVoidCoop,InfoArray[Research6].Upgrade" Value="RaynorTalentedTerranVehicleAndShipPlatingLevel3"/>
+        <EffectArray Operation="Set" Reference="Abil,EngineeringBayResearch,InfoArray[Research7].Upgrade" Value="RaynorTalentedTerranInfantryArmorLevel1"/>
+        <EffectArray Operation="Set" Reference="Abil,EngineeringBayResearch,InfoArray[Research8].Upgrade" Value="RaynorTalentedTerranInfantryArmorLevel2"/>
+        <EffectArray Operation="Set" Reference="Abil,EngineeringBayResearch,InfoArray[Research9].Upgrade" Value="RaynorTalentedTerranInfantryArmorLevel3"/>
+        <EffectArray Operation="Set" Reference="Button,UpgradeArmorInfantryRaynor,Tooltip" Value="Button/Tooltip/TerranInfantryArmorLevel1RaynorVanadium"/>
+        <EffectArray Operation="Set" Reference="Button,TerranInfantryArmorLevel2,Tooltip" Value="Button/Tooltip/TerranInfantryArmorLevel2RaynorVanadium"/>
+        <EffectArray Operation="Set" Reference="Button,TerranInfantryArmorLevel3,Tooltip" Value="Button/Tooltip/TerranInfantryArmorLevel3RaynorVanadium"/>
+        <EffectArray Operation="Set" Reference="Button,TerranVehicleAndShipPlatingLevel1,Tooltip" Value="Button/Tooltip/TerranVehicleAndShipPlatingLevel1RaynorVanadium"/>
+        <EffectArray Operation="Set" Reference="Button,TerranVehicleAndShipPlatingLevel2,Tooltip" Value="Button/Tooltip/TerranVehicleAndShipPlatingLevel2RaynorVanadium"/>
+        <EffectArray Operation="Set" Reference="Button,TerranVehicleAndShipPlatingLevel3,Tooltip" Value="Button/Tooltip/TerranVehicleAndShipPlatingLevel3RaynorVanadium"/>
+        <EditorCategories value="Race:Terran,UpgradeType:Talents"/>
+        <LeaderAlias value=""/>
+    </CUpgrade>
     <CUpgrade id="RaynorCommanderStimUpgrade2">
         <Flags index="UpgradeCheat" value="0"/>
         <EffectArray Operation="Subtract" Reference="Abil,StimpackDeRaynor,Cost[0].Vital[Life]" Value="5"/>

@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Catalog>
+    <CRequirement id="UseBattlecruiserSpecializations">
+        <NodeArray index="Use" Link="AllowAbilSJHyperionBanshees03622066930TechTreeCheat"/>
+    </CRequirement>
     <CRequirement id="UseStimpack">
         <NodeArray index="Use" Link="AllowAbilStimpackZerg02357366498TechTreeCheat"/>
     </CRequirement>

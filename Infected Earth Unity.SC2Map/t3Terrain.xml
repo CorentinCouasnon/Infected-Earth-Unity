@@ -72,7 +72,7 @@
         <cliffDoodadList num="1">
             <cliffDoodad name="TerrainObjectCharNydusNest2" pos="35.000000 227.000000 2.000000 " rot="0"/>
         </cliffDoodadList>
-        <vertData quantizeBias="1.000136e+00" quantizeScale="1.543816e-04" standardHeight="8.000000e+00" name="t3HeightMap"/>
+        <vertData quantizeBias="1.000206e+00" quantizeScale="1.543814e-04" standardHeight="8.000000e+00" name="t3HeightMap"/>
         <masks name="t3TextureMasks"/>
         <textureSetList num="8">
             <textureSet i="0" name="KorhalWastes"/>
