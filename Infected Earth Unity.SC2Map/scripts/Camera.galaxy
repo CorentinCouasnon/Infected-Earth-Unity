@@ -1,9 +1,9 @@
-void CameraFocusOnUnit(int player, unit u)
+void Camera_FocusOnUnit(int player, unit u)
 {
     CameraPan(player, UnitGetPosition(u), 0, -1, 10, true);
 }
 
-void CameraSetZoomForPlayer(int player, int zoom)
+void Camera_SetZoomForPlayer(int player, int zoom)
 {
     if (zoom < 30 || zoom > 200)
     {

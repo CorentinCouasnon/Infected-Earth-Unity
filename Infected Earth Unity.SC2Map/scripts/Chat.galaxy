@@ -9,7 +9,7 @@ bool Chat_SetZoom(bool testConds, bool runActions)
 
     if (Utility_IsNumber(param))
     {
-        CameraSetZoomForPlayer(EventPlayer(), StringToInt(param));
+        Camera_SetZoomForPlayer(EventPlayer(), StringToInt(param));
     }
 
     return true;

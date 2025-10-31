@@ -1,10 +1,11 @@
 // only function that is called on map init, runs all initialization functions
 bool MapInit_Main(bool testConds, bool runActions) {
     
+    Utility_Init();
     Chat_Init();
     Region_Init();
-    PlayerInitialize();
-    EnemyInitialize();
+    Player_Init();
+    Enemy_Init();
     Wave_Init();
 
     return true;
