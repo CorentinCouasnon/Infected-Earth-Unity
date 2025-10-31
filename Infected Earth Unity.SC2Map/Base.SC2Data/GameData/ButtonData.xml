@@ -148,11 +148,11 @@
         <TintRacially value="1"/>
         <Universal value="1"/>
     </CButton>
-    <CButton id="Stim">
-        <Icon value="Assets\Textures\btn-upgrade-terran-infantryweaponslevel1.dds"/>
-    </CButton>
     <CButton id="Stim2">
         <TooltipAppender Validator="HaveMasteryRaynorStimDuration" Text="Button/Tooltip/MasteryRaynorStim2DurationAppend"/>
+        <TooltipFlags index="ShowDuration" value="1"/>
+        <TooltipResourceName index="Minerals" value="i"/>
+        <TooltipVitalName index="Life" value="i"/>
         <Icon value="Assets\Textures\btn-ability-terran-stimpack-color.dds"/>
         <AlertIcon value="Assets\Textures\btn-ability-terran-stimpack-color.dds"/>
         <EditorCategories value="Race:Terran"/>
@@ -163,13 +163,6 @@
         <Icon value="Assets\Textures\btn-ability-terran-stimpack-color.dds"/>
         <AlertIcon value="Assets\Textures\btn-ability-terran-stimpack-color.dds"/>
         <EditorCategories value="Race:Zerg"/>
-        <Universal value="1"/>
-    </CButton>
-    <CButton id="Stim4">
-        <TooltipAppender Validator="HaveMasteryRaynorStimDuration" Text="Button/Tooltip/MasteryRaynorStim4DurationAppend"/>
-        <Icon value="Assets\Textures\btn-upgrade-tychus-weapons-level1.dds"/>
-        <AlertIcon value="Assets\Textures\btn-upgrade-terran-infantryweaponslevel1.dds"/>
-        <EditorCategories value="Race:Terran"/>
         <Universal value="1"/>
     </CButton>
     <CButton id="Stop2">
@@ -199,5 +192,11 @@
         <EditorCategories value="Race:Neutral"/>
         <TintRacially value="1"/>
         <Universal value="1"/>
+    </CButton>
+    <CButton id="TossGrenade2">
+        <Icon value="Assets\Textures\wireframe-general-pickupgrenades.dds"/>
+        <AlertIcon value="Assets\Textures\wireframe-general-pickupgrenades.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <TintRacially value="1"/>
     </CButton>
 </Catalog>

@@ -7,4 +7,8 @@
         <EditorCategories value="Race:Zerg,TechType:Ability"/>
         <NodeArray index="Use" Link="CountUpgradeStimpackCompleteOnly80611996TechTreeCheat"/>
     </CRequirement>
+    <CRequirement id="UseStimpack3">
+        <EditorCategories value="Race:Terran,TechType:Ability"/>
+        <NodeArray index="Use" Link="AllowAbilStimpackZerg02357366498TechTreeCheat"/>
+    </CRequirement>
 </Catalog>

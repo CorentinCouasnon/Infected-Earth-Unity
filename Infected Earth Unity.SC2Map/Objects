@@ -1834,7 +1834,7 @@
     <ObjectUnit Id="917963782" Position="49,40,0" Scale="1,1,1" UnitType="PurifierCellBlock8x8C"/>
     <ObjectUnit Id="1237897335" Position="189.6838,59.639,0" Rotation="5.444" Scale="1,1,1" UnitType="Zergling" Player="15"/>
     <ObjectUnit Id="2113497956" Position="192.2905,60.573,0" Rotation="3.5354" Scale="1,1,1" UnitType="Zergling" Player="15"/>
-    <ObjectUnit Id="1506619483" Position="202.8544,7.7656,0" Rotation="3.4934" Scale="1,1,1" UnitType="JimRaynorIEUHero" Player="1"/>
+    <ObjectUnit Id="1506619483" Position="170.6655,59.829,0" Rotation="3.4934" Scale="1,1,1" UnitType="JimRaynorIEUHero" Player="1"/>
     <ObjectUnit Id="1635459696" Position="188.034,64.7983,0" Rotation="3.1687" Scale="1,1,1" UnitType="Zergling" Player="15"/>
     <ObjectUnit Id="375161614" Position="80,12,0" Rotation="5.4667" Scale="1,1,1" UnitType="UnbuildableRocksDestructible"/>
 </PlacedObjects>

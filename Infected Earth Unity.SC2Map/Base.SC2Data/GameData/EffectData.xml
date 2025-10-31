@@ -18,8 +18,28 @@
         <Amount value="110"/>
         <Death value="Disintegrate"/>
     </CEffectDamage>
+    <CEffectModifyUnit id="StimHealEffect">
+        <EditorCategories value="Race:Terran"/>
+        <ImpactUnit Value="Caster"/>
+        <VitalArray index="Life">
+            <Change value="250"/>
+        </VitalArray>
+        <ModifyTurret>
+            <Target Effect="StimHealEffect" History="Healing"/>
+        </ModifyTurret>
+        <FacingLocation Value="TargetUnit" History="Healing"/>
+    </CEffectModifyUnit>
+    <CEffectSet id="StimSetEffect">
+        <EditorCategories value=""/>
+        <EffectArray value="StimHealEffect"/>
+        <EffectArray value="Stimpack"/>
+    </CEffectSet>
     <CEffectApplyBehavior id="Stimpack2">
         <EditorCategories value="Race:Zerg"/>
+    </CEffectApplyBehavior>
+    <CEffectApplyBehavior id="Stimpack3">
+        <EditorCategories value="Race:Terran"/>
+        <Behavior value="StimpackDeRaynor"/>
     </CEffectApplyBehavior>
     <CEffectApplyBehavior id="StimpackMarauder_BlackOps">
         <DamageModifierSource Effect="Stimpack2"/>
@@ -29,6 +49,23 @@
         <Kind value="Ranged"/>
         <Amount value="24"/>
     </CEffectDamage>
+    <CEffectDamage id="TossGrenadeDamage2">
+        <EditorCategories value="Race:Terran"/>
+        <ResponseFlags index="Acquire" value="1"/>
+        <ResponseFlags index="Flee" value="1"/>
+        <AttributeBonus index="Structure" value="150"/>
+        <Amount value="350"/>
+        <AreaArray Radius="1.5" Fraction="1"/>
+        <SearchFilters value="-;Self,Player,Ally,Air,Missile,Stasis,Dead,Invulnerable"/>
+        <SearchFlags index="ExtendByUnitRadius" value="1"/>
+    </CEffectDamage>
+    <CEffectLaunchMissile id="TossGrenadeLaunchMissile2">
+        <ValidatorArray index="0" value="HasVision"/>
+        <EditorCategories value="Race:Terran"/>
+        <ImpactLocation Value="TargetPoint"/>
+        <ImpactEffect value="TossGrenadeDamage2"/>
+        <AmmoUnit value="TossGrenadeWeapon2"/>
+    </CEffectLaunchMissile>
     <CEffectApplyBehavior id="ZerglingArmorShredTargetAB2">
         <ValidatorArray index="0" value="HaveZerglingArmorShred"/>
         <EditorCategories value="Race:Zerg"/>

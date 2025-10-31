@@ -3,24 +3,95 @@
     <CModel id="ActorForceField2" parent="Doodad">
         <Model value="Assets\Doodads\ActorForceField\ActorForceField.m3"/>
     </CModel>
+    <CModel id="ChangelingDeathMarine2" parent="UnitDeath" Race="Zerg">
+        <Model value="Assets\Units\Zerg\ChangelingDeathMarine\ChangelingDeathMarine.m3"/>
+        <LowQualityModel value="ZergSmallUnitDeathLow"/>
+        <Occlusion value="Show"/>
+    </CModel>
     <CModel id="DeathVoidShadowSmall2" parent="UnitDeath">
+        <Model value="Assets\Units\Neutral\VoidUnit_Death\VoidUnit_Death.m3"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CModel>
+    <CModel id="DeathVoidShadowSmall3" parent="UnitDeath">
         <Model value="Assets\Units\Neutral\VoidUnit_Death\VoidUnit_Death.m3"/>
         <EditorCategories value="Race:Zerg"/>
     </CModel>
     <CModel id="HHMarine">
         <EditorCategories value="Race:Zerg"/>
     </CModel>
+    <CModel id="HHMarine2" parent="Unit" Race="Terran">
+        <Model value="Assets\Units\Terran\DOM_Grunt\DOM_Grunt.m3"/>
+        <EditorCategories value="Race:Zerg"/>
+        <Events>
+            <Anim value="Stand,Victory,00"/>
+            <Name value="SquibStart"/>
+            <Type value="Custom"/>
+            <Time value="3.200000"/>
+        </Events>
+        <Events>
+            <Anim value="Stand,Victory,00"/>
+            <Name value="SquibStop"/>
+            <Type value="Custom"/>
+            <Time value="4.650000"/>
+        </Events>
+        <Events>
+            <Anim value="Stand,Victory,01"/>
+            <Name value="SquibStart"/>
+            <Type value="Custom"/>
+            <Time value="0.350000"/>
+        </Events>
+        <Events>
+            <Anim value="Stand,Victory,01"/>
+            <Name value="SquibStop"/>
+            <Type value="Custom"/>
+            <Time value="2.350000"/>
+        </Events>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraMid03"/>
+        <Radius value="0.375000"/>
+        <SelectionRadius value="0.375000"/>
+        <ShadowRadius value="0.375000"/>
+        <SquibTypeDefault value="Flesh"/>
+        <TechPurchaseCamera value="TechPurchaseInfantry"/>
+        <UnitGlossaryCamera value="Star2CameraMid03"/>
+    </CModel>
     <CModel id="HHMarineDeath">
         <EditorCategories value="Race:Zerg"/>
+    </CModel>
+    <CModel id="HHMarineDeath2" parent="UnitDeath" Race="Terran">
+        <Model value="Assets\Units\Terran\DOM_Grunt_Death\DOM_Grunt_Death.m3"/>
+        <LowQualityModel value="TerranBloodDeathLow"/>
+        <EditorCategories value="Race:Zerg"/>
+        <Occlusion value="Show"/>
     </CModel>
     <CModel id="HHMarineDeathEviscerate">
         <EditorCategories value="Race:Zerg"/>
     </CModel>
+    <CModel id="HHMarineDeathEviscerate2" parent="UnitDeath" Race="Terran">
+        <Model value="Assets\Units\Terran\DOM_Grunt_Death_Eviscerate\DOM_Grunt_Death_Eviscerate.m3"/>
+        <LowQualityModel value="TerranBloodDeathLow"/>
+        <EditorCategories value="Race:Zerg"/>
+        <Occlusion value="Show"/>
+        <VariationCount value="2"/>
+        <Variations Number="0" Probability="9"/>
+        <Variations Number="1" Probability="1"/>
+    </CModel>
     <CModel id="HHMarineDeathFire">
         <EditorCategories value="Race:Zerg"/>
     </CModel>
+    <CModel id="HHMarineDeathFire2" parent="UnitDeath" Race="Terran">
+        <Model value="Assets\Units\Terran\DOM_Grunt_DeathFire\DOM_Grunt_DeathFire.m3"/>
+        <LowQualityModel value="TerranBloodDeathLow"/>
+        <EditorCategories value="Race:Zerg"/>
+        <Occlusion value="Show"/>
+    </CModel>
     <CModel id="HHMarinePortrait">
         <EditorCategories value="Race:Zerg"/>
+    </CModel>
+    <CModel id="HHMarinePortrait2" parent="Portrait" Race="Terran">
+        <Model value="Assets\Portraits\Terran\DoMGrunt_Portrait\DoMGrunt_Portrait.m3"/>
+        <EditorCategories value="Race:Zerg"/>
+        <Image value="Assets\Textures\domgruntportrait_static.dds"/>
     </CModel>
     <CModel id="HallucinationDeath2" parent="OneShotSpellFX">
         <Model value="Assets\Effects\Protoss\HallucinateDeath\HallucinateDeath.m3"/>
@@ -51,32 +122,80 @@
         <SelectionRadius value="0.000000"/>
         <ShadowRadius value="0.000000"/>
     </CModel>
+    <CModel id="Invisible5" Race="Neutral">
+        <Model value="Assets\Units\Test\InvisibleUnit\InvisibleUnit.m3"/>
+        <EditorCategories value="Race:Neutral"/>
+        <Flags index="TeenSafe" value="1"/>
+        <Radius value="-1.000000"/>
+        <SelectionRadius value="0.000000"/>
+        <ShadowRadius value="0.000000"/>
+    </CModel>
     <CModel id="Marine">
+        <EditorCategories value="Race:Zerg"/>
+    </CModel>
+    <CModel id="Marine2" parent="MarineBase">
+        <Model value="Assets\Units\Terran\Marine\Marine.m3"/>
         <EditorCategories value="Race:Zerg"/>
     </CModel>
     <CModel id="MarineDeath">
         <EditorCategories value="Race:Zerg"/>
     </CModel>
+    <CModel id="MarineDeath2" parent="MarineDeathBase">
+        <Model value="Assets\Units\Terran\MarineDeathEx1\MarineDeathEx1.m3"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CModel>
     <CModel id="MarineDeathAcid">
+        <EditorCategories value="Race:Zerg"/>
+    </CModel>
+    <CModel id="MarineDeathAcid2" parent="MarineDeathAcidBase">
+        <Model value="Assets\Units\Terran\MarineDeathAcid\MarineDeathAcid.m3"/>
         <EditorCategories value="Race:Zerg"/>
     </CModel>
     <CModel id="MarineDeathBlast">
         <EditorCategories value="Race:Zerg"/>
     </CModel>
+    <CModel id="MarineDeathBlast2" parent="MarineDeathBlastBase">
+        <Model value="Assets\Units\Terran\MarineDeathBlastEx1\MarineDeathBlastEx1.m3"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CModel>
     <CModel id="MarineDeathEat">
         <EditorCategories value="Race:Zerg"/>
     </CModel>
+    <CModel id="MarineDeathEat2" parent="UnitDeath" Race="Terran">
+        <Model value="Assets\Units\Terran\MarineDeathEat\MarineDeathEat.m3"/>
+        <LowQualityModel value="TerranBloodDeathLow"/>
+        <EditorCategories value="Race:Zerg"/>
+        <Occlusion value="Show"/>
+    </CModel>
     <CModel id="MarineDeathEviscerate">
+        <EditorCategories value="Race:Zerg"/>
+    </CModel>
+    <CModel id="MarineDeathEviscerate2" parent="MarineDeathEviscerateBase">
+        <Model value="Assets\Units\Terran\MarineDeathEviscerateEx1\MarineDeathEviscerateEx1.m3"/>
         <EditorCategories value="Race:Zerg"/>
     </CModel>
     <CModel id="MarineDeathFire">
         <EditorCategories value="Race:Zerg"/>
     </CModel>
+    <CModel id="MarineDeathFire2" parent="MarineDeathFireBase">
+        <Model value="Assets\Units\Terran\MarineDeathFire\MarineDeathFire.m3"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CModel>
     <CModel id="MarineDeathRagdoll">
+        <EditorCategories value="Race:Zerg"/>
+    </CModel>
+    <CModel id="MarineDeathRagdoll2" parent="MarineDeathRagdollBase">
+        <Model value="Assets\Units\Terran\MarineDeathRagdoll\MarineDeathRagdoll.m3"/>
         <EditorCategories value="Race:Zerg"/>
     </CModel>
     <CModel id="MarinePortrait">
         <EditorCategories value="Race:Zerg"/>
+    </CModel>
+    <CModel id="MarinePortrait2" parent="MarinePortraitBase">
+        <Model value="Assets\Portraits\Terran\MarinePortrait\MarinePortrait.m3"/>
+        <EditorCategories value="Race:Zerg"/>
+        <Image value="Assets\Textures\MarinePortrait_Static.dds"/>
+        <Lighting value="MarinePortrait"/>
     </CModel>
     <CModel id="MarineRaynorDeath2" parent="UnitDeath">
         <Model value="Assets\Units\Terran\MarineRaynorDeath\MarineRaynorDeath.m3"/>
@@ -102,6 +221,14 @@
         <ShadowRadius value="0.400000"/>
     </CModel>
     <CModel id="ProtossSmallUnitDeathLow4" parent="UnitDeath" Race="Protoss">
+        <Model value="Assets\Effects\Protoss\ProtossUnitDeath\ProtossUnitDeath_Low.m3"/>
+        <Flags index="TeenSafe" value="1"/>
+        <ScaleMax value="1.250000,1.250000,1.250000"/>
+        <ScaleMin value="1.250000,1.250000,1.250000"/>
+        <SelectionRadius value="0.400000"/>
+        <ShadowRadius value="0.400000"/>
+    </CModel>
+    <CModel id="ProtossSmallUnitDeathLow5" parent="UnitDeath" Race="Protoss">
         <Model value="Assets\Effects\Protoss\ProtossUnitDeath\ProtossUnitDeath_Low.m3"/>
         <Flags index="TeenSafe" value="1"/>
         <ScaleMax value="1.250000,1.250000,1.250000"/>
@@ -148,6 +275,10 @@
         <Model value="Assets\Effects\Terran\StimpackEndImpact\StimpackEndImpact.m3"/>
         <EditorCategories value="Race:Zerg"/>
     </CModel>
+    <CModel id="StimpackEndImpact3" parent="OneShotSpellFX">
+        <Model value="Assets\Effects\Terran\StimpackEndImpact\StimpackEndImpact.m3"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CModel>
     <CModel id="StimpackStartImpact">
         <EditorCategories value="Race:Zerg"/>
     </CModel>
@@ -155,10 +286,18 @@
         <Model value="Assets\Effects\Terran\StimpackStartImpact\StimpackStartImpact.m3"/>
         <EditorCategories value="Race:Zerg"/>
     </CModel>
+    <CModel id="StimpackStartImpact3" parent="OneShotSpellFX">
+        <Model value="Assets\Effects\Terran\StimpackStartImpact\StimpackStartImpact.m3"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CModel>
     <CModel id="Stimpack_BlackOpsEndImpact">
         <EditorCategories value="Race:Zerg"/>
     </CModel>
     <CModel id="Stimpack_BlackOpsEndImpact2" parent="OneShotSpellFX">
+        <Model value="Assets\Effects\Terran\StimpackEndImpact\StimpackEndImpact.m3"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CModel>
+    <CModel id="Stimpack_BlackOpsEndImpact3" parent="OneShotSpellFX">
         <Model value="Assets\Effects\Terran\StimpackEndImpact\StimpackEndImpact.m3"/>
         <EditorCategories value="Race:Zerg"/>
     </CModel>
@@ -191,8 +330,25 @@
         <SelectionRadius value="0.333200"/>
         <ShadowRadius value="0.333200"/>
     </CModel>
+    <CModel id="TerranAOECursorSplat2" parent="UI">
+        <Model value="Assets\UI\Cursors\TerranAOECursor\TerranAOECursor.m3"/>
+        <EditorCategories value="Race:Terran"/>
+        <ScaleMax value="2.200000,2.200000,2.200000"/>
+        <ScaleMin value="2.200000,2.200000,2.200000"/>
+        <SelectionRadius value="2.500000"/>
+        <ShadowRadius value="2.500000"/>
+    </CModel>
     <CModel id="TerranSmallBiologicalUnitDeathLow">
         <EditorCategories value="Race:Zerg"/>
+    </CModel>
+    <CModel id="TerranSmallBiologicalUnitDeathLow2" parent="UnitDeath" Race="Terran">
+        <Model value="Assets\Effects\Zerg\ZergSmallUnitDeath\ZergSmallUnitDeath_low.m3"/>
+        <EditorCategories value="Race:Zerg"/>
+        <Flags index="TeenSafe" value="1"/>
+        <ScaleMax value="0.900000,0.900000,0.900000"/>
+        <ScaleMin value="0.900000,0.900000,0.900000"/>
+        <SelectionRadius value="0.454300"/>
+        <ShadowRadius value="0.454300"/>
     </CModel>
     <CModel id="TerranSmallUnitDeathLow">
         <EditorCategories value="Race:Zerg"/>
@@ -222,6 +378,27 @@
         <SelectionRadius value="0.454300"/>
         <ShadowRadius value="0.454300"/>
     </CModel>
+    <CModel id="TerranSmallUnitDeathLow5" parent="UnitDeath" Race="Terran">
+        <Model value="Assets\Effects\Terran\TerranSmallUnitDeath\TerranSmallUnitDeath_Low.m3"/>
+        <EditorCategories value="Race:Zerg"/>
+        <Flags index="TeenSafe" value="1"/>
+        <ScaleMax value="1.100000,1.100000,1.100000"/>
+        <ScaleMin value="1.100000,1.100000,1.100000"/>
+        <SelectionRadius value="0.454300"/>
+        <ShadowRadius value="0.454300"/>
+    </CModel>
+    <CModel id="TossGrenadeImpact2" parent="ImpactFX">
+        <Model value="Assets\Effects\Terran\MiraHorner_NapalmBomb_Coop_Explosion\MiraHorner_NapalmBomb_Coop_Explosion.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="TossGrenadeWeapon2" parent="MissileFX">
+        <Model value="Assets\Effects\Terran\PodMissile\PodMissile.m3"/>
+        <EditorCategories value="Race:Terran"/>
+        <ScaleMax value="0.600000,0.600000,0.600000"/>
+        <ScaleMin value="0.600000,0.600000,0.600000"/>
+        <SelectionRadius value="0.833200"/>
+        <ShadowRadius value="0.833200"/>
+    </CModel>
     <CModel id="ZergSmallUnitDeathLow2" parent="UnitDeath" Race="Zerg">
         <Model value="Assets\Effects\Zerg\ZergSmallUnitDeath\ZergSmallUnitDeath_low.m3"/>
         <Flags index="TeenSafe" value="1"/>
@@ -241,6 +418,15 @@
         <ShadowRadius value="0.625000"/>
     </CModel>
     <CModel id="ZergSmallUnitDeathLow4" parent="UnitDeath" Race="Zerg">
+        <Model value="Assets\Effects\Zerg\ZergSmallUnitDeath\ZergSmallUnitDeath_low.m3"/>
+        <Flags index="TeenSafe" value="1"/>
+        <Occlusion value="Show"/>
+        <ScaleMax value="0.800000,0.800000,0.800000"/>
+        <ScaleMin value="0.800000,0.800000,0.800000"/>
+        <SelectionRadius value="0.625000"/>
+        <ShadowRadius value="0.625000"/>
+    </CModel>
+    <CModel id="ZergSmallUnitDeathLow5" parent="UnitDeath" Race="Zerg">
         <Model value="Assets\Effects\Zerg\ZergSmallUnitDeath\ZergSmallUnitDeath_low.m3"/>
         <Flags index="TeenSafe" value="1"/>
         <Occlusion value="Show"/>

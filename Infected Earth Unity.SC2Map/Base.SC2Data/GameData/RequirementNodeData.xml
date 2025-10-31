@@ -4,4 +4,15 @@
         <Flags index="TechTreeCheat" value="1"/>
         <Link value="StimpackZerg"/>
     </CRequirementAllowAbil>
+    <CRequirementCountUpgrade id="CountUpgradeStimpackCompleteOnly2">
+        <Count Link="StimpackDeRaynor" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeStimpackCompleteOnly80611996TechTreeCheat2">
+        <Tooltip value="RequirementNode/Tooltip/CountUpgradeStimpackCompleteOnly80611996"/>
+        <Count Link="StimpackDeRaynor" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeStimpackQueuedOrBetter2">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="StimpackDeRaynor" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
 </Catalog>

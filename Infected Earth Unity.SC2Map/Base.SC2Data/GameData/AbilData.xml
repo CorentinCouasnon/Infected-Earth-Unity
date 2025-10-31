@@ -124,6 +124,33 @@
             <Button DefaultButtonFace="EvolveBileLauncherBombardmentCooldown" Requirements="LearnBileLauncherBombardmentCooldown"/>
         </InfoArray>
     </CAbilResearch>
+    <CAbilEffectInstant id="StimpackDeRaynor">
+        <AbilSetId value="Stimpack"/>
+        <EditorCategories value="Race:Terran,AbilityorEffectType:Units"/>
+        <InfoTooltipPriority value="3"/>
+        <Effect index="0" value="StimSetEffect"/>
+        <Flags index="Transient" value="1"/>
+        <Cost>
+            <Display index="Energy" value="1"/>
+            <Vital index="Energy" value="50"/>
+            <Cooldown TimeUse="15"/>
+        </Cost>
+        <AINotifyEffect value="Stimpack"/>
+        <LevelButtonName value="Augmente la vitesse de déplacement et rend 250HP"/>
+        <LearnButtonName value="Augmente la vitesse de déplacement et rend 250HP"/>
+        <LearnButtonTooltip value="Augmente la vitesse de déplacement et la vitesse d&apos;attaque pendant 10 secondes. Régénère également 250 HP instantanément."/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="Stim2" Requirements="UseStimpack3">
+            <Flags index="ToSelection" value="1"/>
+        </CmdButtonArray>
+    </CAbilEffectInstant>
+    <CAbilRedirectInstant id="StimpackRedirect2">
+        <AbilSetId value="Stimpack"/>
+        <InfoTooltipPriority value="2"/>
+        <Abil value="StimpackDeRaynor"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="StimRedirect" Requirements="UseStimpack">
+            <Flags index="ToSelection" value="1"/>
+        </CmdButtonArray>
+    </CAbilRedirectInstant>
     <CAbilEffectInstant id="StimpackZerg">
         <AbilSetId value="Damage augment"/>
         <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
@@ -139,13 +166,6 @@
             <Flags index="ToSelection" value="1"/>
         </CmdButtonArray>
     </CAbilEffectInstant>
-    <CAbilRedirectInstant id="StimpackRedirect2">
-        <AbilSetId value="Stimpack"/>
-        <Abil value="Stimpack"/>
-        <CmdButtonArray index="Execute" DefaultButtonFace="StimRedirect" Requirements="UseStimpack">
-            <Flags index="ToSelection" value="1"/>
-        </CmdButtonArray>
-    </CAbilRedirectInstant>
     <CAbilEffectInstant id="TaurenStimpack2">
         <AbilSetId value="Stimpack"/>
         <EditorCategories value="Race:Terran,AbilityorEffectType:Units"/>
@@ -157,6 +177,32 @@
             <Flags index="ToSelection" value="1"/>
         </CmdButtonArray>
     </CAbilEffectInstant>
+    <CAbilEffectTarget id="GrenadeStarfoulah">
+        <Alignment value="Negative"/>
+        <EditorCategories value="Race:Terran,AbilityorEffectType:Units"/>
+        <Effect index="0" value="TossGrenadeLaunchMissile2"/>
+        <Flags index="AllowMovement" value="1"/>
+        <Flags index="AutoCast" value="1"/>
+        <Cost>
+            <Display index="Energy" value="1"/>
+            <Vital index="Energy" value="40"/>
+            <Charge>
+                <CountMax value="10"/>
+                <CountStart value="10"/>
+                <CountUse value="1"/>
+                <Link value="RaynorTossGrenadeRaynorTossGrenade2RaynorTossGrenadeRaynorGrenadeStarfoulah"/>
+                <Location value="Unit"/>
+                <TimeUse value="15"/>
+            </Charge>
+            <Cooldown TimeUse="4"/>
+        </Cost>
+        <Range value="12"/>
+        <SmartPriority value="3"/>
+        <PrepTime value="0.01"/>
+        <CursorEffect value="TossGrenadeDamage2"/>
+        <AcquirePriority value="10"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="TossGrenade2"/>
+    </CAbilEffectTarget>
     <CAbilAttack id="attack2">
         <TargetMessage value="Abil/TargetMessage/attack2"/>
         <MinAttackSpeedMultiplier value="0.25"/>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CUpgrade id="RaynorCommanderStimUpgrade2">
+        <Flags index="UpgradeCheat" value="0"/>
+        <EffectArray Operation="Subtract" Reference="Abil,StimpackDeRaynor,Cost[0].Vital[Life]" Value="5"/>
+        <EffectArray Operation="Subtract" Reference="Abil,StimpackMarauder,Cost[0].Vital[Life]" Value="10"/>
+        <EffectArray Operation="Subtract" Reference="Abil,StimpackHERC,Cost[0].Vital[Life]" Value="10"/>
+        <EffectArray Operation="Set" Reference="Behavior,Stimpack,Modification.AttackSpeedMultiplier" Value="1.75"/>
+        <EffectArray Operation="Set" Reference="Behavior,StimpackMarauder,Modification.AttackSpeedMultiplier" Value="1.75"/>
+        <EditorCategories value="Race:Terran,UpgradeType:Talents"/>
+        <AffectedUnitArray value="Marine"/>
+        <AffectedUnitArray value="Marauder"/>
+        <AffectedUnitArray value="Firebat"/>
+        <AffectedUnitArray value="WarPig"/>
+        <AffectedUnitArray value="HammerSecurity"/>
+        <AffectedUnitArray value="DevilDog"/>
+        <LeaderAlias value=""/>
+    </CUpgrade>
+    <CUpgrade id="StimDamageUpgrade2">
+        <Flags index="UpgradeCheat" value="0"/>
+        <EffectArray Operation="Subtract" Reference="Abil,StimpackDeRaynor,Cost[0].Vital[Life]" Value="5"/>
+        <EditorCategories value="Race:Terran,UpgradeType:Talents"/>
+        <AffectedUnitArray value="Marine"/>
+    </CUpgrade>
+</Catalog>

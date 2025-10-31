@@ -20,4 +20,7 @@
             <Bits index="GroundNoSpawn" value="1"/>
         </PlacementArray>
     </CMoverAvoid>
+    <CMoverMissile id="TossGrenade2">
+        <MotionPhases Driver="Ballistic" Gravity="12" FlightTime="0.5"/>
+    </CMoverMissile>
 </Catalog>

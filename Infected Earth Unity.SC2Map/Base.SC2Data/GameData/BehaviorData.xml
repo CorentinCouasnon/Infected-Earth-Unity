@@ -18,6 +18,14 @@
         <Duration value="15"/>
         <Modification MoveSpeedMultiplier="1.5" AttackSpeedMultiplier="1.5"/>
     </CBehaviorBuff>
+    <CBehaviorBuff id="StimpackDeRaynor">
+        <InfoTooltipPriority value="1"/>
+        <Alignment value="Positive"/>
+        <InfoIcon value="Assets\Textures\btn-ability-terran-stimpack.dds"/>
+        <EditorCategories value="Race:Terran,AbilityorEffectType:Units"/>
+        <Duration value="10"/>
+        <Modification MoveSpeedMultiplier="1.5" AttackSpeedMultiplier="2"/>
+    </CBehaviorBuff>
     <CBehaviorBuff id="ZerglingArmorShredTarget2">
         <InfoIcon value="Assets\Textures\btn-upgrade-zerg-tunnelingclaws.dds"/>
         <EditorCategories value="AbilityorEffectType:Units,Race:Zerg"/>
