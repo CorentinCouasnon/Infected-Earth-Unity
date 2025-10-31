@@ -98,6 +98,7 @@ SimpleDisplay/Attack4=<s val="@@@SimpleCommandRow">%hotkey</c> then</s> <IMG pat
 SimpleDisplay/Move2=<IMG path="Assets\Textures\tutorialmouserightbuttondown.dds" alignment="absolutemiddle"/> <s val="@@@SimpleCommandRow">to Move</s>
 SimpleDisplay/Move3=<IMG path="Assets\Textures\tutorialmouserightbuttondown.dds" alignment="absolutemiddle"/> <s val="@@@SimpleCommandRow">to Move</s>
 SimpleDisplay/Move4=<IMG path="Assets\Textures\tutorialmouserightbuttondown.dds" alignment="absolutemiddle"/> <s val="@@@SimpleCommandRow">to Move</s>
+Unit/Name/AbathurLavaWorm=AbathurLavaWorm Decoration
 Unit/Name/Baneling2=Baneling
 Unit/Name/Baneling22=Baneling
 Unit/Name/Baneling3=Baneling

@@ -4,9 +4,9 @@
 <Actor id="Aiur_EnergyWall"/>
 <Actor id="Aiur_Temple_GiantWalls_Long" Variations="1,2,3"/>
 <Actor id="CompoundMansion_Mengsk_Statue"/>
+<Actor id="Elsecaro_Mengsk_Statue"/>
 <Actor id="PortCity_Fountain_Destroyed" Variations="1"/>
 <Actor id="PortCity_StreetLightPost" Variations="1"/>
-<Actor id="ProtossBase_Wall" Variations="0"/>
 <Actor id="Protoss_Base_Core_Trims" Variations="2"/>
 <Actor id="Protoss_Base_RepairBay_Broken"/>
 <Actor id="Purifier_Protoss_Turret_Med"/>
@@ -20,6 +20,7 @@
 <Actor id="PathingBlocker1x1Doodad"/>
 <Actor id="PathingBlocker2x2Doodad"/>
 <Actor id="BuildingBlocker1x1Doodad"/>
+<Actor id="PathingandSightBlocker1x1Doodad"/>
 <Actor id="NewFolsomSandbags" Variations="0,1,2,3,4,5,6,7"/>
 <Actor id="RockVolcanicGiant" Variations="0,1,2,5"/>
 <Actor id="RooftopEntrance"/>
@@ -28,7 +29,7 @@
 <Actor id="TRaynor01RadarDish"/>
 <Terrain id="KorhalWastes"/>
 <TerrainObject id="TerrainObjectCharNydusNest2"/>
-<Unit id="Zergling"/>
+<Unit id="UnbuildableRocksDestructible" Variations="0"/>
 <Unit id="XelNaga_Caverns_DoorEOpened"/>
 <Unit id="XelNaga_Caverns_DoorNE"/>
 <Unit id="XelNaga_Caverns_DoorNOpened"/>
@@ -37,5 +38,18 @@
 <Unit id="XelNaga_Caverns_DoorSOpened"/>
 <Unit id="XelNaga_Caverns_DoorSW"/>
 <Unit id="XelNaga_Caverns_DoorWOpened"/>
+<Unit id="DestructibleRockEx12x6Horizontal"/>
+<Unit id="CollapsiblePurifierTowerDebris"/>
+<Unit id="PurifierRichMineralField750" Variations="0,5,8"/>
+<Unit id="Purifier_DoorSmallN" Variations="1"/>
+<Unit id="Purifier_DoorSmallNE" Variations="1"/>
+<Unit id="Purifier_DoorSmallELowered" Variations="0"/>
+<Unit id="Purifier_DoorN"/>
+<Unit id="Purifier_DoorNLowered"/>
+<Unit id="Purifier_DoorNE"/>
+<Unit id="Purifier_DoorE"/>
+<Unit id="PurifierCellBlock8x8C"/>
+<Unit id="PurifierCoreMatrix"/>
+<Unit id="FenixAltarOfPsiStormsBrokenStage2"/>
 <Unit id="AbathurLavaWorm"/>
 </Preload>
