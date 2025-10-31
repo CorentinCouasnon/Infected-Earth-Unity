@@ -28,7 +28,7 @@
 <Actor id="TRaynor01RadarDish"/>
 <Terrain id="KorhalWastes"/>
 <TerrainObject id="TerrainObjectCharNydusNest2"/>
-<Unit id="Marine"/>
+<Unit id="Zergling"/>
 <Unit id="XelNaga_Caverns_DoorEOpened"/>
 <Unit id="XelNaga_Caverns_DoorNE"/>
 <Unit id="XelNaga_Caverns_DoorNOpened"/>
@@ -37,6 +37,5 @@
 <Unit id="XelNaga_Caverns_DoorSOpened"/>
 <Unit id="XelNaga_Caverns_DoorSW"/>
 <Unit id="XelNaga_Caverns_DoorWOpened"/>
-<Unit id="Raynor01"/>
 <Unit id="AbathurLavaWorm"/>
 </Preload>
