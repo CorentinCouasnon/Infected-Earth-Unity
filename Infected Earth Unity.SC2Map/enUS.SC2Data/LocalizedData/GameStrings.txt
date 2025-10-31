@@ -1,7 +1,11 @@
 ﻿Abil/Name/BurrowZerglingDown2=Burrow (Zergling)
+Abil/Name/EngineeringBayResearch2=Research (Engineering Bay)
+Abil/Name/EngineeringBayResearch22=Research (Engineering Bay)
+Abil/Name/EngineeringBayResearch3=Research (Engineering Bay)
 Abil/Name/Explode2=Explode
 Abil/Name/GrenadeStarfoulah=Grenade Starfoulah
 Abil/Name/MorphZerglingToBaneling2=Morph (Zergling -> Baneling)
+Abil/Name/SIEngineeringBayResearch2=Infested Engineering Bay Research
 Abil/Name/SpawningPoolResearch2=Research (Spawning Pool)
 Abil/Name/SpawningPoolResearch3=Research (Spawning Pool)
 Abil/Name/StimpackDeRaynor=StimpackDeRaynor
@@ -66,7 +70,9 @@ Button/Tooltip/Baneling3=Suicide unit. Does damage over a small area on death. <
 Button/Tooltip/BanelingCocoon2=This cocoon contains a Zergling that is morphing into a Baneling.
 Button/Tooltip/BurrowDown2=Buries the unit underground. Burrowed units are unable to move or attack, but they cannot be seen without detection.
 Button/Tooltip/BurrowDown3=Buries the unit underground. Burrowed units are unable to move or attack, but they cannot be seen without detection.
+Button/Tooltip/EngineeringBay2=Contains upgrades for Terran infantry and structures. <n/><n/><c val="ffff8a">Enables:</c><n/>- Missile Turrets from SCVs<n/>- Sensor Towers from SCVs<n/>- Planetary Fortresses from Command Centers
 Button/Tooltip/Explode2=The Baneling detonates where it is standing, damaging nearby enemy units and structures.
+Button/Tooltip/Ghost2=Sniper. Can use Snipe, EMP Round, and be upgraded to use Cloak. Can call down Tactical Nukes built at the Ghost Academy.<n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c>
 Button/Tooltip/HotSHunter2=Suicide unit. Deals damage over a small area upon death. Launches toward enemy at range 6.<n/><n/><c val="ffff8a">Can attack ground units.</c>
 Button/Tooltip/HotSRaptor2=Fast melee unit. Leaps over obstacles and onto targets from range. Deals increased damage. Can morph into a Baneling.<n/><n/><c val="FFFF8A">Can attack ground units.</c>
 Button/Tooltip/HotSRaptor3=Fast melee unit. Leaps over obstacles and onto targets from range. Deals increased damage. Can morph into a Baneling.<n/><n/><c val="FFFF8A">Can attack ground units.</c>
@@ -76,7 +82,11 @@ Button/Tooltip/HotSSwarmling2=Fast melee unit. Spawns in groups of three. Morphs
 Button/Tooltip/HotSSwarmling3=Fast melee unit. Spawns in groups of three. Morphs almost instantly. Can morph into a Baneling.<n/><n/><c val="FFFF8A">Can attack ground units.</c>
 Button/Tooltip/InfestedExploderBurrowed2=Suicide unit. Does damage over a small area on death. <n/><n/><c val="ffff8a">Can attack ground units.</c>
 Button/Tooltip/JimRaynorIEUHero=Raynor is an elite Marine with more life and a stronger attack. <n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c><n/>
+Button/Tooltip/MULE2=Prototype harvesting unit. Gathers minerals more quickly than regular SCVs. MULEs last <d time="90"/> before their systems fail.
+Button/Tooltip/Marauder2=Heavy assault infantry.<n/><n/><c val="#ColorAttackInfo">Can attack ground units.</c>
 Button/Tooltip/Marine2=General-purpose infantry.<n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c>
+Button/Tooltip/Marine3=General-purpose infantry.<n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c>
+Button/Tooltip/Marine4=General-purpose infantry.<n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c>
 Button/Tooltip/MasteryRaynorStim2DurationAppend=Augmente la vitesse de déplacement et la vitesse d'attaque pendant 10 secondes.<n/>Régénère également 250 HP instantanément.
 Button/Tooltip/MasteryRaynorStim3DurationAppend=<n/><n/><c val="FFFF8A">Mastery:</c> Increases duration by <c val="FFFF8A"><d ref="Effect,MasteryRaynorStimDurationDisplayDummy,Amount" precision="1"/></c> seconds.
 Button/Tooltip/MengskMarine2=General-purpose infantry. Part of Mengsk's elite guard.<n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c>
@@ -93,6 +103,9 @@ Button/Tooltip/MovePatrol3=Orders selected units to patrol between their current
 Button/Tooltip/MovePatrol4=Orders selected units to patrol between their current position and the target area. Units will attack enemies and move to engage nearby enemies.
 Button/Tooltip/MovePatrol5=Orders selected units to patrol between their current position and the target area. Units will attack enemies and move to engage nearby enemies.
 Button/Tooltip/Raynor2=Raynor is an elite Marine with more life and a stronger attack. <n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c><n/>
+Button/Tooltip/Reaper2=Raider. Capable of jumping up and down cliffs. <n/><n/><c val="#ColorAttackInfo">Can attack ground units.</c>
+Button/Tooltip/SCV2=Basic worker unit. Can gather resources, build Terran structures, and repair.<n/><n/><c val="#ColorAttackInfo">Can attack ground units.</c>
+Button/Tooltip/SIEngineeringBay2=Contains upgrades for Infested infantry and structures. <n/><n/><c val="ffff8a">Enables:</c><n/>- Infested Missile Turrets from Infested SCVs
 Button/Tooltip/Stim2=Augmente la vitesse de deplacement et la vitesse d attaque 
 Button/Tooltip/Stim3=Injects the unit with powerful stimulants that greatly increase attack and movement speeds for <d ref="Behavior,Stimpack,Duration" precision="1"/> seconds. Injures the unit for <d ref="Abil,Stimpack,Cost[0].Vital[Life]"/> of the unit's life.
 Button/Tooltip/Stop2=Orders selected units to cancel all orders and stop moving.
@@ -123,6 +136,7 @@ Je n'arrive pas à changer le texte que l'on voit en jeu quand on place la souri
 MapInfo/Player00/Name=Neutral
 MapInfo/Player01/Name=Player 1
 MapInfo/Player02/Name=Hostile
+RequirementNode/Tooltip/AllowAbilSJHyperionBanshees03622066930TechTreeCheat=Research Weapon Refit at the Fusion Core
 RequirementNode/Tooltip/AllowAbilStimpackZerg02357366498TechTreeCheat=Cc Umby c'est Siengeur
 SimpleDisplay/Attack2=<s val="@@@SimpleCommandRow">%hotkey</c> then</s> <IMG path="Assets\Textures\tutorialmouseleftbuttondown.dds" alignment="absolutemiddle"/> <s val="@@@SimpleCommandRow">ground to Auto-attack</s>
 SimpleDisplay/Attack3=<s val="@@@SimpleCommandRow">%hotkey</c> then</s> <IMG path="Assets\Textures\tutorialmouseleftbuttondown.dds" alignment="absolutemiddle"/> <s val="@@@SimpleCommandRow">ground to Auto-attack</s>
@@ -137,6 +151,8 @@ Unit/Name/Baneling2=Baneling
 Unit/Name/Baneling22=Baneling
 Unit/Name/Baneling3=Baneling
 Unit/Name/BanelingCocoon2=Baneling Cocoon
+Unit/Name/EngineeringBay2=Engineering Bay
+Unit/Name/Ghost2=Ghost
 Unit/Name/HotSHunter2=Baneling
 Unit/Name/HotSRaptor2=Zergling
 Unit/Name/HotSRaptor3=Zergling
@@ -145,13 +161,20 @@ Unit/Name/HotSSplitterlingMedium2=Baneling Spawn
 Unit/Name/HotSSwarmling2=Zergling
 Unit/Name/HotSSwarmling3=Zergling
 Unit/Name/JimRaynorIEUHero=Jim Raynor IEU Hero
+Unit/Name/MULE2=MULE
+Unit/Name/Marauder2=Marauder
 Unit/Name/Marine2=Marine
 Unit/Name/Marine3=Marine
+Unit/Name/Marine4=Marine
 Unit/Name/MengskMarine2=Son of Korhal
 Unit/Name/Raynor2=Jim Raynor
+Unit/Name/Reaper2=Reaper
+Unit/Name/SCV2=SCV
+Unit/Name/SIEngineeringBay2=Infested Engineering Bay
 Unit/Name/TaurenSpaceMarineBroken=Tauren Space Marine Broken
 Unit/Name/TossGrenadeWeapon2=Toss Grenade
 Unit/Name/WarPig2=War Pig
+Unit/Name/YamatoWeapon2=Yamato
 Unit/Name/Zergling=ZerglingStim1
 Unit/Name/Zergling3=Zergling
 Unit/Name/Zergling4=ZerglingStim
@@ -161,6 +184,7 @@ UnitSubtitle/HotSRaptor2=Raptor Strain
 UnitSubtitle/HotSRaptor3=Raptor Strain
 UnitSubtitle/HotSSwarmling2=Swarmling Strain
 UnitSubtitle/HotSSwarmling3=Swarmling Strain
+Upgrade/Name/RaynorCommanderArmorVanadium2=Raynor Commander Armor Vanadium
 Upgrade/Name/RaynorCommanderStimUpgrade2=Raynor Commander Stim Upgrade
 Upgrade/Name/StimDamageUpgrade2=Stim Damage Upgrade
 Weapon/Name/Claws3=Claws

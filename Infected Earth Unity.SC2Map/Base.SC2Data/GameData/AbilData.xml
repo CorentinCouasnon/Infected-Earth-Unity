@@ -24,6 +24,375 @@
             </SectionArray>
         </InfoArray>
     </CAbilMorph>
+    <CAbilResearch id="EngineeringBayResearch2">
+        <EditorCategories value="Race:Terran,AbilityorEffectType:Structures"/>
+        <InfoArray index="Research1" Time="60" Upgrade="HiSecAutoTracking">
+            <Resource index="Minerals" value="100"/>
+            <Resource index="Vespene" value="100"/>
+            <Button DefaultButtonFace="ResearchHiSecAutoTracking" State="Restricted" Requirements="LearnTerranDefenseRangeBonus"/>
+        </InfoArray>
+        <InfoArray index="Research2" Time="60" Upgrade="TerranBuildingArmor">
+            <Resource index="Minerals" value="100"/>
+            <Resource index="Vespene" value="100"/>
+            <Button DefaultButtonFace="UpgradeBuildingArmorLevel1" Requirements="LearnTerranBuildingArmor"/>
+        </InfoArray>
+        <InfoArray index="Research3" Time="160" Upgrade="TerranInfantryWeaponsLevel1">
+            <Resource index="Minerals" value="100"/>
+            <Resource index="Vespene" value="100"/>
+            <Button DefaultButtonFace="TerranInfantryWeaponsLevel1" State="Restricted" Requirements="LearnTerranInfantryWeapon1"/>
+        </InfoArray>
+        <InfoArray index="Research4" Time="190" Upgrade="TerranInfantryWeaponsLevel2">
+            <Resource index="Minerals" value="175"/>
+            <Resource index="Vespene" value="175"/>
+            <Button DefaultButtonFace="TerranInfantryWeaponsLevel2" State="Restricted" Requirements="LearnTerranInfantryWeapon2"/>
+        </InfoArray>
+        <InfoArray index="Research5" Time="220" Upgrade="TerranInfantryWeaponsLevel3">
+            <Resource index="Minerals" value="250"/>
+            <Resource index="Vespene" value="250"/>
+            <Button DefaultButtonFace="TerranInfantryWeaponsLevel3" State="Restricted" Requirements="LearnTerranInfantryWeapon3"/>
+        </InfoArray>
+        <InfoArray index="Research6" Time="60" Upgrade="NeosteelFrame">
+            <Resource index="Minerals" value="100"/>
+            <Resource index="Vespene" value="100"/>
+            <Button DefaultButtonFace="ResearchNeosteelFrame" State="Restricted" Requirements="LearnNeosteelFrame"/>
+        </InfoArray>
+        <InfoArray index="Research7" Time="160" Upgrade="TerranInfantryArmorsLevel13">
+            <Resource index="Minerals" value="100"/>
+            <Resource index="Vespene" value="100"/>
+            <Button DefaultButtonFace="TerranInfantryArmorLevel1" State="Restricted" Requirements="LearnTerranInfantryArmor1"/>
+        </InfoArray>
+        <InfoArray index="Research8" Time="190" Upgrade="TerranInfantryArmorsLevel2">
+            <Resource index="Minerals" value="175"/>
+            <Resource index="Vespene" value="175"/>
+            <Button DefaultButtonFace="TerranInfantryArmorLevel2" State="Restricted" Requirements="LearnTerranInfantryArmor2"/>
+        </InfoArray>
+        <InfoArray index="Research9" Time="220" Upgrade="TerranInfantryArmorsLevel3">
+            <Resource index="Minerals" value="250"/>
+            <Resource index="Vespene" value="250"/>
+            <Button DefaultButtonFace="TerranInfantryArmorLevel3" State="Restricted" Requirements="LearnTerranInfantryArmor3"/>
+        </InfoArray>
+        <InfoArray index="Research11" Time="170" Upgrade="TerranInfantryWeaponsUltraCapacitorsLevel1">
+            <Resource index="Minerals" value="100"/>
+            <Resource index="Vespene" value="100"/>
+            <Button DefaultButtonFace="TerranInfantryWeaponsUltraCapacitorsLevel1" State="Restricted" Requirements="LearnTerranInfantryWeaponUltraCapacitors1"/>
+        </InfoArray>
+        <InfoArray index="Research12" Time="200" Upgrade="TerranInfantryWeaponsUltraCapacitorsLevel2">
+            <Resource index="Minerals" value="175"/>
+            <Resource index="Vespene" value="175"/>
+            <Button DefaultButtonFace="TerranInfantryWeaponsUltraCapacitorsLevel2" State="Restricted" Requirements="LearnTerranInfantryWeaponUltraCapacitors2"/>
+        </InfoArray>
+        <InfoArray index="Research13" Time="230" Upgrade="TerranInfantryWeaponsUltraCapacitorsLevel3">
+            <Resource index="Minerals" value="250"/>
+            <Resource index="Vespene" value="250"/>
+            <Button DefaultButtonFace="TerranInfantryWeaponsUltraCapacitorsLevel3" State="Restricted" Requirements="LearnTerranInfantryWeaponUltraCapacitors3"/>
+        </InfoArray>
+        <InfoArray index="Research14" Time="170" Upgrade="TerranInfantryArmorsVanadiumPlatingLevel1">
+            <Resource index="Minerals" value="100"/>
+            <Resource index="Vespene" value="100"/>
+            <Button DefaultButtonFace="TerranInfantryArmorVanadiumPlatingLevel1" State="Restricted" Requirements="LearnTerranInfantryArmorVanadiumPlating1"/>
+        </InfoArray>
+        <InfoArray index="Research15" Time="200" Upgrade="TerranInfantryArmorsVanadiumPlatingLevel2">
+            <Resource index="Minerals" value="175"/>
+            <Resource index="Vespene" value="175"/>
+            <Button DefaultButtonFace="TerranInfantryArmorVanadiumPlatingLevel2" State="Restricted" Requirements="LearnTerranInfantryArmorVanadiumPlating2"/>
+        </InfoArray>
+        <InfoArray index="Research16" Time="230" Upgrade="TerranInfantryArmorsVanadiumPlatingLevel3">
+            <Resource index="Minerals" value="250"/>
+            <Resource index="Vespene" value="250"/>
+            <Button DefaultButtonFace="TerranInfantryArmorVanadiumPlatingLevel3" State="Restricted" Requirements="SS_ScoutCollisionCheck"/>
+        </InfoArray>
+        <InfoArray index="Research17" Time="60" Upgrade="HailstormMissilePods">
+            <Resource index="Minerals" value="50"/>
+            <Resource index="Vespene" value="50"/>
+            <Button DefaultButtonFace="ResearchHellstormBatteries" State="Restricted" Requirements="LearnHellstormBatteries"/>
+        </InfoArray>
+        <InfoArray index="Research18" Time="60" Upgrade="HiSecAutoTracking">
+            <Resource index="Minerals" value="100"/>
+            <Resource index="Vespene" value="100"/>
+            <Button DefaultButtonFace="ResearchSwannHiSecAutoTracking" Requirements="ResearchSwannHiSecAutoTracking"/>
+        </InfoArray>
+        <InfoArray index="Research19" Time="220" Upgrade="TerranInfantryWeaponsLevel4">
+            <Resource index="Minerals" value="250"/>
+            <Resource index="Vespene" value="250"/>
+            <Button DefaultButtonFace="TerranInfantryWeaponsLevel4" State="Restricted" Requirements="LearnTerranInfantryWeapon4"/>
+        </InfoArray>
+        <InfoArray index="Research20" Time="220" Upgrade="TerranInfantryArmorsLevel4">
+            <Resource index="Minerals" value="250"/>
+            <Resource index="Vespene" value="250"/>
+            <Button DefaultButtonFace="TerranInfantryArmorLevel4" State="Restricted" Requirements="LearnTerranInfantryArmor4"/>
+        </InfoArray>
+        <InfoArray index="Research21" Time="60" Upgrade="FireSuppressionSystems">
+            <Resource index="Minerals" value="100"/>
+            <Resource index="Vespene" value="100"/>
+            <Button DefaultButtonFace="ResearchFireSuppressionSystems" State="Restricted" Requirements="LearnFireSuppressionSystems"/>
+        </InfoArray>
+        <InfoArray index="Research22" Time="60" Upgrade="DualFusionWelders">
+            <Resource index="Minerals" value="100"/>
+            <Resource index="Vespene" value="100"/>
+            <Button DefaultButtonFace="ResearchDualFusionWelders" State="Restricted" Requirements="LearnDualFusionWelders"/>
+        </InfoArray>
+        <InfoArray index="Research23" Time="90" Upgrade="SwannTurretIncreasedAttackSpeed">
+            <Resource index="Minerals" value="150"/>
+            <Resource index="Vespene" value="150"/>
+            <Button DefaultButtonFace="ResearchImprovedTurretAttackSpeed" State="Restricted" Requirements="LearnSwannTurretIncreasedAttackSpeed"/>
+        </InfoArray>
+        <InfoArray index="Research24" Time="60" Upgrade="ShrikeTurret">
+            <Resource index="Minerals" value="100"/>
+            <Resource index="Vespene" value="100"/>
+            <Button DefaultButtonFace="ResearchShrikeTurret" State="Restricted" Requirements="LearnShrikeTurret"/>
+        </InfoArray>
+        <InfoArray index="Research25" Time="60" Upgrade="FortifiedBunkerCarapace">
+            <Resource index="Minerals" value="100"/>
+            <Resource index="Vespene" value="100"/>
+            <Button DefaultButtonFace="ResearchFortifiedBunker" State="Restricted" Requirements="LearnFortifiedBunker"/>
+        </InfoArray>
+    </CAbilResearch>
+    <CAbilResearch id="EngineeringBayResearch22">
+        <EditorCategories value="Race:Terran,AbilityorEffectType:Structures"/>
+        <InfoArray index="Research1" Time="60" Upgrade="HiSecAutoTracking">
+            <Resource index="Minerals" value="100"/>
+            <Resource index="Vespene" value="100"/>
+            <Button DefaultButtonFace="ResearchHiSecAutoTracking" State="Restricted" Requirements="LearnTerranDefenseRangeBonus"/>
+        </InfoArray>
+        <InfoArray index="Research2" Time="60" Upgrade="TerranBuildingArmor">
+            <Resource index="Minerals" value="100"/>
+            <Resource index="Vespene" value="100"/>
+            <Button DefaultButtonFace="UpgradeBuildingArmorLevel1" Requirements="LearnTerranBuildingArmor"/>
+        </InfoArray>
+        <InfoArray index="Research3" Time="160" Upgrade="TerranInfantryWeaponsLevel1">
+            <Resource index="Minerals" value="100"/>
+            <Resource index="Vespene" value="100"/>
+            <Button DefaultButtonFace="TerranInfantryWeaponsLevel1" State="Restricted" Requirements="LearnTerranInfantryWeapon1"/>
+        </InfoArray>
+        <InfoArray index="Research4" Time="190" Upgrade="TerranInfantryWeaponsLevel2">
+            <Resource index="Minerals" value="175"/>
+            <Resource index="Vespene" value="175"/>
+            <Button DefaultButtonFace="TerranInfantryWeaponsLevel2" State="Restricted" Requirements="LearnTerranInfantryWeapon2"/>
+        </InfoArray>
+        <InfoArray index="Research5" Time="220" Upgrade="TerranInfantryWeaponsLevel3">
+            <Resource index="Minerals" value="250"/>
+            <Resource index="Vespene" value="250"/>
+            <Button DefaultButtonFace="TerranInfantryWeaponsLevel3" State="Restricted" Requirements="LearnTerranInfantryWeapon3"/>
+        </InfoArray>
+        <InfoArray index="Research6" Time="60" Upgrade="NeosteelFrame">
+            <Resource index="Minerals" value="100"/>
+            <Resource index="Vespene" value="100"/>
+            <Button DefaultButtonFace="ResearchNeosteelFrame" State="Restricted" Requirements="LearnNeosteelFrame"/>
+        </InfoArray>
+        <InfoArray index="Research7" Time="160" Upgrade="TerranInfantryArmorsLevel13">
+            <Resource index="Minerals" value="100"/>
+            <Resource index="Vespene" value="100"/>
+            <Button DefaultButtonFace="UpgradeArmorInfantryRaynor" State="Restricted" Requirements="LearnTerranInfantryArmor1"/>
+        </InfoArray>
+        <InfoArray index="Research8" Time="190" Upgrade="TerranInfantryArmorsLevel2">
+            <Resource index="Minerals" value="175"/>
+            <Resource index="Vespene" value="175"/>
+            <Button DefaultButtonFace="TerranInfantryArmorLevel2" State="Restricted" Requirements="LearnTerranInfantryArmor2"/>
+        </InfoArray>
+        <InfoArray index="Research9" Time="220" Upgrade="TerranInfantryArmorsLevel3">
+            <Resource index="Minerals" value="250"/>
+            <Resource index="Vespene" value="250"/>
+            <Button DefaultButtonFace="TerranInfantryArmorLevel3" State="Restricted" Requirements="LearnTerranInfantryArmor3"/>
+        </InfoArray>
+        <InfoArray index="Research11" Time="170" Upgrade="TerranInfantryWeaponsUltraCapacitorsLevel1">
+            <Resource index="Minerals" value="100"/>
+            <Resource index="Vespene" value="100"/>
+            <Button DefaultButtonFace="TerranInfantryWeaponsUltraCapacitorsLevel1" State="Restricted" Requirements="LearnTerranInfantryWeaponUltraCapacitors1"/>
+        </InfoArray>
+        <InfoArray index="Research12" Time="200" Upgrade="TerranInfantryWeaponsUltraCapacitorsLevel2">
+            <Resource index="Minerals" value="175"/>
+            <Resource index="Vespene" value="175"/>
+            <Button DefaultButtonFace="TerranInfantryWeaponsUltraCapacitorsLevel2" State="Restricted" Requirements="LearnTerranInfantryWeaponUltraCapacitors2"/>
+        </InfoArray>
+        <InfoArray index="Research13" Time="230" Upgrade="TerranInfantryWeaponsUltraCapacitorsLevel3">
+            <Resource index="Minerals" value="250"/>
+            <Resource index="Vespene" value="250"/>
+            <Button DefaultButtonFace="TerranInfantryWeaponsUltraCapacitorsLevel3" State="Restricted" Requirements="LearnTerranInfantryWeaponUltraCapacitors3"/>
+        </InfoArray>
+        <InfoArray index="Research14" Time="170" Upgrade="TerranInfantryArmorsVanadiumPlatingLevel1">
+            <Resource index="Minerals" value="100"/>
+            <Resource index="Vespene" value="100"/>
+            <Button DefaultButtonFace="TerranInfantryArmorVanadiumPlatingLevel1" State="Restricted" Requirements="LearnTerranInfantryArmorVanadiumPlating1"/>
+        </InfoArray>
+        <InfoArray index="Research15" Time="200" Upgrade="TerranInfantryArmorsVanadiumPlatingLevel2">
+            <Resource index="Minerals" value="175"/>
+            <Resource index="Vespene" value="175"/>
+            <Button DefaultButtonFace="TerranInfantryArmorVanadiumPlatingLevel2" State="Restricted" Requirements="LearnTerranInfantryArmorVanadiumPlating2"/>
+        </InfoArray>
+        <InfoArray index="Research16" Time="230" Upgrade="TerranInfantryArmorsVanadiumPlatingLevel3">
+            <Resource index="Minerals" value="250"/>
+            <Resource index="Vespene" value="250"/>
+            <Button DefaultButtonFace="TerranInfantryArmorVanadiumPlatingLevel3" State="Restricted" Requirements="SS_ScoutCollisionCheck"/>
+        </InfoArray>
+        <InfoArray index="Research17" Time="60" Upgrade="HailstormMissilePods">
+            <Resource index="Minerals" value="50"/>
+            <Resource index="Vespene" value="50"/>
+            <Button DefaultButtonFace="ResearchHellstormBatteries" State="Restricted" Requirements="LearnHellstormBatteries"/>
+        </InfoArray>
+        <InfoArray index="Research18" Time="60" Upgrade="HiSecAutoTracking">
+            <Resource index="Minerals" value="100"/>
+            <Resource index="Vespene" value="100"/>
+            <Button DefaultButtonFace="ResearchSwannHiSecAutoTracking" Requirements="ResearchSwannHiSecAutoTracking"/>
+        </InfoArray>
+        <InfoArray index="Research19" Time="220" Upgrade="TerranInfantryWeaponsLevel4">
+            <Resource index="Minerals" value="250"/>
+            <Resource index="Vespene" value="250"/>
+            <Button DefaultButtonFace="TerranInfantryWeaponsLevel4" State="Restricted" Requirements="LearnTerranInfantryWeapon4"/>
+        </InfoArray>
+        <InfoArray index="Research20" Time="220" Upgrade="TerranInfantryArmorsLevel4">
+            <Resource index="Minerals" value="250"/>
+            <Resource index="Vespene" value="250"/>
+            <Button DefaultButtonFace="TerranInfantryArmorLevel4" State="Restricted" Requirements="LearnTerranInfantryArmor4"/>
+        </InfoArray>
+        <InfoArray index="Research21" Time="60" Upgrade="FireSuppressionSystems">
+            <Resource index="Minerals" value="100"/>
+            <Resource index="Vespene" value="100"/>
+            <Button DefaultButtonFace="ResearchFireSuppressionSystems" State="Restricted" Requirements="LearnFireSuppressionSystems"/>
+        </InfoArray>
+        <InfoArray index="Research22" Time="60" Upgrade="DualFusionWelders">
+            <Resource index="Minerals" value="100"/>
+            <Resource index="Vespene" value="100"/>
+            <Button DefaultButtonFace="ResearchDualFusionWelders" State="Restricted" Requirements="LearnDualFusionWelders"/>
+        </InfoArray>
+        <InfoArray index="Research23" Time="90" Upgrade="SwannTurretIncreasedAttackSpeed">
+            <Resource index="Minerals" value="150"/>
+            <Resource index="Vespene" value="150"/>
+            <Button DefaultButtonFace="ResearchImprovedTurretAttackSpeed" State="Restricted" Requirements="LearnSwannTurretIncreasedAttackSpeed"/>
+        </InfoArray>
+        <InfoArray index="Research24" Time="60" Upgrade="ShrikeTurret">
+            <Resource index="Minerals" value="100"/>
+            <Resource index="Vespene" value="100"/>
+            <Button DefaultButtonFace="ResearchShrikeTurret" State="Restricted" Requirements="LearnShrikeTurret"/>
+        </InfoArray>
+        <InfoArray index="Research25" Time="60" Upgrade="FortifiedBunkerCarapace">
+            <Resource index="Minerals" value="100"/>
+            <Resource index="Vespene" value="100"/>
+            <Button DefaultButtonFace="ResearchFortifiedBunker" State="Restricted" Requirements="LearnFortifiedBunker"/>
+        </InfoArray>
+    </CAbilResearch>
+    <CAbilResearch id="EngineeringBayResearch3">
+        <EditorCategories value="Race:Terran,AbilityorEffectType:Structures"/>
+        <InfoArray index="Research1" Time="60" Upgrade="HiSecAutoTracking">
+            <Resource index="Minerals" value="100"/>
+            <Resource index="Vespene" value="100"/>
+            <Button DefaultButtonFace="ResearchHiSecAutoTracking" State="Restricted" Requirements="LearnTerranDefenseRangeBonus"/>
+        </InfoArray>
+        <InfoArray index="Research2" Time="60" Upgrade="TerranBuildingArmor">
+            <Resource index="Minerals" value="100"/>
+            <Resource index="Vespene" value="100"/>
+            <Button DefaultButtonFace="UpgradeBuildingArmorLevel1" Requirements="LearnTerranBuildingArmor"/>
+        </InfoArray>
+        <InfoArray index="Research3" Time="160" Upgrade="TerranInfantryWeaponsLevel1">
+            <Resource index="Minerals" value="100"/>
+            <Resource index="Vespene" value="100"/>
+            <Button DefaultButtonFace="TerranInfantryWeaponsLevel1" State="Restricted" Requirements="LearnTerranInfantryWeapon1"/>
+        </InfoArray>
+        <InfoArray index="Research4" Time="190" Upgrade="TerranInfantryWeaponsLevel2">
+            <Resource index="Minerals" value="175"/>
+            <Resource index="Vespene" value="175"/>
+            <Button DefaultButtonFace="TerranInfantryWeaponsLevel2" State="Restricted" Requirements="LearnTerranInfantryWeapon2"/>
+        </InfoArray>
+        <InfoArray index="Research5" Time="220" Upgrade="TerranInfantryWeaponsLevel3">
+            <Resource index="Minerals" value="250"/>
+            <Resource index="Vespene" value="250"/>
+            <Button DefaultButtonFace="TerranInfantryWeaponsLevel3" State="Restricted" Requirements="LearnTerranInfantryWeapon3"/>
+        </InfoArray>
+        <InfoArray index="Research6" Time="60" Upgrade="NeosteelFrame">
+            <Resource index="Minerals" value="100"/>
+            <Resource index="Vespene" value="100"/>
+            <Button DefaultButtonFace="ResearchNeosteelFrame" State="Restricted" Requirements="LearnNeosteelFrame"/>
+        </InfoArray>
+        <InfoArray index="Research7" Time="160" Upgrade="TerranInfantryArmorsLevel1">
+            <Resource index="Minerals" value="100"/>
+            <Resource index="Vespene" value="100"/>
+            <Button DefaultButtonFace="UpgradeArmorInfantryRaynor" State="Restricted" Requirements="LearnTerranInfantryArmor1"/>
+        </InfoArray>
+        <InfoArray index="Research8" Time="190" Upgrade="TerranInfantryArmorsLevel2">
+            <Resource index="Minerals" value="175"/>
+            <Resource index="Vespene" value="175"/>
+            <Button DefaultButtonFace="TerranInfantryArmorLevel2" State="Restricted" Requirements="LearnTerranInfantryArmor2"/>
+        </InfoArray>
+        <InfoArray index="Research9" Time="220" Upgrade="TerranInfantryArmorsLevel3">
+            <Resource index="Minerals" value="250"/>
+            <Resource index="Vespene" value="250"/>
+            <Button DefaultButtonFace="TerranInfantryArmorLevel3" State="Restricted" Requirements="LearnTerranInfantryArmor3"/>
+        </InfoArray>
+        <InfoArray index="Research11" Time="170" Upgrade="TerranInfantryWeaponsUltraCapacitorsLevel1">
+            <Resource index="Minerals" value="100"/>
+            <Resource index="Vespene" value="100"/>
+            <Button DefaultButtonFace="TerranInfantryWeaponsUltraCapacitorsLevel1" State="Restricted" Requirements="LearnTerranInfantryWeaponUltraCapacitors1"/>
+        </InfoArray>
+        <InfoArray index="Research12" Time="200" Upgrade="TerranInfantryWeaponsUltraCapacitorsLevel2">
+            <Resource index="Minerals" value="175"/>
+            <Resource index="Vespene" value="175"/>
+            <Button DefaultButtonFace="TerranInfantryWeaponsUltraCapacitorsLevel2" State="Restricted" Requirements="LearnTerranInfantryWeaponUltraCapacitors2"/>
+        </InfoArray>
+        <InfoArray index="Research13" Time="230" Upgrade="TerranInfantryWeaponsUltraCapacitorsLevel3">
+            <Resource index="Minerals" value="250"/>
+            <Resource index="Vespene" value="250"/>
+            <Button DefaultButtonFace="TerranInfantryWeaponsUltraCapacitorsLevel3" State="Restricted" Requirements="LearnTerranInfantryWeaponUltraCapacitors3"/>
+        </InfoArray>
+        <InfoArray index="Research14" Time="170" Upgrade="TerranInfantryArmorsVanadiumPlatingLevel1">
+            <Resource index="Minerals" value="100"/>
+            <Resource index="Vespene" value="100"/>
+            <Button DefaultButtonFace="TerranInfantryArmorVanadiumPlatingLevel1" State="Restricted" Requirements="LearnTerranInfantryArmorVanadiumPlating1"/>
+        </InfoArray>
+        <InfoArray index="Research15" Time="200" Upgrade="TerranInfantryArmorsVanadiumPlatingLevel2">
+            <Resource index="Minerals" value="175"/>
+            <Resource index="Vespene" value="175"/>
+            <Button DefaultButtonFace="TerranInfantryArmorVanadiumPlatingLevel2" State="Restricted" Requirements="LearnTerranInfantryArmorVanadiumPlating2"/>
+        </InfoArray>
+        <InfoArray index="Research16" Time="230" Upgrade="TerranInfantryArmorsVanadiumPlatingLevel3">
+            <Resource index="Minerals" value="250"/>
+            <Resource index="Vespene" value="250"/>
+            <Button DefaultButtonFace="TerranInfantryArmorVanadiumPlatingLevel3" State="Restricted" Requirements="SS_ScoutCollisionCheck"/>
+        </InfoArray>
+        <InfoArray index="Research17" Time="60" Upgrade="HailstormMissilePods">
+            <Resource index="Minerals" value="50"/>
+            <Resource index="Vespene" value="50"/>
+            <Button DefaultButtonFace="ResearchHellstormBatteries" State="Restricted" Requirements="LearnHellstormBatteries"/>
+        </InfoArray>
+        <InfoArray index="Research18" Time="60" Upgrade="HiSecAutoTracking">
+            <Resource index="Minerals" value="100"/>
+            <Resource index="Vespene" value="100"/>
+            <Button DefaultButtonFace="ResearchSwannHiSecAutoTracking" Requirements="ResearchSwannHiSecAutoTracking"/>
+        </InfoArray>
+        <InfoArray index="Research19" Time="220" Upgrade="TerranInfantryWeaponsLevel4">
+            <Resource index="Minerals" value="250"/>
+            <Resource index="Vespene" value="250"/>
+            <Button DefaultButtonFace="TerranInfantryWeaponsLevel4" State="Restricted" Requirements="LearnTerranInfantryWeapon4"/>
+        </InfoArray>
+        <InfoArray index="Research20" Time="220" Upgrade="TerranInfantryArmorsLevel4">
+            <Resource index="Minerals" value="250"/>
+            <Resource index="Vespene" value="250"/>
+            <Button DefaultButtonFace="TerranInfantryArmorLevel4" State="Restricted" Requirements="LearnTerranInfantryArmor4"/>
+        </InfoArray>
+        <InfoArray index="Research21" Time="60" Upgrade="FireSuppressionSystems">
+            <Resource index="Minerals" value="100"/>
+            <Resource index="Vespene" value="100"/>
+            <Button DefaultButtonFace="ResearchFireSuppressionSystems" State="Restricted" Requirements="LearnFireSuppressionSystems"/>
+        </InfoArray>
+        <InfoArray index="Research22" Time="60" Upgrade="DualFusionWelders">
+            <Resource index="Minerals" value="100"/>
+            <Resource index="Vespene" value="100"/>
+            <Button DefaultButtonFace="ResearchDualFusionWelders" State="Restricted" Requirements="LearnDualFusionWelders"/>
+        </InfoArray>
+        <InfoArray index="Research23" Time="90" Upgrade="SwannTurretIncreasedAttackSpeed">
+            <Resource index="Minerals" value="150"/>
+            <Resource index="Vespene" value="150"/>
+            <Button DefaultButtonFace="ResearchImprovedTurretAttackSpeed" State="Restricted" Requirements="LearnSwannTurretIncreasedAttackSpeed"/>
+        </InfoArray>
+        <InfoArray index="Research24" Time="60" Upgrade="ShrikeTurret">
+            <Resource index="Minerals" value="100"/>
+            <Resource index="Vespene" value="100"/>
+            <Button DefaultButtonFace="ResearchShrikeTurret" State="Restricted" Requirements="LearnShrikeTurret"/>
+        </InfoArray>
+        <InfoArray index="Research25" Time="60" Upgrade="FortifiedBunkerCarapace">
+            <Resource index="Minerals" value="100"/>
+            <Resource index="Vespene" value="100"/>
+            <Button DefaultButtonFace="ResearchFortifiedBunker" State="Restricted" Requirements="LearnFortifiedBunker"/>
+        </InfoArray>
+    </CAbilResearch>
     <CAbilEffectInstant id="Explode2">
         <AbilSetId value="Explode"/>
         <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
@@ -58,6 +427,49 @@
         </InfoArray>
         <Alert value="MorphComplete_Zerg"/>
     </CAbilTrain>
+    <CAbilResearch id="SIEngineeringBayResearch2">
+        <EditorCategories value="Race:Zerg,AbilityorEffectType:Structures"/>
+        <InfoArray index="Research1" Time="160" Upgrade="SIInfantryWeaponsLevel1">
+            <Resource index="Minerals" value="100"/>
+            <Resource index="Vespene" value="100"/>
+            <Button DefaultButtonFace="TerranInfantryWeaponsLevel1" Requirements="SILearnInfantryWeapon1"/>
+        </InfoArray>
+        <InfoArray index="Research2" Time="190" Upgrade="SIInfantryWeaponsLevel2">
+            <Resource index="Minerals" value="150"/>
+            <Resource index="Vespene" value="150"/>
+            <Button DefaultButtonFace="TerranInfantryWeaponsLevel2" Requirements="SILearnInfantryWeapon2"/>
+        </InfoArray>
+        <InfoArray index="Research3" Time="220" Upgrade="SIInfantryWeaponsLevel3">
+            <Resource index="Minerals" value="200"/>
+            <Resource index="Vespene" value="200"/>
+            <Button DefaultButtonFace="TerranInfantryWeaponsLevel3" Requirements="SILearnInfantryWeapon3"/>
+        </InfoArray>
+        <InfoArray index="Research4" Time="160" Upgrade="SIInfantryArmorLevel1">
+            <Resource index="Minerals" value="100"/>
+            <Resource index="Vespene" value="100"/>
+            <Button DefaultButtonFace="UpgradeArmorInfantryRaynor" Requirements="SILearnInfantryArmor1"/>
+        </InfoArray>
+        <InfoArray index="Research5" Time="190" Upgrade="SIInfantryArmorLevel2">
+            <Resource index="Minerals" value="150"/>
+            <Resource index="Vespene" value="150"/>
+            <Button DefaultButtonFace="TerranInfantryArmorLevel2" Requirements="SILearnInfantryArmor2"/>
+        </InfoArray>
+        <InfoArray index="Research6" Time="220" Upgrade="SIInfantryArmorLevel3">
+            <Resource index="Minerals" value="200"/>
+            <Resource index="Vespene" value="200"/>
+            <Button DefaultButtonFace="TerranInfantryArmorLevel3" Requirements="SILearnInfantryArmor3"/>
+        </InfoArray>
+        <InfoArray index="Research12" Time="60" Upgrade="SIBunkerArmor">
+            <Resource index="Minerals" value="100"/>
+            <Resource index="Vespene" value="100"/>
+            <Button DefaultButtonFace="ResearchInfestedBunkerArmor" Requirements="LearnSIBunkerArmor"/>
+        </InfoArray>
+        <InfoArray index="Research13" Time="60" Upgrade="SIBunkerLifeRegen">
+            <Resource index="Minerals" value="100"/>
+            <Resource index="Vespene" value="100"/>
+            <Button DefaultButtonFace="ResearchSIBunkerRangeIncrease" Requirements="LearnSIBunkerLifeRegen"/>
+        </InfoArray>
+    </CAbilResearch>
     <CAbilResearch id="SpawningPoolResearch2">
         <EditorCategories value="Race:Zerg,AbilityorEffectType:Structures"/>
         <InfoArray index="Research1" Time="60" Upgrade="zerglingattackspeed">
