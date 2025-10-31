@@ -21,7 +21,7 @@
 <Actor id="PathingBlocker2x2Doodad"/>
 <Actor id="BuildingBlocker1x1Doodad"/>
 <Actor id="PathingandSightBlocker1x1Doodad"/>
-<Actor id="NewFolsomSandbags" Variations="0,1,2,3,4,5,6,7"/>
+<Actor id="NewFolsomSandbags" Variations="0,1,2,3,4,5,6"/>
 <Actor id="RockVolcanicGiant" Variations="0,1,2,5"/>
 <Actor id="RooftopEntrance"/>
 <Actor id="PipesSmallShort"/>
@@ -29,6 +29,7 @@
 <Actor id="TRaynor01RadarDish"/>
 <Terrain id="KorhalWastes"/>
 <TerrainObject id="TerrainObjectCharNydusNest2"/>
+<Unit id="Zergling"/>
 <Unit id="UnbuildableRocksDestructible" Variations="0"/>
 <Unit id="XelNaga_Caverns_DoorEOpened"/>
 <Unit id="XelNaga_Caverns_DoorNE"/>
@@ -38,9 +39,12 @@
 <Unit id="XelNaga_Caverns_DoorSOpened"/>
 <Unit id="XelNaga_Caverns_DoorSW"/>
 <Unit id="XelNaga_Caverns_DoorWOpened"/>
+<Unit id="UnbuildableRocksSmallUnit" Variations="0,1,2,3,4,5"/>
 <Unit id="DestructibleRockEx12x6Horizontal"/>
 <Unit id="CollapsiblePurifierTowerDebris"/>
 <Unit id="PurifierRichMineralField750" Variations="0,5,8"/>
+<Unit id="AiurTempleStoneGateStraightHorizontalBF"/>
+<Unit id="AiurTempleStoneGateStraightVerticalLF"/>
 <Unit id="Purifier_DoorSmallN" Variations="1"/>
 <Unit id="Purifier_DoorSmallNE" Variations="1"/>
 <Unit id="Purifier_DoorSmallELowered" Variations="0"/>
@@ -48,8 +52,10 @@
 <Unit id="Purifier_DoorNLowered"/>
 <Unit id="Purifier_DoorNE"/>
 <Unit id="Purifier_DoorE"/>
+<Unit id="AiurRockDebris4x4"/>
 <Unit id="PurifierCellBlock8x8C"/>
 <Unit id="PurifierCoreMatrix"/>
 <Unit id="FenixAltarOfPsiStormsBrokenStage2"/>
 <Unit id="AbathurLavaWorm"/>
+<Unit id="JimRaynorIEUHero"/>
 </Preload>

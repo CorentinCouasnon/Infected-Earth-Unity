@@ -157,6 +157,123 @@
         <AssetArray File="LocalizedData\Sounds\TerranUnitVO\Marine\Marine_Yes22.ogg" FacialAnim="Marine_Yes22"/>
         <Volume value="-1.000000,-1.000000"/>
     </CSound>
+    <CSound id="RaynorAttackLaunch2" parent="Combat">
+        <EditorCategories value="Race:Terran"/>
+        <AssetArray File="Assets\Sounds\Terran\Marine\Marine_AttackLaunch0.wav"/>
+        <AssetArray File="Assets\Sounds\Terran\Marine\Marine_AttackLaunch1.wav"/>
+        <AssetArray File="Assets\Sounds\Terran\Marine\Marine_AttackLaunch2.wav"/>
+        <AssetArray File="Assets\Sounds\Terran\Marine\Marine_AttackLaunch3.wav"/>
+        <AssetArray File="Assets\Sounds\Terran\Marine\Marine_AttackLaunch4.wav"/>
+        <AssetArray File="Assets\Sounds\Terran\Marine\Marine_AttackLaunch5.wav"/>
+        <AssetArray File="Assets\Sounds\Terran\Marine\Marine_AttackLaunch6.wav"/>
+        <AssetArray File="Assets\Sounds\Terran\Marine\Marine_AttackLaunch7.wav"/>
+        <AssetArray File="Assets\Sounds\Terran\Marine\Marine_AttackLaunch8.wav"/>
+        <DupeDestroyCount value="6"/>
+        <DupeMaximumMethod value="Replace"/>
+        <DupeMuteCount value="6"/>
+        <Pitch value="-1.000000,1.000000"/>
+        <VariationMinimum value="8"/>
+        <Volume value="-14.000000,-11.000000"/>
+    </CSound>
+    <CSound id="Raynor_Attack2" parent="TerranAck" Portrait="RaynorMarinePortrait" Subtitle="zUnit_HeroRaynor" Speaker="Raynor" Line="00017">
+        <AssetArray File="LocalizedData\Sounds\TerranVO\CampaignUnits\Raynor\Raynor_Attack00.ogg" FacialAnim="Raynor_Attack00"/>
+        <AssetArray File="LocalizedData\Sounds\TerranVO\CampaignUnits\Raynor\Raynor_Attack01.ogg" FacialAnim="Raynor_Attack01"/>
+        <AssetArray File="LocalizedData\Sounds\TerranVO\CampaignUnits\Raynor\Raynor_Attack02.ogg" FacialAnim="Raynor_Attack02"/>
+        <AssetArray File="LocalizedData\Sounds\TerranVO\CampaignUnits\Raynor\Raynor_Attack03.ogg" FacialAnim="Raynor_Attack03"/>
+        <Flags index="NeedsUpdate" value="1"/>
+        <Flags index="NeedsTTS" value="1"/>
+        <Volume value="-1.000000,-1.000000"/>
+    </CSound>
+    <CSound id="Raynor_AttackImpact2" parent="Combat">
+        <EditorCategories value="Race:Terran"/>
+        <AssetArray File="Assets\Sounds\Terran\SharedEffects\BulletImpacts\Terran_MultipleBulletAttackImpact0.wav"/>
+        <AssetArray File="Assets\Sounds\Terran\SharedEffects\BulletImpacts\Terran_MultipleBulletAttackImpact1.wav"/>
+        <AssetArray File="Assets\Sounds\Terran\SharedEffects\BulletImpacts\Terran_MultipleBulletAttackImpact2.wav"/>
+        <AssetArray File="Assets\Sounds\Terran\SharedEffects\BulletImpacts\Terran_MultipleBulletAttackImpact3.wav"/>
+        <AssetArray File="Assets\Sounds\Terran\SharedEffects\BulletImpacts\Terran_MultipleBulletAttackImpact4.wav"/>
+        <Pitch value="-1.500000,1.500000"/>
+        <Volume value="-12.000000,-10.000000"/>
+    </CSound>
+    <CSound id="Raynor_Death2" parent="Death" Portrait="RaynorMarinePortrait" Subtitle="zUnit_HeroRaynor" Speaker="Raynor" Line="00040">
+        <EditorCategories value="Race:Terran"/>
+        <AssetArray File="LocalizedData\Sounds\TerranVO\CampaignUnits\Raynor\Raynor_Death00.wav"/>
+        <AssetArray File="LocalizedData\Sounds\TerranVO\CampaignUnits\Raynor\Raynor_Death01.wav"/>
+        <AssetArray File="LocalizedData\Sounds\TerranVO\CampaignUnits\Raynor\Raynor_Death02.wav"/>
+        <AssetArray File="LocalizedData\Sounds\TerranVO\CampaignUnits\Raynor\Raynor_Death03.wav"/>
+        <AssetArray File="LocalizedData\Sounds\TerranVO\CampaignUnits\Raynor\Raynor_Death04.wav"/>
+        <AssetArray File="LocalizedData\Sounds\TerranVO\CampaignUnits\Raynor\Raynor_Death05.wav"/>
+        <AssetArray File="LocalizedData\Sounds\TerranVO\CampaignUnits\Raynor\Raynor_Death06.wav"/>
+        <Flags index="NeedsUpdate" value="1"/>
+        <Flags index="NeedsTTS" value="1"/>
+        <Volume value="-1.000000,-1.000000"/>
+    </CSound>
+    <CSound id="Raynor_Explode2" parent="Combat">
+        <EditorCategories value="Race:Terran"/>
+        <AssetArray File="Assets\Sounds\Zerg\SharedEffects\Explosions\Zerg_ExplosionMedium0.wav" Pitch="-3.000000,3.000000"/>
+        <AssetArray File="Assets\Sounds\Zerg\SharedEffects\Explosions\Zerg_ExplosionMedium1.wav" Pitch="-3.000000,3.000000"/>
+        <AssetArray File="Assets\Sounds\Zerg\SharedEffects\Explosions\Zerg_ExplosionMedium2.wav" Pitch="-3.000000,3.000000"/>
+        <AssetArray File="Assets\Sounds\Zerg\SharedEffects\Explosions\Zerg_ExplosionMedium3.wav" Pitch="-3.000000,3.000000"/>
+        <AssetArray File="Assets\Sounds\Zerg\SharedEffects\Explosions\Zerg_ExplosionMedium4.wav" Pitch="-3.000000,3.000000"/>
+        <AssetArray File="Assets\Sounds\Zerg\SharedEffects\Explosions\Zerg_ExplosionMedium5.wav" Pitch="-3.000000,3.000000"/>
+        <AssetArray File="Assets\Sounds\Zerg\SharedEffects\Explosions\Zerg_ExplosionMedium6.wav" Pitch="-3.000000,3.000000"/>
+        <DupeMuteCount value="6"/>
+        <Pitch value="-2.000000,-1.000000"/>
+        <Volume value="-6.000000,-4.000000"/>
+    </CSound>
+    <CSound id="Raynor_Help2" parent="TerranAck" Portrait="RaynorMarinePortrait" Subtitle="zUnit_HeroRaynor" Speaker="Raynor" Line="00033">
+        <AssetArray File="LocalizedData\Sounds\TerranVO\CampaignUnits\Raynor\Raynor_Help00.ogg" FacialAnim="Raynor_Help00"/>
+        <AssetArray File="LocalizedData\Sounds\TerranVO\CampaignUnits\Raynor\Raynor_Help01.ogg" FacialAnim="Raynor_Help01"/>
+        <AssetArray File="LocalizedData\Sounds\TerranVO\CampaignUnits\Raynor\Raynor_Help02.ogg" FacialAnim="Raynor_Help02"/>
+        <Flags index="NeedsUpdate" value="1"/>
+        <Flags index="NeedsTTS" value="1"/>
+        <Category value="Alert"/>
+        <Volume value="-1.000000,-1.000000"/>
+    </CSound>
+    <CSound id="Raynor_Pissed2" parent="Pissed" Portrait="RaynorMarinePortrait" Subtitle="zUnit_HeroRaynor" Speaker="Raynor" Line="00031">
+        <EditorCategories value="Race:Terran"/>
+        <AssetArray File="LocalizedData\Sounds\TerranVO\CampaignUnits\Raynor\Raynor_Pissed00.ogg" FacialAnim="Raynor_Pissed00"/>
+        <AssetArray File="LocalizedData\Sounds\TerranVO\CampaignUnits\Raynor\Raynor_Pissed01.ogg" FacialAnim="Raynor_Pissed01"/>
+        <AssetArray File="LocalizedData\Sounds\TerranVO\CampaignUnits\Raynor\Raynor_Pissed02.ogg" FacialAnim="Raynor_Pissed02"/>
+        <AssetArray File="LocalizedData\Sounds\TerranVO\CampaignUnits\Raynor\Raynor_Pissed03.ogg" FacialAnim="Raynor_Pissed03"/>
+        <AssetArray File="LocalizedData\Sounds\TerranVO\CampaignUnits\Raynor\Raynor_Pissed04.ogg" FacialAnim="Raynor_Pissed04"/>
+        <AssetArray File="LocalizedData\Sounds\TerranVO\CampaignUnits\Raynor\Raynor_Pissed05.ogg" FacialAnim="Raynor_Pissed05"/>
+        <AssetArray File="LocalizedData\Sounds\TerranVO\CampaignUnits\Raynor\Raynor_Pissed07.ogg" FacialAnim="Raynor_Pissed07"/>
+        <AssetArray File="LocalizedData\Sounds\TerranVO\CampaignUnits\Raynor\Raynor_Pissed08.ogg" FacialAnim="Raynor_Pissed08"/>
+        <AssetArray File="LocalizedData\Sounds\TerranVO\CampaignUnits\Raynor\Raynor_Pissed09.ogg" FacialAnim="Raynor_Pissed09"/>
+        <AssetArray File="LocalizedData\Sounds\TerranVO\CampaignUnits\Raynor\Raynor_Pissed10.ogg" FacialAnim="Raynor_Pissed10"/>
+        <AssetArray File="LocalizedData\Sounds\TerranVO\CampaignUnits\Raynor\Raynor_Pissed11.ogg" FacialAnim="Raynor_Pissed11"/>
+        <Flags index="Download" value="1"/>
+        <Flags index="NeedsUpdate" value="1"/>
+        <Flags index="NeedsTTS" value="1"/>
+        <Flags index="VariationFallback" value="0"/>
+        <Volume value="-1.000000,-1.000000"/>
+    </CSound>
+    <CSound id="Raynor_Ready2" parent="Ready" Portrait="RaynorMarinePortrait" Subtitle="zUnit_HeroRaynor" Speaker="Raynor" Line="00001">
+        <EditorCategories value="Race:Terran"/>
+        <AssetArray File="LocalizedData\Sounds\TerranVO\CampaignUnits\Raynor\Raynor_Ready00.ogg" FacialAnim="Raynor_Help01"/>
+        <Flags index="NeedsUpdate" value="1"/>
+        <Flags index="NeedsTTS" value="1"/>
+        <Volume value="-1.000000,-1.000000"/>
+    </CSound>
+    <CSound id="Raynor_What2" parent="TerranAck" Portrait="RaynorMarinePortrait" Subtitle="zUnit_HeroRaynor" Speaker="Raynor" Line="00006">
+        <AssetArray File="LocalizedData\Sounds\TerranVO\CampaignUnits\Raynor\Raynor_What00.ogg" FacialAnim="Raynor_What00"/>
+        <AssetArray File="LocalizedData\Sounds\TerranVO\CampaignUnits\Raynor\Raynor_What01.ogg" FacialAnim="Raynor_What01"/>
+        <AssetArray File="LocalizedData\Sounds\TerranVO\CampaignUnits\Raynor\Raynor_What02.ogg" FacialAnim="Raynor_What02"/>
+        <AssetArray File="LocalizedData\Sounds\TerranVO\CampaignUnits\Raynor\Raynor_What03.ogg" FacialAnim="Raynor_What03"/>
+        <AssetArray File="LocalizedData\Sounds\TerranVO\CampaignUnits\Raynor\Raynor_What04.ogg" FacialAnim="Raynor_What04"/>
+        <Flags index="NeedsUpdate" value="1"/>
+        <Flags index="NeedsTTS" value="1"/>
+        <Volume value="-1.000000,-1.000000"/>
+    </CSound>
+    <CSound id="Raynor_Yes2" parent="TerranAck" Portrait="RaynorMarinePortrait" Subtitle="zUnit_HeroRaynor" Speaker="Raynor" Line="00025">
+        <AssetArray File="LocalizedData\Sounds\TerranVO\CampaignUnits\Raynor\Raynor_Yes05.ogg" Volume="-2.000000,-2.000000" FacialAnim="Raynor_Yes05"/>
+        <AssetArray File="LocalizedData\Sounds\TerranVO\CampaignUnits\Raynor\Raynor_Yes06.ogg" Volume="-2.000000,-2.000000" FacialAnim="Raynor_Yes06"/>
+        <AssetArray File="LocalizedData\Sounds\TerranVO\CampaignUnits\Raynor\Raynor_Attack04.ogg" FacialAnim="Raynor_Attack04"/>
+        <AssetArray File="LocalizedData\Sounds\TerranVO\CampaignUnits\Raynor\Raynor_Pissed06.ogg" Volume="-2.000000,-2.000000" FacialAnim="Raynor_Pissed06"/>
+        <Flags index="NeedsUpdate" value="1"/>
+        <Flags index="NeedsTTS" value="1"/>
+        <Flags index="VariationFallback" value="0"/>
+    </CSound>
     <CSound id="ShadowUnit_DeathFX2" parent="Combat">
         <AssetArray File="Assets\Sounds\SpiritPlasmaA_01.wav" FacialGroup=""/>
         <AssetArray File="Assets\Sounds\SpiritPlasmaA_02.wav" FacialGroup=""/>
@@ -357,6 +474,16 @@
         <AssetArray File="Assets\Sounds\Uni\Deaths\Uni_DeathFXAcid5.wav"/>
         <AssetArray File="Assets\Sounds\Uni\Deaths\Uni_DeathFXAcid6.wav"/>
         <Pitch value="-2.000000,2.000000"/>
+    </CSound>
+    <CSound id="Uni_DeathFXFire2" parent="Death">
+        <AssetArray File="Assets\Sounds\Uni\Deaths\Uni_DeathFXFire0.wav"/>
+        <AssetArray File="Assets\Sounds\Uni\Deaths\Uni_DeathFXFire1.wav"/>
+        <AssetArray File="Assets\Sounds\Uni\Deaths\Uni_DeathFXFire2.wav"/>
+        <AssetArray File="Assets\Sounds\Uni\Deaths\Uni_DeathFXFire3.wav"/>
+        <AssetArray File="Assets\Sounds\Uni\Deaths\Uni_DeathFXFire4.wav"/>
+        <AssetArray File="Assets\Sounds\Uni\Deaths\Uni_DeathFXFire5.wav"/>
+        <Pitch value="-2.000000,2.000000"/>
+        <Volume value="-6.000000,-6.000000"/>
     </CSound>
     <CSound id="Uni_DeathFXSilentKill2" parent="Combat">
         <AssetArray File="Assets\Sounds\Uni\Deaths\Uni_DeathFXSilentKill0.wav"/>

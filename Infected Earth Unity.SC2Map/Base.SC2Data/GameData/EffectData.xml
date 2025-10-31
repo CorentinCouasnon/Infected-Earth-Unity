@@ -12,8 +12,17 @@
         <EffectArray value="ZerglingArmorShredTargetAB2"/>
         <EffectArray value="Claws2"/>
     </CEffectSet>
+    <CEffectDamage id="RaynorGaussRifleDamage2" parent="DU_WEAP">
+        <EditorCategories value="Race:Terran"/>
+        <Kind value="Ranged"/>
+        <Amount value="110"/>
+        <Death value="Disintegrate"/>
+    </CEffectDamage>
     <CEffectApplyBehavior id="Stimpack2">
         <EditorCategories value="Race:Zerg"/>
+    </CEffectApplyBehavior>
+    <CEffectApplyBehavior id="StimpackMarauder_BlackOps">
+        <DamageModifierSource Effect="Stimpack2"/>
     </CEffectApplyBehavior>
     <CEffectDamage id="TaurenSpaceMarineGaussRifleDamage2" parent="DU_WEAP">
         <EditorCategories value="Race:Terran"/>

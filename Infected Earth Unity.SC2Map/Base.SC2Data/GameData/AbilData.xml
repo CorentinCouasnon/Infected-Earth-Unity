@@ -128,7 +128,7 @@
         <AbilSetId value="Damage augment"/>
         <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
         <InfoTooltipPriority value="1"/>
-        <Effect index="0" removed="1"/>
+        <Effect index="0" value="Stimpack2"/>
         <Flags index="Transient" value="1"/>
         <Cost>
             <Vital index="Life" value="10"/>
@@ -141,7 +141,7 @@
     </CAbilEffectInstant>
     <CAbilRedirectInstant id="StimpackRedirect2">
         <AbilSetId value="Stimpack"/>
-        <Abil value="StimpackZerg"/>
+        <Abil value="Stimpack"/>
         <CmdButtonArray index="Execute" DefaultButtonFace="StimRedirect" Requirements="UseStimpack">
             <Flags index="ToSelection" value="1"/>
         </CmdButtonArray>
@@ -162,7 +162,20 @@
         <MinAttackSpeedMultiplier value="0.25"/>
         <MaxAttackSpeedMultiplier value="128"/>
     </CAbilAttack>
+    <CAbilAttack id="attack3">
+        <TargetMessage value="Abil/TargetMessage/attack3"/>
+        <MinAttackSpeedMultiplier value="0.25"/>
+        <MaxAttackSpeedMultiplier value="128"/>
+    </CAbilAttack>
     <CAbilMove id="move2">
+        <FleeRange value="5"/>
+        <FleeTime value="5"/>
+        <FollowRangeSlop value="1"/>
+        <FollowAcquireRange value="6"/>
+        <MinPatrolDistance value="1"/>
+        <FollowFilters value="-;Hover"/>
+    </CAbilMove>
+    <CAbilMove id="move3">
         <FleeRange value="5"/>
         <FleeTime value="5"/>
         <FollowRangeSlop value="1"/>
@@ -175,6 +188,9 @@
         <QueueSize value="1"/>
     </CAbilQueue>
     <CAbilStop id="stop2">
+        <CmdButtonArray index="HoldFire" DefaultButtonFace="HoldFireSpecial"/>
+    </CAbilStop>
+    <CAbilStop id="stop3">
         <CmdButtonArray index="HoldFire" DefaultButtonFace="HoldFireSpecial"/>
     </CAbilStop>
 </Catalog>

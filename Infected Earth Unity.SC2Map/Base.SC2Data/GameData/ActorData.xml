@@ -134,6 +134,12 @@
         <Model value="GenericAttackModel"/>
         <ModelFlags index="AllowHitTest" value="0"/>
     </CActorModel>
+    <CActorModel id="GenericAttackDamageModel5" parent="ModelAnimationStyleOneShotNoOrphan">
+        <Flags index="SuppressCreationErrors" value="1"/>
+        <Inherits index="Visibility" value="1"/>
+        <Model value="GenericAttackModel"/>
+        <ModelFlags index="AllowHitTest" value="0"/>
+    </CActorModel>
     <CActorSound id="GenericAttackDamageSound2" parent="SoundOneShot">
         <Flags index="SuppressCreationErrors" value="1"/>
         <Sound value="GenericAttackSound"/>
@@ -143,6 +149,10 @@
         <Sound value="GenericAttackSound"/>
     </CActorSound>
     <CActorSound id="GenericAttackDamageSound4" parent="SoundOneShot">
+        <Flags index="SuppressCreationErrors" value="1"/>
+        <Sound value="GenericAttackSound"/>
+    </CActorSound>
+    <CActorSound id="GenericAttackDamageSound5" parent="SoundOneShot">
         <Flags index="SuppressCreationErrors" value="1"/>
         <Sound value="GenericAttackSound"/>
     </CActorSound>
@@ -164,6 +174,12 @@
         <Model value="GenericAttackModel"/>
         <ModelFlags index="AllowHitTest" value="0"/>
     </CActorModel>
+    <CActorModel id="GenericAttackImpactModel5" parent="ModelAnimationStyleOneShotNoOrphan">
+        <Flags index="SuppressCreationErrors" value="1"/>
+        <Inherits index="Visibility" value="1"/>
+        <Model value="GenericAttackModel"/>
+        <ModelFlags index="AllowHitTest" value="0"/>
+    </CActorModel>
     <CActorSound id="GenericAttackImpactSound2" parent="SoundOneShot">
         <Flags index="SuppressCreationErrors" value="1"/>
         <Sound value="GenericAttackSound"/>
@@ -173,6 +189,10 @@
         <Sound value="GenericAttackSound"/>
     </CActorSound>
     <CActorSound id="GenericAttackImpactSound4" parent="SoundOneShot">
+        <Flags index="SuppressCreationErrors" value="1"/>
+        <Sound value="GenericAttackSound"/>
+    </CActorSound>
+    <CActorSound id="GenericAttackImpactSound5" parent="SoundOneShot">
         <Flags index="SuppressCreationErrors" value="1"/>
         <Sound value="GenericAttackSound"/>
     </CActorSound>
@@ -194,6 +214,12 @@
         <Model value="GenericAttackModel"/>
         <ModelFlags index="AllowHitTest" value="0"/>
     </CActorModel>
+    <CActorModel id="GenericAttackLaunchModel5" parent="ModelAnimationStyleOneShotNoOrphan">
+        <Flags index="SuppressCreationErrors" value="1"/>
+        <Inherits index="Visibility" value="1"/>
+        <Model value="GenericAttackModel"/>
+        <ModelFlags index="AllowHitTest" value="0"/>
+    </CActorModel>
     <CActorSound id="GenericAttackLaunchSound2" parent="SoundOneShot">
         <Flags index="SuppressCreationErrors" value="1"/>
         <Sound value="GenericAttackSound"/>
@@ -203,6 +229,10 @@
         <Sound value="GenericAttackSound"/>
     </CActorSound>
     <CActorSound id="GenericAttackLaunchSound4" parent="SoundOneShot">
+        <Flags index="SuppressCreationErrors" value="1"/>
+        <Sound value="GenericAttackSound"/>
+    </CActorSound>
+    <CActorSound id="GenericAttackLaunchSound5" parent="SoundOneShot">
         <Flags index="SuppressCreationErrors" value="1"/>
         <Sound value="GenericAttackSound"/>
     </CActorSound>
@@ -356,6 +386,67 @@
     <CActorSound id="Marine_Stimpack3" parent="SoundOneShot">
         <On Terms="Abil.StimpackZerg.SourceCastStart" Send="Create"/>
         <Sound value="Marine_Stimpack"/>
+    </CActorSound>
+    <CActorUnit id="Raynor012" parent="GenericUnitStandard" unitName="JimRaynorIEUHero">
+        <Aliases value="_UnitSmall"/>
+        <Macros value="UnloadDropAnim"/>
+        <On Terms="ActorCreation" Send="TextureSelectById Decal_Terran_0002_01"/>
+        <Model value="Raynor2"/>
+        <ModelFlags index="SuppressPlayerDecals" value="1"/>
+        <DeathArray index="Normal" ModelLink="MarineRaynorDeath2" SoundLink="Raynor_Explode2"/>
+        <DeathArray index="Fire" ModelLink="RaynorDeathFire2" SoundLink="Uni_DeathFXFire2"/>
+        <DeathCustoms index="0" ModelLink="ZergSmallUnitDeathLow4" Name="AntiGravGeneric"/>
+        <DeathCustoms index="1" ModelLink="ProtossSmallUnitDeathLow4" Name="AntiGravProtoss"/>
+        <DeathCustoms index="2" ModelLink="TerranSmallUnitDeathLow4" Name="AntiGravTerran"/>
+        <DeathCustoms index="3" ModelLink="ZergSmallUnitDeathLow4" Name="AntiGravZerg"/>
+        <DeathCustoms index="4" ModelLink="Invisible4" Name="Vortex"/>
+        <DeathActorModelLow value="UnitDeathModel"/>
+        <PortraitModel value="RaynorMarinePortrait2"/>
+        <StandAnimTurnTime value="5"/>
+        <WalkAnimMoveSpeed value="2.25"/>
+        <BarOffset value="60"/>
+        <BarWidth value="50"/>
+        <GroupIcon>
+            <Image value="Assets\Textures\Wireframe-Terran-Marine-Raynor.dds"/>
+        </GroupIcon>
+        <HeroIcon value="Assets\Textures\ui-heroicon-raynor.dds"/>
+        <HighlightTooltip value="Unit/Name/Raynor012"/>
+        <LifeArmorIcon value="Assets\Textures\btn-upgrade-terran-infantryarmorlevel0.dds"/>
+        <SoundArray index="Birth" value="Raynor_Birth"/>
+        <SoundArray index="Ready" value="Raynor_Ready2"/>
+        <SoundArray index="Help" value="Raynor_Help2"/>
+        <SoundArray index="What" value="Raynor_What2"/>
+        <SoundArray index="Yes" value="Raynor_Yes2"/>
+        <SoundArray index="Attack" value="Raynor_Attack2"/>
+        <SoundArray index="Pissed" value="Raynor_Pissed2"/>
+        <SoundArray index="Movement" value="Raynor_Movement"/>
+        <SoundArray index="Turning" value="Raynor_Turning"/>
+        <SoundArray index="Board" value="Raynor_Board"/>
+        <UnitBorderNormalColor value="150,150,150"/>
+        <UnitBorderSubgroupColor value="255,255,255"/>
+        <UnitIcon value="Assets\Textures\BTN-Unit-Terran-MarineRaynor.dds"/>
+        <UnitKillRank Text="UnitKillRank/Raynor"/>
+        <Wireframe>
+            <Image value="Assets\Textures\Wireframe-Terran-Marine-Raynor.dds"/>
+        </Wireframe>
+    </CActorUnit>
+    <CActorAction id="Raynor01Attack2" parent="GenericAttack" effectAttack="RaynorGaussRifleDamage2">
+        <LaunchAttachQuery Methods="Weapon 0"/>
+        <LaunchAssets Model="RaynorAttackLaunch2" Sound="RaynorAttackLaunch2"/>
+        <LaunchModel value="GenericAttackLaunchModel5"/>
+        <LaunchSound value="GenericAttackLaunchSound5"/>
+        <ContainerModel value="GenericAttackLaunchModel5"/>
+        <ContainerSound value="GenericAttackLaunchSound5"/>
+        <ImpactMap index="None" Model="RaynorAttackImpact2" Sound="Raynor_AttackImpact2"/>
+        <ImpactModel value="GenericAttackImpactModel5"/>
+        <ImpactSound value="GenericAttackImpactSound5"/>
+        <DamageModel value="GenericAttackDamageModel5"/>
+        <DamageSound value="GenericAttackDamageSound5"/>
+    </CActorAction>
+    <CActorSound id="Raynor_Death2" parent="SoundOneShot">
+        <On Terms="UnitDeath.Raynor; PassChance 100.000000" Send="Create"/>
+        <On Terms="UnitDeath.JimRaynorIEUHero; PassChance 100.000000" Send="Create"/>
+        <On Terms="UnitDeath.RaynorCommando; PassChance 100.000000" Send="Create"/>
     </CActorSound>
     <CActorModel id="RegenerativeBileBuff2" parent="ModelAnimationStyleOneShot">
         <Inherits index="CloakEffect" value="1"/>
