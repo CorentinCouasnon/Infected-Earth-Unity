@@ -6,7 +6,7 @@ void Player_SetHeroUnit()
 void Player_KillReward(int player, point deadUnitPosition)
 {
     PlayerModifyPropertyFixed(player, c_playerPropMinerals, c_playerPropOperAdd, 10);
-    Utility_DelayedTextTagCreate(StringToText("+") + FixedToText(10, 2), Color(20, 60, 90), deadUnitPosition, PlayerGroupSingle(player), 1.0);
+    UI_CreateTextTag(StringToText("+") + FixedToText(10, 2), Color(20, 60, 90), deadUnitPosition, PlayerGroupSingle(player), 1.0, 3.0);
 }
 
 bool Player_OnUnitDeath(bool testConds, bool runActions)
@@ -24,9 +24,29 @@ bool Player_OnUnitDeath(bool testConds, bool runActions)
     return true;
 }
 
+bool Player_OnAbilityUsed(bool testConds, bool runActions)
+{
+    abilcmd abilityUsed;
+    int triggeringPlayer;
+
+    triggeringPlayer = EventPlayer();
+
+    if (triggeringPlayer < 1 || triggeringPlayer > 6)
+    {
+        return true;
+    }
+
+    abilityUsed = EventUnitAbility();
+
+    Debug_ShowMessage("Ability utilisé : " + AbilityCommandGetAbility(abilityUsed));
+
+    return true;
+}
+
 void Player_Init()
 {
     Player_SetHeroUnit();
     TriggerAddEventUnitDied(TriggerCreate("Player_OnUnitDeath"), null);
+    TriggerAddEventUnitAbility(TriggerCreate("Player_OnAbilityUsed"), null, null, c_abilEffectStageChannel, false);
     Camera_FocusOnUnit(1, gv_playerData.heroUnit);
 }

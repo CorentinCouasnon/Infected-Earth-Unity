@@ -1,7 +1,7 @@
 // only function that is called on map init, runs all initialization functions
 bool MapInit_Main(bool testConds, bool runActions) {
     
-    Utility_Init();
+    UI_Init();
     Chat_Init();
     Region_Init();
     Player_Init();

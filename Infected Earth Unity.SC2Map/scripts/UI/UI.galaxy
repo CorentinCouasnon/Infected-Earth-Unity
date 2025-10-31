@@ -1,0 +1,19 @@
+void UI_CreateTextTag(text inText, color inColor, point position, playergroup group, fixed offset, fixed duration)
+{
+    int textTag;
+    textTag = TextTagCreate(TextWithColor(inText, inColor), 24, position, offset, true, false, group);
+    TextTagSetVelocity(textTag, 1.0, 90.0);
+    TextTagSetTime(textTag, c_textTagTimeDuration, duration);
+    Wait(duration, c_timeReal);
+    TextTagDestroy(textTag);
+}
+
+void UI_Init()
+{
+    UI_WaveInfo_Init();
+}
+
+void UI_Update()
+{
+    UI_WaveInfo_Update();
+}

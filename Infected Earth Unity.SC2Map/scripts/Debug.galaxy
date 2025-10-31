@@ -21,3 +21,15 @@ void Debug_ShowMessageInt(int number)
 {
     UIDisplayMessage(PlayerGroupAll(), c_messageAreaChat, IntToText(number));
 }
+
+void Debug_ShowMessageBool(string name, bool value)
+{
+    if (value)
+    {
+        UIDisplayMessage(PlayerGroupAll(), c_messageAreaChat, StringToText(name + " : True"));
+    }
+    else 
+    {
+        UIDisplayMessage(PlayerGroupAll(), c_messageAreaChat, StringToText(name + " : False"));
+    }
+}

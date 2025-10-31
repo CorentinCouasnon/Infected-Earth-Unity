@@ -1,22 +1,22 @@
-// Condition pour spawn la prochaine vague : pas d'unités vivantes et moins de 10 vagues
-bool Wave_SpawnCondition() {
-    return (gv_unitsAlive == 0 && gv_currentWave < 10);
+bool Wave_CanStart() 
+{
+    return gv_enemiesAlive == 0 && gv_currentWave < 10 && gv_enemySpawnCount == 0;
 }
 
-// Action appelée à chaque mort d'unité (décompte et vérifie fin de vague)
 bool Wave_OnUnitDeath(bool testConds, bool runActions) {
     if (EventPlayer() != 15)
     {
         return true;
     }
     
-    if (gv_unitsAlive > 0) 
+    if (gv_enemiesAlive > 0) 
     {
-        gv_unitsAlive -= 1;
+        gv_enemiesAlive -= 1;
+        UI_WaveInfo_Update();
     }
     
     // Si fin de vague
-    if (gv_unitsAlive == 0 && gv_currentWave > 0) {
+    if (gv_enemiesAlive == 0 && gv_currentWave > 0) {
         if (gv_currentWave == 10) {
             // Victoire pour le Joueur 1 !
             GameOver(1, c_gameOverVictory, true, true);
@@ -30,9 +30,7 @@ bool Wave_OnUnitDeath(bool testConds, bool runActions) {
     return true;
 }
 
-// Action pour spawn une vague
-bool Wave_SpawnAction(bool testConds, bool runActions) {
-    int numUnits;
+bool Wave_TryNew(bool testConds, bool runActions) {
     int i;
     int j;
     unit newUnit;
@@ -44,13 +42,13 @@ bool Wave_SpawnAction(bool testConds, bool runActions) {
         return false;
     }
     
-    if (!Wave_SpawnCondition())
+    if (!Wave_CanStart())
     {
         return false;
     }
 
     gv_currentWave += 1;
-    numUnits = 0;
+    UI_WaveInfo_Update();
     UnitGroupClear(gv_enemiesGroup);
 
     for (i = 1; i <= 5; i += 1) {
@@ -61,28 +59,49 @@ bool Wave_SpawnAction(bool testConds, bool runActions) {
             continue;
         }
 
-        numUnits += count;
-
         for (j = 0; j < count; j += 1) {
-            libNtve_gf_CreateUnitsWithDefaultFacing(1, u, 1, 15, RegionRandomPoint(Region_GetRandomSpawnRegion(c_Part_Terran)));
-            newUnit = UnitLastCreated();
-            UnitGroupAdd(gv_enemiesGroup, newUnit);
+            gv_enemySpawnQueue[gv_enemySpawnCount] = u;
+            gv_enemySpawnCount += 1;
         }
     }
-
-    gv_unitsAlive = numUnits;
-
-    UIDisplayMessage(PlayerGroupAll(), c_messageAreaChat, StringToText("Vague " + IntToString(gv_currentWave) + " !"));
 
     return true;
 }
 
-// Fonction d'initialisation des vagues (à appeler dans Map_Init)
-void Wave_Init() {
+// TODO : Peut etre passer en FIFO si possibilité de spawner plusieurs vagues en meme temps
+bool Wave_SpawnTick(bool testConds, bool runActions) 
+{
+    unit newUnit;
+
+    if (gv_enemySpawnCount < 1)
+    {
+        return true;
+    }
+
+    if (gv_enemiesAlive >= c_maximumEnemyCount)
+    {
+        return true;
+    }
+
+    gv_enemySpawnCount -= 1;
+
+    libNtve_gf_CreateUnitsWithDefaultFacing(1, gv_enemySpawnQueue[gv_enemySpawnCount], 1, 15, RegionRandomPoint(Region_GetRandomSpawnRegion(c_Part_Terran)));
+    newUnit = UnitLastCreated();
+    UnitGroupAdd(gv_enemiesGroup, newUnit);
+
+    gv_enemiesAlive += 1;
+    UI_WaveInfo_Update();
+
+    return true;
+}
+
+void Wave_Init() 
+{
     gv_currentWave = 0;
-    gv_unitsAlive = 0;
+    gv_enemiesAlive = 0;
     gv_enemiesGroup = UnitGroupEmpty();
     
-    TriggerAddEventTimePeriodic(TriggerCreate("Wave_SpawnAction"), 1, 1);
+    TriggerAddEventTimePeriodic(TriggerCreate("Wave_TryNew"), 1, c_timeGame);
+    TriggerAddEventTimePeriodic(TriggerCreate("Wave_SpawnTick"), c_minimumTickTime, c_timeGame);
     TriggerAddEventUnitDied(TriggerCreate("Wave_OnUnitDeath"), null);
 }

@@ -1,0 +1,30 @@
+static int waveInfo_dialog;
+static int waveInfo_waveLabel;
+static int waveInfo_enemiesCountLabel;
+
+void UI_WaveInfo_Update()
+{
+    DialogControlSetPropertyAsText(waveInfo_waveLabel, c_triggerControlPropertyText, PlayerGroupAll(), StringToText("Vague " + IntToString(gv_currentWave)));
+    DialogControlSetPropertyAsText(waveInfo_enemiesCountLabel, c_triggerControlPropertyText, PlayerGroupAll(), StringToText("Ennemis restants : " + IntToString(gv_enemiesAlive)));
+}
+
+void UI_WaveInfo_Init()
+{
+    waveInfo_dialog = DialogCreate(350, 150, c_anchorLeft, 0, 50, true);
+    DialogSetVisible(waveInfo_dialog, PlayerGroupAll(), true);
+
+    waveInfo_waveLabel = DialogControlCreate(waveInfo_dialog, c_triggerControlTypeLabel);
+    DialogControlSetVisible(waveInfo_waveLabel, PlayerGroupAll(), true);
+    DialogControlSetEnabled(waveInfo_waveLabel, PlayerGroupAll(), true);
+    // Obligé d'appeler ça avant le SetPosition apparement
+    DialogControlSetPropertyAsText(waveInfo_waveLabel, c_triggerControlPropertyText, PlayerGroupAll(), StringToText("Vague " + IntToString(gv_currentWave)));
+    DialogControlSetPosition(waveInfo_waveLabel, PlayerGroupAll(), c_anchorTop, 0, 40);
+
+    waveInfo_enemiesCountLabel = DialogControlCreate(waveInfo_dialog, c_triggerControlTypeLabel);
+    DialogControlSetVisible(waveInfo_enemiesCountLabel, PlayerGroupAll(), true);
+    DialogControlSetEnabled(waveInfo_enemiesCountLabel, PlayerGroupAll(), true);
+    // Obligé d'appeler ça avant le SetPosition apparement
+    DialogControlSetPropertyAsText(waveInfo_enemiesCountLabel, c_triggerControlPropertyText, PlayerGroupAll(), StringToText("Ennemis restants : " + IntToString(gv_enemiesAlive)));
+    DialogControlSetPosition(waveInfo_enemiesCountLabel, PlayerGroupAll(), c_anchorTop, 0, 80);
+    DialogControlSetSize(waveInfo_enemiesCountLabel, PlayerGroupAll(), 250, 50);
+}

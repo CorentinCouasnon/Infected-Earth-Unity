@@ -51,25 +51,3 @@ bool Utility_IsNumber (string input) {
 bool Utility_IsInt(fixed input) {
     return Round(input) == input;
 }
-
-static int Utility_DelayedTextTagDestroyer_ParamTextTag;
-static trigger Utility_DelayedTextTagDestroyer_Trigger;
-
-void Utility_DelayedTextTagCreate(text inText, color inColor, point position, playergroup pg, fixed offset){
-    Utility_DelayedTextTagDestroyer_ParamTextTag = TextTagCreate(TextWithColor(inText, inColor), 24, position, offset, true, false, pg);
-    TextTagSetVelocity(Utility_DelayedTextTagDestroyer_ParamTextTag, 1.0, 90.0);
-    TextTagSetTime(Utility_DelayedTextTagDestroyer_ParamTextTag, c_textTagTimeDuration, 3.0);
-    TriggerExecute(Utility_DelayedTextTagDestroyer_Trigger, false, false);
-}
-bool Utility_DelayedTextTagDestroyer(bool testCond, bool runActions){
-    int textTag = Utility_DelayedTextTagDestroyer_ParamTextTag;
-    Wait(3.5, c_timeGame);
-    TextTagDestroy(textTag);
-
-    return true;
-}
-
-void Utility_Init()
-{
-    Utility_DelayedTextTagDestroyer_Trigger = TriggerCreate("Utility_DelayedTextTagDestroyer");
-}

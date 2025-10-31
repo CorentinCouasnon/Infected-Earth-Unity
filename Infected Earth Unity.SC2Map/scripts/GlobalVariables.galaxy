@@ -1,8 +1,12 @@
 // Constants
 
+const int c_minimumTickTime = 0;
+
 const int c_terranSpawnRegionCount = 4;
 const int c_protossSpawnRegionCount = 4;
 const int c_zergSpawnRegionCount = 4;
+
+const int c_maximumEnemyCount = 300;
 
 // Global variables
 
@@ -13,8 +17,11 @@ struct PlayerData {
 PlayerData gv_playerData;
 
 int gv_currentWave;
-int gv_unitsAlive;
+int gv_enemiesAlive;
 unitgroup gv_enemiesGroup;
+
+string[2000] gv_enemySpawnQueue;
+int gv_enemySpawnCount;
 
 region[4] gv_terranSpawnRegions;
 region[4] gv_protossSpawnRegions;
