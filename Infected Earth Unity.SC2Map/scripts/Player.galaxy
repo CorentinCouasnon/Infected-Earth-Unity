@@ -1,6 +1,12 @@
-void SetHeroUnit()
+void Player_SetHeroUnit()
 {
     gv_playerData.heroUnit = UnitGroupUnit(UnitGroup(null, 1, RegionEntireMap(), UnitFilter(0, 0, 0, 0), 10), 1);
+}
+
+void Player_KillReward(int player, point deadUnitPosition)
+{
+    PlayerModifyPropertyFixed(player, c_playerPropMinerals, c_playerPropOperAdd, 10);
+    Utility_DelayedTextTagCreate(StringToText("+") + FixedToText(10, 2), Color(20, 60, 90), deadUnitPosition, PlayerGroupSingle(player), 1.0);
 }
 
 bool Player_OnUnitDeath(bool testConds, bool runActions)
@@ -10,12 +16,17 @@ bool Player_OnUnitDeath(bool testConds, bool runActions)
         GameOver(1, c_gameOverDefeat, true, true);
     }
 
+    if (libNtve_gf_KillingPlayer() >= 1 && libNtve_gf_KillingPlayer() <= 6 && EventPlayer() == 15)
+    {
+        Player_KillReward(libNtve_gf_KillingPlayer(), UnitGetPosition(EventUnit()));
+    }
+
     return true;
 }
 
-void PlayerInitialize()
+void Player_Init()
 {
-    SetHeroUnit();
+    Player_SetHeroUnit();
     TriggerAddEventUnitDied(TriggerCreate("Player_OnUnitDeath"), null);
-    CameraFocusOnUnit(1, gv_playerData.heroUnit);
+    Camera_FocusOnUnit(1, gv_playerData.heroUnit);
 }

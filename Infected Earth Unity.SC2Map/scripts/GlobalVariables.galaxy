@@ -16,6 +16,6 @@ int gv_currentWave;
 int gv_unitsAlive;
 unitgroup gv_enemiesGroup;
 
-region[8] gv_terranSpawnRegions;
-region[8] gv_protossSpawnRegions;
-region[8] gv_zergSpawnRegions;
+region[4] gv_terranSpawnRegions;
+region[4] gv_protossSpawnRegions;
+region[4] gv_zergSpawnRegions;

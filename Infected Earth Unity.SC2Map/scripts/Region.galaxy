@@ -3,25 +3,25 @@ void Region_Init()
     int i;
 
     // Terran regions
-    for (i = 1; i < c_terranSpawnRegionCount; i += 1)
+    for (i = 0; i < c_terranSpawnRegionCount; i += 1)
     {
-        gv_terranSpawnRegions[i] = RegionFromName("Terran_SpawnRegion" + IntToString(i));
+        gv_terranSpawnRegions[i] = RegionFromName("Terran_SpawnRegion" + IntToString(i + 1));
     }
 
     // Protoss regions
-    for (i = 1; i < c_terranSpawnRegionCount; i += 1)
+    for (i = 0; i < c_terranSpawnRegionCount; i += 1)
     {
-        gv_protossSpawnRegions[i] = RegionFromName("Protoss_SpawnRegion" + IntToString(i));
+        gv_protossSpawnRegions[i] = RegionFromName("Protoss_SpawnRegion" + IntToString(i + 1));
     }
 
     // Zerg regions
-    for (i = 1; i < c_terranSpawnRegionCount; i += 1)
+    for (i = 0; i < c_terranSpawnRegionCount; i += 1)
     {
-        gv_zergSpawnRegions[i] = RegionFromName("Zerg_SpawnRegion" + IntToString(i));
+        gv_zergSpawnRegions[i] = RegionFromName("Zerg_SpawnRegion" + IntToString(i + 1));
     }
 }
 
-region GetRandomSpawnRegion(int part)
+region Region_GetRandomSpawnRegion(int part)
 {
     int r;
     
