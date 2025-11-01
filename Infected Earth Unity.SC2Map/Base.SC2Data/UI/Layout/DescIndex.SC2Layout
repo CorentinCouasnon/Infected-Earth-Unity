@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Desc>
+    <Include path="UI/Layout/Menu.SC2Layout"/>
+    <Include path="UI/Layout/HeroSelection.SC2Layout"/>
+    <Include path="UI/Layout/WaveInfo.SC2Layout"/>
+</Desc>

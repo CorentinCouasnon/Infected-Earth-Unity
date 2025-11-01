@@ -51,7 +51,7 @@ bool Wave_TryNew(bool testConds, bool runActions) {
     UI_WaveInfo_Update();
     UnitGroupClear(gv_enemiesGroup);
 
-    for (i = 1; i <= 5; i += 1) {
+    for (i = 1; i <= c_maximumUnitTypePerWave; i += 1) {
         u = UserDataGetUnit("WaveTable", IntToString(gv_currentWave), "unit", i);
         count = UserDataGetInt("WaveTable", IntToString(gv_currentWave), "count", i);
 
