@@ -1,5 +1,125 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Catalog>
+    <CUpgrade default="1" id="ZergGroundArmors2" parent="ZergGroundArmors">
+        <Name value="Upgrade/Name/ZergGroundArmors2"/>
+        <EffectArray index="4" Reference="Unit,Zergling2,LifeArmorLevel" Value="1"/>
+        <EffectArray index="5" Reference="Unit,Zergling2,LifeArmor" Value="1"/>
+        <AffectedUnitArray index="15" value="Zergling2"/>
+    </CUpgrade>
+    <CUpgrade default="1" id="ZergMeleeWeapons2" parent="ZergMeleeWeapons">
+        <Name value="Upgrade/Name/ZergMeleeWeapons2"/>
+        <AffectedUnitArray index="5" value="Zergling2"/>
+    </CUpgrade>
+    <CUpgrade id="Burrow2">
+        <Icon value="Assets\Textures\btn-ability-zerg-burrow-color.dds"/>
+        <Alert value="ResearchComplete"/>
+        <Race value="Zerg"/>
+        <ScoreResult value="BuildOrder"/>
+        <EditorCategories value="Race:Zerg,UpgradeType:Talents"/>
+        <AffectedUnitArray value="Zergling2"/>
+        <AffectedUnitArray value="ZerglingBurrowed"/>
+        <AffectedUnitArray value="Queen"/>
+        <AffectedUnitArray value="QueenBurrowed"/>
+        <AffectedUnitArray value="Baneling"/>
+        <AffectedUnitArray value="BanelingBurrowed"/>
+        <AffectedUnitArray value="Drone"/>
+        <AffectedUnitArray value="DroneBurrowed"/>
+        <AffectedUnitArray value="Ultralisk"/>
+        <AffectedUnitArray value="UltraliskBurrowed"/>
+        <AffectedUnitArray value="Roach"/>
+        <AffectedUnitArray value="RoachBurrowed"/>
+        <AffectedUnitArray value="InfestorTerran"/>
+        <AffectedUnitArray value="InfestorTerranBurrowed"/>
+        <AffectedUnitArray value="Infestor"/>
+        <AffectedUnitArray value="InfestorBurrowed"/>
+        <AffectedUnitArray value="Hydralisk"/>
+        <AffectedUnitArray value="HydraliskBurrowed"/>
+    </CUpgrade>
+    <CUpgrade id="HotSMetabolicBoost2">
+        <Flags index="UpgradeCheat" value="0"/>
+        <EffectArray Reference="Unit,Zergling2,Speed" Value="1.746000"/>
+        <EffectArray Reference="Unit,HotSRaptor,Speed" Value="1.746000"/>
+        <EffectArray Reference="Unit,HotSSwarmling,Speed" Value="1.746000"/>
+        <AffectedUnitArray value="ZerglingBurrowed"/>
+        <AffectedUnitArray value="Zergling2"/>
+        <AffectedUnitArray value="HotSRaptorBurrowed"/>
+        <AffectedUnitArray value="HotSRaptor"/>
+        <AffectedUnitArray value="HotSSwarmlingBurrowed"/>
+        <AffectedUnitArray value="HotSSwarmling"/>
+    </CUpgrade>
+    <CUpgrade id="HotSZerglingHealth2">
+        <Icon value="Assets\Textures\btn-upgrade-zerg-hardenedcarapace.dds"/>
+        <EffectArray Reference="Unit,Zergling2,LifeMax" Value="10"/>
+        <EffectArray Reference="Unit,HotSSwarmling,LifeMax" Value="10"/>
+        <EffectArray Reference="Unit,HotSRaptor,LifeMax" Value="10"/>
+        <EffectArray Reference="Unit,ZerglingBurrowed,LifeMax" Value="10"/>
+        <EffectArray Reference="Unit,HotSRaptorBurrowed,LifeMax" Value="10"/>
+        <EffectArray Reference="Unit,HotSSwarmlingBurrowed,LifeMax" Value="10"/>
+        <EffectArray Reference="Unit,Zergling2,LifeStart" Value="10"/>
+        <EffectArray Reference="Unit,HotSSwarmling,LifeStart" Value="10"/>
+        <EffectArray Reference="Unit,HotSRaptor,LifeStart" Value="10"/>
+        <EffectArray Reference="Unit,ZerglingBurrowed,LifeStart" Value="10"/>
+        <EffectArray Reference="Unit,HotSRaptorBurrowed,LifeStart" Value="10"/>
+        <EffectArray Reference="Unit,HotSSwarmlingBurrowed,LifeStart" Value="10"/>
+        <EditorCategories value="Race:Zerg,UpgradeType:Talents"/>
+    </CUpgrade>
+    <CUpgrade id="HotSZerglingRespawn2">
+        <EffectArray Operation="Subtract" Reference="Unit,Zergling2,LifeMax" Value="0"/>
+        <EffectArray Operation="Subtract" Reference="Unit,Zergling2,LifeStart" Value="0"/>
+        <EffectArray Operation="Subtract" Reference="Unit,HotSRaptor,LifeMax" Value="0"/>
+        <EffectArray Operation="Subtract" Reference="Unit,HotSRaptor,LifeStart" Value="0"/>
+        <EffectArray Operation="Subtract" Reference="Unit,HotSSwarmling,LifeMax" Value="0"/>
+        <EffectArray Operation="Subtract" Reference="Unit,HotSSwarmling,LifeStart" Value="0"/>
+        <EffectArray Operation="Subtract" Reference="Unit,ZerglingBurrowed,LifeMax" Value="0"/>
+        <EffectArray Operation="Subtract" Reference="Unit,ZerglingBurrowed,LifeStart" Value="0"/>
+        <EffectArray Operation="Subtract" Reference="Unit,HotSRaptorBurrowed,LifeMax" Value="0"/>
+        <EffectArray Operation="Subtract" Reference="Unit,HotSRaptorBurrowed,LifeStart" Value="0"/>
+        <EffectArray Operation="Subtract" Reference="Unit,HotSSwarmlingBurrowed,LifeMax" Value="0"/>
+        <EffectArray Operation="Subtract" Reference="Unit,HotSSwarmlingBurrowed,LifeStart" Value="0"/>
+        <EditorCategories value="Race:Zerg,UpgradeType:Talents"/>
+    </CUpgrade>
+    <CUpgrade id="HotsAcceleratedMorph2">
+        <Flags index="UpgradeCheat" value="0"/>
+        <EditorCategories value="Race:Zerg,UpgradeType:Talents"/>
+        <AffectedUnitArray value="Zergling2"/>
+        <AffectedUnitArray value="ZerglingBurrowed"/>
+        <AffectedUnitArray value="HotSRaptor"/>
+        <AffectedUnitArray value="HotSRaptorBurrowed"/>
+        <AffectedUnitArray value="HotSSwarmling"/>
+        <AffectedUnitArray value="HotSSwarmlingBurrowed"/>
+    </CUpgrade>
+    <CUpgrade id="KerriganCommander2">
+        <Flags index="UpgradeCheat" value="0"/>
+        <EffectArray Operation="Set" Reference="Button,SpawningPool,Tooltip" Value="Button/Tooltip/ACKerriganSpawningPool"/>
+        <EffectArray Operation="Set" Reference="Button,EvolutionChamber,Tooltip" Value="Button/Tooltip/ACKerriganEvolutionChamber"/>
+        <EffectArray Operation="Set" Reference="Button,InfestationPit,Tooltip" Value="Button/Tooltip/ACKerriganInfestationPit"/>
+        <EffectArray Operation="Set" Reference="Button,Spire,Tooltip" Value="Button/Tooltip/ACKerriganSpire"/>
+        <EffectArray Operation="Set" Reference="Button,GreaterSpire,Tooltip" Value="Button/Tooltip/ACKerriganGreaterSpire"/>
+        <EffectArray Operation="Set" Reference="Button,UltraliskCavern,Tooltip" Value="Button/Tooltip/ACKerriganUltraliskCavern"/>
+        <EffectArray Operation="Set" Reference="Button,Lair,Tooltip" Value="Button/Tooltip/ACKerriganLair"/>
+        <EffectArray Operation="Set" Reference="Button,Hive,Tooltip" Value="Button/Tooltip/ACKerriganHive"/>
+        <EffectArray Operation="Set" Reference="Unit,SpawningPool,Description" Value="Button/Tooltip/ACKerriganSpawningPool"/>
+        <EffectArray Operation="Set" Reference="Unit,EvolutionChamber,Description" Value="Button/Tooltip/ACKerriganEvolutionChamber"/>
+        <EffectArray Operation="Set" Reference="Unit,InfestationPit,Description" Value="Button/Tooltip/ACKerriganInfestationPit"/>
+        <EffectArray Operation="Set" Reference="Unit,Spire,Description" Value="Button/Tooltip/ACKerriganSpire"/>
+        <EffectArray Operation="Set" Reference="Unit,GreaterSpire,Description" Value="Button/Tooltip/ACKerriganGreaterSpire"/>
+        <EffectArray Operation="Set" Reference="Unit,UltraliskCavern,Description" Value="Button/Tooltip/ACKerriganUltraliskCavern"/>
+        <EffectArray Operation="Set" Reference="Unit,Lair,Description" Value="Button/Tooltip/ACKerriganLair"/>
+        <EffectArray Operation="Set" Reference="Unit,Hive,Description" Value="Button/Tooltip/ACKerriganHive"/>
+        <EffectArray Operation="Set" Reference="Unit,Zergling2,Description" Value="Button/Tooltip/ZerglingACKerrigan"/>
+        <EffectArray Operation="Set" Reference="Unit,HotSRaptor,Description" Value="Button/Tooltip/HotSRaptorACKerrigan"/>
+        <EffectArray Operation="Set" Reference="Button,Zergling,Tooltip" Value="Button/Tooltip/ZerglingACKerrigan"/>
+        <EffectArray Operation="Set" Reference="Button,MorphToRaptor,Tooltip" Value="Button/Tooltip/MorphToRaptorACKerrigan"/>
+        <EffectArray Reference="Abil,BroodLordHangar,InfoArray[Ammo1].Count" Value="1"/>
+        <LeaderAlias value=""/>
+    </CUpgrade>
+    <CUpgrade id="ObverseIncubation2">
+        <Flags index="UpgradeCheat" value="0"/>
+        <Icon value="Assets\Textures\btn-upgrade-zerg-enduringcorruption.dds"/>
+        <Race value="Zerg"/>
+        <EditorCategories value="Race:Zerg,UpgradeType:Talents"/>
+        <AffectedUnitArray value="Zergling2"/>
+    </CUpgrade>
     <CUpgrade id="RaynorCommanderArmorVanadium2">
         <EffectArray Operation="Set" Reference="Abil,ArmoryResearchVoidCoop,InfoArray[Research4].Upgrade" Value="RaynorTalentedTerranVehicleAndShipPlatingLevel1"/>
         <EffectArray Operation="Set" Reference="Abil,ArmoryResearchVoidCoop,InfoArray[Research5].Upgrade" Value="RaynorTalentedTerranVehicleAndShipPlatingLevel2"/>
@@ -37,5 +157,1871 @@
         <EffectArray Operation="Subtract" Reference="Abil,StimpackDeRaynor,Cost[0].Vital[Life]" Value="5"/>
         <EditorCategories value="Race:Terran,UpgradeType:Talents"/>
         <AffectedUnitArray value="Marine"/>
+    </CUpgrade>
+    <CUpgrade id="ZagaraCommander2">
+        <Flags index="UpgradeCheat" value="0"/>
+        <EffectArray Operation="Subtract" Reference="Abil,LarvaTrain,InfoArray[Train2].Time" Value="15"/>
+        <EffectArray Operation="Subtract" Reference="Abil,LarvaTrain,InfoArray[Train4].Time" Value="18"/>
+        <EffectArray Operation="Subtract" Reference="Abil,LarvaTrain,InfoArray[Train5].Time" Value="20"/>
+        <EffectArray Operation="Subtract" Reference="Abil,LarvaTrain,InfoArray[Train7].Time" Value="33"/>
+        <EffectArray Operation="Subtract" Reference="Abil,LarvaTrain,InfoArray[Train8].Time" Value="21"/>
+        <EffectArray Operation="Subtract" Reference="Abil,LarvaTrain,InfoArray[Train10].Time" Value="16"/>
+        <EffectArray Operation="Subtract" Reference="Abil,LarvaTrain,InfoArray[Train11].Time" Value="30"/>
+        <EffectArray Operation="Subtract" Reference="Abil,LarvaTrain,InfoArray[Train12].Time" Value="24"/>
+        <EffectArray Operation="Subtract" Reference="Abil,LarvaTrain,InfoArray[Train13].Time" Value="24"/>
+        <EffectArray Operation="Subtract" Reference="Abil,LarvaTrain,InfoArray[Train15].Time" Value="24"/>
+        <EffectArray Operation="Subtract" Reference="Abil,LarvaTrainSwarm,InfoArray[Train1].Time" Value="16"/>
+        <EffectArray Operation="Subtract" Reference="Abil,LarvaTrainSwarm,InfoArray[Train3].Time" Value="30"/>
+        <EffectArray Operation="Subtract" Reference="Abil,LarvaTrainSwarm,InfoArray[Train4].Time" Value="24"/>
+        <EffectArray Operation="Subtract" Reference="Abil,LarvaTrainSwarm,InfoArray[Train7].Time" Value="15"/>
+        <EffectArray Operation="Subtract" Reference="Abil,LarvaTrainSwarm,InfoArray[Train10].Time" Value="15"/>
+        <EffectArray Operation="Subtract" Reference="Abil,LarvaTrainSwarm,InfoArray[Train13].Time" Value="24"/>
+        <EffectArray Operation="Subtract" Reference="Abil,LarvaTrainSwarm,InfoArray[Train17].Time" Value="36"/>
+        <EffectArray Operation="Subtract" Reference="Abil,LarvaTrainSwarm,InfoArray[Train18].Time" Value="36"/>
+        <EffectArray Operation="Subtract" Reference="Abil,LarvaTrainSwarm,InfoArray[Train19].Time" Value="10"/>
+        <EffectArray Operation="Subtract" Reference="Abil,LarvaTrainSwarm,InfoArray[Train21].Time" Value="18"/>
+        <EffectArray Operation="Subtract" Reference="Abil,LarvaTrainSwarm,InfoArray[Train22].Time" Value="18"/>
+        <EffectArray Operation="Subtract" Reference="Abil,LarvaTrainSwarm,InfoArray[Train23].Time" Value="16"/>
+        <EffectArray Operation="Subtract" Reference="Abil,LarvaTrainSwarm,InfoArray[Train24].Time" Value="20"/>
+        <EffectArray Operation="Subtract" Reference="Abil,LarvaTrainSwarm,InfoArray[Train25].Time" Value="20"/>
+        <EffectArray Operation="Subtract" Reference="Abil,LarvaTrainSwarm,InfoArray[Train26].Time" Value="24"/>
+        <EffectArray Operation="Subtract" Reference="Abil,LarvaTrainSwarm,InfoArray[Train27].Time" Value="24"/>
+        <EffectArray Operation="Subtract" Reference="Abil,LarvaTrainSwarm,InfoArray[Train28].Time" Value="18"/>
+        <EffectArray Operation="Subtract" Reference="Abil,LarvaTrainSwarm,InfoArray[Train30].Time" Value="18"/>
+        <EffectArray Operation="Subtract" Reference="Unit,Zergling2,CostResource[Minerals]" Value="2"/>
+        <EffectArray Operation="Subtract" Reference="Unit,ZerglingBurrowed,CostResource[Minerals]" Value="2"/>
+        <EffectArray Operation="Subtract" Reference="Unit,HotSRaptor,CostResource[Minerals]" Value="2"/>
+        <EffectArray Operation="Subtract" Reference="Unit,HotSRaptorBurrowed,CostResource[Minerals]" Value="2"/>
+        <EffectArray Operation="Subtract" Reference="Unit,HotSSwarmling,CostResource[Minerals]" Value="2"/>
+        <EffectArray Operation="Subtract" Reference="Unit,HotSSwarmlingBurrowed,CostResource[Minerals]" Value="2"/>
+        <EffectArray Operation="Subtract" Reference="Unit,Baneling,CostResource[Minerals]" Value="5"/>
+        <EffectArray Operation="Subtract" Reference="Unit,BanelingBurrowed,CostResource[Minerals]" Value="5"/>
+        <EffectArray Operation="Subtract" Reference="Unit,HotSSplitterlingBig,CostResource[Minerals]" Value="5"/>
+        <EffectArray Operation="Subtract" Reference="Unit,HotSSplitterlingBigBurrowed,CostResource[Minerals]" Value="5"/>
+        <EffectArray Operation="Subtract" Reference="Unit,HotSHunter,CostResource[Minerals]" Value="5"/>
+        <EffectArray Operation="Subtract" Reference="Unit,HotSHunterBurrowed,CostResource[Minerals]" Value="5"/>
+        <EffectArray Operation="Subtract" Reference="Unit,Baneling,CostResource[Vespene]" Value="1"/>
+        <EffectArray Operation="Subtract" Reference="Unit,BanelingBurrowed,CostResource[Vespene]" Value="1"/>
+        <EffectArray Operation="Subtract" Reference="Unit,HotSSplitterlingBig,CostResource[Vespene]" Value="1"/>
+        <EffectArray Operation="Subtract" Reference="Unit,HotSSplitterlingBigBurrowed,CostResource[Vespene]" Value="1"/>
+        <EffectArray Operation="Subtract" Reference="Unit,HotSHunter,CostResource[Vespene]" Value="1"/>
+        <EffectArray Operation="Subtract" Reference="Unit,HotSHunterBurrowed,CostResource[Vespene]" Value="1"/>
+        <EffectArray Operation="Subtract" Reference="Unit,Hydralisk,CostResource[Minerals]" Value="10"/>
+        <EffectArray Operation="Subtract" Reference="Unit,HydraliskBurrowed,CostResource[Minerals]" Value="10"/>
+        <EffectArray Operation="Subtract" Reference="Unit,HydraliskLurker,CostResource[Minerals]" Value="10"/>
+        <EffectArray Operation="Subtract" Reference="Unit,HydraliskLurkerBurrowed,CostResource[Minerals]" Value="10"/>
+        <EffectArray Operation="Subtract" Reference="Unit,HydraliskImpaler,CostResource[Minerals]" Value="10"/>
+        <EffectArray Operation="Subtract" Reference="Unit,HydraliskImpalerBurrowed,CostResource[Minerals]" Value="10"/>
+        <EffectArray Operation="Subtract" Reference="Unit,Hydralisk,CostResource[Vespene]" Value="5"/>
+        <EffectArray Operation="Subtract" Reference="Unit,HydraliskBurrowed,CostResource[Vespene]" Value="5"/>
+        <EffectArray Operation="Subtract" Reference="Unit,HydraliskLurker,CostResource[Vespene]" Value="5"/>
+        <EffectArray Operation="Subtract" Reference="Unit,HydraliskLurkerBurrowed,CostResource[Vespene]" Value="5"/>
+        <EffectArray Operation="Subtract" Reference="Unit,HydraliskImpaler,CostResource[Vespene]" Value="5"/>
+        <EffectArray Operation="Subtract" Reference="Unit,HydraliskImpalerBurrowed,CostResource[Vespene]" Value="5"/>
+        <EffectArray Operation="Subtract" Reference="Unit,QueenClassic,CostResource[Vespene]" Value="10"/>
+        <EffectArray Operation="Subtract" Reference="Unit,QueenClassic,CostResource[Minerals]" Value="10"/>
+        <EffectArray Operation="Subtract" Reference="Unit,Roach,CostResource[Minerals]" Value="7"/>
+        <EffectArray Operation="Subtract" Reference="Unit,RoachBurrowed,CostResource[Minerals]" Value="7"/>
+        <EffectArray Operation="Subtract" Reference="Unit,RoachVile,CostResource[Minerals]" Value="7"/>
+        <EffectArray Operation="Subtract" Reference="Unit,RoachVileBurrowed,CostResource[Minerals]" Value="7"/>
+        <EffectArray Operation="Subtract" Reference="Unit,RoachCorpser,CostResource[Minerals]" Value="7"/>
+        <EffectArray Operation="Subtract" Reference="Unit,RoachCorpserBurrowed,CostResource[Minerals]" Value="7"/>
+        <EffectArray Operation="Subtract" Reference="Unit,Roach,CostResource[Vespene]" Value="2"/>
+        <EffectArray Operation="Subtract" Reference="Unit,RoachBurrowed,CostResource[Vespene]" Value="2"/>
+        <EffectArray Operation="Subtract" Reference="Unit,RoachVile,CostResource[Vespene]" Value="2"/>
+        <EffectArray Operation="Subtract" Reference="Unit,RoachVileBurrowed,CostResource[Vespene]" Value="2"/>
+        <EffectArray Operation="Subtract" Reference="Unit,RoachCorpser,CostResource[Vespene]" Value="2"/>
+        <EffectArray Operation="Subtract" Reference="Unit,RoachCorpserBurrowed,CostResource[Vespene]" Value="2"/>
+        <EffectArray Operation="Subtract" Reference="Unit,Ultralisk,CostResource[Minerals]" Value="30"/>
+        <EffectArray Operation="Subtract" Reference="Unit,UltraliskBurrowed,CostResource[Minerals]" Value="30"/>
+        <EffectArray Operation="Subtract" Reference="Unit,HotSTorrasque,CostResource[Minerals]" Value="30"/>
+        <EffectArray Operation="Subtract" Reference="Unit,HotSTorrasqueBurrowed,CostResource[Minerals]" Value="30"/>
+        <EffectArray Operation="Subtract" Reference="Unit,HotSNoxious,CostResource[Minerals]" Value="30"/>
+        <EffectArray Operation="Subtract" Reference="Unit,HotSNoxiousBurrowed,CostResource[Minerals]" Value="30"/>
+        <EffectArray Operation="Subtract" Reference="Unit,Ultralisk,CostResource[Vespene]" Value="20"/>
+        <EffectArray Operation="Subtract" Reference="Unit,UltraliskBurrowed,CostResource[Vespene]" Value="20"/>
+        <EffectArray Operation="Subtract" Reference="Unit,HotSTorrasque,CostResource[Vespene]" Value="20"/>
+        <EffectArray Operation="Subtract" Reference="Unit,HotSTorrasqueBurrowed,CostResource[Vespene]" Value="20"/>
+        <EffectArray Operation="Subtract" Reference="Unit,HotSNoxious,CostResource[Vespene]" Value="20"/>
+        <EffectArray Operation="Subtract" Reference="Unit,HotSNoxiousBurrowed,CostResource[Vespene]" Value="20"/>
+        <EffectArray Operation="Subtract" Reference="Unit,SwarmHost,CostResource[Minerals]" Value="20"/>
+        <EffectArray Operation="Subtract" Reference="Unit,SwarmHostBurrowed,CostResource[Minerals]" Value="20"/>
+        <EffectArray Operation="Subtract" Reference="Unit,SwarmHostSplitA,CostResource[Minerals]" Value="20"/>
+        <EffectArray Operation="Subtract" Reference="Unit,SwarmHostSplitABurrowed,CostResource[Minerals]" Value="20"/>
+        <EffectArray Operation="Subtract" Reference="Unit,SwarmHostSplitB,CostResource[Minerals]" Value="20"/>
+        <EffectArray Operation="Subtract" Reference="Unit,SwarmHostSplitBBurrowed,CostResource[Minerals]" Value="20"/>
+        <EffectArray Operation="Subtract" Reference="Unit,SwarmHostRooted,CostResource[Minerals]" Value="20"/>
+        <EffectArray Operation="Subtract" Reference="Unit,SwarmHostSplitARooted,CostResource[Minerals]" Value="20"/>
+        <EffectArray Operation="Subtract" Reference="Unit,SwarmHostSplitBRooted,CostResource[Minerals]" Value="20"/>
+        <EffectArray Operation="Subtract" Reference="Unit,SwarmHost,CostResource[Vespene]" Value="10"/>
+        <EffectArray Operation="Subtract" Reference="Unit,SwarmHostBurrowed,CostResource[Vespene]" Value="10"/>
+        <EffectArray Operation="Subtract" Reference="Unit,SwarmHostSplitA,CostResource[Vespene]" Value="10"/>
+        <EffectArray Operation="Subtract" Reference="Unit,SwarmHostSplitABurrowed,CostResource[Vespene]" Value="10"/>
+        <EffectArray Operation="Subtract" Reference="Unit,SwarmHostSplitB,CostResource[Vespene]" Value="10"/>
+        <EffectArray Operation="Subtract" Reference="Unit,SwarmHostSplitBBurrowed,CostResource[Vespene]" Value="10"/>
+        <EffectArray Operation="Subtract" Reference="Unit,SwarmHostRooted,CostResource[Vespene]" Value="10"/>
+        <EffectArray Operation="Subtract" Reference="Unit,SwarmHostSplitARooted,CostResource[Vespene]" Value="10"/>
+        <EffectArray Operation="Subtract" Reference="Unit,SwarmHostSplitBRooted,CostResource[Vespene]" Value="10"/>
+        <EffectArray Operation="Subtract" Reference="Unit,Mutalisk,CostResource[Minerals]" Value="10"/>
+        <EffectArray Operation="Subtract" Reference="Unit,MutaliskBroodlord,CostResource[Minerals]" Value="10"/>
+        <EffectArray Operation="Subtract" Reference="Unit,MutaliskViper,CostResource[Minerals]" Value="10"/>
+        <EffectArray Operation="Subtract" Reference="Unit,Mutalisk,CostResource[Vespene]" Value="10"/>
+        <EffectArray Operation="Subtract" Reference="Unit,MutaliskBroodlord,CostResource[Vespene]" Value="10"/>
+        <EffectArray Operation="Subtract" Reference="Unit,MutaliskViper,CostResource[Vespene]" Value="10"/>
+        <EffectArray Operation="Subtract" Reference="Unit,Infestor,CostResource[Minerals]" Value="10"/>
+        <EffectArray Operation="Subtract" Reference="Unit,InfestorBurrowed,CostResource[Minerals]" Value="10"/>
+        <EffectArray Operation="Subtract" Reference="Unit,Infestor,CostResource[Vespene]" Value="15"/>
+        <EffectArray Operation="Subtract" Reference="Unit,InfestorBurrowed,CostResource[Vespene]" Value="15"/>
+        <EffectArray Operation="Subtract" Reference="Unit,InfestedAbomination,CostResource[Minerals]" Value="20"/>
+        <EffectArray Operation="Subtract" Reference="Unit,InfestedAbominationBurrowed,CostResource[Minerals]" Value="20"/>
+        <EffectArray Operation="Subtract" Reference="Unit,InfestedAbomination,CostResource[Vespene]" Value="7"/>
+        <EffectArray Operation="Subtract" Reference="Unit,InfestedAbominationBurrowed,CostResource[Vespene]" Value="7"/>
+        <EffectArray Operation="Subtract" Reference="Unit,Overseer,CostResource[Minerals]" Value="5"/>
+        <EffectArray Operation="Subtract" Reference="Unit,Overseer,CostResource[Vespene]" Value="6"/>
+        <EffectArray Operation="Subtract" Reference="Unit,OverseerSiegeMode,CostResource[Minerals]" Value="5"/>
+        <EffectArray Operation="Subtract" Reference="Unit,OverseerSiegeMode,CostResource[Vespene]" Value="6"/>
+        <EffectArray Operation="Subtract" Reference="Unit,BroodLord,CostResource[Minerals]" Value="25"/>
+        <EffectArray Operation="Subtract" Reference="Unit,BroodLord,CostResource[Vespene]" Value="25"/>
+        <EffectArray Operation="Subtract" Reference="Unit,Viper,CostResource[Minerals]" Value="20"/>
+        <EffectArray Operation="Subtract" Reference="Unit,Viper,CostResource[Vespene]" Value="20"/>
+        <EffectArray Operation="Subtract" Reference="Unit,ZagaraCorruptor,CostResource[Minerals]" Value="15"/>
+        <EffectArray Operation="Subtract" Reference="Unit,ZagaraCorruptor,CostResource[Vespene]" Value="10"/>
+        <EffectArray Operation="Subtract" Reference="Abil,LarvaTrainSwarm,InfoArray[Train30].Resource[Minerals]" Value="2"/>
+        <EffectArray Operation="Subtract" Reference="Abil,LarvaTrainSwarm,InfoArray[Train30].Resource[Vespene]" Value="7"/>
+        <EffectArray Operation="Set" Reference="Button,SpawningPool,Tooltip" Value="Button/Tooltip/ACZagaraSpawningPool"/>
+        <EffectArray Operation="Set" Reference="Unit,SpawningPool,Description" Value="Button/Tooltip/ACZagaraSpawningPool"/>
+        <EffectArray Operation="Set" Reference="Button,EvolutionChamber,Tooltip" Value="Button/Tooltip/ACZagaraEvolutionChamber"/>
+        <EffectArray Operation="Set" Reference="Unit,EvolutionChamber,Description" Value="Button/Tooltip/ACZagaraEvolutionChamber"/>
+        <EffectArray Operation="Subtract" Reference="Abil,LarvaTrainSwarmling,InfoArray[Train1].Resource[Minerals]" Value="6"/>
+        <EffectArray Operation="Set" Reference="Button,EvolveKerriganHeroicFortitude,Tooltip" Value="Button/Tooltip/EvolveZagaraHeroicFortitude"/>
+        <EffectArray Operation="Set" Reference="Unit,Lair,Description" Value="Button/Tooltip/LairZagara"/>
+        <EffectArray Operation="Set" Reference="Button,Lair,Tooltip" Value="Button/Tooltip/LairZagara"/>
+        <EffectArray Operation="Subtract" Reference="Abil,Corruption,Cost[0].Cooldown.TimeUse" Value="30.000000"/>
+        <EffectArray Reference="Behavior,Corruption,DamageResponse.ModifyFraction" Value="0.150000"/>
+        <EffectArray Operation="Set" Reference="Weapon,InfestedAbomination,Effect" Value="ZagaraInfestedAbomination"/>
+        <EffectArray Operation="Set" Reference="Weapon,InfestedAbomination,DisplayEffect" Value="ZagaraInfestedAbomination"/>
+        <EffectArray Operation="Set" Reference="Effect,HotSBanelingExplodeLargeSet,EffectArray[3]" Value="ZagaraHotSBanelingExplodeLargeDirect"/>
+        <EffectArray Operation="Set" Reference="Weapon,HotSBanelingDummy,DisplayEffect" Value="ZagaraHotSBanelingExplodeLargeDirect"/>
+        <EffectArray Operation="Set" Reference="Button,EnableBuildingAttack,Tooltip" Value="Button/Tooltip/EnableBuildingAttackZagara"/>
+        <EffectArray Operation="Set" Reference="Button,DisableBuildingAttack,Tooltip" Value="Button/Tooltip/DisableBuildingAttackZagara"/>
+        <EffectArray Operation="Set" Reference="Effect,HotSBanelingExplodeLargeSearch,AreaArray[0].Effect" Value="ZagaraHotSBanelingExplodeLargeSearchDamage"/>
+        <EffectArray Operation="Set" Reference="Effect,HotSBanelingExplodeLargeSearchAll,AreaArray[0].Effect" Value="ZagaraHotSBanelingExplodeLargeSearchDamage"/>
+        <EffectArray Operation="Set" Reference="Button,EnableBuildingAttackScourge,Tooltip" Value="Button/Tooltip/EnableBuildingAttackScourgeZagara"/>
+        <EffectArray Operation="Set" Reference="Button,DisableBuildingAttackScourge,Tooltip" Value="Button/Tooltip/DisableBuildingAttackScourgeZagara"/>
+        <EffectArray Operation="Set" Reference="Weapon,Suicide,DisplayEffect" Value="ZagaraSuicideDamage"/>
+        <EffectArray Operation="Set" Reference="Weapon,SuicideBuilding,DisplayEffect" Value="ZagaraSuicideDamage"/>
+        <EffectArray Operation="Set" Reference="Effect,SuicideSet,EffectArray[0]" Value="ZagaraSuicideDamage"/>
+        <EffectArray Reference="Effect,ZagaraVoidCoopRangedSecondaryDamage,Amount" Value="5"/>
+        <EffectArray Operation="Set" Reference="Abil,LarvaTrain,InfoArray[Train12].Unit[0]" Value="ZagaraCorruptor"/>
+        <EffectArray Reference="Unit,QueenCoop,Food" Value="1"/>
+        <EffectArray Reference="Unit,QueenCoopBurrowed,Food" Value="1"/>
+        <EffectArray Reference="Unit,Roach,Speed" Value="0.750000"/>
+        <AffectedUnitArray value="ZagaraVoidCoop"/>
+        <AffectedUnitArray value="ZagaraVoidCoopBurrowed"/>
+        <LeaderAlias value=""/>
+    </CUpgrade>
+    <CUpgrade id="ZagaraGroundAttacksLevel12">
+        <Name value="Button/Name/ZergGroundAttacksLevel1"/>
+        <WebPriority value="0"/>
+        <Icon value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level1.dds"/>
+        <Race value="Zerg"/>
+        <ScoreCount value="WeaponTechnologyCount"/>
+        <ScoreValue value="WeaponTechnologyValue"/>
+        <ScoreResult value="BuildOrder"/>
+        <EffectArray Operation="Set" Reference="Weapon,Claws,Icon" Value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level1.dds"/>
+        <EffectArray Reference="Weapon,Claws,Level" Value="1"/>
+        <EffectArray Reference="Effect,Claws,Amount" Value="1"/>
+        <EffectArray Operation="Set" Reference="Weapon,HotSSwarmlingClaws,Icon" Value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level1.dds"/>
+        <EffectArray Reference="Weapon,HotSSwarmlingClaws,Level" Value="1"/>
+        <EffectArray Reference="Effect,HotSSwarmlingClawsDamage,Amount" Value="1"/>
+        <EffectArray Operation="Set" Reference="Weapon,ZagaraHunterKiller,Icon" Value="Assets\Textures\btn-upgrade-zerg-missileattacks-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,ZagaraHunterKillerMelee,Icon" Value="Assets\Textures\btn-upgrade-zerg-missileattacks-level1.dds"/>
+        <EffectArray Reference="Effect,ZagaraHunterKillerMelee,Amount" Value="2.000000"/>
+        <EffectArray Reference="Effect,ZagaraHunterKillerU,Amount" Value="2.000000"/>
+        <EffectArray Reference="Weapon,ZagaraHunterKillerMelee,Level" Value="1"/>
+        <EffectArray Reference="Weapon,ZagaraHunterKiller,Level" Value="1"/>
+        <EffectArray Operation="Set" Reference="Weapon,ZagaraAcidSaliva,Icon" Value="Assets\Textures\btn-upgrade-zerg-missileattacks-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,ZagaraRoachMelee,Icon" Value="Assets\Textures\btn-upgrade-zerg-missileattacks-level1.dds"/>
+        <EffectArray Reference="Effect,ZagaraAcidSalivaU,Amount" Value="2.000000"/>
+        <EffectArray Reference="Effect,ZagaraRoachUMelee,Amount" Value="2.000000"/>
+        <EffectArray Reference="Weapon,ZagaraRoachMelee,Level" Value="1"/>
+        <EffectArray Reference="Weapon,ZagaraAcidSaliva,Level" Value="1"/>
+        <EffectArray Operation="Set" Reference="Weapon,InfestedAbomination,Icon" Value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level1.dds"/>
+        <EffectArray Reference="Weapon,InfestedAbomination,Level" Value="1"/>
+        <EffectArray Reference="Effect,ZagaraInfestedAbomination,Amount" Value="2"/>
+        <EffectArray Reference="Effect,ZagaraInfestedAbomination,AttributeBonus[Armored]" Value="2"/>
+        <EffectArray Reference="Weapon,HotSBanelingDummy,Level" Value="1"/>
+        <EffectArray Reference="Weapon,HotSBanelingDummySmall,Level" Value="1"/>
+        <EffectArray Reference="Weapon,VolatileBurstDummy,Level" Value="1"/>
+        <EffectArray Reference="Effect,ZagaraHotSBanelingExplodeLargeDirect,Amount" Value="4"/>
+        <EffectArray Reference="Effect,ZagaraHotSBanelingExplodeLargeDirect,AttributeBonus[Structure]" Value="4"/>
+        <EffectArray Reference="Effect,ZagaraHotSBanelingExplodeLargeSearchDamage,Amount" Value="4"/>
+        <EffectArray Reference="Effect,ZagaraHotSBanelingExplodeLargeSearchDamage,AttributeBonus[Structure]" Value="4"/>
+        <EffectArray Reference="Effect,HotSBanelingExplodeSmallSearchDamage,Amount" Value="1"/>
+        <EffectArray Reference="Effect,HotSBanelingExplodeSmallSearchDamage,AttributeBonus[Structure]" Value="1"/>
+        <EffectArray Reference="Effect,HotSBanelingExplodeSmallDirect,Amount" Value="1"/>
+        <EffectArray Reference="Effect,HotSBanelingExplodeSmallDirect,AttributeBonus[Structure]" Value="1"/>
+        <EffectArray Operation="Set" Reference="Weapon,TalonsMissile,Icon" Value="Assets\Textures\btn-upgrade-zerg-missileattacks-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,Talons,Icon" Value="Assets\Textures\btn-upgrade-zerg-missileattacks-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,AcidSpines,Icon" Value="Assets\Textures\btn-upgrade-zerg-airattacks-level1.dds"/>
+        <EffectArray Reference="Weapon,TalonsMissile,Level" Value="1"/>
+        <EffectArray Reference="Weapon,Talons,Level" Value="1"/>
+        <EffectArray Reference="Weapon,AcidSpines,Level" Value="1"/>
+        <EffectArray Reference="Effect,TalonsMissileDamage,Amount" Value="1.000000"/>
+        <EffectArray Reference="Effect,Talons,Amount" Value="1.000000"/>
+        <EffectArray Reference="Effect,AcidSpines,Amount" Value="1.000000"/>
+        <EditorCategories value="Race:Zerg,UpgradeType:AttackBonus"/>
+        <AffectedUnitArray value="Zergling2"/>
+        <AffectedUnitArray value="ZerglingBurrowed"/>
+        <AffectedUnitArray value="HotSSwarmling"/>
+        <AffectedUnitArray value="HotSSwarmlingBurrowed"/>
+        <AffectedUnitArray value="Baneling"/>
+        <AffectedUnitArray value="BanelingBurrowed"/>
+        <AffectedUnitArray value="HotSSplitterlingBig"/>
+        <AffectedUnitArray value="HotSSplitterlingMedium"/>
+        <AffectedUnitArray value="HotSSplitterlingBigBurrowed"/>
+        <AffectedUnitArray value="HotSSplitterlingMediumBurrowed"/>
+        <AffectedUnitArray value="InfestedAbomination"/>
+        <AffectedUnitArray value="InfestedAbominationBurrowed"/>
+        <AffectedUnitArray value="HunterKiller"/>
+        <AffectedUnitArray value="HunterKillerBurrowed"/>
+        <AffectedUnitArray value="Roach"/>
+        <AffectedUnitArray value="RoachBurrowed"/>
+        <AffectedUnitArray value="QueenCoop"/>
+        <AffectedUnitArray value="QueenCoopBurrowed"/>
+        <LeaderLevel value="1"/>
+    </CUpgrade>
+    <CUpgrade id="ZagaraGroundAttacksLevel22">
+        <Name value="Button/Name/ZergGroundAttacksLevel2"/>
+        <WebPriority value="0"/>
+        <Icon value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level2.dds"/>
+        <Race value="Zerg"/>
+        <ScoreCount value="WeaponTechnologyCount"/>
+        <ScoreValue value="WeaponTechnologyValue"/>
+        <ScoreResult value="BuildOrder"/>
+        <EffectArray Operation="Set" Reference="Weapon,Claws,Icon" Value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level2.dds"/>
+        <EffectArray Reference="Weapon,Claws,Level" Value="1"/>
+        <EffectArray Reference="Effect,Claws,Amount" Value="1"/>
+        <EffectArray Operation="Set" Reference="Weapon,HotSSwarmlingClaws,Icon" Value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level2.dds"/>
+        <EffectArray Reference="Weapon,HotSSwarmlingClaws,Level" Value="1"/>
+        <EffectArray Reference="Effect,HotSSwarmlingClawsDamage,Amount" Value="1"/>
+        <EffectArray Operation="Set" Reference="Weapon,ZagaraHunterKiller,Icon" Value="Assets\Textures\btn-upgrade-zerg-missileattacks-level2.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,ZagaraHunterKillerMelee,Icon" Value="Assets\Textures\btn-upgrade-zerg-missileattacks-level2.dds"/>
+        <EffectArray Reference="Effect,ZagaraHunterKillerMelee,Amount" Value="2.000000"/>
+        <EffectArray Reference="Effect,ZagaraHunterKillerU,Amount" Value="2.000000"/>
+        <EffectArray Reference="Weapon,ZagaraHunterKillerMelee,Level" Value="1"/>
+        <EffectArray Reference="Weapon,ZagaraHunterKiller,Level" Value="1"/>
+        <EffectArray Operation="Set" Reference="Weapon,ZagaraAcidSaliva,Icon" Value="Assets\Textures\btn-upgrade-zerg-missileattacks-level2.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,ZagaraRoachMelee,Icon" Value="Assets\Textures\btn-upgrade-zerg-missileattacks-level2.dds"/>
+        <EffectArray Reference="Effect,ZagaraAcidSalivaU,Amount" Value="2.000000"/>
+        <EffectArray Reference="Effect,ZagaraRoachUMelee,Amount" Value="2.000000"/>
+        <EffectArray Reference="Weapon,ZagaraRoachMelee,Level" Value="1"/>
+        <EffectArray Reference="Weapon,ZagaraAcidSaliva,Level" Value="1"/>
+        <EffectArray Operation="Set" Reference="Weapon,InfestedAbomination,Icon" Value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level2.dds"/>
+        <EffectArray Reference="Weapon,InfestedAbomination,Level" Value="1"/>
+        <EffectArray Reference="Effect,ZagaraInfestedAbomination,Amount" Value="2"/>
+        <EffectArray Reference="Effect,ZagaraInfestedAbomination,AttributeBonus[Armored]" Value="2"/>
+        <EffectArray Reference="Weapon,HotSBanelingDummy,Level" Value="1"/>
+        <EffectArray Reference="Weapon,HotSBanelingDummySmall,Level" Value="1"/>
+        <EffectArray Reference="Weapon,VolatileBurstDummy,Level" Value="1"/>
+        <EffectArray Reference="Effect,ZagaraHotSBanelingExplodeLargeDirect,Amount" Value="4"/>
+        <EffectArray Reference="Effect,ZagaraHotSBanelingExplodeLargeDirect,AttributeBonus[Structure]" Value="4"/>
+        <EffectArray Reference="Effect,ZagaraHotSBanelingExplodeLargeSearchDamage,Amount" Value="4"/>
+        <EffectArray Reference="Effect,ZagaraHotSBanelingExplodeLargeSearchDamage,AttributeBonus[Structure]" Value="4"/>
+        <EffectArray Reference="Effect,HotSBanelingExplodeSmallSearchDamage,Amount" Value="1"/>
+        <EffectArray Reference="Effect,HotSBanelingExplodeSmallSearchDamage,AttributeBonus[Structure]" Value="1"/>
+        <EffectArray Reference="Effect,HotSBanelingExplodeSmallDirect,Amount" Value="1"/>
+        <EffectArray Reference="Effect,HotSBanelingExplodeSmallDirect,AttributeBonus[Structure]" Value="1"/>
+        <EffectArray Operation="Set" Reference="Weapon,TalonsMissile,Icon" Value="Assets\Textures\btn-upgrade-zerg-missileattacks-level2.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,Talons,Icon" Value="Assets\Textures\btn-upgrade-zerg-missileattacks-level2.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,AcidSpines,Icon" Value="Assets\Textures\btn-upgrade-zerg-missileattacks-level2.dds"/>
+        <EffectArray Reference="Weapon,TalonsMissile,Level" Value="1"/>
+        <EffectArray Reference="Weapon,Talons,Level" Value="1"/>
+        <EffectArray Reference="Weapon,AcidSpines,Level" Value="1"/>
+        <EffectArray Reference="Effect,TalonsMissileDamage,Amount" Value="1.000000"/>
+        <EffectArray Reference="Effect,Talons,Amount" Value="1.000000"/>
+        <EffectArray Reference="Effect,AcidSpines,Amount" Value="1.000000"/>
+        <EditorCategories value="Race:Zerg,UpgradeType:AttackBonus"/>
+        <AffectedUnitArray value="Zergling2"/>
+        <AffectedUnitArray value="ZerglingBurrowed"/>
+        <AffectedUnitArray value="HotSSwarmling"/>
+        <AffectedUnitArray value="HotSSwarmlingBurrowed"/>
+        <AffectedUnitArray value="Baneling"/>
+        <AffectedUnitArray value="BanelingBurrowed"/>
+        <AffectedUnitArray value="HotSSplitterlingBig"/>
+        <AffectedUnitArray value="HotSSplitterlingMedium"/>
+        <AffectedUnitArray value="HotSSplitterlingBigBurrowed"/>
+        <AffectedUnitArray value="HotSSplitterlingMediumBurrowed"/>
+        <AffectedUnitArray value="InfestedAbomination"/>
+        <AffectedUnitArray value="InfestedAbominationBurrowed"/>
+        <AffectedUnitArray value="HunterKiller"/>
+        <AffectedUnitArray value="HunterKillerBurrowed"/>
+        <AffectedUnitArray value="Roach"/>
+        <AffectedUnitArray value="RoachBurrowed"/>
+        <LeaderAlias value="ZagaraGroundAttacksLevel1"/>
+        <LeaderLevel value="2"/>
+    </CUpgrade>
+    <CUpgrade id="ZagaraGroundAttacksLevel32">
+        <Name value="Button/Name/ZergGroundAttacksLevel3"/>
+        <WebPriority value="0"/>
+        <Icon value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level3.dds"/>
+        <Race value="Zerg"/>
+        <ScoreCount value="WeaponTechnologyCount"/>
+        <ScoreValue value="WeaponTechnologyValue"/>
+        <ScoreResult value="BuildOrder"/>
+        <EffectArray Operation="Set" Reference="Weapon,Claws,Icon" Value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level3.dds"/>
+        <EffectArray Reference="Weapon,Claws,Level" Value="1"/>
+        <EffectArray Reference="Effect,Claws,Amount" Value="1"/>
+        <EffectArray Operation="Set" Reference="Weapon,HotSSwarmlingClaws,Icon" Value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level3.dds"/>
+        <EffectArray Reference="Weapon,HotSSwarmlingClaws,Level" Value="1"/>
+        <EffectArray Reference="Effect,HotSSwarmlingClawsDamage,Amount" Value="1"/>
+        <EffectArray Operation="Set" Reference="Weapon,ZagaraHunterKiller,Icon" Value="Assets\Textures\btn-upgrade-zerg-missileattacks-level3.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,ZagaraHunterKillerMelee,Icon" Value="Assets\Textures\btn-upgrade-zerg-missileattacks-level3.dds"/>
+        <EffectArray Reference="Effect,ZagaraHunterKillerMelee,Amount" Value="2.000000"/>
+        <EffectArray Reference="Effect,ZagaraHunterKillerU,Amount" Value="2.000000"/>
+        <EffectArray Reference="Weapon,ZagaraHunterKillerMelee,Level" Value="1"/>
+        <EffectArray Reference="Weapon,ZagaraHunterKiller,Level" Value="1"/>
+        <EffectArray Operation="Set" Reference="Weapon,ZagaraAcidSaliva,Icon" Value="Assets\Textures\btn-upgrade-zerg-missileattacks-level3.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,ZagaraRoachMelee,Icon" Value="Assets\Textures\btn-upgrade-zerg-missileattacks-level3.dds"/>
+        <EffectArray Reference="Effect,ZagaraAcidSalivaU,Amount" Value="2.000000"/>
+        <EffectArray Reference="Effect,ZagaraRoachUMelee,Amount" Value="2.000000"/>
+        <EffectArray Reference="Weapon,ZagaraRoachMelee,Level" Value="1"/>
+        <EffectArray Reference="Weapon,ZagaraAcidSaliva,Level" Value="1"/>
+        <EffectArray Operation="Set" Reference="Weapon,InfestedAbomination,Icon" Value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level3.dds"/>
+        <EffectArray Reference="Weapon,InfestedAbomination,Level" Value="1"/>
+        <EffectArray Reference="Effect,ZagaraInfestedAbomination,Amount" Value="2"/>
+        <EffectArray Reference="Effect,ZagaraInfestedAbomination,AttributeBonus[Armored]" Value="2"/>
+        <EffectArray Reference="Weapon,HotSBanelingDummy,Level" Value="1"/>
+        <EffectArray Reference="Weapon,HotSBanelingDummySmall,Level" Value="1"/>
+        <EffectArray Reference="Weapon,VolatileBurstDummy,Level" Value="1"/>
+        <EffectArray Reference="Effect,ZagaraHotSBanelingExplodeLargeDirect,Amount" Value="4"/>
+        <EffectArray Reference="Effect,ZagaraHotSBanelingExplodeLargeDirect,AttributeBonus[Structure]" Value="4"/>
+        <EffectArray Reference="Effect,ZagaraHotSBanelingExplodeLargeSearchDamage,Amount" Value="4"/>
+        <EffectArray Reference="Effect,ZagaraHotSBanelingExplodeLargeSearchDamage,AttributeBonus[Structure]" Value="4"/>
+        <EffectArray Reference="Effect,HotSBanelingExplodeSmallSearchDamage,Amount" Value="1"/>
+        <EffectArray Reference="Effect,HotSBanelingExplodeSmallSearchDamage,AttributeBonus[Structure]" Value="1"/>
+        <EffectArray Reference="Effect,HotSBanelingExplodeSmallDirect,Amount" Value="1"/>
+        <EffectArray Reference="Effect,HotSBanelingExplodeSmallDirect,AttributeBonus[Structure]" Value="1"/>
+        <EffectArray Operation="Set" Reference="Weapon,TalonsMissile,Icon" Value="Assets\Textures\btn-upgrade-zerg-missileattacks-level3.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,Talons,Icon" Value="Assets\Textures\btn-upgrade-zerg-missileattacks-level3.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,AcidSpines,Icon" Value="Assets\Textures\btn-upgrade-zerg-missileattacks-level3.dds"/>
+        <EffectArray Reference="Weapon,TalonsMissile,Level" Value="1"/>
+        <EffectArray Reference="Weapon,Talons,Level" Value="1"/>
+        <EffectArray Reference="Weapon,AcidSpines,Level" Value="1"/>
+        <EffectArray Reference="Effect,TalonsMissileDamage,Amount" Value="1.000000"/>
+        <EffectArray Reference="Effect,Talons,Amount" Value="1.000000"/>
+        <EffectArray Reference="Effect,AcidSpines,Amount" Value="1.000000"/>
+        <EditorCategories value="Race:Zerg,UpgradeType:AttackBonus"/>
+        <AffectedUnitArray value="Zergling2"/>
+        <AffectedUnitArray value="ZerglingBurrowed"/>
+        <AffectedUnitArray value="HotSSwarmling"/>
+        <AffectedUnitArray value="HotSSwarmlingBurrowed"/>
+        <AffectedUnitArray value="Baneling"/>
+        <AffectedUnitArray value="BanelingBurrowed"/>
+        <AffectedUnitArray value="HotSSplitterlingBig"/>
+        <AffectedUnitArray value="HotSSplitterlingMedium"/>
+        <AffectedUnitArray value="HotSSplitterlingBigBurrowed"/>
+        <AffectedUnitArray value="HotSSplitterlingMediumBurrowed"/>
+        <AffectedUnitArray value="InfestedAbomination"/>
+        <AffectedUnitArray value="InfestedAbominationBurrowed"/>
+        <AffectedUnitArray value="HunterKiller"/>
+        <AffectedUnitArray value="HunterKillerBurrowed"/>
+        <AffectedUnitArray value="Roach"/>
+        <AffectedUnitArray value="RoachBurrowed"/>
+        <LeaderAlias value="ZagaraGroundAttacksLevel1"/>
+        <LeaderLevel value="3"/>
+    </CUpgrade>
+    <CUpgrade id="ZagaraVoidCoopCreepBonuses2">
+        <Flags index="UpgradeCheat" value="0"/>
+        <EffectArray Reference="Abil,CreepTumorBuild,Range" Value="3"/>
+        <EffectArray Reference="Unit,CreepTumor,Sight" Value="8"/>
+        <EffectArray Reference="Unit,CreepTumorBurrowed,Sight" Value="8"/>
+        <EffectArray Reference="Unit,CreepTumorUsed,Sight" Value="8"/>
+        <EffectArray Reference="Unit,Drone,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,Zergling2,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,HotSRaptor,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,HotSSwarmling,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,Roach,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,RoachVile,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,RoachCorpser,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,KerriganInfestBroodling,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,Roachling,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,Broodling,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,Hydralisk,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,HydraliskLurker,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,HydraliskImpaler,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,Ultralisk,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,HotSNoxious,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,HotSTorrasque,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,InfestedAbomination,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,Queen,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,K5Kerrigan,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,InfestedStukov,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,StukovInfestedTerran,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,InfestedTerranCampaign,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,InfestedCivilian,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,Dehaka,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,DehakaMirrorImage,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,SwarmQueen,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,LargeSwarmQueen,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,HugeSwarmQueen,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,Locust,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,Brutalisk,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,ZagaraVoidCoop,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,ZagaraVoidCoopBurrowed,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,Hatchery,LifeRegenRate" Value="0.820200"/>
+        <EffectArray Reference="Unit,Lair,LifeRegenRate" Value="0.820200"/>
+        <EffectArray Reference="Unit,Hive,LifeRegenRate" Value="0.820200"/>
+        <EffectArray Reference="Unit,CreepTumorBurrowed,LifeRegenRate" Value="0.820200"/>
+        <EffectArray Reference="Unit,CreepTumorUsed,LifeRegenRate" Value="0.820200"/>
+        <EffectArray Reference="Unit,SpawningPool,LifeRegenRate" Value="0.820200"/>
+        <EffectArray Reference="Unit,Extractor,LifeRegenRate" Value="0.820200"/>
+        <EffectArray Reference="Unit,AutomatedExtractor,LifeRegenRate" Value="0.820200"/>
+        <EffectArray Reference="Unit,EvolutionChamber,LifeRegenRate" Value="0.820200"/>
+        <EffectArray Reference="Unit,RoachWarren,LifeRegenRate" Value="0.820200"/>
+        <EffectArray Reference="Unit,HydraliskDen,LifeRegenRate" Value="0.820200"/>
+        <EffectArray Reference="Unit,LurkerDen,LifeRegenRate" Value="0.820200"/>
+        <EffectArray Reference="Unit,ImpalerDen,LifeRegenRate" Value="0.820200"/>
+        <EffectArray Reference="Unit,BanelingNest,LifeRegenRate" Value="0.820200"/>
+        <EffectArray Reference="Unit,InfestationPit,LifeRegenRate" Value="0.820200"/>
+        <EffectArray Reference="Unit,Spire,LifeRegenRate" Value="0.820200"/>
+        <EffectArray Reference="Unit,GreaterSpire,LifeRegenRate" Value="0.820200"/>
+        <EffectArray Reference="Unit,UltraliskCavern,LifeRegenRate" Value="0.820200"/>
+        <EffectArray Reference="Unit,NydusNetwork,LifeRegenRate" Value="0.820200"/>
+        <EffectArray Reference="Unit,GreaterNydusWorm,LifeRegenRate" Value="0.820200"/>
+        <EffectArray Reference="Unit,NydusCanal,LifeRegenRate" Value="0.820200"/>
+        <EffectArray Reference="Unit,Drone,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,DroneBurrowed,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,Zergling2,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,ZerglingBurrowed,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,HotSRaptor,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,HotSRaptorBurrowed,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,HotSSwarmling,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,HotSSwarmlingBurrowed,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,Baneling,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,BanelingBurrowed,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,HotSHunter,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,HotSHunterBurrowed,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,HotSSplitterlingBig,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,HotSSplitterlingBigBurrowed,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,HotSSplitterlingMedium,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,HotSSplitterlingMediumBurrowed,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,Roach,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,RoachBurrowed,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,RoachVile,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,RoachVileBurrowed,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,RoachCorpser,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,RoachCorpserBurrowed,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,KerriganInfestBroodling,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,Roachling,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,Broodling,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,Hydralisk,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,HydraliskBurrowed,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,HydraliskLurker,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,HydraliskLurkerBurrowed,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,HydraliskImpaler,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,HydraliskImpalerBurrowed,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,Ultralisk,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,UltraliskBurrowed,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,HotSNoxious,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,HotSNoxiousBurrowed,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,HotSTorrasque,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,HotSTorrasqueBurrowed,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,Infestor,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,InfestorBurrowed,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,InfestedAbomination,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,InfestedAbominationBurrowed,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,Queen,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,QueenBurrowed,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,K5Kerrigan,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,K5KerriganBurrowed,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,InfestedStukov,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,StukovInfestedTerran,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,InfestedTerranCampaign,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,InfestedCivilian,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,Dehaka,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,DehakaBurrowed,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,DehakaMirrorImage,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,DehakaMirrorImageBurrowed,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,SwarmQueen,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,SwarmQueenBurrowed,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,LargeSwarmQueen,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,LargeSwarmQueenBurrowed,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,HugeSwarmQueen,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,HugeSwarmQueenBurrowed,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,Locust,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,SwarmHost,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,SwarmHostBurrowed,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,SwarmHostRooted,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,SwarmHostSplitA,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,SwarmHostSplitABurrowed,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,SwarmHostSplitARooted,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,SwarmHostSplitB,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,SwarmHostSplitBBurrowed,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,SwarmHostSplitBRooted,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,Brutalisk,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,ZagaraVoidCoop,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,ZagaraVoidCoopBurrowed,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,SCV,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,Marine,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,Marauder,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,Firebat,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,Reaper,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,Ghost,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,Spectre,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,Medic,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,HERC,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,HellionTank,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,WarPig,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,HammerSecurity,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,DevilDog,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,MercMedic,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,MercReaper,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,Zealot,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,ZealotAiur,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,ZealotShakuras,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,ZealotPurifier,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,HighTemplar,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,HighArchonTemplar,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,HighTemplarShakuras,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,HighTemplarTaldarim,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,DarkTemplar,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,DarkTemplarAiur,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,DarkTemplarShakuras,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,DarkTemplarTaldarim,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,Hellion,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,Vulture,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,WidowMine,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,WidowMineBurrowed,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,VikingAssault,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,VikingFighter,AttackSpeedMultiplierCreep" Value="0.0"/>
+        <EffectArray Reference="Unit,Cyclone,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,SiegeTank,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,SiegeTankSieged,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,Thor,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,Diamondback,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,WarHound,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,AutoTurret,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,MercVulture,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,SpartanCompany,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,HelsAngelAssault,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,MercHellion,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,SiegeBreaker,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,SiegeBreakerSieged,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,OdinMKII,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,Stalker,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,StalkerShakuras,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,StalkerPurifier,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,Dragoon,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,Sentry,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,SentryAiur,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,SentryPurifier,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,SentryPhasing,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,Monitor,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,Immortal,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,ImmortalShakuras,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,ImmortalTaldarim,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,ImmortalAiur,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,Colossus,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,ColossusPurifier,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,ColossusTaldarim,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,Reaver,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,DisruptionWard,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,Archon,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,ArchonAdvanced,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,ShadowArchon,AttackSpeedMultiplierCreep" Value="0.3"/>
+        <EffectArray Reference="Unit,SCV,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,Marine,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,Marauder,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,Firebat,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,Reaper,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,Ghost,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,Spectre,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,Medic,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,HERC,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,Hellion,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,HellionTank,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,WarPig,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,HammerSecurity,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,DevilDog,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,MercMedic,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,MercReaper,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,Zealot,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,ZealotAiur,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,ZealotShakuras,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,ZealotPurifier,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,HighTemplar,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,HighArchonTemplar,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,HighTemplarShakuras,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,HighTemplarTaldarim,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,DarkTemplar,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,DarkTemplarAiur,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,DarkTemplarShakuras,LifeRegenRateCreep" Value="0.820200"/>
+        <EffectArray Reference="Unit,DarkTemplarTaldarim,LifeRegenRateCreep" Value="0.820200"/>
+        <EditorCategories value="Race:Zerg,UpgradeType:Talents"/>
+        <AffectedUnitArray value="ZagaraVoidCoop"/>
+        <AffectedUnitArray value="ZagaraVoidCoopBurrowed"/>
+    </CUpgrade>
+    <CUpgrade id="ZagaraVoidCoopReducedUnitCost2">
+        <Flags index="UpgradeCheat" value="0"/>
+        <EffectArray Operation="Subtract" Reference="Unit,Zergling2,CostResource[Minerals]" Value="3"/>
+        <EffectArray Operation="Subtract" Reference="Unit,ZerglingBurrowed,CostResource[Minerals]" Value="3"/>
+        <EffectArray Operation="Subtract" Reference="Unit,HotSRaptor,CostResource[Minerals]" Value="3"/>
+        <EffectArray Operation="Subtract" Reference="Unit,HotSRaptorBurrowed,CostResource[Minerals]" Value="3"/>
+        <EffectArray Operation="Subtract" Reference="Unit,HotSSwarmling,CostResource[Minerals]" Value="3"/>
+        <EffectArray Operation="Subtract" Reference="Unit,HotSSwarmlingBurrowed,CostResource[Minerals]" Value="3"/>
+        <EffectArray Operation="Subtract" Reference="Unit,Baneling,CostResource[Minerals]" Value="5"/>
+        <EffectArray Operation="Subtract" Reference="Unit,BanelingBurrowed,CostResource[Minerals]" Value="5"/>
+        <EffectArray Operation="Subtract" Reference="Unit,HotSSplitterlingBig,CostResource[Minerals]" Value="5"/>
+        <EffectArray Operation="Subtract" Reference="Unit,HotSSplitterlingBigBurrowed,CostResource[Minerals]" Value="5"/>
+        <EffectArray Operation="Subtract" Reference="Unit,HotSHunter,CostResource[Minerals]" Value="5"/>
+        <EffectArray Operation="Subtract" Reference="Unit,HotSHunterBurrowed,CostResource[Minerals]" Value="5"/>
+        <EffectArray Operation="Subtract" Reference="Unit,Baneling,CostResource[Vespene]" Value="2"/>
+        <EffectArray Operation="Subtract" Reference="Unit,BanelingBurrowed,CostResource[Vespene]" Value="2"/>
+        <EffectArray Operation="Subtract" Reference="Unit,HotSSplitterlingBig,CostResource[Vespene]" Value="2"/>
+        <EffectArray Operation="Subtract" Reference="Unit,HotSSplitterlingBigBurrowed,CostResource[Vespene]" Value="2"/>
+        <EffectArray Operation="Subtract" Reference="Unit,HotSHunter,CostResource[Vespene]" Value="2"/>
+        <EffectArray Operation="Subtract" Reference="Unit,HotSHunterBurrowed,CostResource[Vespene]" Value="2"/>
+        <EffectArray Operation="Subtract" Reference="Unit,Hydralisk,CostResource[Minerals]" Value="10"/>
+        <EffectArray Operation="Subtract" Reference="Unit,HydraliskBurrowed,CostResource[Minerals]" Value="10"/>
+        <EffectArray Operation="Subtract" Reference="Unit,HydraliskLurker,CostResource[Minerals]" Value="10"/>
+        <EffectArray Operation="Subtract" Reference="Unit,HydraliskLurkerBurrowed,CostResource[Minerals]" Value="10"/>
+        <EffectArray Operation="Subtract" Reference="Unit,HydraliskImpaler,CostResource[Minerals]" Value="10"/>
+        <EffectArray Operation="Subtract" Reference="Unit,HydraliskImpalerBurrowed,CostResource[Minerals]" Value="10"/>
+        <EffectArray Operation="Subtract" Reference="Unit,Hydralisk,CostResource[Vespene]" Value="5"/>
+        <EffectArray Operation="Subtract" Reference="Unit,HydraliskBurrowed,CostResource[Vespene]" Value="5"/>
+        <EffectArray Operation="Subtract" Reference="Unit,HydraliskLurker,CostResource[Vespene]" Value="5"/>
+        <EffectArray Operation="Subtract" Reference="Unit,HydraliskLurkerBurrowed,CostResource[Vespene]" Value="5"/>
+        <EffectArray Operation="Subtract" Reference="Unit,HydraliskImpaler,CostResource[Vespene]" Value="5"/>
+        <EffectArray Operation="Subtract" Reference="Unit,HydraliskImpalerBurrowed,CostResource[Vespene]" Value="5"/>
+        <EffectArray Operation="Subtract" Reference="Unit,Roach,CostResource[Minerals]" Value="8"/>
+        <EffectArray Operation="Subtract" Reference="Unit,RoachBurrowed,CostResource[Minerals]" Value="8"/>
+        <EffectArray Operation="Subtract" Reference="Unit,RoachVile,CostResource[Minerals]" Value="8"/>
+        <EffectArray Operation="Subtract" Reference="Unit,RoachVileBurrowed,CostResource[Minerals]" Value="8"/>
+        <EffectArray Operation="Subtract" Reference="Unit,RoachCorpser,CostResource[Minerals]" Value="8"/>
+        <EffectArray Operation="Subtract" Reference="Unit,RoachCorpserBurrowed,CostResource[Minerals]" Value="8"/>
+        <EffectArray Operation="Subtract" Reference="Unit,Roach,CostResource[Vespene]" Value="3"/>
+        <EffectArray Operation="Subtract" Reference="Unit,RoachBurrowed,CostResource[Vespene]" Value="3"/>
+        <EffectArray Operation="Subtract" Reference="Unit,RoachVile,CostResource[Vespene]" Value="3"/>
+        <EffectArray Operation="Subtract" Reference="Unit,RoachVileBurrowed,CostResource[Vespene]" Value="3"/>
+        <EffectArray Operation="Subtract" Reference="Unit,RoachCorpser,CostResource[Vespene]" Value="3"/>
+        <EffectArray Operation="Subtract" Reference="Unit,RoachCorpserBurrowed,CostResource[Vespene]" Value="3"/>
+        <EffectArray Operation="Subtract" Reference="Unit,Ultralisk,CostResource[Minerals]" Value="30"/>
+        <EffectArray Operation="Subtract" Reference="Unit,UltraliskBurrowed,CostResource[Minerals]" Value="30"/>
+        <EffectArray Operation="Subtract" Reference="Unit,HotSTorrasque,CostResource[Minerals]" Value="30"/>
+        <EffectArray Operation="Subtract" Reference="Unit,HotSTorrasqueBurrowed,CostResource[Minerals]" Value="30"/>
+        <EffectArray Operation="Subtract" Reference="Unit,HotSNoxious,CostResource[Minerals]" Value="30"/>
+        <EffectArray Operation="Subtract" Reference="Unit,HotSNoxiousBurrowed,CostResource[Minerals]" Value="30"/>
+        <EffectArray Operation="Subtract" Reference="Unit,Ultralisk,CostResource[Vespene]" Value="20"/>
+        <EffectArray Operation="Subtract" Reference="Unit,UltraliskBurrowed,CostResource[Vespene]" Value="20"/>
+        <EffectArray Operation="Subtract" Reference="Unit,HotSTorrasque,CostResource[Vespene]" Value="20"/>
+        <EffectArray Operation="Subtract" Reference="Unit,HotSTorrasqueBurrowed,CostResource[Vespene]" Value="20"/>
+        <EffectArray Operation="Subtract" Reference="Unit,HotSNoxious,CostResource[Vespene]" Value="20"/>
+        <EffectArray Operation="Subtract" Reference="Unit,HotSNoxiousBurrowed,CostResource[Vespene]" Value="20"/>
+        <EffectArray Operation="Subtract" Reference="Unit,SwarmHost,CostResource[Minerals]" Value="20"/>
+        <EffectArray Operation="Subtract" Reference="Unit,SwarmHostBurrowed,CostResource[Minerals]" Value="20"/>
+        <EffectArray Operation="Subtract" Reference="Unit,SwarmHostSplitA,CostResource[Minerals]" Value="20"/>
+        <EffectArray Operation="Subtract" Reference="Unit,SwarmHostSplitABurrowed,CostResource[Minerals]" Value="20"/>
+        <EffectArray Operation="Subtract" Reference="Unit,SwarmHostSplitB,CostResource[Minerals]" Value="20"/>
+        <EffectArray Operation="Subtract" Reference="Unit,SwarmHostSplitBBurrowed,CostResource[Minerals]" Value="20"/>
+        <EffectArray Operation="Subtract" Reference="Unit,SwarmHostRooted,CostResource[Minerals]" Value="20"/>
+        <EffectArray Operation="Subtract" Reference="Unit,SwarmHostSplitARooted,CostResource[Minerals]" Value="20"/>
+        <EffectArray Operation="Subtract" Reference="Unit,SwarmHostSplitBRooted,CostResource[Minerals]" Value="20"/>
+        <EffectArray Operation="Subtract" Reference="Unit,SwarmHost,CostResource[Vespene]" Value="10"/>
+        <EffectArray Operation="Subtract" Reference="Unit,SwarmHostBurrowed,CostResource[Vespene]" Value="10"/>
+        <EffectArray Operation="Subtract" Reference="Unit,SwarmHostSplitA,CostResource[Vespene]" Value="10"/>
+        <EffectArray Operation="Subtract" Reference="Unit,SwarmHostSplitABurrowed,CostResource[Vespene]" Value="10"/>
+        <EffectArray Operation="Subtract" Reference="Unit,SwarmHostSplitB,CostResource[Vespene]" Value="10"/>
+        <EffectArray Operation="Subtract" Reference="Unit,SwarmHostSplitBBurrowed,CostResource[Vespene]" Value="10"/>
+        <EffectArray Operation="Subtract" Reference="Unit,SwarmHostRooted,CostResource[Vespene]" Value="10"/>
+        <EffectArray Operation="Subtract" Reference="Unit,SwarmHostSplitARooted,CostResource[Vespene]" Value="10"/>
+        <EffectArray Operation="Subtract" Reference="Unit,SwarmHostSplitBRooted,CostResource[Vespene]" Value="10"/>
+        <EffectArray Operation="Subtract" Reference="Unit,Mutalisk,CostResource[Minerals]" Value="10"/>
+        <EffectArray Operation="Subtract" Reference="Unit,MutaliskBroodlord,CostResource[Minerals]" Value="10"/>
+        <EffectArray Operation="Subtract" Reference="Unit,MutaliskViper,CostResource[Minerals]" Value="10"/>
+        <EffectArray Operation="Subtract" Reference="Unit,Mutalisk,CostResource[Vespene]" Value="10"/>
+        <EffectArray Operation="Subtract" Reference="Unit,MutaliskBroodlord,CostResource[Vespene]" Value="10"/>
+        <EffectArray Operation="Subtract" Reference="Unit,MutaliskViper,CostResource[Vespene]" Value="10"/>
+        <EffectArray Operation="Subtract" Reference="Unit,Infestor,CostResource[Minerals]" Value="10"/>
+        <EffectArray Operation="Subtract" Reference="Unit,InfestorBurrowed,CostResource[Minerals]" Value="10"/>
+        <EffectArray Operation="Subtract" Reference="Unit,Infestor,CostResource[Vespene]" Value="15"/>
+        <EffectArray Operation="Subtract" Reference="Unit,InfestorBurrowed,CostResource[Vespene]" Value="15"/>
+        <EffectArray Operation="Subtract" Reference="Unit,InfestedAbomination,CostResource[Minerals]" Value="20"/>
+        <EffectArray Operation="Subtract" Reference="Unit,InfestedAbominationBurrowed,CostResource[Minerals]" Value="20"/>
+        <EffectArray Operation="Subtract" Reference="Unit,InfestedAbomination,CostResource[Vespene]" Value="8"/>
+        <EffectArray Operation="Subtract" Reference="Unit,InfestedAbominationBurrowed,CostResource[Vespene]" Value="8"/>
+        <EffectArray Operation="Subtract" Reference="Unit,Overseer,CostResource[Minerals]" Value="5"/>
+        <EffectArray Operation="Subtract" Reference="Unit,Overseer,CostResource[Vespene]" Value="6"/>
+        <EffectArray Operation="Subtract" Reference="Unit,OverseerSiegeMode,CostResource[Minerals]" Value="5"/>
+        <EffectArray Operation="Subtract" Reference="Unit,OverseerSiegeMode,CostResource[Vespene]" Value="6"/>
+        <EffectArray Operation="Subtract" Reference="Unit,BroodLord,CostResource[Minerals]" Value="25"/>
+        <EffectArray Operation="Subtract" Reference="Unit,BroodLord,CostResource[Vespene]" Value="25"/>
+        <EffectArray Operation="Subtract" Reference="Unit,Viper,CostResource[Minerals]" Value="20"/>
+        <EffectArray Operation="Subtract" Reference="Unit,Viper,CostResource[Vespene]" Value="20"/>
+        <EffectArray Operation="Subtract" Reference="Abil,LarvaTrainSwarm,InfoArray[Train30].Resource[Minerals]" Value="3"/>
+        <EffectArray Operation="Subtract" Reference="Abil,LarvaTrainSwarm,InfoArray[Train30].Resource[Vespene]" Value="5"/>
+        <AffectedUnitArray value="ZagaraVoidCoop"/>
+        <AffectedUnitArray value="ZagaraVoidCoopBurrowed"/>
+    </CUpgrade>
+    <CUpgrade id="ZergGroundArmorsLevel12" parent="ZergGroundArmors">
+        <Name value="Upgrade/Name/ZergGroundArmorsLevel12"/>
+        <Icon value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level1.dds"/>
+        <EffectArray index="4" Reference="Unit,Zergling2,LifeArmorLevel" Value="1"/>
+        <EffectArray index="5" Reference="Unit,Zergling2,LifeArmor" Value="1"/>
+        <EffectArray index="34" Reference="Unit,InfestorTerran,LifeArmor" Value="0"/>
+        <EffectArray index="35" Reference="Unit,InfestorTerranBurrowed,LifeArmor" Value="0"/>
+        <EffectArray index="36" Reference="Unit,InfestorTerran,LifeArmorLevel" Value="0"/>
+        <EffectArray index="37" Reference="Unit,InfestorTerranBurrowed,LifeArmorLevel" Value="0"/>
+        <EffectArray Operation="Set" Reference="Actor,Drone,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Zergling,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Hydralisk,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Roach,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Baneling,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Ultralisk,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Queen,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Infestor,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Broodling,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,InfestorTerran,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level0.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,BanelingCocoon,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,LocustMP,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,SwarmHostMP,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level1.dds"/>
+        <EffectArray Reference="Unit,LocustMP,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,LocustMP,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,SwarmHostMP,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,SwarmHostMP,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,SwarmHostBurrowedMP,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,SwarmHostBurrowedMP,LifeArmor" Value="1"/>
+        <EffectArray Operation="Set" Reference="Actor,LurkerMP,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level1.dds"/>
+        <EffectArray Reference="Unit,LurkerMP,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,LurkerMP,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,LurkerMPBurrowed,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,LurkerMPBurrowed,LifeArmor" Value="1"/>
+        <EffectArray Operation="Set" Reference="Actor,Ravager,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level1.dds"/>
+        <EffectArray Reference="Unit,Ravager,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Ravager,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,RavagerBurrowed,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,RavagerBurrowed,LifeArmor" Value="1"/>
+        <EffectArray Operation="Set" Reference="Actor,LocustMPFlying,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level1.dds"/>
+        <EffectArray Reference="Unit,LocustMPFlying,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,LocustMPFlying,LifeArmor" Value="1"/>
+        <EffectArray Operation="Set" Reference="Actor,Dehaka,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,InfestedStukov,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Brakk,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,SwarmHost,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,SwarmHostSplitA,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,SwarmHostSplitB,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Locust,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,LocustFlying,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Lurker,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,LurkerEgg,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,HunterKiller,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,HydraliskLurker,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,HydraliskImpaler,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,HotSRaptor,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,HotSSwarmling,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,RoachCorpser,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,RoachVile,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,HotSHunter,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,HotSSplitterlingBig,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,HotSSplitterlingMedium,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,ZaGara,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Impaler,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,ImpalerEgg,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,HotSTorrasque,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,HotSNoxious,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,PrimalZergling,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,PrimalHydralisk,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,PrimalUltralisk,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Brutalisk,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,InfestedAbomination,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Roachling,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,PrimalRoach,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,StukovInfestedTerran,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level1.dds"/>
+        <EffectArray Reference="Unit,SwarmHost,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,SwarmHost,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,SwarmHostBurrowed,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,SwarmHostBurrowed,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,SwarmHostRooted,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,SwarmHostRooted,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,SwarmHostSplitA,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,SwarmHostSplitA,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,SwarmHostSplitABurrowed,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,SwarmHostSplitABurrowed,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,SwarmHostSplitARooted,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,SwarmHostSplitARooted,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,SwarmHostSplitB,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,SwarmHostSplitB,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,SwarmHostSplitBBurrowed,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,SwarmHostSplitBBurrowed,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,SwarmHostSplitBRooted,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,SwarmHostSplitBRooted,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,Locust,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Locust,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,LocustFlying,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,LocustFlying,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,PrimalRoach,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,PrimalRoach,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,HunterKiller,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,HunterKiller,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,HunterKillerBurrowed,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,HunterKillerBurrowed,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,HydraliskLurker,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,HydraliskLurker,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,HydraliskLurkerBurrowed,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,HydraliskLurkerBurrowed,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,HydraliskImpaler,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,HydraliskImpaler,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,HydraliskImpalerBurrowed,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,HydraliskImpalerBurrowed,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,HotSRaptor,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,HotSRaptor,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,HotSSwarmling,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,HotSSwarmling,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,RoachCorpser,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,RoachCorpser,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,RoachVile,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,RoachVile,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,HotSRaptorBurrowed,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,HotSRaptorBurrowed,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,HotSSwarmlingBurrowed,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,HotSSwarmlingBurrowed,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,RoachCorpserBurrowed,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,RoachCorpserBurrowed,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,RoachVileBurrowed,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,RoachVileBurrowed,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,HotSHunter,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,HotSHunter,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,HotSHunterBurrowed,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,HotSHunterBurrowed,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,HotSSplitterlingBig,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,HotSSplitterlingBig,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,HotSSplitterlingBigBurrowed,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,HotSSplitterlingBigBurrowed,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,HotSSplitterlingMedium,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,HotSSplitterlingMedium,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,HotSSplitterlingMediumBurrowed,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,HotSSplitterlingMediumBurrowed,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,ZaGara,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,ZaGara,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,ZaGaraBurrowed,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,ZaGaraBurrowed,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,Impaler,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Impaler,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,ImpalerBurrowed,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,ImpalerBurrowed,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,Lurker,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Lurker,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,LurkerBurrowed,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,LurkerBurrowed,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,HotSTorrasque,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,HotSTorrasque,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,HotSTorrasqueBurrowed,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,HotSTorrasqueBurrowed,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,HotSNoxious,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,HotSNoxious,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,HotSNoxiousBurrowed,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,HotSNoxiousBurrowed,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,PrimalZergling,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,PrimalZergling,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,PrimalHydralisk,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,PrimalHydralisk,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,PrimalUltralisk,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,PrimalUltralisk,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,Brutalisk,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Brutalisk,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,InfestedAbomination,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,InfestedAbomination,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,InfestedAbominationBurrowed,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,InfestedAbominationBurrowed,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,Roachling,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Roachling,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,Brakk,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Brakk,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,StukovInfestedTerran,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,StukovInfestedTerran,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,Dehaka,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Dehaka,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,InfestedStukov,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,InfestedStukov,LifeArmor" Value="1"/>
+        <EffectArray Operation="Set" Reference="Actor,InfestedExploder,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level1.dds"/>
+        <EffectArray Reference="Unit,InfestedExploder,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,InfestedExploder,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,InfestedExploderBurrowed,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,InfestedExploderBurrowed,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,QueenCoop,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,QueenCoop,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,QueenCoopBurrowed,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,QueenCoopBurrowed,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,RavagerAbathur,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,RavagerAbathur,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,RavagerAbathurBurrowed,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,RavagerAbathurBurrowed,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,BrutaliskBurrowed,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,BrutaliskBurrowed,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Choker,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,Choker,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Hunterling,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,Hunterling,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,HunterlingLeaping,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,HunterlingLeaping,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Kaboomer,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,Kaboomer,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Stank,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,Stank,LifeArmorLevel" Value="1"/>
+        <EffectArray Operation="Set" Reference="Actor,QueenCoop,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,RavagerAbathur,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Choker,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Hunterling,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Kaboomer,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Stank,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level1.dds"/>
+        <AffectedUnitArray index="15" value="Zergling2"/>
+        <AffectedUnitArray value="LocustMP"/>
+        <AffectedUnitArray value="SwarmHostBurrowedMP"/>
+        <AffectedUnitArray value="SwarmHostMP"/>
+        <AffectedUnitArray value="LurkerMP"/>
+        <AffectedUnitArray value="LurkerMPBurrowed"/>
+        <AffectedUnitArray value="Ravager"/>
+        <AffectedUnitArray value="RavagerBurrowed"/>
+        <AffectedUnitArray value="LocustMPFlying"/>
+        <AffectedUnitArray value="HotSHunter"/>
+        <AffectedUnitArray value="HotSSplitterlingBig"/>
+        <AffectedUnitArray value="HotSSplitterlingMedium"/>
+        <AffectedUnitArray value="ZaGara"/>
+        <AffectedUnitArray value="HotSHunterBurrowed"/>
+        <AffectedUnitArray value="HotSSplitterlingBigBurrowed"/>
+        <AffectedUnitArray value="HotSSplitterlingMediumBurrowed"/>
+        <AffectedUnitArray value="ZaGaraBurrowed"/>
+        <AffectedUnitArray value="HotSRaptor"/>
+        <AffectedUnitArray value="HotSRaptorBurrowed"/>
+        <AffectedUnitArray value="HotSSwarmling"/>
+        <AffectedUnitArray value="HotSSwarmlingBurrowed"/>
+        <AffectedUnitArray value="RoachCorpser"/>
+        <AffectedUnitArray value="RoachCorpserBurrowed"/>
+        <AffectedUnitArray value="RoachVile"/>
+        <AffectedUnitArray value="RoachVileBurrowed"/>
+        <AffectedUnitArray value="HunterKiller"/>
+        <AffectedUnitArray value="HunterKillerBurrowed"/>
+        <AffectedUnitArray value="HydraliskImpaler"/>
+        <AffectedUnitArray value="HydraliskImpalerBurrowed"/>
+        <AffectedUnitArray value="HydraliskLurker"/>
+        <AffectedUnitArray value="HydraliskLurkerBurrowed"/>
+        <AffectedUnitArray value="HotSTorrasque"/>
+        <AffectedUnitArray value="HotSTorrasqueBurrowed"/>
+        <AffectedUnitArray value="HotSNoxious"/>
+        <AffectedUnitArray value="HotSNoxiousBurrowed"/>
+        <AffectedUnitArray value="PrimalZergling"/>
+        <AffectedUnitArray value="PrimalHydralisk"/>
+        <AffectedUnitArray value="PrimalUltralisk"/>
+        <AffectedUnitArray value="PrimalRoach"/>
+        <AffectedUnitArray value="Brutalisk"/>
+        <AffectedUnitArray value="InfestedAbomination"/>
+        <AffectedUnitArray value="InfestedAbominationBurrowed"/>
+        <AffectedUnitArray value="Roachling"/>
+        <AffectedUnitArray value="Impaler"/>
+        <AffectedUnitArray value="Lurker"/>
+        <AffectedUnitArray value="Locust"/>
+        <AffectedUnitArray value="LocustFlying"/>
+        <AffectedUnitArray value="SwarmHost"/>
+        <AffectedUnitArray value="SwarmHostBurrowed"/>
+        <AffectedUnitArray value="SwarmHostRooted"/>
+        <AffectedUnitArray value="SwarmHostSplitA"/>
+        <AffectedUnitArray value="SwarmHostSplitABurrowed"/>
+        <AffectedUnitArray value="SwarmHostSplitARooted"/>
+        <AffectedUnitArray value="SwarmHostSplitB"/>
+        <AffectedUnitArray value="SwarmHostSplitBBurrowed"/>
+        <AffectedUnitArray value="SwarmHostSplitBRooted"/>
+        <AffectedUnitArray value="Brakk"/>
+        <AffectedUnitArray value="StukovInfestedTerran"/>
+        <AffectedUnitArray value="Dehaka"/>
+        <AffectedUnitArray value="DehakaBurrowed"/>
+        <AffectedUnitArray value="InfestedStukov"/>
+        <AffectedUnitArray value="InfestedExploder"/>
+        <AffectedUnitArray value="InfestedExploderBurrowed"/>
+        <AffectedUnitArray value="Choker"/>
+        <AffectedUnitArray value="Hunterling"/>
+        <AffectedUnitArray value="HunterlingLeaping"/>
+        <AffectedUnitArray value="Kaboomer"/>
+        <AffectedUnitArray value="Stank"/>
+        <AffectedUnitArray value="RavagerAbathur"/>
+        <AffectedUnitArray value="RavagerAbathurBurrowed"/>
+        <AffectedUnitArray value="BrutaliskBurrowed"/>
+        <LeaderLevel value="1"/>
+    </CUpgrade>
+    <CUpgrade id="ZergGroundArmorsLevel22" parent="ZergGroundArmors">
+        <Name value="Upgrade/Name/ZergGroundArmorsLevel22"/>
+        <Icon value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level2.dds"/>
+        <EffectArray index="4" Reference="Unit,Zergling2,LifeArmorLevel" Value="1"/>
+        <EffectArray index="5" Reference="Unit,Zergling2,LifeArmor" Value="1"/>
+        <EffectArray index="34" Reference="Unit,InfestorTerran,LifeArmor" Value="0"/>
+        <EffectArray index="35" Reference="Unit,InfestorTerranBurrowed,LifeArmor" Value="0"/>
+        <EffectArray index="36" Reference="Unit,InfestorTerran,LifeArmorLevel" Value="0"/>
+        <EffectArray index="37" Reference="Unit,InfestorTerranBurrowed,LifeArmorLevel" Value="0"/>
+        <EffectArray Operation="Set" Reference="Actor,Drone,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level2.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Zergling,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level2.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Hydralisk,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level2.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Roach,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level2.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Baneling,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level2.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Ultralisk,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level2.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Queen,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level2.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Infestor,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level2.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Broodling,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level2.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,InfestorTerran,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level0.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,BanelingCocoon,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level2.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,LocustMP,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level2.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,SwarmHostMP,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level2.dds"/>
+        <EffectArray Reference="Unit,LocustMP,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,LocustMP,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,SwarmHostMP,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,SwarmHostMP,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,SwarmHostBurrowedMP,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,SwarmHostBurrowedMP,LifeArmor" Value="1"/>
+        <EffectArray Operation="Set" Reference="Actor,LurkerMP,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level2.dds"/>
+        <EffectArray Reference="Unit,LurkerMP,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,LurkerMP,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,LurkerMPBurrowed,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,LurkerMPBurrowed,LifeArmor" Value="1"/>
+        <EffectArray Operation="Set" Reference="Actor,Ravager,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level2.dds"/>
+        <EffectArray Reference="Unit,Ravager,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Ravager,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,RavagerBurrowed,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,RavagerBurrowed,LifeArmor" Value="1"/>
+        <EffectArray Operation="Set" Reference="Actor,LocustMPFlying,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level2.dds"/>
+        <EffectArray Reference="Unit,LocustMPFlying,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,LocustMPFlying,LifeArmor" Value="1"/>
+        <EffectArray Operation="Set" Reference="Actor,Dehaka,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level2.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,InfestedStukov,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level2.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Brakk,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level2.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,SwarmHost,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level2.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,SwarmHostSplitA,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level2.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,SwarmHostSplitB,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level2.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Locust,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level2.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,LocustFlying,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level2.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Lurker,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level2.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,LurkerEgg,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level2.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,HunterKiller,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level2.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,HydraliskLurker,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level2.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,HydraliskImpaler,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level2.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,HotSRaptor,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level2.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,HotSSwarmling,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level2.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,RoachCorpser,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level2.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,RoachVile,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level2.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,HotSHunter,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level2.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,HotSSplitterlingBig,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level2.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,HotSSplitterlingMedium,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level2.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,ZaGara,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level2.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Impaler,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level2.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,ImpalerEgg,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level2.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,HotSTorrasque,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level2.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,HotSNoxious,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level2.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,PrimalZergling,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level2.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,PrimalHydralisk,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level2.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,PrimalUltralisk,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level2.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Brutalisk,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level2.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,InfestedAbomination,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level2.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Roachling,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level2.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,PrimalRoach,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level2.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,StukovInfestedTerran,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level2.dds"/>
+        <EffectArray Reference="Unit,SwarmHost,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,SwarmHost,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,SwarmHostBurrowed,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,SwarmHostBurrowed,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,SwarmHostRooted,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,SwarmHostRooted,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,SwarmHostSplitA,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,SwarmHostSplitA,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,SwarmHostSplitABurrowed,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,SwarmHostSplitABurrowed,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,SwarmHostSplitARooted,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,SwarmHostSplitARooted,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,SwarmHostSplitB,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,SwarmHostSplitB,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,SwarmHostSplitBBurrowed,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,SwarmHostSplitBBurrowed,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,SwarmHostSplitBRooted,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,SwarmHostSplitBRooted,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,Locust,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Locust,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,LocustFlying,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,LocustFlying,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,PrimalRoach,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,PrimalRoach,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,HunterKiller,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,HunterKiller,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,HunterKillerBurrowed,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,HunterKillerBurrowed,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,HydraliskLurker,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,HydraliskLurker,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,HydraliskLurkerBurrowed,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,HydraliskLurkerBurrowed,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,HydraliskImpaler,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,HydraliskImpaler,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,HydraliskImpalerBurrowed,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,HydraliskImpalerBurrowed,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,HotSRaptor,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,HotSRaptor,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,HotSSwarmling,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,HotSSwarmling,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,RoachCorpser,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,RoachCorpser,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,RoachVile,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,RoachVile,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,HotSRaptorBurrowed,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,HotSRaptorBurrowed,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,HotSSwarmlingBurrowed,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,HotSSwarmlingBurrowed,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,RoachCorpserBurrowed,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,RoachCorpserBurrowed,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,RoachVileBurrowed,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,RoachVileBurrowed,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,HotSHunter,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,HotSHunter,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,HotSHunterBurrowed,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,HotSHunterBurrowed,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,HotSSplitterlingBig,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,HotSSplitterlingBig,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,HotSSplitterlingBigBurrowed,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,HotSSplitterlingBigBurrowed,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,HotSSplitterlingMedium,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,HotSSplitterlingMedium,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,HotSSplitterlingMediumBurrowed,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,HotSSplitterlingMediumBurrowed,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,ZaGara,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,ZaGara,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,ZaGaraBurrowed,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,ZaGaraBurrowed,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,Impaler,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Impaler,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,ImpalerBurrowed,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,ImpalerBurrowed,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,Lurker,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Lurker,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,LurkerBurrowed,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,LurkerBurrowed,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,HotSTorrasque,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,HotSTorrasque,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,HotSTorrasqueBurrowed,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,HotSTorrasqueBurrowed,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,HotSNoxious,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,HotSNoxious,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,HotSNoxiousBurrowed,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,HotSNoxiousBurrowed,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,PrimalZergling,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,PrimalZergling,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,PrimalHydralisk,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,PrimalHydralisk,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,PrimalUltralisk,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,PrimalUltralisk,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,Brutalisk,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Brutalisk,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,InfestedAbomination,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,InfestedAbomination,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,InfestedAbominationBurrowed,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,InfestedAbominationBurrowed,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,Roachling,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Roachling,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,Brakk,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Brakk,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,StukovInfestedTerran,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,StukovInfestedTerran,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,Dehaka,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Dehaka,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,InfestedStukov,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,InfestedStukov,LifeArmor" Value="1"/>
+        <EffectArray Operation="Set" Reference="Actor,InfestedExploder,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level2.dds"/>
+        <EffectArray Reference="Unit,InfestedExploder,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,InfestedExploder,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,InfestedExploderBurrowed,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,InfestedExploderBurrowed,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,QueenCoop,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,QueenCoop,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,QueenCoopBurrowed,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,QueenCoopBurrowed,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,RavagerAbathur,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,RavagerAbathur,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,RavagerAbathurBurrowed,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,RavagerAbathurBurrowed,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,BrutaliskBurrowed,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,BrutaliskBurrowed,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Choker,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,Choker,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Hunterling,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,Hunterling,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,HunterlingLeaping,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,HunterlingLeaping,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Kaboomer,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,Kaboomer,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Stank,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,Stank,LifeArmorLevel" Value="1"/>
+        <EffectArray Operation="Set" Reference="Actor,QueenCoop,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level2.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,RavagerAbathur,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level2.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Choker,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level2.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Hunterling,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level2.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Kaboomer,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level2.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Stank,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level2.dds"/>
+        <AffectedUnitArray index="15" value="Zergling2"/>
+        <AffectedUnitArray value="LocustMP"/>
+        <AffectedUnitArray value="SwarmHostBurrowedMP"/>
+        <AffectedUnitArray value="SwarmHostMP"/>
+        <AffectedUnitArray value="LurkerMP"/>
+        <AffectedUnitArray value="LurkerMPBurrowed"/>
+        <AffectedUnitArray value="Ravager"/>
+        <AffectedUnitArray value="RavagerBurrowed"/>
+        <AffectedUnitArray value="LocustMPFlying"/>
+        <AffectedUnitArray value="HotSHunter"/>
+        <AffectedUnitArray value="HotSSplitterlingBig"/>
+        <AffectedUnitArray value="HotSSplitterlingMedium"/>
+        <AffectedUnitArray value="ZaGara"/>
+        <AffectedUnitArray value="HotSHunterBurrowed"/>
+        <AffectedUnitArray value="HotSSplitterlingBigBurrowed"/>
+        <AffectedUnitArray value="HotSSplitterlingMediumBurrowed"/>
+        <AffectedUnitArray value="ZaGaraBurrowed"/>
+        <AffectedUnitArray value="HotSRaptor"/>
+        <AffectedUnitArray value="HotSRaptorBurrowed"/>
+        <AffectedUnitArray value="HotSSwarmling"/>
+        <AffectedUnitArray value="HotSSwarmlingBurrowed"/>
+        <AffectedUnitArray value="RoachCorpser"/>
+        <AffectedUnitArray value="RoachCorpserBurrowed"/>
+        <AffectedUnitArray value="RoachVile"/>
+        <AffectedUnitArray value="RoachVileBurrowed"/>
+        <AffectedUnitArray value="HunterKiller"/>
+        <AffectedUnitArray value="HunterKillerBurrowed"/>
+        <AffectedUnitArray value="HydraliskImpaler"/>
+        <AffectedUnitArray value="HydraliskImpalerBurrowed"/>
+        <AffectedUnitArray value="HydraliskLurker"/>
+        <AffectedUnitArray value="HydraliskLurkerBurrowed"/>
+        <AffectedUnitArray value="HotSTorrasque"/>
+        <AffectedUnitArray value="HotSTorrasqueBurrowed"/>
+        <AffectedUnitArray value="HotSNoxious"/>
+        <AffectedUnitArray value="HotSNoxiousBurrowed"/>
+        <AffectedUnitArray value="PrimalZergling"/>
+        <AffectedUnitArray value="PrimalHydralisk"/>
+        <AffectedUnitArray value="PrimalUltralisk"/>
+        <AffectedUnitArray value="PrimalRoach"/>
+        <AffectedUnitArray value="Brutalisk"/>
+        <AffectedUnitArray value="InfestedAbomination"/>
+        <AffectedUnitArray value="InfestedAbominationBurrowed"/>
+        <AffectedUnitArray value="Roachling"/>
+        <AffectedUnitArray value="Impaler"/>
+        <AffectedUnitArray value="Lurker"/>
+        <AffectedUnitArray value="Locust"/>
+        <AffectedUnitArray value="LocustFlying"/>
+        <AffectedUnitArray value="SwarmHost"/>
+        <AffectedUnitArray value="SwarmHostBurrowed"/>
+        <AffectedUnitArray value="SwarmHostRooted"/>
+        <AffectedUnitArray value="SwarmHostSplitA"/>
+        <AffectedUnitArray value="SwarmHostSplitABurrowed"/>
+        <AffectedUnitArray value="SwarmHostSplitARooted"/>
+        <AffectedUnitArray value="SwarmHostSplitB"/>
+        <AffectedUnitArray value="SwarmHostSplitBBurrowed"/>
+        <AffectedUnitArray value="SwarmHostSplitBRooted"/>
+        <AffectedUnitArray value="Brakk"/>
+        <AffectedUnitArray value="StukovInfestedTerran"/>
+        <AffectedUnitArray value="Dehaka"/>
+        <AffectedUnitArray value="DehakaBurrowed"/>
+        <AffectedUnitArray value="InfestedStukov"/>
+        <AffectedUnitArray value="InfestedExploder"/>
+        <AffectedUnitArray value="InfestedExploderBurrowed"/>
+        <AffectedUnitArray value="Choker"/>
+        <AffectedUnitArray value="Hunterling"/>
+        <AffectedUnitArray value="HunterlingLeaping"/>
+        <AffectedUnitArray value="Kaboomer"/>
+        <AffectedUnitArray value="Stank"/>
+        <AffectedUnitArray value="RavagerAbathur"/>
+        <AffectedUnitArray value="RavagerAbathurBurrowed"/>
+        <AffectedUnitArray value="BrutaliskBurrowed"/>
+        <LeaderLevel value="2"/>
+    </CUpgrade>
+    <CUpgrade id="ZergGroundArmorsLevel32" parent="ZergGroundArmors">
+        <Name value="Upgrade/Name/ZergGroundArmorsLevel32"/>
+        <Icon value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level3.dds"/>
+        <EffectArray index="4" Reference="Unit,Zergling2,LifeArmorLevel" Value="1"/>
+        <EffectArray index="5" Reference="Unit,Zergling2,LifeArmor" Value="1"/>
+        <EffectArray index="34" Reference="Unit,InfestorTerran,LifeArmor" Value="0"/>
+        <EffectArray index="35" Reference="Unit,InfestorTerranBurrowed,LifeArmor" Value="0"/>
+        <EffectArray index="36" Reference="Unit,InfestorTerran,LifeArmorLevel" Value="0"/>
+        <EffectArray index="37" Reference="Unit,InfestorTerranBurrowed,LifeArmorLevel" Value="0"/>
+        <EffectArray Operation="Set" Reference="Actor,Drone,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level3.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Zergling,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level3.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Hydralisk,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level3.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Roach,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level3.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Baneling,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level3.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Ultralisk,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level3.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Queen,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level3.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Infestor,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level3.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Broodling,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level3.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,InfestorTerran,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level0.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,BanelingCocoon,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level3.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,LocustMP,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level3.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,SwarmHostMP,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level3.dds"/>
+        <EffectArray Reference="Unit,LocustMP,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,LocustMP,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,SwarmHostMP,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,SwarmHostMP,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,SwarmHostBurrowedMP,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,SwarmHostBurrowedMP,LifeArmor" Value="1"/>
+        <EffectArray Operation="Set" Reference="Actor,LurkerMP,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level3.dds"/>
+        <EffectArray Reference="Unit,LurkerMP,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,LurkerMP,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,LurkerMPBurrowed,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,LurkerMPBurrowed,LifeArmor" Value="1"/>
+        <EffectArray Operation="Set" Reference="Actor,Ravager,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level3.dds"/>
+        <EffectArray Reference="Unit,Ravager,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Ravager,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,RavagerBurrowed,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,RavagerBurrowed,LifeArmor" Value="1"/>
+        <EffectArray Operation="Set" Reference="Actor,LocustMPFlying,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level3.dds"/>
+        <EffectArray Reference="Unit,LocustMPFlying,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,LocustMPFlying,LifeArmor" Value="1"/>
+        <EffectArray Operation="Set" Reference="Actor,Dehaka,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level3.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,InfestedStukov,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level3.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Brakk,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level3.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,SwarmHost,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level3.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,SwarmHostSplitA,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level3.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,SwarmHostSplitB,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level3.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Locust,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level3.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,LocustFlying,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level3.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Lurker,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level3.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,LurkerEgg,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level3.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,HunterKiller,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level3.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,HydraliskLurker,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level3.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,HydraliskImpaler,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level3.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,HotSRaptor,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level3.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,HotSSwarmling,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level3.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,RoachCorpser,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level3.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,RoachVile,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level3.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,HotSHunter,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level3.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,HotSSplitterlingBig,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level3.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,HotSSplitterlingMedium,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level3.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,ZaGara,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level3.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Impaler,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level3.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,ImpalerEgg,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level3.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,HotSTorrasque,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level3.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,HotSNoxious,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level3.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,PrimalZergling,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level3.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,PrimalHydralisk,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level3.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,PrimalUltralisk,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level3.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Brutalisk,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level3.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,InfestedAbomination,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level3.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Roachling,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level3.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,PrimalRoach,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level3.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,StukovInfestedTerran,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level3.dds"/>
+        <EffectArray Reference="Unit,SwarmHost,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,SwarmHost,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,SwarmHostBurrowed,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,SwarmHostBurrowed,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,SwarmHostRooted,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,SwarmHostRooted,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,SwarmHostSplitA,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,SwarmHostSplitA,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,SwarmHostSplitABurrowed,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,SwarmHostSplitABurrowed,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,SwarmHostSplitARooted,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,SwarmHostSplitARooted,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,SwarmHostSplitB,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,SwarmHostSplitB,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,SwarmHostSplitBBurrowed,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,SwarmHostSplitBBurrowed,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,SwarmHostSplitBRooted,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,SwarmHostSplitBRooted,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,Locust,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Locust,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,LocustFlying,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,LocustFlying,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,PrimalRoach,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,PrimalRoach,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,HunterKiller,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,HunterKiller,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,HunterKillerBurrowed,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,HunterKillerBurrowed,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,HydraliskLurker,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,HydraliskLurker,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,HydraliskLurkerBurrowed,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,HydraliskLurkerBurrowed,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,HydraliskImpaler,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,HydraliskImpaler,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,HydraliskImpalerBurrowed,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,HydraliskImpalerBurrowed,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,HotSRaptor,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,HotSRaptor,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,HotSSwarmling,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,HotSSwarmling,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,RoachCorpser,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,RoachCorpser,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,RoachVile,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,RoachVile,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,HotSRaptorBurrowed,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,HotSRaptorBurrowed,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,HotSSwarmlingBurrowed,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,HotSSwarmlingBurrowed,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,RoachCorpserBurrowed,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,RoachCorpserBurrowed,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,RoachVileBurrowed,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,RoachVileBurrowed,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,HotSHunter,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,HotSHunter,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,HotSHunterBurrowed,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,HotSHunterBurrowed,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,HotSSplitterlingBig,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,HotSSplitterlingBig,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,HotSSplitterlingBigBurrowed,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,HotSSplitterlingBigBurrowed,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,HotSSplitterlingMedium,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,HotSSplitterlingMedium,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,HotSSplitterlingMediumBurrowed,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,HotSSplitterlingMediumBurrowed,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,ZaGara,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,ZaGara,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,ZaGaraBurrowed,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,ZaGaraBurrowed,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,Impaler,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Impaler,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,ImpalerBurrowed,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,ImpalerBurrowed,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,Lurker,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Lurker,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,LurkerBurrowed,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,LurkerBurrowed,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,HotSTorrasque,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,HotSTorrasque,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,HotSTorrasqueBurrowed,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,HotSTorrasqueBurrowed,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,HotSNoxious,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,HotSNoxious,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,HotSNoxiousBurrowed,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,HotSNoxiousBurrowed,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,PrimalZergling,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,PrimalZergling,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,PrimalHydralisk,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,PrimalHydralisk,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,PrimalUltralisk,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,PrimalUltralisk,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,Brutalisk,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Brutalisk,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,InfestedAbomination,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,InfestedAbomination,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,InfestedAbominationBurrowed,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,InfestedAbominationBurrowed,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,Roachling,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Roachling,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,Brakk,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Brakk,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,StukovInfestedTerran,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,StukovInfestedTerran,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,Dehaka,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Dehaka,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,InfestedStukov,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,InfestedStukov,LifeArmor" Value="1"/>
+        <EffectArray Operation="Set" Reference="Actor,InfestedExploder,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level3.dds"/>
+        <EffectArray Reference="Unit,InfestedExploder,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,InfestedExploder,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,InfestedExploderBurrowed,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,InfestedExploderBurrowed,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,QueenCoop,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,QueenCoop,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,QueenCoopBurrowed,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,QueenCoopBurrowed,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,RavagerAbathur,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,RavagerAbathur,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,RavagerAbathurBurrowed,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,RavagerAbathurBurrowed,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,BrutaliskBurrowed,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,BrutaliskBurrowed,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Choker,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,Choker,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Hunterling,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,Hunterling,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,HunterlingLeaping,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,HunterlingLeaping,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Kaboomer,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,Kaboomer,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Stank,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,Stank,LifeArmorLevel" Value="1"/>
+        <EffectArray Operation="Set" Reference="Actor,QueenCoop,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level3.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,RavagerAbathur,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level3.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Choker,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level3.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Hunterling,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level3.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Kaboomer,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level3.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Stank,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level3.dds"/>
+        <AffectedUnitArray index="15" value="Zergling2"/>
+        <AffectedUnitArray value="LocustMP"/>
+        <AffectedUnitArray value="SwarmHostBurrowedMP"/>
+        <AffectedUnitArray value="SwarmHostMP"/>
+        <AffectedUnitArray value="LurkerMP"/>
+        <AffectedUnitArray value="LurkerMPBurrowed"/>
+        <AffectedUnitArray value="Ravager"/>
+        <AffectedUnitArray value="RavagerBurrowed"/>
+        <AffectedUnitArray value="LocustMPFlying"/>
+        <AffectedUnitArray value="HotSHunter"/>
+        <AffectedUnitArray value="HotSSplitterlingBig"/>
+        <AffectedUnitArray value="HotSSplitterlingMedium"/>
+        <AffectedUnitArray value="ZaGara"/>
+        <AffectedUnitArray value="HotSHunterBurrowed"/>
+        <AffectedUnitArray value="HotSSplitterlingBigBurrowed"/>
+        <AffectedUnitArray value="HotSSplitterlingMediumBurrowed"/>
+        <AffectedUnitArray value="ZaGaraBurrowed"/>
+        <AffectedUnitArray value="HotSRaptor"/>
+        <AffectedUnitArray value="HotSRaptorBurrowed"/>
+        <AffectedUnitArray value="HotSSwarmling"/>
+        <AffectedUnitArray value="HotSSwarmlingBurrowed"/>
+        <AffectedUnitArray value="RoachCorpser"/>
+        <AffectedUnitArray value="RoachCorpserBurrowed"/>
+        <AffectedUnitArray value="RoachVile"/>
+        <AffectedUnitArray value="RoachVileBurrowed"/>
+        <AffectedUnitArray value="HunterKiller"/>
+        <AffectedUnitArray value="HunterKillerBurrowed"/>
+        <AffectedUnitArray value="HydraliskImpaler"/>
+        <AffectedUnitArray value="HydraliskImpalerBurrowed"/>
+        <AffectedUnitArray value="HydraliskLurker"/>
+        <AffectedUnitArray value="HydraliskLurkerBurrowed"/>
+        <AffectedUnitArray value="HotSTorrasque"/>
+        <AffectedUnitArray value="HotSTorrasqueBurrowed"/>
+        <AffectedUnitArray value="HotSNoxious"/>
+        <AffectedUnitArray value="HotSNoxiousBurrowed"/>
+        <AffectedUnitArray value="PrimalZergling"/>
+        <AffectedUnitArray value="PrimalHydralisk"/>
+        <AffectedUnitArray value="PrimalUltralisk"/>
+        <AffectedUnitArray value="PrimalRoach"/>
+        <AffectedUnitArray value="Brutalisk"/>
+        <AffectedUnitArray value="InfestedAbomination"/>
+        <AffectedUnitArray value="InfestedAbominationBurrowed"/>
+        <AffectedUnitArray value="Roachling"/>
+        <AffectedUnitArray value="Impaler"/>
+        <AffectedUnitArray value="Lurker"/>
+        <AffectedUnitArray value="Locust"/>
+        <AffectedUnitArray value="LocustFlying"/>
+        <AffectedUnitArray value="SwarmHost"/>
+        <AffectedUnitArray value="SwarmHostBurrowed"/>
+        <AffectedUnitArray value="SwarmHostRooted"/>
+        <AffectedUnitArray value="SwarmHostSplitA"/>
+        <AffectedUnitArray value="SwarmHostSplitABurrowed"/>
+        <AffectedUnitArray value="SwarmHostSplitARooted"/>
+        <AffectedUnitArray value="SwarmHostSplitB"/>
+        <AffectedUnitArray value="SwarmHostSplitBBurrowed"/>
+        <AffectedUnitArray value="SwarmHostSplitBRooted"/>
+        <AffectedUnitArray value="Brakk"/>
+        <AffectedUnitArray value="StukovInfestedTerran"/>
+        <AffectedUnitArray value="Dehaka"/>
+        <AffectedUnitArray value="DehakaBurrowed"/>
+        <AffectedUnitArray value="InfestedStukov"/>
+        <AffectedUnitArray value="InfestedExploder"/>
+        <AffectedUnitArray value="InfestedExploderBurrowed"/>
+        <AffectedUnitArray value="Choker"/>
+        <AffectedUnitArray value="Hunterling"/>
+        <AffectedUnitArray value="HunterlingLeaping"/>
+        <AffectedUnitArray value="Kaboomer"/>
+        <AffectedUnitArray value="Stank"/>
+        <AffectedUnitArray value="RavagerAbathur"/>
+        <AffectedUnitArray value="RavagerAbathurBurrowed"/>
+        <AffectedUnitArray value="BrutaliskBurrowed"/>
+        <LeaderLevel value="3"/>
+    </CUpgrade>
+    <CUpgrade id="ZergMeleeWeaponsLevel12" parent="ZergMeleeWeapons">
+        <Name value="Upgrade/Name/ZergMeleeWeaponsLevel12"/>
+        <Icon value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level1.dds"/>
+        <EffectArray index="3" Reference="Effect,KaiserBladesDamage,Amount" Value="3"/>
+        <EffectArray Operation="Set" Reference="Weapon,Claws,Icon" Value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,NeedleClaws,Icon" Value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,KaiserBlades,Icon" Value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,Ram,Icon" Value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level1.dds"/>
+        <EffectArray Reference="Effect,BurrowChargeMPTargetDamage,Amount" Value="2"/>
+        <EffectArray Reference="Effect,BurrowChargeMPTargetDamage,AttributeBonus[Armored]" Value="2"/>
+        <EffectArray Operation="Set" Reference="Weapon,Dehaka,Icon" Value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,HotSRaptorClaws,Icon" Value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,HotSSwarmlingClaws,Icon" Value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,PrimalZergling,Icon" Value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,BrakkClaws,Icon" Value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,Brutalize,Icon" Value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,InfestedAbomination,Icon" Value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,RoachlingNeedleClaws,Icon" Value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level1.dds"/>
+        <EffectArray Reference="Effect,Dehaka,Amount" Value="2"/>
+        <EffectArray Reference="Effect,Dehaka,AttributeBonus[Structure]" Value="2"/>
+        <EffectArray Reference="Effect,HotSBanelingExplodeLargeDirect,Amount" Value="4"/>
+        <EffectArray Reference="Effect,HotSBanelingExplodeLargeDirect,AttributeBonus[Structure]" Value="1"/>
+        <EffectArray Reference="Effect,HotSBanelingExplodeLargeSearchDamage,Amount" Value="4"/>
+        <EffectArray Reference="Effect,HotSBanelingExplodeLargeSearchDamage,AttributeBonus[Structure]" Value="1"/>
+        <EffectArray Reference="Effect,HotSBanelingExplodeSmallSearchDamage,Amount" Value="1"/>
+        <EffectArray Reference="Effect,HotSBanelingExplodeSmallSearchDamage,AttributeBonus[Structure]" Value="1"/>
+        <EffectArray Reference="Effect,HotSBanelingExplodeSmallDirect,Amount" Value="1"/>
+        <EffectArray Reference="Effect,HotSBanelingExplodeSmallDirect,AttributeBonus[Structure]" Value="1"/>
+        <EffectArray Reference="Weapon,Dehaka,Level" Value="1"/>
+        <EffectArray Reference="Weapon,HotSBanelingDummy,Level" Value="1"/>
+        <EffectArray Reference="Weapon,HotSBanelingDummySmall,Level" Value="1"/>
+        <EffectArray Reference="Weapon,HotSRaptorClaws,Level" Value="1"/>
+        <EffectArray Reference="Effect,HotSRaptorClawsDamage,Amount" Value="1"/>
+        <EffectArray Reference="Weapon,HotSSwarmlingClaws,Level" Value="1"/>
+        <EffectArray Reference="Effect,HotSSwarmlingClawsDamage,Amount" Value="1"/>
+        <EffectArray Reference="Effect,HotSUltraliskKaiserBladesDamage,Amount" Value="3"/>
+        <EffectArray Reference="Weapon,PrimalZergling,Level" Value="1"/>
+        <EffectArray Reference="Effect,PrimalZergling,Amount" Value="1"/>
+        <EffectArray Reference="Weapon,BrakkClaws,Level" Value="1"/>
+        <EffectArray Reference="Effect,BrakkMeleeDamage,Amount" Value="3"/>
+        <EffectArray Reference="Effect,PrimalUltralisk,Amount" Value="3"/>
+        <EffectArray Reference="Weapon,Brutalize,Level" Value="1"/>
+        <EffectArray Reference="Effect,BrutalizeDamage,Amount" Value="5"/>
+        <EffectArray Reference="Weapon,InfestedAbomination,Level" Value="1"/>
+        <EffectArray Reference="Effect,InfestedAbomination,Amount" Value="2"/>
+        <EffectArray Reference="Effect,InfestedAbomination,AttributeBonus[Armored]" Value="1"/>
+        <EffectArray Reference="Effect,TissueAssimilation,VitalArray[Life].Change" Value="0.8"/>
+        <EffectArray Reference="Effect,HotSUltraliskKaiserBladesSecondaryDamage,Amount" Value="1"/>
+        <EffectArray Reference="Effect,HotSUltraliskKaiserBladesSecondaryUpgradeDamage,Amount" Value="3"/>
+        <EffectArray Reference="Weapon,RoachlingNeedleClaws,Level" Value="1"/>
+        <EffectArray Reference="Effect,RoachlingNeedleClawsDamage,Amount" Value="1"/>
+        <EffectArray Operation="Set" Reference="Weapon,HunterlingClaws,Icon" Value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level1.dds"/>
+        <EffectArray Reference="Weapon,HunterlingClaws,Level" Value="1"/>
+        <EffectArray Reference="Effect,HunterlingClawsDamage,Amount" Value="2"/>
+        <EffectArray Operation="Set" Reference="Weapon,StankKaiserBlades,Icon" Value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level1.dds"/>
+        <EffectArray Reference="Weapon,StankKaiserBlades,Level" Value="1"/>
+        <EffectArray Reference="Effect,CleaveAttackDamage,Amount" Value="3"/>
+        <EffectArray Operation="Subtract" Reference="Effect,BrutalizeDamage,Amount" Value="2"/>
+        <AffectedUnitArray index="5" value="Zergling2"/>
+        <AffectedUnitArray value="LocustMP"/>
+        <AffectedUnitArray value="Dehaka"/>
+        <AffectedUnitArray value="DehakaBurrowed"/>
+        <AffectedUnitArray value="HotSHunter"/>
+        <AffectedUnitArray value="HotSHunterBurrowed"/>
+        <AffectedUnitArray value="HotSSplitterlingBig"/>
+        <AffectedUnitArray value="HotSSplitterlingMedium"/>
+        <AffectedUnitArray value="HotSSplitterlingBigBurrowed"/>
+        <AffectedUnitArray value="HotSSplitterlingMediumBurrowed"/>
+        <AffectedUnitArray value="HotSRaptor"/>
+        <AffectedUnitArray value="HotSRaptorBurrowed"/>
+        <AffectedUnitArray value="HotSSwarmling"/>
+        <AffectedUnitArray value="HotSSwarmlingBurrowed"/>
+        <AffectedUnitArray value="HotSTorrasque"/>
+        <AffectedUnitArray value="HotSTorrasqueBurrowed"/>
+        <AffectedUnitArray value="HotSNoxious"/>
+        <AffectedUnitArray value="HotSNoxiousBurrowed"/>
+        <AffectedUnitArray value="PrimalZergling"/>
+        <AffectedUnitArray value="PrimalUltralisk"/>
+        <AffectedUnitArray value="Brutalisk"/>
+        <AffectedUnitArray value="InfestedAbomination"/>
+        <AffectedUnitArray value="InfestedAbominationBurrowed"/>
+        <AffectedUnitArray value="Roachling"/>
+        <AffectedUnitArray value="Brakk"/>
+        <AffectedUnitArray value="Hunterling"/>
+        <AffectedUnitArray value="Stank"/>
+        <LeaderLevel value="1"/>
+    </CUpgrade>
+    <CUpgrade id="ZergMeleeWeaponsLevel22" parent="ZergMeleeWeapons">
+        <Name value="Upgrade/Name/ZergMeleeWeaponsLevel22"/>
+        <Icon value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level2.dds"/>
+        <EffectArray index="3" Reference="Effect,KaiserBladesDamage,Amount" Value="3"/>
+        <EffectArray Operation="Set" Reference="Weapon,Claws,Icon" Value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level2.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,NeedleClaws,Icon" Value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level2.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,KaiserBlades,Icon" Value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level2.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,Ram,Icon" Value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level2.dds"/>
+        <EffectArray Reference="Effect,BurrowChargeMPTargetDamage,Amount" Value="2"/>
+        <EffectArray Reference="Effect,BurrowChargeMPTargetDamage,AttributeBonus[Armored]" Value="2"/>
+        <EffectArray Operation="Set" Reference="Weapon,Dehaka,Icon" Value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level2.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,HotSRaptorClaws,Icon" Value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level2.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,HotSSwarmlingClaws,Icon" Value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level2.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,PrimalZergling,Icon" Value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level2.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,BrakkClaws,Icon" Value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level2.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,Brutalize,Icon" Value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level2.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,InfestedAbomination,Icon" Value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level2.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,RoachlingNeedleClaws,Icon" Value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level2.dds"/>
+        <EffectArray Reference="Effect,Dehaka,Amount" Value="2"/>
+        <EffectArray Reference="Effect,Dehaka,AttributeBonus[Structure]" Value="2"/>
+        <EffectArray Reference="Effect,HotSBanelingExplodeLargeDirect,Amount" Value="4"/>
+        <EffectArray Reference="Effect,HotSBanelingExplodeLargeDirect,AttributeBonus[Structure]" Value="1"/>
+        <EffectArray Reference="Effect,HotSBanelingExplodeLargeSearchDamage,Amount" Value="4"/>
+        <EffectArray Reference="Effect,HotSBanelingExplodeLargeSearchDamage,AttributeBonus[Structure]" Value="1"/>
+        <EffectArray Reference="Effect,HotSBanelingExplodeSmallSearchDamage,Amount" Value="1"/>
+        <EffectArray Reference="Effect,HotSBanelingExplodeSmallSearchDamage,AttributeBonus[Structure]" Value="1"/>
+        <EffectArray Reference="Effect,HotSBanelingExplodeSmallDirect,Amount" Value="1"/>
+        <EffectArray Reference="Effect,HotSBanelingExplodeSmallDirect,AttributeBonus[Structure]" Value="1"/>
+        <EffectArray Reference="Weapon,Dehaka,Level" Value="1"/>
+        <EffectArray Reference="Weapon,HotSBanelingDummy,Level" Value="1"/>
+        <EffectArray Reference="Weapon,HotSBanelingDummySmall,Level" Value="1"/>
+        <EffectArray Reference="Weapon,HotSRaptorClaws,Level" Value="1"/>
+        <EffectArray Reference="Effect,HotSRaptorClawsDamage,Amount" Value="1"/>
+        <EffectArray Reference="Weapon,HotSSwarmlingClaws,Level" Value="1"/>
+        <EffectArray Reference="Effect,HotSSwarmlingClawsDamage,Amount" Value="1"/>
+        <EffectArray Reference="Effect,HotSUltraliskKaiserBladesDamage,Amount" Value="3"/>
+        <EffectArray Reference="Weapon,PrimalZergling,Level" Value="1"/>
+        <EffectArray Reference="Effect,PrimalZergling,Amount" Value="1"/>
+        <EffectArray Reference="Weapon,BrakkClaws,Level" Value="1"/>
+        <EffectArray Reference="Effect,BrakkMeleeDamage,Amount" Value="3"/>
+        <EffectArray Reference="Effect,PrimalUltralisk,Amount" Value="3"/>
+        <EffectArray Reference="Weapon,Brutalize,Level" Value="1"/>
+        <EffectArray Reference="Effect,BrutalizeDamage,Amount" Value="5"/>
+        <EffectArray Reference="Weapon,InfestedAbomination,Level" Value="1"/>
+        <EffectArray Reference="Effect,InfestedAbomination,Amount" Value="2"/>
+        <EffectArray Reference="Effect,InfestedAbomination,AttributeBonus[Armored]" Value="1"/>
+        <EffectArray Reference="Effect,TissueAssimilation,VitalArray[Life].Change" Value="0.8"/>
+        <EffectArray Reference="Effect,HotSUltraliskKaiserBladesSecondaryDamage,Amount" Value="1"/>
+        <EffectArray Reference="Effect,HotSUltraliskKaiserBladesSecondaryUpgradeDamage,Amount" Value="3"/>
+        <EffectArray Reference="Weapon,RoachlingNeedleClaws,Level" Value="1"/>
+        <EffectArray Reference="Effect,RoachlingNeedleClawsDamage,Amount" Value="1"/>
+        <EffectArray Operation="Set" Reference="Weapon,HunterlingClaws,Icon" Value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level2.dds"/>
+        <EffectArray Reference="Weapon,HunterlingClaws,Level" Value="1"/>
+        <EffectArray Reference="Effect,HunterlingClawsDamage,Amount" Value="2"/>
+        <EffectArray Operation="Set" Reference="Weapon,StankKaiserBlades,Icon" Value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level2.dds"/>
+        <EffectArray Reference="Weapon,StankKaiserBlades,Level" Value="1"/>
+        <EffectArray Reference="Effect,CleaveAttackDamage,Amount" Value="3"/>
+        <EffectArray Operation="Subtract" Reference="Effect,BrutalizeDamage,Amount" Value="2"/>
+        <AffectedUnitArray index="5" value="Zergling2"/>
+        <AffectedUnitArray value="LocustMP"/>
+        <AffectedUnitArray value="Dehaka"/>
+        <AffectedUnitArray value="DehakaBurrowed"/>
+        <AffectedUnitArray value="HotSHunter"/>
+        <AffectedUnitArray value="HotSHunterBurrowed"/>
+        <AffectedUnitArray value="HotSSplitterlingBig"/>
+        <AffectedUnitArray value="HotSSplitterlingMedium"/>
+        <AffectedUnitArray value="HotSSplitterlingBigBurrowed"/>
+        <AffectedUnitArray value="HotSSplitterlingMediumBurrowed"/>
+        <AffectedUnitArray value="HotSRaptor"/>
+        <AffectedUnitArray value="HotSRaptorBurrowed"/>
+        <AffectedUnitArray value="HotSSwarmling"/>
+        <AffectedUnitArray value="HotSSwarmlingBurrowed"/>
+        <AffectedUnitArray value="HotSTorrasque"/>
+        <AffectedUnitArray value="HotSTorrasqueBurrowed"/>
+        <AffectedUnitArray value="HotSNoxious"/>
+        <AffectedUnitArray value="HotSNoxiousBurrowed"/>
+        <AffectedUnitArray value="PrimalZergling"/>
+        <AffectedUnitArray value="PrimalUltralisk"/>
+        <AffectedUnitArray value="Brutalisk"/>
+        <AffectedUnitArray value="InfestedAbomination"/>
+        <AffectedUnitArray value="InfestedAbominationBurrowed"/>
+        <AffectedUnitArray value="Roachling"/>
+        <AffectedUnitArray value="Brakk"/>
+        <AffectedUnitArray value="Hunterling"/>
+        <AffectedUnitArray value="Stank"/>
+        <LeaderLevel value="2"/>
+    </CUpgrade>
+    <CUpgrade id="ZergMeleeWeaponsLevel32" parent="ZergMeleeWeapons">
+        <Name value="Upgrade/Name/ZergMeleeWeaponsLevel32"/>
+        <Icon value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level3.dds"/>
+        <EffectArray index="3" Reference="Effect,KaiserBladesDamage,Amount" Value="3"/>
+        <EffectArray Operation="Set" Reference="Weapon,Claws,Icon" Value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level3.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,NeedleClaws,Icon" Value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level3.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,KaiserBlades,Icon" Value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level3.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,Ram,Icon" Value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level3.dds"/>
+        <EffectArray Reference="Effect,BurrowChargeMPTargetDamage,Amount" Value="2"/>
+        <EffectArray Reference="Effect,BurrowChargeMPTargetDamage,AttributeBonus[Armored]" Value="2"/>
+        <EffectArray Operation="Set" Reference="Weapon,Dehaka,Icon" Value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level3.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,HotSRaptorClaws,Icon" Value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level3.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,HotSSwarmlingClaws,Icon" Value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level3.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,PrimalZergling,Icon" Value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level3.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,BrakkClaws,Icon" Value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level3.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,Brutalize,Icon" Value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level3.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,InfestedAbomination,Icon" Value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level3.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,RoachlingNeedleClaws,Icon" Value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level3.dds"/>
+        <EffectArray Reference="Effect,Dehaka,Amount" Value="2"/>
+        <EffectArray Reference="Effect,Dehaka,AttributeBonus[Structure]" Value="2"/>
+        <EffectArray Reference="Effect,HotSBanelingExplodeLargeDirect,Amount" Value="4"/>
+        <EffectArray Reference="Effect,HotSBanelingExplodeLargeDirect,AttributeBonus[Structure]" Value="1"/>
+        <EffectArray Reference="Effect,HotSBanelingExplodeLargeSearchDamage,Amount" Value="4"/>
+        <EffectArray Reference="Effect,HotSBanelingExplodeLargeSearchDamage,AttributeBonus[Structure]" Value="1"/>
+        <EffectArray Reference="Effect,HotSBanelingExplodeSmallSearchDamage,Amount" Value="1"/>
+        <EffectArray Reference="Effect,HotSBanelingExplodeSmallSearchDamage,AttributeBonus[Structure]" Value="1"/>
+        <EffectArray Reference="Effect,HotSBanelingExplodeSmallDirect,Amount" Value="1"/>
+        <EffectArray Reference="Effect,HotSBanelingExplodeSmallDirect,AttributeBonus[Structure]" Value="1"/>
+        <EffectArray Reference="Weapon,Dehaka,Level" Value="1"/>
+        <EffectArray Reference="Weapon,HotSBanelingDummy,Level" Value="1"/>
+        <EffectArray Reference="Weapon,HotSBanelingDummySmall,Level" Value="1"/>
+        <EffectArray Reference="Weapon,HotSRaptorClaws,Level" Value="1"/>
+        <EffectArray Reference="Effect,HotSRaptorClawsDamage,Amount" Value="1"/>
+        <EffectArray Reference="Weapon,HotSSwarmlingClaws,Level" Value="1"/>
+        <EffectArray Reference="Effect,HotSSwarmlingClawsDamage,Amount" Value="1"/>
+        <EffectArray Reference="Effect,HotSUltraliskKaiserBladesDamage,Amount" Value="3"/>
+        <EffectArray Reference="Weapon,PrimalZergling,Level" Value="1"/>
+        <EffectArray Reference="Effect,PrimalZergling,Amount" Value="1"/>
+        <EffectArray Reference="Weapon,BrakkClaws,Level" Value="1"/>
+        <EffectArray Reference="Effect,BrakkMeleeDamage,Amount" Value="3"/>
+        <EffectArray Reference="Effect,PrimalUltralisk,Amount" Value="3"/>
+        <EffectArray Reference="Weapon,Brutalize,Level" Value="1"/>
+        <EffectArray Reference="Effect,BrutalizeDamage,Amount" Value="5"/>
+        <EffectArray Reference="Weapon,InfestedAbomination,Level" Value="1"/>
+        <EffectArray Reference="Effect,InfestedAbomination,Amount" Value="2"/>
+        <EffectArray Reference="Effect,InfestedAbomination,AttributeBonus[Armored]" Value="1"/>
+        <EffectArray Reference="Effect,TissueAssimilation,VitalArray[Life].Change" Value="0.8"/>
+        <EffectArray Reference="Effect,HotSUltraliskKaiserBladesSecondaryDamage,Amount" Value="1"/>
+        <EffectArray Reference="Effect,HotSUltraliskKaiserBladesSecondaryUpgradeDamage,Amount" Value="3"/>
+        <EffectArray Reference="Weapon,RoachlingNeedleClaws,Level" Value="1"/>
+        <EffectArray Reference="Effect,RoachlingNeedleClawsDamage,Amount" Value="1"/>
+        <EffectArray Operation="Set" Reference="Weapon,HunterlingClaws,Icon" Value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level3.dds"/>
+        <EffectArray Reference="Weapon,HunterlingClaws,Level" Value="1"/>
+        <EffectArray Reference="Effect,HunterlingClawsDamage,Amount" Value="2"/>
+        <EffectArray Operation="Set" Reference="Weapon,StankKaiserBlades,Icon" Value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level3.dds"/>
+        <EffectArray Reference="Weapon,StankKaiserBlades,Level" Value="1"/>
+        <EffectArray Reference="Effect,CleaveAttackDamage,Amount" Value="3"/>
+        <EffectArray Operation="Subtract" Reference="Effect,BrutalizeDamage,Amount" Value="2"/>
+        <AffectedUnitArray index="5" value="Zergling2"/>
+        <AffectedUnitArray value="LocustMP"/>
+        <AffectedUnitArray value="Dehaka"/>
+        <AffectedUnitArray value="DehakaBurrowed"/>
+        <AffectedUnitArray value="HotSHunter"/>
+        <AffectedUnitArray value="HotSHunterBurrowed"/>
+        <AffectedUnitArray value="HotSSplitterlingBig"/>
+        <AffectedUnitArray value="HotSSplitterlingMedium"/>
+        <AffectedUnitArray value="HotSSplitterlingBigBurrowed"/>
+        <AffectedUnitArray value="HotSSplitterlingMediumBurrowed"/>
+        <AffectedUnitArray value="HotSRaptor"/>
+        <AffectedUnitArray value="HotSRaptorBurrowed"/>
+        <AffectedUnitArray value="HotSSwarmling"/>
+        <AffectedUnitArray value="HotSSwarmlingBurrowed"/>
+        <AffectedUnitArray value="HotSTorrasque"/>
+        <AffectedUnitArray value="HotSTorrasqueBurrowed"/>
+        <AffectedUnitArray value="HotSNoxious"/>
+        <AffectedUnitArray value="HotSNoxiousBurrowed"/>
+        <AffectedUnitArray value="PrimalZergling"/>
+        <AffectedUnitArray value="PrimalUltralisk"/>
+        <AffectedUnitArray value="Brutalisk"/>
+        <AffectedUnitArray value="InfestedAbomination"/>
+        <AffectedUnitArray value="InfestedAbominationBurrowed"/>
+        <AffectedUnitArray value="Roachling"/>
+        <AffectedUnitArray value="Brakk"/>
+        <AffectedUnitArray value="Hunterling"/>
+        <AffectedUnitArray value="Stank"/>
+        <LeaderLevel value="3"/>
+    </CUpgrade>
+    <CUpgrade id="ZerglingArmorShred2">
+        <Flags index="TechTreeCheat" value="1"/>
+        <Icon value="Assets\Textures\btn-upgrade-zergling-armorshredding.dds"/>
+        <Alert value="ResearchComplete"/>
+        <Race value="Zerg"/>
+        <ScoreResult value="BuildOrder"/>
+        <EditorCategories value="Race:Zerg,UpgradeType:Talents"/>
+        <AffectedUnitArray value="Zergling2"/>
+        <AffectedUnitArray value="HotSRaptor"/>
+        <AffectedUnitArray value="HotSSwarmling"/>
+    </CUpgrade>
+    <CUpgrade id="zerglingattackspeed2">
+        <Flags index="TechTreeCheat" value="1"/>
+        <Icon value="Assets\Textures\btn-upgrade-zerg-adrenalglands.dds"/>
+        <Alert value="ResearchComplete"/>
+        <Race value="Zerg"/>
+        <ScoreResult value="BuildOrder"/>
+        <EffectArray Reference="Weapon,Claws,RateMultiplier" Value="0.2"/>
+        <EffectArray Reference="Weapon,Claws,RateMultiplier" Value="0.2"/>
+        <EffectArray Reference="Weapon,HotSRaptorClaws,RateMultiplier" Value="0.4"/>
+        <EffectArray Reference="Weapon,HotSSwarmlingClaws,RateMultiplier" Value="0.4"/>
+        <EditorCategories value="Race:Zerg,UpgradeType:Talents"/>
+        <AffectedUnitArray value="Zergling2"/>
+        <AffectedUnitArray value="ZerglingBurrowed"/>
+        <AffectedUnitArray value="HotSRaptor"/>
+        <AffectedUnitArray value="HotSRaptorBurrowed"/>
+        <AffectedUnitArray value="HotSSwarmling"/>
+        <AffectedUnitArray value="HotSSwarmlingBurrowed"/>
+    </CUpgrade>
+    <CUpgrade id="zerglingmovementspeed2">
+        <Flags index="TechTreeCheat" value="1"/>
+        <Icon value="Assets\Textures\btn-upgrade-zerg-metabolicboost.dds"/>
+        <Alert value="ResearchComplete"/>
+        <Race value="Zerg"/>
+        <ScoreResult value="BuildOrder"/>
+        <EffectArray Reference="Unit,Zergling2,Speed" Value="1.746000"/>
+        <EffectArray Operation="Set" Reference="Actor,Zergling,Wireframe.Image[0]" Value="Assets\Textures\wireframe-zerg-zerglingupgrade.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Zergling,GroupIcon.Image[0]" Value="Assets\Textures\wireframe-zerg-zerglingupgrade.dds"/>
+        <EffectArray Reference="Unit,HotSRaptor,Speed" Value="1.746000"/>
+        <EffectArray Reference="Unit,HotSSwarmling,Speed" Value="1.746000"/>
+        <EditorCategories value="Race:Zerg,UpgradeType:Talents"/>
+        <AffectedUnitArray value="Zergling2"/>
+        <AffectedUnitArray value="ZerglingBurrowed"/>
+        <AffectedUnitArray value="HotSRaptor"/>
+        <AffectedUnitArray value="HotSRaptorBurrowed"/>
+        <AffectedUnitArray value="HotSSwarmling"/>
+        <AffectedUnitArray value="HotSSwarmlingBurrowed"/>
     </CUpgrade>
 </Catalog>

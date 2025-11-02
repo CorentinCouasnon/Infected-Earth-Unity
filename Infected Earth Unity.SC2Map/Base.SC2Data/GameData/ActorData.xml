@@ -242,7 +242,19 @@
         <Model value="GenericAttackModel"/>
         <ModelFlags index="AllowHitTest" value="0"/>
     </CActorModel>
+    <CActorModel id="GenericAttackDamageModel32" parent="ModelAnimationStyleOneShotNoOrphan">
+        <Flags index="SuppressCreationErrors" value="1"/>
+        <Inherits index="Visibility" value="1"/>
+        <Model value="GenericAttackModel"/>
+        <ModelFlags index="AllowHitTest" value="0"/>
+    </CActorModel>
     <CActorModel id="GenericAttackDamageModel4" parent="ModelAnimationStyleOneShotNoOrphan">
+        <Flags index="SuppressCreationErrors" value="1"/>
+        <Inherits index="Visibility" value="1"/>
+        <Model value="GenericAttackModel"/>
+        <ModelFlags index="AllowHitTest" value="0"/>
+    </CActorModel>
+    <CActorModel id="GenericAttackDamageModel42" parent="ModelAnimationStyleOneShotNoOrphan">
         <Flags index="SuppressCreationErrors" value="1"/>
         <Inherits index="Visibility" value="1"/>
         <Model value="GenericAttackModel"/>
@@ -260,6 +272,12 @@
         <Model value="GenericAttackModel"/>
         <ModelFlags index="AllowHitTest" value="0"/>
     </CActorModel>
+    <CActorModel id="GenericAttackDamageModel7" parent="ModelAnimationStyleOneShotNoOrphan">
+        <Flags index="SuppressCreationErrors" value="1"/>
+        <Inherits index="Visibility" value="1"/>
+        <Model value="GenericAttackModel"/>
+        <ModelFlags index="AllowHitTest" value="0"/>
+    </CActorModel>
     <CActorSound id="GenericAttackDamageSound2" parent="SoundOneShot">
         <Flags index="SuppressCreationErrors" value="1"/>
         <Sound value="GenericAttackSound"/>
@@ -268,7 +286,15 @@
         <Flags index="SuppressCreationErrors" value="1"/>
         <Sound value="GenericAttackSound"/>
     </CActorSound>
+    <CActorSound id="GenericAttackDamageSound32" parent="SoundOneShot">
+        <Flags index="SuppressCreationErrors" value="1"/>
+        <Sound value="GenericAttackSound"/>
+    </CActorSound>
     <CActorSound id="GenericAttackDamageSound4" parent="SoundOneShot">
+        <Flags index="SuppressCreationErrors" value="1"/>
+        <Sound value="GenericAttackSound"/>
+    </CActorSound>
+    <CActorSound id="GenericAttackDamageSound42" parent="SoundOneShot">
         <Flags index="SuppressCreationErrors" value="1"/>
         <Sound value="GenericAttackSound"/>
     </CActorSound>
@@ -277,6 +303,10 @@
         <Sound value="GenericAttackSound"/>
     </CActorSound>
     <CActorSound id="GenericAttackDamageSound6" parent="SoundOneShot">
+        <Flags index="SuppressCreationErrors" value="1"/>
+        <Sound value="GenericAttackSound"/>
+    </CActorSound>
+    <CActorSound id="GenericAttackDamageSound7" parent="SoundOneShot">
         <Flags index="SuppressCreationErrors" value="1"/>
         <Sound value="GenericAttackSound"/>
     </CActorSound>
@@ -292,7 +322,19 @@
         <Model value="GenericAttackModel"/>
         <ModelFlags index="AllowHitTest" value="0"/>
     </CActorModel>
+    <CActorModel id="GenericAttackImpactModel32" parent="ModelAnimationStyleOneShotNoOrphan">
+        <Flags index="SuppressCreationErrors" value="1"/>
+        <Inherits index="Visibility" value="1"/>
+        <Model value="GenericAttackModel"/>
+        <ModelFlags index="AllowHitTest" value="0"/>
+    </CActorModel>
     <CActorModel id="GenericAttackImpactModel4" parent="ModelAnimationStyleOneShotNoOrphan">
+        <Flags index="SuppressCreationErrors" value="1"/>
+        <Inherits index="Visibility" value="1"/>
+        <Model value="GenericAttackModel"/>
+        <ModelFlags index="AllowHitTest" value="0"/>
+    </CActorModel>
+    <CActorModel id="GenericAttackImpactModel42" parent="ModelAnimationStyleOneShotNoOrphan">
         <Flags index="SuppressCreationErrors" value="1"/>
         <Inherits index="Visibility" value="1"/>
         <Model value="GenericAttackModel"/>
@@ -310,6 +352,12 @@
         <Model value="GenericAttackModel"/>
         <ModelFlags index="AllowHitTest" value="0"/>
     </CActorModel>
+    <CActorModel id="GenericAttackImpactModel7" parent="ModelAnimationStyleOneShotNoOrphan">
+        <Flags index="SuppressCreationErrors" value="1"/>
+        <Inherits index="Visibility" value="1"/>
+        <Model value="GenericAttackModel"/>
+        <ModelFlags index="AllowHitTest" value="0"/>
+    </CActorModel>
     <CActorSound id="GenericAttackImpactSound2" parent="SoundOneShot">
         <Flags index="SuppressCreationErrors" value="1"/>
         <Sound value="GenericAttackSound"/>
@@ -318,7 +366,15 @@
         <Flags index="SuppressCreationErrors" value="1"/>
         <Sound value="GenericAttackSound"/>
     </CActorSound>
+    <CActorSound id="GenericAttackImpactSound32" parent="SoundOneShot">
+        <Flags index="SuppressCreationErrors" value="1"/>
+        <Sound value="GenericAttackSound"/>
+    </CActorSound>
     <CActorSound id="GenericAttackImpactSound4" parent="SoundOneShot">
+        <Flags index="SuppressCreationErrors" value="1"/>
+        <Sound value="GenericAttackSound"/>
+    </CActorSound>
+    <CActorSound id="GenericAttackImpactSound42" parent="SoundOneShot">
         <Flags index="SuppressCreationErrors" value="1"/>
         <Sound value="GenericAttackSound"/>
     </CActorSound>
@@ -327,6 +383,10 @@
         <Sound value="GenericAttackSound"/>
     </CActorSound>
     <CActorSound id="GenericAttackImpactSound6" parent="SoundOneShot">
+        <Flags index="SuppressCreationErrors" value="1"/>
+        <Sound value="GenericAttackSound"/>
+    </CActorSound>
+    <CActorSound id="GenericAttackImpactSound7" parent="SoundOneShot">
         <Flags index="SuppressCreationErrors" value="1"/>
         <Sound value="GenericAttackSound"/>
     </CActorSound>
@@ -342,7 +402,19 @@
         <Model value="GenericAttackModel"/>
         <ModelFlags index="AllowHitTest" value="0"/>
     </CActorModel>
+    <CActorModel id="GenericAttackLaunchModel32" parent="ModelAnimationStyleOneShotNoOrphan">
+        <Flags index="SuppressCreationErrors" value="1"/>
+        <Inherits index="Visibility" value="1"/>
+        <Model value="GenericAttackModel"/>
+        <ModelFlags index="AllowHitTest" value="0"/>
+    </CActorModel>
     <CActorModel id="GenericAttackLaunchModel4" parent="ModelAnimationStyleOneShotNoOrphan">
+        <Flags index="SuppressCreationErrors" value="1"/>
+        <Inherits index="Visibility" value="1"/>
+        <Model value="GenericAttackModel"/>
+        <ModelFlags index="AllowHitTest" value="0"/>
+    </CActorModel>
+    <CActorModel id="GenericAttackLaunchModel42" parent="ModelAnimationStyleOneShotNoOrphan">
         <Flags index="SuppressCreationErrors" value="1"/>
         <Inherits index="Visibility" value="1"/>
         <Model value="GenericAttackModel"/>
@@ -360,6 +432,12 @@
         <Model value="GenericAttackModel"/>
         <ModelFlags index="AllowHitTest" value="0"/>
     </CActorModel>
+    <CActorModel id="GenericAttackLaunchModel7" parent="ModelAnimationStyleOneShotNoOrphan">
+        <Flags index="SuppressCreationErrors" value="1"/>
+        <Inherits index="Visibility" value="1"/>
+        <Model value="GenericAttackModel"/>
+        <ModelFlags index="AllowHitTest" value="0"/>
+    </CActorModel>
     <CActorSound id="GenericAttackLaunchSound2" parent="SoundOneShot">
         <Flags index="SuppressCreationErrors" value="1"/>
         <Sound value="GenericAttackSound"/>
@@ -368,7 +446,15 @@
         <Flags index="SuppressCreationErrors" value="1"/>
         <Sound value="GenericAttackSound"/>
     </CActorSound>
+    <CActorSound id="GenericAttackLaunchSound32" parent="SoundOneShot">
+        <Flags index="SuppressCreationErrors" value="1"/>
+        <Sound value="GenericAttackSound"/>
+    </CActorSound>
     <CActorSound id="GenericAttackLaunchSound4" parent="SoundOneShot">
+        <Flags index="SuppressCreationErrors" value="1"/>
+        <Sound value="GenericAttackSound"/>
+    </CActorSound>
+    <CActorSound id="GenericAttackLaunchSound42" parent="SoundOneShot">
         <Flags index="SuppressCreationErrors" value="1"/>
         <Sound value="GenericAttackSound"/>
     </CActorSound>
@@ -377,6 +463,10 @@
         <Sound value="GenericAttackSound"/>
     </CActorSound>
     <CActorSound id="GenericAttackLaunchSound6" parent="SoundOneShot">
+        <Flags index="SuppressCreationErrors" value="1"/>
+        <Sound value="GenericAttackSound"/>
+    </CActorSound>
+    <CActorSound id="GenericAttackLaunchSound7" parent="SoundOneShot">
         <Flags index="SuppressCreationErrors" value="1"/>
         <Sound value="GenericAttackSound"/>
     </CActorSound>
@@ -1997,6 +2087,135 @@
         </Wireframe>
         <WireframeShieldColor value="255,0,128,0"/>
     </CActorUnit>
+    <CActorUnit id="Zergling6" parent="GenericBurrowerStandard" unitName="Zergling2">
+        <Aliases value="_UnitSmall"/>
+        <Macros value="ZergBurrowStandardAnimMacro"/>
+        <Macros value="ZergSmallBurrowEffects"/>
+        <Macros value="UnloadDropAnim"/>
+        <Macros value="PhysicsDeathsVoidGround"/>
+        <Macros value="TerrainSquibAnimations"/>
+        <Macros value="PhysicsDeathsSwarmGround"/>
+        <Macros value="GrabbedAnimationMacro"/>
+        <On Terms="AbilMorph.MorphZerglingToBaneling.Finish; MorphTo Zergling; !AbilKey BurrowUp" Send="Create"/>
+        <On Terms="AbilMorph.MorphZerglingToBaneling.Start; MorphFrom Zergling; !AbilKey BurrowDown" Send="Destroy"/>
+        <On Terms="AbilMorph.*.Cancel; MorphFrom Zergling; MorphTo ZerglingBurrowed" Send="AnimClear Burrow"/>
+        <On Terms="AbilMorph.*.Finish; MorphTo Zergling; MorphFrom ZerglingBurrowed" Send="AnimBracketStop Burrow"/>
+        <On Terms="AbilMorph.*.Finish; MorphTo Zergling; MorphFrom ZerglingBurrowed" Send="AnimClear Burrow"/>
+        <On Terms="ActorCreation; ValidateUnit ZerglingUpgraded" Send="ModelSwap ZerglingUpgrade"/>
+        <On Terms="Upgrade.zerglingmovementspeed.Add" Send="ModelSwap ZerglingUpgrade"/>
+        <On Terms="Upgrade.zerglingmovementspeed.Add; ValidateUnit IsBuried" Send="AnimBracketStart Burrow Burrow IGNORE Unburrow ClosingFull,OpeningPlayForever,Instant"/>
+        <On Terms="UnitDeathCustomize; ValidateUnit ZerglingUpgradedDeathByAcid" Send="DeathCustomize UpgradedAcid"/>
+        <On Terms="UnitDeathCustomize; ValidateUnit ZerglingUpgradedDeathByFire" Send="DeathCustomize UpgradedFire"/>
+        <On Terms="UnitDeathCustomize; ValidateUnit ZerglingUpgradedDeathByEviscerate" Send="DeathCustomize UpgradedEviscerate"/>
+        <On Terms="UnitDeathCustomize; ValidateUnit ZerglingUpgraded" Send="DeathCustomize Upgrade"/>
+        <On Terms="UnitMovementUpdate.*.Walk; AnimPlaying Birth" Send="AnimClear Birth"/>
+        <On Terms="UnitBirth.Zergling2" Send="TerrainSquibActivateGroup RippleStandard"/>
+        <On Terms="AbilMorph.*.Finish; MorphTo Zergling; MorphFrom ZerglingBurrowed" Send="TerrainSquibActivateGroup RippleStandard"/>
+        <On Terms="AbilMorph.*.Finish; MorphTo ZerglingBurrowed; MorphFrom Zergling" Send="TerrainSquibDeactivate"/>
+        <On Terms="UnitHeightUpdate.*.Land" Send="Create Zergling_Land"/>
+        <On Terms="UnitDeathCustomize; ValidateUnit IsKillerPhantasm" Send="DeathCustomize Hallucination"/>
+        <On Terms="AbilMorph.MorphZerglingToHunter.Finish; MorphTo Zergling; !AbilKey BurrowUp" Send="Create"/>
+        <On Terms="AbilMorph.MorphZerglingToHunter.Start; MorphFrom Zergling; !AbilKey BurrowDown" Send="Destroy"/>
+        <On Terms="AbilMorph.MorphZerglingToSplitterling.Finish; MorphTo Zergling; !AbilKey BurrowUp" Send="Create"/>
+        <On Terms="AbilMorph.MorphZerglingToSplitterling.Start; MorphFrom Zergling; !AbilKey BurrowDown" Send="Destroy"/>
+        <On Terms="AbilMorph.MorphZerglingToRaptor.Finish; MorphTo Zergling; !AbilKey BurrowUp" Send="Create"/>
+        <On Terms="AbilMorph.MorphZerglingToRaptor.Start; MorphFrom Zergling; !AbilKey BurrowDown" Send="Destroy"/>
+        <On Terms="AbilMorph.MorphZerglingToSwarmling.Finish; MorphTo Zergling; !AbilKey BurrowUp" Send="Create"/>
+        <On Terms="AbilMorph.MorphZerglingToSwarmling.Start; MorphFrom Zergling; !AbilKey BurrowDown" Send="Destroy"/>
+        <On Terms="AbilMorph.*.Finish; MorphTo Zergling; MorphFrom HybridZerglingEgg" Send="Create"/>
+        <On Terms="AbilMorph.*.Finish; MorphTo Zergling; MorphFrom HybridZerglingEgg" Send="Create EggsplosionPurpleGeneric0"/>
+        <On Terms="AbilMorph.*.Finish; MorphTo Zergling; MorphFrom HybridZerglingEgg" Send="AnimBracketStart BSD Birth,01 Stand Death"/>
+        <On Terms="UnitDeathCustomize; ValidateUnit IsCelestialBurning" Send="DeathCustomize Variation19"/>
+        <On Terms="UnitDeathCustomize; ValidateUnit IsCelestialBurning" Send="DeathCustomize RagdollFire"/>
+        <On Terms="UnitDeathCustomize; ValidateUnit HaveVoidShade" Send="DeathCustomize Shadow"/>
+        <On Terms="UnitDeathCustomize; ValidateUnit HaveTerrazineShadow" Send="DeathCustomize Shadow"/>
+        <Model value="Zergling4"/>
+        <ModelFlags index="OutlineEmitter" value="1"/>
+        <BuildModel value="Zergling4"/>
+        <DeathArray index="Normal" ModelLink="ZerglingDeath4" SoundLink="Zergling_Explode4"/>
+        <DeathArray index="Disintegrate" ModelLink="ZerglingDeathAcid3" SoundLink="Uni_DeathFXAcid6"/>
+        <DeathArray index="Eviscerate" ModelLink="ZerglingDeathEviscerate3" SoundLink="Zergling_DeathFXEviscerate4"/>
+        <DeathArray index="Fire" ModelLink="ZerglingDeathFire3" SoundLink="Zergling_DeathFXFire4"/>
+        <DeathCustoms index="0" ModelLink="ZergSmallUnitDeathLow6"/>
+        <DeathCustoms index="1" ModelLink="ProtossSmallUnitDeathLow6"/>
+        <DeathCustoms index="2" ModelLink="TerranSmallUnitDeathLow6"/>
+        <DeathCustoms index="3" ModelLink="ZergSmallUnitDeathLow6"/>
+        <DeathCustoms index="4" ModelLink="Invisible6"/>
+        <DeathCustoms ModelLink="ZerglingUpgradeDeath3" SoundLink="Zergling_Explode4" Name="Upgrade"/>
+        <DeathCustoms ModelLink="ZerglingUpgradeDeathFire3" SoundLink="Zergling_DeathFXFire4" Name="UpgradedFire"/>
+        <DeathCustoms ModelLink="ZerglingUpgradeDeathAcid3" SoundLink="Uni_DeathFXAcid6" Name="UpgradedAcid"/>
+        <DeathCustoms ModelLink="ZerglingUpgradeDeathEviscerate3" SoundLink="Zergling_DeathFXEviscerate4" Name="UpgradedEviscerate"/>
+        <DeathCustoms ActorModel="ZerglingDeathRagdoll" ModelLink="ZerglingDeathRagdoll3" Name="RagdollBasic">
+            <BodySquibs Name="FireOnMetal"/>
+            <BodySquibs Name="Blood" IsFallback="1"/>
+        </DeathCustoms>
+        <DeathCustoms Name="RagdollSiegeTank" InheritsFrom="RagdollBasic"/>
+        <DeathCustoms Name="RagdollNuke" InheritsFrom="RagdollBasic">
+            <BodySquibs Name="Fire"/>
+        </DeathCustoms>
+        <DeathCustoms Name="RagdollFire" InheritsFrom="RagdollBasic">
+            <BodySquibs Name="Fire"/>
+        </DeathCustoms>
+        <DeathCustoms Name="RagdollAcid" InheritsFrom="RagdollBasic">
+            <BodySquibs Name="Acid"/>
+        </DeathCustoms>
+        <DeathCustoms Name="RagdollBaneling" InheritsFrom="RagdollBasic">
+            <BodySquibs Name="Acid"/>
+        </DeathCustoms>
+        <DeathCustoms Name="RagdollUltraUnburrow" InheritsFrom="RagdollBasic"/>
+        <DeathCustoms ActorModel="ZerglingSpineCrawlerHurlDeathRagdoll" ModelLink="ZerglingDeathRagdoll3" Name="RagdollSpineCrawlerHurl"/>
+        <DeathCustoms Name="RagdollOverkillDPRH" InheritsFrom="RagdollBasic"/>
+        <DeathCustoms Name="RagdollOverkillDOI" InheritsFrom="RagdollBasic"/>
+        <DeathCustoms Name="RagdollMidair" InheritsFrom="RagdollBasic"/>
+        <DeathCustoms ModelLink="HallucinationDeath3" SoundLink="Spectre_KillerPhantasmDeath4" Name="Hallucination"/>
+        <DeathCustoms ModelLink="ZerglingDeathFire3" Name="Variation19"/>
+        <DeathCustoms>
+            <ModelLink value="DeathVoidShadowSmall4"/>
+            <SoundLink value="ShadowUnit_Small_DeathFX4"/>
+            <VoiceLink value="ShadowUnit_Small_DeathVox"/>
+            <Name value="Shadow"/>
+        </DeathCustoms>
+        <DeathActorModel value="UnitDeathModelWithDeathMotionGround"/>
+        <PlacementModel value="Zergling4"/>
+        <PortraitModel value="ZerglingPortrait4"/>
+        <TerrainSquibs>
+            <GroupName value="RippleStandard"/>
+            <MovementDistance value="0.250000,0.250000"/>
+            <IdlePeriod value="0.200000,0.400000"/>
+            <RangeUp value="1.000000"/>
+            <RangeDown value="1.000000"/>
+            <AttachQuery Methods="AMFilterCenter"/>
+            <Visuals TerrainPhysicsMaterial="Water" ActorModel="TerrainSquibHarnessContinuous" ModelLink="WaterRippleTiny"/>
+        </TerrainSquibs>
+        <WalkAnimMoveSpeed value="3.1328"/>
+        <BarOffset value="30"/>
+        <BarWidth value="36"/>
+        <GroupIcon>
+            <Image value="Assets\Textures\Wireframe-Zerg-Zergling.dds"/>
+        </GroupIcon>
+        <HeroIcon value="Assets\Textures\btn-unit-zerg-zergling.dds"/>
+        <HighlightTooltip value="Unit/Name/Zergling6"/>
+        <LifeArmorIcon value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level0.dds"/>
+        <MovementHerdNode value="HerdNode_ZergSmall"/>
+        <ShieldArmorIcon value="Assets\Textures\btn-upgrade-zerg-swarmfrenzy.dds"/>
+        <SoundArray index="Ready" value="Zergling_Ready4"/>
+        <SoundArray index="What" value="Zergling_What4"/>
+        <SoundArray index="Yes" value="Zergling_Yes4"/>
+        <SoundArray index="Attack" value="Zergling_Attack4"/>
+        <SoundArray index="Pissed" value="Zergling_Pissed4"/>
+        <StatusColors index="Shields">
+            <ColorArray index="0" value="255,0,128,0"/>
+        </StatusColors>
+        <UnitIcon value="Assets\Textures\btn-unit-zerg-zergling.dds"/>
+        <VitalColors index="Shields">
+            <ColorArray value="255,0,128,0"/>
+        </VitalColors>
+        <VitalNames index="Shields" value="Vital/ZergShields"/>
+        <Wireframe>
+            <Image value="Assets\Textures\Wireframe-Zerg-Zergling.dds"/>
+        </Wireframe>
+        <WireframeShieldColor value="255,0,128,0"/>
+    </CActorUnit>
     <CActorAction id="ZerglingAttack2" parent="GenericAttack" effectAttack="Claws2">
         <LaunchModel value="GenericAttackLaunchModel3"/>
         <LaunchSound value="GenericAttackLaunchSound3"/>
@@ -2008,6 +2227,19 @@
         <ImpactSound value="GenericAttackImpactSound3"/>
         <DamageModel value="GenericAttackDamageModel3"/>
         <DamageSound value="GenericAttackDamageSound3"/>
+        <ShieldFlashType value="Header"/>
+    </CActorAction>
+    <CActorAction id="ZerglingAttack22" parent="GenericAttack" effectAttack="Claws22">
+        <LaunchModel value="GenericAttackLaunchModel32"/>
+        <LaunchSound value="GenericAttackLaunchSound32"/>
+        <ContainerModel value="GenericAttackLaunchModel32"/>
+        <ContainerSound value="GenericAttackLaunchSound32"/>
+        <ImpactAttachQuery Methods="AMFilterTargetVolumes"/>
+        <ImpactMap index="None" Sound="Zergling_AttackImpact22"/>
+        <ImpactModel value="GenericAttackImpactModel32"/>
+        <ImpactSound value="GenericAttackImpactSound32"/>
+        <DamageModel value="GenericAttackDamageModel32"/>
+        <DamageSound value="GenericAttackDamageSound32"/>
         <ShieldFlashType value="Header"/>
     </CActorAction>
     <CActorAction id="ZerglingAttack3" parent="GenericAttack" effectAttack="Claws2">
@@ -2023,6 +2255,32 @@
         <DamageSound value="GenericAttackDamageSound4"/>
         <ShieldFlashType value="Header"/>
     </CActorAction>
+    <CActorAction id="ZerglingAttack32" parent="GenericAttack" effectAttack="Claws22">
+        <LaunchModel value="GenericAttackLaunchModel42"/>
+        <LaunchSound value="GenericAttackLaunchSound42"/>
+        <ContainerModel value="GenericAttackLaunchModel42"/>
+        <ContainerSound value="GenericAttackLaunchSound42"/>
+        <ImpactAttachQuery Methods="AMFilterTargetVolumes"/>
+        <ImpactMap index="None" Sound="Zergling_AttackImpact32"/>
+        <ImpactModel value="GenericAttackImpactModel42"/>
+        <ImpactSound value="GenericAttackImpactSound42"/>
+        <DamageModel value="GenericAttackDamageModel42"/>
+        <DamageSound value="GenericAttackDamageSound42"/>
+        <ShieldFlashType value="Header"/>
+    </CActorAction>
+    <CActorAction id="ZerglingAttack4" parent="GenericAttack" effectAttack="Claws3">
+        <LaunchModel value="GenericAttackLaunchModel7"/>
+        <LaunchSound value="GenericAttackLaunchSound7"/>
+        <ContainerModel value="GenericAttackLaunchModel7"/>
+        <ContainerSound value="GenericAttackLaunchSound7"/>
+        <ImpactAttachQuery Methods="AMFilterTargetVolumes"/>
+        <ImpactMap index="None" Sound="Zergling_AttackImpact4"/>
+        <ImpactModel value="GenericAttackImpactModel7"/>
+        <ImpactSound value="GenericAttackImpactSound7"/>
+        <DamageModel value="GenericAttackDamageModel7"/>
+        <DamageSound value="GenericAttackDamageSound7"/>
+        <ShieldFlashType value="Header"/>
+    </CActorAction>
     <CActorModel id="ZerglingFrenzy2" parent="ModelAddition">
         <Inherits index="TintColor" value="0"/>
         <On Terms="Behavior.ZerglingFrenzy2.On" Send="Create"/>
@@ -2031,6 +2289,15 @@
         <On Terms="Behavior.ZerglingFrenzy2.Off" Send="AnimBracketStop BSD"/>
         <HostSiteOps Ops="SOpAttachCenter"/>
         <Model value="ZerglingFuryImpact2"/>
+    </CActorModel>
+    <CActorModel id="ZerglingFrenzy22" parent="ModelAddition">
+        <Inherits index="TintColor" value="0"/>
+        <On Terms="Behavior.ZerglingFrenzy22.On" Send="Create"/>
+        <On Terms="ActorCreation" Target="_Unit" Send="SetScale 1.100000 0.400000 Frenzy"/>
+        <On Terms="Behavior.ZerglingFrenzy22.Off" Target="_Unit" Send="ClearScale 0.400000 Frenzy"/>
+        <On Terms="Behavior.ZerglingFrenzy22.Off" Send="AnimBracketStop BSD"/>
+        <HostSiteOps Ops="SOpAttachCenter"/>
+        <Model value="ZerglingFuryImpact22"/>
     </CActorModel>
     <CActorModel id="ZerglingFrenzy3" parent="ModelAddition">
         <Inherits index="TintColor" value="0"/>
@@ -2041,12 +2308,34 @@
         <HostSiteOps Ops="SOpAttachCenter"/>
         <Model value="ZerglingFuryImpact"/>
     </CActorModel>
+    <CActorModel id="ZerglingFrenzy32" parent="ModelAddition">
+        <Inherits index="TintColor" value="0"/>
+        <On Terms="Behavior.ZerglingFrenzy22.On" Send="Create"/>
+        <On Terms="ActorCreation" Target="_Unit" Send="SetScale 1.100000 0.400000 Frenzy"/>
+        <On Terms="Behavior.ZerglingFrenzy22.Off" Target="_Unit" Send="ClearScale 0.400000 Frenzy"/>
+        <On Terms="Behavior.ZerglingFrenzy22.Off" Send="AnimBracketStop BSD"/>
+        <HostSiteOps Ops="SOpAttachCenter"/>
+        <Model value="ZerglingFuryImpact3"/>
+    </CActorModel>
+    <CActorModel id="ZerglingFrenzy4" parent="ModelAddition">
+        <Inherits index="TintColor" value="0"/>
+        <On Terms="Behavior.ZerglingFrenzy3.On" Send="Create"/>
+        <On Terms="ActorCreation" Target="_Unit" Send="SetScale 1.100000 0.400000 Frenzy"/>
+        <On Terms="Behavior.ZerglingFrenzy3.Off" Target="_Unit" Send="ClearScale 0.400000 Frenzy"/>
+        <On Terms="Behavior.ZerglingFrenzy3.Off" Send="AnimBracketStop BSD"/>
+        <HostSiteOps Ops="SOpAttachCenter"/>
+        <Model value="ZerglingFuryImpact4"/>
+    </CActorModel>
     <CActorSound id="Zergling_Death2" parent="SoundOneShot">
         <On Terms="UnitDeath.Zergling2; PassChance 25.000000" Send="Create"/>
         <On Terms="UnitDeath.ZerglingBurrowed; PassChance 25.000000" Send="Create"/>
     </CActorSound>
     <CActorSound id="Zergling_Death3" parent="SoundOneShot">
         <On Terms="UnitDeath.Zergling3; PassChance 25.000000" Send="Create"/>
+        <On Terms="UnitDeath.ZerglingBurrowed; PassChance 25.000000" Send="Create"/>
+    </CActorSound>
+    <CActorSound id="Zergling_Death4" parent="SoundOneShot">
+        <On Terms="UnitDeath.Zergling2; PassChance 25.000000" Send="Create"/>
         <On Terms="UnitDeath.ZerglingBurrowed; PassChance 25.000000" Send="Create"/>
     </CActorSound>
 </Catalog>

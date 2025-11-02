@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Catalog>
+    <CRequirement id="HaveHotSMetabolicBoost2">
+        <EditorCategories value="Race:Zerg,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="CountUpgradeHotSMetabolicBoostCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="HaveHotSZerglingFrenzy2">
+        <EditorCategories value="Race:Zerg,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="CountUpgradeHotSZerglingFrenzyCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="HaveHotSZerglingHealth2">
+        <EditorCategories value="Race:Zerg,TechType:Upgrade"/>
+        <NodeArray index="Use" Link="CountUpgradeHotSZerglingHealthCompleteOnly2346380126"/>
+        <NodeArray index="Show" Link="OrAndCountUpgradeKerriganCommanderCompleteOnlyLTE4CountUpgradeCommanderLevelCompleteOnlyAndCountUpgradeZagaraCommanderCompleteOnlyLTE6CountUpgradeCommanderLevelCompleteOnly"/>
+    </CRequirement>
     <CRequirement id="UseBattlecruiserSpecializations">
         <NodeArray index="Use" Link="AllowAbilSJHyperionBanshees03622066930TechTreeCheat"/>
     </CRequirement>

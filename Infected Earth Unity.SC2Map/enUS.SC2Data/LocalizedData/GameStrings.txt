@@ -1,10 +1,14 @@
 ﻿Abil/Name/BurrowZerglingDown2=Burrow (Zergling)
+Abil/Name/BurrowZerglingDown3=Burrow (Zergling)
 Abil/Name/EngineeringBayResearch2=Research (Engineering Bay)
 Abil/Name/EngineeringBayResearch22=Research (Engineering Bay)
 Abil/Name/EngineeringBayResearch3=Research (Engineering Bay)
 Abil/Name/Explode2=Explode
 Abil/Name/GrenadeStarfoulah=Grenade Starfoulah
 Abil/Name/MorphZerglingToBaneling2=Morph (Zergling -> Baneling)
+Abil/Name/MorphZerglingToBaneling3=Morph (Zergling -> Baneling)
+Abil/Name/MorphZerglingToHunter2=Morph (Zergling -> Hunter)
+Abil/Name/MorphZerglingToSplitterling2=Morph (Zergling -> Splitterling)
 Abil/Name/SIEngineeringBayResearch2=Infested Engineering Bay Research
 Abil/Name/SpawningPoolResearch2=Research (Spawning Pool)
 Abil/Name/SpawningPoolResearch3=Research (Spawning Pool)
@@ -14,72 +18,106 @@ Abil/Name/StimpackZerg=StimpackZerg
 Abil/Name/TaurenStimpack2=Tauren Stimpack
 Abil/Name/attack2=Attack
 Abil/Name/attack3=Attack
+Abil/Name/attack4=Attack
 Abil/Name/move2=Move
 Abil/Name/move3=Move
+Abil/Name/move4=Move
 Abil/Name/que12=Queue (1)
+Abil/Name/que13=Queue (1)
 Abil/Name/stop2=Stop
 Abil/Name/stop3=Stop
+Abil/Name/stop4=Stop
 Abil/TargetMessage/attack2=<IMG path="Assets\Textures\tutorialmouseleftbuttondown.dds" alignment="absolutemiddle"/>   To Attack<n/><IMG path="Assets\Textures\tutorialmouserightbuttondown.dds" alignment="absolutemiddle"/>   Cancel
 Abil/TargetMessage/attack3=<IMG path="Assets\Textures\tutorialmouseleftbuttondown.dds" alignment="absolutemiddle"/>   To Attack<n/><IMG path="Assets\Textures\tutorialmouserightbuttondown.dds" alignment="absolutemiddle"/>   Cancel
+Abil/TargetMessage/attack4=<IMG path="Assets\Textures\tutorialmouseleftbuttondown.dds" alignment="absolutemiddle"/>   To Attack<n/><IMG path="Assets\Textures\tutorialmouserightbuttondown.dds" alignment="absolutemiddle"/>   Cancel
 Augmente la vitesse de déplacement et la vitesse d'attaque pendant 10 secondes. Régénère également 250 HP instantanément.=Augmente la vitesse de deplacement et la vitesse d attaque 
 Augmente la vitesse de déplacement et rend 250HP=Augmente la vitesse de déplacement et rend 250HP
 Behavior/Name/Stimpack2=Stimpack
 Behavior/Name/StimpackDeRaynor=StimpackDeRaynor
 Behavior/Name/ZerglingArmorShredTarget2=Armor Negated
+Behavior/Name/ZerglingArmorShredTarget22=Armor Negated
+Behavior/Name/ZerglingArmorShredTarget3=Armor Negated
 Behavior/Name/ZerglingSunder2=Sundered
+Behavior/Name/ZerglingSunder22=Sundered
+Behavior/Name/ZerglingSunder3=Sundered
 Behavior/Tooltip/Stimpack=Ca court vite
 Behavior/Tooltip/Stimpack2=This unit moves and attacks more quickly while under the effects of Stimpack.
 Behavior/Tooltip/StimpackDeRaynor=Augmente la vitesse de déplacement et rend 250HP
 Behavior/Tooltip/ZerglingArmorShredTarget2=This unit's armor has been reduced to 0.
+Behavior/Tooltip/ZerglingArmorShredTarget22=This unit's armor has been reduced to 0.
+Behavior/Tooltip/ZerglingArmorShredTarget3=This unit's armor has been reduced to 0.
 Behavior/Tooltip/ZerglingSunder2=This unit receives extra damage from ranged attacks.
+Behavior/Tooltip/ZerglingSunder22=This unit receives extra damage from ranged attacks.
+Behavior/Tooltip/ZerglingSunder3=This unit receives extra damage from ranged attacks.
 Button/Name/Attack2=Attack
 Button/Name/Attack3=Attack
 Button/Name/Attack4=Attack
 Button/Name/Attack5=Attack
+Button/Name/Attack6=Attack
 Button/Name/Baneling2=Morph to Baneling
 Button/Name/Baneling3=Morph to Baneling
+Button/Name/Baneling4=Morph to Baneling
 Button/Name/BurrowDown2=Burrow
 Button/Name/BurrowDown3=Burrow
+Button/Name/BurrowDown4=Burrow
 Button/Name/Explode2=Explode
+Button/Name/HotSMetabolicBoost2=Metabolic Boost
+Button/Name/HotSRedundantMembranes2=Hardened Carapace
+Button/Name/HotSZerglingFrenzy2=Adrenal Overload
+Button/Name/MorphtoHunter2=Morph to Baneling
+Button/Name/MorphtoSplitterling2=Morph to Baneling
 Button/Name/Move2=Move
 Button/Name/Move3=Move
 Button/Name/Move4=Move
 Button/Name/Move5=Move
+Button/Name/Move6=Move
 Button/Name/MoveHoldPosition2=Hold Position
 Button/Name/MoveHoldPosition3=Hold Position
 Button/Name/MoveHoldPosition4=Hold Position
 Button/Name/MoveHoldPosition5=Hold Position
+Button/Name/MoveHoldPosition6=Hold Position
 Button/Name/MovePatrol2=Patrol
 Button/Name/MovePatrol3=Patrol
 Button/Name/MovePatrol4=Patrol
 Button/Name/MovePatrol5=Patrol
+Button/Name/MovePatrol6=Patrol
 Button/Name/Stim2=StimpackDeChien
 Button/Name/Stim3=Stimpack
 Button/Name/Stop2=Stop
 Button/Name/Stop3=Stop
 Button/Name/Stop4=Stop
 Button/Name/Stop5=Stop
+Button/Name/Stop6=Stop
 Button/Name/TossGrenade2=Grenade Starfoulah
 Button/Tooltip/Attack2=Orders selected units to move to the target point, fighting nearby enemies along the way. Targeting a unit with the Attack command orders that it be attacked until it is destroyed.
 Button/Tooltip/Attack3=Orders selected units to move to the target point, fighting nearby enemies along the way. Targeting a unit with the Attack command orders that it be attacked until it is destroyed.
 Button/Tooltip/Attack4=Orders selected units to move to the target point, fighting nearby enemies along the way. Targeting a unit with the Attack command orders that it be attacked until it is destroyed.
 Button/Tooltip/Attack5=Orders selected units to move to the target point, fighting nearby enemies along the way. Targeting a unit with the Attack command orders that it be attacked until it is destroyed.
+Button/Tooltip/Attack6=Orders selected units to move to the target point, fighting nearby enemies along the way. Targeting a unit with the Attack command orders that it be attacked until it is destroyed.
 Button/Tooltip/Baneling2=Suicide unit. Does damage over a small area on death. <n/><n/><c val="ffff8a">Can attack ground units.</c>
 Button/Tooltip/Baneling22=Suicide unit. Does damage over a small area on death. <n/><n/><c val="ffff8a">Can attack ground units.</c>
 Button/Tooltip/Baneling3=Suicide unit. Does damage over a small area on death. <n/><n/><c val="ffff8a">Can attack ground units.</c>
+Button/Tooltip/Baneling4=Suicide unit. Does damage over a small area on death. <n/><n/><c val="ffff8a">Can attack ground units.</c>
 Button/Tooltip/BanelingCocoon2=This cocoon contains a Zergling that is morphing into a Baneling.
+Button/Tooltip/BanelingCocoon3=This cocoon contains a Zergling that is morphing into a Baneling.
 Button/Tooltip/BurrowDown2=Buries the unit underground. Burrowed units are unable to move or attack, but they cannot be seen without detection.
 Button/Tooltip/BurrowDown3=Buries the unit underground. Burrowed units are unable to move or attack, but they cannot be seen without detection.
+Button/Tooltip/BurrowDown4=Buries the unit underground. Burrowed units are unable to move or attack, but they cannot be seen without detection.
 Button/Tooltip/EngineeringBay2=Contains upgrades for Terran infantry and structures. <n/><n/><c val="ffff8a">Enables:</c><n/>- Missile Turrets from SCVs<n/>- Sensor Towers from SCVs<n/>- Planetary Fortresses from Command Centers
 Button/Tooltip/Explode2=The Baneling detonates where it is standing, damaging nearby enemy units and structures.
 Button/Tooltip/Ghost2=Sniper. Can use Snipe, EMP Round, and be upgraded to use Cloak. Can call down Tactical Nukes built at the Ghost Academy.<n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c>
 Button/Tooltip/HotSHunter2=Suicide unit. Deals damage over a small area upon death. Launches toward enemy at range 6.<n/><n/><c val="ffff8a">Can attack ground units.</c>
+Button/Tooltip/HotSHunter3=Suicide unit. Deals damage over a small area upon death. Launches toward enemy at range 6.<n/><n/><c val="ffff8a">Can attack ground units.</c>
+Button/Tooltip/HotSMetabolicBoost2=Movement speed increased by 60%.
 Button/Tooltip/HotSRaptor2=Fast melee unit. Leaps over obstacles and onto targets from range. Deals increased damage. Can morph into a Baneling.<n/><n/><c val="FFFF8A">Can attack ground units.</c>
 Button/Tooltip/HotSRaptor3=Fast melee unit. Leaps over obstacles and onto targets from range. Deals increased damage. Can morph into a Baneling.<n/><n/><c val="FFFF8A">Can attack ground units.</c>
+Button/Tooltip/HotSRedundantMembranes2=Zergling gains +10 maximum life.
 Button/Tooltip/HotSSplitterlingBig2=Suicide unit. Deals damage over a small area upon death. Splits into smaller units as it dies. <n/><n/><c val="ffff8a">Can attack ground units.</c>
+Button/Tooltip/HotSSplitterlingBig3=Suicide unit. Deals damage over a small area upon death. Splits into smaller units as it dies. <n/><n/><c val="ffff8a">Can attack ground units.</c>
 Button/Tooltip/HotSSplitterlingMedium2=Suicide unit. Deals damage over a small area upon death. <n/><n/><c val="ffff8a">Can attack ground units.</c>
 Button/Tooltip/HotSSwarmling2=Fast melee unit. Spawns in groups of three. Morphs almost instantly. Can morph into a Baneling.<n/><n/><c val="FFFF8A">Can attack ground units.</c>
 Button/Tooltip/HotSSwarmling3=Fast melee unit. Spawns in groups of three. Morphs almost instantly. Can morph into a Baneling.<n/><n/><c val="FFFF8A">Can attack ground units.</c>
+Button/Tooltip/HotSZerglingFrenzy2=Attack speed increased by 40%.
 Button/Tooltip/InfestedExploderBurrowed2=Suicide unit. Does damage over a small area on death. <n/><n/><c val="ffff8a">Can attack ground units.</c>
 Button/Tooltip/JimRaynorIEUHero=Raynor is an elite Marine with more life and a stronger attack. <n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c><n/>
 Button/Tooltip/MULE2=Prototype harvesting unit. Gathers minerals more quickly than regular SCVs. MULEs last <d time="90"/> before their systems fail.
@@ -90,18 +128,23 @@ Button/Tooltip/Marine4=General-purpose infantry.<n/><n/><c val="#ColorAttackInfo
 Button/Tooltip/MasteryRaynorStim2DurationAppend=Augmente la vitesse de déplacement et la vitesse d'attaque pendant 10 secondes.<n/>Régénère également 250 HP instantanément.
 Button/Tooltip/MasteryRaynorStim3DurationAppend=<n/><n/><c val="FFFF8A">Mastery:</c> Increases duration by <c val="FFFF8A"><d ref="Effect,MasteryRaynorStimDurationDisplayDummy,Amount" precision="1"/></c> seconds.
 Button/Tooltip/MengskMarine2=General-purpose infantry. Part of Mengsk's elite guard.<n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c>
+Button/Tooltip/MorphtoHunter2=Hunter Strain<n/><n/>Suicide unit. Deals damage over a small area upon death. Launches toward enemies at range 6.<n/><n/><c val="ffff8a">Can attack ground units.</c>
+Button/Tooltip/MorphtoSplitterling2=Splitter Strain<n/><n/>Suicide unit. Deals damage over a small area upon death. Splits into smaller units as it dies. <n/><n/><c val="ffff8a">Can attack ground units.</c>
 Button/Tooltip/Move2=Orders selected units to move to the target area or follow the target unit. Moving units will not engage enemies.
 Button/Tooltip/Move3=Orders selected units to move to the target area or follow the target unit. Moving units will not engage enemies.
 Button/Tooltip/Move4=Orders selected units to move to the target area or follow the target unit. Moving units will not engage enemies.
 Button/Tooltip/Move5=Orders selected units to move to the target area or follow the target unit. Moving units will not engage enemies.
+Button/Tooltip/Move6=Orders selected units to move to the target area or follow the target unit. Moving units will not engage enemies.
 Button/Tooltip/MoveHoldPosition2=Orders selected units to stay where they are and attack enemies that are within range. Units will neither chase down enemies nor move to engage.
 Button/Tooltip/MoveHoldPosition3=Orders selected units to stay where they are and attack enemies that are within range. Units will neither chase down enemies nor move to engage.
 Button/Tooltip/MoveHoldPosition4=Orders selected units to stay where they are and attack enemies that are within range. Units will neither chase down enemies nor move to engage.
 Button/Tooltip/MoveHoldPosition5=Orders selected units to stay where they are and attack enemies that are within range. Units will neither chase down enemies nor move to engage.
+Button/Tooltip/MoveHoldPosition6=Orders selected units to stay where they are and attack enemies that are within range. Units will neither chase down enemies nor move to engage.
 Button/Tooltip/MovePatrol2=Orders selected units to patrol between their current position and the target area. Units will attack enemies and move to engage nearby enemies.
 Button/Tooltip/MovePatrol3=Orders selected units to patrol between their current position and the target area. Units will attack enemies and move to engage nearby enemies.
 Button/Tooltip/MovePatrol4=Orders selected units to patrol between their current position and the target area. Units will attack enemies and move to engage nearby enemies.
 Button/Tooltip/MovePatrol5=Orders selected units to patrol between their current position and the target area. Units will attack enemies and move to engage nearby enemies.
+Button/Tooltip/MovePatrol6=Orders selected units to patrol between their current position and the target area. Units will attack enemies and move to engage nearby enemies.
 Button/Tooltip/Raynor2=Raynor is an elite Marine with more life and a stronger attack. <n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c><n/>
 Button/Tooltip/Reaper2=Raider. Capable of jumping up and down cliffs. <n/><n/><c val="#ColorAttackInfo">Can attack ground units.</c>
 Button/Tooltip/SCV2=Basic worker unit. Can gather resources, build Terran structures, and repair.<n/><n/><c val="#ColorAttackInfo">Can attack ground units.</c>
@@ -112,6 +155,7 @@ Button/Tooltip/Stop2=Orders selected units to cancel all orders and stop moving.
 Button/Tooltip/Stop3=Orders selected units to cancel all orders and stop moving.
 Button/Tooltip/Stop4=Orders selected units to cancel all orders and stop moving.
 Button/Tooltip/Stop5=Orders selected units to cancel all orders and stop moving.
+Button/Tooltip/Stop6=Orders selected units to cancel all orders and stop moving.
 Button/Tooltip/TaurenSpaceMarineBroken=For the Horde.
 Button/Tooltip/TossGrenade2=Lance une grenarde et starfoulah les dégats en gros
 Button/Tooltip/WarPig2=General-purpose infantry.<n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c>
@@ -119,7 +163,11 @@ DocInfo/DescLong=Completely devoid of any description whatsoever.
 DocInfo/DescShort=Any
 DocInfo/Name=Just Another StarCraft II Map
 Effect/Name/Claws2=Claws (Damage)
+Effect/Name/Claws22=Claws (Damage)
+Effect/Name/Claws3=Claws (Damage)
 Effect/Name/HotSZerglingClaws2=Hot SZergling Claws
+Effect/Name/HotSZerglingClaws22=Hot SZergling Claws
+Effect/Name/HotSZerglingClaws3=Hot SZergling Claws
 Effect/Name/RaynorGaussRifleDamage2=Gauss Rifle (Damage)
 Effect/Name/StimHealEffect=StimHealEffect
 Effect/Name/StimSetEffect=StimSetEffect
@@ -129,9 +177,17 @@ Effect/Name/TaurenSpaceMarineGaussRifleDamage2=Tauren Space Marine Gauss Rifle D
 Effect/Name/TossGrenadeDamage2=Toss Grenade (Damage)
 Effect/Name/TossGrenadeLaunchMissile2=Toss Grenade (Launch Missile)
 Effect/Name/ZerglingArmorShredTargetAB2=Shredding Claws Target AB
+Effect/Name/ZerglingArmorShredTargetAB22=Shredding Claws Target AB
+Effect/Name/ZerglingArmorShredTargetAB3=Shredding Claws Target AB
 Effect/Name/ZerglingFrenzy2=Zergling Frenzy
+Effect/Name/ZerglingFrenzy22=Zergling Frenzy
+Effect/Name/ZerglingFrenzy3=Zergling Frenzy
 Effect/Name/ZerglingRangeReapply2=Zergling Range Reapply
+Effect/Name/ZerglingRangeReapply22=Zergling Range Reapply
+Effect/Name/ZerglingRangeReapply3=Zergling Range Reapply
 Effect/Name/ZerglingSunder2=Zergling Sunder
+Effect/Name/ZerglingSunder22=Zergling Sunder
+Effect/Name/ZerglingSunder3=Zergling Sunder
 Je n'arrive pas à changer le texte que l'on voit en jeu quand on place la souris sur le sort du stim=Je n'arrive pas à changer le texte que l'on voit en jeu quand on place la souris sur le sort du stim
 MapInfo/Player00/Name=Neutral
 MapInfo/Player01/Name=Player 1
@@ -142,21 +198,27 @@ SimpleDisplay/Attack2=<s val="@@@SimpleCommandRow">%hotkey</c> then</s> <IMG pat
 SimpleDisplay/Attack3=<s val="@@@SimpleCommandRow">%hotkey</c> then</s> <IMG path="Assets\Textures\tutorialmouseleftbuttondown.dds" alignment="absolutemiddle"/> <s val="@@@SimpleCommandRow">ground to Auto-attack</s>
 SimpleDisplay/Attack4=<s val="@@@SimpleCommandRow">%hotkey</c> then</s> <IMG path="Assets\Textures\tutorialmouseleftbuttondown.dds" alignment="absolutemiddle"/> <s val="@@@SimpleCommandRow">ground to Auto-attack</s>
 SimpleDisplay/Attack5=<s val="@@@SimpleCommandRow">%hotkey</c> then</s> <IMG path="Assets\Textures\tutorialmouseleftbuttondown.dds" alignment="absolutemiddle"/> <s val="@@@SimpleCommandRow">ground to Auto-attack</s>
+SimpleDisplay/Attack6=<s val="@@@SimpleCommandRow">%hotkey</c> then</s> <IMG path="Assets\Textures\tutorialmouseleftbuttondown.dds" alignment="absolutemiddle"/> <s val="@@@SimpleCommandRow">ground to Auto-attack</s>
 SimpleDisplay/Move2=<IMG path="Assets\Textures\tutorialmouserightbuttondown.dds" alignment="absolutemiddle"/> <s val="@@@SimpleCommandRow">to Move</s>
 SimpleDisplay/Move3=<IMG path="Assets\Textures\tutorialmouserightbuttondown.dds" alignment="absolutemiddle"/> <s val="@@@SimpleCommandRow">to Move</s>
 SimpleDisplay/Move4=<IMG path="Assets\Textures\tutorialmouserightbuttondown.dds" alignment="absolutemiddle"/> <s val="@@@SimpleCommandRow">to Move</s>
 SimpleDisplay/Move5=<IMG path="Assets\Textures\tutorialmouserightbuttondown.dds" alignment="absolutemiddle"/> <s val="@@@SimpleCommandRow">to Move</s>
+SimpleDisplay/Move6=<IMG path="Assets\Textures\tutorialmouserightbuttondown.dds" alignment="absolutemiddle"/> <s val="@@@SimpleCommandRow">to Move</s>
 Unit/Name/AbathurLavaWorm=AbathurLavaWorm Decoration
 Unit/Name/Baneling2=Baneling
 Unit/Name/Baneling22=Baneling
 Unit/Name/Baneling3=Baneling
+Unit/Name/Baneling4=Baneling
 Unit/Name/BanelingCocoon2=Baneling Cocoon
+Unit/Name/BanelingCocoon3=Baneling Cocoon
 Unit/Name/EngineeringBay2=Engineering Bay
 Unit/Name/Ghost2=Ghost
 Unit/Name/HotSHunter2=Baneling
+Unit/Name/HotSHunter3=Baneling
 Unit/Name/HotSRaptor2=Zergling
 Unit/Name/HotSRaptor3=Zergling
 Unit/Name/HotSSplitterlingBig2=Baneling
+Unit/Name/HotSSplitterlingBig3=Baneling
 Unit/Name/HotSSplitterlingMedium2=Baneling Spawn
 Unit/Name/HotSSwarmling2=Zergling
 Unit/Name/HotSSwarmling3=Zergling
@@ -175,19 +237,44 @@ Unit/Name/TaurenSpaceMarineBroken=Tauren Space Marine Broken
 Unit/Name/TossGrenadeWeapon2=Toss Grenade
 Unit/Name/WarPig2=War Pig
 Unit/Name/YamatoWeapon2=Yamato
-Unit/Name/Zergling=ZerglingStim1
+Unit/Name/Zergling=ZerglingChien
 Unit/Name/Zergling3=Zergling
 Unit/Name/Zergling4=ZerglingStim
 Unit/Name/Zergling5=ZerglingStim
+Unit/Name/Zergling6=ZerglingStim1
 UnitSubtitle/HotSHunter2=Hunter Strain
+UnitSubtitle/HotSHunter3=Hunter Strain
 UnitSubtitle/HotSRaptor2=Raptor Strain
 UnitSubtitle/HotSRaptor3=Raptor Strain
 UnitSubtitle/HotSSwarmling2=Swarmling Strain
 UnitSubtitle/HotSSwarmling3=Swarmling Strain
+Upgrade/Name/Burrow2=Burrow
+Upgrade/Name/HotSMetabolicBoost2=Metabolic Boost
+Upgrade/Name/HotSZerglingHealth2=Hardened Carapace
+Upgrade/Name/HotSZerglingRespawn2=Hot SZergling Reconstitution
+Upgrade/Name/HotsAcceleratedMorph2=Accelerated Morph
+Upgrade/Name/KerriganCommander2=Kerrigan
+Upgrade/Name/ObverseIncubation2=Obverse Incubation
 Upgrade/Name/RaynorCommanderArmorVanadium2=Raynor Commander Armor Vanadium
 Upgrade/Name/RaynorCommanderStimUpgrade2=Raynor Commander Stim Upgrade
 Upgrade/Name/StimDamageUpgrade2=Stim Damage Upgrade
+Upgrade/Name/ZagaraCommander2=Commander - Zerg - Zagara
+Upgrade/Name/ZagaraVoidCoopCreepBonuses2=Zagara Void Coop Creep Bonuses
+Upgrade/Name/ZagaraVoidCoopReducedUnitCost2=Zagara Void Coop Reduced Unit Cost
+Upgrade/Name/ZergGroundArmors2=Infantry Armor
+Upgrade/Name/ZergGroundArmorsLevel12=Ground Carapace Level 1
+Upgrade/Name/ZergGroundArmorsLevel22=Ground Carapace Level 2
+Upgrade/Name/ZergGroundArmorsLevel32=Ground Carapace Level 3
+Upgrade/Name/ZergMeleeWeapons2=Infantry Weapons
+Upgrade/Name/ZergMeleeWeaponsLevel12=Melee Attacks Level 1
+Upgrade/Name/ZergMeleeWeaponsLevel22=Melee Attacks Level 2
+Upgrade/Name/ZergMeleeWeaponsLevel32=Melee Attacks Level 3
+Upgrade/Name/ZerglingArmorShred2=Shredding Claws
+Upgrade/Name/zerglingattackspeed2=Adrenal Glands
+Upgrade/Name/zerglingmovementspeed2=Metabolic Boost
 Weapon/Name/Claws3=Claws
+Weapon/Name/Claws4=Claws
 Weapon/Name/FusildeRaynor=Fusil de Raynor
+Weapon/Name/GriffesDeLings=GriffesDeLings
 Weapon/Name/Starfoule=Starfoule
 i=

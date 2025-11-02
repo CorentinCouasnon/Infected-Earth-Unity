@@ -42,7 +42,7 @@
     <region id="6">
         <name value="Protoss_SpawnRegion2"/>
         <shape type="circle">
-            <center value="67.4145,129.998"/>
+            <center value="121.7382,111.1247"/>
             <radius value="6"/>
         </shape>
     </region>

@@ -24,6 +24,30 @@
             </SectionArray>
         </InfoArray>
     </CAbilMorph>
+    <CAbilMorph id="BurrowZerglingDown3">
+        <AbilSetId value="BrwD"/>
+        <EditorCategories value="Race:Zerg,AbilityorEffectType:MorphsandBurrows"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="BurrowDown">
+            <Flags index="ToSelection" value="1"/>
+        </CmdButtonArray>
+        <CmdButtonArray index="Cancel" DefaultButtonFace="Cancel"/>
+        <ActorKey value="BurrowDown"/>
+        <Flags index="Interruptible" value="1"/>
+        <Flags index="IgnoreFacing" value="1"/>
+        <Flags index="IgnorePlacement" value="0"/>
+        <Flags index="SuppressMovement" value="1"/>
+        <InfoArray Unit="ZerglingChien" RandomDelayMax="0.3703">
+            <SectionArray index="Actor">
+                <DurationArray index="Duration" value="1.333"/>
+            </SectionArray>
+            <SectionArray index="Collide">
+                <DurationArray index="Delay" value="0.5556"/>
+            </SectionArray>
+            <SectionArray index="Stats">
+                <DurationArray index="Delay" value="1"/>
+            </SectionArray>
+        </InfoArray>
+    </CAbilMorph>
     <CAbilResearch id="EngineeringBayResearch2">
         <EditorCategories value="Race:Terran,AbilityorEffectType:Structures"/>
         <InfoArray index="Research1" Time="60" Upgrade="HiSecAutoTracking">
@@ -427,6 +451,74 @@
         </InfoArray>
         <Alert value="MorphComplete_Zerg"/>
     </CAbilTrain>
+    <CAbilTrain id="MorphZerglingToBaneling3">
+        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
+        <RefundFraction>
+            <Resource index="Minerals" value="-0.75"/>
+            <Resource index="Vespene" value="-0.75"/>
+            <Resource index="Terrazine" value="-0.75"/>
+            <Resource index="Custom" value="-0.75"/>
+        </RefundFraction>
+        <Activity value="UI/Morphing"/>
+        <ActorKey value="BanelingAspect"/>
+        <Flags index="KillOnFinish" value="1"/>
+        <Flags index="Select" value="1"/>
+        <MorphUnit value="BanelingCocoon3"/>
+        <InfoArray index="Train1" Time="10" Alert="MorphComplete_Zerg">
+            <Button DefaultButtonFace="Baneling" Requirements="CoopBasicBaneling">
+                <Flags index="ShowInGlossary" value="1"/>
+            </Button>
+            <Unit value="Baneling4"/>
+            <Flags index="IgnorePlacement" value="1"/>
+        </InfoArray>
+        <Alert value="MorphComplete_Zerg"/>
+    </CAbilTrain>
+    <CAbilTrain id="MorphZerglingToHunter2">
+        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
+        <RefundFraction>
+            <Resource index="Minerals" value="-0.75"/>
+            <Resource index="Vespene" value="-0.75"/>
+            <Resource index="Terrazine" value="-0.75"/>
+            <Resource index="Custom" value="-0.75"/>
+        </RefundFraction>
+        <Activity value="UI/Morphing"/>
+        <ActorKey value="BanelingAspect"/>
+        <Flags index="KillOnFinish" value="1"/>
+        <Flags index="Select" value="1"/>
+        <MorphUnit value="BanelingCocoon3"/>
+        <InfoArray index="Train1" Time="10" Alert="MorphComplete_Zerg">
+            <Charge Link="Abil/MorphZerglingToBaneling"/>
+            <Cooldown Link="Abil/MorphZerglingToBaneling"/>
+            <Button DefaultButtonFace="MorphtoHunter" Requirements="CoopHunterRequirements">
+                <Flags index="ShowInGlossary" value="1"/>
+            </Button>
+            <Unit value="HotSHunter3"/>
+        </InfoArray>
+        <Alert value="MorphComplete_Zerg"/>
+    </CAbilTrain>
+    <CAbilTrain id="MorphZerglingToSplitterling2">
+        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
+        <RefundFraction>
+            <Resource index="Minerals" value="-0.75"/>
+            <Resource index="Vespene" value="-0.75"/>
+            <Resource index="Terrazine" value="-0.75"/>
+            <Resource index="Custom" value="-0.75"/>
+        </RefundFraction>
+        <Activity value="UI/Morphing"/>
+        <ActorKey value="BanelingAspect"/>
+        <Flags index="KillOnFinish" value="1"/>
+        <Flags index="Select" value="1"/>
+        <MorphUnit value="BanelingCocoon3"/>
+        <InfoArray index="Train1" Time="10" Alert="MorphComplete_Zerg">
+            <Charge Link="Abil/MorphZerglingToBaneling"/>
+            <Cooldown Link="Abil/MorphZerglingToBaneling"/>
+            <Button DefaultButtonFace="MorphtoSplitterling" Requirements="CoopSplitterlingRequirements">
+                <Flags index="ShowInGlossary" value="1"/>
+            </Button>
+            <Unit value="HotSSplitterlingBig3"/>
+        </InfoArray>
+        <Alert value="MorphComplete_Zerg"/>
+    </CAbilTrain>
     <CAbilResearch id="SIEngineeringBayResearch2">
         <EditorCategories value="Race:Zerg,AbilityorEffectType:Structures"/>
         <InfoArray index="Research1" Time="160" Upgrade="SIInfantryWeaponsLevel1">
@@ -610,7 +702,7 @@
         </Cost>
         <Range value="12"/>
         <SmartPriority value="3"/>
-        <PrepTime value="0.01"/>
+        <PrepTime value="0"/>
         <CursorEffect value="TossGrenadeDamage2"/>
         <AcquirePriority value="10"/>
         <CmdButtonArray index="Execute" DefaultButtonFace="TossGrenade2"/>
@@ -622,6 +714,11 @@
     </CAbilAttack>
     <CAbilAttack id="attack3">
         <TargetMessage value="Abil/TargetMessage/attack3"/>
+        <MinAttackSpeedMultiplier value="0.25"/>
+        <MaxAttackSpeedMultiplier value="128"/>
+    </CAbilAttack>
+    <CAbilAttack id="attack4">
+        <TargetMessage value="Abil/TargetMessage/attack4"/>
         <MinAttackSpeedMultiplier value="0.25"/>
         <MaxAttackSpeedMultiplier value="128"/>
     </CAbilAttack>
@@ -641,7 +738,19 @@
         <MinPatrolDistance value="1"/>
         <FollowFilters value="-;Hover"/>
     </CAbilMove>
+    <CAbilMove id="move4">
+        <FleeRange value="5"/>
+        <FleeTime value="5"/>
+        <FollowRangeSlop value="1"/>
+        <FollowAcquireRange value="6"/>
+        <MinPatrolDistance value="1"/>
+        <FollowFilters value="-;Hover"/>
+    </CAbilMove>
     <CAbilQueue id="que12">
+        <EditorCategories value="Race:Neutral,AbilityorEffectType:Structures"/>
+        <QueueSize value="1"/>
+    </CAbilQueue>
+    <CAbilQueue id="que13">
         <EditorCategories value="Race:Neutral,AbilityorEffectType:Structures"/>
         <QueueSize value="1"/>
     </CAbilQueue>
@@ -649,6 +758,9 @@
         <CmdButtonArray index="HoldFire" DefaultButtonFace="HoldFireSpecial"/>
     </CAbilStop>
     <CAbilStop id="stop3">
+        <CmdButtonArray index="HoldFire" DefaultButtonFace="HoldFireSpecial"/>
+    </CAbilStop>
+    <CAbilStop id="stop4">
         <CmdButtonArray index="HoldFire" DefaultButtonFace="HoldFireSpecial"/>
     </CAbilStop>
 </Catalog>

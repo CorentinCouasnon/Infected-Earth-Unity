@@ -4,6 +4,14 @@
         <EditorCategories value="Race:Zerg"/>
         <Amount value="5"/>
     </CEffectDamage>
+    <CEffectDamage id="Claws22" parent="DU_WEAP">
+        <EditorCategories value="Race:Zerg"/>
+        <Amount value="10"/>
+    </CEffectDamage>
+    <CEffectDamage id="Claws3" parent="DU_WEAP">
+        <EditorCategories value="Race:Zerg"/>
+        <Amount value="5"/>
+    </CEffectDamage>
     <CEffectSet id="HotSZerglingClaws2">
         <EditorCategories value="Race:Zerg"/>
         <EffectArray value="ZerglingFrenzy2"/>
@@ -11,6 +19,22 @@
         <EffectArray value="ZerglingRangeReapply2"/>
         <EffectArray value="ZerglingArmorShredTargetAB2"/>
         <EffectArray value="Claws2"/>
+    </CEffectSet>
+    <CEffectSet id="HotSZerglingClaws22">
+        <EditorCategories value="Race:Zerg"/>
+        <EffectArray value="ZerglingFrenzy22"/>
+        <EffectArray value="ZerglingSunder22"/>
+        <EffectArray value="ZerglingRangeReapply22"/>
+        <EffectArray value="ZerglingArmorShredTargetAB22"/>
+        <EffectArray value="Claws22"/>
+    </CEffectSet>
+    <CEffectSet id="HotSZerglingClaws3">
+        <EditorCategories value="Race:Zerg"/>
+        <EffectArray value="ZerglingFrenzy3"/>
+        <EffectArray value="ZerglingSunder3"/>
+        <EffectArray value="ZerglingRangeReapply3"/>
+        <EffectArray value="ZerglingArmorShredTargetAB3"/>
+        <EffectArray value="Claws3"/>
     </CEffectSet>
     <CEffectDamage id="RaynorGaussRifleDamage2" parent="DU_WEAP">
         <EditorCategories value="Race:Terran"/>
@@ -71,7 +95,27 @@
         <EditorCategories value="Race:Zerg"/>
         <Behavior value="ZerglingArmorShredTarget2"/>
     </CEffectApplyBehavior>
+    <CEffectApplyBehavior id="ZerglingArmorShredTargetAB22">
+        <ValidatorArray index="0" value="HaveZerglingArmorShred"/>
+        <EditorCategories value="Race:Zerg"/>
+        <Behavior value="ZerglingArmorShredTarget22"/>
+    </CEffectApplyBehavior>
+    <CEffectApplyBehavior id="ZerglingArmorShredTargetAB3">
+        <ValidatorArray index="0" value="HaveZerglingArmorShred"/>
+        <EditorCategories value="Race:Zerg"/>
+        <Behavior value="ZerglingArmorShredTarget3"/>
+    </CEffectApplyBehavior>
     <CEffectApplyBehavior id="ZerglingFrenzy2">
+        <ValidatorArray value="HaveHotSZerglingFrenzy"/>
+        <EditorCategories value="Race:Zerg"/>
+        <WhichUnit Value="Caster"/>
+    </CEffectApplyBehavior>
+    <CEffectApplyBehavior id="ZerglingFrenzy22">
+        <ValidatorArray value="HaveHotSZerglingFrenzy"/>
+        <EditorCategories value="Race:Zerg"/>
+        <WhichUnit Value="Caster"/>
+    </CEffectApplyBehavior>
+    <CEffectApplyBehavior id="ZerglingFrenzy3">
         <ValidatorArray value="HaveHotSZerglingFrenzy"/>
         <EditorCategories value="Race:Zerg"/>
         <WhichUnit Value="Caster"/>
@@ -82,7 +126,27 @@
         <WhichUnit Value="Caster"/>
         <Behavior value="ZerglingRange2"/>
     </CEffectApplyBehavior>
+    <CEffectApplyBehavior id="ZerglingRangeReapply22">
+        <ValidatorArray index="0" value="HaveZerglingRangeBehavior"/>
+        <EditorCategories value="Race:Zerg"/>
+        <WhichUnit Value="Caster"/>
+        <Behavior value="ZerglingRange22"/>
+    </CEffectApplyBehavior>
+    <CEffectApplyBehavior id="ZerglingRangeReapply3">
+        <ValidatorArray index="0" value="HaveZerglingRangeBehavior"/>
+        <EditorCategories value="Race:Zerg"/>
+        <WhichUnit Value="Caster"/>
+        <Behavior value="ZerglingRange3"/>
+    </CEffectApplyBehavior>
     <CEffectApplyBehavior id="ZerglingSunder2">
+        <ValidatorArray value="HaveHotSZerglingSunder"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CEffectApplyBehavior>
+    <CEffectApplyBehavior id="ZerglingSunder22">
+        <ValidatorArray value="HaveHotSZerglingSunder"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CEffectApplyBehavior>
+    <CEffectApplyBehavior id="ZerglingSunder3">
         <ValidatorArray value="HaveHotSZerglingSunder"/>
         <EditorCategories value="Race:Zerg"/>
     </CEffectApplyBehavior>
