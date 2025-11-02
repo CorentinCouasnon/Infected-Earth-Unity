@@ -7,6 +7,6 @@ bool MapInit_Main(bool testConds, bool runActions) {
     Player_Init();
     Enemy_Init();
     Wave_Init();
-
+    
     return true;
 }

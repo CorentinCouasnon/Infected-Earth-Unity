@@ -1,0 +1,29 @@
+static int heroSelection_frame;
+static int heroSelection_chooseHero1Button;
+static int heroSelection_chooseHero2Button;
+static int heroSelection_chooseHero3Button;
+
+bool UI_HeroSelection_OnHeroSelected(bool testConds, bool runActions)
+{
+    // TODO : Il faut que le panel se ferme uniquement pour le joueur qui a choisi son personnage
+    DialogControlSetVisible(heroSelection_frame, PlayerGroupAll(), false);
+    Debug_ShowMessage("Ce bouton n'as rien fait veau, tu allais jouer le grand Jim Raynor dans tous les cas !");
+
+    return true;
+}
+
+void UI_HeroSelection_Init()
+{
+    trigger heroSelectedTrigger;
+
+    heroSelection_frame = DialogControlHookupStandard(c_triggerControlTypePanel, "UIContainer/ContainerFrame");
+    heroSelection_chooseHero1Button = DialogControlHookup(heroSelection_frame, c_triggerControlTypeButton, "ChooseHero1");
+    heroSelection_chooseHero2Button = DialogControlHookup(heroSelection_frame, c_triggerControlTypeButton, "ChooseHero2");
+    heroSelection_chooseHero3Button = DialogControlHookup(heroSelection_frame, c_triggerControlTypeButton, "ChooseHero3");
+
+    heroSelectedTrigger = TriggerCreate("UI_HeroSelection_OnHeroSelected");
+
+    TriggerAddEventDialogControl(heroSelectedTrigger, c_playerAny, heroSelection_chooseHero1Button, c_triggerControlEventTypeClick);
+    TriggerAddEventDialogControl(heroSelectedTrigger, c_playerAny, heroSelection_chooseHero2Button, c_triggerControlEventTypeClick);
+    TriggerAddEventDialogControl(heroSelectedTrigger, c_playerAny, heroSelection_chooseHero3Button, c_triggerControlEventTypeClick);
+}

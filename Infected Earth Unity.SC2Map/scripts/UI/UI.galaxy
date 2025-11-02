@@ -11,6 +11,7 @@ void UI_CreateTextTag(text inText, color inColor, point position, playergroup gr
 void UI_Init()
 {
     UI_WaveInfo_Init();
+    UI_HeroSelection_Init();
 }
 
 void UI_Update()

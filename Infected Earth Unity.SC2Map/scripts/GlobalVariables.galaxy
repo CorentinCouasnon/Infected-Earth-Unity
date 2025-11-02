@@ -8,6 +8,8 @@ const int c_zergSpawnRegionCount = 4;
 
 const int c_maximumEnemyCount = 300;
 
+const int c_maximumUnitTypePerWave = 20;
+
 // Global variables
 
 struct PlayerData {
