@@ -17,7 +17,7 @@
         </Fields>
         <Instances Id="[Default]"/>
         <Instances Id="1">
-            <Int Int="100">
+            <Int Int="20">
                 <Field Id="count"/>
             </Int>
             <Unit Unit="Zergling">
@@ -25,7 +25,7 @@
             </Unit>
         </Instances>
         <Instances Id="2">
-            <Int Int="105">
+            <Int Int="25">
                 <Field Id="count"/>
             </Int>
             <Unit Unit="Zergling">

@@ -93,17 +93,42 @@
         </shape>
     </region>
     <region id="13">
-        <name value="Region 001"/>
+        <name value="Zerg_SpawnRegion6"/>
+        <color value="255,128,64,0"/>
         <shape type="circle">
-            <center value="252.4807,52.6701"/>
-            <radius value="2.6594"/>
+            <center value="249.6772,59.4357"/>
+            <radius value="6"/>
         </shape>
     </region>
     <region id="14">
-        <name value="Region 002"/>
+        <name value="Zerg_SpawnRegion5"/>
+        <color value="255,128,64,0"/>
         <shape type="circle">
-            <center value="139.8352,67.3955"/>
-            <radius value="3.1484"/>
+            <center value="142.4516,67.793"/>
+            <radius value="6"/>
+        </shape>
+    </region>
+    <region id="15">
+        <name value="Terran_All"/>
+        <color value="255,255,0,0"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="0,144.2255,162.3063,256"/>
+        </shape>
+    </region>
+    <region id="16">
+        <name value="Protoss_All"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="0,0,129.168,138.3623"/>
+        </shape>
+    </region>
+    <region id="17">
+        <name value="Zerg_All"/>
+        <color value="255,128,64,0"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="135.5502,0,256,138.1826"/>
         </shape>
     </region>
 </Regions>

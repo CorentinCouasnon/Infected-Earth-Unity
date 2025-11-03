@@ -5,10 +5,21 @@ void Camera_FocusOnUnit(int player, unit u)
 
 void Camera_SetZoomForPlayer(int player, int zoom)
 {
-    if (zoom < 30 || zoom > 200)
+    if (zoom < 18 || zoom > 70)
     {
+        UIDisplayMessage(PlayerGroupSingle(player), c_messageAreaChat, StringToText("Zoom must be between 18 and 70."));
         return;
     }
 
     CameraSetValue(player, c_cameraValueDistance, zoom, 1, 0, 0);
+}
+
+void Camera_Init()
+{
+    int i;
+
+    for(i = 1; i <= 6; i += 1)
+    {
+        CameraPan(i, PointFromName("Terran_SpawnPoint"), 0, -1, 10, true);
+    }
 }

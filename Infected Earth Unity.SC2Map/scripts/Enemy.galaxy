@@ -1,6 +1,12 @@
 bool Enemy_GroupAttack(bool testConds, bool runActions)
 {
-    UnitGroupIssueOrder(gv_enemiesGroup, OrderTargetingUnit(AbilityCommand("attack", 0), gv_playerData.heroUnit), c_orderQueueReplace);
+    // TODO : Make enemies focus all players
+    if (gv_playersData[0].heroUnit == null)
+    {
+        return true;
+    }
+
+    UnitGroupIssueOrder(gv_enemiesGroup, OrderTargetingUnit(AbilityCommand("attack", 0), gv_playersData[0].heroUnit), c_orderQueueReplace);
     return true;
 }
 

@@ -2,7 +2,7 @@
 <Desc>
 	
 	<Frame type="Frame" name="GameUI/UIContainer" file="GameUI">
-		<Frame type="Frame" name="ContainerFrame">
+		<Frame type="Frame" name="HeroSelectionPanel">
 			<Anchor side="Top" relative="$parent" pos="Min" offset="0"/>
 			<Anchor side="Left" relative="$parent" pos="Min" offset="0"/>
 			<Anchor side="Bottom" relative="$parent" pos="Max" offset="0"/>
@@ -40,7 +40,7 @@
 					
 				<Frame type="Label" name="Label">
 					<Text val="Jim Raynor"/>
-					<!--<Style val="LayoutDebugPanelTitle"/>-->
+					<Style val="Regular"/>
 				</Frame>
 			</Frame>
 
@@ -55,7 +55,7 @@
 					
 				<Frame type="Label" name="Label">
 					<Text val="Jim Raynor"/>
-					<!--<Style val="LayoutDebugPanelTitle"/>-->
+					<Style val="Regular"/>
 				</Frame>
 			</Frame>
 
@@ -70,7 +70,7 @@
 					
 				<Frame type="Label" name="Label">
 					<Text val="Jim Raynor"/>
-					<!--<Style val="LayoutDebugPanelTitle"/>-->
+					<Style val="Regular"/>
 				</Frame>
 			</Frame>
 

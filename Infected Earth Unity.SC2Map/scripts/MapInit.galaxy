@@ -2,11 +2,13 @@
 bool MapInit_Main(bool testConds, bool runActions) {
     
     UI_Init();
+    Camera_Init();
     Chat_Init();
     Region_Init();
     Player_Init();
     Enemy_Init();
     Wave_Init();
+    GameManager_InitPart(c_Part_Terran);
     
     return true;
 }

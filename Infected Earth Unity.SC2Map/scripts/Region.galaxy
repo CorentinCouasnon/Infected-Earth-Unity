@@ -9,13 +9,13 @@ void Region_Init()
     }
 
     // Protoss regions
-    for (i = 0; i < c_terranSpawnRegionCount; i += 1)
+    for (i = 0; i < c_protossSpawnRegionCount; i += 1)
     {
         gv_protossSpawnRegions[i] = RegionFromName("Protoss_SpawnRegion" + IntToString(i + 1));
     }
 
     // Zerg regions
-    for (i = 0; i < c_terranSpawnRegionCount; i += 1)
+    for (i = 0; i < c_zergSpawnRegionCount; i += 1)
     {
         gv_zergSpawnRegions[i] = RegionFromName("Zerg_SpawnRegion" + IntToString(i + 1));
     }

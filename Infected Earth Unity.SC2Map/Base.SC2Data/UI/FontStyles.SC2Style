@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <StyleFile>
-    <Style name="Test" template="AchievementFrameName_Prot"/>
+    <Style name="Regular" font="UI\Fonts\MyriadPro-Regular.otf" height="20" vjustify="Middle" hjustify="Center" textcolor="255,156,235,255" highlightcolor="255,0,0,0" disabledcolor="255,68,68,68" hotkeycolor="255,0,0,0" hyperlinkcolor="255,0,0,0" glowcolor="255,0,0,0" shadowoffset="2" outlinewidth="0"/>
 </StyleFile>

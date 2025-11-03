@@ -1,24 +1,45 @@
-void Player_SetHeroUnit()
+void Player_CreateHeroUnit(int player)
 {
-    gv_playerData.heroUnit = UnitGroupUnit(UnitGroup(null, 1, RegionEntireMap(), UnitFilter(0, 0, 0, 0), 10), 1);
+    string heroUnit;
+
+    if (gv_playersData[player - 1].selectedHeroIndex == 0)
+    {
+        heroUnit = "JimRaynorIEUHero";
+    }
+    else if (gv_playersData[player - 1].selectedHeroIndex == 1)
+    {
+        heroUnit = "Marine";
+    }
+    else 
+    {
+        heroUnit = "Baneling";
+    }
+
+    libNtve_gf_CreateUnitsWithDefaultFacing(1, heroUnit, 1, player, PointFromName("Terran_SpawnPoint"));
+    gv_playersData[player - 1].heroUnit = UnitLastCreated();
+    Camera_FocusOnUnit(player, gv_playersData[player - 1].heroUnit);
 }
 
 void Player_KillReward(int player, point deadUnitPosition)
 {
+    // TODO : Gain de minerai en fonction de l'unité tué
     PlayerModifyPropertyFixed(player, c_playerPropMinerals, c_playerPropOperAdd, 10);
     UI_CreateTextTag(StringToText("+") + FixedToText(10, 2), Color(20, 60, 90), deadUnitPosition, PlayerGroupSingle(player), 1.0, 3.0);
 }
 
 bool Player_OnUnitDeath(bool testConds, bool runActions)
 {
-    if (!UnitIsAlive(gv_playerData.heroUnit))
+    int killingPlayer = libNtve_gf_KillingPlayer();
+    int killedUnitPlayer = EventPlayer();
+
+    if (killedUnitPlayer >= 1 && killedUnitPlayer <= 6 && !UnitIsAlive(gv_playersData[killedUnitPlayer - 1].heroUnit))
     {
-        GameOver(1, c_gameOverDefeat, true, true);
+       GameOver(killedUnitPlayer, c_gameOverDefeat, true, true);
     }
 
-    if (libNtve_gf_KillingPlayer() >= 1 && libNtve_gf_KillingPlayer() <= 6 && EventPlayer() == 15)
+    if (killingPlayer >= 1 && killingPlayer <= 6 && killedUnitPlayer == 15)
     {
-        Player_KillReward(libNtve_gf_KillingPlayer(), UnitGetPosition(EventUnit()));
+        Player_KillReward(killingPlayer, UnitGetPosition(EventUnit()));
     }
 
     return true;
@@ -38,15 +59,13 @@ bool Player_OnAbilityUsed(bool testConds, bool runActions)
 
     abilityUsed = EventUnitAbility();
 
-    Debug_ShowMessage("Ability utilisé : " + AbilityCommandGetAbility(abilityUsed));
+    //Debug_ShowMessage("Ability utilisé : " + AbilityCommandGetAbility(abilityUsed));
 
     return true;
 }
 
 void Player_Init()
 {
-    Player_SetHeroUnit();
     TriggerAddEventUnitDied(TriggerCreate("Player_OnUnitDeath"), null);
     TriggerAddEventUnitAbility(TriggerCreate("Player_OnAbilityUsed"), null, null, c_abilEffectStageChannel, false);
-    Camera_FocusOnUnit(1, gv_playerData.heroUnit);
 }

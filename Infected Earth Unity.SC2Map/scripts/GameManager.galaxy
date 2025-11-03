@@ -1,0 +1,15 @@
+void GameManager_InitPart(int part)
+{
+    if (part == c_Part_Terran)
+    {
+        CameraSetBounds(PlayerGroupAll(), RegionFromName("Terran_All"), true);
+    } 
+    else if (part == c_Part_Protoss)
+    {
+        CameraSetBounds(PlayerGroupAll(), RegionFromName("Protoss_All"), true);
+    }
+    else
+    {
+        CameraSetBounds(PlayerGroupAll(), RegionFromName("Zerg_All"), true);
+    }
+}

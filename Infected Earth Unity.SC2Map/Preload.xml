@@ -55,7 +55,6 @@
 <Actor id="TRaynor01RadarDish"/>
 <Terrain id="KorhalWastes"/>
 <TerrainObject id="TerrainObjectCharNydusNest2"/>
-<Unit id="Zergling"/>
 <Unit id="UnbuildableRocksDestructible" Variations="0"/>
 <Unit id="XelNaga_Caverns_DoorEOpened"/>
 <Unit id="XelNaga_Caverns_DoorNE"/>
@@ -83,5 +82,4 @@
 <Unit id="PurifierCoreMatrix"/>
 <Unit id="FenixAltarOfPsiStormsBrokenStage2"/>
 <Unit id="AbathurLavaWorm"/>
-<Unit id="JimRaynorIEUHero"/>
 </Preload>

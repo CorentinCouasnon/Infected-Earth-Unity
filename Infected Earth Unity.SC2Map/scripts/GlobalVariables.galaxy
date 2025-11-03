@@ -4,7 +4,7 @@ const int c_minimumTickTime = 0;
 
 const int c_terranSpawnRegionCount = 4;
 const int c_protossSpawnRegionCount = 4;
-const int c_zergSpawnRegionCount = 4;
+const int c_zergSpawnRegionCount = 6;
 
 const int c_maximumEnemyCount = 300;
 
@@ -13,18 +13,19 @@ const int c_maximumUnitTypePerWave = 20;
 // Global variables
 
 struct PlayerData {
+    int selectedHeroIndex;
     unit heroUnit;
 };
 
-PlayerData gv_playerData;
+PlayerData[6] gv_playersData;
 
 int gv_currentWave;
 int gv_enemiesAlive;
 unitgroup gv_enemiesGroup;
 
 string[2000] gv_enemySpawnQueue;
-int gv_enemySpawnCount;
+int gv_enemySpawnQueueCount;
 
 region[4] gv_terranSpawnRegions;
 region[4] gv_protossSpawnRegions;
-region[4] gv_zergSpawnRegions;
+region[6] gv_zergSpawnRegions;

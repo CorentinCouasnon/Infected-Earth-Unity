@@ -12,6 +12,7 @@ include "scripts/Camera"
 include "scripts/Enemy"
 include "scripts/Player"
 include "scripts/Chat"
+include "scripts/GameManager"
 include "scripts/MapInit"
 
 void main() {

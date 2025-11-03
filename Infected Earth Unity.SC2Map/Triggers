@@ -12,6 +12,7 @@
         <Identifier>InitialTrigger</Identifier>
         <Disabled/>
         <Event Type="FunctionCall" Id="7BD5B59A"/>
+        <Action Type="FunctionCall" Id="EB99E3BE"/>
         <Action Type="FunctionCall" Id="197207FF"/>
         <Action Type="FunctionCall" Id="67DB2AA4"/>
         <Action Type="FunctionCall" Id="1E2ACAD0"/>
@@ -20,6 +21,38 @@
     </Element>
     <Element Type="FunctionCall" Id="7BD5B59A">
         <FunctionDef Type="FunctionDef" Library="Ntve" Id="00000120"/>
+    </Element>
+    <Element Type="FunctionCall" Id="EB99E3BE">
+        <Disabled/>
+        <FunctionDef Type="FunctionDef" Library="Ntve" Id="9755B9B4"/>
+        <Parameter Type="Param" Id="706CB49E"/>
+        <Parameter Type="Param" Id="C8B6E4AF"/>
+        <Parameter Type="Param" Id="B70F9FD1"/>
+        <Parameter Type="Param" Id="2BAD376D"/>
+        <Parameter Type="Param" Id="6F8C9D09"/>
+    </Element>
+    <Element Type="Param" Id="706CB49E">
+        <ParameterDef Type="ParamDef" Library="Ntve" Id="3E443D29"/>
+        <Value>1</Value>
+        <ValueType Type="int"/>
+    </Element>
+    <Element Type="Param" Id="C8B6E4AF">
+        <ParameterDef Type="ParamDef" Library="Ntve" Id="1FCE2373"/>
+        <Preset Type="PresetValue" Library="Ntve" Id="00000124"/>
+    </Element>
+    <Element Type="Param" Id="B70F9FD1">
+        <ParameterDef Type="ParamDef" Library="Ntve" Id="A9ABC6A5"/>
+        <Value>2</Value>
+        <ValueType Type="fixed"/>
+    </Element>
+    <Element Type="Param" Id="2BAD376D">
+        <ParameterDef Type="ParamDef" Library="Ntve" Id="53CA387A"/>
+        <Preset Type="PresetValue" Library="Ntve" Id="4D47A35C"/>
+    </Element>
+    <Element Type="Param" Id="6F8C9D09">
+        <ParameterDef Type="ParamDef" Library="Ntve" Id="BC825D28"/>
+        <Value>10.0</Value>
+        <ValueType Type="fixed"/>
     </Element>
     <Element Type="FunctionCall" Id="197207FF">
         <Disabled/>
