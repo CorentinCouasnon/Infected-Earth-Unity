@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Catalog>
+    <CRequirementAllowAbil id="AllowAbilSJHyperionBanshees0137519211TechTreeCheat">
+        <Flags index="TechTreeCheat" value="1"/>
+        <Link value="SJHyperionBanshees"/>
+    </CRequirementAllowAbil>
     <CRequirementAllowAbil id="AllowAbilSJHyperionBanshees03622066930TechTreeCheat">
         <Flags index="TechTreeCheat" value="1"/>
         <Link value="SJHyperionBanshees"/>
@@ -8,6 +12,14 @@
         <Flags index="TechTreeCheat" value="1"/>
         <Link value="StimpackZerg"/>
     </CRequirementAllowAbil>
+    <CRequirementCountUpgrade id="CountUpgradeChargeCompleteOnly137519211TechTreeCheat2">
+        <Tooltip value="RequirementNode/Tooltip/UpgradeChargeCompleteOnly"/>
+        <Count Link="Charge2" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeChargeQueuedOrBetter2">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="Charge2" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
     <CRequirementCountUpgrade id="CountUpgradeStimpackCompleteOnly2">
         <Count Link="StimpackDeRaynor" State="CompleteOnly"/>
     </CRequirementCountUpgrade>
@@ -26,5 +38,9 @@
     <CRequirementCountUpgrade id="CountUpgradeTerranInfantryArmorsLevel1QueuedOrBetter2">
         <Flags index="TechTreeCheat" value="0"/>
         <Count Link="TerranInfantryArmorsLevel13" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeVoidZealotChargeCompleteOnly2">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="Charge2" State="CompleteOnly"/>
     </CRequirementCountUpgrade>
 </Catalog>

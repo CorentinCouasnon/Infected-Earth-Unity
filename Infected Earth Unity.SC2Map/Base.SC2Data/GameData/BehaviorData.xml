@@ -1,5 +1,174 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Catalog>
+    <CBehaviorBuff id="AlarakLightningStrikes2">
+        <InfoIcon value="Assets\Textures\BTN-Upgrade-Protoss-Alarak-SupplicantSacrifice-LightingStrike.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="30"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="AllUnitBehaviorController2">
+        <InfoFlags index="Hidden" value="1"/>
+        <Duration value="1"/>
+        <InitialEffect value="AllUnitBehaviorControllerSet2"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="HeroDetectorRadar2">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-status-radar.dds"/>
+        <EditorCategories value="Race:Terran,AbilityorEffectType:Units"/>
+        <Period value="0.25"/>
+        <PeriodicEffect value="HeroDetectorRadar2"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="HeroDetectorRadar3">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-status-radar.dds"/>
+        <EditorCategories value="Race:Terran,AbilityorEffectType:Units"/>
+        <Period value="0.25"/>
+        <PeriodicEffect value="HeroDetectorRadar3"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="HeroDetectorRadarDetected2">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-status-radar.dds"/>
+        <EditorCategories value="Race:Terran,AbilityorEffectType:Units"/>
+        <Duration value="0.5"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="HeroDetectorRadarDetected3">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-status-radar.dds"/>
+        <EditorCategories value="Race:Terran,AbilityorEffectType:Units"/>
+        <Duration value="0.5"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="HornerStunResistance2">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\stimboltgreen.dds"/>
+        <EditorCategories value="Race:Terran,AbilityorEffectType:Units"/>
+        <Modification>
+            <BehaviorCategoryDurationFactor index="Stun" value="-0.5"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="HyperionVoidCoopTimedLifeExpire2">
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="Race:Terran,AbilityorEffectType:Units"/>
+        <Duration value="1"/>
+        <FinalEffect value="SuicideRemove2"/>
+        <Modification>
+            <ModifyFlags index="SuppressMoving" value="1"/>
+            <ModifyFlags index="SuppressTurning" value="1"/>
+            <StateFlags index="Invulnerable" value="1"/>
+            <StateFlags index="SuppressAttack" value="1"/>
+            <StateFlags index="SuppressCollision" value="1"/>
+            <StateFlags index="Unselectable" value="1"/>
+            <StateFlags index="Untargetable" value="1"/>
+            <AbilClassDisableArray index="CAbilAttack" value="1"/>
+            <BehaviorLinkDisableArray value="HyperionVoidCoopSecondaryWeapons"/>
+            <WeaponDisableArray value="HyperionVoidCoopAir"/>
+            <WeaponDisableArray value="HyperionVoidCoopGround"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="KaraxUnitSpawnBarrier2">
+        <Alignment value="Positive"/>
+        <InfoIcon value="Assets\Textures\BTN-Upgrade-Karax-UnityBarrier.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <DisableValidatorArray value="NoPrecursor"/>
+        <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
+        <Period value="1"/>
+        <PeriodCount value="1"/>
+        <PeriodicEffect value="UnityBarrierDummy2"/>
+        <FinalEffect value="UnityBarrierFinalSet2"/>
+        <DamageResponse>
+            <Handled value="UnityBarrierRemoveSet2"/>
+            <Minimum value="20"/>
+            <ModifyFraction value="0"/>
+            <ModifyMinimumDamage value="1"/>
+            <Chance value="1"/>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="KaraxUnitSpawnBarrierDisabled2">
+        <Alignment value="Negative"/>
+        <InfoIcon value="Assets\Textures\BTN-Upgrade-Karax-UnityBarrier.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="240"/>
+        <FinalEffect value="UnityBarrierAB2"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="MasteryNovaArmyOOCRegenSpeed2">
+        <BehaviorFlags index="Permanent" value="1"/>
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="Race:Terran,AbilityorEffectType:Units"/>
+        <Requirements value="HaveMasteryNovaArmyOOCRegenSpeed"/>
+        <DisableValidatorArray value="CasterNotInCombat10"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="NovaStunResistance2">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\stimboltgreen.dds"/>
+        <EditorCategories value="Race:Terran,AbilityorEffectType:Units"/>
+        <Modification>
+            <BehaviorCategoryDurationFactor index="Stun" value="-0.5"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="OnDeathControllerDeathPrevent2">
+        <BehaviorFlags index="Permanent" value="1"/>
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DisableValidatorArray value="HasActiveDeathPrevent"/>
+        <RemoveValidatorArray value="NoCoopDeathPrevent"/>
+        <DamageResponse>
+            <Fatal value="1"/>
+            <Handled value="OnDeathControllerDeathPrevent2"/>
+            <ModifyFraction value="0"/>
+            <ModifyMinimumDamage value="1"/>
+            <Chance value="1"/>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="OnDeathDehakaRecallOnDeath2">
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Duration value="0.5"/>
+        <InitialEffect value="OnDeathDehakaRecallOnDeath1HP2"/>
+        <ExpireEffect value="OnDeathDehakaRecallOnDeathSearch2"/>
+        <Modification>
+            <StateFlags index="Invulnerable" value="1"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="OnDeathVorazunRecallOnDeath2">
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Duration value="0.5"/>
+        <InitialEffect value="OnDeathVorazunRecallOnDeathSetHP2"/>
+        <ExpireEffect value="OnDeathVorazunRecallOnDeathSearch2"/>
+        <Modification>
+            <StateFlags index="Invulnerable" value="1"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="SOAHeroicShieldImmunity2">
+        <Alignment value="Positive"/>
+        <InfoIcon value="Assets\Textures\btn-ability-spearofadun-guardianshell.dds"/>
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Duration value="5"/>
+        <InitialEffect value="MasteryArtanisGuardianShellHeal2"/>
+        <RefreshEffect value="SOAHeroicShieldWeaknessApply2"/>
+        <ExpireEffect value="SOAHeroicShieldWeaknessApply2"/>
+        <Modification>
+            <StateFlags index="Invulnerable" value="1"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="SOAHeroicShieldWeakness2">
+        <Alignment value="Negative"/>
+        <BehaviorFlags index="Permanent" value="1"/>
+        <BehaviorFlags index="EnabledWhileDead" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-techupgrade-terran-tomahawkpowercell.dds"/>
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Duration value="240"/>
+        <Modification>
+            <BehaviorLinkDisableArray value="SOAHeroicShieldProcBuff"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="SOARecallOnDeathRecentlyRecalled2">
+        <Alignment value="Negative"/>
+        <BehaviorFlags index="Permanent" value="1"/>
+        <BehaviorFlags index="EnabledWhileDead" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-recallondeath.dds"/>
+        <EditorCategories value="AbilityorEffectType:Units,Race:Terran"/>
+        <Duration value="240"/>
+        <InitialEffect value="DeathRecallRemoveDebuff2"/>
+    </CBehaviorBuff>
     <CBehaviorBuff id="SplitterlingBirthHeight2">
         <InfoFlags index="Hidden" value="1"/>
         <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
@@ -25,6 +194,144 @@
         <EditorCategories value="Race:Terran,AbilityorEffectType:Units"/>
         <Duration value="10"/>
         <Modification MoveSpeedMultiplier="1.5" AttackSpeedMultiplier="2"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="SwannCommanderMechWreckageBurning2">
+        <Alignment value="Negative"/>
+        <BehaviorFlags index="Permanent" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-techupgrade-terran-bearclawnozzles.dds"/>
+        <EditorCategories value="Race:Terran,AbilityorEffectType:Units"/>
+        <Period value="1"/>
+        <PeriodicEffect value="SwannCommanderMechWreckageBurningDamage2"/>
+        <Modification>
+            <ModifyFlags index="DisableAbils" value="1"/>
+            <AbilLinkEnableArray value="SiegeTankWreckage"/>
+            <AbilLinkEnableArray value="ThorWreckage"/>
+            <AbilLinkEnableArray value="ThorRebornSwann"/>
+            <AbilLinkEnableArray value="SiegeTankReborn"/>
+            <AbilLinkEnableArray value="ThorWreckageSwann"/>
+            <AbilLinkEnableArray value="Rally"/>
+            <AbilLinkEnableArray value="SiegeMode"/>
+            <AbilLinkEnableArray value="Unsiege"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="TimeStopHaste2">
+        <Alignment value="Positive"/>
+        <BehaviorFlags index="Permanent" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-ability-spearofadun-timestop.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <DisableValidatorArray value="HaveTimeStopHasteModifyPlayerMastery"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="TychusHERCShield2">
+        <Alignment value="Positive"/>
+        <InfoIcon value="Assets\Textures\btn-ability-spearofadun-guardianshell.dds"/>
+        <EditorCategories value="AbilityorEffectType:Units,Race:Terran"/>
+        <Duration value="5"/>
+        <InitialEffect value="FullHealCaster2"/>
+        <ExpireEffect value="TychusHERCShieldWeaknessApplySet2"/>
+        <DamageResponse ModifyFraction="0" ModifyMinimumDamage="1">
+            <Chance value="1"/>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="TychusHERCShieldWeakness2">
+        <Alignment value="Negative"/>
+        <BehaviorFlags index="Permanent" value="1"/>
+        <BehaviorFlags index="EnabledWhileDead" value="1"/>
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-techupgrade-terran-tomahawkpowercell.dds"/>
+        <EditorCategories value="AbilityorEffectType:Units,Race:Terran"/>
+        <Duration value="60"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="VoidZealotWhirlwind2">
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <RemoveValidatorArray value="CasterNotStunned"/>
+        <Duration value="3"/>
+        <Period value="0.5"/>
+        <PeriodicEffect value="VoidZealotWhirlwindBehaviorSet2"/>
+        <FinalEffect value="VoidZealotWhirlwindCancelMove2"/>
+        <Modification>
+            <StateFlags index="SuppressCollision" value="1"/>
+            <WeaponArray Link="VoidZealotWhirlwindFakeWeapon"/>
+            <WeaponDisableArray value="PsiBlades"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="VorazunCloakDamageBoostPermanent2">
+        <Name value="Behavior/Name/VorazunCloakDamageBoost"/>
+        <Alignment value="Positive"/>
+        <BehaviorFlags index="Permanent" value="1"/>
+        <InfoIcon value="Assets\Textures\Talent-Vorazun-Level14-CloakedUnitDamageBoost.dds"/>
+        <BehaviorCategories index="Fast" value="1"/>
+        <EditorCategories value="AbilityorEffectType:Units,Race:Protoss"/>
+        <DisableValidatorArray value="IsCloakedOrIsBuried"/>
+        <RemoveValidatorArray value="HaveVorazunCloakDamageBoost"/>
+        <Modification>
+            <DamageDealtFraction index="Melee" value="0.15"/>
+            <DamageDealtFraction index="Ranged" value="0.15"/>
+            <DamageDealtFraction index="Splash" value="0.15"/>
+            <VitalRegenMultiplier index="Energy" value="0.5"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ZealotRespawnDeath2">
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <DamageResponse Fatal="1" Handled="ZealotRespawnDeathSet2">
+            <Chance value="0.5"/>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ZeratulDarkTemplarRetreatCooldown2">
+        <Alignment value="Negative"/>
+        <InfoIcon value="Assets\Textures\btn-upgrade-vorazun-shadowstun.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="180"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ZeratulDarkTemplarStasis2">
+        <Alignment value="Positive"/>
+        <InfoIcon value="Assets\Textures\btn-upgrade-vorazun-shadowstun.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="10"/>
+        <Period value="0.5"/>
+        <InitialEffect value="ZeratulDarkTemplarRetreatCooldownAB2"/>
+        <RefreshEffect value="ZeratulDarkTemplarRetreatCooldownAB2"/>
+        <PeriodicEffect value="ZeratulDarkTemplarStasisHeal2"/>
+        <Modification>
+            <StateFlags index="Invulnerable" value="1"/>
+            <StateFlags index="Stasis" value="1"/>
+            <StateFlags index="Stun" value="1"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ZeratulStun2">
+        <Alignment value="Negative"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-voidprison.dds"/>
+        <BehaviorCategories index="Stun" value="1"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <DisplayDuration index="Self" value="1"/>
+        <DisplayDuration index="Ally" value="1"/>
+        <DisplayDuration index="Enemy" value="1"/>
+        <Duration value="12"/>
+        <Modification SightBonus="-12">
+            <ModifyFlags index="DisableAbils" value="1"/>
+            <ModifyFlags index="SuppressMoving" value="1"/>
+            <ModifyFlags index="SuppressTurning" value="1"/>
+            <StateFlags index="SuppressCloak" value="1"/>
+            <StateFlags index="SuppressDetection" value="1"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ZeratulStun3">
+        <Alignment value="Negative"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-voidprison.dds"/>
+        <BehaviorCategories index="Stun" value="1"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <DisplayDuration index="Self" value="1"/>
+        <DisplayDuration index="Ally" value="1"/>
+        <DisplayDuration index="Enemy" value="1"/>
+        <Duration value="12"/>
+        <Modification SightBonus="-12">
+            <ModifyFlags index="DisableAbils" value="1"/>
+            <ModifyFlags index="SuppressMoving" value="1"/>
+            <ModifyFlags index="SuppressTurning" value="1"/>
+            <StateFlags index="SuppressCloak" value="1"/>
+            <StateFlags index="SuppressDetection" value="1"/>
+        </Modification>
     </CBehaviorBuff>
     <CBehaviorBuff id="ZerglingArmorShredTarget2">
         <InfoIcon value="Assets\Textures\btn-upgrade-zerg-tunnelingclaws.dds"/>
