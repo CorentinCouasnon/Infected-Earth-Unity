@@ -85,7 +85,7 @@ bool Wave_SpawnTick(bool testConds, bool runActions)
 
     gv_enemySpawnQueueCount -= 1;
 
-    libNtve_gf_CreateUnitsWithDefaultFacing(1, gv_enemySpawnQueue[gv_enemySpawnQueueCount], 1, 15, RegionRandomPoint(Region_GetRandomSpawnRegion(c_Part_Terran)));
+    libNtve_gf_CreateUnitsWithDefaultFacing(1, gv_enemySpawnQueue[gv_enemySpawnQueueCount], 0, 15, RegionRandomPoint(Region_GetRandomSpawnRegion(c_Part_Terran)));
     newUnit = UnitLastCreated();
     UnitGroupAdd(gv_enemiesGroup, newUnit);
 

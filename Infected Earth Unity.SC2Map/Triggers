@@ -6,10 +6,11 @@
     <Element Type="Category" Id="D457C402">
         <Item Type="Trigger" Id="EA95D54A"/>
         <Item Type="CustomScript" Id="1B8D0A58"/>
+        <Item Type="Trigger" Id="066C6562"/>
         <Item Type="FunctionDef" Id="C94586AB"/>
     </Element>
     <Element Type="Trigger" Id="EA95D54A">
-        <Identifier>InitialTrigger</Identifier>
+        <Identifier>FuncViewer</Identifier>
         <Disabled/>
         <Event Type="FunctionCall" Id="7BD5B59A"/>
         <Action Type="FunctionCall" Id="EB99E3BE"/>
@@ -96,6 +97,13 @@
             include &quot;scripts/main&quot;
         </ScriptCode>
         <InitFunc>main</InitFunc>
+    </Element>
+    <Element Type="Trigger" Id="066C6562">
+        <Identifier>Test</Identifier>
+        <Event Type="FunctionCall" Id="0F1F1255"/>
+    </Element>
+    <Element Type="FunctionCall" Id="0F1F1255">
+        <FunctionDef Type="FunctionDef" Library="Ntve" Id="00000120"/>
     </Element>
     <Element Type="FunctionDef" Id="C94586AB">
         <Identifier>ImportDefaultLibraries</Identifier>

@@ -10,12 +10,12 @@ void Player_CreateHeroUnit(int player)
     {
         heroUnit = "Marine";
     }
-    else 
+    else
     {
         heroUnit = "Baneling";
     }
 
-    libNtve_gf_CreateUnitsWithDefaultFacing(1, heroUnit, 1, player, PointFromName("Terran_SpawnPoint"));
+    libNtve_gf_CreateUnitsWithDefaultFacing(1, heroUnit, 0, player, PointFromName("Terran_SpawnPoint"));
     gv_playersData[player - 1].heroUnit = UnitLastCreated();
     Camera_FocusOnUnit(player, gv_playersData[player - 1].heroUnit);
 }
