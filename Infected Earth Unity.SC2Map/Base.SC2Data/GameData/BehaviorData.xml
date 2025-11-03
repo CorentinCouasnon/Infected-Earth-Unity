@@ -278,6 +278,10 @@
             <Chance value="0.5"/>
         </DamageResponse>
     </CBehaviorBuff>
+    <CBehaviorBuff id="ZeratulCollisionBehavior">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <PeriodicEffect value="ZeratulCollisionArea"/>
+    </CBehaviorBuff>
     <CBehaviorBuff id="ZeratulDarkTemplarRetreatCooldown2">
         <Alignment value="Negative"/>
         <InfoIcon value="Assets\Textures\btn-upgrade-vorazun-shadowstun.dds"/>

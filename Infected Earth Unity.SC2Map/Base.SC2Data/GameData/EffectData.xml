@@ -733,7 +733,7 @@
         <LeechFraction index="Life" value="100"/>
         <Death value="Freeze"/>
         <AreaArray MaxCount="999" Radius="1.5" Fraction="1"/>
-        <SearchFilters value="-;Player,Ally"/>
+        <SearchFilters value="-;Player,Ally,Invulnerable"/>
     </CEffectDamage>
     <CEffectCreatePersistent id="ZealotAiurWeaponBurst2">
         <EditorCategories value="Race:Protoss"/>
@@ -814,6 +814,15 @@
         <TargetLocation Value="TargetPoint"/>
         <TeleportFlags index="TestCliff" value="1"/>
     </CEffectTeleport>
+    <CEffectEnumArea id="ZeratulCollisionArea">
+        <EditorCategories value=""/>
+        <ImpactLocation Effect="ZeratulCollisionEffect" Value="CasterPoint"/>
+        <AreaArray Radius="0.5" Effect="ZeratulCollisionEffect"/>
+    </CEffectEnumArea>
+    <CEffectApplyForce id="ZeratulCollisionEffect">
+        <EditorCategories value=""/>
+        <Amount value="1.5"/>
+    </CEffectApplyForce>
     <CEffectApplyBehavior id="ZeratulDarkTemplarRetreatCooldownAB2">
         <EditorCategories value="Race:Protoss"/>
         <Behavior value="ZeratulDarkTemplarRetreatCooldown2"/>

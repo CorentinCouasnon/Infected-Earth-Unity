@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Catalog>
+    <CUnit default="1" id="XelNaga_Caverns_Door">
+        <FlagArray index="PreventDefeat" value="1"/>
+        <FlagArray index="PreventDestroy" value="1"/>
+        <FlagArray index="Destructible" value="1"/>
+        <FlagArray index="NoDeathEvent" value="1"/>
+    </CUnit>
     <CUnit id="AbathurLavaWorm">
         <FlagArray index="Movable" value="0"/>
         <FlagArray index="Unselectable" value="1"/>
@@ -1645,6 +1651,7 @@
         <LifeStart value="650"/>
         <LifeMax value="650"/>
         <LifeArmor value="6"/>
+        <LifeRegenRate value="25"/>
         <LifeArmorName value="Unit/LifeArmorName/TerranInfantryArmor"/>
         <EnergyStart value="250"/>
         <EnergyMax value="250"/>
@@ -1706,7 +1713,6 @@
             <ChanceArray index="Idle" value="33"/>
             <ChanceArray index="Turn" value="33"/>
         </Fidget>
-        <LifeRegenRate value="25"/>
     </CUnitHero>
     <CUnit id="MULE2">
         <DeathRevealRadius value="3"/>
@@ -2301,6 +2307,214 @@
             <Charge Link="Zealot/Revive"/>
             <Cooldown Link="Zealot/Revive"/>
         </ReviveInfoBase>
+    </CUnit>
+    <CUnit id="Purifier_DoorE">
+        <FlagArray index="Turnable" value="1"/>
+        <FlagArray index="Movable" value="0"/>
+        <FlagArray index="CreateVisible" value="0"/>
+        <FlagArray index="Unselectable" value="0"/>
+        <FlagArray index="Untargetable" value="0"/>
+        <FlagArray index="PreventDestroy" value="1"/>
+        <FlagArray index="UseLineOfSight" value="1"/>
+        <FlagArray index="KillCredit" value="0"/>
+        <FlagArray index="NoPortraitTalk" value="0"/>
+        <FlagArray index="ShowResources" value="0"/>
+        <FlagArray index="ArmorDisabledWhileConstructing" value="0"/>
+        <FlagArray index="PlayerRevivable" value="0"/>
+        <FlagArray index="CameraFollow" value="0"/>
+        <FlagArray index="TownStructureWall" value="1"/>
+    </CUnit>
+    <CUnit id="Purifier_DoorELowered">
+        <FlagArray index="Turnable" value="1"/>
+        <FlagArray index="Movable" value="0"/>
+        <FlagArray index="CreateVisible" value="0"/>
+        <FlagArray index="Unselectable" value="0"/>
+        <FlagArray index="Untargetable" value="0"/>
+        <FlagArray index="PreventDestroy" value="1"/>
+        <FlagArray index="UseLineOfSight" value="1"/>
+        <FlagArray index="KillCredit" value="0"/>
+        <FlagArray index="NoPortraitTalk" value="0"/>
+        <FlagArray index="ShowResources" value="0"/>
+        <FlagArray index="ArmorDisabledWhileConstructing" value="0"/>
+        <FlagArray index="PlayerRevivable" value="0"/>
+        <FlagArray index="CameraFollow" value="0"/>
+        <FlagArray index="TownStructureWall" value="1"/>
+    </CUnit>
+    <CUnit id="Purifier_DoorN">
+        <FlagArray index="Turnable" value="1"/>
+        <FlagArray index="Movable" value="0"/>
+        <FlagArray index="CreateVisible" value="0"/>
+        <FlagArray index="Unselectable" value="0"/>
+        <FlagArray index="Untargetable" value="0"/>
+        <FlagArray index="PreventDestroy" value="1"/>
+        <FlagArray index="UseLineOfSight" value="1"/>
+        <FlagArray index="KillCredit" value="0"/>
+        <FlagArray index="NoPortraitTalk" value="0"/>
+        <FlagArray index="ShowResources" value="0"/>
+        <FlagArray index="ArmorDisabledWhileConstructing" value="0"/>
+        <FlagArray index="PlayerRevivable" value="0"/>
+        <FlagArray index="CameraFollow" value="0"/>
+        <FlagArray index="TownStructureWall" value="1"/>
+    </CUnit>
+    <CUnit id="Purifier_DoorNE">
+        <FlagArray index="Turnable" value="1"/>
+        <FlagArray index="Movable" value="0"/>
+        <FlagArray index="CreateVisible" value="0"/>
+        <FlagArray index="Unselectable" value="0"/>
+        <FlagArray index="Untargetable" value="0"/>
+        <FlagArray index="PreventDestroy" value="1"/>
+        <FlagArray index="UseLineOfSight" value="1"/>
+        <FlagArray index="KillCredit" value="0"/>
+        <FlagArray index="NoPortraitTalk" value="0"/>
+        <FlagArray index="ShowResources" value="0"/>
+        <FlagArray index="ArmorDisabledWhileConstructing" value="0"/>
+        <FlagArray index="PlayerRevivable" value="0"/>
+        <FlagArray index="CameraFollow" value="0"/>
+        <FlagArray index="TownStructureWall" value="1"/>
+    </CUnit>
+    <CUnit id="Purifier_DoorNELowered">
+        <FlagArray index="Turnable" value="1"/>
+        <FlagArray index="Movable" value="0"/>
+        <FlagArray index="CreateVisible" value="0"/>
+        <FlagArray index="Unselectable" value="0"/>
+        <FlagArray index="Untargetable" value="0"/>
+        <FlagArray index="PreventDestroy" value="1"/>
+        <FlagArray index="UseLineOfSight" value="1"/>
+        <FlagArray index="KillCredit" value="0"/>
+        <FlagArray index="NoPortraitTalk" value="0"/>
+        <FlagArray index="ShowResources" value="0"/>
+        <FlagArray index="ArmorDisabledWhileConstructing" value="0"/>
+        <FlagArray index="PlayerRevivable" value="0"/>
+        <FlagArray index="CameraFollow" value="0"/>
+        <FlagArray index="TownStructureWall" value="1"/>
+    </CUnit>
+    <CUnit id="Purifier_DoorSmallE">
+        <FlagArray index="Turnable" value="1"/>
+        <FlagArray index="Movable" value="0"/>
+        <FlagArray index="CreateVisible" value="0"/>
+        <FlagArray index="Unselectable" value="0"/>
+        <FlagArray index="Untargetable" value="0"/>
+        <FlagArray index="PreventDestroy" value="1"/>
+        <FlagArray index="UseLineOfSight" value="1"/>
+        <FlagArray index="KillCredit" value="0"/>
+        <FlagArray index="NoPortraitTalk" value="0"/>
+        <FlagArray index="ShowResources" value="0"/>
+        <FlagArray index="ArmorDisabledWhileConstructing" value="0"/>
+        <FlagArray index="PlayerRevivable" value="0"/>
+        <FlagArray index="CameraFollow" value="0"/>
+        <FlagArray index="TownStructureWall" value="1"/>
+    </CUnit>
+    <CUnit id="Purifier_DoorSmallELowered">
+        <FlagArray index="Turnable" value="1"/>
+        <FlagArray index="Movable" value="0"/>
+        <FlagArray index="CreateVisible" value="0"/>
+        <FlagArray index="Unselectable" value="0"/>
+        <FlagArray index="Untargetable" value="0"/>
+        <FlagArray index="PreventDestroy" value="1"/>
+        <FlagArray index="UseLineOfSight" value="1"/>
+        <FlagArray index="KillCredit" value="0"/>
+        <FlagArray index="NoPortraitTalk" value="0"/>
+        <FlagArray index="ShowResources" value="0"/>
+        <FlagArray index="ArmorDisabledWhileConstructing" value="0"/>
+        <FlagArray index="PlayerRevivable" value="0"/>
+        <FlagArray index="CameraFollow" value="0"/>
+        <FlagArray index="TownStructureWall" value="1"/>
+    </CUnit>
+    <CUnit id="Purifier_DoorSmallN">
+        <FlagArray index="Turnable" value="1"/>
+        <FlagArray index="Movable" value="0"/>
+        <FlagArray index="CreateVisible" value="0"/>
+        <FlagArray index="Unselectable" value="0"/>
+        <FlagArray index="Untargetable" value="0"/>
+        <FlagArray index="PreventDestroy" value="1"/>
+        <FlagArray index="UseLineOfSight" value="1"/>
+        <FlagArray index="KillCredit" value="0"/>
+        <FlagArray index="NoPortraitTalk" value="0"/>
+        <FlagArray index="ShowResources" value="0"/>
+        <FlagArray index="ArmorDisabledWhileConstructing" value="0"/>
+        <FlagArray index="PlayerRevivable" value="0"/>
+        <FlagArray index="CameraFollow" value="0"/>
+        <FlagArray index="TownStructureWall" value="1"/>
+    </CUnit>
+    <CUnit id="Purifier_DoorSmallNE">
+        <FlagArray index="Turnable" value="1"/>
+        <FlagArray index="Movable" value="0"/>
+        <FlagArray index="CreateVisible" value="0"/>
+        <FlagArray index="Unselectable" value="0"/>
+        <FlagArray index="Untargetable" value="0"/>
+        <FlagArray index="PreventDestroy" value="1"/>
+        <FlagArray index="UseLineOfSight" value="1"/>
+        <FlagArray index="KillCredit" value="0"/>
+        <FlagArray index="NoPortraitTalk" value="0"/>
+        <FlagArray index="ShowResources" value="0"/>
+        <FlagArray index="ArmorDisabledWhileConstructing" value="0"/>
+        <FlagArray index="PlayerRevivable" value="0"/>
+        <FlagArray index="CameraFollow" value="0"/>
+        <FlagArray index="TownStructureWall" value="1"/>
+    </CUnit>
+    <CUnit id="Purifier_DoorSmallNELowered">
+        <FlagArray index="Turnable" value="1"/>
+        <FlagArray index="Movable" value="0"/>
+        <FlagArray index="CreateVisible" value="0"/>
+        <FlagArray index="Unselectable" value="0"/>
+        <FlagArray index="Untargetable" value="0"/>
+        <FlagArray index="PreventDestroy" value="1"/>
+        <FlagArray index="UseLineOfSight" value="1"/>
+        <FlagArray index="KillCredit" value="0"/>
+        <FlagArray index="NoPortraitTalk" value="0"/>
+        <FlagArray index="ShowResources" value="0"/>
+        <FlagArray index="ArmorDisabledWhileConstructing" value="0"/>
+        <FlagArray index="PlayerRevivable" value="0"/>
+        <FlagArray index="CameraFollow" value="0"/>
+        <FlagArray index="TownStructureWall" value="1"/>
+    </CUnit>
+    <CUnit id="Purifier_DoorSmallNLowered">
+        <FlagArray index="Turnable" value="1"/>
+        <FlagArray index="Movable" value="0"/>
+        <FlagArray index="CreateVisible" value="0"/>
+        <FlagArray index="Unselectable" value="0"/>
+        <FlagArray index="Untargetable" value="0"/>
+        <FlagArray index="PreventDestroy" value="1"/>
+        <FlagArray index="UseLineOfSight" value="1"/>
+        <FlagArray index="KillCredit" value="0"/>
+        <FlagArray index="NoPortraitTalk" value="0"/>
+        <FlagArray index="ShowResources" value="0"/>
+        <FlagArray index="ArmorDisabledWhileConstructing" value="0"/>
+        <FlagArray index="PlayerRevivable" value="0"/>
+        <FlagArray index="CameraFollow" value="0"/>
+        <FlagArray index="TownStructureWall" value="1"/>
+    </CUnit>
+    <CUnit id="Purifier_DoorSmallNW">
+        <FlagArray index="Turnable" value="1"/>
+        <FlagArray index="Movable" value="0"/>
+        <FlagArray index="CreateVisible" value="0"/>
+        <FlagArray index="Unselectable" value="0"/>
+        <FlagArray index="Untargetable" value="0"/>
+        <FlagArray index="PreventDestroy" value="1"/>
+        <FlagArray index="UseLineOfSight" value="1"/>
+        <FlagArray index="KillCredit" value="0"/>
+        <FlagArray index="NoPortraitTalk" value="0"/>
+        <FlagArray index="ShowResources" value="0"/>
+        <FlagArray index="ArmorDisabledWhileConstructing" value="0"/>
+        <FlagArray index="PlayerRevivable" value="0"/>
+        <FlagArray index="CameraFollow" value="0"/>
+        <FlagArray index="TownStructureWall" value="1"/>
+    </CUnit>
+    <CUnit id="Purifier_DoorSmallNWLowered">
+        <FlagArray index="Turnable" value="1"/>
+        <FlagArray index="Movable" value="0"/>
+        <FlagArray index="CreateVisible" value="0"/>
+        <FlagArray index="Unselectable" value="0"/>
+        <FlagArray index="Untargetable" value="0"/>
+        <FlagArray index="PreventDestroy" value="1"/>
+        <FlagArray index="UseLineOfSight" value="1"/>
+        <FlagArray index="KillCredit" value="0"/>
+        <FlagArray index="NoPortraitTalk" value="0"/>
+        <FlagArray index="ShowResources" value="0"/>
+        <FlagArray index="ArmorDisabledWhileConstructing" value="0"/>
+        <FlagArray index="PlayerRevivable" value="0"/>
+        <FlagArray index="CameraFollow" value="0"/>
+        <FlagArray index="TownStructureWall" value="1"/>
     </CUnit>
     <CUnit id="Raynor2">
         <DeathRevealRadius value="3"/>
@@ -2944,6 +3158,207 @@
             <ChanceArray index="Turn" value="33"/>
         </Fidget>
     </CUnit>
+    <CUnit id="XelNaga_Caverns_DoorE">
+        <FlagArray index="PreventDefeat" value="1"/>
+        <FlagArray index="PreventDestroy" value="1"/>
+        <FlagArray index="Destructible" value="1"/>
+        <FlagArray index="NoDeathEvent" value="1"/>
+    </CUnit>
+    <CUnit id="XelNaga_Caverns_DoorEOpened">
+        <FlagArray index="PreventDefeat" value="1"/>
+        <FlagArray index="PreventDestroy" value="1"/>
+        <FlagArray index="Destructible" value="1"/>
+        <FlagArray index="NoDeathEvent" value="1"/>
+    </CUnit>
+    <CUnit id="XelNaga_Caverns_DoorN">
+        <FlagArray index="PreventDefeat" value="1"/>
+        <FlagArray index="PreventDestroy" value="1"/>
+        <FlagArray index="Destructible" value="1"/>
+        <FlagArray index="NoDeathEvent" value="1"/>
+    </CUnit>
+    <CUnit id="XelNaga_Caverns_DoorNE">
+        <FlagArray index="PreventDefeat" value="1"/>
+        <FlagArray index="PreventDestroy" value="1"/>
+        <FlagArray index="Destructible" value="1"/>
+        <FlagArray index="NoDeathEvent" value="1"/>
+    </CUnit>
+    <CUnit id="XelNaga_Caverns_DoorNEOpened">
+        <FlagArray index="PreventDefeat" value="1"/>
+        <FlagArray index="PreventDestroy" value="1"/>
+        <FlagArray index="Destructible" value="1"/>
+        <FlagArray index="NoDeathEvent" value="1"/>
+    </CUnit>
+    <CUnit id="XelNaga_Caverns_DoorNOpened">
+        <FlagArray index="PreventDefeat" value="1"/>
+        <FlagArray index="PreventDestroy" value="1"/>
+        <FlagArray index="Destructible" value="1"/>
+        <FlagArray index="NoDeathEvent" value="1"/>
+    </CUnit>
+    <CUnit id="XelNaga_Caverns_DoorNW">
+        <DeathTime value="7200"/>
+        <DeathRevealFilters value="Visible;Player,Ally,Neutral,Enemy,Missile,Dead,Hidden"/>
+        <FlagArray index="Turnable" value="1"/>
+        <FlagArray index="Movable" value="0"/>
+        <FlagArray index="CreateVisible" value="0"/>
+        <FlagArray index="Unselectable" value="0"/>
+        <FlagArray index="Untargetable" value="0"/>
+        <FlagArray index="PreventDestroy" value="1"/>
+        <FlagArray index="UseLineOfSight" value="1"/>
+        <FlagArray index="KillCredit" value="0"/>
+        <FlagArray index="NoPortraitTalk" value="0"/>
+        <FlagArray index="ShowResources" value="0"/>
+        <FlagArray index="ArmorDisabledWhileConstructing" value="0"/>
+        <FlagArray index="PlayerRevivable" value="0"/>
+        <FlagArray index="CameraFollow" value="0"/>
+        <FlagArray index="TownStructureWall" value="1"/>
+        <UserFlagArray index="Building" value="1"/>
+        <EditorFlags index="NeutralDefault" value="1"/>
+        <ArmorType value="Divine"/>
+        <LifeStart value="500000"/>
+        <LifeMax value="500000"/>
+        <LifeArmor value="99999"/>
+        <LifeRegenRate value="500000"/>
+        <LifeArmorLevel value="999999"/>
+    </CUnit>
+    <CUnit id="XelNaga_Caverns_DoorNWOpened">
+        <FlagArray index="PreventDefeat" value="1"/>
+        <FlagArray index="PreventDestroy" value="1"/>
+        <FlagArray index="Destructible" value="1"/>
+        <FlagArray index="NoDeathEvent" value="1"/>
+        <ArmorType value="Divine"/>
+        <LifeStart value="500000"/>
+        <LifeMax value="500000"/>
+        <LifeArmor value="99999"/>
+        <LifeRegenRate value="500000"/>
+    </CUnit>
+    <CUnit id="XelNaga_Caverns_DoorS">
+        <FlagArray index="Turnable" value="1"/>
+        <FlagArray index="Movable" value="0"/>
+        <FlagArray index="CreateVisible" value="0"/>
+        <FlagArray index="Unselectable" value="0"/>
+        <FlagArray index="Untargetable" value="0"/>
+        <FlagArray index="PreventDestroy" value="1"/>
+        <FlagArray index="UseLineOfSight" value="1"/>
+        <FlagArray index="KillCredit" value="0"/>
+        <FlagArray index="NoPortraitTalk" value="0"/>
+        <FlagArray index="ShowResources" value="0"/>
+        <FlagArray index="ArmorDisabledWhileConstructing" value="0"/>
+        <FlagArray index="PlayerRevivable" value="0"/>
+        <FlagArray index="CameraFollow" value="0"/>
+        <FlagArray index="TownStructureWall" value="1"/>
+    </CUnit>
+    <CUnit id="XelNaga_Caverns_DoorSE">
+        <FlagArray index="Turnable" value="1"/>
+        <FlagArray index="Movable" value="0"/>
+        <FlagArray index="CreateVisible" value="0"/>
+        <FlagArray index="Unselectable" value="0"/>
+        <FlagArray index="Untargetable" value="0"/>
+        <FlagArray index="PreventDestroy" value="1"/>
+        <FlagArray index="UseLineOfSight" value="1"/>
+        <FlagArray index="KillCredit" value="0"/>
+        <FlagArray index="NoPortraitTalk" value="0"/>
+        <FlagArray index="ShowResources" value="0"/>
+        <FlagArray index="ArmorDisabledWhileConstructing" value="0"/>
+        <FlagArray index="PlayerRevivable" value="0"/>
+        <FlagArray index="CameraFollow" value="0"/>
+        <FlagArray index="TownStructureWall" value="1"/>
+    </CUnit>
+    <CUnit id="XelNaga_Caverns_DoorSEOpened">
+        <FlagArray index="Turnable" value="1"/>
+        <FlagArray index="Movable" value="0"/>
+        <FlagArray index="CreateVisible" value="0"/>
+        <FlagArray index="Unselectable" value="0"/>
+        <FlagArray index="Untargetable" value="0"/>
+        <FlagArray index="PreventDestroy" value="1"/>
+        <FlagArray index="UseLineOfSight" value="1"/>
+        <FlagArray index="KillCredit" value="0"/>
+        <FlagArray index="NoPortraitTalk" value="0"/>
+        <FlagArray index="ShowResources" value="0"/>
+        <FlagArray index="ArmorDisabledWhileConstructing" value="0"/>
+        <FlagArray index="PlayerRevivable" value="0"/>
+        <FlagArray index="CameraFollow" value="0"/>
+        <FlagArray index="TownStructureWall" value="1"/>
+    </CUnit>
+    <CUnit id="XelNaga_Caverns_DoorSOpened">
+        <FlagArray index="Turnable" value="1"/>
+        <FlagArray index="Movable" value="0"/>
+        <FlagArray index="CreateVisible" value="0"/>
+        <FlagArray index="Unselectable" value="0"/>
+        <FlagArray index="Untargetable" value="0"/>
+        <FlagArray index="PreventDestroy" value="1"/>
+        <FlagArray index="UseLineOfSight" value="1"/>
+        <FlagArray index="KillCredit" value="0"/>
+        <FlagArray index="NoPortraitTalk" value="0"/>
+        <FlagArray index="ShowResources" value="0"/>
+        <FlagArray index="ArmorDisabledWhileConstructing" value="0"/>
+        <FlagArray index="PlayerRevivable" value="0"/>
+        <FlagArray index="CameraFollow" value="0"/>
+        <FlagArray index="TownStructureWall" value="1"/>
+    </CUnit>
+    <CUnit id="XelNaga_Caverns_DoorSW">
+        <FlagArray index="Turnable" value="1"/>
+        <FlagArray index="Movable" value="0"/>
+        <FlagArray index="CreateVisible" value="0"/>
+        <FlagArray index="Unselectable" value="0"/>
+        <FlagArray index="Untargetable" value="0"/>
+        <FlagArray index="PreventDestroy" value="1"/>
+        <FlagArray index="UseLineOfSight" value="1"/>
+        <FlagArray index="KillCredit" value="0"/>
+        <FlagArray index="NoPortraitTalk" value="0"/>
+        <FlagArray index="ShowResources" value="0"/>
+        <FlagArray index="ArmorDisabledWhileConstructing" value="0"/>
+        <FlagArray index="PlayerRevivable" value="0"/>
+        <FlagArray index="CameraFollow" value="0"/>
+        <FlagArray index="TownStructureWall" value="1"/>
+    </CUnit>
+    <CUnit id="XelNaga_Caverns_DoorSWOpened">
+        <FlagArray index="Turnable" value="1"/>
+        <FlagArray index="Movable" value="0"/>
+        <FlagArray index="CreateVisible" value="0"/>
+        <FlagArray index="Unselectable" value="0"/>
+        <FlagArray index="Untargetable" value="0"/>
+        <FlagArray index="PreventDestroy" value="1"/>
+        <FlagArray index="UseLineOfSight" value="1"/>
+        <FlagArray index="KillCredit" value="0"/>
+        <FlagArray index="NoPortraitTalk" value="0"/>
+        <FlagArray index="ShowResources" value="0"/>
+        <FlagArray index="ArmorDisabledWhileConstructing" value="0"/>
+        <FlagArray index="PlayerRevivable" value="0"/>
+        <FlagArray index="CameraFollow" value="0"/>
+        <FlagArray index="TownStructureWall" value="1"/>
+    </CUnit>
+    <CUnit id="XelNaga_Caverns_DoorW">
+        <FlagArray index="Turnable" value="1"/>
+        <FlagArray index="Movable" value="0"/>
+        <FlagArray index="CreateVisible" value="0"/>
+        <FlagArray index="Unselectable" value="0"/>
+        <FlagArray index="Untargetable" value="0"/>
+        <FlagArray index="PreventDestroy" value="1"/>
+        <FlagArray index="UseLineOfSight" value="1"/>
+        <FlagArray index="KillCredit" value="0"/>
+        <FlagArray index="NoPortraitTalk" value="0"/>
+        <FlagArray index="ShowResources" value="0"/>
+        <FlagArray index="ArmorDisabledWhileConstructing" value="0"/>
+        <FlagArray index="PlayerRevivable" value="0"/>
+        <FlagArray index="CameraFollow" value="0"/>
+        <FlagArray index="TownStructureWall" value="1"/>
+    </CUnit>
+    <CUnit id="XelNaga_Caverns_DoorWOpened">
+        <FlagArray index="Turnable" value="1"/>
+        <FlagArray index="Movable" value="0"/>
+        <FlagArray index="CreateVisible" value="0"/>
+        <FlagArray index="Unselectable" value="0"/>
+        <FlagArray index="Untargetable" value="0"/>
+        <FlagArray index="PreventDestroy" value="1"/>
+        <FlagArray index="UseLineOfSight" value="1"/>
+        <FlagArray index="KillCredit" value="0"/>
+        <FlagArray index="NoPortraitTalk" value="0"/>
+        <FlagArray index="ShowResources" value="0"/>
+        <FlagArray index="ArmorDisabledWhileConstructing" value="0"/>
+        <FlagArray index="PlayerRevivable" value="0"/>
+        <FlagArray index="CameraFollow" value="0"/>
+        <FlagArray index="TownStructureWall" value="1"/>
+    </CUnit>
     <CUnit id="YamatoWeapon2" parent="MISSILE_INVULNERABLE">
         <Race value="Terr"/>
         <Mover value="YamatoWeapon"/>
@@ -3276,9 +3691,15 @@
         <ReviveType value="Zealot"/>
         <Race value="Prot"/>
         <Mob value="Multiplayer"/>
+        <FlagArray index="Movable" value="0"/>
         <FlagArray index="PreventDestroy" value="1"/>
         <FlagArray index="UseLineOfSight" value="1"/>
-        <FlagArray index="ArmySelect" value="1"/>
+        <FlagArray index="KillCredit" value="0"/>
+        <FlagArray index="Invulnerable" value="1"/>
+        <FlagArray index="ShowResources" value="0"/>
+        <FlagArray index="PlayerRevivable" value="0"/>
+        <FlagArray index="CameraFollow" value="0"/>
+        <FlagArray index="TownStructureWall" value="1"/>
         <PlaneArray index="Ground" value="1"/>
         <Collide index="Ground" value="1"/>
         <Collide index="ForceField" value="1"/>
@@ -3379,9 +3800,15 @@
         <ReviveType value="Zealot"/>
         <Race value="Prot"/>
         <Mob value="Multiplayer"/>
+        <FlagArray index="Movable" value="0"/>
         <FlagArray index="PreventDestroy" value="1"/>
         <FlagArray index="UseLineOfSight" value="1"/>
-        <FlagArray index="ArmySelect" value="1"/>
+        <FlagArray index="KillCredit" value="0"/>
+        <FlagArray index="Invulnerable" value="1"/>
+        <FlagArray index="ShowResources" value="0"/>
+        <FlagArray index="PlayerRevivable" value="0"/>
+        <FlagArray index="CameraFollow" value="0"/>
+        <FlagArray index="TownStructureWall" value="1"/>
         <PlaneArray index="Ground" value="1"/>
         <Collide index="Ground" value="1"/>
         <Collide index="ForceField" value="1"/>
@@ -3526,6 +3953,7 @@
         <AbilArray Link="RallyZeratulTopBar2"/>
         <BehaviorArray index="0" Link="ZealotRespawnDeath2"/>
         <BehaviorArray Link="AllUnitBehaviorController2"/>
+        <BehaviorArray Link="ZeratulCollisionBehavior"/>
         <WeaponArray Link="ZeratulSwords"/>
         <CardLayouts>
             <LayoutButtons Face="Move9" Type="AbilCmd" AbilCmd="move7,Move" Row="0" Column="0"/>

@@ -57,14 +57,14 @@
         <Icon value="Assets\Textures\btn-upgrade-protoss-groundweaponslevel0.dds"/>
         <DisplayEffect value="ZealotAiurWeapon2"/>
         <DisplayAttackCount value="1"/>
-        <TargetFilters value="Ground,Visible;Player,Ally,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <TargetFilters value="Ground,Visible;Player,Ally,Structure,Missile,Stasis,Dead,Hidden,Invulnerable"/>
         <Range value="0.1"/>
         <Marker Link="Weapon/PsiBlades"/>
         <Cost>
             <Cooldown Link="Weapon/PsiBlades"/>
         </Cost>
         <Period value="0.1"/>
-        <DamagePoint value="30"/>
+        <DamagePoint value="30000"/>
         <Effect value="ZealotAiurWeaponCleaveSet2"/>
     </CWeaponLegacy>
     <CWeaponLegacy id="Starfoule">
