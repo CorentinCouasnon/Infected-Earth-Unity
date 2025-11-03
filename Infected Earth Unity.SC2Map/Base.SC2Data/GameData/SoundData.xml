@@ -54,6 +54,32 @@
         <AssetArray File="Assets\Sounds\Zerg\SharedEffects\Explosions\Zerg_ExplosionSmall5.wav" Pitch="-3.000000,6.000000" Volume="-6.000000,-4.000000"/>
         <AssetArray File="Assets\Sounds\Zerg\SharedEffects\Explosions\Zerg_ExplosionSmall6.wav" Pitch="-3.000000,6.000000" Volume="-6.000000,-4.000000"/>
     </CSound>
+    <CSound id="Legionnaire_NoVO2" parent="ProtossAck_Void">
+        <AssetArray TemplateParam="ZealotPurifier_Attack00"/>
+        <AssetArray TemplateParam="ZealotPurifier_Attack01"/>
+        <AssetArray TemplateParam="ZealotPurifier_Attack02"/>
+        <AssetArray TemplateParam="ZealotPurifier_Attack03"/>
+        <AssetArray TemplateParam="ZealotPurifier_Attack04"/>
+        <AssetArray TemplateParam="ZealotPurifier_Attack05"/>
+        <AssetArray TemplateParam="ZealotPurifier_Attack06"/>
+        <Flags index="NeedsUpdate" value="1"/>
+        <Flags index="NeedsTTS" value="1"/>
+        <Chance value="0"/>
+        <Volume value="-5.000000,-5.000000"/>
+    </CSound>
+    <CSound id="Legionnaire_NoVO3" parent="ProtossAck_Void">
+        <AssetArray TemplateParam="ZealotPurifier_Attack00"/>
+        <AssetArray TemplateParam="ZealotPurifier_Attack01"/>
+        <AssetArray TemplateParam="ZealotPurifier_Attack02"/>
+        <AssetArray TemplateParam="ZealotPurifier_Attack03"/>
+        <AssetArray TemplateParam="ZealotPurifier_Attack04"/>
+        <AssetArray TemplateParam="ZealotPurifier_Attack05"/>
+        <AssetArray TemplateParam="ZealotPurifier_Attack06"/>
+        <Flags index="NeedsUpdate" value="1"/>
+        <Flags index="NeedsTTS" value="1"/>
+        <Chance value="0"/>
+        <Volume value="-5.000000,-5.000000"/>
+    </CSound>
     <CSound id="Marine_Attack2" parent="TerranAck">
         <EditorCategories value="Race:Zerg"/>
         <AssetArray File="LocalizedData\Sounds\TerranUnitVO\Marine\Marine_Attack00.ogg" FacialAnim="Marine_Attack00"/>
@@ -309,6 +335,24 @@
         <AssetArray File="LocalizedData\Sounds\TerranUnitVO\Marine\Marine_Yes22.ogg" FacialAnim="Marine_Yes22"/>
         <Volume value="-1.000000,-1.000000"/>
     </CSound>
+    <CSound id="Protoss_BuildingPlacementSmall2" parent="UI">
+        <EditorCategories value="Race:Protoss"/>
+        <AssetArray File="Assets\Sounds\Protoss\SharedEffects\Construction\Protoss_BuildingPlacementSmall0.wav"/>
+        <Pitch value="9.000000,9.000000"/>
+        <Volume value="-6.180000,-6.180000"/>
+    </CSound>
+    <CSound id="Protoss_BuildingPlacementSmall3" parent="UI">
+        <EditorCategories value="Race:Protoss"/>
+        <AssetArray File="Assets\Sounds\Protoss\SharedEffects\Construction\Protoss_BuildingPlacementSmall0.wav"/>
+        <Pitch value="9.000000,9.000000"/>
+        <Volume value="-6.180000,-6.180000"/>
+    </CSound>
+    <CSound id="Protoss_BuildingPlacementSmall4" parent="UI">
+        <EditorCategories value="Race:Protoss"/>
+        <AssetArray File="Assets\Sounds\Protoss\SharedEffects\Construction\Protoss_BuildingPlacementSmall0.wav"/>
+        <Pitch value="9.000000,9.000000"/>
+        <Volume value="-6.180000,-6.180000"/>
+    </CSound>
     <CSound id="RaynorAttackLaunch2" parent="Combat">
         <EditorCategories value="Race:Terran"/>
         <AssetArray File="Assets\Sounds\Terran\Marine\Marine_AttackLaunch0.wav"/>
@@ -435,6 +479,61 @@
         <Flags index="NeedsUpdate" value="1"/>
         <Flags index="NeedsTTS" value="1"/>
         <Flags index="VariationFallback" value="0"/>
+    </CSound>
+    <CSound id="SOA_GuardianShell_End2" parent="Ambience_Object">
+        <EditorCategories value="Race:Protoss"/>
+        <AssetArray File="Assets\Sounds\SOA_GuardianShell_End01_1ch.wav" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\SOA_GuardianShell_End02_1ch.wav" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\SOA_GuardianShell_End03_1ch.wav" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\SOA_GuardianShell_End04_1ch.wav" FacialGroup=""/>
+        <Pitch value="-1.000000,1.000000"/>
+        <Volume value="-1.000000,1.000000"/>
+    </CSound>
+    <CSound id="SOA_GuardianShell_Loop2" parent="Ambience_Object">
+        <EditorCategories value="Race:Protoss"/>
+        <AssetArray>
+            <File value="Assets\Sounds\SOA_GuardianShell_Loop01_1ch.wav"/>
+            <LoopCount value="-1"/>
+            <Volume value="-1.000000,1.000000"/>
+            <FacialGroup value=""/>
+        </AssetArray>
+        <AssetArray>
+            <File value="Assets\Sounds\SOA_GuardianShell_Loop02_1ch.wav"/>
+            <LoopCount value="-1"/>
+            <Pitch value="-1.000000,1.000000"/>
+            <Volume value="-1.000000,1.000000"/>
+            <FacialGroup value=""/>
+        </AssetArray>
+        <AssetArray>
+            <File value="Assets\Sounds\SOA_GuardianShell_Loop03_1ch.wav"/>
+            <LoopCount value="-1"/>
+            <Pitch value="-1.000000,1.000000"/>
+            <Volume value="-1.000000,1.000000"/>
+            <FacialGroup value=""/>
+        </AssetArray>
+        <Flags index="Purgable" value="1"/>
+        <DupeMuteCount value="5"/>
+        <OffsetFadeIn Volume="-96.000000"/>
+        <OffsetFadeIn Time="500"/>
+        <Volume value="-2.000000,-2.000000"/>
+    </CSound>
+    <CSound id="SOA_GuardianShell_Start2" parent="Spell">
+        <EditorCategories value="Race:Protoss"/>
+        <AssetArray File="Assets\Sounds\SOA_GuardianShell_Start01_1ch.wav" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\SOA_GuardianShell_Start02_1ch.wav" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\SOA_GuardianShell_Start03_1ch.wav" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\SOA_GuardianShell_Start04_1ch.wav" FacialGroup=""/>
+        <Flags index="VariationFallback" value="0"/>
+        <Pitch value="-1.000000,1.000000"/>
+        <Volume value="2.000000,4.000000"/>
+    </CSound>
+    <CSound id="Sentry_HallucinationDeathSmall2" parent="Spell">
+        <EditorCategories value="Race:Protoss"/>
+        <AssetArray File="Assets\Sounds\Protoss\Sentry\Sentry_HallucinationDeathSmall.wav"/>
+    </CSound>
+    <CSound id="Sentry_HallucinationDeathSmall3" parent="Spell">
+        <EditorCategories value="Race:Protoss"/>
+        <AssetArray File="Assets\Sounds\Protoss\Sentry\Sentry_HallucinationDeathSmall.wav"/>
     </CSound>
     <CSound id="ShadowUnit_DeathFX2" parent="Combat">
         <AssetArray File="Assets\Sounds\SpiritPlasmaA_01.wav" FacialGroup=""/>
@@ -736,6 +835,404 @@
     </CSound>
     <CSound id="Uni_DeathFXSilentKill3" parent="Combat">
         <AssetArray File="Assets\Sounds\Uni\Deaths\Uni_DeathFXSilentKill0.wav"/>
+    </CSound>
+    <CSound id="ZealotAiur_AttackImpact2" parent="Combat">
+        <EditorCategories value="Race:Protoss"/>
+        <AssetArray File="Assets\Sounds\Protoss\SharedEffects\Attacks\Protoss_AttackImpactMediumSlice0.wav"/>
+        <AssetArray File="Assets\Sounds\Protoss\SharedEffects\Attacks\Protoss_AttackImpactMediumSlice1.wav"/>
+        <AssetArray File="Assets\Sounds\Protoss\SharedEffects\Attacks\Protoss_AttackImpactMediumSlice3.wav"/>
+        <DupeDestroyCount value="10"/>
+        <DupeMaximumMethod value="Replace"/>
+        <DupeMuteCount value="4"/>
+        <DupePrioritization value="Oldest"/>
+        <Pitch value="-2.000000,2.000000"/>
+        <Select value="Random"/>
+        <Volume value="-6.000000,-5.000000"/>
+    </CSound>
+    <CSound id="ZealotAiur_AttackLaunch2" parent="Combat">
+        <EditorCategories value="Race:Protoss"/>
+        <AssetArray File="Assets\Sounds\Protoss\Zealot\Zealot_AttackLaunch0.wav"/>
+        <AssetArray File="Assets\Sounds\Protoss\Zealot\Zealot_AttackLaunch1.wav"/>
+        <AssetArray File="Assets\Sounds\Protoss\Zealot\Zealot_AttackLaunch2.wav"/>
+        <AssetArray File="Assets\Sounds\Protoss\Zealot\Zealot_AttackLaunch3.wav"/>
+        <AssetArray File="Assets\Sounds\Protoss\Zealot\Zealot_AttackLaunch4.wav"/>
+        <AssetArray File="Assets\Sounds\Protoss\Zealot\Zealot_AttackLaunch5.wav"/>
+        <DupeMaximumMethod value="Replace"/>
+        <DupeMuteCount value="4"/>
+        <DupePrioritization value="Oldest"/>
+        <Pitch value="-3.000000,-1.000000"/>
+        <VariationMinimum value="8"/>
+        <Volume value="-10.480000,-10.480000"/>
+    </CSound>
+    <CSound id="ZealotPurifier_Attack2" parent="ProtossAck_Void">
+        <AssetArray TemplateParam="ZealotPurifier_Attack00"/>
+        <AssetArray TemplateParam="ZealotPurifier_Attack01"/>
+        <AssetArray TemplateParam="ZealotPurifier_Attack02"/>
+        <AssetArray TemplateParam="ZealotPurifier_Attack03"/>
+        <AssetArray TemplateParam="ZealotPurifier_Attack04"/>
+        <AssetArray TemplateParam="ZealotPurifier_Attack05"/>
+        <AssetArray TemplateParam="ZealotPurifier_Attack06"/>
+        <Flags index="NeedsUpdate" value="1"/>
+        <Flags index="NeedsTTS" value="1"/>
+        <Volume value="-5.000000,-5.000000"/>
+    </CSound>
+    <CSound id="ZealotPurifier_Attack3" parent="ProtossAck_Void">
+        <AssetArray TemplateParam="ZealotPurifier_Attack00"/>
+        <AssetArray TemplateParam="ZealotPurifier_Attack01"/>
+        <AssetArray TemplateParam="ZealotPurifier_Attack02"/>
+        <AssetArray TemplateParam="ZealotPurifier_Attack03"/>
+        <AssetArray TemplateParam="ZealotPurifier_Attack04"/>
+        <AssetArray TemplateParam="ZealotPurifier_Attack05"/>
+        <AssetArray TemplateParam="ZealotPurifier_Attack06"/>
+        <Flags index="NeedsUpdate" value="1"/>
+        <Flags index="NeedsTTS" value="1"/>
+        <Volume value="-5.000000,-5.000000"/>
+    </CSound>
+    <CSound id="ZealotPurifier_Help2" parent="ProtossHelp">
+        <AssetArray TemplateParam="ZealotPurifier_Help00"/>
+        <Flags index="NeedsUpdate" value="1"/>
+        <Flags index="NeedsTTS" value="1"/>
+        <Volume value="-3.000000,-3.000000"/>
+    </CSound>
+    <CSound id="ZealotPurifier_Help3" parent="ProtossHelp">
+        <AssetArray TemplateParam="ZealotPurifier_Help00"/>
+        <Flags index="NeedsUpdate" value="1"/>
+        <Flags index="NeedsTTS" value="1"/>
+        <Volume value="-3.000000,-3.000000"/>
+    </CSound>
+    <CSound id="ZealotPurifier_Pissed2" parent="ProtossPissed">
+        <AssetArray TemplateParam="ZealotPurifier_Pissed01"/>
+        <AssetArray TemplateParam="ZealotPurifier_Pissed02"/>
+        <AssetArray TemplateParam="ZealotPurifier_Pissed03"/>
+        <AssetArray TemplateParam="ZealotPurifier_Pissed04"/>
+        <AssetArray TemplateParam="ZealotPurifier_Pissed05"/>
+        <AssetArray TemplateParam="ZealotPurifier_Pissed06"/>
+        <AssetArray TemplateParam="ZealotPurifier_Pissed07"/>
+        <Flags index="NeedsUpdate" value="1"/>
+        <Flags index="NeedsTTS" value="1"/>
+        <Exclusivity value="KaldalisAndLegionnaire_UnitDX_Exclusivity"/>
+        <Volume value="-4.000000,-4.000000"/>
+    </CSound>
+    <CSound id="ZealotPurifier_Pissed3" parent="ProtossPissed">
+        <AssetArray TemplateParam="ZealotPurifier_Pissed01"/>
+        <AssetArray TemplateParam="ZealotPurifier_Pissed02"/>
+        <AssetArray TemplateParam="ZealotPurifier_Pissed03"/>
+        <AssetArray TemplateParam="ZealotPurifier_Pissed04"/>
+        <AssetArray TemplateParam="ZealotPurifier_Pissed05"/>
+        <AssetArray TemplateParam="ZealotPurifier_Pissed06"/>
+        <AssetArray TemplateParam="ZealotPurifier_Pissed07"/>
+        <Flags index="NeedsUpdate" value="1"/>
+        <Flags index="NeedsTTS" value="1"/>
+        <Exclusivity value="KaldalisAndLegionnaire_UnitDX_Exclusivity"/>
+        <Volume value="-4.000000,-4.000000"/>
+    </CSound>
+    <CSound id="ZealotPurifier_Ready2" parent="ProtossReady">
+        <AssetArray TemplateParam="ZealotPurifier_Ready00"/>
+        <Flags index="NeedsUpdate" value="1"/>
+        <Flags index="NeedsTTS" value="1"/>
+        <Volume value="-1.000000,-1.000000"/>
+    </CSound>
+    <CSound id="ZealotPurifier_Ready3" parent="ProtossReady">
+        <AssetArray TemplateParam="ZealotPurifier_Ready00"/>
+        <Flags index="NeedsUpdate" value="1"/>
+        <Flags index="NeedsTTS" value="1"/>
+        <Volume value="-1.000000,-1.000000"/>
+    </CSound>
+    <CSound id="ZealotPurifier_What2" parent="ProtossAck_Void">
+        <AssetArray TemplateParam="ZealotPurifier_What00"/>
+        <AssetArray TemplateParam="ZealotPurifier_What01"/>
+        <AssetArray TemplateParam="ZealotPurifier_What02"/>
+        <AssetArray TemplateParam="ZealotPurifier_What03"/>
+        <AssetArray TemplateParam="ZealotPurifier_What04"/>
+        <AssetArray TemplateParam="ZealotPurifier_What05"/>
+        <AssetArray TemplateParam="ZealotPurifier_What06"/>
+        <Flags index="NeedsUpdate" value="1"/>
+        <Flags index="NeedsTTS" value="1"/>
+        <Exclusivity value="KaldalisAndLegionnaire_UnitDX_Exclusivity"/>
+        <Volume value="-4.000000,-4.000000"/>
+    </CSound>
+    <CSound id="ZealotPurifier_What3" parent="ProtossAck_Void">
+        <AssetArray TemplateParam="ZealotPurifier_What00"/>
+        <AssetArray TemplateParam="ZealotPurifier_What01"/>
+        <AssetArray TemplateParam="ZealotPurifier_What02"/>
+        <AssetArray TemplateParam="ZealotPurifier_What03"/>
+        <AssetArray TemplateParam="ZealotPurifier_What04"/>
+        <AssetArray TemplateParam="ZealotPurifier_What05"/>
+        <AssetArray TemplateParam="ZealotPurifier_What06"/>
+        <Flags index="NeedsUpdate" value="1"/>
+        <Flags index="NeedsTTS" value="1"/>
+        <Exclusivity value="KaldalisAndLegionnaire_UnitDX_Exclusivity"/>
+        <Volume value="-4.000000,-4.000000"/>
+    </CSound>
+    <CSound id="ZealotPurifier_Yes2" parent="ProtossAck_Void">
+        <AssetArray TemplateParam="ZealotPurifier_Yes00"/>
+        <AssetArray TemplateParam="ZealotPurifier_Yes01"/>
+        <AssetArray TemplateParam="ZealotPurifier_Yes02"/>
+        <AssetArray TemplateParam="ZealotPurifier_Yes03"/>
+        <AssetArray TemplateParam="ZealotPurifier_Yes04"/>
+        <AssetArray TemplateParam="ZealotPurifier_Yes05"/>
+        <Flags index="NeedsUpdate" value="1"/>
+        <Flags index="NeedsTTS" value="1"/>
+        <Volume value="-4.000000,-4.000000"/>
+    </CSound>
+    <CSound id="ZealotPurifier_Yes3" parent="ProtossAck_Void">
+        <AssetArray TemplateParam="ZealotPurifier_Yes00"/>
+        <AssetArray TemplateParam="ZealotPurifier_Yes01"/>
+        <AssetArray TemplateParam="ZealotPurifier_Yes02"/>
+        <AssetArray TemplateParam="ZealotPurifier_Yes03"/>
+        <AssetArray TemplateParam="ZealotPurifier_Yes04"/>
+        <AssetArray TemplateParam="ZealotPurifier_Yes05"/>
+        <Flags index="NeedsUpdate" value="1"/>
+        <Flags index="NeedsTTS" value="1"/>
+        <Volume value="-4.000000,-4.000000"/>
+    </CSound>
+    <CSound id="Zealot_AttackImpact2" parent="Combat">
+        <EditorCategories value="Race:Protoss"/>
+        <AssetArray File="Assets\Sounds\Protoss\SharedEffects\Attacks\Protoss_AttackImpactMediumSlice0.wav"/>
+        <AssetArray File="Assets\Sounds\Protoss\SharedEffects\Attacks\Protoss_AttackImpactMediumSlice1.wav"/>
+        <AssetArray File="Assets\Sounds\Protoss\SharedEffects\Attacks\Protoss_AttackImpactMediumSlice2.wav"/>
+        <AssetArray File="Assets\Sounds\Protoss\SharedEffects\Attacks\Protoss_AttackImpactMediumSlice3.wav"/>
+        <DupeDestroyCount value="4"/>
+        <Pitch value="-2.000000,5.000000"/>
+        <Volume value="-3.000000,-3.000000"/>
+    </CSound>
+    <CSound id="Zealot_DeathFX2" parent="Combat">
+        <EditorCategories value="Race:Protoss"/>
+        <AssetArray File="Assets\Sounds\Protoss\SharedEffects\DeathFX\Protoss_DeathFX0.wav"/>
+        <AssetArray File="Assets\Sounds\Protoss\SharedEffects\DeathFX\Protoss_DeathFX1.wav"/>
+        <AssetArray File="Assets\Sounds\Protoss\SharedEffects\DeathFX\Protoss_DeathFX2.wav"/>
+        <DupeDestroyCount value="4"/>
+        <Pitch value="-1.000000,1.000000"/>
+        <Volume value="-3.000000,-3.000000"/>
+    </CSound>
+    <CSound id="Zealot_DeathFX3" parent="Combat">
+        <EditorCategories value="Race:Protoss"/>
+        <AssetArray File="Assets\Sounds\Protoss\SharedEffects\DeathFX\Protoss_DeathFX0.wav"/>
+        <AssetArray File="Assets\Sounds\Protoss\SharedEffects\DeathFX\Protoss_DeathFX1.wav"/>
+        <AssetArray File="Assets\Sounds\Protoss\SharedEffects\DeathFX\Protoss_DeathFX2.wav"/>
+        <DupeDestroyCount value="4"/>
+        <Pitch value="-1.000000,1.000000"/>
+        <Volume value="-3.000000,-3.000000"/>
+    </CSound>
+    <CSound id="Zealot_DeathFX4" parent="Combat">
+        <EditorCategories value="Race:Protoss"/>
+        <AssetArray File="Assets\Sounds\Protoss\SharedEffects\DeathFX\Protoss_DeathFX0.wav"/>
+        <AssetArray File="Assets\Sounds\Protoss\SharedEffects\DeathFX\Protoss_DeathFX1.wav"/>
+        <AssetArray File="Assets\Sounds\Protoss\SharedEffects\DeathFX\Protoss_DeathFX2.wav"/>
+        <DupeDestroyCount value="4"/>
+        <Pitch value="-1.000000,1.000000"/>
+        <Volume value="-3.000000,-3.000000"/>
+    </CSound>
+    <CSound id="ZeratulStunImpact2" parent="Spell">
+        <EditorCategories value="Race:Protoss"/>
+        <AssetArray File="Assets\Sounds\Protoss\Zeratul\Zeratul_VoidPrisonImpact0.wav"/>
+        <AssetArray File="Assets\Sounds\Protoss\Zeratul\Zeratul_VoidPrisonImpact1.wav"/>
+        <AssetArray File="Assets\Sounds\Protoss\Zeratul\Zeratul_VoidPrisonImpact2.wav"/>
+        <Volume value="-3.000000,-3.000000"/>
+    </CSound>
+    <CSound id="ZeratulStunImpact3" parent="Spell">
+        <EditorCategories value="Race:Protoss"/>
+        <AssetArray File="Assets\Sounds\Protoss\Zeratul\Zeratul_VoidPrisonImpact0.wav"/>
+        <AssetArray File="Assets\Sounds\Protoss\Zeratul\Zeratul_VoidPrisonImpact1.wav"/>
+        <AssetArray File="Assets\Sounds\Protoss\Zeratul\Zeratul_VoidPrisonImpact2.wav"/>
+        <Volume value="-3.000000,-3.000000"/>
+    </CSound>
+    <CSound id="Zeratul_AC_BlinkWarp_Fx2" parent="Spell">
+        <EditorCategories value="Race:Protoss"/>
+        <AssetArray File="Assets\Sounds\Protoss\Zeratul\Zeratul_AC_Stalker_Warp_02.wav" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\Protoss\Zeratul\Zeratul_AC_Stalker_Warp_03.wav" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\Protoss\Zeratul\Zeratul_AC_Stalker_Warp_04.wav" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\Protoss\Zeratul\Zeratul_AC_Stalker_Warp_05.wav" FacialGroup=""/>
+        <DupeHistoryCount value="32"/>
+        <DupeMuteCount value="3"/>
+        <Pitch value="0.000000,1.000000"/>
+        <Volume value="-4.000000,-3.000000"/>
+    </CSound>
+    <CSound id="Zeratul_Attack2" parent="ProtossAck">
+        <AssetArray File="LocalizedData\Sounds\ProtossVO\CampaignUnits\Zeratul\Zeratul_Attack00.ogg"/>
+        <AssetArray File="LocalizedData\Sounds\ProtossVO\CampaignUnits\Zeratul\Zeratul_Attack01.ogg"/>
+        <AssetArray File="LocalizedData\Sounds\ProtossVO\CampaignUnits\Zeratul\Zeratul_Attack02.ogg"/>
+        <AssetArray File="LocalizedData\Sounds\ProtossVO\CampaignUnits\Zeratul\Zeratul_Attack03.ogg"/>
+        <AssetArray File="LocalizedData\Sounds\ProtossVO\CampaignUnits\Zeratul\Zeratul_Attack04.ogg"/>
+        <DupeWait value="4000,4000"/>
+        <Spread value="120.000000"/>
+    </CSound>
+    <CSound id="Zeratul_Attack3" parent="ProtossAck">
+        <AssetArray File="LocalizedData\Sounds\ProtossVO\CampaignUnits\Zeratul\Zeratul_Attack00.ogg"/>
+        <AssetArray File="LocalizedData\Sounds\ProtossVO\CampaignUnits\Zeratul\Zeratul_Attack01.ogg"/>
+        <AssetArray File="LocalizedData\Sounds\ProtossVO\CampaignUnits\Zeratul\Zeratul_Attack02.ogg"/>
+        <AssetArray File="LocalizedData\Sounds\ProtossVO\CampaignUnits\Zeratul\Zeratul_Attack03.ogg"/>
+        <AssetArray File="LocalizedData\Sounds\ProtossVO\CampaignUnits\Zeratul\Zeratul_Attack04.ogg"/>
+        <DupeWait value="4000,4000"/>
+        <Spread value="120.000000"/>
+    </CSound>
+    <CSound id="Zeratul_AttackImpact2" parent="Combat">
+        <EditorCategories value="Race:Protoss"/>
+        <AssetArray File="Assets\Sounds\Protoss\SharedEffects\Attacks\Protoss_AttackImpactMediumSlice0.wav"/>
+        <AssetArray File="Assets\Sounds\Protoss\SharedEffects\Attacks\Protoss_AttackImpactMediumSlice1.wav"/>
+        <AssetArray File="Assets\Sounds\Protoss\SharedEffects\Attacks\Protoss_AttackImpactMediumSlice2.wav"/>
+        <AssetArray File="Assets\Sounds\Protoss\SharedEffects\Attacks\Protoss_AttackImpactMediumSlice3.wav"/>
+        <DupeDestroyCount value="4"/>
+        <Pitch value="-2.000000,5.000000"/>
+        <Volume value="-3.000000,-3.000000"/>
+    </CSound>
+    <CSound id="Zeratul_AttackImpact3" parent="Combat">
+        <EditorCategories value="Race:Protoss"/>
+        <AssetArray File="Assets\Sounds\Protoss\SharedEffects\Attacks\Protoss_AttackImpactMediumSlice0.wav"/>
+        <AssetArray File="Assets\Sounds\Protoss\SharedEffects\Attacks\Protoss_AttackImpactMediumSlice1.wav"/>
+        <AssetArray File="Assets\Sounds\Protoss\SharedEffects\Attacks\Protoss_AttackImpactMediumSlice2.wav"/>
+        <AssetArray File="Assets\Sounds\Protoss\SharedEffects\Attacks\Protoss_AttackImpactMediumSlice3.wav"/>
+        <DupeDestroyCount value="4"/>
+        <Pitch value="-2.000000,5.000000"/>
+        <Volume value="-3.000000,-3.000000"/>
+    </CSound>
+    <CSound id="Zeratul_AttackLaunch2" parent="Combat">
+        <EditorCategories value="Race:Protoss"/>
+        <AssetArray File="Assets\Sounds\Artanis_PsiBladeAttackLaunch01.wav" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\Artanis_PsiBladeAttackLaunch02.wav" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\Artanis_PsiBladeAttackLaunch04.wav" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\Artanis_PsiBladeAttackLaunch07.wav" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\Artanis_PsiBladeAttackLaunch09.wav" FacialGroup=""/>
+        <Flags index="VariationFallback" value="0"/>
+        <DupeDestroyCount value="5"/>
+        <DupeMaximumMethod value="Replace"/>
+        <DupePrioritization value="Oldest"/>
+        <Pitch value="-3.000000,-1.000000"/>
+        <Volume value="-4.000000,-4.000000"/>
+    </CSound>
+    <CSound id="Zeratul_AttackLaunch3" parent="Combat">
+        <EditorCategories value="Race:Protoss"/>
+        <AssetArray File="Assets\Sounds\Artanis_PsiBladeAttackLaunch01.wav" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\Artanis_PsiBladeAttackLaunch02.wav" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\Artanis_PsiBladeAttackLaunch04.wav" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\Artanis_PsiBladeAttackLaunch07.wav" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\Artanis_PsiBladeAttackLaunch09.wav" FacialGroup=""/>
+        <Flags index="VariationFallback" value="0"/>
+        <DupeDestroyCount value="5"/>
+        <DupeMaximumMethod value="Replace"/>
+        <DupePrioritization value="Oldest"/>
+        <Pitch value="-3.000000,-1.000000"/>
+        <Volume value="-4.000000,-4.000000"/>
+    </CSound>
+    <CSound id="Zeratul_DeathFX2" parent="Combat">
+        <EditorCategories value="Race:Protoss"/>
+        <AssetArray File="Assets\Sounds\Artanis_Death01.wav" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\Artanis_Death02.wav" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\Artanis_Death03.wav" FacialGroup=""/>
+        <DupeDestroyCount value="4"/>
+        <Pitch value="-4.000000,-3.000000"/>
+        <VolumeRolloffPoints Distance="15.000000"/>
+        <VolumeRolloffPoints Distance="30.000000" Volume="-96.000000"/>
+    </CSound>
+    <CSound id="Zeratul_DeathFX3" parent="Combat">
+        <EditorCategories value="Race:Protoss"/>
+        <AssetArray File="Assets\Sounds\Artanis_Death01.wav" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\Artanis_Death02.wav" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\Artanis_Death03.wav" FacialGroup=""/>
+        <DupeDestroyCount value="4"/>
+        <Pitch value="-4.000000,-3.000000"/>
+        <VolumeRolloffPoints Distance="15.000000"/>
+        <VolumeRolloffPoints Distance="30.000000" Volume="-96.000000"/>
+    </CSound>
+    <CSound id="Zeratul_Help2" parent="ProtossAck">
+        <AssetArray File="LocalizedData\Sounds\ProtossVO\CampaignUnits\Zeratul\Zeratul_Help00.ogg"/>
+        <AssetArray File="LocalizedData\Sounds\ProtossVO\CampaignUnits\Zeratul\Zeratul_Help01.ogg"/>
+        <AssetArray File="LocalizedData\Sounds\ProtossVO\CampaignUnits\Zeratul\Zeratul_Help02.ogg"/>
+        <Category value="Alert"/>
+        <Spread value="120.000000"/>
+    </CSound>
+    <CSound id="Zeratul_Help3" parent="ProtossAck">
+        <AssetArray File="LocalizedData\Sounds\ProtossVO\CampaignUnits\Zeratul\Zeratul_Help00.ogg"/>
+        <AssetArray File="LocalizedData\Sounds\ProtossVO\CampaignUnits\Zeratul\Zeratul_Help01.ogg"/>
+        <AssetArray File="LocalizedData\Sounds\ProtossVO\CampaignUnits\Zeratul\Zeratul_Help02.ogg"/>
+        <Category value="Alert"/>
+        <Spread value="120.000000"/>
+    </CSound>
+    <CSound id="Zeratul_Pissed2" parent="Pissed">
+        <EditorCategories value="Race:Protoss"/>
+        <AssetArray File="LocalizedData\Sounds\ProtossVO\CampaignUnits\Zeratul\Zeratul_Pissed00.ogg"/>
+        <AssetArray File="LocalizedData\Sounds\ProtossVO\CampaignUnits\Zeratul\Zeratul_Pissed01.ogg"/>
+        <AssetArray File="LocalizedData\Sounds\ProtossVO\CampaignUnits\Zeratul\Zeratul_Pissed02.ogg"/>
+        <AssetArray File="LocalizedData\Sounds\ProtossVO\CampaignUnits\Zeratul\Zeratul_Pissed03.ogg"/>
+        <AssetArray File="LocalizedData\Sounds\ProtossVO\CampaignUnits\Zeratul\Zeratul_Pissed04.ogg"/>
+        <AssetArray File="LocalizedData\Sounds\ProtossVO\CampaignUnits\Zeratul\Zeratul_Pissed05.ogg"/>
+        <AssetArray File="LocalizedData\Sounds\ProtossVO\CampaignUnits\Zeratul\Zeratul_Pissed06.ogg"/>
+        <AssetArray File="LocalizedData\Sounds\ProtossVO\CampaignUnits\Zeratul\Zeratul_Pissed07.ogg"/>
+        <Flags index="Download" value="1"/>
+        <Flags index="VariationFallback" value="0"/>
+        <Spread value="120.000000"/>
+        <Volume value="-3.000000,-3.000000"/>
+    </CSound>
+    <CSound id="Zeratul_Pissed3" parent="Pissed">
+        <EditorCategories value="Race:Protoss"/>
+        <AssetArray File="LocalizedData\Sounds\ProtossVO\CampaignUnits\Zeratul\Zeratul_Pissed00.ogg"/>
+        <AssetArray File="LocalizedData\Sounds\ProtossVO\CampaignUnits\Zeratul\Zeratul_Pissed01.ogg"/>
+        <AssetArray File="LocalizedData\Sounds\ProtossVO\CampaignUnits\Zeratul\Zeratul_Pissed02.ogg"/>
+        <AssetArray File="LocalizedData\Sounds\ProtossVO\CampaignUnits\Zeratul\Zeratul_Pissed03.ogg"/>
+        <AssetArray File="LocalizedData\Sounds\ProtossVO\CampaignUnits\Zeratul\Zeratul_Pissed04.ogg"/>
+        <AssetArray File="LocalizedData\Sounds\ProtossVO\CampaignUnits\Zeratul\Zeratul_Pissed05.ogg"/>
+        <AssetArray File="LocalizedData\Sounds\ProtossVO\CampaignUnits\Zeratul\Zeratul_Pissed06.ogg"/>
+        <AssetArray File="LocalizedData\Sounds\ProtossVO\CampaignUnits\Zeratul\Zeratul_Pissed07.ogg"/>
+        <Flags index="Download" value="1"/>
+        <Flags index="VariationFallback" value="0"/>
+        <Spread value="120.000000"/>
+        <Volume value="-3.000000,-3.000000"/>
+    </CSound>
+    <CSound id="Zeratul_Ready2" parent="Ready">
+        <EditorCategories value="Race:Protoss"/>
+        <AssetArray File="LocalizedData\Sounds\ProtossVO\CampaignUnits\Zeratul\Zeratul_Ready00.ogg"/>
+        <Spread value="120.000000"/>
+        <Volume value="-3.000000,-3.000000"/>
+    </CSound>
+    <CSound id="Zeratul_Ready3" parent="Ready">
+        <EditorCategories value="Race:Protoss"/>
+        <AssetArray File="LocalizedData\Sounds\ProtossVO\CampaignUnits\Zeratul\Zeratul_Ready00.ogg"/>
+        <Spread value="120.000000"/>
+        <Volume value="-3.000000,-3.000000"/>
+    </CSound>
+    <CSound id="Zeratul_What2" parent="ProtossAck">
+        <AssetArray File="LocalizedData\Sounds\ProtossVO\CampaignUnits\Zeratul\Zeratul_What00.ogg"/>
+        <AssetArray File="LocalizedData\Sounds\ProtossVO\CampaignUnits\Zeratul\Zeratul_What01.ogg"/>
+        <AssetArray File="LocalizedData\Sounds\ProtossVO\CampaignUnits\Zeratul\Zeratul_What02.ogg"/>
+        <AssetArray File="LocalizedData\Sounds\ProtossVO\CampaignUnits\Zeratul\Zeratul_What03.ogg"/>
+        <AssetArray File="LocalizedData\Sounds\ProtossVO\CampaignUnits\Zeratul\Zeratul_What04.ogg"/>
+        <Spread value="120.000000"/>
+    </CSound>
+    <CSound id="Zeratul_What3" parent="ProtossAck">
+        <AssetArray File="LocalizedData\Sounds\ProtossVO\CampaignUnits\Zeratul\Zeratul_What00.ogg"/>
+        <AssetArray File="LocalizedData\Sounds\ProtossVO\CampaignUnits\Zeratul\Zeratul_What01.ogg"/>
+        <AssetArray File="LocalizedData\Sounds\ProtossVO\CampaignUnits\Zeratul\Zeratul_What02.ogg"/>
+        <AssetArray File="LocalizedData\Sounds\ProtossVO\CampaignUnits\Zeratul\Zeratul_What03.ogg"/>
+        <AssetArray File="LocalizedData\Sounds\ProtossVO\CampaignUnits\Zeratul\Zeratul_What04.ogg"/>
+        <Spread value="120.000000"/>
+    </CSound>
+    <CSound id="Zeratul_Yes2" parent="ProtossAck">
+        <AssetArray File="LocalizedData\Sounds\ProtossVO\CampaignUnits\Zeratul\Zeratul_Yes00.ogg"/>
+        <AssetArray File="LocalizedData\Sounds\ProtossVO\CampaignUnits\Zeratul\Zeratul_Yes01.ogg"/>
+        <AssetArray File="LocalizedData\Sounds\ProtossVO\CampaignUnits\Zeratul\Zeratul_Yes02.ogg"/>
+        <AssetArray File="LocalizedData\Sounds\ProtossVO\CampaignUnits\Zeratul\Zeratul_Yes03.ogg"/>
+        <AssetArray File="LocalizedData\Sounds\ProtossVO\CampaignUnits\Zeratul\Zeratul_Yes04.ogg"/>
+        <AssetArray File="LocalizedData\Sounds\ProtossVO\CampaignUnits\Zeratul\Zeratul_Yes05.ogg"/>
+        <AssetArray File="LocalizedData\Sounds\ProtossVO\CampaignUnits\Zeratul\Zeratul_Yes06.ogg"/>
+        <AssetArray File="LocalizedData\Sounds\ProtossVO\CampaignUnits\Zeratul\Zeratul_Yes07.ogg"/>
+        <AssetArray File="LocalizedData\Sounds\ProtossVO\CampaignUnits\Zeratul\Zeratul_Yes08.ogg"/>
+        <AssetArray File="LocalizedData\Sounds\ProtossVO\CampaignUnits\Zeratul\Zeratul_Yes.10.ogg"/>
+        <DupeWait value="4000,4000"/>
+        <Spread value="120.000000"/>
+    </CSound>
+    <CSound id="Zeratul_Yes3" parent="ProtossAck">
+        <AssetArray File="LocalizedData\Sounds\ProtossVO\CampaignUnits\Zeratul\Zeratul_Yes00.ogg"/>
+        <AssetArray File="LocalizedData\Sounds\ProtossVO\CampaignUnits\Zeratul\Zeratul_Yes01.ogg"/>
+        <AssetArray File="LocalizedData\Sounds\ProtossVO\CampaignUnits\Zeratul\Zeratul_Yes02.ogg"/>
+        <AssetArray File="LocalizedData\Sounds\ProtossVO\CampaignUnits\Zeratul\Zeratul_Yes03.ogg"/>
+        <AssetArray File="LocalizedData\Sounds\ProtossVO\CampaignUnits\Zeratul\Zeratul_Yes04.ogg"/>
+        <AssetArray File="LocalizedData\Sounds\ProtossVO\CampaignUnits\Zeratul\Zeratul_Yes05.ogg"/>
+        <AssetArray File="LocalizedData\Sounds\ProtossVO\CampaignUnits\Zeratul\Zeratul_Yes06.ogg"/>
+        <AssetArray File="LocalizedData\Sounds\ProtossVO\CampaignUnits\Zeratul\Zeratul_Yes07.ogg"/>
+        <AssetArray File="LocalizedData\Sounds\ProtossVO\CampaignUnits\Zeratul\Zeratul_Yes08.ogg"/>
+        <AssetArray File="LocalizedData\Sounds\ProtossVO\CampaignUnits\Zeratul\Zeratul_Yes.10.ogg"/>
+        <DupeWait value="4000,4000"/>
+        <Spread value="120.000000"/>
     </CSound>
     <CSound id="Zergling_Attack2" parent="Voice">
         <EditorCategories value="Race:Zerg"/>

@@ -1,5 +1,129 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Catalog>
+    <CEffectApplyBehavior id="AlarakLightningStrikesAB2">
+        <ValidatorArray index="0" value="HaveAlarakLightningStrikes"/>
+        <ValidatorArray value="IsSupplicant"/>
+        <WhichUnit Value="Caster"/>
+        <Behavior value="AlarakLightningStrikes2"/>
+    </CEffectApplyBehavior>
+    <CEffectSet id="AlarakSupplicantDevotionCDR2">
+        <ValidatorArray value="IsSupplicant"/>
+        <ValidatorArray value="AlarakSupplicantSacrificeCDR"/>
+        <EditorCategories value="Race:Protoss"/>
+        <EffectArray value="AlarakSupplicantDevotionCDR_A2"/>
+        <EffectArray value="AlarakSupplicantDevotionCDR_B2"/>
+    </CEffectSet>
+    <CEffectModifyPlayer id="AlarakSupplicantDevotionCDR_A2">
+        <EditorCategories value="Race:Protoss"/>
+        <Cost Abil="AlarakACDeadlyCharge">
+            <Cooldown>
+                <Link value="Abil/AlarakACDeadlyCharge"/>
+                <Location value="Player"/>
+                <Operation value="Add"/>
+                <TimeUse value="-10"/>
+            </Cooldown>
+        </Cost>
+    </CEffectModifyPlayer>
+    <CEffectModifyPlayer id="AlarakSupplicantDevotionCDR_B2">
+        <EditorCategories value="Race:Protoss"/>
+        <Cost Abil="AlarakKnockback">
+            <Cooldown>
+                <Link value="Abil/AlarakKnockback"/>
+                <Location value="Player"/>
+                <Operation value="Add"/>
+                <TimeUse value="-5"/>
+            </Cooldown>
+        </Cost>
+    </CEffectModifyPlayer>
+    <CEffectLaunchMissile id="AlarakTheStrongestSurviveDummyAttackMissile2">
+        <EditorCategories value="Race:Protoss"/>
+        <LaunchLocation Value="TargetUnit"/>
+        <ImpactLocation Value="CasterUnit"/>
+        <FinishEffect value="AlarakTheStrongestSurviveDummyAttackMissileImpact2"/>
+        <AmmoUnit value="AlarakTheStrongestSurviveDummyAttackMissile2"/>
+    </CEffectLaunchMissile>
+    <CEffectSet id="AlarakTheStrongestSurviveDummyAttackMissileImpact2">
+        <EditorCategories value="Race:Protoss"/>
+    </CEffectSet>
+    <CEffectLaunchMissile id="AlarakTheStrongestSurviveDummySecondaryAttackMissile2">
+        <EditorCategories value="Race:Protoss"/>
+        <LaunchLocation Value="TargetUnit"/>
+        <ImpactLocation Value="CasterUnit"/>
+        <FinishEffect value="AlarakTheStrongestSurviveDummySecondaryAttackMissileImpact2"/>
+        <AmmoUnit value="AlarakTheStrongestSurviveDummySecondaryAttackMissile2"/>
+    </CEffectLaunchMissile>
+    <CEffectSet id="AlarakTheStrongestSurviveDummySecondaryAttackMissileImpact2">
+        <EditorCategories value="Race:Protoss"/>
+    </CEffectSet>
+    <CEffectEnumArea id="AlarakTheStrongestSurviveSearch2">
+        <EditorCategories value="Race:Protoss"/>
+        <SearchFilters value="-;Self,Ally,Neutral,Enemy,Structure,Worker,RawResource,HarvestableResource,Missile,Item,Stasis,Dead,Hidden,MapBoss"/>
+        <TargetSorts>
+            <SortArray value="HighestUnitLevel"/>
+            <SortArray value="CommanderPrestigeAlarakMechLowestStacks"/>
+            <SortArray value="LowestAscendantStacks"/>
+        </TargetSorts>
+        <AreaArray Radius="15" Effect="AlarakTheStrongestSurviveSearchImpact2"/>
+        <MinCount value="1"/>
+        <MaxCount value="1"/>
+    </CEffectEnumArea>
+    <CEffectSet id="AlarakTheStrongestSurviveSearchImpact2">
+        <ValidatorArray value="NotWarpingIn"/>
+        <EditorCategories value="Race:Protoss"/>
+        <EffectArray value="AlarakTheStrongestSurviveStealShield2"/>
+        <EffectArray value="AlarakTheStrongestSurviveStealLife2"/>
+        <EffectArray value="AlarakSupplicantDevotionCDR2"/>
+        <EffectArray value="AlarakLightningStrikesAB2"/>
+        <EffectArray value="AlarakTheStrongestSurviveDummyAttackMissile2"/>
+        <EffectArray value="AlarakTheStrongestSurviveDummySecondaryAttackMissile2"/>
+        <EffectArray value="AlarakTheStrongestSurviveDummySecondaryAttackMissile2"/>
+    </CEffectSet>
+    <CEffectCreateHealer id="AlarakTheStrongestSurviveStealLife2">
+        <EditorCategories value="Race:Protoss"/>
+        <LaunchUnit Value="Target"/>
+        <ImpactUnit Value="Caster"/>
+        <Flags index="Channeled" value="0"/>
+        <DrainVitalCostFactor value="1"/>
+        <RechargeVitalRate value="500000"/>
+    </CEffectCreateHealer>
+    <CEffectCreateHealer id="AlarakTheStrongestSurviveStealShield2">
+        <EditorCategories value="Race:Protoss"/>
+        <LaunchUnit Value="Target"/>
+        <ImpactUnit Value="Caster"/>
+        <Flags index="Channeled" value="0"/>
+        <DrainVital value="Shields"/>
+        <DrainVitalCostFactor value="1"/>
+        <RechargeVital value="Shields"/>
+        <RechargeVitalRate value="500000"/>
+    </CEffectCreateHealer>
+    <CEffectSet id="AllUnitBehaviorControllerSet2">
+        <ValidatorArray value="IsAnyCommander"/>
+        <EffectArray value="OnDeathControllerDeathPreventAB2"/>
+        <EffectArray value="UnityBarrierBootstrapper2"/>
+        <EffectArray value="VorazunCloakDamageBoostPermanentAB2"/>
+        <EffectArray value="TimeStopHasteAB2"/>
+        <EffectArray value="MasteryNovaArmyOOCRegenSpeedAB2"/>
+        <EffectArray value="NovaStunResistanceAB2"/>
+        <EffectArray value="HornerStunResistanceAB2"/>
+        <EffectArray value="AllUnitBehaviorControllerSubset12"/>
+    </CEffectSet>
+    <CEffectSet id="AllUnitBehaviorControllerSubset12">
+        <EditorCategories value=""/>
+    </CEffectSet>
+    <CEffectApplyBehavior id="Charge2">
+        <ValidatorArray index="0" value="ChargeMinTriggerDistance"/>
+        <ValidatorArray value="ChargeMaxDistance"/>
+        <EditorCategories value="Race:Protoss"/>
+        <WhichUnit Value="Caster"/>
+        <Behavior value="Charging"/>
+    </CEffectApplyBehavior>
+    <CEffectApplyBehavior id="Charge3">
+        <ValidatorArray index="0" value="ChargeMinTriggerDistance"/>
+        <ValidatorArray value="ChargeMaxDistance"/>
+        <EditorCategories value="Race:Protoss"/>
+        <WhichUnit Value="Caster"/>
+        <Behavior value="Charging"/>
+    </CEffectApplyBehavior>
     <CEffectDamage id="Claws2" parent="DU_WEAP">
         <EditorCategories value="Race:Zerg"/>
         <Amount value="5"/>
@@ -12,6 +136,148 @@
         <EditorCategories value="Race:Zerg"/>
         <Amount value="5"/>
     </CEffectDamage>
+    <CEffectModifyUnit id="CommanderPrestigeVorazunEmergencyRecallFullHeal2">
+        <EditorCategories value=""/>
+        <VitalArray index="Life">
+            <ChangeFraction value="1"/>
+        </VitalArray>
+        <VitalArray index="Shields">
+            <ChangeFraction value="1"/>
+        </VitalArray>
+    </CEffectModifyUnit>
+    <CEffectIssueOrder id="CycloneWreckageAbil2">
+        <EditorCategories value="Race:Terran"/>
+        <WhichUnit Value="Source"/>
+        <Abil value="CycloneWreckage"/>
+        <CmdFlags index="Preempt" value="1"/>
+    </CEffectIssueOrder>
+    <CEffectSet id="CycloneWreckageSet2">
+        <EditorCategories value="Race:Terran"/>
+        <EffectArray value="CycloneWreckageAbil2"/>
+        <EffectArray value="SwannCommanderMechWreckageBurningAB2"/>
+    </CEffectSet>
+    <CEffectDamage id="DeathFire2">
+        <ImpactLocation Value="SourceUnit"/>
+        <Flags index="Kill" value="1"/>
+        <Death value="Fire"/>
+    </CEffectDamage>
+    <CEffectSet id="DeathRecallRemoveDebuff2">
+        <EditorCategories value="Race:Protoss"/>
+        <EffectArray value="RemoveAllSlow2"/>
+        <EffectArray value="RemoveAllStun2"/>
+        <EffectArray value="RemoveAllDot2"/>
+    </CEffectSet>
+    <CEffectSet id="DeathRecallSourceRemoveDebuff2">
+        <EditorCategories value="Race:Protoss"/>
+        <EffectArray value="SourcRemoveAllSlow2"/>
+        <EffectArray value="SourcRemoveAllStun2"/>
+        <EffectArray value="SourcRemoveAllDot2"/>
+    </CEffectSet>
+    <CEffectIssueOrder id="DehakaMutaliskReviveIssueOrder2">
+        <EditorCategories value="Race:Zerg"/>
+        <WhichUnit Value="Source"/>
+        <Abil value="DehakaMutaliskRevive"/>
+        <CmdFlags index="Preempt" value="1"/>
+    </CEffectIssueOrder>
+    <CEffectSet id="DehakaMutaliskReviveOrderSet2">
+        <EditorCategories value="Race:PrimalZerg"/>
+        <EffectArray value="SelfReviveRecallRemoveDebuff2"/>
+        <EffectArray value="DehakaMutaliskReviveIssueOrder2"/>
+    </CEffectSet>
+    <CEffectIssueOrder id="DiamondbackWreckageAbil2">
+        <EditorCategories value="Race:Terran"/>
+        <WhichUnit Value="Source"/>
+        <Abil value="DiamondbackWreckage"/>
+        <CmdFlags index="Preempt" value="1"/>
+    </CEffectIssueOrder>
+    <CEffectSet id="DiamondbackWreckageSet2">
+        <EditorCategories value="Race:Terran"/>
+        <EffectArray value="DiamondbackWreckageAbil2"/>
+        <EffectArray value="SwannCommanderMechWreckageBurningAB2"/>
+    </CEffectSet>
+    <CEffectModifyUnit id="FullHealCaster2">
+        <ImpactUnit Value="Caster"/>
+        <VitalArray index="Life">
+            <ChangeFraction value="1"/>
+        </VitalArray>
+        <VitalArray index="Shields">
+            <ChangeFraction value="1"/>
+        </VitalArray>
+        <VitalArray index="Energy">
+            <ChangeFraction value="1"/>
+        </VitalArray>
+    </CEffectModifyUnit>
+    <CEffectIssueOrder id="GoliathWreckageAbil2">
+        <EditorCategories value="Race:Terran"/>
+        <WhichUnit Value="Source"/>
+        <Abil value="GoliathWreckage"/>
+        <CmdFlags index="Preempt" value="1"/>
+    </CEffectIssueOrder>
+    <CEffectSet id="GoliathWreckageSet2">
+        <EditorCategories value="Race:Terran"/>
+        <EffectArray value="GoliathWreckageAbil2"/>
+        <EffectArray value="SwannCommanderMechWreckageBurningAB2"/>
+    </CEffectSet>
+    <CEffectModifyUnit id="GrantKillCreditDummy2">
+        <EditorCategories value=""/>
+    </CEffectModifyUnit>
+    <CEffectSet id="HHD8ClusterDeathSetTrigger2">
+        <EffectArray value="GrantKillCreditDummy2"/>
+        <EffectArray value="OnDeathControllerDeathPreventRB2"/>
+    </CEffectSet>
+    <CEffectSet id="HHHellionStimDeathSetTrigger2">
+        <EffectArray value="OnDeathControllerDeathPreventRB2"/>
+    </CEffectSet>
+    <CEffectSet id="HHHellionTankDeathFearSetTrigger2">
+        <EffectArray value="OnDeathControllerDeathPreventRB2"/>
+    </CEffectSet>
+    <CEffectSet id="HHWidowMineBlossomIssueOrderSetTrigger2">
+        <EffectArray value="GrantKillCreditDummy2"/>
+        <EffectArray value="OnDeathControllerDeathPreventRB2"/>
+    </CEffectSet>
+    <CEffectIssueOrder id="HellbatWreckageAbil2">
+        <EditorCategories value="Race:Terran"/>
+        <WhichUnit Value="Source"/>
+        <Abil value="HellbatWreckage"/>
+        <CmdFlags index="Preempt" value="1"/>
+    </CEffectIssueOrder>
+    <CEffectSet id="HellbatWreckageSet2">
+        <EditorCategories value="Race:Terran"/>
+        <EffectArray value="HellbatWreckageAbil2"/>
+        <EffectArray value="SwannCommanderMechWreckageBurningAB2"/>
+    </CEffectSet>
+    <CEffectIssueOrder id="HellionWreckageAbil2">
+        <EditorCategories value="Race:Terran"/>
+        <WhichUnit Value="Source"/>
+        <Abil value="HellionWreckage"/>
+        <CmdFlags index="Preempt" value="1"/>
+    </CEffectIssueOrder>
+    <CEffectSet id="HellionWreckageSet2">
+        <EditorCategories value="Race:Terran"/>
+        <EffectArray value="HellionWreckageAbil2"/>
+        <EffectArray value="SwannCommanderMechWreckageBurningAB2"/>
+    </CEffectSet>
+    <CEffectEnumArea id="HeroDetectorRadar2">
+        <EditorCategories value="Race:Terran"/>
+        <SearchFilters value="Visible,Detector;Player,Ally,Neutral"/>
+        <AreaArray Radius="25" Effect="HeroDetectorRadarDetected2"/>
+    </CEffectEnumArea>
+    <CEffectEnumArea id="HeroDetectorRadar3">
+        <EditorCategories value="Race:Terran"/>
+        <SearchFilters value="Visible,Detector;Player,Ally,Neutral"/>
+        <AreaArray Radius="25" Effect="HeroDetectorRadarDetected3"/>
+    </CEffectEnumArea>
+    <CEffectApplyBehavior id="HeroDetectorRadarDetected2">
+        <EditorCategories value="Race:Terran"/>
+    </CEffectApplyBehavior>
+    <CEffectApplyBehavior id="HeroDetectorRadarDetected3">
+        <EditorCategories value="Race:Terran"/>
+    </CEffectApplyBehavior>
+    <CEffectApplyBehavior id="HornerStunResistanceAB2">
+        <ValidatorArray index="0" value="IsHornerCoopCommander"/>
+        <ValidatorArray value="IsHornerUnit"/>
+        <Behavior value="HornerStunResistance2"/>
+    </CEffectApplyBehavior>
     <CEffectSet id="HotSZerglingClaws2">
         <EditorCategories value="Race:Zerg"/>
         <EffectArray value="ZerglingFrenzy2"/>
@@ -36,12 +302,196 @@
         <EffectArray value="ZerglingArmorShredTargetAB3"/>
         <EffectArray value="Claws3"/>
     </CEffectSet>
+    <CEffectApplyBehavior id="HyperionVoidCoopTimedLifeExpireAB2">
+        <PreloadValidatorArray value="RaynorCommanderActive"/>
+        <EditorCategories value="Race:Terran"/>
+        <WhichUnit Value="Source"/>
+        <Behavior value="HyperionVoidCoopTimedLifeExpire2"/>
+    </CEffectApplyBehavior>
+    <CEffectModifyUnit id="MasteryArtanisGuardianShellHeal2"/>
+    <CEffectApplyBehavior id="MasteryNovaArmyOOCRegenSpeedAB2">
+        <ValidatorArray index="0" value="HaveMasteryNovaArmyOOCRegenSpeed"/>
+        <Behavior value="MasteryNovaArmyOOCRegenSpeed2"/>
+    </CEffectApplyBehavior>
+    <CEffectApplyBehavior id="NovaStunResistanceAB2">
+        <ValidatorArray index="0" value="IsNovaCoopCommander"/>
+        <Behavior value="NovaStunResistance2"/>
+    </CEffectApplyBehavior>
+    <CEffectSwitch id="OnDeathControllerDeathPrevent2">
+        <CaseArray Validator="SourceHasLavaDamage1" Effect="DeathFire2"/>
+        <CaseArray Effect="SetMyHPto12" FallThrough="1"/>
+        <CaseArray Validator="OnDeathArtanisGuardianShell" Effect="SOAHeroicShieldInvulnerableApply2"/>
+        <CaseArray Validator="SourceIsAlarakCoop" Effect="AlarakTheStrongestSurviveSearch2"/>
+        <CaseArray Validator="TorrasqueReviveCombine" Effect="TorrasqueCorpse2"/>
+        <CaseArray Validator="DehakaMutaliskReviveCombine" Effect="DehakaMutaliskReviveOrderSet2"/>
+        <CaseArray Validator="OnDeathKaraxReconstruction" Effect="ZealotPurifierReviveDeadIssueOrder2"/>
+        <CaseArray Validator="OnDeathZeratulDarkTemplarRetreat" Effect="ZeratulDarkTemplarStasisAB2"/>
+        <CaseArray Validator="OnDeathVorazunRecallOnDeath" Effect="OnDeathVorazunRecallOnDeathAB2"/>
+        <CaseArray Validator="OnDeathSwannImmortalityProtocol" Effect="SwannCommanderMechRebirthSwitchSet2"/>
+        <CaseArray Validator="OnDeathHyperionDeath" Effect="HyperionVoidCoopTimedLifeExpireAB2"/>
+        <CaseArray Validator="SourceIsDehakaCoop" Effect="OnDeathDehakaRecallOnDeathAB2"/>
+        <CaseArray Validator="HHWidowMineCombine" Effect="HHWidowMineBlossomIssueOrderSetTrigger2"/>
+        <CaseArray Validator="HHReaperCombine" Effect="HHD8ClusterDeathSetTrigger2"/>
+        <CaseArray Validator="HHHellionDeathStim" Effect="HHHellionStimDeathSetTrigger2"/>
+        <CaseArray Validator="HHHellionDeathFear" Effect="HHHellionTankDeathFearSetTrigger2"/>
+        <CaseArray Validator="TychusWarhoundDeathExplosion" Effect="TychusWarhoundExplosionDeathSet2"/>
+        <CaseArray Validator="OnDeathTychusHercGrappleArmorPassive" Effect="TychusHERCShieldApply2"/>
+    </CEffectSwitch>
+    <CEffectApplyBehavior id="OnDeathControllerDeathPreventAB2">
+        <ValidatorArray index="0" value="NoCoopDeathPrevent"/>
+        <Behavior value="OnDeathControllerDeathPrevent2"/>
+    </CEffectApplyBehavior>
+    <CEffectRemoveBehavior id="OnDeathControllerDeathPreventRB2">
+        <WhichUnit Value="Caster"/>
+        <BehaviorLink value="OnDeathControllerDeathPrevent"/>
+    </CEffectRemoveBehavior>
+    <CEffectDamage id="OnDeathDehakaRecallOnDeath1HP2">
+        <EditorCategories value=""/>
+        <ImpactLocation Value="CasterUnit"/>
+        <Flags index="Live" value="1"/>
+        <Amount value="5000"/>
+    </CEffectDamage>
+    <CEffectApplyBehavior id="OnDeathDehakaRecallOnDeathAB2">
+        <WhichUnit Value="Source"/>
+        <Behavior value="OnDeathDehakaRecallOnDeath2"/>
+    </CEffectApplyBehavior>
+    <CEffectEnumArea id="OnDeathDehakaRecallOnDeathSearch2">
+        <SearchFilters value="Structure;Ally,Neutral,Enemy"/>
+        <AreaArray MaxCount="1" Radius="500" Effect="OnDeathDehakaRecallOnDeathTeleportSet2"/>
+    </CEffectEnumArea>
+    <CEffectTeleport id="OnDeathDehakaRecallOnDeathTeleport2">
+        <ValidatorArray value="HasZerglingRespawnPrimary"/>
+        <WhichUnit Value="Source"/>
+        <MinDistance value="0"/>
+        <PlacementAround Value="TargetUnit"/>
+        <PlacementRange value="15"/>
+        <TargetLocation Value="TargetUnit"/>
+    </CEffectTeleport>
+    <CEffectSet id="OnDeathDehakaRecallOnDeathTeleportSet2">
+        <ValidatorArray value="HasZerglingRespawnPrimary"/>
+        <EditorCategories value="Race:Zerg"/>
+        <EffectArray value="DeathRecallSourceRemoveDebuff2"/>
+        <EffectArray value="OnDeathDehakaRecallOnDeathTeleport2"/>
+    </CEffectSet>
+    <CEffectDamage id="OnDeathVorazunRecallOnDeath1HP2">
+        <EditorCategories value=""/>
+        <ImpactLocation Value="CasterUnit"/>
+        <Flags index="Live" value="1"/>
+        <Amount value="5000"/>
+    </CEffectDamage>
+    <CEffectApplyBehavior id="OnDeathVorazunRecallOnDeathAB2">
+        <PreloadValidatorArray value="VorazunCommanderActive"/>
+        <WhichUnit Value="Source"/>
+        <Behavior value="OnDeathVorazunRecallOnDeath2"/>
+    </CEffectApplyBehavior>
+    <CEffectApplyBehavior id="OnDeathVorazunRecallOnDeathRecentlyRecalledAB2">
+        <EditorCategories value=""/>
+        <WhichUnit Effect="OnDeathVorazunRecallOnDeathSearch" Value="Source"/>
+        <Behavior value="SOARecallOnDeathRecentlyRecalled2"/>
+    </CEffectApplyBehavior>
+    <CEffectEnumArea id="OnDeathVorazunRecallOnDeathSearch2">
+        <SearchFilters value="Structure;Neutral,Enemy"/>
+        <TargetSorts>
+            <SortArray value="TSDistance"/>
+        </TargetSorts>
+        <AreaArray MaxCount="1" Radius="500" Effect="OnDeathVorazunRecallOnDeathTeleportSet2"/>
+        <MaxCount value="1"/>
+    </CEffectEnumArea>
+    <CEffectSwitch id="OnDeathVorazunRecallOnDeathSetHP2">
+        <EditorCategories value=""/>
+        <CaseArray Validator="CommanderPrestigeVorazunEmergencyRecallSeekPylon" Effect="CommanderPrestigeVorazunEmergencyRecallFullHeal2"/>
+        <CaseDefault value="OnDeathVorazunRecallOnDeath1HP2"/>
+    </CEffectSwitch>
+    <CEffectTeleport id="OnDeathVorazunRecallOnDeathTeleport2">
+        <WhichUnit Value="Source"/>
+        <MinDistance value="0"/>
+        <PlacementAround Value="TargetUnit"/>
+        <PlacementRange value="15"/>
+        <TargetLocation Value="TargetUnit"/>
+        <TeleportEffect value="OnDeathVorazunRecallOnDeathRecentlyRecalledAB"/>
+    </CEffectTeleport>
+    <CEffectSet id="OnDeathVorazunRecallOnDeathTeleportSet2">
+        <ValidatorArray value="IsValidEmergencyRecallTarget"/>
+        <EditorCategories value="Race:Zerg"/>
+        <EffectArray value="DeathRecallSourceRemoveDebuff2"/>
+        <EffectArray value="OnDeathVorazunRecallOnDeathTeleport2"/>
+        <EffectArray value="OnDeathVorazunRecallOnDeathRecentlyRecalledAB2"/>
+    </CEffectSet>
     <CEffectDamage id="RaynorGaussRifleDamage2" parent="DU_WEAP">
         <EditorCategories value="Race:Terran"/>
         <Kind value="Ranged"/>
         <Amount value="110"/>
         <Death value="Disintegrate"/>
     </CEffectDamage>
+    <CEffectRemoveBehavior id="RemoveAllDot2">
+        <BehaviorCategories index="User15" value="1"/>
+    </CEffectRemoveBehavior>
+    <CEffectRemoveBehavior id="RemoveAllDotOnSource2">
+        <WhichUnit Value="Source"/>
+        <BehaviorCategories index="User15" value="1"/>
+    </CEffectRemoveBehavior>
+    <CEffectRemoveBehavior id="RemoveAllSlow2">
+        <BehaviorCategories index="Slow" value="1"/>
+    </CEffectRemoveBehavior>
+    <CEffectRemoveBehavior id="RemoveAllSlowOnSource2">
+        <WhichUnit Value="Source"/>
+        <BehaviorCategories index="Slow" value="1"/>
+    </CEffectRemoveBehavior>
+    <CEffectRemoveBehavior id="RemoveAllStun2">
+        <BehaviorCategories index="Stun" value="1"/>
+    </CEffectRemoveBehavior>
+    <CEffectRemoveBehavior id="RemoveAllStunOnSource2">
+        <WhichUnit Value="Source"/>
+        <BehaviorCategories index="Stun" value="1"/>
+    </CEffectRemoveBehavior>
+    <CEffectApplyBehavior id="SOAHeroicShieldInvulnerableApply2">
+        <ValidatorArray index="0" value="DoesNotHaveHeroicShieldWeakness"/>
+        <ValidatorArray value="NotHallucination"/>
+        <PreloadValidatorArray value="ArtanisCommanderActive"/>
+        <EditorCategories value=""/>
+        <WhichUnit Value="Source"/>
+        <Behavior value="SOAHeroicShieldImmunity2"/>
+    </CEffectApplyBehavior>
+    <CEffectApplyBehavior id="SOAHeroicShieldWeaknessApply2">
+        <EditorCategories value=""/>
+        <WhichUnit Value="Source"/>
+        <Behavior value="SOAHeroicShieldWeakness2"/>
+    </CEffectApplyBehavior>
+    <CEffectSet id="SelfReviveRecallRemoveDebuff2">
+        <EffectArray value="RemoveAllSlowOnSource2"/>
+        <EffectArray value="RemoveAllStunOnSource2"/>
+        <EffectArray value="RemoveAllDotOnSource2"/>
+    </CEffectSet>
+    <CEffectDamage id="SetMyHPto12">
+        <ImpactLocation Value="SourceUnit"/>
+        <Flags index="Live" value="1"/>
+        <Flags index="Kill" value="1"/>
+        <Flags index="NoKillCredit" value="1"/>
+        <Flags index="NoBehaviorResponse" value="1"/>
+    </CEffectDamage>
+    <CEffectIssueOrder id="SiegeTankWreckageAbil2">
+        <EditorCategories value="Race:Terran"/>
+        <WhichUnit Value="Source"/>
+        <Abil value="SiegeTankWreckage"/>
+        <CmdFlags index="Preempt" value="1"/>
+    </CEffectIssueOrder>
+    <CEffectSet id="SiegeTankWreckageSet2">
+        <EditorCategories value="Race:Terran"/>
+        <EffectArray value="SiegeTankWreckageAbil2"/>
+        <EffectArray value="SwannCommanderMechWreckageBurningAB2"/>
+    </CEffectSet>
+    <CEffectRemoveBehavior id="SourcRemoveAllDot2">
+        <WhichUnit Value="Source"/>
+        <BehaviorCategories index="User15" value="1"/>
+    </CEffectRemoveBehavior>
+    <CEffectRemoveBehavior id="SourcRemoveAllSlow2">
+        <WhichUnit Value="Source"/>
+        <BehaviorCategories index="Slow" value="1"/>
+    </CEffectRemoveBehavior>
+    <CEffectRemoveBehavior id="SourcRemoveAllStun2">
+        <WhichUnit Value="Source"/>
+        <BehaviorCategories index="Stun" value="1"/>
+    </CEffectRemoveBehavior>
     <CEffectModifyUnit id="StimHealEffect">
         <EditorCategories value="Race:Terran"/>
         <ImpactUnit Value="Caster"/>
@@ -68,11 +518,70 @@
     <CEffectApplyBehavior id="StimpackMarauder_BlackOps">
         <DamageModifierSource Effect="Stimpack2"/>
     </CEffectApplyBehavior>
+    <CEffectDamage id="Suicide2">
+        <ImpactLocation Value="SourceUnit"/>
+        <Flags index="Kill" value="1"/>
+        <Flags index="NoKillCredit" value="1"/>
+    </CEffectDamage>
+    <CEffectDamage id="SuicideRemove2">
+        <EditorCategories value="Race:Terran"/>
+        <ImpactLocation Value="SourceUnit"/>
+        <Flags index="Kill" value="1"/>
+        <Death value="Remove"/>
+    </CEffectDamage>
+    <CEffectSwitch id="SwannCommanderMechRebirthSwitch2">
+        <PreloadValidatorArray value="SwannCommanderActive"/>
+        <CaseArray Validator="SourceIsHellion" Effect="HellionWreckageSet2"/>
+        <CaseArray Validator="SourceIsHellbat" Effect="HellbatWreckageSet2"/>
+        <CaseArray Validator="SourceIsDiamondback" Effect="DiamondbackWreckageSet2"/>
+        <CaseArray Validator="SourceIsSiegeTank" Effect="SiegeTankWreckageSet2"/>
+        <CaseArray Validator="SourceIsSiegeTankSieged" Effect="SiegeTankWreckageSet2"/>
+        <CaseArray Validator="SourceIsThor" Effect="ThorWreckageSet2"/>
+        <CaseArray Validator="SourceIsThorAP" Effect="ThorWreckageSet2"/>
+        <CaseArray Validator="SourceIsCyclone" Effect="CycloneWreckageSet2"/>
+        <CaseArray Validator="SourceIsGoliath" Effect="GoliathWreckageSet2"/>
+    </CEffectSwitch>
+    <CEffectSet id="SwannCommanderMechRebirthSwitchSet2">
+        <EditorCategories value="Race:Terran"/>
+        <EffectArray value="SelfReviveRecallRemoveDebuff2"/>
+        <EffectArray value="SwannCommanderMechRebirthSwitch2"/>
+    </CEffectSet>
+    <CEffectApplyBehavior id="SwannCommanderMechWreckageBurningAB2">
+        <WhichUnit Value="Caster"/>
+        <Behavior value="SwannCommanderMechWreckageBurning2"/>
+    </CEffectApplyBehavior>
+    <CEffectDamage id="SwannCommanderMechWreckageBurningDamage2">
+        <Amount value="1"/>
+        <Death value="Fire"/>
+    </CEffectDamage>
     <CEffectDamage id="TaurenSpaceMarineGaussRifleDamage2" parent="DU_WEAP">
         <EditorCategories value="Race:Terran"/>
         <Kind value="Ranged"/>
         <Amount value="24"/>
     </CEffectDamage>
+    <CEffectSet id="ThorWreckageSet2">
+        <EditorCategories value="Race:Terran"/>
+        <EffectArray value="ThorWreckageSwannAbil2"/>
+        <EffectArray value="SwannCommanderMechWreckageBurningAB2"/>
+    </CEffectSet>
+    <CEffectIssueOrder id="ThorWreckageSwannAbil2">
+        <EditorCategories value="Race:Terran"/>
+        <WhichUnit Value="Source"/>
+        <Abil value="ThorWreckageSwann"/>
+        <CmdFlags index="Preempt" value="1"/>
+    </CEffectIssueOrder>
+    <CEffectApplyBehavior id="TimeStopHasteAB2">
+        <ValidatorArray index="0" value="HaveTimeStopHasteMastery"/>
+        <ValidatorArray value="TargetIsAllyorPlayer"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Behavior value="TimeStopHaste2"/>
+    </CEffectApplyBehavior>
+    <CEffectIssueOrder id="TorrasqueCorpse2">
+        <EditorCategories value="Race:Zerg"/>
+        <WhichUnit Value="Source"/>
+        <Abil value="TorrasqueCorpse"/>
+        <CmdFlags index="Preempt" value="1"/>
+    </CEffectIssueOrder>
     <CEffectDamage id="TossGrenadeDamage2">
         <EditorCategories value="Race:Terran"/>
         <ResponseFlags index="Acquire" value="1"/>
@@ -90,6 +599,265 @@
         <ImpactEffect value="TossGrenadeDamage2"/>
         <AmmoUnit value="TossGrenadeWeapon2"/>
     </CEffectLaunchMissile>
+    <CEffectApplyBehavior id="TychusHERCShieldApply2">
+        <ValidatorArray index="0" value="DoesNotHaveTychusHERCShield"/>
+        <ValidatorArray value="NotHallucination"/>
+        <EditorCategories value="Race:Terran"/>
+        <WhichUnit Value="Source"/>
+        <Behavior value="TychusHERCShield2"/>
+    </CEffectApplyBehavior>
+    <CEffectModifyUnit id="TychusHERCShieldCooldown2">
+        <EditorCategories value="Race:Terran"/>
+        <ImpactUnit Value="Source"/>
+        <Cost Behavior="TychusHERCShieldCooldownDisplay" CooldownOperation="Set" CooldownTimeUse="60"/>
+    </CEffectModifyUnit>
+    <CEffectApplyBehavior id="TychusHERCShieldWeaknessApply2">
+        <EditorCategories value="Race:Terran"/>
+        <WhichUnit Value="Source"/>
+        <Behavior value="TychusHERCShieldWeakness2"/>
+    </CEffectApplyBehavior>
+    <CEffectSet id="TychusHERCShieldWeaknessApplySet2">
+        <EditorCategories value="Race:Terran"/>
+        <EffectArray value="TychusHERCShieldWeaknessApply2"/>
+        <EffectArray value="TychusHERCShieldCooldown2"/>
+    </CEffectSet>
+    <CEffectDamage id="TychusWarhoundDeathExplosion2" parent="DU_WEAP_SPLASH">
+        <EditorCategories value="Race:Terran"/>
+        <AINotifyFlags index="HurtEnemy" value="1"/>
+        <ImpactLocation Value="CasterUnit"/>
+        <ArmorReduction value="0"/>
+        <Kind value="Spell"/>
+        <Amount value="300"/>
+        <Death value="Blast"/>
+        <AreaArray Radius="4" Fraction="1"/>
+        <SearchFilters value="-;Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+    </CEffectDamage>
+    <CEffectSet id="TychusWarhoundExplosionDeathSet2">
+        <EditorCategories value="Race:Terran"/>
+        <EffectArray value="Suicide2"/>
+        <EffectArray value="TychusWarhoundDeathExplosion2"/>
+    </CEffectSet>
+    <CEffectApplyBehavior id="UnityBarrierAB2">
+        <ValidatorArray index="0" value="NotKaraxUnitSpawnBarrierDisabled"/>
+        <WhichUnit Value="Source"/>
+        <Behavior value="KaraxUnitSpawnBarrier2"/>
+    </CEffectApplyBehavior>
+    <CEffectSet id="UnityBarrierBootstrapper2">
+        <ValidatorArray value="KaraxHaveUnityBarrier"/>
+        <EditorCategories value=""/>
+        <EffectArray value="UnityBarrierAB2"/>
+    </CEffectSet>
+    <CEffectApplyBehavior id="UnityBarrierDisabledAB2">
+        <WhichUnit Value="Source"/>
+        <Behavior value="KaraxUnitSpawnBarrierDisabled2"/>
+    </CEffectApplyBehavior>
+    <CEffectModifyUnit id="UnityBarrierDummy2"/>
+    <CEffectModifyUnit id="UnityBarrierDummyFinal2">
+        <ImpactUnit Value="Source"/>
+    </CEffectModifyUnit>
+    <CEffectSet id="UnityBarrierFinalSet2">
+        <EditorCategories value="Race:Protoss"/>
+        <EffectArray value="UnityBarrierDummyFinal2"/>
+    </CEffectSet>
+    <CEffectRemoveBehavior id="UnityBarrierRB2">
+        <WhichUnit Value="Source"/>
+        <BehaviorLink value="KaraxUnitSpawnBarrier"/>
+        <Count value="1"/>
+    </CEffectRemoveBehavior>
+    <CEffectSet id="UnityBarrierRemoveSet2">
+        <EffectArray value="UnityBarrierDisabledAB2"/>
+        <EffectArray value="UnityBarrierRB2"/>
+    </CEffectSet>
+    <CEffectApplyBehavior id="VoidZealotWhirlwindAB2">
+        <WhichUnit Value="Caster"/>
+        <Behavior value="VoidZealotWhirlwind2"/>
+    </CEffectApplyBehavior>
+    <CEffectSet id="VoidZealotWhirlwindBehaviorSet2">
+        <EditorCategories value="Race:Protoss"/>
+        <EffectArray value="VoidZealotWhirlwindMoveSearch2"/>
+        <EffectArray value="VoidZealotWhirlwindSearch2"/>
+    </CEffectSet>
+    <CEffectCancelOrder id="VoidZealotWhirlwindCancelMove2">
+        <EditorCategories value="Race:Protoss"/>
+        <WhichUnit Value="Source"/>
+    </CEffectCancelOrder>
+    <CEffectDamage id="VoidZealotWhirlwindDamage2" parent="DU_WEAP">
+        <ArmorReduction value="0"/>
+        <Amount value="5"/>
+        <Death value="Eviscerate"/>
+    </CEffectDamage>
+    <CEffectCreatePersistent id="VoidZealotWhirlwindMoveCP2">
+        <EditorCategories value="Race:Protoss"/>
+        <InitialEffect value="VoidZealotWhirlwindMoveOrder2"/>
+        <InitialOffset value="0,-1,0"/>
+    </CEffectCreatePersistent>
+    <CEffectIssueOrder id="VoidZealotWhirlwindMoveOrder2">
+        <ValidatorArray value="CasterIsStationary"/>
+        <ValidatorArray value="CasterNotHoldingPosition"/>
+        <EditorCategories value="Race:Protoss"/>
+        <WhichUnit Value="Source"/>
+        <Abil value="move"/>
+        <CmdFlags index="Preempt" value="1"/>
+        <Player Value="Source"/>
+        <Target Value="TargetPoint"/>
+    </CEffectIssueOrder>
+    <CEffectEnumArea id="VoidZealotWhirlwindMoveSearch2">
+        <EditorCategories value="Race:Protoss"/>
+        <SearchFilters value="Ground,Visible;Player,Ally,Neutral,Structure,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <TargetSorts>
+            <SortArray value="TSRandom"/>
+        </TargetSorts>
+        <AreaArray MaxCount="1" Radius="3" Effect="VoidZealotWhirlwindMoveCP2"/>
+    </CEffectEnumArea>
+    <CEffectEnumArea id="VoidZealotWhirlwindSearch2">
+        <EditorCategories value=""/>
+        <SearchFilters value="Ground;Player,Ally,Neutral,Structure,Stasis,Dead,Hidden,Invulnerable"/>
+        <AreaArray Radius="1.5" Effect="VoidZealotWhirlwindDamage2"/>
+        <SearchFlags index="CallForHelp" value="1"/>
+        <SearchFlags index="SameCliff" value="1"/>
+    </CEffectEnumArea>
+    <CEffectSet id="VoidZealotWhirlwindSet2">
+        <EffectArray value="VoidZealotWhirlwindSearch2"/>
+        <EffectArray value="VoidZealotWhirlwindAB2"/>
+    </CEffectSet>
+    <CEffectApplyBehavior id="VorazunCloakDamageBoostPermanentAB2">
+        <ValidatorArray value="HaveVorazunCloakDamageBoost"/>
+        <WhichUnit Value="Source"/>
+        <Behavior value="VorazunCloakDamageBoostPermanent2"/>
+    </CEffectApplyBehavior>
+    <CEffectDamage id="ZealotAiurWeapon2" parent="DU_WEAP">
+        <EditorCategories value="Race:Protoss"/>
+        <LaunchLocation Value="CasterPoint"/>
+        <ImpactLocation Value="CasterPoint"/>
+        <Amount value="20"/>
+        <LeechFraction index="Life" value="100"/>
+        <Death value="Freeze"/>
+        <AreaArray MaxCount="999" Radius="1.5" Fraction="1"/>
+        <SearchFilters value="-;Player,Ally"/>
+    </CEffectDamage>
+    <CEffectCreatePersistent id="ZealotAiurWeaponBurst2">
+        <EditorCategories value="Race:Protoss"/>
+        <WhichLocation Value="CasterPoint"/>
+        <TimeScaleSource Value="Caster"/>
+        <OffsetVectorEndLocation Value="CasterPoint"/>
+        <Flags index="Channeled" value="1"/>
+        <InitialEffect value="CommanderPrestigeDehakaPackLeadersTrack"/>
+        <PeriodCount value="1"/>
+        <PeriodicEffectArray value="ZealotAiurWeapon2"/>
+        <PeriodicPeriodArray value="0"/>
+        <PeriodicPeriodArray value="0.28"/>
+        <DetectFilters value="-;Player,Ally"/>
+    </CEffectCreatePersistent>
+    <CEffectSet id="ZealotAiurWeaponCleaveSet2">
+        <EditorCategories value=""/>
+        <EffectArray value="ZealotAiurWeaponBurst2"/>
+    </CEffectSet>
+    <CEffectIssueOrder id="ZealotPurifierReviveDeadIssueOrder2">
+        <PreloadValidatorArray value="KaraxCommanderActive"/>
+        <EditorCategories value="Race:Protoss"/>
+        <WhichUnit Value="Source"/>
+        <Abil value="ZealotPurifierReviveDeath"/>
+        <CmdFlags index="Preempt" value="1"/>
+        <Player Value="Caster"/>
+    </CEffectIssueOrder>
+    <CEffectModifyPlayer id="ZealotRespawnAddChargePlayer2">
+        <EditorCategories value=""/>
+        <WhichPlayer Value="Origin"/>
+        <Cost Abil="ZealotRespawn">
+            <Charge>
+                <CountMax value="1000"/>
+                <CountUse value="-1"/>
+                <Link value="Abil/ZealotRespawn"/>
+                <Location value="Player"/>
+            </Charge>
+        </Cost>
+    </CEffectModifyPlayer>
+    <CEffectSet id="ZealotRespawnDeathSet2">
+        <EditorCategories value="Race:Protoss"/>
+        <EffectArray value="ZealotRespawnRB2"/>
+        <EffectArray value="ZealotRespawnAddChargePlayer2"/>
+    </CEffectSet>
+    <CEffectRemoveBehavior id="ZealotRespawnRB2">
+        <EditorCategories value="Race:Zerg"/>
+        <WhichUnit Value="Source"/>
+        <BehaviorLink value="ZealotRespawnDeath"/>
+    </CEffectRemoveBehavior>
+    <CEffectDamage id="Zeratul2" parent="DU_WEAP">
+        <EditorCategories value="Race:Protoss"/>
+        <AttributeBonus index="Armored" value="25"/>
+        <Amount value="85"/>
+        <Death value="Eviscerate"/>
+    </CEffectDamage>
+    <CEffectDamage id="Zeratul3" parent="DU_WEAP">
+        <EditorCategories value="Race:Protoss"/>
+        <AttributeBonus index="Armored" value="25"/>
+        <Amount value="85"/>
+        <Death value="Eviscerate"/>
+    </CEffectDamage>
+    <CEffectTeleport id="ZeratulBlink2">
+        <EditorCategories value="Race:Protoss"/>
+        <WhichUnit Value="Caster"/>
+        <ClearQueuedOrders value="0"/>
+        <PlacementAround Value="CasterUnit"/>
+        <PlacementRange value="8"/>
+        <Range value="8"/>
+        <TargetLocation Value="TargetPoint"/>
+        <TeleportFlags index="TestCliff" value="1"/>
+    </CEffectTeleport>
+    <CEffectTeleport id="ZeratulBlink3">
+        <EditorCategories value="Race:Protoss"/>
+        <WhichUnit Value="Caster"/>
+        <ClearQueuedOrders value="0"/>
+        <PlacementAround Value="CasterUnit"/>
+        <PlacementRange value="8"/>
+        <Range value="8"/>
+        <TargetLocation Value="TargetPoint"/>
+        <TeleportFlags index="TestCliff" value="1"/>
+    </CEffectTeleport>
+    <CEffectApplyBehavior id="ZeratulDarkTemplarRetreatCooldownAB2">
+        <EditorCategories value="Race:Protoss"/>
+        <Behavior value="ZeratulDarkTemplarRetreatCooldown2"/>
+    </CEffectApplyBehavior>
+    <CEffectApplyBehavior id="ZeratulDarkTemplarStasisAB2">
+        <EditorCategories value="Race:Protoss"/>
+        <WhichUnit Value="Caster"/>
+        <Behavior value="ZeratulDarkTemplarStasis2"/>
+    </CEffectApplyBehavior>
+    <CEffectModifyUnit id="ZeratulDarkTemplarStasisHeal2">
+        <EditorCategories value="Race:Protoss"/>
+        <VitalArray index="Life">
+            <ChangeFraction value="0.05"/>
+        </VitalArray>
+        <VitalArray index="Shields">
+            <ChangeFraction value="0.05"/>
+        </VitalArray>
+    </CEffectModifyUnit>
+    <CEffectApplyBehavior id="ZeratulStunApplyBehavior2">
+        <ValidatorArray index="0" value="NotHeroic"/>
+        <ValidatorArray value="TargetIsNotUnstoppable"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Behavior value="ZeratulStun2"/>
+    </CEffectApplyBehavior>
+    <CEffectApplyBehavior id="ZeratulStunApplyBehavior3">
+        <ValidatorArray index="0" value="NotHeroic"/>
+        <ValidatorArray value="TargetIsNotUnstoppable"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Behavior value="ZeratulStun3"/>
+    </CEffectApplyBehavior>
+    <CEffectEnumArea id="ZeratulVoidPrisonSearch2">
+        <ValidatorArray value="ZeratulVoidPrisonTargetsInArea"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ImpactLocation Value="TargetPoint"/>
+        <SearchFilters value="-;Self,Player,Ally,Neutral,Heroic,User1,RawResource,HarvestableResource,Missile,Item,Stasis,Dead,Invulnerable,MapBoss"/>
+        <AreaArray Radius="2" Effect="ZeratulStunApplyBehavior2"/>
+    </CEffectEnumArea>
+    <CEffectEnumArea id="ZeratulVoidPrisonSearch3">
+        <ValidatorArray value="ZeratulVoidPrisonTargetsInArea"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ImpactLocation Value="TargetPoint"/>
+        <SearchFilters value="-;Self,Player,Ally,Neutral,Heroic,User1,RawResource,HarvestableResource,Missile,Item,Stasis,Dead,Invulnerable,MapBoss"/>
+        <AreaArray Radius="2" Effect="ZeratulStunApplyBehavior3"/>
+    </CEffectEnumArea>
     <CEffectApplyBehavior id="ZerglingArmorShredTargetAB2">
         <ValidatorArray index="0" value="HaveZerglingArmorShred"/>
         <EditorCategories value="Race:Zerg"/>

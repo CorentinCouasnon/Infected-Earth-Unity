@@ -48,6 +48,33 @@
             </SectionArray>
         </InfoArray>
     </CAbilMorph>
+    <CAbilEffectTarget id="TestZeratulCharge">
+        <Alignment value="Negative"/>
+        <OrderArray index="0" Model="Assets\UI\Cursors\WayPointConfirm_Void\WayPointConfirm_Void.m3"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Flags index="AllowMovement" value="1"/>
+        <Flags index="AutoCast" value="1"/>
+    </CAbilEffectTarget>
+    <CAbilAugment id="ZeratulCharge3">
+        <Alignment value="Negative"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="Charge" Requirements="UseCharge"/>
+        <Flags index="AutoCast" value="1"/>
+        <Flags index="AutoCastOn" value="1"/>
+        <AbilCmd value="attack,Execute"/>
+        <Cost>
+            <Display index="Energy" value="1"/>
+            <Vital index="Energy" value="75"/>
+            <Cooldown>
+                <Link value="ChargeCharge3ChargeZeratulCharge3"/>
+                <Location value="Unit"/>
+                <TimeStart value="5"/>
+                <TimeUse value="5"/>
+            </Cooldown>
+        </Cost>
+        <Effect value="Charge"/>
+        <AutoCastValidatorArray value="CasterNotHoldingPosition"/>
+    </CAbilAugment>
     <CAbilResearch id="EngineeringBayResearch2">
         <EditorCategories value="Race:Terran,AbilityorEffectType:Structures"/>
         <InfoArray index="Research1" Time="60" Upgrade="HiSecAutoTracking">
@@ -519,6 +546,12 @@
         </InfoArray>
         <Alert value="MorphComplete_Zerg"/>
     </CAbilTrain>
+    <CAbilRally id="RallyZeratulTopBar2">
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Structures"/>
+        <InfoArray index="0" AllowSetFilters="-;Player,Ally,Neutral,Enemy"/>
+        <Flags index="ShowWhileMerging" value="1"/>
+        <Flags index="ShowWhileWarping" value="1"/>
+    </CAbilRally>
     <CAbilResearch id="SIEngineeringBayResearch2">
         <EditorCategories value="Race:Zerg,AbilityorEffectType:Structures"/>
         <InfoArray index="Research1" Time="160" Upgrade="SIInfantryWeaponsLevel1">
@@ -707,6 +740,104 @@
         <AcquirePriority value="10"/>
         <CmdButtonArray index="Execute" DefaultButtonFace="TossGrenade2"/>
     </CAbilEffectTarget>
+    <CAbilWarpable id="WarpableZeratul2">
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Cancelable value="1"/>
+        <VitalStartFactor index="Life" value="1"/>
+        <VitalStartFactor index="Shields" value="1"/>
+        <VitalStartFactor index="Energy" value="10"/>
+    </CAbilWarpable>
+    <CAbilEffectTarget id="ZeratulBlink2">
+        <AbilSetId value="Blnk"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Flags index="BestUnit" value="0"/>
+        <Flags index="RequireTargetVision" value="0"/>
+        <Cost>
+            <Charge>
+                <CountMax value="1"/>
+                <CountStart value="1"/>
+                <CountUse value="1"/>
+                <TimeUse value="8"/>
+            </Charge>
+        </Cost>
+        <Range value="500"/>
+        <Arc value="360"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="ZeratulBlink">
+            <Flags index="ToSelection" value="1"/>
+        </CmdButtonArray>
+    </CAbilEffectTarget>
+    <CAbilEffectTarget id="ZeratulBlink3">
+        <AbilSetId value="Blnk"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Flags index="BestUnit" value="0"/>
+        <Flags index="RequireTargetVision" value="0"/>
+        <Cost>
+            <Charge>
+                <CountMax value="1"/>
+                <CountStart value="1"/>
+                <CountUse value="1"/>
+                <TimeUse value="8"/>
+            </Charge>
+        </Cost>
+        <Range value="500"/>
+        <Arc value="360"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="ZeratulBlink">
+            <Flags index="ToSelection" value="1"/>
+        </CmdButtonArray>
+    </CAbilEffectTarget>
+    <CAbilAugment id="ZeratulCharge2">
+        <Alignment value="Negative"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="Charge" Requirements="HaveLegendaryLegionAbilities"/>
+        <Flags index="AutoCast" value="1"/>
+        <Flags index="AutoCastOn" value="1"/>
+        <AbilCmd value="attack,Execute"/>
+        <Cost>
+            <Cooldown Link="Charge" Location="Unit" TimeUse="10"/>
+        </Cost>
+        <Effect value="Charge"/>
+        <AutoCastValidatorArray value="CasterNotHoldingPosition"/>
+    </CAbilAugment>
+    <CAbilEffectTarget id="ZeratulStun2">
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Effect index="0" value="ZeratulVoidPrisonSearch2"/>
+        <Cost>
+            <Cooldown TimeUse="22"/>
+        </Cost>
+        <Range value="6"/>
+        <CursorEffect value="ZeratulVoidPrisonSearch"/>
+        <AINotifyEffect value=""/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="ZeratulStun"/>
+    </CAbilEffectTarget>
+    <CAbilEffectTarget id="ZeratulStun3">
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Effect index="0" value="ZeratulVoidPrisonSearch3"/>
+        <Cost>
+            <Cooldown TimeUse="22"/>
+        </Cost>
+        <Range value="6"/>
+        <CursorEffect value="ZeratulVoidPrisonSearch"/>
+        <AINotifyEffect value=""/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="ZeratulStun"/>
+    </CAbilEffectTarget>
+    <CAbilEffectInstant id="ZeratulZealotWhirlwind2">
+        <Name value="Abil/Name/VoidZealotWhirlwind"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Effect index="0" value="VoidZealotWhirlwindSet2"/>
+        <Flags index="AutoCast" value="1"/>
+        <Flags index="AutoCastOn" value="1"/>
+        <Flags index="TransientPreferred" value="1"/>
+        <Cost>
+            <Cooldown TimeUse="10"/>
+        </Cost>
+        <AutoCastFilters value="Visible;Player,Ally,Neutral"/>
+        <AutoCastRange value="1.5"/>
+        <AutoCastValidatorArray value="VoidZealotWhirlwindCheck"/>
+        <CastOutroTime value="1.2"/>
+        <UninterruptibleArray index="Cast" value="1"/>
+        <AINotifyEffect value="VoidZealotWhirlwind"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="VoidZealotWhirlwind"/>
+    </CAbilEffectInstant>
     <CAbilAttack id="attack2">
         <TargetMessage value="Abil/TargetMessage/attack2"/>
         <MinAttackSpeedMultiplier value="0.25"/>
@@ -719,6 +850,31 @@
     </CAbilAttack>
     <CAbilAttack id="attack4">
         <TargetMessage value="Abil/TargetMessage/attack4"/>
+        <MinAttackSpeedMultiplier value="0.25"/>
+        <MaxAttackSpeedMultiplier value="128"/>
+    </CAbilAttack>
+    <CAbilAttack id="attack5">
+        <TargetMessage value="Abil/TargetMessage/attack5"/>
+        <MinAttackSpeedMultiplier value="0.25"/>
+        <MaxAttackSpeedMultiplier value="128"/>
+    </CAbilAttack>
+    <CAbilAttack id="attack6">
+        <TargetMessage value="Abil/TargetMessage/attack6"/>
+        <MinAttackSpeedMultiplier value="0.25"/>
+        <MaxAttackSpeedMultiplier value="128"/>
+    </CAbilAttack>
+    <CAbilAttack id="attack7">
+        <TargetMessage value="Abil/TargetMessage/attack7"/>
+        <MinAttackSpeedMultiplier value="0.25"/>
+        <MaxAttackSpeedMultiplier value="128"/>
+    </CAbilAttack>
+    <CAbilAttack id="attack8">
+        <TargetMessage value="Abil/TargetMessage/attack8"/>
+        <MinAttackSpeedMultiplier value="0.25"/>
+        <MaxAttackSpeedMultiplier value="128"/>
+    </CAbilAttack>
+    <CAbilAttack id="attack9">
+        <TargetMessage value="Abil/TargetMessage/attack9"/>
         <MinAttackSpeedMultiplier value="0.25"/>
         <MaxAttackSpeedMultiplier value="128"/>
     </CAbilAttack>
@@ -746,6 +902,30 @@
         <MinPatrolDistance value="1"/>
         <FollowFilters value="-;Hover"/>
     </CAbilMove>
+    <CAbilMove id="move5">
+        <FleeRange value="5"/>
+        <FleeTime value="5"/>
+        <FollowRangeSlop value="1"/>
+        <FollowAcquireRange value="6"/>
+        <MinPatrolDistance value="1"/>
+        <FollowFilters value="-;Hover"/>
+    </CAbilMove>
+    <CAbilMove id="move6">
+        <FleeRange value="5"/>
+        <FleeTime value="5"/>
+        <FollowRangeSlop value="1"/>
+        <FollowAcquireRange value="6"/>
+        <MinPatrolDistance value="1"/>
+        <FollowFilters value="-;Hover"/>
+    </CAbilMove>
+    <CAbilMove id="move7">
+        <FleeRange value="5"/>
+        <FleeTime value="5"/>
+        <FollowRangeSlop value="1"/>
+        <FollowAcquireRange value="6"/>
+        <MinPatrolDistance value="1"/>
+        <FollowFilters value="-;Hover"/>
+    </CAbilMove>
     <CAbilQueue id="que12">
         <EditorCategories value="Race:Neutral,AbilityorEffectType:Structures"/>
         <QueueSize value="1"/>
@@ -761,6 +941,15 @@
         <CmdButtonArray index="HoldFire" DefaultButtonFace="HoldFireSpecial"/>
     </CAbilStop>
     <CAbilStop id="stop4">
+        <CmdButtonArray index="HoldFire" DefaultButtonFace="HoldFireSpecial"/>
+    </CAbilStop>
+    <CAbilStop id="stop5">
+        <CmdButtonArray index="HoldFire" DefaultButtonFace="HoldFireSpecial"/>
+    </CAbilStop>
+    <CAbilStop id="stop6">
+        <CmdButtonArray index="HoldFire" DefaultButtonFace="HoldFireSpecial"/>
+    </CAbilStop>
+    <CAbilStop id="stop7">
         <CmdButtonArray index="HoldFire" DefaultButtonFace="HoldFireSpecial"/>
     </CAbilStop>
 </Catalog>

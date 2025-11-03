@@ -16,6 +16,9 @@
     <CRequirement id="UseBattlecruiserSpecializations">
         <NodeArray index="Use" Link="AllowAbilSJHyperionBanshees03622066930TechTreeCheat"/>
     </CRequirement>
+    <CRequirement id="UseCharge">
+        <NodeArray index="Use" Link="AllowAbilSJHyperionBanshees0137519211TechTreeCheat"/>
+    </CRequirement>
     <CRequirement id="UseStimpack">
         <NodeArray index="Use" Link="AllowAbilStimpackZerg02357366498TechTreeCheat"/>
     </CRequirement>
@@ -26,5 +29,8 @@
     <CRequirement id="UseStimpack3">
         <EditorCategories value="Race:Terran,TechType:Ability"/>
         <NodeArray index="Use" Link="AllowAbilStimpackZerg02357366498TechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="ZeratulLevel082">
+        <NodeArray index="Show" Link="AndCountUpgradeZeratulCommanderCompleteOnlyGT8CountUpgradeCommanderLevelCompleteOnly"/>
     </CRequirement>
 </Catalog>
