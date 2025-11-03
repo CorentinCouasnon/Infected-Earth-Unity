@@ -51,6 +51,30 @@
         <Backswing value="0.1"/>
         <Effect value="RaynorGaussRifleDamage2"/>
     </CWeaponLegacy>
+    <CWeaponLegacy id="RaynorWeapon2">
+        <EditorCategories value="Race:Terran"/>
+        <Icon value="Assets\Textures\btn-upgrade-terran-infantryweaponslevel0.dds"/>
+        <DisplayEffect value="RaynorWeaponU"/>
+        <TargetFilters value="Visible;Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <MinScanRange value="6.5"/>
+        <Range value="6"/>
+        <Period value="0.8608"/>
+        <DamagePoint value="0.05"/>
+        <Backswing value="0.75"/>
+        <Effect value="RaynorWeaponU"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="RaynorWeapon3">
+        <EditorCategories value="Race:Terran"/>
+        <Icon value="Assets\Textures\btn-upgrade-terran-infantryweaponslevel0.dds"/>
+        <DisplayEffect value="RaynorWeaponU"/>
+        <TargetFilters value="Visible;Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <MinScanRange value="6.5"/>
+        <Range value="6"/>
+        <Period value="0.8608"/>
+        <DamagePoint value="0.05"/>
+        <Backswing value="0.75"/>
+        <Effect value="RaynorWeaponU"/>
+    </CWeaponLegacy>
     <CWeaponLegacy id="ZeratulSwords">
         <EditorCategories value="Race:Protoss"/>
         <Options index="Melee" value="1"/>

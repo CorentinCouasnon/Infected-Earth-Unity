@@ -423,6 +423,16 @@
         <Amount value="110"/>
         <Death value="Disintegrate"/>
     </CEffectDamage>
+    <CEffectDamage id="RaynorWeaponU2" parent="DU_WEAP">
+        <EditorCategories value="Race:Terran"/>
+        <Kind value="Ranged"/>
+        <Amount value="16"/>
+    </CEffectDamage>
+    <CEffectDamage id="RaynorWeaponU3" parent="DU_WEAP">
+        <EditorCategories value="Race:Terran"/>
+        <Kind value="Ranged"/>
+        <Amount value="16"/>
+    </CEffectDamage>
     <CEffectRemoveBehavior id="RemoveAllDot2">
         <BehaviorCategories index="User15" value="1"/>
     </CEffectRemoveBehavior>

@@ -8,11 +8,11 @@ void Player_CreateHeroUnit(int player)
     }
     else if (gv_playersData[player - 1].selectedHeroIndex == 1)
     {
-        heroUnit = "Marine";
+        heroUnit = "ZeratulIEUHero";
     }
     else
     {
-        heroUnit = "Baneling";
+        heroUnit = "";
     }
 
     libNtve_gf_CreateUnitsWithDefaultFacing(1, heroUnit, 0, player, PointFromName("Terran_SpawnPoint"));

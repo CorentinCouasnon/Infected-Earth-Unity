@@ -23,6 +23,29 @@
         <Name value="Upgrade/Name/ZergMeleeWeapons2"/>
         <AffectedUnitArray index="5" value="Zergling2"/>
     </CUpgrade>
+    <CUpgrade id="BaseDmgUpgrade">
+        <Name value="Upgrade/BaseDmgUpgrade"/>
+        <EffectArray Reference="Weapon,FusildeRaynor,Level" Value="1"/>
+        <EffectArray Reference="Effect,RaynorGaussRifleDamage2,Amount" Value="5"/>
+        <EffectArray Reference="Abil,RaynorUpgrades,InfoArray[Research1].Resource[Minerals]" Value="10"/>
+        <EffectArray Reference="Abil,ZeratulUpgrades,InfoArray[Research1].Resource[Minerals]" Value="10"/>
+        <EffectArray Reference="Effect,ZealotAiurWeapon2,Amount" Value="5"/>
+        <EffectArray Reference="Weapon,ZeratulSwords,Level" Value="1"/>
+        <MaxLevel value="50"/>
+    </CUpgrade>
+    <CUpgrade id="BaseHealthUpgrade">
+        <Name value="Upgrade/BaseHealthUpgrade"/>
+        <EffectArray Reference="Unit,JimRaynorIEUHero,LifeMax" Value="50"/>
+        <EffectArray Reference="Abil,RaynorUpgrades,InfoArray[Research2].Resource[Minerals]" Value="5"/>
+        <MaxLevel value="50"/>
+    </CUpgrade>
+    <CUpgrade id="BaseArmorUpgrade">
+        <Name value="Upgrade/BaseArmorUpgrade"/>
+        <EffectArray Reference="Unit,JimRaynorIEUHero,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,JimRaynorIEUHero,LifeArmor" Value="1"/>
+        <EffectArray Reference="Abil,RaynorUpgrades,InfoArray[Research3].Resource[Minerals]" Value="20"/>
+        <MaxLevel value="10"/>
+    </CUpgrade>
     <CUpgrade id="Burrow2">
         <Icon value="Assets\Textures\btn-ability-zerg-burrow-color.dds"/>
         <Alert value="ResearchComplete"/>
