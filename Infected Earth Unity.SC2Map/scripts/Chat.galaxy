@@ -1,6 +1,7 @@
 void Chat_Init()
 {
     TriggerAddEventChatMessage(TriggerCreate("Chat_SetZoom"), c_playerAny, "-zoom", false);
+    TriggerAddEventChatMessage(TriggerCreate("Chat_UnlockCam"), c_playerAny, "-unlockcam", false);
 }
 
 bool Chat_SetZoom(bool testConds, bool runActions)
@@ -11,6 +12,13 @@ bool Chat_SetZoom(bool testConds, bool runActions)
     {
         Camera_SetZoomForPlayer(EventPlayer(), StringToInt(param));
     }
+
+    return true;
+}
+
+bool Chat_UnlockCam(bool testConds, bool runActions)
+{
+    CameraSetBounds(PlayerGroupSingle(EventPlayer()), RegionEntireMap(), true);
 
     return true;
 }
