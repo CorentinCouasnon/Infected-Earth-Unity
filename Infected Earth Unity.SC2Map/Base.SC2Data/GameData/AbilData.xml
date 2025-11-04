@@ -118,6 +118,32 @@
             </SectionArray>
         </InfoArray>
     </CAbilMorph>
+    <CAbilEffectTarget id="D8Charge2">
+        <Alignment value="Negative"/>
+        <EditorCategories value="Race:Terran,AbilityorEffectType:Units"/>
+        <DataCollection value="D8Charge"/>
+        <Cost>
+            <Cooldown Link="D8ChargeD8Charge2" TimeUse="60"/>
+        </Cost>
+        <TargetFilters value="Ground,Visible;-"/>
+        <Range value="5"/>
+        <CastOutroTime value="0.35"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="D8Charge" Requirements="UseG4ClusterBombs"/>
+    </CAbilEffectTarget>
+    <CAbilEffectTarget id="D8Charge3">
+        <Alignment value="Negative"/>
+        <EditorCategories value="Race:Terran,AbilityorEffectType:Units"/>
+        <DataCollection value="D8Charge"/>
+        <Effect index="0" value="D8Charge"/>
+        <Cost>
+            <Cooldown Link="D8ChargeD8Charge3" TimeUse="60"/>
+        </Cost>
+        <TargetFilters value="Ground,Visible;-"/>
+        <Range value="5"/>
+        <CastOutroTime value="0.35"/>
+        <AINotifyEffect value="D8Charge"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="D8Charge" Requirements="UseG4ClusterBombs"/>
+    </CAbilEffectTarget>
     <CAbilResearch id="EngineeringBayResearch4">
         <EditorCategories value="Race:Terran,AbilityorEffectType:Structures"/>
         <InfoArray index="Research1" Time="60" Upgrade="HiSecAutoTracking">
@@ -364,6 +390,34 @@
             <Button DefaultButtonFace="ResearchFortifiedBunker" State="Restricted" Requirements="LearnFortifiedBunker"/>
         </InfoArray>
     </CAbilResearch>
+    <CAbilEffectTarget id="KD8Charge2">
+        <Alignment value="Negative"/>
+        <EditorCategories value="Race:Terran,AbilityorEffectType:Units"/>
+        <DataCollection value="KD8Charge"/>
+        <Effect index="0" value="KD8Charge"/>
+        <Cost>
+            <Cooldown Link="KD8ChargeKD8Charge2" TimeUse="10"/>
+        </Cost>
+        <TargetFilters value="Ground,Visible;-"/>
+        <Range value="5"/>
+        <CastOutroTime value="0.35"/>
+        <AINotifyEffect value="KD8Charge"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="KD8Charge"/>
+    </CAbilEffectTarget>
+    <CAbilEffectTarget id="KD8Charge3">
+        <Alignment value="Negative"/>
+        <EditorCategories value="Race:Terran,AbilityorEffectType:Units"/>
+        <DataCollection value="KD8Charge"/>
+        <Effect index="0" value="KD8Charge"/>
+        <Cost>
+            <Cooldown Link="KD8ChargeKD8Charge3" TimeUse="10"/>
+        </Cost>
+        <TargetFilters value="Ground,Visible;-"/>
+        <Range value="5"/>
+        <CastOutroTime value="0.35"/>
+        <AINotifyEffect value="KD8Charge"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="KD8Charge"/>
+    </CAbilEffectTarget>
     <CAbilEffectTarget id="NovaBlink">
         <CmdButtonArray index="Execute" Requirements=""/>
     </CAbilEffectTarget>
@@ -394,6 +448,108 @@
             <Button DefaultButtonFace="TerranInfantryArmorLevel1"/>
         </InfoArray>
     </CAbilResearch>
+    <CAbilEffectInstant id="Stimpack2">
+        <AbilSetId value="Stimpack"/>
+        <EditorCategories value="Race:Terran,AbilityorEffectType:Units"/>
+        <InfoTooltipPriority value="1"/>
+        <Effect index="0" value="Stimpack4"/>
+        <Flags index="Transient" value="1"/>
+        <Cost>
+            <Vital index="Life" value="10"/>
+        </Cost>
+        <CmdButtonArray index="Execute" DefaultButtonFace="Stim" Requirements="UseStimpack">
+            <Flags index="ToSelection" value="1"/>
+        </CmdButtonArray>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="Stimpack3">
+        <AbilSetId value="Stimpack"/>
+        <EditorCategories value="Race:Terran,AbilityorEffectType:Units"/>
+        <InfoTooltipPriority value="1"/>
+        <DataCollection value="Stimpack"/>
+        <Effect index="0" value="Stimpack5"/>
+        <Flags index="Transient" value="1"/>
+        <Cost>
+            <Vital index="Life" value="10"/>
+        </Cost>
+        <CmdButtonArray index="Execute" DefaultButtonFace="Stim" Requirements="UseStimpack">
+            <Flags index="ToSelection" value="1"/>
+        </CmdButtonArray>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="Stimpack4">
+        <AbilSetId value="Stimpack"/>
+        <EditorCategories value="Race:Terran,AbilityorEffectType:Units"/>
+        <InfoTooltipPriority value="1"/>
+        <DataCollection value="Stimpack"/>
+        <Effect index="0" value="Stimpack6"/>
+        <Flags index="Transient" value="1"/>
+        <Cost>
+            <Vital index="Life" value="10"/>
+        </Cost>
+        <CmdButtonArray index="Execute" DefaultButtonFace="Stim" Requirements="UseStimpack">
+            <Flags index="ToSelection" value="1"/>
+        </CmdButtonArray>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="Stimpack5">
+        <AbilSetId value="Stimpack"/>
+        <EditorCategories value="Race:Terran,AbilityorEffectType:Units"/>
+        <InfoTooltipPriority value="1"/>
+        <Effect index="0" value="Stimpack7"/>
+        <Flags index="Transient" value="1"/>
+        <Cost>
+            <Vital index="Life" value="10"/>
+        </Cost>
+        <CmdButtonArray index="Execute" DefaultButtonFace="Stim" Requirements="UseStimpack">
+            <Flags index="ToSelection" value="1"/>
+        </CmdButtonArray>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="StimpackZerg2">
+        <AbilSetId value="Damage augment"/>
+        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
+        <InfoTooltipPriority value="1"/>
+        <DataCollection value="StimpackZerg"/>
+        <Effect index="0" value="Stimpack2"/>
+        <Flags index="Transient" value="1"/>
+        <Cost>
+            <Vital index="Life" value="10"/>
+        </Cost>
+        <AINotifyEffect value="Stimpack2"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="Stim4" Requirements="UseStimpack">
+            <Flags index="AllowSelfCast" value="1"/>
+            <Flags index="ToSelection" value="1"/>
+        </CmdButtonArray>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="StimpackZerg3">
+        <AbilSetId value="Damage augment"/>
+        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
+        <InfoTooltipPriority value="1"/>
+        <DataCollection value="StimpackZerg"/>
+        <Effect index="0" value="Stimpack2"/>
+        <Flags index="Transient" value="1"/>
+        <Cost>
+            <Vital index="Life" value="10"/>
+        </Cost>
+        <AINotifyEffect value="Stimpack2"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="Stim4" Requirements="UseStimpack">
+            <Flags index="AllowSelfCast" value="1"/>
+            <Flags index="ToSelection" value="1"/>
+        </CmdButtonArray>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="StimpackZerg4">
+        <AbilSetId value="Damage augment"/>
+        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
+        <InfoTooltipPriority value="1"/>
+        <DataCollection value="StimpackZerg"/>
+        <Effect index="0" value="Stimpack2"/>
+        <Flags index="Transient" value="1"/>
+        <Cost>
+            <Vital index="Life" value="10"/>
+        </Cost>
+        <AINotifyEffect value="Stimpack2"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="Stim4" Requirements="UseStimpack">
+            <Flags index="AllowSelfCast" value="1"/>
+            <Flags index="ToSelection" value="1"/>
+        </CmdButtonArray>
+    </CAbilEffectInstant>
     <CAbilResearch id="ZeratulUpgrades">
         <EditorCategories value="AbilityorEffectType:Units"/>
         <DataCollection value="RaynorUpgrades"/>
@@ -1215,6 +1371,41 @@
         <MinAttackSpeedMultiplier value="0.25"/>
         <MaxAttackSpeedMultiplier value="128"/>
     </CAbilAttack>
+    <CAbilAttack id="attack13">
+        <TargetMessage value="Abil/TargetMessage/attack13"/>
+        <DataCollection value="attack"/>
+        <MinAttackSpeedMultiplier value="0.25"/>
+        <MaxAttackSpeedMultiplier value="128"/>
+    </CAbilAttack>
+    <CAbilAttack id="attack14">
+        <TargetMessage value="Abil/TargetMessage/attack14"/>
+        <DataCollection value="attack"/>
+        <MinAttackSpeedMultiplier value="0.25"/>
+        <MaxAttackSpeedMultiplier value="128"/>
+    </CAbilAttack>
+    <CAbilAttack id="attack15">
+        <TargetMessage value="Abil/TargetMessage/attack15"/>
+        <DataCollection value="attack"/>
+        <MinAttackSpeedMultiplier value="0.25"/>
+        <MaxAttackSpeedMultiplier value="128"/>
+    </CAbilAttack>
+    <CAbilAttack id="attack16">
+        <TargetMessage value="Abil/TargetMessage/attack16"/>
+        <DataCollection value="attack"/>
+        <MinAttackSpeedMultiplier value="0.25"/>
+        <MaxAttackSpeedMultiplier value="128"/>
+    </CAbilAttack>
+    <CAbilAttack id="attack17">
+        <TargetMessage value="Abil/TargetMessage/attack17"/>
+        <DataCollection value="attack"/>
+        <MinAttackSpeedMultiplier value="0.25"/>
+        <MaxAttackSpeedMultiplier value="128"/>
+    </CAbilAttack>
+    <CAbilAttack id="attack18">
+        <TargetMessage value="Abil/TargetMessage/attack18"/>
+        <MinAttackSpeedMultiplier value="0.25"/>
+        <MaxAttackSpeedMultiplier value="128"/>
+    </CAbilAttack>
     <CAbilAttack id="attack2">
         <TargetMessage value="Abil/TargetMessage/attack2"/>
         <MinAttackSpeedMultiplier value="0.25"/>
@@ -1256,6 +1447,59 @@
         <MaxAttackSpeedMultiplier value="128"/>
     </CAbilAttack>
     <CAbilMove id="move10">
+        <FleeRange value="5"/>
+        <FleeTime value="5"/>
+        <FollowRangeSlop value="1"/>
+        <FollowAcquireRange value="6"/>
+        <MinPatrolDistance value="1"/>
+        <FollowFilters value="-;Hover"/>
+    </CAbilMove>
+    <CAbilMove id="move11">
+        <DataCollection value="move"/>
+        <FleeRange value="5"/>
+        <FleeTime value="5"/>
+        <FollowRangeSlop value="1"/>
+        <FollowAcquireRange value="6"/>
+        <MinPatrolDistance value="1"/>
+        <FollowFilters value="-;Hover"/>
+    </CAbilMove>
+    <CAbilMove id="move12">
+        <DataCollection value="move"/>
+        <FleeRange value="5"/>
+        <FleeTime value="5"/>
+        <FollowRangeSlop value="1"/>
+        <FollowAcquireRange value="6"/>
+        <MinPatrolDistance value="1"/>
+        <FollowFilters value="-;Hover"/>
+    </CAbilMove>
+    <CAbilMove id="move13">
+        <DataCollection value="move"/>
+        <FleeRange value="5"/>
+        <FleeTime value="5"/>
+        <FollowRangeSlop value="1"/>
+        <FollowAcquireRange value="6"/>
+        <MinPatrolDistance value="1"/>
+        <FollowFilters value="-;Hover"/>
+    </CAbilMove>
+    <CAbilMove id="move14">
+        <DataCollection value="move"/>
+        <FleeRange value="5"/>
+        <FleeTime value="5"/>
+        <FollowRangeSlop value="1"/>
+        <FollowAcquireRange value="6"/>
+        <MinPatrolDistance value="1"/>
+        <FollowFilters value="-;Hover"/>
+    </CAbilMove>
+    <CAbilMove id="move15">
+        <DataCollection value="move"/>
+        <FleeRange value="5"/>
+        <FleeTime value="5"/>
+        <FollowRangeSlop value="1"/>
+        <FollowAcquireRange value="6"/>
+        <MinPatrolDistance value="1"/>
+        <FollowFilters value="-;Hover"/>
+    </CAbilMove>
+    <CAbilMove id="move16">
         <FleeRange value="5"/>
         <FleeTime value="5"/>
         <FollowRangeSlop value="1"/>
@@ -1336,6 +1580,29 @@
         <QueueSize value="1"/>
     </CAbilQueue>
     <CAbilStop id="stop10">
+        <CmdButtonArray index="HoldFire" DefaultButtonFace="HoldFireSpecial"/>
+    </CAbilStop>
+    <CAbilStop id="stop11">
+        <DataCollection value="stop"/>
+        <CmdButtonArray index="HoldFire" DefaultButtonFace="HoldFireSpecial"/>
+    </CAbilStop>
+    <CAbilStop id="stop12">
+        <DataCollection value="stop"/>
+        <CmdButtonArray index="HoldFire" DefaultButtonFace="HoldFireSpecial"/>
+    </CAbilStop>
+    <CAbilStop id="stop13">
+        <DataCollection value="stop"/>
+        <CmdButtonArray index="HoldFire" DefaultButtonFace="HoldFireSpecial"/>
+    </CAbilStop>
+    <CAbilStop id="stop14">
+        <DataCollection value="stop"/>
+        <CmdButtonArray index="HoldFire" DefaultButtonFace="HoldFireSpecial"/>
+    </CAbilStop>
+    <CAbilStop id="stop15">
+        <DataCollection value="stop"/>
+        <CmdButtonArray index="HoldFire" DefaultButtonFace="HoldFireSpecial"/>
+    </CAbilStop>
+    <CAbilStop id="stop16">
         <CmdButtonArray index="HoldFire" DefaultButtonFace="HoldFireSpecial"/>
     </CAbilStop>
     <CAbilStop id="stop2">

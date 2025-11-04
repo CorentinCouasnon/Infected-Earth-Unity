@@ -12,6 +12,21 @@
         <Flags index="TechTreeCheat" value="1"/>
         <Link value="StimpackZerg"/>
     </CRequirementAllowAbil>
+    <CRequirementAllowUnit id="AllowUnitMarine2">
+        <Link value="Marine2"/>
+    </CRequirementAllowUnit>
+    <CRequirementAllowUnit id="AllowUnitMarine3">
+        <Link value="Marine2"/>
+    </CRequirementAllowUnit>
+    <CRequirementAllowUnit id="AllowUnitMarine32">
+        <Link value="Marine22"/>
+    </CRequirementAllowUnit>
+    <CRequirementAllowUnit id="AllowUnitMarine4">
+        <Link value="Marine2"/>
+    </CRequirementAllowUnit>
+    <CRequirementAllowUnit id="AllowUnitMarine5">
+        <Link value="Marine2"/>
+    </CRequirementAllowUnit>
     <CRequirementCountUpgrade id="CountUpgradeChargeCompleteOnly137519211TechTreeCheat2">
         <Tooltip value="RequirementNode/Tooltip/UpgradeChargeCompleteOnly"/>
         <Count Link="Charge2" State="CompleteOnly"/>

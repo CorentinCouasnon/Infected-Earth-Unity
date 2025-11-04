@@ -3,6 +3,8 @@ Abil/Name/BurrowRavagerDown2=Burrow
 Abil/Name/BurrowRoachDown2=Burrow (Roach)
 Abil/Name/BurrowZerglingDown2=Burrow (Zergling)
 Abil/Name/BurrowZerglingDown3=Burrow (Zergling)
+Abil/Name/D8Charge2=G-4 Charge
+Abil/Name/D8Charge3=G-4 Charge
 Abil/Name/EngineeringBayResearch2=Research (Engineering Bay)
 Abil/Name/EngineeringBayResearch22=Research (Engineering Bay)
 Abil/Name/EngineeringBayResearch3=Research (Engineering Bay)
@@ -11,6 +13,8 @@ Abil/Name/EngineeringBayResearch5=Research (Engineering Bay)
 Abil/Name/Explode2=Explode
 Abil/Name/GrenadeStarfoulah=Grenade Starfoulah
 Abil/Name/HydraliskFrenzy2=Hydralisk Frenzy
+Abil/Name/KD8Charge2=KD8 Charge
+Abil/Name/KD8Charge3=KD8 Charge
 Abil/Name/MorphZerglingToBaneling2=Morph (Zergling -> Baneling)
 Abil/Name/MorphZerglingToBaneling3=Morph (Zergling -> Baneling)
 Abil/Name/MorphZerglingToHunter2=Morph (Zergling -> Hunter)
@@ -20,9 +24,16 @@ Abil/Name/RaynorUpgrades=Raynor Upgrades
 Abil/Name/SIEngineeringBayResearch2=Infested Engineering Bay Research
 Abil/Name/SpawningPoolResearch2=Research (Spawning Pool)
 Abil/Name/SpawningPoolResearch3=Research (Spawning Pool)
+Abil/Name/Stimpack2=Stimpack
+Abil/Name/Stimpack3=Stimpack
+Abil/Name/Stimpack4=Stimpack
+Abil/Name/Stimpack5=Stimpack
 Abil/Name/StimpackDeRaynor=StimpackDeRaynor
 Abil/Name/StimpackRedirect2=Stimpack Redirect
 Abil/Name/StimpackZerg=StimpackZerg
+Abil/Name/StimpackZerg2=StimpackZerg
+Abil/Name/StimpackZerg3=StimpackZerg
+Abil/Name/StimpackZerg4=StimpackZerg
 Abil/Name/TaurenStimpack2=Tauren Stimpack
 Abil/Name/TestZeratulCharge=TestZeratulCharge
 Abil/Name/WarpableZeratul2=Warpable Zeratul
@@ -33,6 +44,12 @@ Abil/Name/ZeratulCharge3=ZeratulCharge
 Abil/Name/ZeratulStun2=Void Prison
 Abil/Name/ZeratulStun3=Void Prison
 Abil/Name/ZeratulUpgrades=Zeratul Upgrades
+Abil/Name/attack13=Attack
+Abil/Name/attack14=Attack
+Abil/Name/attack15=Attack
+Abil/Name/attack16=Attack
+Abil/Name/attack17=Attack
+Abil/Name/attack18=Attack
 Abil/Name/attack2=Attack
 Abil/Name/attack3=Attack
 Abil/Name/attack4=Attack
@@ -42,6 +59,12 @@ Abil/Name/attack7=Attack
 Abil/Name/attack8=Attack
 Abil/Name/attack9=Attack
 Abil/Name/move10=Move
+Abil/Name/move11=Move
+Abil/Name/move12=Move
+Abil/Name/move13=Move
+Abil/Name/move14=Move
+Abil/Name/move15=Move
+Abil/Name/move16=Move
 Abil/Name/move2=Move
 Abil/Name/move3=Move
 Abil/Name/move4=Move
@@ -53,6 +76,12 @@ Abil/Name/move9=Move
 Abil/Name/que12=Queue (1)
 Abil/Name/que13=Queue (1)
 Abil/Name/stop10=Stop
+Abil/Name/stop11=Stop
+Abil/Name/stop12=Stop
+Abil/Name/stop13=Stop
+Abil/Name/stop14=Stop
+Abil/Name/stop15=Stop
+Abil/Name/stop16=Stop
 Abil/Name/stop2=Stop
 Abil/Name/stop3=Stop
 Abil/Name/stop4=Stop
@@ -64,6 +93,12 @@ Abil/Name/stop9=Stop
 Abil/TargetMessage/attack10=<IMG path="Assets\Textures\tutorialmouseleftbuttondown.dds" alignment="absolutemiddle"/>   To Attack<n/><IMG path="Assets\Textures\tutorialmouserightbuttondown.dds" alignment="absolutemiddle"/>   Cancel
 Abil/TargetMessage/attack11=<IMG path="Assets\Textures\tutorialmouseleftbuttondown.dds" alignment="absolutemiddle"/>   To Attack<n/><IMG path="Assets\Textures\tutorialmouserightbuttondown.dds" alignment="absolutemiddle"/>   Cancel
 Abil/TargetMessage/attack12=<IMG path="Assets\Textures\tutorialmouseleftbuttondown.dds" alignment="absolutemiddle"/>   To Attack<n/><IMG path="Assets\Textures\tutorialmouserightbuttondown.dds" alignment="absolutemiddle"/>   Cancel
+Abil/TargetMessage/attack13=<IMG path="Assets\Textures\tutorialmouseleftbuttondown.dds" alignment="absolutemiddle"/>   To Attack<n/><IMG path="Assets\Textures\tutorialmouserightbuttondown.dds" alignment="absolutemiddle"/>   Cancel
+Abil/TargetMessage/attack14=<IMG path="Assets\Textures\tutorialmouseleftbuttondown.dds" alignment="absolutemiddle"/>   To Attack<n/><IMG path="Assets\Textures\tutorialmouserightbuttondown.dds" alignment="absolutemiddle"/>   Cancel
+Abil/TargetMessage/attack15=<IMG path="Assets\Textures\tutorialmouseleftbuttondown.dds" alignment="absolutemiddle"/>   To Attack<n/><IMG path="Assets\Textures\tutorialmouserightbuttondown.dds" alignment="absolutemiddle"/>   Cancel
+Abil/TargetMessage/attack16=<IMG path="Assets\Textures\tutorialmouseleftbuttondown.dds" alignment="absolutemiddle"/>   To Attack<n/><IMG path="Assets\Textures\tutorialmouserightbuttondown.dds" alignment="absolutemiddle"/>   Cancel
+Abil/TargetMessage/attack17=<IMG path="Assets\Textures\tutorialmouseleftbuttondown.dds" alignment="absolutemiddle"/>   To Attack<n/><IMG path="Assets\Textures\tutorialmouserightbuttondown.dds" alignment="absolutemiddle"/>   Cancel
+Abil/TargetMessage/attack18=<IMG path="Assets\Textures\tutorialmouseleftbuttondown.dds" alignment="absolutemiddle"/>   To Attack<n/><IMG path="Assets\Textures\tutorialmouserightbuttondown.dds" alignment="absolutemiddle"/>   Cancel
 Abil/TargetMessage/attack2=<IMG path="Assets\Textures\tutorialmouseleftbuttondown.dds" alignment="absolutemiddle"/>   To Attack<n/><IMG path="Assets\Textures\tutorialmouserightbuttondown.dds" alignment="absolutemiddle"/>   Cancel
 Abil/TargetMessage/attack3=<IMG path="Assets\Textures\tutorialmouseleftbuttondown.dds" alignment="absolutemiddle"/>   To Attack<n/><IMG path="Assets\Textures\tutorialmouserightbuttondown.dds" alignment="absolutemiddle"/>   Cancel
 Abil/TargetMessage/attack4=<IMG path="Assets\Textures\tutorialmouseleftbuttondown.dds" alignment="absolutemiddle"/>   To Attack<n/><IMG path="Assets\Textures\tutorialmouserightbuttondown.dds" alignment="absolutemiddle"/>   Cancel
@@ -75,22 +110,37 @@ Abil/TargetMessage/attack9=<IMG path="Assets\Textures\tutorialmouseleftbuttondow
 Augmente la vitesse de déplacement et la vitesse d'attaque pendant 10 secondes. Régénère également 250 HP instantanément.=Augmente la vitesse de deplacement et la vitesse d attaque 
 Augmente la vitesse de déplacement et rend 250HP=Augmente la vitesse de déplacement et rend 250HP
 Behavior/Name/AlarakLightningStrikes2=Lightning Strikes
+Behavior/Name/AlarakLightningStrikes3=Lightning Strikes
 Behavior/Name/BileDucts2=Bile Ducts
 Behavior/Name/HydraliskFrenzy2=Frenzy
 Behavior/Name/KaraxUnitSpawnBarrier2=Unity Barrier
+Behavior/Name/KaraxUnitSpawnBarrier3=Unity Barrier
 Behavior/Name/KaraxUnitSpawnBarrierDisabled2=Unity Barrier Disabled
+Behavior/Name/KaraxUnitSpawnBarrierDisabled3=Unity Barrier Disabled
 Behavior/Name/ParalyticSpines2=Paralytic Spines
 Behavior/Name/SOAHeroicShieldImmunity2=Guardian Shell
+Behavior/Name/SOAHeroicShieldImmunity3=Guardian Shell
 Behavior/Name/SOAHeroicShieldWeakness2=Recently Protected
+Behavior/Name/SOAHeroicShieldWeakness3=Recently Protected
 Behavior/Name/SOARecallOnDeathRecentlyRecalled2=Recently Recalled
+Behavior/Name/SOARecallOnDeathRecentlyRecalled3=Recently Recalled
 Behavior/Name/Stimpack2=Stimpack
+Behavior/Name/Stimpack3=Stimpack
+Behavior/Name/Stimpack4=Stimpack
+Behavior/Name/Stimpack5=Stimpack
+Behavior/Name/Stimpack6=Stimpack
 Behavior/Name/StimpackDeRaynor=StimpackDeRaynor
 Behavior/Name/SwannCommanderMechWreckageBurning2=Burning
+Behavior/Name/SwannCommanderMechWreckageBurning3=Burning
 Behavior/Name/TimeStopHaste2=Temporal Manipulation
+Behavior/Name/TimeStopHaste3=Temporal Manipulation
 Behavior/Name/TychusHERCShield2=Critical Response System
+Behavior/Name/TychusHERCShield3=Critical Response System
 Behavior/Name/ZeratulCollisionBehavior=ZeratulCollisionBehavior
 Behavior/Name/ZeratulDarkTemplarRetreatCooldown2=Recently Retreated
+Behavior/Name/ZeratulDarkTemplarRetreatCooldown3=Recently Retreated
 Behavior/Name/ZeratulDarkTemplarStasis2=Back to the Shadows
+Behavior/Name/ZeratulDarkTemplarStasis3=Back to the Shadows
 Behavior/Name/ZeratulStun2=Void Prison
 Behavior/Name/ZeratulStun3=Void Prison
 Behavior/Name/ZerglingArmorShredTarget2=Armor Negated
@@ -100,22 +150,38 @@ Behavior/Name/ZerglingSunder2=Sundered
 Behavior/Name/ZerglingSunder22=Sundered
 Behavior/Name/ZerglingSunder3=Sundered
 Behavior/Tooltip/AlarakLightningStrikes2=Alarak's next Deadly Charge also deals <d ref="Effect,AlarakLightningStrikesDamage,Amount"/> damage to <d ref="Effect,AlarakLightningStrikesSearch,AreaArray[0].MaxCount"/> enemy units near the primary target.
+Behavior/Tooltip/AlarakLightningStrikes3=Alarak's next Deadly Charge also deals <d ref="Effect,AlarakLightningStrikesDamage,Amount"/> damage to <d ref="Effect,AlarakLightningStrikesSearch,AreaArray[0].MaxCount"/> enemy units near the primary target.
 Behavior/Tooltip/HydraliskFrenzy2=Attack speed increased.
 Behavior/Tooltip/KaraxUnitSpawnBarrier2=Unity Barrier will block an attack or spell that deals at least 20 damage. Can only occur once every <d ref="Behavior,KaraxUnitSpawnBarrierDisabled,Duration"/> seconds.
+Behavior/Tooltip/KaraxUnitSpawnBarrier3=Unity Barrier will block an attack or spell that deals at least 20 damage. Can only occur once every <d ref="Behavior,KaraxUnitSpawnBarrierDisabled,Duration"/> seconds.
 Behavior/Tooltip/KaraxUnitSpawnBarrierDisabled2=Unity Barrier will block an attack or spell that deals at least 20 damage. Can only occur once every <d ref="Behavior,KaraxUnitSpawnBarrierDisabled,Duration"/> seconds.
+Behavior/Tooltip/KaraxUnitSpawnBarrierDisabled3=Unity Barrier will block an attack or spell that deals at least 20 damage. Can only occur once every <d ref="Behavior,KaraxUnitSpawnBarrierDisabled,Duration"/> seconds.
 Behavior/Tooltip/ParalyticSpines2=This unit's attack speed is slowed.
 Behavior/Tooltip/SOAHeroicShieldImmunity2=This unit is immune to damage.
+Behavior/Tooltip/SOAHeroicShieldImmunity3=This unit is immune to damage.
 Behavior/Tooltip/SOAHeroicShieldWeakness2=This unit cannot be affected by Guardian Shell.
+Behavior/Tooltip/SOAHeroicShieldWeakness3=This unit cannot be affected by Guardian Shell.
 Behavior/Tooltip/SOARecallOnDeathRecentlyRecalled2=This unit has recently escaped death and cannot be recalled again.
+Behavior/Tooltip/SOARecallOnDeathRecentlyRecalled3=This unit has recently escaped death and cannot be recalled again.
 Behavior/Tooltip/Stimpack=Ca court vite
 Behavior/Tooltip/Stimpack2=This unit moves and attacks more quickly while under the effects of Stimpack.
+Behavior/Tooltip/Stimpack3=Ca court vite
+Behavior/Tooltip/Stimpack4=Ca court vite
+Behavior/Tooltip/Stimpack5=Ca court vite
+Behavior/Tooltip/Stimpack6=Ca court vite
 Behavior/Tooltip/StimpackDeRaynor=Augmente la vitesse de déplacement et rend 250HP
 Behavior/Tooltip/SwannCommanderMechWreckageBurning2=This unit is on fire and is taking damage over time.
+Behavior/Tooltip/SwannCommanderMechWreckageBurning3=This unit is on fire and is taking damage over time.
 Behavior/Tooltip/TimeStopHaste2=Increase attack speed, movement speed, cooldown reduction and energy regeneration by <d ref="Effect,MasteryVorazunTimeStopHasteDisplayDummy,Amount*100"/>%.
+Behavior/Tooltip/TimeStopHaste3=Increase attack speed, movement speed, cooldown reduction and energy regeneration by <d ref="Effect,MasteryVorazunTimeStopHasteDisplayDummy,Amount*100"/>%.
 Behavior/Tooltip/TychusHERCShield2=This unit is immune to damage.
+Behavior/Tooltip/TychusHERCShield3=This unit is immune to damage.
 Behavior/Tooltip/VorazunCloakDamageBoostPermanent2=The attack damage and energy regeneration rate of this cloaked or burrowed unit have been increased.
+Behavior/Tooltip/VorazunCloakDamageBoostPermanent3=The attack damage and energy regeneration rate of this cloaked or burrowed unit have been increased.
 Behavior/Tooltip/ZeratulDarkTemplarRetreatCooldown2=This unit has recently retreated to the Void and cannot use Back to the Shadows.
+Behavior/Tooltip/ZeratulDarkTemplarRetreatCooldown3=This unit has recently retreated to the Void and cannot use Back to the Shadows.
 Behavior/Tooltip/ZeratulDarkTemplarStasis2=This unit has retreated to the Void and is regenerating health and shields.
+Behavior/Tooltip/ZeratulDarkTemplarStasis3=This unit has retreated to the Void and is regenerating health and shields.
 Behavior/Tooltip/ZeratulStun2=This unit is stunned and immobilized while under the effects of Void Prison.
 Behavior/Tooltip/ZeratulStun3=This unit is stunned and immobilized while under the effects of Void Prison.
 Behavior/Tooltip/ZerglingArmorShredTarget2=This unit's armor has been reduced to 0.
@@ -130,6 +196,13 @@ Button/Name/AncillaryCarapaceHydralisk2=Ancillary Carapace
 Button/Name/Attack10=Attack
 Button/Name/Attack11=Attack
 Button/Name/Attack12=Attack
+Button/Name/Attack13=Attack
+Button/Name/Attack14=Attack
+Button/Name/Attack15=Attack
+Button/Name/Attack16=Attack
+Button/Name/Attack17=Attack
+Button/Name/Attack18=Attack
+Button/Name/Attack182=Attack
 Button/Name/Attack2=Attack
 Button/Name/Attack3=Attack
 Button/Name/Attack4=Attack
@@ -152,19 +225,33 @@ Button/Name/Charge=CHARGEZZZZZZ
 Button/Name/Charge2=Charge
 Button/Name/Charge3=Charge
 Button/Name/Charge4=CHARGEZZZZZZ
+Button/Name/CombatDrugs2=Combat Drugs
+Button/Name/CombatDrugs3=Combat Drugs
+Button/Name/D8Charge2=G-4 Cluster Bombs
 Button/Name/Explode2=Explode
 Button/Name/GroovedSpines2=Grooved Spines
+Button/Name/HaveShieldWall2=Combat Shield
+Button/Name/HaveShieldWall22=Combat Shield
 Button/Name/HotSMetabolicBoost2=Metabolic Boost
 Button/Name/HotSRedundantMembranes2=Hardened Carapace
 Button/Name/HotSRoachDamage2=Hydriodic Bile
 Button/Name/HotSRoachShield2=Adaptive Plating
 Button/Name/HotSZerglingFrenzy2=Adrenal Overload
 Button/Name/HydraliskFrenzy2=Frenzy
+Button/Name/JetPack2=Jet Pack
+Button/Name/JetPack3=Jet Pack
 Button/Name/MorphtoHunter2=Morph to Baneling
 Button/Name/MorphtoSplitterling2=Morph to Baneling
 Button/Name/Move10=Move
 Button/Name/Move11=Move
 Button/Name/Move12=Move
+Button/Name/Move13=Move
+Button/Name/Move14=Move
+Button/Name/Move15=Move
+Button/Name/Move16=Move
+Button/Name/Move17=Move
+Button/Name/Move18=Move
+Button/Name/Move182=Move
 Button/Name/Move2=Move
 Button/Name/Move3=Move
 Button/Name/Move4=Move
@@ -176,6 +263,13 @@ Button/Name/Move9=Move
 Button/Name/MoveHoldPosition10=Hold Position
 Button/Name/MoveHoldPosition11=Hold Position
 Button/Name/MoveHoldPosition12=Hold Position
+Button/Name/MoveHoldPosition13=Hold Position
+Button/Name/MoveHoldPosition14=Hold Position
+Button/Name/MoveHoldPosition15=Hold Position
+Button/Name/MoveHoldPosition16=Hold Position
+Button/Name/MoveHoldPosition17=Hold Position
+Button/Name/MoveHoldPosition18=Hold Position
+Button/Name/MoveHoldPosition182=Hold Position
 Button/Name/MoveHoldPosition2=Hold Position
 Button/Name/MoveHoldPosition3=Hold Position
 Button/Name/MoveHoldPosition4=Hold Position
@@ -187,6 +281,13 @@ Button/Name/MoveHoldPosition9=Hold Position
 Button/Name/MovePatrol10=Patrol
 Button/Name/MovePatrol11=Patrol
 Button/Name/MovePatrol12=Patrol
+Button/Name/MovePatrol13=Patrol
+Button/Name/MovePatrol14=Patrol
+Button/Name/MovePatrol15=Patrol
+Button/Name/MovePatrol16=Patrol
+Button/Name/MovePatrol17=Patrol
+Button/Name/MovePatrol18=Patrol
+Button/Name/MovePatrol182=Patrol
 Button/Name/MovePatrol2=Patrol
 Button/Name/MovePatrol3=Patrol
 Button/Name/MovePatrol4=Patrol
@@ -204,9 +305,21 @@ Button/Name/Rally2=Set Rally Point
 Button/Name/RapidRegeneration2=Rapid Regeneration
 Button/Name/Stim2=StimpackDeChien
 Button/Name/Stim3=Stimpack
+Button/Name/Stim4=Stimpack
+Button/Name/Stim5=Stimpack
+Button/Name/Stim6=Stimpack
+Button/Name/Stim7=Stimpack
+Button/Name/Stim72=Stimpack
 Button/Name/Stop10=Stop
 Button/Name/Stop11=Stop
 Button/Name/Stop12=Stop
+Button/Name/Stop13=Stop
+Button/Name/Stop14=Stop
+Button/Name/Stop15=Stop
+Button/Name/Stop16=Stop
+Button/Name/Stop17=Stop
+Button/Name/Stop18=Stop
+Button/Name/Stop182=Stop
 Button/Name/Stop2=Stop
 Button/Name/Stop3=Stop
 Button/Name/Stop4=Stop
@@ -227,6 +340,13 @@ Button/Tooltip/AncillaryCarapaceHydralisk2=Hydralisk gains +20 maximum life.
 Button/Tooltip/Attack10=Orders selected units to move to the target point, fighting nearby enemies along the way. Targeting a unit with the Attack command orders that it be attacked until it is destroyed.
 Button/Tooltip/Attack11=Orders selected units to move to the target point, fighting nearby enemies along the way. Targeting a unit with the Attack command orders that it be attacked until it is destroyed.
 Button/Tooltip/Attack12=Orders selected units to move to the target point, fighting nearby enemies along the way. Targeting a unit with the Attack command orders that it be attacked until it is destroyed.
+Button/Tooltip/Attack13=Orders selected units to move to the target point, fighting nearby enemies along the way. Targeting a unit with the Attack command orders that it be attacked until it is destroyed.
+Button/Tooltip/Attack14=Orders selected units to move to the target point, fighting nearby enemies along the way. Targeting a unit with the Attack command orders that it be attacked until it is destroyed.
+Button/Tooltip/Attack15=Orders selected units to move to the target point, fighting nearby enemies along the way. Targeting a unit with the Attack command orders that it be attacked until it is destroyed.
+Button/Tooltip/Attack16=Orders selected units to move to the target point, fighting nearby enemies along the way. Targeting a unit with the Attack command orders that it be attacked until it is destroyed.
+Button/Tooltip/Attack17=Orders selected units to move to the target point, fighting nearby enemies along the way. Targeting a unit with the Attack command orders that it be attacked until it is destroyed.
+Button/Tooltip/Attack18=Orders selected units to move to the target point, fighting nearby enemies along the way. Targeting a unit with the Attack command orders that it be attacked until it is destroyed.
+Button/Tooltip/Attack182=Orders selected units to move to the target point, fighting nearby enemies along the way. Targeting a unit with the Attack command orders that it be attacked until it is destroyed.
 Button/Tooltip/Attack2=Orders selected units to move to the target point, fighting nearby enemies along the way. Targeting a unit with the Attack command orders that it be attacked until it is destroyed.
 Button/Tooltip/Attack3=Orders selected units to move to the target point, fighting nearby enemies along the way. Targeting a unit with the Attack command orders that it be attacked until it is destroyed.
 Button/Tooltip/Attack4=Orders selected units to move to the target point, fighting nearby enemies along the way. Targeting a unit with the Attack command orders that it be attacked until it is destroyed.
@@ -251,10 +371,15 @@ Button/Tooltip/Cancel2=Drops the current order without performing it, and allows
 Button/Tooltip/Charge2=Intercepts enemy ground units and increases movement speed.
 Button/Tooltip/Charge3=Intercepts enemy ground units and increases movement speed.
 Button/Tooltip/Charge4=Intercepts enemy ground units and increases movement speed.
+Button/Tooltip/CombatDrugs2=Regenerates life quickly while out of combat.
+Button/Tooltip/CombatDrugs3=Regenerates life quickly while out of combat.
+Button/Tooltip/D8Charge2=Timed explosive that does heavy area damage.
 Button/Tooltip/EngineeringBay2=Contains upgrades for Terran infantry and structures. <n/><n/><c val="ffff8a">Enables:</c><n/>- Missile Turrets from SCVs<n/>- Sensor Towers from SCVs<n/>- Planetary Fortresses from Command Centers
 Button/Tooltip/Explode2=The Baneling detonates where it is standing, damaging nearby enemy units and structures.
+Button/Tooltip/FirebatChien=Specialized anti-infantry attacker.<n/><n/><c val="#ColorAttackInfo">Can attack ground units.</c>
 Button/Tooltip/Ghost2=Sniper. Can use Snipe, EMP Round, and be upgraded to use Cloak. Can call down Tactical Nukes built at the Ghost Academy.<n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c>
 Button/Tooltip/GroovedSpines2=Hydralisk gains +1 attack range.
+Button/Tooltip/HellionChien=Fast scout. Has a flame attack that damages all enemy units in its line of fire. Can transform into a close range combat unit.<n/><n/><c val="#ColorAttackInfo">Can attack ground units.</c>
 Button/Tooltip/HotSHunter2=Suicide unit. Deals damage over a small area upon death. Launches toward enemy at range 6.<n/><n/><c val="ffff8a">Can attack ground units.</c>
 Button/Tooltip/HotSHunter3=Suicide unit. Deals damage over a small area upon death. Launches toward enemy at range 6.<n/><n/><c val="ffff8a">Can attack ground units.</c>
 Button/Tooltip/HotSMetabolicBoost2=Movement speed increased by 60%.
@@ -271,21 +396,32 @@ Button/Tooltip/HotSSwarmling3=Fast melee unit. Spawns in groups of three. Morphs
 Button/Tooltip/HotSZerglingFrenzy2=Attack speed increased by 40%.
 Button/Tooltip/HydraliskFrenzy2=Attack speed increased by 50% for <d ref="Behavior,HydraliskFrenzy,Duration"/> seconds.
 Button/Tooltip/InfestedExploderBurrowed2=Suicide unit. Does damage over a small area on death. <n/><n/><c val="ffff8a">Can attack ground units.</c>
+Button/Tooltip/JetPack2=Reapers can jump up and down cliffs.  
+Button/Tooltip/JetPack3=Reapers can jump up and down cliffs.  
 Button/Tooltip/JimRaynorIEUHero=Raynor is an elite Marine with more life and a stronger attack. <n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c><n/>
 Button/Tooltip/MULE2=Prototype harvesting unit. Gathers minerals more quickly than regular SCVs. MULEs last <d time="90"/> before their systems fail.
 Button/Tooltip/Marauder2=Heavy assault infantry.<n/><n/><c val="#ColorAttackInfo">Can attack ground units.</c>
-Button/Tooltip/Marine2=General-purpose infantry.<n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c>
-Button/Tooltip/Marine3=General-purpose infantry.<n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c>
-Button/Tooltip/Marine4=General-purpose infantry.<n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c>
-Button/Tooltip/Marine5=General-purpose infantry.<n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c>
+Button/Tooltip/Marine22=General-purpose infantry.<n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c>
 Button/Tooltip/MasteryRaynorStim2DurationAppend=Augmente la vitesse de déplacement et la vitesse d'attaque pendant 10 secondes.<n/>Régénère également 250 HP instantanément.
 Button/Tooltip/MasteryRaynorStim3DurationAppend=<n/><n/><c val="FFFF8A">Mastery:</c> Increases duration by <c val="FFFF8A"><d ref="Effect,MasteryRaynorStimDurationDisplayDummy,Amount" precision="1"/></c> seconds.
+Button/Tooltip/MasteryRaynorStim4DurationAppend=<n/><n/><c val="FFFF8A">Mastery:</c> Increases duration by <c val="FFFF8A"><d ref="Effect,MasteryRaynorStimDurationDisplayDummy,Amount" precision="1"/></c> seconds.
+Button/Tooltip/MasteryRaynorStim5DurationAppend=<n/><n/><c val="FFFF8A">Mastery:</c> Increases duration by <c val="FFFF8A"><d ref="Effect,MasteryRaynorStimDurationDisplayDummy,Amount" precision="1"/></c> seconds.
+Button/Tooltip/MasteryRaynorStim6DurationAppend=<n/><n/><c val="FFFF8A">Mastery:</c> Increases duration by <c val="FFFF8A"><d ref="Effect,MasteryRaynorStimDurationDisplayDummy,Amount" precision="1"/></c> seconds.
+Button/Tooltip/MasteryRaynorStim72DurationAppend=<n/><n/><c val="FFFF8A">Mastery:</c> Increases duration by <c val="FFFF8A"><d ref="Effect,MasteryRaynorStimDurationDisplayDummy,Amount" precision="1"/></c> seconds.
+Button/Tooltip/MasteryRaynorStim7DurationAppend=<n/><n/><c val="FFFF8A">Mastery:</c> Increases duration by <c val="FFFF8A"><d ref="Effect,MasteryRaynorStimDurationDisplayDummy,Amount" precision="1"/></c> seconds.
 Button/Tooltip/MengskMarine2=General-purpose infantry. Part of Mengsk's elite guard.<n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c>
 Button/Tooltip/MorphtoHunter2=Hunter Strain<n/><n/>Suicide unit. Deals damage over a small area upon death. Launches toward enemies at range 6.<n/><n/><c val="ffff8a">Can attack ground units.</c>
 Button/Tooltip/MorphtoSplitterling2=Splitter Strain<n/><n/>Suicide unit. Deals damage over a small area upon death. Splits into smaller units as it dies. <n/><n/><c val="ffff8a">Can attack ground units.</c>
 Button/Tooltip/Move10=Orders selected units to move to the target area or follow the target unit. Moving units will not engage enemies.
 Button/Tooltip/Move11=Orders selected units to move to the target area or follow the target unit. Moving units will not engage enemies.
 Button/Tooltip/Move12=Orders selected units to move to the target area or follow the target unit. Moving units will not engage enemies.
+Button/Tooltip/Move13=Orders selected units to move to the target area or follow the target unit. Moving units will not engage enemies.
+Button/Tooltip/Move14=Orders selected units to move to the target area or follow the target unit. Moving units will not engage enemies.
+Button/Tooltip/Move15=Orders selected units to move to the target area or follow the target unit. Moving units will not engage enemies.
+Button/Tooltip/Move16=Orders selected units to move to the target area or follow the target unit. Moving units will not engage enemies.
+Button/Tooltip/Move17=Orders selected units to move to the target area or follow the target unit. Moving units will not engage enemies.
+Button/Tooltip/Move18=Orders selected units to move to the target area or follow the target unit. Moving units will not engage enemies.
+Button/Tooltip/Move182=Orders selected units to move to the target area or follow the target unit. Moving units will not engage enemies.
 Button/Tooltip/Move2=Orders selected units to move to the target area or follow the target unit. Moving units will not engage enemies.
 Button/Tooltip/Move3=Orders selected units to move to the target area or follow the target unit. Moving units will not engage enemies.
 Button/Tooltip/Move4=Orders selected units to move to the target area or follow the target unit. Moving units will not engage enemies.
@@ -297,6 +433,13 @@ Button/Tooltip/Move9=Orders selected units to move to the target area or follow 
 Button/Tooltip/MoveHoldPosition10=Orders selected units to stay where they are and attack enemies that are within range. Units will neither chase down enemies nor move to engage.
 Button/Tooltip/MoveHoldPosition11=Orders selected units to stay where they are and attack enemies that are within range. Units will neither chase down enemies nor move to engage.
 Button/Tooltip/MoveHoldPosition12=Orders selected units to stay where they are and attack enemies that are within range. Units will neither chase down enemies nor move to engage.
+Button/Tooltip/MoveHoldPosition13=Orders selected units to stay where they are and attack enemies that are within range. Units will neither chase down enemies nor move to engage.
+Button/Tooltip/MoveHoldPosition14=Orders selected units to stay where they are and attack enemies that are within range. Units will neither chase down enemies nor move to engage.
+Button/Tooltip/MoveHoldPosition15=Orders selected units to stay where they are and attack enemies that are within range. Units will neither chase down enemies nor move to engage.
+Button/Tooltip/MoveHoldPosition16=Orders selected units to stay where they are and attack enemies that are within range. Units will neither chase down enemies nor move to engage.
+Button/Tooltip/MoveHoldPosition17=Orders selected units to stay where they are and attack enemies that are within range. Units will neither chase down enemies nor move to engage.
+Button/Tooltip/MoveHoldPosition18=Orders selected units to stay where they are and attack enemies that are within range. Units will neither chase down enemies nor move to engage.
+Button/Tooltip/MoveHoldPosition182=Orders selected units to stay where they are and attack enemies that are within range. Units will neither chase down enemies nor move to engage.
 Button/Tooltip/MoveHoldPosition2=Orders selected units to stay where they are and attack enemies that are within range. Units will neither chase down enemies nor move to engage.
 Button/Tooltip/MoveHoldPosition3=Orders selected units to stay where they are and attack enemies that are within range. Units will neither chase down enemies nor move to engage.
 Button/Tooltip/MoveHoldPosition4=Orders selected units to stay where they are and attack enemies that are within range. Units will neither chase down enemies nor move to engage.
@@ -308,6 +451,13 @@ Button/Tooltip/MoveHoldPosition9=Orders selected units to stay where they are an
 Button/Tooltip/MovePatrol10=Orders selected units to patrol between their current position and the target area. Units will attack enemies and move to engage nearby enemies.
 Button/Tooltip/MovePatrol11=Orders selected units to patrol between their current position and the target area. Units will attack enemies and move to engage nearby enemies.
 Button/Tooltip/MovePatrol12=Orders selected units to patrol between their current position and the target area. Units will attack enemies and move to engage nearby enemies.
+Button/Tooltip/MovePatrol13=Orders selected units to patrol between their current position and the target area. Units will attack enemies and move to engage nearby enemies.
+Button/Tooltip/MovePatrol14=Orders selected units to patrol between their current position and the target area. Units will attack enemies and move to engage nearby enemies.
+Button/Tooltip/MovePatrol15=Orders selected units to patrol between their current position and the target area. Units will attack enemies and move to engage nearby enemies.
+Button/Tooltip/MovePatrol16=Orders selected units to patrol between their current position and the target area. Units will attack enemies and move to engage nearby enemies.
+Button/Tooltip/MovePatrol17=Orders selected units to patrol between their current position and the target area. Units will attack enemies and move to engage nearby enemies.
+Button/Tooltip/MovePatrol18=Orders selected units to patrol between their current position and the target area. Units will attack enemies and move to engage nearby enemies.
+Button/Tooltip/MovePatrol182=Orders selected units to patrol between their current position and the target area. Units will attack enemies and move to engage nearby enemies.
 Button/Tooltip/MovePatrol2=Orders selected units to patrol between their current position and the target area. Units will attack enemies and move to engage nearby enemies.
 Button/Tooltip/MovePatrol3=Orders selected units to patrol between their current position and the target area. Units will attack enemies and move to engage nearby enemies.
 Button/Tooltip/MovePatrol4=Orders selected units to patrol between their current position and the target area. Units will attack enemies and move to engage nearby enemies.
@@ -329,13 +479,26 @@ Button/Tooltip/Raynor3=Raynor is an elite Marine with more life and a stronger a
 Button/Tooltip/Raynor4=Raynor is an elite Marine with more life and a stronger attack. <n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c><n/>
 Button/Tooltip/RaynorCommando2=Raynor can hit several units in a straight line with his Commando Rifle. <n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c><n/>
 Button/Tooltip/Reaper2=Raider. Capable of jumping up and down cliffs. <n/><n/><c val="#ColorAttackInfo">Can attack ground units.</c>
+Button/Tooltip/ReaperChien=Raider. Capable of jumping up and down cliffs. <n/><n/><c val="#ColorAttackInfo">Can attack ground units.</c>
 Button/Tooltip/SCV2=Basic worker unit. Can gather resources, build Terran structures, and repair.<n/><n/><c val="#ColorAttackInfo">Can attack ground units.</c>
 Button/Tooltip/SIEngineeringBay2=Contains upgrades for Infested infantry and structures. <n/><n/><c val="ffff8a">Enables:</c><n/>- Infested Missile Turrets from Infested SCVs
 Button/Tooltip/Stim2=Augmente la vitesse de deplacement et la vitesse d attaque 
 Button/Tooltip/Stim3=Injects the unit with powerful stimulants that greatly increase attack and movement speeds for <d ref="Behavior,Stimpack,Duration" precision="1"/> seconds. Injures the unit for <d ref="Abil,Stimpack,Cost[0].Vital[Life]"/> of the unit's life.
+Button/Tooltip/Stim4=Injects the unit with powerful stimulants that greatly increase attack and movement speeds for <d ref="Behavior,Stimpack,Duration" precision="1"/> seconds. Injures the unit for <d ref="Abil,Stimpack,Cost[0].Vital[Life]"/> of the unit's life.
+Button/Tooltip/Stim5=Injects the unit with powerful stimulants that greatly increase attack and movement speeds for <d ref="Behavior,Stimpack,Duration" precision="1"/> seconds. Injures the unit for <d ref="Abil,Stimpack,Cost[0].Vital[Life]"/> of the unit's life.
+Button/Tooltip/Stim6=Injects the unit with powerful stimulants that greatly increase attack and movement speeds for <d ref="Behavior,Stimpack,Duration" precision="1"/> seconds. Injures the unit for <d ref="Abil,Stimpack,Cost[0].Vital[Life]"/> of the unit's life.
+Button/Tooltip/Stim7=Injects the unit with powerful stimulants that greatly increase attack and movement speeds for <d ref="Behavior,Stimpack,Duration" precision="1"/> seconds. Injures the unit for <d ref="Abil,Stimpack,Cost[0].Vital[Life]"/> of the unit's life.
+Button/Tooltip/Stim72=Injects the unit with powerful stimulants that greatly increase attack and movement speeds for <d ref="Behavior,Stimpack,Duration" precision="1"/> seconds. Injures the unit for <d ref="Abil,Stimpack,Cost[0].Vital[Life]"/> of the unit's life.
 Button/Tooltip/Stop10=Orders selected units to cancel all orders and stop moving.
 Button/Tooltip/Stop11=Orders selected units to cancel all orders and stop moving.
 Button/Tooltip/Stop12=Orders selected units to cancel all orders and stop moving.
+Button/Tooltip/Stop13=Orders selected units to cancel all orders and stop moving.
+Button/Tooltip/Stop14=Orders selected units to cancel all orders and stop moving.
+Button/Tooltip/Stop15=Orders selected units to cancel all orders and stop moving.
+Button/Tooltip/Stop16=Orders selected units to cancel all orders and stop moving.
+Button/Tooltip/Stop17=Orders selected units to cancel all orders and stop moving.
+Button/Tooltip/Stop18=Orders selected units to cancel all orders and stop moving.
+Button/Tooltip/Stop182=Orders selected units to cancel all orders and stop moving.
 Button/Tooltip/Stop2=Orders selected units to cancel all orders and stop moving.
 Button/Tooltip/Stop3=Orders selected units to cancel all orders and stop moving.
 Button/Tooltip/Stop4=Orders selected units to cancel all orders and stop moving.
@@ -368,12 +531,19 @@ Effect/Name/AcidSalivaLM2=Needle Spines (Missile)
 Effect/Name/AcidSalivaSet2=Acid Saliva
 Effect/Name/AcidSalivaU2=Needle Spines
 Effect/Name/AlarakTheStrongestSurviveDummyAttackMissile2=AlarakTheStrongestSurviveDummyAttackMissile
+Effect/Name/AlarakTheStrongestSurviveDummyAttackMissile3=AlarakTheStrongestSurviveDummyAttackMissile
 Effect/Name/AlarakTheStrongestSurviveDummyAttackMissileImpact2=AlarakTheStrongestSurviveDummyAttackMissileImpact
+Effect/Name/AlarakTheStrongestSurviveDummyAttackMissileImpact3=AlarakTheStrongestSurviveDummyAttackMissileImpact
 Effect/Name/AlarakTheStrongestSurviveDummySecondaryAttackMissile2=AlarakTheStrongestSurviveDummySecondaryAttackMissile
+Effect/Name/AlarakTheStrongestSurviveDummySecondaryAttackMissile3=AlarakTheStrongestSurviveDummySecondaryAttackMissile
 Effect/Name/AlarakTheStrongestSurviveSearch2=AlarakTheStrongestSurviveSearch
+Effect/Name/AlarakTheStrongestSurviveSearch3=AlarakTheStrongestSurviveSearch
 Effect/Name/AlarakTheStrongestSurviveSearchImpact2=AlarakTheStrongestSurviveSearchImpact
+Effect/Name/AlarakTheStrongestSurviveSearchImpact3=AlarakTheStrongestSurviveSearchImpact
 Effect/Name/AlarakTheStrongestSurviveStealLife2=AlarakTheStrongestSurviveStealLife
+Effect/Name/AlarakTheStrongestSurviveStealLife3=AlarakTheStrongestSurviveStealLife
 Effect/Name/AllUnitBehaviorControllerSubset12=AllUnitBehaviorControllerSubset1
+Effect/Name/AllUnitBehaviorControllerSubset13=AllUnitBehaviorControllerSubset1
 Effect/Name/BileDuctsApplyBehavior2=Bile Ducts Apply Behavior
 Effect/Name/BileDuctsDamage2=Bile Ducts Damage
 Effect/Name/Charge2=Charge (Apply Buff)
@@ -382,21 +552,43 @@ Effect/Name/Claws2=Claws (Damage)
 Effect/Name/Claws22=Claws (Damage)
 Effect/Name/Claws3=Claws (Damage)
 Effect/Name/CommanderPrestigeVorazunEmergencyRecallFullHeal2=CommanderPrestigeVorazunEmergencyRecallFullHeal
+Effect/Name/CommanderPrestigeVorazunEmergencyRecallFullHeal3=CommanderPrestigeVorazunEmergencyRecallFullHeal
 Effect/Name/CycloneWreckageAbil2=Cyclone Wreckage Abil
+Effect/Name/CycloneWreckageAbil3=Cyclone Wreckage Abil
 Effect/Name/CycloneWreckageSet2=Cyclone Wreckage Set
+Effect/Name/CycloneWreckageSet3=Cyclone Wreckage Set
+Effect/Name/D8Charge2=D-8 Charge
+Effect/Name/D8ChargeLM2=D-8 Charge (Launch Missile)
+Effect/Name/D8ChargeLaunch2=D-8 Charge Launch
 Effect/Name/DeathRecallRemoveDebuff2=Death Recall Remove Debuff
+Effect/Name/DeathRecallRemoveDebuff3=Death Recall Remove Debuff
 Effect/Name/DehakaMutaliskReviveOrderSet2=DehakaMutaliskReviveOrderSet
+Effect/Name/DehakaMutaliskReviveOrderSet3=DehakaMutaliskReviveOrderSet
 Effect/Name/DiamondbackWreckageAbil2=Diamondback Wreckage Abil
+Effect/Name/DiamondbackWreckageAbil3=Diamondback Wreckage Abil
 Effect/Name/DiamondbackWreckageSet2=Diamondback Wreckage Set
+Effect/Name/DiamondbackWreckageSet3=Diamondback Wreckage Set
 Effect/Name/ExplosiveSpinesDamage2=Explosive Spines Damage
 Effect/Name/FullHealCaster2=FullHealCaster
+Effect/Name/FullHealCaster3=FullHealCaster
 Effect/Name/GoliathWreckageAbil2=Goliath Wreckage Abil
+Effect/Name/GoliathWreckageAbil3=Goliath Wreckage Abil
 Effect/Name/GoliathWreckageSet2=Goliath Wreckage Set
+Effect/Name/GoliathWreckageSet3=Goliath Wreckage Set
 Effect/Name/GrantKillCreditDummy2=GrantKillCreditDummy
+Effect/Name/GrantKillCreditDummy3=GrantKillCreditDummy
+Effect/Name/GuassRifle2=Guass Rifle
+Effect/Name/GuassRifle3=Guass Rifle
+Effect/Name/GuassRifle4=Guass Rifle
+Effect/Name/GuassRifle5=Guass Rifle
 Effect/Name/HellbatWreckageAbil2=Hellbat Wreckage Abil
+Effect/Name/HellbatWreckageAbil3=Hellbat Wreckage Abil
 Effect/Name/HellbatWreckageSet2=Hellbat Wreckage Set
+Effect/Name/HellbatWreckageSet3=Hellbat Wreckage Set
 Effect/Name/HellionWreckageAbil2=Hellion Wreckage Abil
+Effect/Name/HellionWreckageAbil3=Hellion Wreckage Abil
 Effect/Name/HellionWreckageSet2=Hellion Wreckage Set
+Effect/Name/HellionWreckageSet3=Hellion Wreckage Set
 Effect/Name/HeroDetectorRadar2=Hero Detector Radar
 Effect/Name/HeroDetectorRadar3=Hero Detector Radar
 Effect/Name/HeroDetectorRadarDetected2=Hero Detector Radar Detected
@@ -407,18 +599,31 @@ Effect/Name/HotSZerglingClaws3=Hot SZergling Claws
 Effect/Name/HydraliskFrenzyApplyBehavior2=Hydralisk Frenzy Apply Behavior
 Effect/Name/HydraliskMeleeSet2=Hydralisk Melee Set
 Effect/Name/HyperionVoidCoopTimedLifeExpireAB2=Hyperion Timed Life Expire AB
+Effect/Name/HyperionVoidCoopTimedLifeExpireAB3=Hyperion Timed Life Expire AB
+Effect/Name/MakePrecursor2=Make Precursor
 Effect/Name/MasteryArtanisGuardianShellHeal2=Mastery Artanis Guardian Shell Heal
+Effect/Name/MasteryArtanisGuardianShellHeal3=Mastery Artanis Guardian Shell Heal
 Effect/Name/NeedleSpinesDamage2=Needle Spines
 Effect/Name/NeedleSpinesImpactSet2=Needle Spines Impact Set
 Effect/Name/NeedleSpinesImpactSetUpgraded2=Needle Spines Impact Set Upgraded
 Effect/Name/NeedleSpinesImpactSwitch2=Needle Spines Impact Switch
 Effect/Name/NeedleSpinesLaunchMissile2=Needle Spines
 Effect/Name/OnDeathVorazunRecallOnDeath1HP2=On Death Vorazun Recall On Death 1HP
+Effect/Name/OnDeathVorazunRecallOnDeath1HP3=On Death Vorazun Recall On Death 1HP
 Effect/Name/OnDeathVorazunRecallOnDeathAB2=Coop - On Death Vorazun Recall On Death AB
+Effect/Name/OnDeathVorazunRecallOnDeathAB3=Coop - On Death Vorazun Recall On Death AB
 Effect/Name/OnDeathVorazunRecallOnDeathRecentlyRecalledAB2=On Death Vorazun Recall On Death Recently Recalled
+Effect/Name/OnDeathVorazunRecallOnDeathRecentlyRecalledAB3=On Death Vorazun Recall On Death Recently Recalled
 Effect/Name/OnDeathVorazunRecallOnDeathSearch2=On Death Vorazun Recall On Death Search
+Effect/Name/OnDeathVorazunRecallOnDeathSearch3=On Death Vorazun Recall On Death Search
 Effect/Name/OnDeathVorazunRecallOnDeathSetHP2=On Death Vorazun Recall On Death Set HP
+Effect/Name/OnDeathVorazunRecallOnDeathSetHP3=On Death Vorazun Recall On Death Set HP
 Effect/Name/OnDeathVorazunRecallOnDeathTeleport2=On Death Vorazun Recall On Death Teleport
+Effect/Name/OnDeathVorazunRecallOnDeathTeleport3=On Death Vorazun Recall On Death Teleport
+Effect/Name/P38ScytheGuassPistol2=P-38 Scythe Guass Pistol
+Effect/Name/P38ScytheGuassPistol3=P-38 Scythe Guass Pistol
+Effect/Name/P38ScytheGuassPistolBurst2=P-38 Scythe Guass Pistol
+Effect/Name/P38ScytheGuassPistolBurst3=P-38 Scythe Guass Pistol
 Effect/Name/ParalyticSpines2=Paralytic Spines
 Effect/Name/RavagerWeaponDamage2=Ravager Weapon Damage
 Effect/Name/RavagerWeaponLM2=Ravager Weapon LM
@@ -426,34 +631,60 @@ Effect/Name/RaynorGaussRifleDamage2=Gauss Rifle (Damage)
 Effect/Name/RaynorWeaponU2=Gauss Rifle
 Effect/Name/RaynorWeaponU3=Gauss Rifle
 Effect/Name/RemoveAllDot2=RemoveAllDot
+Effect/Name/RemoveAllDot3=RemoveAllDot
 Effect/Name/RemoveAllDotOnSource2=RemoveAllDotOnSource
+Effect/Name/RemoveAllDotOnSource3=RemoveAllDotOnSource
 Effect/Name/RemoveAllSlow2=RemoveAllSlow
+Effect/Name/RemoveAllSlow3=RemoveAllSlow
 Effect/Name/RemoveAllStun2=RemoveAllStun
+Effect/Name/RemoveAllStun3=RemoveAllStun
+Effect/Name/RemovePrecursor2=Remove Precursor
 Effect/Name/RoachMeleeSet2=Roach Melee Set
 Effect/Name/SOAHeroicShieldInvulnerableApply2=SOAHeroic Shield Invulnerable Apply
+Effect/Name/SOAHeroicShieldInvulnerableApply3=SOAHeroic Shield Invulnerable Apply
 Effect/Name/SOAHeroicShieldWeaknessApply2=SOAHeroic Shield Weakness Apply
+Effect/Name/SOAHeroicShieldWeaknessApply3=SOAHeroic Shield Weakness Apply
 Effect/Name/SelfReviveRecallRemoveDebuff2=Self Revive Recall Remove Debuff
+Effect/Name/SelfReviveRecallRemoveDebuff3=Self Revive Recall Remove Debuff
 Effect/Name/SetMyHPto12=SetMyHPto1
+Effect/Name/SetMyHPto13=SetMyHPto1
 Effect/Name/SiegeTankWreckageAbil2=Siege Tank Wreckage Abil
+Effect/Name/SiegeTankWreckageAbil3=Siege Tank Wreckage Abil
 Effect/Name/SiegeTankWreckageSet2=Siege Tank Wreckage Set
+Effect/Name/SiegeTankWreckageSet3=Siege Tank Wreckage Set
 Effect/Name/StimHealEffect=StimHealEffect
 Effect/Name/StimSetEffect=StimSetEffect
 Effect/Name/Stimpack2=Stim Pack (Apply Buff)
 Effect/Name/Stimpack3=Stim Pack (Apply Buff)
+Effect/Name/Stimpack4=Stim Pack (Apply Buff)
+Effect/Name/Stimpack5=Stim Pack (Apply Buff)
+Effect/Name/Stimpack6=Stim Pack (Apply Buff)
+Effect/Name/Stimpack7=Stim Pack (Apply Buff)
 Effect/Name/Suicide2=Suicide
+Effect/Name/Suicide3=Suicide
 Effect/Name/SuicideRemove2=Suicide Remove
+Effect/Name/SuicideRemove3=Suicide Remove
 Effect/Name/SwannCommanderMechRebirthSwitch2=Swann Commander Mech Rebirth Switch
+Effect/Name/SwannCommanderMechRebirthSwitch3=Swann Commander Mech Rebirth Switch
 Effect/Name/SwannCommanderMechWreckageBurningAB2=Swann Commander Mech Wreckage Burning AB
+Effect/Name/SwannCommanderMechWreckageBurningAB3=Swann Commander Mech Wreckage Burning AB
 Effect/Name/SwannCommanderMechWreckageBurningDamage2=Swann Commander Mech Wreckage Burning Damage
+Effect/Name/SwannCommanderMechWreckageBurningDamage3=Swann Commander Mech Wreckage Burning Damage
 Effect/Name/TaurenSpaceMarineGaussRifleDamage2=Tauren Space Marine Gauss Rifle Damage
 Effect/Name/ThorWreckageSet2=Thor Wreckage Set
+Effect/Name/ThorWreckageSet3=Thor Wreckage Set
 Effect/Name/ThorWreckageSwannAbil2=Thor Wreckage Swann Abil
+Effect/Name/ThorWreckageSwannAbil3=Thor Wreckage Swann Abil
 Effect/Name/TimeStopHasteAB2=Time Stop Haste AB
+Effect/Name/TimeStopHasteAB3=Time Stop Haste AB
 Effect/Name/TorrasqueCorpse2=Torrasque Corpse
+Effect/Name/TorrasqueCorpse3=Torrasque Corpse
 Effect/Name/TossGrenadeDamage2=Toss Grenade (Damage)
 Effect/Name/TossGrenadeLaunchMissile2=Toss Grenade (Launch Missile)
 Effect/Name/UnityBarrierBootstrapper2=UnityBarrierBootstrapper
+Effect/Name/UnityBarrierBootstrapper3=UnityBarrierBootstrapper
 Effect/Name/UnityBarrierFinalSet2=UnityBarrierFinalSet
+Effect/Name/UnityBarrierFinalSet3=UnityBarrierFinalSet
 Effect/Name/VoidZealotWhirlwindAB2=Void Zealot Whirlwind 
 Effect/Name/VoidZealotWhirlwindBehaviorSet2=Void Zealot Whirlwind Behavior Set
 Effect/Name/VoidZealotWhirlwindCancelMove2=Void Zealot Whirlwind Cancel Move
@@ -464,6 +695,7 @@ Effect/Name/VoidZealotWhirlwindMoveSearch2=Void Zealot Whirlwind Move Search
 Effect/Name/VoidZealotWhirlwindSearch2=Void Zealot Whirlwind Search
 Effect/Name/VoidZealotWhirlwindSet2=Void Zealot Whirlwind Set
 Effect/Name/ZealotPurifierReviveDeadIssueOrder2=Zealot Purifier Revive Dead Issue Order
+Effect/Name/ZealotPurifierReviveDeadIssueOrder3=Zealot Purifier Revive Dead Issue Order
 Effect/Name/ZealotRespawnAddChargePlayer2=Zealot Respawn Add Charge Player
 Effect/Name/ZealotRespawnDeathSet2=Zealot Respawn Death Set
 Effect/Name/ZealotRespawnRB2=Zealot Respawn 
@@ -474,8 +706,11 @@ Effect/Name/ZeratulBlink3=Blink (Teleport)
 Effect/Name/ZeratulCollisionArea=ZeratulCollisionArea
 Effect/Name/ZeratulCollisionEffect=ZeratulCollisionEffect
 Effect/Name/ZeratulDarkTemplarRetreatCooldownAB2=ZeratulDarkTemplarRetreatCooldownAB
+Effect/Name/ZeratulDarkTemplarRetreatCooldownAB3=ZeratulDarkTemplarRetreatCooldownAB
 Effect/Name/ZeratulDarkTemplarStasisAB2=ZeratulDarkTemplarStasisAB
+Effect/Name/ZeratulDarkTemplarStasisAB3=ZeratulDarkTemplarStasisAB
 Effect/Name/ZeratulDarkTemplarStasisHeal2=ZeratulDarkTemplarStasisHeal
+Effect/Name/ZeratulDarkTemplarStasisHeal3=ZeratulDarkTemplarStasisHeal
 Effect/Name/ZeratulStunApplyBehavior2=Stun (Apply Behavior)
 Effect/Name/ZeratulStunApplyBehavior3=Stun (Apply Behavior)
 Effect/Name/ZeratulVoidPrisonSearch2=ZeratulVoidPrisonSearch
@@ -502,6 +737,13 @@ RequirementNode/Tooltip/AllowAbilStimpackZerg02357366498TechTreeCheat=Cc Umby c'
 SimpleDisplay/Attack10=<s val="@@@SimpleCommandRow">%hotkey</c> then</s> <IMG path="Assets\Textures\tutorialmouseleftbuttondown.dds" alignment="absolutemiddle"/> <s val="@@@SimpleCommandRow">ground to Auto-attack</s>
 SimpleDisplay/Attack11=<s val="@@@SimpleCommandRow">%hotkey</c> then</s> <IMG path="Assets\Textures\tutorialmouseleftbuttondown.dds" alignment="absolutemiddle"/> <s val="@@@SimpleCommandRow">ground to Auto-attack</s>
 SimpleDisplay/Attack12=<s val="@@@SimpleCommandRow">%hotkey</c> then</s> <IMG path="Assets\Textures\tutorialmouseleftbuttondown.dds" alignment="absolutemiddle"/> <s val="@@@SimpleCommandRow">ground to Auto-attack</s>
+SimpleDisplay/Attack13=<s val="@@@SimpleCommandRow">%hotkey</c> then</s> <IMG path="Assets\Textures\tutorialmouseleftbuttondown.dds" alignment="absolutemiddle"/> <s val="@@@SimpleCommandRow">ground to Auto-attack</s>
+SimpleDisplay/Attack14=<s val="@@@SimpleCommandRow">%hotkey</c> then</s> <IMG path="Assets\Textures\tutorialmouseleftbuttondown.dds" alignment="absolutemiddle"/> <s val="@@@SimpleCommandRow">ground to Auto-attack</s>
+SimpleDisplay/Attack15=<s val="@@@SimpleCommandRow">%hotkey</c> then</s> <IMG path="Assets\Textures\tutorialmouseleftbuttondown.dds" alignment="absolutemiddle"/> <s val="@@@SimpleCommandRow">ground to Auto-attack</s>
+SimpleDisplay/Attack16=<s val="@@@SimpleCommandRow">%hotkey</c> then</s> <IMG path="Assets\Textures\tutorialmouseleftbuttondown.dds" alignment="absolutemiddle"/> <s val="@@@SimpleCommandRow">ground to Auto-attack</s>
+SimpleDisplay/Attack17=<s val="@@@SimpleCommandRow">%hotkey</c> then</s> <IMG path="Assets\Textures\tutorialmouseleftbuttondown.dds" alignment="absolutemiddle"/> <s val="@@@SimpleCommandRow">ground to Auto-attack</s>
+SimpleDisplay/Attack18=<s val="@@@SimpleCommandRow">%hotkey</c> then</s> <IMG path="Assets\Textures\tutorialmouseleftbuttondown.dds" alignment="absolutemiddle"/> <s val="@@@SimpleCommandRow">ground to Auto-attack</s>
+SimpleDisplay/Attack182=<s val="@@@SimpleCommandRow">%hotkey</c> then</s> <IMG path="Assets\Textures\tutorialmouseleftbuttondown.dds" alignment="absolutemiddle"/> <s val="@@@SimpleCommandRow">ground to Auto-attack</s>
 SimpleDisplay/Attack2=<s val="@@@SimpleCommandRow">%hotkey</c> then</s> <IMG path="Assets\Textures\tutorialmouseleftbuttondown.dds" alignment="absolutemiddle"/> <s val="@@@SimpleCommandRow">ground to Auto-attack</s>
 SimpleDisplay/Attack3=<s val="@@@SimpleCommandRow">%hotkey</c> then</s> <IMG path="Assets\Textures\tutorialmouseleftbuttondown.dds" alignment="absolutemiddle"/> <s val="@@@SimpleCommandRow">ground to Auto-attack</s>
 SimpleDisplay/Attack4=<s val="@@@SimpleCommandRow">%hotkey</c> then</s> <IMG path="Assets\Textures\tutorialmouseleftbuttondown.dds" alignment="absolutemiddle"/> <s val="@@@SimpleCommandRow">ground to Auto-attack</s>
@@ -513,6 +755,13 @@ SimpleDisplay/Attack9=<s val="@@@SimpleCommandRow">%hotkey</c> then</s> <IMG pat
 SimpleDisplay/Move10=<IMG path="Assets\Textures\tutorialmouserightbuttondown.dds" alignment="absolutemiddle"/> <s val="@@@SimpleCommandRow">to Move</s>
 SimpleDisplay/Move11=<IMG path="Assets\Textures\tutorialmouserightbuttondown.dds" alignment="absolutemiddle"/> <s val="@@@SimpleCommandRow">to Move</s>
 SimpleDisplay/Move12=<IMG path="Assets\Textures\tutorialmouserightbuttondown.dds" alignment="absolutemiddle"/> <s val="@@@SimpleCommandRow">to Move</s>
+SimpleDisplay/Move13=<IMG path="Assets\Textures\tutorialmouserightbuttondown.dds" alignment="absolutemiddle"/> <s val="@@@SimpleCommandRow">to Move</s>
+SimpleDisplay/Move14=<IMG path="Assets\Textures\tutorialmouserightbuttondown.dds" alignment="absolutemiddle"/> <s val="@@@SimpleCommandRow">to Move</s>
+SimpleDisplay/Move15=<IMG path="Assets\Textures\tutorialmouserightbuttondown.dds" alignment="absolutemiddle"/> <s val="@@@SimpleCommandRow">to Move</s>
+SimpleDisplay/Move16=<IMG path="Assets\Textures\tutorialmouserightbuttondown.dds" alignment="absolutemiddle"/> <s val="@@@SimpleCommandRow">to Move</s>
+SimpleDisplay/Move17=<IMG path="Assets\Textures\tutorialmouserightbuttondown.dds" alignment="absolutemiddle"/> <s val="@@@SimpleCommandRow">to Move</s>
+SimpleDisplay/Move18=<IMG path="Assets\Textures\tutorialmouserightbuttondown.dds" alignment="absolutemiddle"/> <s val="@@@SimpleCommandRow">to Move</s>
+SimpleDisplay/Move182=<IMG path="Assets\Textures\tutorialmouserightbuttondown.dds" alignment="absolutemiddle"/> <s val="@@@SimpleCommandRow">to Move</s>
 SimpleDisplay/Move2=<IMG path="Assets\Textures\tutorialmouserightbuttondown.dds" alignment="absolutemiddle"/> <s val="@@@SimpleCommandRow">to Move</s>
 SimpleDisplay/Move3=<IMG path="Assets\Textures\tutorialmouserightbuttondown.dds" alignment="absolutemiddle"/> <s val="@@@SimpleCommandRow">to Move</s>
 SimpleDisplay/Move4=<IMG path="Assets\Textures\tutorialmouserightbuttondown.dds" alignment="absolutemiddle"/> <s val="@@@SimpleCommandRow">to Move</s>
@@ -522,15 +771,19 @@ SimpleDisplay/Move7=<IMG path="Assets\Textures\tutorialmouserightbuttondown.dds"
 SimpleDisplay/Move8=<IMG path="Assets\Textures\tutorialmouserightbuttondown.dds" alignment="absolutemiddle"/> <s val="@@@SimpleCommandRow">to Move</s>
 SimpleDisplay/Move9=<IMG path="Assets\Textures\tutorialmouserightbuttondown.dds" alignment="absolutemiddle"/> <s val="@@@SimpleCommandRow">to Move</s>
 Unit/Name/AbathurLavaWorm=AbathurLavaWorm Decoration
-Unit/Name/AcidSalivaWeapon2=Acid Saliva
+Unit/Name/AcidSalivaWeapon2=SaliveAcide
 Unit/Name/Baneling2=Baneling
 Unit/Name/Baneling22=Baneling
 Unit/Name/Baneling3=Baneling
 Unit/Name/Baneling4=Baneling
 Unit/Name/BanelingCocoon2=Baneling Cocoon
 Unit/Name/BanelingCocoon3=Baneling Cocoon
+Unit/Name/D8Charge2=G-4 Charge
+Unit/Name/D8ChargeWeapon2=D8 Charge
 Unit/Name/EngineeringBay2=Engineering Bay
+Unit/Name/FirebatChien=FirebatChien
 Unit/Name/Ghost2=Ghost
+Unit/Name/HellionChien=HellionChien
 Unit/Name/HotSHunter2=Baneling
 Unit/Name/HotSHunter3=Baneling
 Unit/Name/HotSRaptor2=Zergling
@@ -545,10 +798,13 @@ Unit/Name/Hydralisk2=Hydralisk
 Unit/Name/JimRaynorIEUHero=Jim Raynor IEU Hero
 Unit/Name/MULE2=MULE
 Unit/Name/Marauder2=Marauder
-Unit/Name/Marine2=Marine
-Unit/Name/Marine3=Marine
-Unit/Name/Marine4=Marine
-Unit/Name/Marine5=Marine
+Unit/Name/Marine22=Marine iii
+Unit/Name/Marine23=Marine
+Unit/Name/Marine24=Marine
+Unit/Name/Marine25=Marine
+Unit/Name/Marine252=Marine
+Unit/Name/Marine7=Marine
+Unit/Name/Marine8=Marine
 Unit/Name/MengskMarine2=Son of Korhal
 Unit/Name/Purifier_DoorNE=Purifier Door NE i
 Unit/Name/Ravager2=Ravager
@@ -557,6 +813,8 @@ Unit/Name/Raynor3=Jim Raynor
 Unit/Name/Raynor4=Jim Raynor
 Unit/Name/RaynorCommando2=Jim Raynor
 Unit/Name/Reaper2=Reaper
+Unit/Name/Reaper4=Reaper
+Unit/Name/ReaperChien=ReaperChien
 Unit/Name/Roach=RoachChien
 Unit/Name/Roach2=Roach
 Unit/Name/SCV2=SCV
@@ -592,6 +850,7 @@ UnitSubtitle/HotSSwarmling3=Swarmling Strain
 Upgrade/BaseArmorUpgrade=Base Armor Upgrade
 Upgrade/BaseDmgUpgrade=Base DmgUpgrade
 Upgrade/BaseHealthUpgrade=Base Health Upgrade
+Upgrade/Name/AlphaSquadTerran2=Alpha Squad Terran
 Upgrade/Name/BaseDmgUpgrade=Base DmgUpgrade
 Upgrade/Name/Burrow2=Burrow
 Upgrade/Name/Burrow22=Burrow
@@ -600,6 +859,9 @@ Upgrade/Name/Burrow23=Burrow
 Upgrade/Name/Burrow3=Burrow
 Upgrade/Name/Burrow32=Burrow
 Upgrade/Name/Burrow4=Burrow
+Upgrade/Name/CombatShield2=Combat Shield
+Upgrade/Name/CommanderPrestigeRaynorBioUpgradeTerranInfantryArmorLevel12=CommanderPrestigeRaynorBioUpgradeTerranInfantryArmorLevel1
+Upgrade/Name/DarkMarineArmor2=Dark Marine Armor
 Upgrade/Name/GlialReconstitution2=Glial Reconstitution
 Upgrade/Name/HotSEnhancedBileDucts2=HotS Bile Ducts
 Upgrade/Name/HotSHardenedCarapace2=HotS Hardened Carapace
@@ -618,6 +880,9 @@ Upgrade/Name/HotsMuscularAugments2=Muscular Augments
 Upgrade/Name/HydraliskFrenzy2=Frenzy
 Upgrade/Name/HydraliskSpeedUpgrade2=Muscular Augments
 Upgrade/Name/KerriganCommander2=Kerrigan
+Upgrade/Name/LaserTargetingSystemMarine2=Laser Targeting System Marine
+Upgrade/Name/MarineStimpack2=Stimpack
+Upgrade/Name/MasteryRaynorStimDuration2=Mastery Raynor Stim Duration
 Upgrade/Name/ObverseIncubation2=Obverse Incubation
 Upgrade/Name/OrganicCarapace2=Organic Carapace
 Upgrade/Name/ProtossShieldsLevel12=Protoss Shields Level 1
@@ -628,9 +893,39 @@ Upgrade/Name/ProtossShieldsLevel32=Protoss Shields Level 3
 Upgrade/Name/ProtossShieldsLevel33=Protoss Shields Level 3
 Upgrade/Name/RaynorCommanderArmorVanadium2=Raynor Commander Armor Vanadium
 Upgrade/Name/RaynorCommanderStimUpgrade2=Raynor Commander Stim Upgrade
+Upgrade/Name/RaynorCommanderStimUpgrade22=Raynor Commander Stim Upgrade
+Upgrade/Name/RaynorCommanderStimUpgrade3=Raynor Commander Stim Upgrade
+Upgrade/Name/RaynorCommanderTerranInfantryWeaponRange2=Raynor Commander Terran Infantry Weapon Range
+Upgrade/Name/RaynorCommanderTerranWeaponAttackSpeed2=Raynor Commander Terran Weapon Attack Speed
+Upgrade/Name/RaynorTalentedTerranInfantryArmorLevel12=Raynor Talented Terran Infantry Armor Level 1
+Upgrade/Name/RaynorTalentedTerranInfantryArmorLevel22=Raynor Talented Terran Infantry Armor Level 2
+Upgrade/Name/RaynorTalentedTerranInfantryArmorLevel32=Raynor Talented Terran Infantry Armor Level 3
 Upgrade/Name/RewardDanceRoach2=Reward Dance - Roach
 Upgrade/Name/RoachSupply2=Roach Supply
+Upgrade/Name/ShieldWall2=Combat Shield
+Upgrade/Name/ShieldWallBlackOps2=Combat Shield
 Upgrade/Name/StimDamageUpgrade2=Stim Damage Upgrade
+Upgrade/Name/StimDamageUpgrade22=Stim Damage Upgrade
+Upgrade/Name/StimDamageUpgrade3=Stim Damage Upgrade
+Upgrade/Name/Stimpack2=Stimpack
+Upgrade/Name/TerranInfantryArmors2=Terran Infantry Armors
+Upgrade/Name/TerranInfantryArmorsLevel12=Terran Infantry Armor Level 1
+Upgrade/Name/TerranInfantryArmorsLevel22=Terran Infantry Armor Level 2
+Upgrade/Name/TerranInfantryArmorsLevel32=Terran Infantry Armor Level 3
+Upgrade/Name/TerranInfantryArmorsLevel42=Terran Infantry Armor Level 4
+Upgrade/Name/TerranInfantryArmorsVanadiumPlating2=Terran Infantry Armor Vanadium Plating
+Upgrade/Name/TerranInfantryArmorsVanadiumPlatingLevel12=Terran Infantry Armor Vanadium Plating Level 1
+Upgrade/Name/TerranInfantryArmorsVanadiumPlatingLevel22=Terran Infantry Armor Vanadium Plating Level 2
+Upgrade/Name/TerranInfantryArmorsVanadiumPlatingLevel32=Terran Infantry Armor Vanadium Plating Level 3
+Upgrade/Name/TerranInfantryWeapons2=Terran Infantry Weapons
+Upgrade/Name/TerranInfantryWeaponsLevel12=Terran Infantry Weapons Level 1
+Upgrade/Name/TerranInfantryWeaponsLevel22=Terran Infantry Weapons Level 2
+Upgrade/Name/TerranInfantryWeaponsLevel32=Terran Infantry Weapons Level 3
+Upgrade/Name/TerranInfantryWeaponsLevel42Level4=Terran Infantry Weapons Level 4
+Upgrade/Name/TerranInfantryWeaponsUltraCapacitors2=Terran Infantry Weapons Ultra-Capacitors
+Upgrade/Name/TerranInfantryWeaponsUltraCapacitorsLevel12=Terran Infantry Weapons Ultra-Capacitors Level 1
+Upgrade/Name/TerranInfantryWeaponsUltraCapacitorsLevel22=Terran Infantry Weapons Ultra-Capacitors Level 2
+Upgrade/Name/TerranInfantryWeaponsUltraCapacitorsLevel32=Terran Infantry Weapons Ultra-Capacitors Level 3
 Upgrade/Name/TunnelingClaws2=Tunneling Claws
 Upgrade/Name/ZagaraCommander2=Commander - Zerg - Zagara
 Upgrade/Name/ZagaraCommander22=Commander - Zerg - Zagara
@@ -642,10 +937,18 @@ Upgrade/Name/ZagaraCommander4=Commander - Zerg - Zagara
 Upgrade/Name/ZagaraVoidCoopCreepBonuses2=Zagara Void Coop Creep Bonuses
 Upgrade/Name/ZagaraVoidCoopCreepBonuses22=Zagara Void Coop Creep Bonuses
 Upgrade/Name/ZagaraVoidCoopCreepBonuses222=Zagara Void Coop Creep Bonuses
+Upgrade/Name/ZagaraVoidCoopCreepBonuses2222=Zagara Void Coop Creep Bonuses
+Upgrade/Name/ZagaraVoidCoopCreepBonuses223=Zagara Void Coop Creep Bonuses
 Upgrade/Name/ZagaraVoidCoopCreepBonuses23=Zagara Void Coop Creep Bonuses
+Upgrade/Name/ZagaraVoidCoopCreepBonuses232=Zagara Void Coop Creep Bonuses
+Upgrade/Name/ZagaraVoidCoopCreepBonuses24=Zagara Void Coop Creep Bonuses
 Upgrade/Name/ZagaraVoidCoopCreepBonuses3=Zagara Void Coop Creep Bonuses
 Upgrade/Name/ZagaraVoidCoopCreepBonuses32=Zagara Void Coop Creep Bonuses
+Upgrade/Name/ZagaraVoidCoopCreepBonuses322=Zagara Void Coop Creep Bonuses
+Upgrade/Name/ZagaraVoidCoopCreepBonuses33=Zagara Void Coop Creep Bonuses
 Upgrade/Name/ZagaraVoidCoopCreepBonuses4=Zagara Void Coop Creep Bonuses
+Upgrade/Name/ZagaraVoidCoopCreepBonuses42=Zagara Void Coop Creep Bonuses
+Upgrade/Name/ZagaraVoidCoopCreepBonuses5=Zagara Void Coop Creep Bonuses
 Upgrade/Name/ZagaraVoidCoopReducedUnitCost2=Zagara Void Coop Reduced Unit Cost
 Upgrade/Name/ZagaraVoidCoopReducedUnitCost22=Zagara Void Coop Reduced Unit Cost
 Upgrade/Name/ZagaraVoidCoopReducedUnitCost222=Zagara Void Coop Reduced Unit Cost
@@ -710,11 +1013,17 @@ Upgrade/Name/zerglingmovementspeed2=Metabolic Boost
 Weapon/Name/AcidSaliva2=RoachSalive
 Weapon/Name/Claws3=Claws
 Weapon/Name/Claws4=Claws
+Weapon/Name/Firebat=FirebatArme
 Weapon/Name/FusildeRaynor=Fusil de Raynor
 Weapon/Name/GriffesDeLings=GriffesDeLings
+Weapon/Name/GuassRifle4=MarineChienArme
 Weapon/Name/HydraliskMelee=HydraliskGriffes
 Weapon/Name/HydraliskMelee2=Melee
+Weapon/Name/InfernalFlameThrower=HellionArme
 Weapon/Name/MasterPsiBlade1=Master Psi Blade1
+Weapon/Name/P38ScytheGuassPistol=ReaperArme
+Weapon/Name/P38ScytheGuassPistol2=P-45 Gauss Pistol
+Weapon/Name/P38ScytheGuassPistol3=P-45 Gauss Pistol
 Weapon/Name/RaynorWeapon2=Gauss Rifle
 Weapon/Name/RaynorWeapon3=Gauss Rifle
 Weapon/Name/Starfoule=Starfoule

@@ -36,6 +36,11 @@
         <NodeArray index="Use" Link="CountUpgradeHotSZerglingHealthCompleteOnly2346380126"/>
         <NodeArray index="Show" Link="OrAndCountUpgradeKerriganCommanderCompleteOnlyLTE4CountUpgradeCommanderLevelCompleteOnlyAndCountUpgradeZagaraCommanderCompleteOnlyLTE6CountUpgradeCommanderLevelCompleteOnly"/>
     </CRequirement>
+    <CRequirement id="HaveShieldWall2">
+        <EditorCategories value="Race:Terran,TechType:Ability"/>
+        <NodeArray index="Use" Link="CountUpgradeShieldWallCompleteOnly3612790349"/>
+        <NodeArray index="Show" Link="CountUpgradeRaynorCommanderCompleteOnly"/>
+    </CRequirement>
     <CRequirement id="UseBattlecruiserSpecializations">
         <NodeArray index="Use" Link="AllowAbilSJHyperionBanshees03622066930TechTreeCheat"/>
     </CRequirement>
