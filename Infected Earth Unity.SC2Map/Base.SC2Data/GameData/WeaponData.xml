@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Catalog>
+    <CWeaponLegacy id="AcidSaliva">
+        <Range value="5"/>
+        <Period value="1"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="AcidSaliva2">
+        <EditorCategories value="Race:Zerg"/>
+        <Icon value="Assets\Textures\btn-upgrade-zerg-missileattacks-level0.dds"/>
+        <DisplayEffect value="AcidSalivaU2"/>
+        <TargetFilters value="Ground,Visible;Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <MinimumRange value="0.6"/>
+        <Period value="1"/>
+        <Effect value="AcidSalivaLM2"/>
+    </CWeaponLegacy>
     <CWeaponLegacy id="Claws2">
         <EditorCategories value="Race:Zerg"/>
         <Options index="Melee" value="1"/>
@@ -26,8 +39,10 @@
         <DisplayEffect value="Claws22"/>
         <TargetFilters value="Ground,Visible;Missile,Stasis,Dead,Hidden,Invulnerable"/>
         <Range value="0.1"/>
-        <Period value="0.4"/>
+        <Period value="1"/>
         <Effect value="HotSZerglingClaws22"/>
+        <DamagePoint value="20"/>
+        <Backswing value="0.1"/>
     </CWeaponLegacy>
     <CWeaponLegacy id="Claws3">
         <EditorCategories value="Race:Zerg"/>
@@ -50,6 +65,48 @@
         <DamagePoint value="17"/>
         <Backswing value="0.1"/>
         <Effect value="RaynorGaussRifleDamage2"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="GuassRifle4">
+        <EditorCategories value="Race:Terran"/>
+        <Icon value="Assets\Textures\btn-upgrade-terran-infantryweaponslevel0.dds"/>
+        <TargetFilters value="Visible;Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <MinScanRange value="5.5"/>
+        <Period value="0.5"/>
+        <DamagePoint value="0.05"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="InfernalFlameThrower">
+        <Period value="1.5"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="NeedleSpines">
+        <Range value="9"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="P38ScytheGuassPistol">
+        <Range value="6.5"/>
+        <Period value="0.7"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="P38ScytheGuassPistol2">
+        <EditorCategories value="Race:Terran"/>
+        <Icon value="Assets\Textures\btn-upgrade-terran-infantryweaponslevel0.dds"/>
+        <DisplayAttackCount value="2"/>
+        <TargetFilters value="Ground,Visible;Structure,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <MinScanRange value="5.5"/>
+        <Range value="4.5"/>
+        <Period value="1.1"/>
+        <DamagePoint value="0"/>
+        <Backswing value="0.75"/>
+        <Effect value="P38ScytheGuassPistolBurst2"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="P38ScytheGuassPistol3">
+        <EditorCategories value="Race:Terran"/>
+        <Icon value="Assets\Textures\btn-upgrade-terran-infantryweaponslevel0.dds"/>
+        <DisplayAttackCount value="2"/>
+        <TargetFilters value="Ground,Visible;Structure,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <MinScanRange value="5.5"/>
+        <Range value="4.5"/>
+        <Period value="1.1"/>
+        <DamagePoint value="0"/>
+        <Backswing value="0.75"/>
+        <Effect value="P38ScytheGuassPistolBurst3"/>
     </CWeaponLegacy>
     <CWeaponLegacy id="RaynorWeapon2">
         <EditorCategories value="Race:Terran"/>

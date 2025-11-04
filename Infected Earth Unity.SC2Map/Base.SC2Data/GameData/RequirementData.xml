@@ -1,8 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Catalog>
+    <CRequirement id="HaveHotSGroovedSpines2">
+        <EditorCategories value="Race:Zerg,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="CountUpgradeHotSGroovedSpinesCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="HaveHotSHydraliskHealth2">
+        <EditorCategories value="Race:Zerg,TechType:Upgrade"/>
+        <NodeArray index="Use" Link="CountUpgradeHotSHydraliskHealthCompleteOnly3435028794"/>
+        <NodeArray index="Show" Link="AndCountUpgradeKerriganCommanderCompleteOnlyLT5CountUpgradeCommanderLevelCompleteOnly"/>
+    </CRequirement>
     <CRequirement id="HaveHotSMetabolicBoost2">
         <EditorCategories value="Race:Zerg,TechType:Upgrade"/>
         <NodeArray index="Show" Link="CountUpgradeHotSMetabolicBoostCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="HaveHotSRoachDamage2">
+        <EditorCategories value="Race:Zerg,TechType:Upgrade"/>
+        <NodeArray index="Use" Link="CountUpgradeHotSRoachDamageCompleteOnly4076363195"/>
+        <NodeArray index="Show" Link="CountUpgradeAbathurCommanderCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="HaveHotSRoachShield2">
+        <EditorCategories value="Race:Zerg,TechType:Upgrade"/>
+        <NodeArray index="Use" Link="CountUpgradeHotSRoachShieldCompleteOnly1180808216"/>
+        <NodeArray index="Show" Link="AndCountUpgradeAbathurCommanderCompleteOnlyLT4CountUpgradeCommanderLevelCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="HaveHotSTunnelingClaws2">
+        <EditorCategories value="Race:Zerg,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="CountUpgradeHotSTunnelingClawsCompleteOnly"/>
     </CRequirement>
     <CRequirement id="HaveHotSZerglingFrenzy2">
         <EditorCategories value="Race:Zerg,TechType:Upgrade"/>
@@ -12,6 +35,11 @@
         <EditorCategories value="Race:Zerg,TechType:Upgrade"/>
         <NodeArray index="Use" Link="CountUpgradeHotSZerglingHealthCompleteOnly2346380126"/>
         <NodeArray index="Show" Link="OrAndCountUpgradeKerriganCommanderCompleteOnlyLTE4CountUpgradeCommanderLevelCompleteOnlyAndCountUpgradeZagaraCommanderCompleteOnlyLTE6CountUpgradeCommanderLevelCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="HaveShieldWall2">
+        <EditorCategories value="Race:Terran,TechType:Ability"/>
+        <NodeArray index="Use" Link="CountUpgradeShieldWallCompleteOnly3612790349"/>
+        <NodeArray index="Show" Link="CountUpgradeRaynorCommanderCompleteOnly"/>
     </CRequirement>
     <CRequirement id="UseBattlecruiserSpecializations">
         <NodeArray index="Use" Link="AllowAbilSJHyperionBanshees03622066930TechTreeCheat"/>
