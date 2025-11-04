@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <!--Table indiquant les récompenses accordés par les différentes unités.-->
+    <!--Le champ ressourceCount est un tableau de 10 éléments et il représente les éléments suivants dans l'ordre : -->
+    <!--Minerai, Vespene, Xp (Pas encore défini), Talent point (Pas encore défini), Kill value (Pas encore défini), Rank point (Pas encore défini)-->
+    <CUser id="KillRewardTable">
+        <Fields Id="unit" Type="Unit" EditorColumn="1"/>
+        <Fields>
+            <Id value="ressourceCount"/>
+            <Type value="Int"/>
+            <Count value="10"/>
+            <EditorColumn value="1"/>
+        </Fields>
+        <Instances Id="[Default]"/>
+        <Instances Id="1">
+            <Int Int="5">
+                <Field Id="ressourceCount"/>
+            </Int>
+            <Unit Unit="Zergling">
+                <Field Id="unit"/>
+            </Unit>
+        </Instances>
+    </CUser>
+</Catalog>

@@ -24,7 +24,7 @@ void Player_KillReward(int player, point deadUnitPosition)
 {
     // TODO : Gain de minerai en fonction de l'unité tué
     PlayerModifyPropertyFixed(player, c_playerPropMinerals, c_playerPropOperAdd, 10);
-    UI_CreateTextTag(StringToText("+") + FixedToText(10, 2), Color(20, 60, 90), deadUnitPosition, PlayerGroupSingle(player), 1.0, 3.0);
+    UI_CreateTextTag(StringToText("+") + FixedToText(10, 0), Color(20, 60, 90), deadUnitPosition, PlayerGroupSingle(player), 1.0, 2.0);
 }
 
 bool Player_OnUnitDeath(bool testConds, bool runActions)

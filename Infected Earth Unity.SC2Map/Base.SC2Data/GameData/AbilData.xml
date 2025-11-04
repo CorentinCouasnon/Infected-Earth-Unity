@@ -306,21 +306,39 @@
                 <CountMax value="50"/>
                 <CountStart value="50"/>
                 <CountUse value="1"/>
+                <Link value="RaynorDmgCharge"/>
                 <Location value="Player"/>
             </Charge>
             <Cooldown TimeUse="0.0625"/>
-            <Button DefaultButtonFace="TerranInfantryWeaponsLevel1"/>
+            <Button DefaultButtonFace="TerranInfantryWeaponsLevel1">
+                <Flags index="AllowSelfCast" value="1"/>
+                <Flags index="Continuous" value="1"/>
+            </Button>
         </InfoArray>
         <InfoArray index="Research2" Upgrade="BaseHealthUpgrade">
             <Resource index="Minerals" value="5"/>
             <Display index="Minerals" value="1"/>
-            <Charge CountMax="30" CountStart="30" CountUse="1"/>
+            <Charge>
+                <CountMax value="30"/>
+                <CountStart value="30"/>
+                <CountUse value="1"/>
+                <Link value="RaynorHealthCharge"/>
+                <Location value="Player"/>
+            </Charge>
+            <Cooldown TimeUse="0.0625"/>
             <Button DefaultButtonFace="HealthDispenserPickup"/>
         </InfoArray>
         <InfoArray index="Research3" Upgrade="BaseArmorUpgrade">
             <Resource index="Minerals" value="20"/>
             <Display index="Minerals" value="1"/>
-            <Charge CountMax="10" CountStart="10" CountUse="1"/>
+            <Charge>
+                <CountMax value="10"/>
+                <CountStart value="10"/>
+                <CountUse value="1"/>
+                <Link value="RaynorArmorCharge"/>
+                <Location value="Player"/>
+            </Charge>
+            <Cooldown TimeUse="0.0625"/>
             <Button DefaultButtonFace="TerranInfantryArmorLevel1"/>
         </InfoArray>
     </CAbilResearch>
@@ -334,6 +352,7 @@
                 <CountMax value="50"/>
                 <CountStart value="50"/>
                 <CountUse value="1"/>
+                <Link value="ZeratulDmgCharge"/>
                 <Location value="Player"/>
             </Charge>
             <Cooldown TimeUse="0.0625"/>
