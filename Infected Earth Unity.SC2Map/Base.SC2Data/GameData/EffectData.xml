@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Catalog>
+    <CEffectLaunchMissile id="AcidSalivaLM2">
+        <ValidatorArray index="0" value="RoachLMTargetFilters"/>
+        <EditorCategories value="Race:Zerg"/>
+        <ImpactEffect value="AcidSalivaSet2"/>
+        <AmmoUnit value="AcidSalivaWeapon2"/>
+    </CEffectLaunchMissile>
+    <CEffectSet id="AcidSalivaSet2">
+        <EditorCategories value="Race:Zerg"/>
+        <EffectArray value="BileDuctsApplyBehavior2"/>
+        <EffectArray value="AcidSalivaU2"/>
+    </CEffectSet>
+    <CEffectDamage id="AcidSalivaU2" parent="DU_WEAP_MISSILE">
+        <EditorCategories value="Race:Zerg"/>
+        <Amount value="60"/>
+        <Death value="Disintegrate"/>
+    </CEffectDamage>
     <CEffectApplyBehavior id="AlarakLightningStrikesAB2">
         <ValidatorArray index="0" value="HaveAlarakLightningStrikes"/>
         <ValidatorArray value="IsSupplicant"/>
@@ -110,6 +126,16 @@
     <CEffectSet id="AllUnitBehaviorControllerSubset12">
         <EditorCategories value=""/>
     </CEffectSet>
+    <CEffectApplyBehavior id="BileDuctsApplyBehavior2">
+        <ValidatorArray index="0" value="UseBileDucts"/>
+        <EditorCategories value="Race:Zerg"/>
+        <Behavior value="BileDucts2"/>
+    </CEffectApplyBehavior>
+    <CEffectDamage id="BileDuctsDamage2">
+        <EditorCategories value="Race:Zerg"/>
+        <Amount value="1"/>
+        <Death value="Disintegrate"/>
+    </CEffectDamage>
     <CEffectApplyBehavior id="Charge2">
         <ValidatorArray index="0" value="ChargeMinTriggerDistance"/>
         <ValidatorArray value="ChargeMaxDistance"/>
@@ -130,7 +156,7 @@
     </CEffectDamage>
     <CEffectDamage id="Claws22" parent="DU_WEAP">
         <EditorCategories value="Race:Zerg"/>
-        <Amount value="10"/>
+        <Amount value="40"/>
     </CEffectDamage>
     <CEffectDamage id="Claws3" parent="DU_WEAP">
         <EditorCategories value="Race:Zerg"/>
@@ -195,6 +221,15 @@
         <EffectArray value="DiamondbackWreckageAbil2"/>
         <EffectArray value="SwannCommanderMechWreckageBurningAB2"/>
     </CEffectSet>
+    <CEffectDamage id="ExplosiveSpinesDamage2" parent="DU_WEAP">
+        <EditorCategories value="Race:Terran"/>
+        <Kind value="Splash"/>
+        <Amount value="15"/>
+        <AreaArray Radius="1.5" Fraction="0.333"/>
+        <ExcludeArray Value="Target"/>
+        <SearchFilters value="Air;Self,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <SearchFlags index="OffsetByUnitRadius" value="0"/>
+    </CEffectDamage>
     <CEffectModifyUnit id="FullHealCaster2">
         <ImpactUnit Value="Caster"/>
         <VitalArray index="Life">
@@ -302,6 +337,26 @@
         <EffectArray value="ZerglingArmorShredTargetAB3"/>
         <EffectArray value="Claws3"/>
     </CEffectSet>
+    <CEffectApplyBehavior id="HydraliskFrenzyApplyBehavior2">
+        <EditorCategories value="Race:Zerg"/>
+        <WhichUnit Value="Caster"/>
+        <Behavior value="HydraliskFrenzy2"/>
+    </CEffectApplyBehavior>
+    <CEffectDamage id="HydraliskMelee">
+        <Amount value="120"/>
+    </CEffectDamage>
+    <CEffectDamage id="HydraliskMelee2" parent="DU_WEAP">
+        <Name value="Effect/Name/NeedleSpinesDamage"/>
+        <EditorCategories value="Race:Zerg"/>
+        <Marker Link="Effect/NeedleSpinesDamage"/>
+        <Amount value="12"/>
+        <Death value="Eviscerate"/>
+    </CEffectDamage>
+    <CEffectSet id="HydraliskMeleeSet2">
+        <EditorCategories value="Race:Zerg"/>
+        <EffectArray value="ParalyticSpines2"/>
+        <EffectArray value="HydraliskMelee2"/>
+    </CEffectSet>
     <CEffectApplyBehavior id="HyperionVoidCoopTimedLifeExpireAB2">
         <PreloadValidatorArray value="RaynorCommanderActive"/>
         <EditorCategories value="Race:Terran"/>
@@ -313,6 +368,34 @@
         <ValidatorArray index="0" value="HaveMasteryNovaArmyOOCRegenSpeed"/>
         <Behavior value="MasteryNovaArmyOOCRegenSpeed2"/>
     </CEffectApplyBehavior>
+    <CEffectDamage id="NeedleSpinesDamage">
+        <Amount value="90"/>
+    </CEffectDamage>
+    <CEffectDamage id="NeedleSpinesDamage2" parent="DU_WEAP">
+        <EditorCategories value="Race:Zerg"/>
+        <Kind value="Ranged"/>
+        <Amount value="12"/>
+    </CEffectDamage>
+    <CEffectSet id="NeedleSpinesImpactSet2">
+        <EditorCategories value="Race:Zerg"/>
+        <EffectArray value="ParalyticSpines2"/>
+        <EffectArray value="NeedleSpinesDamage2"/>
+    </CEffectSet>
+    <CEffectSet id="NeedleSpinesImpactSetUpgraded2">
+        <EditorCategories value="Race:Zerg"/>
+        <EffectArray value="ParalyticSpines2"/>
+        <EffectArray value="ExplosiveSpinesDamage2"/>
+    </CEffectSet>
+    <CEffectSwitch id="NeedleSpinesImpactSwitch2">
+        <EditorCategories value="Race:Zerg"/>
+        <CaseArray Validator="TargetIsAirAndHaveExplosiveSpines" Effect="NeedleSpinesImpactSetUpgraded2"/>
+        <CaseDefault value="NeedleSpinesImpactSet2"/>
+    </CEffectSwitch>
+    <CEffectLaunchMissile id="NeedleSpinesLaunchMissile2">
+        <EditorCategories value="Race:Zerg"/>
+        <ImpactEffect value="NeedleSpinesImpactSwitch2"/>
+        <AmmoUnit value="NeedleSpinesWeapon2"/>
+    </CEffectLaunchMissile>
     <CEffectApplyBehavior id="NovaStunResistanceAB2">
         <ValidatorArray index="0" value="IsNovaCoopCommander"/>
         <Behavior value="NovaStunResistance2"/>
@@ -417,6 +500,20 @@
         <EffectArray value="OnDeathVorazunRecallOnDeathTeleport2"/>
         <EffectArray value="OnDeathVorazunRecallOnDeathRecentlyRecalledAB2"/>
     </CEffectSet>
+    <CEffectApplyBehavior id="ParalyticSpines2">
+        <ValidatorArray index="0" value="UseParalyticSpines"/>
+        <ValidatorArray value="TargetIsNotUnstoppable"/>
+        <EditorCategories value=""/>
+    </CEffectApplyBehavior>
+    <CEffectDamage id="RavagerWeaponDamage2" parent="DU_WEAP_MISSILE">
+        <EditorCategories value="Race:Zerg"/>
+        <Amount value="16"/>
+    </CEffectDamage>
+    <CEffectLaunchMissile id="RavagerWeaponLM2">
+        <EditorCategories value="Race:Zerg"/>
+        <ImpactEffect value="RavagerWeaponDamage2"/>
+        <AmmoUnit value="RavagerWeaponMissile2"/>
+    </CEffectLaunchMissile>
     <CEffectDamage id="RaynorGaussRifleDamage2" parent="DU_WEAP">
         <EditorCategories value="Race:Terran"/>
         <Kind value="Ranged"/>
@@ -444,6 +541,19 @@
         <WhichUnit Value="Source"/>
         <BehaviorCategories index="Stun" value="1"/>
     </CEffectRemoveBehavior>
+    <CEffectSet id="RoachMeleeSet2">
+        <EditorCategories value="Race:Zerg"/>
+        <EffectArray value="BileDuctsApplyBehavior2"/>
+        <EffectArray value="RoachUMelee2"/>
+    </CEffectSet>
+    <CEffectDamage id="RoachUMelee2" parent="DU_WEAP_MISSILE">
+        <Name value="Effect/Name/AcidSalivaU"/>
+        <EditorCategories value="Race:Zerg"/>
+        <Marker Link="Effect/AcidSalivaU"/>
+        <Kind value="Melee"/>
+        <Amount value="90"/>
+        <Death value="Eviscerate"/>
+    </CEffectDamage>
     <CEffectApplyBehavior id="SOAHeroicShieldInvulnerableApply2">
         <ValidatorArray index="0" value="DoesNotHaveHeroicShieldWeakness"/>
         <ValidatorArray value="NotHallucination"/>
@@ -821,7 +931,8 @@
     </CEffectEnumArea>
     <CEffectApplyForce id="ZeratulCollisionEffect">
         <EditorCategories value=""/>
-        <Amount value="1.5"/>
+        <Amount value="2"/>
+        <WhichLocation Effect="ZeratulCollisionArea" Value="CasterPoint"/>
     </CEffectApplyForce>
     <CEffectApplyBehavior id="ZeratulDarkTemplarRetreatCooldownAB2">
         <EditorCategories value="Race:Protoss"/>

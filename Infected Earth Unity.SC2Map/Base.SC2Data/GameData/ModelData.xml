@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Catalog>
+    <CModel id="AcidSalivaWeapon2" parent="MissileFX">
+        <Model value="Assets\Effects\Zerg\RoachMissileEx1\RoachMissileEx1.m3"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CModel>
     <CModel id="ActorForceField2" parent="Doodad">
         <Model value="Assets\Doodads\ActorForceField\ActorForceField.m3"/>
     </CModel>
@@ -83,6 +87,11 @@
         <ScaleMax value="0.500000,0.500000,0.500000"/>
         <ScaleMin value="0.500000,0.500000,0.500000"/>
     </CModel>
+    <CModel id="BloodTargetImpact2" parent="ImpactFX">
+        <Model value="Assets\Effects\Other\BloodTargetImpact\BloodTargetImpact.m3"/>
+        <EditorCategories value="Race:Neutral"/>
+        <Flags index="Ignorable" value="1"/>
+    </CModel>
     <CModel id="ChangelingDeathMarine2" parent="UnitDeath" Race="Zerg">
         <Model value="Assets\Units\Zerg\ChangelingDeathMarine\ChangelingDeathMarine.m3"/>
         <LowQualityModel value="ZergSmallUnitDeathLow"/>
@@ -108,6 +117,18 @@
     <CModel id="DarkTemplar_Zeratul_COOP_StasisCacoon2">
         <Model value="Assets\COOP\Zeratul\Effects\DarkTemplar_Zeratul_COOP_StasisCacoon\DarkTemplar_Zeratul_COOP_StasisCacoon.m3"/>
     </CModel>
+    <CModel id="DeathVoidShadowMedium2" parent="UnitDeath">
+        <Model value="Assets\Units\Neutral\VoidUnit_Death\VoidUnit_Death.m3"/>
+        <EditorCategories value="Race:Zerg"/>
+        <ScaleMax value="1.500000,1.500000,1.500000"/>
+        <ScaleMin value="1.500000,1.500000,1.500000"/>
+    </CModel>
+    <CModel id="DeathVoidShadowMedium3" parent="UnitDeath">
+        <Model value="Assets\Units\Neutral\VoidUnit_Death\VoidUnit_Death.m3"/>
+        <EditorCategories value="Race:Zerg"/>
+        <ScaleMax value="1.500000,1.500000,1.500000"/>
+        <ScaleMin value="1.500000,1.500000,1.500000"/>
+    </CModel>
     <CModel id="DeathVoidShadowSmall2" parent="UnitDeath">
         <Model value="Assets\Units\Neutral\VoidUnit_Death\VoidUnit_Death.m3"/>
         <EditorCategories value="Race:Zerg"/>
@@ -119,6 +140,12 @@
     <CModel id="DeathVoidShadowSmall4" parent="UnitDeath">
         <Model value="Assets\Units\Neutral\VoidUnit_Death\VoidUnit_Death.m3"/>
         <EditorCategories value="Race:Zerg"/>
+    </CModel>
+    <CModel id="ExplosiveSpinesModel2" parent="OneShotSpellFX">
+        <Model value="Assets\Effects\Zerg\SymbioteImpact\SymbioteImpact.m3"/>
+        <EditorCategories value="Race:Zerg"/>
+        <ScaleMax value="2.000000,2.000000,1.000000"/>
+        <ScaleMin value="2.000000,2.000000,1.000000"/>
     </CModel>
     <CModel id="GlazeTychusHERCShield2">
         <Model value="Assets\Effects\Glaze\Glaze_Nova_Base_Decoy\Glaze_Nova_Base_Decoy.m3"/>
@@ -229,6 +256,11 @@
         <EditorCategories value="Race:Protoss"/>
         <Flags index="TeenSafe" value="1"/>
     </CModel>
+    <CModel id="HallucinationDeath7" parent="OneShotSpellFX">
+        <Model value="Assets\Effects\Protoss\HallucinateDeath\HallucinateDeath.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Flags index="TeenSafe" value="1"/>
+    </CModel>
     <CModel id="HeroDetectorRadarModel2" parent="PersistentSpellFX">
         <Model value="Assets\UI\Feedback\AIBeaconDetectPing\AIBeaconDetectPing.m3"/>
         <ScaleMax value="2.000000,2.000000,2.000000"/>
@@ -238,6 +270,40 @@
         <Model value="Assets\UI\Feedback\AIBeaconDetectPing\AIBeaconDetectPing.m3"/>
         <ScaleMax value="2.000000,2.000000,2.000000"/>
         <ScaleMin value="2.000000,2.000000,2.000000"/>
+    </CModel>
+    <CModel id="Hydralisk2" parent="HydraliskBase">
+        <Model value="Assets\Units\Zerg\Hydralisk\Hydralisk.m3"/>
+    </CModel>
+    <CModel id="HydraliskAttackImpact2" parent="ImpactFX">
+        <Model value="Assets\Effects\Zerg\MutaliskMissileImpact\MutaliskMissileImpact.m3"/>
+        <EditorCategories value="Race:Zerg"/>
+        <ScaleMax value="0.660000,0.660000,0.660000"/>
+        <ScaleMin value="0.660000,0.660000,0.660000"/>
+    </CModel>
+    <CModel id="HydraliskDeath2" parent="HydraliskDeathBase">
+        <Model value="Assets\Units\Zerg\HydraliskDeathEx1\HydraliskDeathEx1.m3"/>
+    </CModel>
+    <CModel id="HydraliskDeathAcid2" parent="HydraliskDeathAcidBase">
+        <Model value="Assets\Units\Zerg\HydraliskDeathAcid\HydraliskDeathAcid.m3"/>
+    </CModel>
+    <CModel id="HydraliskDeathFire2" parent="HydraliskDeathFireBase">
+        <Model value="Assets\Units\Zerg\HydraliskDeathFire\HydraliskDeathFire.m3"/>
+    </CModel>
+    <CModel id="HydraliskDeathRagdoll2" parent="HydraliskDeathRagdollBase">
+        <Model value="Assets\Units\Zerg\HydraliskDeathRagdoll\HydraliskDeathRagdoll.m3"/>
+    </CModel>
+    <CModel id="HydraliskFrenzyBirthModel2" parent="OneShotSpellFX">
+        <Model value="Assets\Effects\Zerg\HydraliskFrenzyBirth\HydraliskFrenzyBirth.m3"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CModel>
+    <CModel id="HydraliskFrenzyModel2" parent="PersistentSpellFX">
+        <Model value="Assets\Effects\Zerg\HydraliskFrenzy\HydraliskFrenzy.m3"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CModel>
+    <CModel id="HydraliskPortrait2" parent="HydraliskPortraitBase">
+        <Model value="Assets\Portraits\Zerg\HydraliskPortrait\HydraliskPortrait.m3"/>
+        <Image value="Assets\Textures\HydraliskPortrait_Static.dds"/>
+        <Lighting value="HydraliskPortrait"/>
     </CModel>
     <CModel id="HyperionHyperjumpLaunch2">
         <Model value="Assets\Effects\Terran\HyperionTeleportOut\HyperionTeleportOut.m3"/>
@@ -253,6 +319,30 @@
         <ShadowRadius value="0.000000"/>
     </CModel>
     <CModel id="Invisible11" Race="Neutral">
+        <Model value="Assets\Units\Test\InvisibleUnit\InvisibleUnit.m3"/>
+        <EditorCategories value="Race:Neutral"/>
+        <Flags index="TeenSafe" value="1"/>
+        <Radius value="-1.000000"/>
+        <SelectionRadius value="0.000000"/>
+        <ShadowRadius value="0.000000"/>
+    </CModel>
+    <CModel id="Invisible12" Race="Neutral">
+        <Model value="Assets\Units\Test\InvisibleUnit\InvisibleUnit.m3"/>
+        <EditorCategories value="Race:Neutral"/>
+        <Flags index="TeenSafe" value="1"/>
+        <Radius value="-1.000000"/>
+        <SelectionRadius value="0.000000"/>
+        <ShadowRadius value="0.000000"/>
+    </CModel>
+    <CModel id="Invisible13" Race="Neutral">
+        <Model value="Assets\Units\Test\InvisibleUnit\InvisibleUnit.m3"/>
+        <EditorCategories value="Race:Neutral"/>
+        <Flags index="TeenSafe" value="1"/>
+        <Radius value="-1.000000"/>
+        <SelectionRadius value="0.000000"/>
+        <ShadowRadius value="0.000000"/>
+    </CModel>
+    <CModel id="Invisible14" Race="Neutral">
         <Model value="Assets\Units\Test\InvisibleUnit\InvisibleUnit.m3"/>
         <EditorCategories value="Race:Neutral"/>
         <Flags index="TeenSafe" value="1"/>
@@ -398,6 +488,10 @@
         <Model value="Assets\Effects\Zerg\MendBuff\MendBuff.m3"/>
         <EditorCategories value="Race:Terran"/>
     </CModel>
+    <CModel id="NeedleSpinesWeapon2" parent="MissileFX">
+        <Model value="Assets\Effects\Zerg\HydraliskMissile\HydraliskMissile.m3"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CModel>
     <CModel id="ProtossSmallUnitDeathLow10" parent="UnitDeath" Race="Protoss">
         <Model value="Assets\Effects\Protoss\ProtossUnitDeath\ProtossUnitDeath_Low.m3"/>
         <Flags index="TeenSafe" value="1"/>
@@ -407,6 +501,30 @@
         <ShadowRadius value="0.400000"/>
     </CModel>
     <CModel id="ProtossSmallUnitDeathLow11" parent="UnitDeath" Race="Protoss">
+        <Model value="Assets\Effects\Protoss\ProtossUnitDeath\ProtossUnitDeath_Low.m3"/>
+        <Flags index="TeenSafe" value="1"/>
+        <ScaleMax value="1.250000,1.250000,1.250000"/>
+        <ScaleMin value="1.250000,1.250000,1.250000"/>
+        <SelectionRadius value="0.400000"/>
+        <ShadowRadius value="0.400000"/>
+    </CModel>
+    <CModel id="ProtossSmallUnitDeathLow12" parent="UnitDeath" Race="Protoss">
+        <Model value="Assets\Effects\Protoss\ProtossUnitDeath\ProtossUnitDeath_Low.m3"/>
+        <Flags index="TeenSafe" value="1"/>
+        <ScaleMax value="1.250000,1.250000,1.250000"/>
+        <ScaleMin value="1.250000,1.250000,1.250000"/>
+        <SelectionRadius value="0.400000"/>
+        <ShadowRadius value="0.400000"/>
+    </CModel>
+    <CModel id="ProtossSmallUnitDeathLow13" parent="UnitDeath" Race="Protoss">
+        <Model value="Assets\Effects\Protoss\ProtossUnitDeath\ProtossUnitDeath_Low.m3"/>
+        <Flags index="TeenSafe" value="1"/>
+        <ScaleMax value="1.250000,1.250000,1.250000"/>
+        <ScaleMin value="1.250000,1.250000,1.250000"/>
+        <SelectionRadius value="0.400000"/>
+        <ShadowRadius value="0.400000"/>
+    </CModel>
+    <CModel id="ProtossSmallUnitDeathLow14" parent="UnitDeath" Race="Protoss">
         <Model value="Assets\Effects\Protoss\ProtossUnitDeath\ProtossUnitDeath_Low.m3"/>
         <Flags index="TeenSafe" value="1"/>
         <ScaleMax value="1.250000,1.250000,1.250000"/>
@@ -478,6 +596,34 @@
         <SelectionRadius value="0.400000"/>
         <ShadowRadius value="0.400000"/>
     </CModel>
+    <CModel id="Ravager2" parent="RavagerBase">
+        <Model value="Assets\Units\Zerg\Ravager\Ravager.m3"/>
+    </CModel>
+    <CModel id="RavagerDeath2" parent="RavagerDeathBase">
+        <Model value="Assets\Units\Zerg\Ravager_Death\Ravager_Death.m3"/>
+    </CModel>
+    <CModel id="RavagerDeathAcid2" parent="RavagerDeathAcidBase">
+        <Model value="Assets\Units\Zerg\Ravager_Death_Acid\Ravager_Death_Acid.m3"/>
+    </CModel>
+    <CModel id="RavagerDeathFire2" parent="RavagerDeathFireBase">
+        <Model value="Assets\Units\Zerg\RavagerDeathFire\RavagerDeathFire.m3"/>
+    </CModel>
+    <CModel id="RavagerDeathRagdoll2" parent="RavagerDeathRagdollBase">
+        <Model value="Assets\Units\Zerg\RavagerDeathRagdoll\RavagerDeathRagdoll.m3"/>
+    </CModel>
+    <CModel id="RavagerPortrait2" parent="RavagerPortraitBase">
+        <Model value="Assets\Portraits\Zerg\RavagerEx2_Portrait\RavagerEx2_Portrait.m3"/>
+        <Image value="Assets\Textures\RavagerPortrait_Static.dds"/>
+        <Lighting value="RavagerPortrait"/>
+    </CModel>
+    <CModel id="RavagerWeaponImpact2" parent="ImpactFX">
+        <Model value="Assets\Effects\Zerg\Ravager_Missile_Impact\Ravager_Missile_Impact.m3"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CModel>
+    <CModel id="RavagerWeaponMissile2" parent="MissileFX">
+        <Model value="Assets\Effects\Zerg\Ravager_Missile\Ravager_Missile.m3"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CModel>
     <CModel id="Raynor2" parent="Unit">
         <Model value="Assets\Units\Terran\MarineRaynor\MarineRaynor.m3"/>
         <EditorCategories value="Race:Terran"/>
@@ -509,6 +655,40 @@
         <Flags index="Download" value="1"/>
         <Image value="Assets\Textures\RaynorMarinePortrait_Static.dds"/>
         <Lighting value="RaynorMarinePortrait"/>
+    </CModel>
+    <CModel id="Roach2" parent="RoachBase">
+        <Model value="Assets\Units\Zerg\Roach\Roach.m3"/>
+        <ScaleMax value="1.200000,1.200000,1.200000"/>
+        <ScaleMin value="1.000000,1.000000,1.000000"/>
+    </CModel>
+    <CModel id="RoachAttackImpact2" parent="ImpactFX">
+        <Model value="Assets\Effects\Zerg\RoachWeaponImpact\RoachWeaponImpact.m3"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CModel>
+    <CModel id="RoachDeath2" parent="RoachDeathBase">
+        <Model value="Assets\Units\Zerg\RoachDeathEx1\RoachDeathEx1.m3"/>
+    </CModel>
+    <CModel id="RoachDeathAcid2" parent="RoachDeathAcidBase">
+        <Model value="Assets\Units\Zerg\RoachDeathAcid\RoachDeathAcid.m3"/>
+    </CModel>
+    <CModel id="RoachDeathFire2" parent="RoachDeathFireBase">
+        <Model value="Assets\Units\Zerg\RoachDeathFire\RoachDeathFire.m3"/>
+    </CModel>
+    <CModel id="RoachDeathRagdoll2" parent="RoachDeathRagdollBase">
+        <Model value="Assets\Units\Zerg\RoachDeathRagdoll\RoachDeathRagdoll.m3"/>
+    </CModel>
+    <CModel id="RoachMissileImpact2" parent="ImpactFX">
+        <Model value="Assets\Effects\Zerg\RoachMissileImpactEx1\RoachMissileImpactEx1.m3"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CModel>
+    <CModel id="RoachPortrait2" parent="RoachPortraitBase">
+        <Model value="Assets\Portraits\Zerg\RoachPortrait\RoachPortrait.m3"/>
+        <Image value="Assets\Textures\RoachPortrait_Static.dds"/>
+        <Lighting value="RoachPortrait"/>
+    </CModel>
+    <CModel id="RoachShield2" parent="PersistentSpellFX">
+        <Model value="Assets\Effects\Zerg\AdaptivePlating\AdaptivePlating.m3"/>
+        <EditorCategories value="Race:Zerg"/>
     </CModel>
     <CModel id="SOAHeroicShieldLongModel2">
         <Model value="Assets\Effects\Protoss\SOA_GuardianShell_Long\SOA_GuardianShell_Long.m3"/>
@@ -614,6 +794,33 @@
         <ShadowRadius value="0.454300"/>
     </CModel>
     <CModel id="TerranSmallUnitDeathLow11" parent="UnitDeath" Race="Terran">
+        <Model value="Assets\Effects\Terran\TerranSmallUnitDeath\TerranSmallUnitDeath_Low.m3"/>
+        <EditorCategories value="Race:Zerg"/>
+        <Flags index="TeenSafe" value="1"/>
+        <ScaleMax value="1.100000,1.100000,1.100000"/>
+        <ScaleMin value="1.100000,1.100000,1.100000"/>
+        <SelectionRadius value="0.454300"/>
+        <ShadowRadius value="0.454300"/>
+    </CModel>
+    <CModel id="TerranSmallUnitDeathLow12" parent="UnitDeath" Race="Terran">
+        <Model value="Assets\Effects\Terran\TerranSmallUnitDeath\TerranSmallUnitDeath_Low.m3"/>
+        <EditorCategories value="Race:Zerg"/>
+        <Flags index="TeenSafe" value="1"/>
+        <ScaleMax value="1.100000,1.100000,1.100000"/>
+        <ScaleMin value="1.100000,1.100000,1.100000"/>
+        <SelectionRadius value="0.454300"/>
+        <ShadowRadius value="0.454300"/>
+    </CModel>
+    <CModel id="TerranSmallUnitDeathLow13" parent="UnitDeath" Race="Terran">
+        <Model value="Assets\Effects\Terran\TerranSmallUnitDeath\TerranSmallUnitDeath_Low.m3"/>
+        <EditorCategories value="Race:Zerg"/>
+        <Flags index="TeenSafe" value="1"/>
+        <ScaleMax value="1.100000,1.100000,1.100000"/>
+        <ScaleMin value="1.100000,1.100000,1.100000"/>
+        <SelectionRadius value="0.454300"/>
+        <ShadowRadius value="0.454300"/>
+    </CModel>
+    <CModel id="TerranSmallUnitDeathLow14" parent="UnitDeath" Race="Terran">
         <Model value="Assets\Effects\Terran\TerranSmallUnitDeath\TerranSmallUnitDeath_Low.m3"/>
         <EditorCategories value="Race:Zerg"/>
         <Flags index="TeenSafe" value="1"/>
@@ -981,6 +1188,33 @@
         <ShadowRadius value="0.625000"/>
     </CModel>
     <CModel id="ZergSmallUnitDeathLow11" parent="UnitDeath" Race="Zerg">
+        <Model value="Assets\Effects\Zerg\ZergSmallUnitDeath\ZergSmallUnitDeath_low.m3"/>
+        <Flags index="TeenSafe" value="1"/>
+        <Occlusion value="Show"/>
+        <ScaleMax value="0.800000,0.800000,0.800000"/>
+        <ScaleMin value="0.800000,0.800000,0.800000"/>
+        <SelectionRadius value="0.625000"/>
+        <ShadowRadius value="0.625000"/>
+    </CModel>
+    <CModel id="ZergSmallUnitDeathLow12" parent="UnitDeath" Race="Zerg">
+        <Model value="Assets\Effects\Zerg\ZergSmallUnitDeath\ZergSmallUnitDeath_low.m3"/>
+        <Flags index="TeenSafe" value="1"/>
+        <Occlusion value="Show"/>
+        <ScaleMax value="0.800000,0.800000,0.800000"/>
+        <ScaleMin value="0.800000,0.800000,0.800000"/>
+        <SelectionRadius value="0.625000"/>
+        <ShadowRadius value="0.625000"/>
+    </CModel>
+    <CModel id="ZergSmallUnitDeathLow13" parent="UnitDeath" Race="Zerg">
+        <Model value="Assets\Effects\Zerg\ZergSmallUnitDeath\ZergSmallUnitDeath_low.m3"/>
+        <Flags index="TeenSafe" value="1"/>
+        <Occlusion value="Show"/>
+        <ScaleMax value="0.800000,0.800000,0.800000"/>
+        <ScaleMin value="0.800000,0.800000,0.800000"/>
+        <SelectionRadius value="0.625000"/>
+        <ShadowRadius value="0.625000"/>
+    </CModel>
+    <CModel id="ZergSmallUnitDeathLow14" parent="UnitDeath" Race="Zerg">
         <Model value="Assets\Effects\Zerg\ZergSmallUnitDeath\ZergSmallUnitDeath_low.m3"/>
         <Flags index="TeenSafe" value="1"/>
         <Occlusion value="Show"/>

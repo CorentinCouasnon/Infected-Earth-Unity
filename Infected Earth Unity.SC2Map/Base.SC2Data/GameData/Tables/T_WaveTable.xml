@@ -17,15 +17,21 @@
         </Fields>
         <Instances Id="[Default]"/>
         <Instances Id="1">
-            <Int Int="20">
+            <Int Int="40">
                 <Field Id="count"/>
             </Int>
             <Unit Unit="Zergling">
                 <Field Id="unit"/>
             </Unit>
+            <Unit Unit="Roach">
+                <Field Id="unit" Index="1"/>
+            </Unit>
+            <Unit Unit="Hydralisk">
+                <Field Id="unit" Index="2"/>
+            </Unit>
         </Instances>
         <Instances Id="2">
-            <Int Int="25">
+            <Int Int="65">
                 <Field Id="count"/>
             </Int>
             <Unit Unit="Zergling">
@@ -33,7 +39,7 @@
             </Unit>
         </Instances>
         <Instances Id="3">
-            <Int Int="7">
+            <Int Int="100">
                 <Field Id="count"/>
             </Int>
             <Unit Unit="Zergling">
@@ -41,32 +47,50 @@
             </Unit>
         </Instances>
         <Instances Id="4">
-            <Int Int="8">
+            <Int Int="100">
                 <Field Id="count"/>
+            </Int>
+            <Int Int="25">
+                <Field Id="count" Index="1"/>
             </Int>
             <Unit Unit="Zergling">
                 <Field Id="unit"/>
             </Unit>
         </Instances>
         <Instances Id="5">
-            <Int Int="9">
+            <Int Int="110">
                 <Field Id="count"/>
+            </Int>
+            <Int Int="50">
+                <Field Id="count" Index="1"/>
             </Int>
             <Unit Unit="Zergling">
                 <Field Id="unit"/>
             </Unit>
         </Instances>
         <Instances Id="6">
-            <Int Int="10">
+            <Int Int="75">
                 <Field Id="count"/>
+            </Int>
+            <Int Int="75">
+                <Field Id="count" Index="1"/>
+            </Int>
+            <Int Int="25">
+                <Field Id="count" Index="2"/>
             </Int>
             <Unit Unit="Zergling">
                 <Field Id="unit"/>
             </Unit>
         </Instances>
         <Instances Id="7">
-            <Int Int="10">
+            <Int Int="75">
                 <Field Id="count"/>
+            </Int>
+            <Int Int="75">
+                <Field Id="count" Index="1"/>
+            </Int>
+            <Int Int="75">
+                <Field Id="count" Index="2"/>
             </Int>
             <Unit Unit="Zergling">
                 <Field Id="unit"/>
@@ -76,13 +100,25 @@
             <Int Int="10">
                 <Field Id="count"/>
             </Int>
+            <Int Int="100">
+                <Field Id="count" Index="1"/>
+            </Int>
+            <Int Int="100">
+                <Field Id="count" Index="2"/>
+            </Int>
             <Unit Unit="Zergling">
                 <Field Id="unit"/>
             </Unit>
         </Instances>
         <Instances Id="9">
-            <Int Int="10">
+            <Int Int="150">
                 <Field Id="count"/>
+            </Int>
+            <Int Int="150">
+                <Field Id="count" Index="1"/>
+            </Int>
+            <Int Int="30">
+                <Field Id="count" Index="2"/>
             </Int>
             <Unit Unit="Zergling">
                 <Field Id="unit"/>
@@ -94,6 +130,9 @@
             </Int>
             <Int Int="1">
                 <Field Id="count" Index="1"/>
+            </Int>
+            <Int Int="200">
+                <Field Id="count" Index="3"/>
             </Int>
             <Unit Unit="Zergling">
                 <Field Id="unit"/>

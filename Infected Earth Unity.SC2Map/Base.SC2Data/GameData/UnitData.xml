@@ -19,6 +19,10 @@
         <FlagArray index="CameraFollow" value="0"/>
         <FlagArray index="TownStructureWall" value="1"/>
     </CUnit>
+    <CUnit id="AcidSalivaWeapon2" parent="MISSILE">
+        <Race value="Zerg"/>
+        <EditorCategories value="ObjectType:Projectile,ObjectFamily:Melee"/>
+    </CUnit>
     <CUnit id="AlarakTheStrongestSurviveDummyAttackMissile2" parent="MISSILE_INVULNERABLE">
         <Race value="Prot"/>
         <Mover value="AlarakSoulStealDummyAttackMissile2"/>
@@ -1574,6 +1578,63 @@
         <TauntDuration index="Cheer" value="5"/>
         <TauntDuration index="Dance" value="5"/>
     </CUnit>
+    <CUnit id="Hydralisk">
+        <LifeStart value="400"/>
+        <LifeMax value="400"/>
+        <LifeArmor value="3"/>
+        <Speed value="3.5"/>
+    </CUnit>
+    <CUnit id="HydraliskChien">
+        <Name value="Unit/Name/Hydralisk"/>
+        <Description value="Button/Tooltip/Hydralisk"/>
+        <DeathRevealRadius value="3"/>
+        <Race value="Zerg"/>
+        <Mob value="Multiplayer"/>
+        <FlagArray index="PreventDestroy" value="1"/>
+        <FlagArray index="UseLineOfSight" value="1"/>
+        <FlagArray index="Cloaked" value="1"/>
+        <FlagArray index="Buried" value="1"/>
+        <FlagArray index="AIThreatGround" value="1"/>
+        <FlagArray index="AIThreatAir" value="1"/>
+        <FlagArray index="ArmySelect" value="1"/>
+        <PlaneArray index="Ground" value="1"/>
+        <Collide index="Burrow" value="1"/>
+        <Attributes index="Light" value="1"/>
+        <Attributes index="Biological" value="1"/>
+        <LifeStart value="80"/>
+        <LifeMax value="80"/>
+        <LifeRegenRate value="0.2734"/>
+        <LifeArmorName value="Unit/LifeArmorName/ZergGroundArmor"/>
+        <ShieldArmorName value="Unit/ShieldArmorName/ZergWildMutation"/>
+        <Mover value="Burrowed"/>
+        <Sight value="5"/>
+        <Food value="-2"/>
+        <CostCategory value="Army"/>
+        <CostResource index="Minerals" value="100"/>
+        <CostResource index="Vespene" value="50"/>
+        <AttackTargetPriority value="20"/>
+        <AbilArray Link="BurrowHydraliskUp"/>
+        <AbilArray Link="HydraliskFrenzy"/>
+        <BehaviorArray Link="BurrowCracks"/>
+        <BehaviorArray Link="AllUnitBehaviorController"/>
+        <CardLayouts>
+            <LayoutButtons Face="Attack" Type="AbilCmd" AbilCmd="attack,Execute" Row="0" Column="4"/>
+            <LayoutButtons Face="BurrowUp" Type="AbilCmd" AbilCmd="BurrowHydraliskUp,Execute" Row="2" Column="4"/>
+            <LayoutButtons Face="AncillaryCarapaceHydralisk" Type="Passive" Requirements="HaveHotSHydraliskHealth" Row="2" Column="3"/>
+            <LayoutButtons Face="MuscularAugmentsCoop" Type="Passive" Requirements="HaveGroovedSpines" Row="2" Column="2"/>
+        </CardLayouts>
+        <Radius value="0.625"/>
+        <SeparationRadius value="0"/>
+        <InnerRadius value="0.375"/>
+        <SubgroupPriority value="116"/>
+        <EditorCategories value="ObjectType:Unit,ObjectFamily:FactionEvolved"/>
+        <TacticalAI value="HydraliskBurrowed"/>
+        <LeaderAlias value="Hydralisk"/>
+        <HotkeyAlias value="Hydralisk"/>
+        <KillDisplay value="Always"/>
+        <RankDisplay value="Always"/>
+        <AIEvaluateAlias value="Hydralisk"/>
+    </CUnit>
     <CUnit id="InfestedExploderBurrowed2">
         <Name value="Unit/Name/InfestedExploder"/>
         <DeathRevealRadius value="3"/>
@@ -1650,8 +1711,8 @@
         <Attributes index="Structure" value="0"/>
         <LifeStart value="650"/>
         <LifeMax value="650"/>
-        <LifeArmor value="6"/>
-        <LifeRegenRate value="25"/>
+        <LifeArmor value="3"/>
+        <LifeRegenRate value="10"/>
         <LifeArmorName value="Unit/LifeArmorName/TerranInfantryArmor"/>
         <EnergyStart value="250"/>
         <EnergyMax value="250"/>
@@ -1685,7 +1746,7 @@
             <LayoutButtons Face="TossGrenade2" Type="AbilCmd" AbilCmd="GrenadeStarfoulah,Execute" Row="2" Column="1"/>
             <LayoutButtons Face="Stim" Type="AbilCmd" AbilCmd="StimpackDeRaynor,Execute" Row="2" Column="0"/>
             <LayoutButtons>
-                <Face value="YamatoGun2"/>
+                <Face value="TerranInfantryWeaponsLevel3"/>
                 <Type value="Submenu"/>
                 <SubmenuCardId value="0002"/>
                 <SubmenuFullSubCmdValidation value="1"/>
@@ -1696,7 +1757,7 @@
         </CardLayouts>
         <CardLayouts CardId="0002">
             <LayoutButtons Face="BlinkNova" Type="AbilCmd" AbilCmd="NovaBlink,Execute" Row="0" Column="0"/>
-            <LayoutButtons Face="TerranInfantryArmorLevel1" Type="AbilCmd" AbilCmd="RechercheArmureRaynor,Research1" Row="0" Column="1"/>
+            <LayoutButtons Face="TerranInfantryArmorLevel1" Type="AbilCmd" AbilCmd="RechercheArmureRaynor,255" Row="0" Column="1"/>
         </CardLayouts>
         <Radius value="0.5"/>
         <CargoSize value="1"/>
@@ -2135,6 +2196,9 @@
             <ChanceArray index="Idle" value="33"/>
             <ChanceArray index="Turn" value="33"/>
         </Fidget>
+    </CUnit>
+    <CUnit id="NeedleSpinesWeapon2" parent="MISSILE">
+        <Name value="Unit/Name/HydraliskGroundWeapon"/>
     </CUnit>
     <CUnit id="PrisonZealot2">
         <Name value="Unit/Name/Zealot"/>
@@ -2651,6 +2715,84 @@
             <ChanceArray index="Idle" value="33"/>
             <ChanceArray index="Turn" value="33"/>
         </Fidget>
+    </CUnit>
+    <CUnit id="Roach">
+        <LifeStart value="400"/>
+        <LifeMax value="400"/>
+        <LifeArmor value="3"/>
+        <LifeRegenRate value="20"/>
+        <Speed value="3.25"/>
+    </CUnit>
+    <CUnit id="RoachChien">
+        <Name value="Unit/Name/Roach"/>
+        <Description value="Button/Tooltip/Roach"/>
+        <DeathRevealRadius value="3"/>
+        <Race value="Zerg"/>
+        <Mob value="Multiplayer"/>
+        <FlagArray index="PreventDestroy" value="1"/>
+        <FlagArray index="UseLineOfSight" value="1"/>
+        <FlagArray index="Cloaked" value="1"/>
+        <FlagArray index="Buried" value="1"/>
+        <FlagArray index="AIThreatGround" value="1"/>
+        <FlagArray index="ArmySelect" value="1"/>
+        <PlaneArray index="Ground" value="1"/>
+        <Collide index="RoachBurrow" value="1"/>
+        <Attributes index="Armored" value="1"/>
+        <Attributes index="Biological" value="1"/>
+        <LifeStart value="145"/>
+        <LifeMax value="145"/>
+        <LifeArmor value="1"/>
+        <LifeRegenRate value="5"/>
+        <LifeArmorName value="Unit/LifeArmorName/ZergGroundArmor"/>
+        <ShieldArmorName value="Unit/ShieldArmorName/ZergWildMutation"/>
+        <Mover value="Burrowed"/>
+        <SpeedMultiplierCreep value="1.3"/>
+        <Sight value="5"/>
+        <Food value="-2"/>
+        <CostCategory value="Army"/>
+        <CostResource index="Minerals" value="75"/>
+        <CostResource index="Vespene" value="25"/>
+        <AttackTargetPriority value="20"/>
+        <AbilArray Link="BurrowRoachUp"/>
+        <AbilArray Link="stop"/>
+        <AbilArray Link="move"/>
+        <AbilArray Link="EvolveToBrutaliskRoach"/>
+        <AbilArray Link="AbathurDeepTunnelImproved"/>
+        <AbilArray Link="que1"/>
+        <BehaviorArray Link="RoachShield"/>
+        <BehaviorArray Link="RoachRegenDummy"/>
+        <BehaviorArray Link="AllUnitBehaviorController"/>
+        <CardLayouts>
+            <LayoutButtons Face="Attack" Type="AbilCmd" AbilCmd="attack,Execute" Row="0" Column="4"/>
+            <LayoutButtons Face="BurrowUp" Type="AbilCmd" AbilCmd="BurrowRoachUp,Execute" Row="2" Column="4"/>
+            <LayoutButtons Face="RapidRegeneration" Type="Passive" Row="1" Column="0"/>
+            <LayoutButtons Face="Move" Type="AbilCmd" AbilCmd="move,Move" Row="0" Column="0"/>
+            <LayoutButtons Face="StopRoachBurrowed" Type="AbilCmd" AbilCmd="stop,Stop" Row="0" Column="1"/>
+            <LayoutButtons Face="MoveHoldPosition" Type="AbilCmd" AbilCmd="move,HoldPos" Row="0" Column="2"/>
+            <LayoutButtons Face="MovePatrol" Type="AbilCmd" AbilCmd="move,Patrol" Row="0" Column="3"/>
+            <LayoutButtons Face="AcquireMove" Type="AbilCmd" AbilCmd="move,AcquireMove" Row="0" Column="4"/>
+            <LayoutButtons Face="ZerglingBurrowMove" Type="Passive" Requirements="HaveOrganicCarapace" Row="1" Column="2"/>
+            <LayoutButtons Face="HotSRoachShield" Type="Passive" Requirements="HaveHotSRoachShield" Row="1" Column="4"/>
+            <LayoutButtons Face="HotSRoachDamage" Type="Passive" Requirements="HaveHotSRoachDamage" Row="1" Column="3"/>
+            <LayoutButtons Face="GlialReconstitutionPassive" Type="Passive" Requirements="HaveGlialReconstitution" Row="1" Column="1"/>
+            <LayoutButtons Face="CommanderPrestigeAbathurBrutaliskLocked" Type="Passive" Requirements="CommanderPrestigeAbathurBiomass" Row="2" Column="2"/>
+            <LayoutButtons Face="EvolveToBrutalisk" Type="AbilCmd" AbilCmd="EvolveToBrutaliskRoach,Train1" Row="2" Column="2"/>
+            <LayoutButtons Face="EvolveToBrutaliskLocked" Type="Passive" Requirements="AbathurLevel02" Row="2" Column="2"/>
+            <LayoutButtons Face="BiomassPassive" Type="Passive" Requirements="BiomassBuffVisible" Row="2" Column="3"/>
+            <LayoutButtons Face="BiomassPassiveEmpty" Type="Passive" Requirements="BiomassBuffEmptyVisible" Row="2" Column="3"/>
+            <LayoutButtons Face="BrutaliskDeepTunnel" Type="AbilCmd" AbilCmd="AbathurDeepTunnelImproved,Execute" Row="2" Column="1"/>
+            <LayoutButtons Face="DeepTunnelLocked" Type="Passive" Requirements="AbathurLevel09DeepTunnelImproved" Row="2" Column="1"/>
+        </CardLayouts>
+        <InnerRadius value="0.625"/>
+        <SubgroupPriority value="115"/>
+        <EditorCategories value="ObjectType:Unit,ObjectFamily:Melee"/>
+        <TacticalAI value="RoachBurrowed"/>
+        <TacticalAIThink value="AIThinkRoachBurrowed"/>
+        <LeaderAlias value="Roach"/>
+        <HotkeyAlias value="Roach"/>
+        <KillDisplay value="Always"/>
+        <RankDisplay value="Always"/>
+        <AIEvaluateAlias value="Roach"/>
     </CUnit>
     <CUnit id="SCV2">
         <DeathRevealRadius value="3"/>
@@ -3987,10 +4129,10 @@
         <EnergyRegenRate value="50"/>
     </CUnitHero>
     <CUnit id="Zergling">
-        <LifeStart value="330"/>
-        <LifeMax value="330"/>
-        <LifeRegenRate value="80"/>
-        <Speed value="6"/>
+        <LifeStart value="250"/>
+        <LifeMax value="250"/>
+        <LifeRegenRate value="0"/>
+        <Speed value="4.5"/>
         <!--BehaviorArray Link="ZerglingArmorShredPassive"/-->
         <CardLayouts index="0">
             <LayoutButtons Face="Stim3" Type="AbilCmd" AbilCmd="StimpackZerg,Execute" Row="2" Column="1"/>

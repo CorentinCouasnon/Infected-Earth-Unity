@@ -10,6 +10,13 @@
         <Duration value="1"/>
         <InitialEffect value="AllUnitBehaviorControllerSet2"/>
     </CBehaviorBuff>
+    <CBehaviorBuff id="BileDucts2">
+        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
+        <Duration value="1.85"/>
+        <Period value="0.5"/>
+        <InitialEffect value="BileDuctsDamage2"/>
+        <PeriodicEffect value="BileDuctsDamage2"/>
+    </CBehaviorBuff>
     <CBehaviorBuff id="HeroDetectorRadar2">
         <InfoFlags index="Hidden" value="1"/>
         <InfoIcon value="Assets\Textures\btn-status-radar.dds"/>
@@ -43,6 +50,13 @@
         <Modification>
             <BehaviorCategoryDurationFactor index="Stun" value="-0.5"/>
         </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="HydraliskFrenzy2">
+        <Alignment value="Positive"/>
+        <InfoIcon value="Assets\Textures\btn-upgrade-zerg-frenzy.dds"/>
+        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
+        <Duration value="15"/>
+        <Modification AttackSpeedMultiplier="1.5"/>
     </CBehaviorBuff>
     <CBehaviorBuff id="HyperionVoidCoopTimedLifeExpire2">
         <InfoFlags index="Hidden" value="1"/>
@@ -135,6 +149,21 @@
         <ExpireEffect value="OnDeathVorazunRecallOnDeathSearch2"/>
         <Modification>
             <StateFlags index="Invulnerable" value="1"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ParalyticSpines2">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Duration value="2"/>
+        <Modification AttackSpeedMultiplier="0.8"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="RoachShield2">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level1.dds"/>
+        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
+        <DisableValidatorArray value="LifeLTHalf"/>
+        <DisableValidatorArray value="HaveHotSRoachShield"/>
+        <Modification>
+            <LifeArmorBonus value="6"/>
         </Modification>
     </CBehaviorBuff>
     <CBehaviorBuff id="SOAHeroicShieldImmunity2">

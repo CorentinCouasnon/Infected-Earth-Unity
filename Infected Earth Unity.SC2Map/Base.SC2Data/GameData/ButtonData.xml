@@ -1,5 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Catalog>
+    <CButton id="AncillaryCarapaceHydralisk2">
+        <Icon value="Assets\Textures\btn-upgrade-zerg-ancillaryarmor.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CButton>
+    <CButton id="Attack10">
+        <Icon value="Assets\Textures\btn-command-attack.dds"/>
+        <AlertIcon value="Assets\Textures\btn-command-attack.dds"/>
+        <EditorCategories value="Race:Neutral"/>
+        <TintRacially value="1"/>
+        <Universal value="1"/>
+        <SimpleDisplayText value="SimpleDisplay/Attack10"/>
+    </CButton>
+    <CButton id="Attack11">
+        <Icon value="Assets\Textures\btn-command-attack.dds"/>
+        <AlertIcon value="Assets\Textures\btn-command-attack.dds"/>
+        <EditorCategories value="Race:Neutral"/>
+        <TintRacially value="1"/>
+        <Universal value="1"/>
+        <SimpleDisplayText value="SimpleDisplay/Attack11"/>
+    </CButton>
+    <CButton id="Attack12">
+        <Icon value="Assets\Textures\btn-command-attack.dds"/>
+        <AlertIcon value="Assets\Textures\btn-command-attack.dds"/>
+        <EditorCategories value="Race:Neutral"/>
+        <TintRacially value="1"/>
+        <Universal value="1"/>
+        <SimpleDisplayText value="SimpleDisplay/Attack12"/>
+    </CButton>
     <CButton id="Attack2">
         <Icon value="Assets\Textures\btn-command-attack.dds"/>
         <AlertIcon value="Assets\Textures\btn-command-attack.dds"/>
@@ -97,6 +125,24 @@
         <EditorCategories value="Race:Zerg"/>
         <Universal value="1"/>
     </CButton>
+    <CButton id="BurrowDown5">
+        <Icon value="Assets\Textures\btn-ability-zerg-burrow-color.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-zerg-burrow-color.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+        <Universal value="1"/>
+    </CButton>
+    <CButton id="BurrowDown6">
+        <Icon value="Assets\Textures\btn-ability-zerg-burrow-color.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-zerg-burrow-color.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+        <Universal value="1"/>
+    </CButton>
+    <CButton id="BurrowDown7">
+        <Icon value="Assets\Textures\btn-ability-zerg-burrow-color.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-zerg-burrow-color.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+        <Universal value="1"/>
+    </CButton>
     <CButton id="Cancel2">
         <Icon value="Assets\Textures\btn-command-cancel.dds"/>
         <AlertIcon value="Assets\Textures\btn-command-cancel.dds"/>
@@ -128,6 +174,11 @@
         <AlertIcon value="Assets\Textures\btn-ability-zerg-explode-color.dds"/>
         <EditorCategories value="Race:Zerg"/>
     </CButton>
+    <CButton id="GroovedSpines2">
+        <Icon value="Assets\Textures\btn-upgrade-zerg-hotsgroovedspines.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-zerg-hotsgroovedspines.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CButton>
     <CButton id="HotSMetabolicBoost2">
         <Icon value="Assets\Textures\btn-upgrade-zerg-metabolicboost.dds"/>
         <AlertIcon value="Assets\Textures\btn-upgrade-zerg-metabolicboost.dds"/>
@@ -138,9 +189,23 @@
         <AlertIcon value="Assets\Textures\btn-upgrade-zerg-hardenedcarapace.dds"/>
         <EditorCategories value="Race:Zerg"/>
     </CButton>
+    <CButton id="HotSRoachDamage2">
+        <Icon value="Assets\Textures\BTN-Upgrade-Zerg-HydriaticAcid.dds"/>
+        <AlertIcon value="Assets\Textures\BTN-Upgrade-Zerg-HydriaticAcid.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CButton>
+    <CButton id="HotSRoachShield2">
+        <Icon value="Assets\Textures\BTN-Upgrade-Zerg-AdaptiveCarapace.dds"/>
+        <AlertIcon value="Assets\Textures\BTN-Upgrade-Zerg-AdaptiveCarapace.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CButton>
     <CButton id="HotSZerglingFrenzy2">
         <Icon value="Assets\Textures\btn-upgrade-zerg-adrenalglands.dds"/>
         <AlertIcon value="Assets\Textures\btn-upgrade-zerg-adrenalglands.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CButton>
+    <CButton id="HydraliskFrenzy2">
+        <Icon value="Assets\Textures\btn-upgrade-zerg-frenzy.dds"/>
         <EditorCategories value="Race:Zerg"/>
     </CButton>
     <CButton id="MorphtoHunter2">
@@ -156,6 +221,30 @@
         <Hotkey value="Button/Hotkey/Baneling"/>
         <EditorCategories value="Race:Zerg"/>
         <HotkeyAlias value="Baneling"/>
+    </CButton>
+    <CButton id="Move10">
+        <Icon value="Assets\Textures\btn-command-move.dds"/>
+        <AlertIcon value="Assets\Textures\btn-command-move.dds"/>
+        <EditorCategories value="Race:Neutral"/>
+        <TintRacially value="1"/>
+        <Universal value="1"/>
+        <SimpleDisplayText value="SimpleDisplay/Move10"/>
+    </CButton>
+    <CButton id="Move11">
+        <Icon value="Assets\Textures\btn-command-move.dds"/>
+        <AlertIcon value="Assets\Textures\btn-command-move.dds"/>
+        <EditorCategories value="Race:Neutral"/>
+        <TintRacially value="1"/>
+        <Universal value="1"/>
+        <SimpleDisplayText value="SimpleDisplay/Move11"/>
+    </CButton>
+    <CButton id="Move12">
+        <Icon value="Assets\Textures\btn-command-move.dds"/>
+        <AlertIcon value="Assets\Textures\btn-command-move.dds"/>
+        <EditorCategories value="Race:Neutral"/>
+        <TintRacially value="1"/>
+        <Universal value="1"/>
+        <SimpleDisplayText value="SimpleDisplay/Move12"/>
     </CButton>
     <CButton id="Move2">
         <Icon value="Assets\Textures\btn-command-move.dds"/>
@@ -221,6 +310,27 @@
         <Universal value="1"/>
         <SimpleDisplayText value="SimpleDisplay/Move9"/>
     </CButton>
+    <CButton id="MoveHoldPosition10">
+        <Icon value="Assets\Textures\btn-command-holdposition.dds"/>
+        <AlertIcon value="Assets\Textures\btn-command-holdposition.dds"/>
+        <EditorCategories value="Race:Neutral"/>
+        <TintRacially value="1"/>
+        <Universal value="1"/>
+    </CButton>
+    <CButton id="MoveHoldPosition11">
+        <Icon value="Assets\Textures\btn-command-holdposition.dds"/>
+        <AlertIcon value="Assets\Textures\btn-command-holdposition.dds"/>
+        <EditorCategories value="Race:Neutral"/>
+        <TintRacially value="1"/>
+        <Universal value="1"/>
+    </CButton>
+    <CButton id="MoveHoldPosition12">
+        <Icon value="Assets\Textures\btn-command-holdposition.dds"/>
+        <AlertIcon value="Assets\Textures\btn-command-holdposition.dds"/>
+        <EditorCategories value="Race:Neutral"/>
+        <TintRacially value="1"/>
+        <Universal value="1"/>
+    </CButton>
     <CButton id="MoveHoldPosition2">
         <Icon value="Assets\Textures\btn-command-holdposition.dds"/>
         <AlertIcon value="Assets\Textures\btn-command-holdposition.dds"/>
@@ -273,6 +383,27 @@
     <CButton id="MoveHoldPosition9">
         <Icon value="Assets\Textures\btn-command-holdposition.dds"/>
         <AlertIcon value="Assets\Textures\btn-command-holdposition.dds"/>
+        <EditorCategories value="Race:Neutral"/>
+        <TintRacially value="1"/>
+        <Universal value="1"/>
+    </CButton>
+    <CButton id="MovePatrol10">
+        <Icon value="Assets\Textures\btn-command-patrol.dds"/>
+        <AlertIcon value="Assets\Textures\btn-command-patrol.dds"/>
+        <EditorCategories value="Race:Neutral"/>
+        <TintRacially value="1"/>
+        <Universal value="1"/>
+    </CButton>
+    <CButton id="MovePatrol11">
+        <Icon value="Assets\Textures\btn-command-patrol.dds"/>
+        <AlertIcon value="Assets\Textures\btn-command-patrol.dds"/>
+        <EditorCategories value="Race:Neutral"/>
+        <TintRacially value="1"/>
+        <Universal value="1"/>
+    </CButton>
+    <CButton id="MovePatrol12">
+        <Icon value="Assets\Textures\btn-command-patrol.dds"/>
+        <AlertIcon value="Assets\Textures\btn-command-patrol.dds"/>
         <EditorCategories value="Race:Neutral"/>
         <TintRacially value="1"/>
         <Universal value="1"/>
@@ -348,6 +479,10 @@
         <TintRacially value="1"/>
         <Universal value="1"/>
     </CButton>
+    <CButton id="RapidRegeneration2">
+        <Icon value="Assets\Textures\BTN-ability-zerg-rapidregeneration-color.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CButton>
     <CButton id="Stim2">
         <TooltipAppender Validator="HaveMasteryRaynorStimDuration" Text="Button/Tooltip/MasteryRaynorStim2DurationAppend"/>
         <TooltipFlags index="ShowDuration" value="1"/>
@@ -363,6 +498,27 @@
         <Icon value="Assets\Textures\btn-ability-terran-stimpack-color.dds"/>
         <AlertIcon value="Assets\Textures\btn-ability-terran-stimpack-color.dds"/>
         <EditorCategories value="Race:Zerg"/>
+        <Universal value="1"/>
+    </CButton>
+    <CButton id="Stop10">
+        <Icon value="Assets\Textures\btn-command-stop.dds"/>
+        <AlertIcon value="Assets\Textures\btn-command-stop.dds"/>
+        <EditorCategories value="Race:Neutral"/>
+        <TintRacially value="1"/>
+        <Universal value="1"/>
+    </CButton>
+    <CButton id="Stop11">
+        <Icon value="Assets\Textures\btn-command-stop.dds"/>
+        <AlertIcon value="Assets\Textures\btn-command-stop.dds"/>
+        <EditorCategories value="Race:Neutral"/>
+        <TintRacially value="1"/>
+        <Universal value="1"/>
+    </CButton>
+    <CButton id="Stop12">
+        <Icon value="Assets\Textures\btn-command-stop.dds"/>
+        <AlertIcon value="Assets\Textures\btn-command-stop.dds"/>
+        <EditorCategories value="Race:Neutral"/>
+        <TintRacially value="1"/>
         <Universal value="1"/>
     </CButton>
     <CButton id="Stop2">
@@ -426,6 +582,11 @@
         <AlertIcon value="Assets\Textures\wireframe-general-pickupgrenades.dds"/>
         <EditorCategories value="Race:Terran"/>
         <TintRacially value="1"/>
+    </CButton>
+    <CButton id="TunnelingClaws2">
+        <Icon value="Assets\Textures\btn-upgrade-zerg-hotstunnelingclaws.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-zerg-hotstunnelingclaws.dds"/>
+        <EditorCategories value="Race:Zerg"/>
     </CButton>
     <CButton id="VoidZealotWhirlwind2">
         <TooltipAppender Validator="CommanderPrestigeArtanisCombatAbilities" Text="Button/Tooltip/CommanderPrestigeArtanisCombatAbilitiesDamageUpgrade"/>
