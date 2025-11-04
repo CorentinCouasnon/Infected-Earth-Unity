@@ -6,6 +6,8 @@ Abil/Name/BurrowZerglingDown3=Burrow (Zergling)
 Abil/Name/EngineeringBayResearch2=Research (Engineering Bay)
 Abil/Name/EngineeringBayResearch22=Research (Engineering Bay)
 Abil/Name/EngineeringBayResearch3=Research (Engineering Bay)
+Abil/Name/EngineeringBayResearch4=Research (Engineering Bay)
+Abil/Name/EngineeringBayResearch5=Research (Engineering Bay)
 Abil/Name/Explode2=Explode
 Abil/Name/GrenadeStarfoulah=Grenade Starfoulah
 Abil/Name/HydraliskFrenzy2=Hydralisk Frenzy
@@ -14,6 +16,7 @@ Abil/Name/MorphZerglingToBaneling3=Morph (Zergling -> Baneling)
 Abil/Name/MorphZerglingToHunter2=Morph (Zergling -> Hunter)
 Abil/Name/MorphZerglingToSplitterling2=Morph (Zergling -> Splitterling)
 Abil/Name/RallyZeratulTopBar2=Rally
+Abil/Name/RaynorUpgrades=Raynor Upgrades
 Abil/Name/SIEngineeringBayResearch2=Infested Engineering Bay Research
 Abil/Name/SpawningPoolResearch2=Research (Spawning Pool)
 Abil/Name/SpawningPoolResearch3=Research (Spawning Pool)
@@ -29,9 +32,7 @@ Abil/Name/ZeratulCharge2=Charge
 Abil/Name/ZeratulCharge3=ZeratulCharge
 Abil/Name/ZeratulStun2=Void Prison
 Abil/Name/ZeratulStun3=Void Prison
-Abil/Name/attack10=Attack
-Abil/Name/attack11=Attack
-Abil/Name/attack12=Attack
+Abil/Name/ZeratulUpgrades=Zeratul Upgrades
 Abil/Name/attack2=Attack
 Abil/Name/attack3=Attack
 Abil/Name/attack4=Attack
@@ -194,6 +195,9 @@ Button/Name/MovePatrol6=Patrol
 Button/Name/MovePatrol7=Patrol
 Button/Name/MovePatrol8=Patrol
 Button/Name/MovePatrol9=Patrol
+Button/Name/OpenFirstPanel=1
+Button/Name/OpenSecondPanel=2
+Button/Name/OpenThirdPanel=3
 Button/Name/PermanentlyCloakedZeratul2=Permanently Cloaked
 Button/Name/PermanentlyCloakedZeratul3=Permanently Cloaked
 Button/Name/Rally2=Set Rally Point
@@ -273,6 +277,7 @@ Button/Tooltip/Marauder2=Heavy assault infantry.<n/><n/><c val="#ColorAttackInfo
 Button/Tooltip/Marine2=General-purpose infantry.<n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c>
 Button/Tooltip/Marine3=General-purpose infantry.<n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c>
 Button/Tooltip/Marine4=General-purpose infantry.<n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c>
+Button/Tooltip/Marine5=General-purpose infantry.<n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c>
 Button/Tooltip/MasteryRaynorStim2DurationAppend=Augmente la vitesse de déplacement et la vitesse d'attaque pendant 10 secondes.<n/>Régénère également 250 HP instantanément.
 Button/Tooltip/MasteryRaynorStim3DurationAppend=<n/><n/><c val="FFFF8A">Mastery:</c> Increases duration by <c val="FFFF8A"><d ref="Effect,MasteryRaynorStimDurationDisplayDummy,Amount" precision="1"/></c> seconds.
 Button/Tooltip/MengskMarine2=General-purpose infantry. Part of Mengsk's elite guard.<n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c>
@@ -311,11 +316,18 @@ Button/Tooltip/MovePatrol6=Orders selected units to patrol between their current
 Button/Tooltip/MovePatrol7=Orders selected units to patrol between their current position and the target area. Units will attack enemies and move to engage nearby enemies.
 Button/Tooltip/MovePatrol8=Orders selected units to patrol between their current position and the target area. Units will attack enemies and move to engage nearby enemies.
 Button/Tooltip/MovePatrol9=Orders selected units to patrol between their current position and the target area. Units will attack enemies and move to engage nearby enemies.
+Button/Tooltip/MutatorBoomBot=Open the first command panel.
+Button/Tooltip/OpenFirstPanel=Open the first command panel.
+Button/Tooltip/OpenSecondPanel=Open the second command panel.
+Button/Tooltip/OpenThirdPanel=Open the third command panel.
 Button/Tooltip/PermanentlyCloakedZeratul2=Zeratul is permanently cloaked.
 Button/Tooltip/PermanentlyCloakedZeratul3=Zeratul is permanently cloaked.
 Button/Tooltip/Rally2=Sends constructed units to the designated point. Workers rallied to resources will begin gathering automatically.
 Button/Tooltip/RapidRegeneration2=The Roach regenerates life very quickly while burrowed.
 Button/Tooltip/Raynor2=Raynor is an elite Marine with more life and a stronger attack. <n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c><n/>
+Button/Tooltip/Raynor3=Raynor is an elite Marine with more life and a stronger attack. <n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c><n/>
+Button/Tooltip/Raynor4=Raynor is an elite Marine with more life and a stronger attack. <n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c><n/>
+Button/Tooltip/RaynorCommando2=Raynor can hit several units in a straight line with his Commando Rifle. <n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c><n/>
 Button/Tooltip/Reaper2=Raider. Capable of jumping up and down cliffs. <n/><n/><c val="#ColorAttackInfo">Can attack ground units.</c>
 Button/Tooltip/SCV2=Basic worker unit. Can gather resources, build Terran structures, and repair.<n/><n/><c val="#ColorAttackInfo">Can attack ground units.</c>
 Button/Tooltip/SIEngineeringBay2=Contains upgrades for Infested infantry and structures. <n/><n/><c val="ffff8a">Enables:</c><n/>- Infested Missile Turrets from Infested SCVs
@@ -411,6 +423,8 @@ Effect/Name/ParalyticSpines2=Paralytic Spines
 Effect/Name/RavagerWeaponDamage2=Ravager Weapon Damage
 Effect/Name/RavagerWeaponLM2=Ravager Weapon LM
 Effect/Name/RaynorGaussRifleDamage2=Gauss Rifle (Damage)
+Effect/Name/RaynorWeaponU2=Gauss Rifle
+Effect/Name/RaynorWeaponU3=Gauss Rifle
 Effect/Name/RemoveAllDot2=RemoveAllDot
 Effect/Name/RemoveAllDotOnSource2=RemoveAllDotOnSource
 Effect/Name/RemoveAllSlow2=RemoveAllSlow
@@ -534,10 +548,14 @@ Unit/Name/Marauder2=Marauder
 Unit/Name/Marine2=Marine
 Unit/Name/Marine3=Marine
 Unit/Name/Marine4=Marine
+Unit/Name/Marine5=Marine
 Unit/Name/MengskMarine2=Son of Korhal
 Unit/Name/Purifier_DoorNE=Purifier Door NE i
 Unit/Name/Ravager2=Ravager
 Unit/Name/Raynor2=Jim Raynor
+Unit/Name/Raynor3=Jim Raynor
+Unit/Name/Raynor4=Jim Raynor
+Unit/Name/RaynorCommando2=Jim Raynor
 Unit/Name/Reaper2=Reaper
 Unit/Name/Roach=RoachChien
 Unit/Name/Roach2=Roach
@@ -571,9 +589,10 @@ UnitSubtitle/HotSRaptor2=Raptor Strain
 UnitSubtitle/HotSRaptor3=Raptor Strain
 UnitSubtitle/HotSSwarmling2=Swarmling Strain
 UnitSubtitle/HotSSwarmling3=Swarmling Strain
-Upgrade/Name/AbathurCommander2=Abathur
-Upgrade/Name/AbathurMorphTimeCostReduced2=Morph Time Cost Reduced
-Upgrade/Name/AbathurRoachRangeScalingUpgrade2=Abathur Roach Range Scaling Upgrade
+Upgrade/BaseArmorUpgrade=Base Armor Upgrade
+Upgrade/BaseDmgUpgrade=Base DmgUpgrade
+Upgrade/BaseHealthUpgrade=Base Health Upgrade
+Upgrade/Name/BaseDmgUpgrade=Base DmgUpgrade
 Upgrade/Name/Burrow2=Burrow
 Upgrade/Name/Burrow22=Burrow
 Upgrade/Name/Burrow222=Burrow
@@ -696,10 +715,8 @@ Weapon/Name/GriffesDeLings=GriffesDeLings
 Weapon/Name/HydraliskMelee=HydraliskGriffes
 Weapon/Name/HydraliskMelee2=Melee
 Weapon/Name/MasterPsiBlade1=Master Psi Blade1
-Weapon/Name/NeedleSpines=HydraliskPiques
-Weapon/Name/NeedleSpines2=Needle Spines
-Weapon/Name/RavagerWeapon2=Plasma Discharge
-Weapon/Name/RoachGriffes=RoachGriffes
+Weapon/Name/RaynorWeapon2=Gauss Rifle
+Weapon/Name/RaynorWeapon3=Gauss Rifle
 Weapon/Name/Starfoule=Starfoule
 Weapon/Name/Zeratul3=Master Psi Blade
 Weapon/Name/ZeratulSwords=ZeratulSwords

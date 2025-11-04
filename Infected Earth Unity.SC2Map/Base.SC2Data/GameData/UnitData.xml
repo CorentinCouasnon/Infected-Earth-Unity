@@ -1732,9 +1732,8 @@
         <AbilArray Link="move3"/>
         <AbilArray Link="GrenadeStarfoulah"/>
         <AbilArray Link="StimpackDeRaynor"/>
-        <AbilArray Link="Yamato2"/>
         <AbilArray Link="NovaBlink"/>
-        <AbilArray Link="RechercheArmureRaynor"/>
+        <AbilArray Link="RaynorUpgrades"/>
         <BehaviorArray index="0" removed="1"/>
         <WeaponArray Link="FusildeRaynor"/>
         <CardLayouts>
@@ -1746,18 +1745,20 @@
             <LayoutButtons Face="TossGrenade2" Type="AbilCmd" AbilCmd="GrenadeStarfoulah,Execute" Row="2" Column="1"/>
             <LayoutButtons Face="Stim" Type="AbilCmd" AbilCmd="StimpackDeRaynor,Execute" Row="2" Column="0"/>
             <LayoutButtons>
-                <Face value="TerranInfantryWeaponsLevel3"/>
+                <Face value="OpenSecondPanel"/>
                 <Type value="Submenu"/>
                 <SubmenuCardId value="0002"/>
-                <SubmenuFullSubCmdValidation value="1"/>
                 <SubmenuIsSticky value="1"/>
                 <Row value="2"/>
                 <Column value="4"/>
             </LayoutButtons>
+            <LayoutButtons Face="BlinkNova" Type="AbilCmd" AbilCmd="NovaBlink,Execute" Row="2" Column="2"/>
         </CardLayouts>
         <CardLayouts CardId="0002">
-            <LayoutButtons Face="BlinkNova" Type="AbilCmd" AbilCmd="NovaBlink,Execute" Row="0" Column="0"/>
-            <LayoutButtons Face="TerranInfantryArmorLevel1" Type="AbilCmd" AbilCmd="RechercheArmureRaynor,255" Row="0" Column="1"/>
+            <LayoutButtons Face="TerranInfantryWeaponsLevel1" Type="AbilCmd" AbilCmd="RaynorUpgrades,Research1" Row="0" Column="0"/>
+            <LayoutButtons Face="OpenFirstPanel" Type="CancelSubmenu" Row="2" Column="3"/>
+            <LayoutButtons Face="ArtanisPsiStormHeal" Type="AbilCmd" AbilCmd="RaynorUpgrades,Research2" Row="1" Column="0"/>
+            <LayoutButtons Face="TerranInfantryArmorLevel1" Type="AbilCmd" AbilCmd="RaynorUpgrades,Research3" Row="1" Column="1"/>
         </CardLayouts>
         <Radius value="0.5"/>
         <CargoSize value="1"/>
@@ -2055,6 +2056,75 @@
         <TauntDuration index="Dance" value="5"/>
     </CUnit>
     <CUnit id="Marine4">
+        <DeathRevealRadius value="3"/>
+        <Race value="Terr"/>
+        <Mob value="Multiplayer"/>
+        <FlagArray index="PreventDestroy" value="1"/>
+        <FlagArray index="UseLineOfSight" value="1"/>
+        <FlagArray index="ArmySelect" value="1"/>
+        <PlaneArray index="Ground" value="1"/>
+        <Collide index="Ground" value="1"/>
+        <Collide index="ForceField" value="1"/>
+        <Collide index="Locust" value="1"/>
+        <Collide index="Small" value="1"/>
+        <Attributes index="Light" value="1"/>
+        <Attributes index="Biological" value="1"/>
+        <LifeStart value="45"/>
+        <LifeMax value="45"/>
+        <LifeArmorName value="Unit/LifeArmorName/TerranInfantryArmor"/>
+        <Speed value="2.25"/>
+        <Acceleration value="1000"/>
+        <LateralAcceleration value="46.0625"/>
+        <StationaryTurningRate value="999.8437"/>
+        <TurningRate value="999.8437"/>
+        <Sight value="9"/>
+        <Food value="-1"/>
+        <CostCategory value="Army"/>
+        <CostResource index="Minerals" value="50"/>
+        <RepairTime value="20"/>
+        <AttackTargetPriority value="20"/>
+        <AbilArray Link="stop"/>
+        <AbilArray Link="attack"/>
+        <AbilArray Link="move"/>
+        <AbilArray Link="Stimpack"/>
+        <BehaviorArray Link="AllUnitBehaviorController"/>
+        <WeaponArray Link="GuassRifle"/>
+        <CardLayouts>
+            <LayoutButtons Face="Move" Type="AbilCmd" AbilCmd="move,Move" Row="0" Column="0"/>
+            <LayoutButtons Face="Stop" Type="AbilCmd" AbilCmd="stop,Stop" Row="0" Column="1"/>
+            <LayoutButtons Face="MoveHoldPosition" Type="AbilCmd" AbilCmd="move,HoldPos" Row="0" Column="2"/>
+            <LayoutButtons Face="Attack" Type="AbilCmd" AbilCmd="attack,Execute" Row="0" Column="4"/>
+            <LayoutButtons Face="MovePatrol" Type="AbilCmd" AbilCmd="move,Patrol" Row="0" Column="3"/>
+            <LayoutButtons Face="Stim" Type="AbilCmd" AbilCmd="Stimpack,Execute" Row="2" Column="0"/>
+            <LayoutButtons Face="HaveShieldWall" Type="Passive" Requirements="HaveShieldWall" Row="2" Column="1"/>
+        </CardLayouts>
+        <Radius value="0.375"/>
+        <SeparationRadius value="0.375"/>
+        <InnerRadius value="0.375"/>
+        <CargoSize value="1"/>
+        <ScoreResult value="BuildOrder"/>
+        <SubgroupPriority value="115"/>
+        <MinimapRadius value="0.375"/>
+        <EditorCategories value="ObjectType:Unit,ObjectFamily:Melee"/>
+        <TacticalAI value="Marine"/>
+        <GlossaryCategory value="Unit/Category/TerranUnits"/>
+        <GlossaryPriority value="21"/>
+        <GlossaryStrongArray value="Marauder"/>
+        <GlossaryStrongArray value="Hydralisk"/>
+        <GlossaryStrongArray value="Immortal"/>
+        <GlossaryWeakArray value="SiegeTankSieged"/>
+        <GlossaryWeakArray value="Baneling"/>
+        <GlossaryWeakArray value="Colossus"/>
+        <HotkeyCategory value="Unit/Category/TerranUnits"/>
+        <Fidget>
+            <ChanceArray index="Anim" value="33"/>
+            <ChanceArray index="Idle" value="33"/>
+            <ChanceArray index="Turn" value="33"/>
+        </Fidget>
+        <TauntDuration index="Cheer" value="5"/>
+        <TauntDuration index="Dance" value="5"/>
+    </CUnit>
+    <CUnit id="Marine5">
         <DeathRevealRadius value="3"/>
         <Race value="Terr"/>
         <Mob value="Multiplayer"/>
@@ -2634,6 +2704,183 @@
         <HotkeyAlias value="Raynor01"/>
         <GlossaryCategory value="Unit/Category/TerranUnits"/>
         <GlossaryPriority value="350"/>
+        <Fidget>
+            <ChanceArray index="Anim" value="33"/>
+            <ChanceArray index="Idle" value="33"/>
+            <ChanceArray index="Turn" value="33"/>
+        </Fidget>
+    </CUnit>
+    <CUnit id="Raynor3">
+        <DeathRevealRadius value="3"/>
+        <Race value="Terr"/>
+        <Mob value="Campaign"/>
+        <FlagArray index="UseLineOfSight" value="1"/>
+        <FlagArray index="ArmySelect" value="1"/>
+        <PlaneArray index="Ground" value="1"/>
+        <Collide index="Ground" value="1"/>
+        <Collide index="ForceField" value="1"/>
+        <Collide index="Locust" value="1"/>
+        <Collide index="Small" value="1"/>
+        <Attributes index="Light" value="1"/>
+        <Attributes index="Biological" value="1"/>
+        <LifeStart value="500"/>
+        <LifeMax value="500"/>
+        <LifeArmor value="2"/>
+        <LifeArmorName value="Unit/LifeArmorName/TerranInfantryArmor"/>
+        <Speed value="2.25"/>
+        <Acceleration value="1000"/>
+        <LateralAcceleration value="46.0625"/>
+        <StationaryTurningRate value="719.2968"/>
+        <TurningRate value="719.2968"/>
+        <Sight value="9"/>
+        <Food value="-1"/>
+        <CostCategory value="Army"/>
+        <CostResource index="Minerals" value="50"/>
+        <RepairTime value="20"/>
+        <AttackTargetPriority value="20"/>
+        <AbilArray Link="stop"/>
+        <AbilArray Link="TheMorosDevice"/>
+        <AbilArray Link="ExperimentalPlasmaGun"/>
+        <AbilArray Link="attack"/>
+        <AbilArray Link="move"/>
+        <AbilArray Link="RaynorC4"/>
+        <AbilArray Link="TossGrenade"/>
+        <BehaviorArray Link="SwapToRaynorBasicWeapon"/>
+        <WeaponArray Link="RaynorWeapon"/>
+        <CardLayouts>
+            <LayoutButtons Face="Move" Type="AbilCmd" AbilCmd="move,Move" Row="0" Column="0"/>
+            <LayoutButtons Face="Stop" Type="AbilCmd" AbilCmd="stop,Stop" Row="0" Column="1"/>
+            <LayoutButtons Face="MoveHoldPosition" Type="AbilCmd" AbilCmd="move,HoldPos" Row="0" Column="2"/>
+            <LayoutButtons Face="Attack" Type="AbilCmd" AbilCmd="attack,Execute" Row="0" Column="4"/>
+            <LayoutButtons Face="MovePatrol" Type="AbilCmd" AbilCmd="move,Patrol" Row="0" Column="3"/>
+            <LayoutButtons Face="PlantC4Charge" Type="AbilCmd" AbilCmd="RaynorC4,Execute" Row="2" Column="0"/>
+            <LayoutButtons Face="TossGrenade" Type="AbilCmd" AbilCmd="TossGrenade,Execute" Row="2" Column="1"/>
+            <LayoutButtons Face="ExperimentalPlasmaGun" Type="AbilCmd" AbilCmd="ExperimentalPlasmaGun,Execute" Row="2" Column="2"/>
+            <LayoutButtons Face="TheMorosDevice" Type="AbilCmd" AbilCmd="TheMorosDevice,Execute" Row="2" Column="3"/>
+        </CardLayouts>
+        <CargoSize value="1"/>
+        <SubgroupPriority value="20"/>
+        <EditorCategories value="ObjectType:Hero,ObjectFamily:Campaign"/>
+        <HotkeyAlias value="Raynor01"/>
+        <GlossaryCategory value="Unit/Category/TerranUnits"/>
+        <GlossaryPriority value="350"/>
+        <Fidget>
+            <ChanceArray index="Anim" value="33"/>
+            <ChanceArray index="Idle" value="33"/>
+            <ChanceArray index="Turn" value="33"/>
+        </Fidget>
+    </CUnit>
+    <CUnit id="Raynor4">
+        <DeathRevealRadius value="3"/>
+        <Race value="Terr"/>
+        <Mob value="Campaign"/>
+        <FlagArray index="UseLineOfSight" value="1"/>
+        <FlagArray index="ArmySelect" value="1"/>
+        <PlaneArray index="Ground" value="1"/>
+        <Collide index="Ground" value="1"/>
+        <Collide index="ForceField" value="1"/>
+        <Collide index="Locust" value="1"/>
+        <Collide index="Small" value="1"/>
+        <Attributes index="Light" value="1"/>
+        <Attributes index="Biological" value="1"/>
+        <LifeStart value="500"/>
+        <LifeMax value="500"/>
+        <LifeArmor value="2"/>
+        <LifeArmorName value="Unit/LifeArmorName/TerranInfantryArmor"/>
+        <Speed value="2.25"/>
+        <Acceleration value="1000"/>
+        <LateralAcceleration value="46.0625"/>
+        <StationaryTurningRate value="719.2968"/>
+        <TurningRate value="719.2968"/>
+        <Sight value="9"/>
+        <Food value="-1"/>
+        <CostCategory value="Army"/>
+        <CostResource index="Minerals" value="50"/>
+        <RepairTime value="20"/>
+        <AttackTargetPriority value="20"/>
+        <AbilArray Link="stop"/>
+        <AbilArray Link="TheMorosDevice"/>
+        <AbilArray Link="ExperimentalPlasmaGun"/>
+        <AbilArray Link="attack"/>
+        <AbilArray Link="move"/>
+        <AbilArray Link="RaynorC4"/>
+        <AbilArray Link="TossGrenade"/>
+        <BehaviorArray Link="SwapToRaynorBasicWeapon"/>
+        <WeaponArray Link="RaynorWeapon"/>
+        <CardLayouts>
+            <LayoutButtons Face="Move" Type="AbilCmd" AbilCmd="move,Move" Row="0" Column="0"/>
+            <LayoutButtons Face="Stop" Type="AbilCmd" AbilCmd="stop,Stop" Row="0" Column="1"/>
+            <LayoutButtons Face="MoveHoldPosition" Type="AbilCmd" AbilCmd="move,HoldPos" Row="0" Column="2"/>
+            <LayoutButtons Face="Attack" Type="AbilCmd" AbilCmd="attack,Execute" Row="0" Column="4"/>
+            <LayoutButtons Face="MovePatrol" Type="AbilCmd" AbilCmd="move,Patrol" Row="0" Column="3"/>
+            <LayoutButtons Face="PlantC4Charge" Type="AbilCmd" AbilCmd="RaynorC4,Execute" Row="2" Column="0"/>
+            <LayoutButtons Face="TossGrenade" Type="AbilCmd" AbilCmd="TossGrenade,Execute" Row="2" Column="1"/>
+            <LayoutButtons Face="ExperimentalPlasmaGun" Type="AbilCmd" AbilCmd="ExperimentalPlasmaGun,Execute" Row="2" Column="2"/>
+            <LayoutButtons Face="TheMorosDevice" Type="AbilCmd" AbilCmd="TheMorosDevice,Execute" Row="2" Column="3"/>
+        </CardLayouts>
+        <CargoSize value="1"/>
+        <SubgroupPriority value="20"/>
+        <EditorCategories value="ObjectType:Hero,ObjectFamily:Campaign"/>
+        <HotkeyAlias value="Raynor01"/>
+        <GlossaryCategory value="Unit/Category/TerranUnits"/>
+        <GlossaryPriority value="350"/>
+        <Fidget>
+            <ChanceArray index="Anim" value="33"/>
+            <ChanceArray index="Idle" value="33"/>
+            <ChanceArray index="Turn" value="33"/>
+        </Fidget>
+    </CUnit>
+    <CUnit id="RaynorCommando2">
+        <DeathRevealRadius value="3"/>
+        <Race value="Terr"/>
+        <Mob value="Campaign"/>
+        <FlagArray index="UseLineOfSight" value="1"/>
+        <FlagArray index="ArmySelect" value="1"/>
+        <PlaneArray index="Ground" value="1"/>
+        <Collide index="Ground" value="1"/>
+        <Collide index="ForceField" value="1"/>
+        <Collide index="Locust" value="1"/>
+        <Collide index="Small" value="1"/>
+        <Attributes index="Light" value="1"/>
+        <Attributes index="Biological" value="1"/>
+        <LifeStart value="200"/>
+        <LifeMax value="200"/>
+        <LifeArmor value="1"/>
+        <LifeArmorName value="Unit/LifeArmorName/TerranInfantryArmor"/>
+        <Speed value="2.25"/>
+        <Acceleration value="1000"/>
+        <LateralAcceleration value="46.0625"/>
+        <StationaryTurningRate value="719.2968"/>
+        <TurningRate value="719.2968"/>
+        <Sight value="10"/>
+        <CostCategory value="Army"/>
+        <CostResource index="Minerals" value="50"/>
+        <RepairTime value="20"/>
+        <AttackTargetPriority value="20"/>
+        <AbilArray Link="stop"/>
+        <AbilArray Link="attack"/>
+        <AbilArray Link="move"/>
+        <AbilArray Link="RaynorSnipe"/>
+        <BehaviorArray Link="RaynorRadar"/>
+        <BehaviorArray Link="RaynorRadarDummy"/>
+        <BehaviorArray Link="HeroDeathPrevention"/>
+        <WeaponArray Link="CommandoRifle"/>
+        <CardLayouts>
+            <LayoutButtons Face="Move" Type="AbilCmd" AbilCmd="move,Move" Row="0" Column="0"/>
+            <LayoutButtons Face="Stop" Type="AbilCmd" AbilCmd="stop,Stop" Row="0" Column="1"/>
+            <LayoutButtons Face="MoveHoldPosition" Type="AbilCmd" AbilCmd="move,HoldPos" Row="0" Column="2"/>
+            <LayoutButtons Face="Attack" Type="AbilCmd" AbilCmd="attack,Execute" Row="0" Column="4"/>
+            <LayoutButtons Face="MovePatrol" Type="AbilCmd" AbilCmd="move,Patrol" Row="0" Column="3"/>
+            <LayoutButtons Face="RaynorSnipe" Type="AbilCmd" AbilCmd="RaynorSnipe,Execute" Row="2" Column="0"/>
+            <LayoutButtons Face="RaynorRadar" Type="Passive" Behavior="RaynorRadarDummy" Row="2" Column="1"/>
+        </CardLayouts>
+        <InnerRadius value="0.5"/>
+        <CargoSize value="1"/>
+        <SubgroupPriority value="50"/>
+        <EditorCategories value="ObjectType:Hero,ObjectFamily:Campaign"/>
+        <HotkeyAlias value="Raynor01"/>
+        <GlossaryCategory value="Unit/Category/TerranUnits"/>
+        <GlossaryPriority value="300"/>
         <Fidget>
             <ChanceArray index="Anim" value="33"/>
             <ChanceArray index="Idle" value="33"/>
@@ -4093,6 +4340,7 @@
         <AbilArray Link="ZeratulCharge3"/>
         <AbilArray Link="WarpableZeratul2"/>
         <AbilArray Link="RallyZeratulTopBar2"/>
+        <AbilArray Link="ZeratulUpgrades"/>
         <BehaviorArray index="0" Link="ZealotRespawnDeath2"/>
         <BehaviorArray Link="AllUnitBehaviorController2"/>
         <BehaviorArray Link="ZeratulCollisionBehavior"/>
@@ -4105,7 +4353,19 @@
             <LayoutButtons Face="MovePatrol9" Type="AbilCmd" AbilCmd="move7,Patrol" Row="0" Column="3"/>
             <LayoutButtons Face="Charge" Type="AbilCmd" AbilCmd="ZeratulCharge3,Execute" Row="2" Column="0"/>
             <LayoutButtons Face="Rally2" Type="AbilCmd" AbilCmd="RallyZeratulTopBar2,Rally1" Row="1" Column="4"/>
-            <LayoutButtons Face="Cancel2" Type="AbilCmd" AbilCmd="WarpableZeratul2,Cancel" Row="2" Column="4"/>
+            <LayoutButtons>
+                <Face value="OpenSecondPanel"/>
+                <Type value="Submenu"/>
+                <SubmenuCardId value="0002"/>
+                <SubmenuIsSticky value="1"/>
+                <Row value="2"/>
+                <Column value="4"/>
+            </LayoutButtons>
+            <LayoutButtons Face="Cancel2" Type="AbilCmd" AbilCmd="WarpableZeratul2,Cancel" Row="1" Column="3"/>
+        </CardLayouts>
+        <CardLayouts CardId="0002">
+            <LayoutButtons Face="ProtossGroundWeaponsLevel1" Type="AbilCmd" AbilCmd="ZeratulUpgrades,Research1" Row="0" Column="0"/>
+            <LayoutButtons Face="OpenFirstPanel" Type="CancelSubmenu" Row="2" Column="3"/>
         </CardLayouts>
         <Radius value="0.5"/>
         <SeparationRadius value="0.375"/>

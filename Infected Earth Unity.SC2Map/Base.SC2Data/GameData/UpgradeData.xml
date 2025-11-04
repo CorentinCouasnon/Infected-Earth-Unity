@@ -59,94 +59,27 @@
         <Name value="Upgrade/Name/ZergMeleeWeapons2"/>
         <AffectedUnitArray index="5" value="Zergling2"/>
     </CUpgrade>
-    <CUpgrade default="1" id="ZergMissileWeapons2" parent="ZergMissileWeapons">
-        <Name value="Upgrade/Name/ZergMissileWeapons2"/>
-        <AffectedUnitArray index="4" value="Roach2"/>
+    <CUpgrade id="BaseDmgUpgrade">
+        <Name value="Upgrade/BaseDmgUpgrade"/>
+        <EffectArray Reference="Weapon,FusildeRaynor,Level" Value="1"/>
+        <EffectArray Reference="Effect,RaynorGaussRifleDamage2,Amount" Value="5"/>
+        <EffectArray Reference="Abil,RaynorUpgrades,InfoArray[Research1].Resource[Minerals]" Value="10"/>
+        <EffectArray Reference="Abil,ZeratulUpgrades,InfoArray[Research1].Resource[Minerals]" Value="10"/>
+        <EffectArray Reference="Effect,ZealotAiurWeapon2,Amount" Value="5"/>
+        <EffectArray Reference="Weapon,ZeratulSwords,Level" Value="1"/>
+        <MaxLevel value="50"/>
     </CUpgrade>
-    <CUpgrade default="1" id="ZergMissileWeapons22" parent="ZergMissileWeapons2">
-        <Name value="Upgrade/Name/ZergMissileWeapons22"/>
-        <AffectedUnitArray index="0" value="Hydralisk2"/>
+    <CUpgrade id="BaseHealthUpgrade">
+        <Name value="Upgrade/BaseHealthUpgrade"/>
+        <EffectArray Reference="Unit,JimRaynorIEUHero,LifeMax" Value="50"/>
+        <EffectArray Reference="Abil,RaynorUpgrades,InfoArray[Research2].Resource[Minerals]" Value="5"/>
+        <MaxLevel value="50"/>
     </CUpgrade>
-    <CUpgrade default="1" id="ZergMissileWeapons3" parent="ZergMissileWeapons">
-        <Name value="Upgrade/Name/ZergMissileWeapons3"/>
-        <AffectedUnitArray index="0" value="Hydralisk2"/>
-    </CUpgrade>
-    <CUpgrade id="AbathurCommander2">
-        <Flags index="UpgradeCheat" value="0"/>
-        <EffectArray Operation="Subtract" Reference="Behavior,SpawnLarva,InfoArray[0].Delay" Value="6"/>
-        <EffectArray Reference="Behavior,SpawnLarva,InfoArray[0].MaxCount" Value="3"/>
-        <EffectArray Operation="Set" Reference="Abil,ZergBuild,InfoArray[Build14].Button.Requirements" Value="HaveHatchery"/>
-        <EffectArray Operation="Set" Reference="Abil,ZergBuild,InfoArray[Build15].Button.Requirements" Value="HaveBanelingNest2"/>
-        <EffectArray Operation="Set" Reference="Abil,ZergBuild,InfoArray[Build16].Button.Requirements" Value="HaveBanelingNest2"/>
-        <EffectArray Reference="Unit,Roach2,CostResource[Minerals]" Value="25"/>
-        <EffectArray Reference="Unit,RoachBurrowed,CostResource[Minerals]" Value="25"/>
-        <EffectArray Operation="Subtract" Reference="Unit,Roach2,CostResource[Vespene]" Value="25"/>
-        <EffectArray Operation="Subtract" Reference="Unit,RoachBurrowed,CostResource[Vespene]" Value="25"/>
-        <EffectArray Reference="Unit,RoachCorpser,CostResource[Minerals]" Value="25"/>
-        <EffectArray Reference="Unit,RoachCorpserBurrowed,CostResource[Minerals]" Value="25"/>
-        <EffectArray Operation="Subtract" Reference="Unit,RoachCorpser,CostResource[Vespene]" Value="25"/>
-        <EffectArray Operation="Subtract" Reference="Unit,RoachCorpserBurrowed,CostResource[Vespene]" Value="25"/>
-        <EffectArray Reference="Unit,RoachVile,CostResource[Minerals]" Value="25"/>
-        <EffectArray Reference="Unit,RoachVileBurrowed,CostResource[Minerals]" Value="25"/>
-        <EffectArray Operation="Subtract" Reference="Unit,RoachVile,CostResource[Vespene]" Value="25"/>
-        <EffectArray Operation="Subtract" Reference="Unit,RoachVileBurrowed,CostResource[Vespene]" Value="25"/>
-        <EffectArray Operation="Set" Reference="Abil,UpgradeToLair,CmdButtonArray[Execute].Requirements" Value="HaveBanelingNest2"/>
-        <EffectArray Operation="Set" Reference="Abil,UpgradeToHive,CmdButtonArray[Execute].Requirements" Value="HaveInfestationPit"/>
-        <EffectArray Operation="Subtract" Reference="Unit,Brutalisk,CostResource[Minerals]" Value="500"/>
-        <EffectArray Operation="Subtract" Reference="Unit,Brutalisk,CostResource[Vespene]" Value="300"/>
-        <EffectArray Operation="Subtract" Reference="Unit,BrutaliskBurrowed,CostResource[Minerals]" Value="500"/>
-        <EffectArray Operation="Subtract" Reference="Unit,BrutaliskBurrowed,CostResource[Vespene]" Value="300"/>
-        <EffectArray Operation="Set" Reference="Unit,Brutalisk,Food" Value="-2"/>
-        <EffectArray Operation="Set" Reference="Unit,BrutaliskBurrowed,Food" Value="-2"/>
-        <EffectArray Operation="Set" Reference="Button,RoachWarren,Tooltip" Value="Button/Tooltip/ACAbathurRoachWarren"/>
-        <EffectArray Operation="Set" Reference="Button,EvolutionChamber,Tooltip" Value="Button/Tooltip/ACAbathurEvolutionChamber"/>
-        <EffectArray Operation="Set" Reference="Button,InfestationPit,Tooltip" Value="Button/Tooltip/ACAbathurInfestationPit"/>
-        <EffectArray Operation="Set" Reference="Button,Spire,Tooltip" Value="Button/Tooltip/ACAbathurSpire"/>
-        <EffectArray Operation="Set" Reference="Button,GreaterSpireViper,Tooltip" Value="Button/Tooltip/ACAbathurGreaterSpire"/>
-        <EffectArray Operation="Set" Reference="Button,Lair,Tooltip" Value="Button/Tooltip/ACAbathurLair"/>
-        <EffectArray Operation="Set" Reference="Button,Hive,Tooltip" Value="Button/Tooltip/ACAbathurHive"/>
-        <EffectArray Operation="Set" Reference="Unit,RoachWarren,Description" Value="Button/Tooltip/ACAbathurRoachWarren"/>
-        <EffectArray Operation="Set" Reference="Unit,EvolutionChamber,Description" Value="Button/Tooltip/ACAbathurEvolutionChamber"/>
-        <EffectArray Operation="Set" Reference="Unit,InfestationPit,Description" Value="Button/Tooltip/ACAbathurInfestationPit"/>
-        <EffectArray Operation="Set" Reference="Unit,Spire,Description" Value="Button/Tooltip/ACAbathurSpire"/>
-        <EffectArray Operation="Set" Reference="Unit,GreaterSpire,Description" Value="Button/Tooltip/ACAbathurGreaterSpire"/>
-        <EffectArray Operation="Set" Reference="Unit,Lair,Description" Value="Button/Tooltip/ACAbathurLair"/>
-        <EffectArray Operation="Set" Reference="Unit,Hive,Description" Value="Button/Tooltip/ACAbathurHive"/>
-        <EffectArray Operation="Set" Reference="Unit,HotSLeviathan,Food" Value="-2"/>
-        <LeaderAlias value=""/>
-    </CUpgrade>
-    <CUpgrade id="AbathurMorphTimeCostReduced2">
-        <EffectArray Operation="Subtract" Reference="Abil,MorphRoachToRavager,InfoArray[Train1].Time" Value="4.5"/>
-        <EffectArray Operation="Subtract" Reference="Abil,MutaliskMorphToDevourer,InfoArray[Train1].Time" Value="7.5"/>
-        <EffectArray Operation="Subtract" Reference="Abil,MutaliskMorphToGuardian,InfoArray[Train1].Time" Value="7.5"/>
-        <EffectArray Operation="Subtract" Reference="Unit,RavagerAbathur,CostResource[Minerals]" Value="12"/>
-        <EffectArray Operation="Subtract" Reference="Unit,RavagerAbathur,CostResource[Vespene]" Value="37"/>
-        <EffectArray Operation="Subtract" Reference="Unit,RavagerAbathurBurrowed,CostResource[Minerals]" Value="12"/>
-        <EffectArray Operation="Subtract" Reference="Unit,RavagerAbathurBurrowed,CostResource[Vespene]" Value="37"/>
-        <EffectArray Operation="Subtract" Reference="Unit,Devourer,CostResource[Minerals]" Value="75"/>
-        <EffectArray Operation="Subtract" Reference="Unit,Devourer,CostResource[Vespene]" Value="25"/>
-        <EffectArray Operation="Subtract" Reference="Unit,GuardianMP,CostResource[Minerals]" Value="25"/>
-        <EffectArray Operation="Subtract" Reference="Unit,GuardianMP,CostResource[Vespene]" Value="50"/>
-        <AffectedUnitArray value="Roach2"/>
-        <AffectedUnitArray value="RoachVile"/>
-        <AffectedUnitArray value="Mutalisk"/>
-        <LeaderAlias value=""/>
-    </CUpgrade>
-    <CUpgrade id="AbathurRoachRangeScalingUpgrade2">
-        <EffectArray Reference="Weapon,AcidSaliva,Range" Value="1"/>
-        <EffectArray Reference="Weapon,AcidSaliva,MinScanRange" Value="1"/>
-        <EffectArray Reference="Weapon,RoachCorpserAcidSaliva,Range" Value="1"/>
-        <EffectArray Reference="Weapon,RoachCorpserAcidSaliva,MinScanRange" Value="1"/>
-        <EffectArray Reference="Abil,RoachWarrenResearch,InfoArray[Research10].Resource[Minerals]" Value="50"/>
-        <EffectArray Reference="Abil,RoachWarrenResearch,InfoArray[Research10].Resource[Vespene]" Value="50"/>
-        <EffectArray Reference="Abil,RoachWarrenResearch,InfoArray[Research10].Time" Value="30.000000"/>
-        <EditorCategories value="Race:Zerg,UpgradeType:Talents"/>
-        <AffectedUnitArray value="Roach2"/>
-        <AffectedUnitArray value="RoachBurrowed"/>
-        <AffectedUnitArray value="RoachCorpser"/>
-        <AffectedUnitArray value="RoachCorpserBurrowed"/>
-        <AffectedUnitArray value="RoachVile"/>
-        <AffectedUnitArray value="RoachVileBurrowed"/>
+    <CUpgrade id="BaseArmorUpgrade">
+        <Name value="Upgrade/BaseArmorUpgrade"/>
+        <EffectArray Reference="Unit,JimRaynorIEUHero,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,JimRaynorIEUHero,LifeArmor" Value="1"/>
+        <EffectArray Reference="Abil,RaynorUpgrades,InfoArray[Research3].Resource[Minerals]" Value="20"/>
         <MaxLevel value="10"/>
     </CUpgrade>
     <CUpgrade id="Burrow2">

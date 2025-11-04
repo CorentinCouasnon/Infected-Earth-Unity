@@ -464,6 +464,21 @@
         <TintRacially value="1"/>
         <Universal value="1"/>
     </CButton>
+    <CButton id="OpenSecondPanel" num="1">
+        <Icon value="Assets\Textures\btn-number-2.dds"/>
+        <AlertIcon value="Assets\Textures\btn-number-1.dds"/>
+        <TintRacially value="1"/>
+    </CButton>
+    <CButton id="OpenThirdPanel" num="1">
+        <Icon value="Assets\Textures\btn-number-3.dds"/>
+        <AlertIcon value="Assets\Textures\btn-number-1.dds"/>
+        <TintRacially value="1"/>
+    </CButton>
+    <CButton id="OpenFirstPanel" num="1">
+        <Icon value="Assets\Textures\btn-number-1.dds"/>
+        <AlertIcon value="Assets\Textures\btn-number-1.dds"/>
+        <TintRacially value="1"/>
+    </CButton>
     <CButton id="PermanentlyCloakedZeratul2">
         <Icon value="Assets\Textures\BTN-ability-Protoss-permanentlycloaked-darktemplar-color.dds"/>
         <EditorCategories value="Race:Protoss"/>
