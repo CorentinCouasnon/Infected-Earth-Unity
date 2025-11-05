@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Catalog>
+    <CButton id="AS">
+        <Icon value="Assets\Textures\btn-ability-terran-bombardmentstrike-color.dds"/>
+    </CButton>
     <CButton id="AncillaryCarapaceHydralisk2">
         <Icon value="Assets\Textures\btn-upgrade-zerg-ancillaryarmor.dds"/>
         <EditorCategories value="Race:Zerg"/>
@@ -287,6 +290,10 @@
         <Icon value="Assets\Textures\BTN-techupgrade-terran-combatshield-color.dds"/>
         <AlertIcon value="Assets\Textures\BTN-techupgrade-terran-combatshield-color.dds"/>
         <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="HealthDispenserPickup">
+        <Hotkey value="HP"/>
+        <HotkeySet value="Z"/>
     </CButton>
     <CButton id="HotSMetabolicBoost2">
         <Icon value="Assets\Textures\btn-upgrade-zerg-metabolicboost.dds"/>
@@ -821,10 +828,12 @@
         <TintRacially value="1"/>
         <Universal value="1"/>
     </CButton>
+    <CButton id="MovementSpeed">
+        <Icon value="Assets\Textures\btn-ability-protoss-charge-color.dds"/>
+    </CButton>
     <CButton id="OpenSecondPanel" num="1">
-        <Icon value="Assets\Textures\btn-number-2.dds"/>
+        <Icon value="Assets\Textures\btn-upgrade-tychus-armor-level1.dds"/>
         <AlertIcon value="Assets\Textures\btn-number-1.dds"/>
-        <TintRacially value="1"/>
     </CButton>
     <CButton id="OpenThirdPanel" num="1">
         <Icon value="Assets\Textures\btn-number-3.dds"/>
@@ -832,9 +841,8 @@
         <TintRacially value="1"/>
     </CButton>
     <CButton id="OpenFirstPanel" num="1">
-        <Icon value="Assets\Textures\btn-number-1.dds"/>
+        <Icon value="Assets\Textures\tutorialarrow00.dds"/>
         <AlertIcon value="Assets\Textures\btn-number-1.dds"/>
-        <TintRacially value="1"/>
     </CButton>
     <CButton id="PermanentlyCloakedZeratul2">
         <Icon value="Assets\Textures\BTN-ability-Protoss-permanentlycloaked-darktemplar-color.dds"/>
@@ -850,6 +858,9 @@
         <EditorCategories value="Race:Neutral"/>
         <TintRacially value="1"/>
         <Universal value="1"/>
+    </CButton>
+    <CButton id="Range">
+        <Icon value="Assets\Textures\btn-ability-terran-snipe-color.dds"/>
     </CButton>
     <CButton id="RapidRegeneration2">
         <Icon value="Assets\Textures\BTN-ability-zerg-rapidregeneration-color.dds"/>
@@ -1064,6 +1075,9 @@
         <Icon value="Assets\Textures\btn-upgrade-zerg-hotstunnelingclaws.dds"/>
         <AlertIcon value="Assets\Textures\btn-upgrade-zerg-hotstunnelingclaws.dds"/>
         <EditorCategories value="Race:Zerg"/>
+    </CButton>
+    <CButton id="Vision2">
+        <Icon value="Assets\Textures\btn-ability-terran-scannersweep-color.dds"/>
     </CButton>
     <CButton id="VoidZealotWhirlwind2">
         <TooltipAppender Validator="CommanderPrestigeArtanisCombatAbilities" Text="Button/Tooltip/CommanderPrestigeArtanisCombatAbilitiesDamageUpgrade"/>

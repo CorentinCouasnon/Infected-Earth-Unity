@@ -2342,8 +2342,9 @@
     </CEffectEnumArea>
     <CEffectApplyForce id="ZeratulCollisionEffect">
         <EditorCategories value=""/>
-        <Amount value="2"/>
-        <WhichLocation Effect="ZeratulCollisionArea" Value="CasterPoint"/>
+        <Amount value="4"/>
+        <WhichLocation Effect="ZeratulCollisionEffect" Value="CasterPoint"/>
+        <WhichUnit Effect="ZeratulCollisionEffect" Value="Caster"/>
     </CEffectApplyForce>
     <CEffectApplyBehavior id="ZeratulDarkTemplarRetreatCooldownAB2">
         <EditorCategories value="Race:Protoss"/>

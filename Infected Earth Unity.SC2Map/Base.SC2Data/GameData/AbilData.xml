@@ -505,8 +505,8 @@
             <Resource index="Minerals" value="10"/>
             <Display index="Minerals" value="1"/>
             <Charge>
-                <CountMax value="50"/>
-                <CountStart value="50"/>
+                <CountMax value="75"/>
+                <CountStart value="75"/>
                 <CountUse value="1"/>
                 <Link value="RaynorDmgCharge"/>
                 <Location value="Player"/>
@@ -521,8 +521,8 @@
             <Resource index="Minerals" value="5"/>
             <Display index="Minerals" value="1"/>
             <Charge>
-                <CountMax value="30"/>
-                <CountStart value="30"/>
+                <CountMax value="25"/>
+                <CountStart value="25"/>
                 <CountUse value="1"/>
                 <Link value="RaynorHealthCharge"/>
                 <Location value="Player"/>
@@ -534,14 +534,63 @@
             <Resource index="Minerals" value="20"/>
             <Display index="Minerals" value="1"/>
             <Charge>
-                <CountMax value="10"/>
-                <CountStart value="10"/>
+                <CountMax value="15"/>
+                <CountStart value="15"/>
                 <CountUse value="1"/>
                 <Link value="RaynorArmorCharge"/>
                 <Location value="Player"/>
             </Charge>
             <Cooldown TimeUse="0.0625"/>
             <Button DefaultButtonFace="TerranInfantryArmorLevel1"/>
+        </InfoArray>
+        <InfoArray index="Research4" Upgrade="Range">
+            <Resource index="Minerals" value="50"/>
+            <Display index="Minerals" value="1"/>
+            <Charge>
+                <CountMax value="25"/>
+                <CountStart value="25"/>
+                <CountUse value="1"/>
+                <Link value="RaynorRangeUpgrade"/>
+            </Charge>
+            <Cooldown TimeUse="0.0625"/>
+            <Button DefaultButtonFace="Range"/>
+        </InfoArray>
+        <InfoArray index="Research5" Upgrade="Vision">
+            <Resource index="Minerals" value="150"/>
+            <Display index="Minerals" value="1"/>
+            <Charge>
+                <CountMax value="13"/>
+                <CountStart value="13"/>
+                <CountUse value="1"/>
+                <Link value="RaynorVisionUpgrade"/>
+                <Location value="Player"/>
+            </Charge>
+            <Cooldown TimeUse="0.0625"/>
+            <Button DefaultButtonFace="Vision2"/>
+        </InfoArray>
+        <InfoArray index="Research6" Upgrade="AS">
+            <Resource index="Minerals" value="100"/>
+            <Display index="Minerals" value="1"/>
+            <Charge>
+                <CountMax value="50"/>
+                <CountStart value="50"/>
+                <CountUse value="1"/>
+                <Link value="RaynorAttackSpeedUpgrade"/>
+            </Charge>
+            <Cooldown TimeUse="0.0625"/>
+            <Button DefaultButtonFace="AS"/>
+        </InfoArray>
+        <InfoArray index="Research7" Upgrade="MovementSpeed">
+            <Resource index="Minerals" value="150"/>
+            <Display index="Minerals" value="1"/>
+            <Charge>
+                <CountMax value="15"/>
+                <CountStart value="15"/>
+                <CountUse value="1"/>
+                <Link value="RaynorAttackSpeedUpgrade"/>
+            </Charge>
+            <Cooldown TimeUse="0.0625"/>
+            <Button DefaultButtonFace="MovementSpeed"/>
         </InfoArray>
     </CAbilResearch>
     <CAbilEffectInstant id="Stimpack2">

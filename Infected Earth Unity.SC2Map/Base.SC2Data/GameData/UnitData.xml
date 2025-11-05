@@ -1951,10 +1951,10 @@
         <EnergyMax value="250"/>
         <EnergyRegenRate value="5"/>
         <Mover value="Ground5"/>
-        <Speed value="5.75"/>
+        <Speed value="4"/>
         <Acceleration value="1000"/>
         <LateralAcceleration value="46.0625"/>
-        <Sight value="15"/>
+        <Sight value="8"/>
         <Food value="-1"/>
         <CostCategory value="Army"/>
         <CostResource index="Minerals" value="50"/>
@@ -1989,9 +1989,13 @@
         </CardLayouts>
         <CardLayouts CardId="0002">
             <LayoutButtons Face="TerranInfantryWeaponsLevel1" Type="AbilCmd" AbilCmd="RaynorUpgrades,Research1" Row="0" Column="0"/>
-            <LayoutButtons Face="OpenFirstPanel" Type="CancelSubmenu" Row="2" Column="3"/>
-            <LayoutButtons Face="ArtanisPsiStormHeal" Type="AbilCmd" AbilCmd="RaynorUpgrades,Research2" Row="1" Column="0"/>
-            <LayoutButtons Face="TerranInfantryArmorLevel1" Type="AbilCmd" AbilCmd="RaynorUpgrades,Research3" Row="1" Column="1"/>
+            <LayoutButtons Face="AS" Type="AbilCmd" AbilCmd="RaynorUpgrades,Research6" Row="1" Column="0"/>
+            <LayoutButtons Face="TerranInfantryArmorLevel1" Type="AbilCmd" AbilCmd="RaynorUpgrades,Research3" Row="0" Column="1"/>
+            <LayoutButtons Face="ArtanisPsiStormHeal" Type="AbilCmd" AbilCmd="RaynorUpgrades,Research2" Row="0" Column="2"/>
+            <LayoutButtons Face="Vision2" Type="AbilCmd" AbilCmd="RaynorUpgrades,Research5" Row="0" Column="3"/>
+            <LayoutButtons Face="Range" Type="AbilCmd" AbilCmd="RaynorUpgrades,Research4" Row="1" Column="3"/>
+            <LayoutButtons Face="OpenFirstPanel" Type="CancelSubmenu" Row="2" Column="4"/>
+            <LayoutButtons Face="MovementSpeed" Type="AbilCmd" AbilCmd="RaynorUpgrades,Research7" Row="1" Column="1"/>
         </CardLayouts>
         <Radius value="0.5"/>
         <CargoSize value="1"/>
@@ -5402,7 +5406,6 @@
         <AbilArray Link="RallyZeratulTopBar2"/>
         <AbilArray Link="ZeratulUpgrades"/>
         <AbilArray Link="Spell2Zeratul"/>
-        <AbilArray Link="ZeratulCharge2"/>
         <BehaviorArray index="0" Link="ZealotRespawnDeath2"/>
         <BehaviorArray Link="AllUnitBehaviorController2"/>
         <BehaviorArray Link="ZeratulCollisionBehavior"/>
@@ -5424,7 +5427,6 @@
             </LayoutButtons>
             <LayoutButtons Face="Cancel2" Type="AbilCmd" AbilCmd="WarpableZeratul2,Cancel" Row="1" Column="3"/>
             <LayoutButtons Face="GuardianShield2" Type="AbilCmd" AbilCmd="Spell2Zeratul,Execute" Row="2" Column="1"/>
-            <LayoutButtons Face="Charge" Type="AbilCmd" AbilCmd="ZeratulCharge2,Execute" Row="2" Column="0"/>
         </CardLayouts>
         <CardLayouts CardId="0002">
             <LayoutButtons Face="ProtossGroundWeaponsLevel1" Type="AbilCmd" AbilCmd="ZeratulUpgrades,Research1" Row="0" Column="0"/>

@@ -219,7 +219,9 @@ Behavior/Tooltip/ZerglingSunder22=This unit receives extra damage from ranged at
 Behavior/Tooltip/ZerglingSunder3=This unit receives extra damage from ranged attacks.
 Button/ChargeText/ZeratulBlink2SingleCharge=     
 Button/ChargeText/ZeratulBlink3SingleCharge=     
+Button/Name/AS=Attack Speed
 Button/Name/AncillaryCarapaceHydralisk2=Ancillary Carapace
+Button/Name/ArtanisPsiStormHeal=40 HP
 Button/Name/Attack10=Attack
 Button/Name/Attack11=Attack
 Button/Name/Attack12=Attack
@@ -339,12 +341,14 @@ Button/Name/MovePatrol6=Patrol
 Button/Name/MovePatrol7=Patrol
 Button/Name/MovePatrol8=Patrol
 Button/Name/MovePatrol9=Patrol
-Button/Name/OpenFirstPanel=1
-Button/Name/OpenSecondPanel=2
+Button/Name/MovementSpeed=Movement Speed
+Button/Name/OpenFirstPanel=Back On Spells
+Button/Name/OpenSecondPanel=Upgrades
 Button/Name/OpenThirdPanel=3
 Button/Name/PermanentlyCloakedZeratul2=Permanently Cloaked
 Button/Name/PermanentlyCloakedZeratul3=Permanently Cloaked
 Button/Name/Rally2=Set Rally Point
+Button/Name/Range=Range
 Button/Name/RapidRegeneration2=Rapid Regeneration
 Button/Name/Stim2=StimpackDeChien
 Button/Name/Stim3=Stimpack
@@ -374,8 +378,11 @@ Button/Name/Stop6=Stop
 Button/Name/Stop7=Stop
 Button/Name/Stop8=Stop
 Button/Name/Stop9=Stop
+Button/Name/TerranInfantryArmorLevel1=0.75 Armor
+Button/Name/TerranInfantryWeaponsLevel1=5 Damage
 Button/Name/TossGrenade2=Grenade Starfoulah
 Button/Name/TunnelingClaws2=Tunneling Claws
+Button/Name/Vision2=Vision Range
 Button/Name/VoidZealotWhirlwind2=Whirlwind
 Button/Name/ZeratulAbilityChargeLocked2=Charge
 Button/Name/ZeratulBlink2=Blink
@@ -383,6 +390,7 @@ Button/Name/ZeratulBlink3=Blink
 Button/Name/ZeratulStun2=Void Prison
 Button/Name/ZeratulStun3=Void Prison
 Button/Tooltip/AncillaryCarapaceHydralisk2=Hydralisk gains +20 maximum life.
+Button/Tooltip/ArtanisPsiStormHeal=Add 40 HP for each upgrade
 Button/Tooltip/Attack10=Orders selected units to move to the target point, fighting nearby enemies along the way. Targeting a unit with the Attack command orders that it be attacked until it is destroyed.
 Button/Tooltip/Attack11=Orders selected units to move to the target point, fighting nearby enemies along the way. Targeting a unit with the Attack command orders that it be attacked until it is destroyed.
 Button/Tooltip/Attack12=Orders selected units to move to the target point, fighting nearby enemies along the way. Targeting a unit with the Attack command orders that it be attacked until it is destroyed.
@@ -428,6 +436,7 @@ Button/Tooltip/GuardianShield2=Creates a range 4 aura that reduces all incoming 
 Button/Tooltip/HHHellionAttackDoT2=Attacks cause enemies to burn for an additional <d ref="Effect,HHHellionDoTDamage,Amount * Behavior,HHHellionDoT,Period * Behavior,HHHellionDoT,Duration"/> damage over <d ref="Behavior,HHHellionDoT,Duration"/> seconds.
 Button/Tooltip/HHHellionDeathFear2=Movement speed is increased by <d ref="$UpgradeEffectArrayValue:HHHellionFearDeath:Unit,HHHellionTank,Speed$/Unit,HHHellionTank,Speed*100" player="0"/>%. When Hellbats are killed, they ignite the surrounding area. Enemies in the fire run around in fear for <d ref="Behavior,HHHellionTankFear,Duration"/> seconds.
 Button/Tooltip/HHMSOAttackSpeed2=Horner's combat units are increasing the attack speed of Han's units by <d ref="Effect,HornerMSOAttackSpeedDisplayDummy,Amount" precision="2"/>%.
+Button/Tooltip/HealthDispenserPickup=Augmente les HP de l'unitée de 50
 Button/Tooltip/HellbatChien=Close range combat unit. Deals damage in a small frontal cone. Can transform into a fast scout unit.<n/><n/><c val="#ColorAttackInfo">Can attack ground units.</c>
 Button/Tooltip/Hellion2=Fast scout. Has a flame attack that damages all enemy units in its line of fire. Can transform into a close range combat unit.<n/><n/><c val="#ColorAttackInfo">Can attack ground units.</c>
 Button/Tooltip/HellionChien=Fast scout. Has a flame attack that damages all enemy units in its line of fire. Can transform into a close range combat unit.<n/><n/><c val="#ColorAttackInfo">Can attack ground units.</c>
@@ -536,6 +545,7 @@ Button/Tooltip/OpenThirdPanel=Open the third command panel.
 Button/Tooltip/PermanentlyCloakedZeratul2=Zeratul is permanently cloaked.
 Button/Tooltip/PermanentlyCloakedZeratul3=Zeratul is permanently cloaked.
 Button/Tooltip/Rally2=Sends constructed units to the designated point. Workers rallied to resources will begin gathering automatically.
+Button/Tooltip/Range=Donne 0.25 de Range par charge
 Button/Tooltip/RapidRegeneration2=The Roach regenerates life very quickly while burrowed.
 Button/Tooltip/Raynor2=Raynor is an elite Marine with more life and a stronger attack. <n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c><n/>
 Button/Tooltip/Raynor3=Raynor is an elite Marine with more life and a stronger attack. <n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c><n/>
@@ -574,8 +584,11 @@ Button/Tooltip/Stop7=Orders selected units to cancel all orders and stop moving.
 Button/Tooltip/Stop8=Orders selected units to cancel all orders and stop moving.
 Button/Tooltip/Stop9=Orders selected units to cancel all orders and stop moving.
 Button/Tooltip/TaurenSpaceMarineBroken=For the Horde.
+Button/Tooltip/TerranInfantryArmorLevel1=Add 0.75 armor for each upgrade
+Button/Tooltip/TerranInfantryWeaponsLevel1=Augmente les dégats de 5 par upgrade
 Button/Tooltip/TossGrenade2=Lance une grenarde et starfoulah les dégats en gros
 Button/Tooltip/TunnelingClaws2=Can move at full speed while burrowed. Burrowed regeneration rate increased by 100%.
+Button/Tooltip/Vision2=Add 0.5 of Vision Sight Range for each upgrade
 Button/Tooltip/VoidZealotWhirlwind2=Deals <d ref="Effect,VoidZealotWhirlwindDamage,Amount/Behavior,VoidZealotWhirlwind,Period"/> damage per second to all nearby enemy units. Lasts <d ref="Behavior,VoidZealotWhirlwind,Duration"/> seconds.
 Button/Tooltip/WarPig2=General-purpose infantry.<n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c>
 Button/Tooltip/Zealot2=Powerful melee warrior. Can use Charge.<n/><n/><c val="ffff8a">Can attack ground units.</c>
@@ -1012,6 +1025,7 @@ UnitSubtitle/HotSSwarmling3=Swarmling Strain
 Upgrade/BaseArmorUpgrade=Base Armor Upgrade
 Upgrade/BaseDmgUpgrade=Base DmgUpgrade
 Upgrade/BaseHealthUpgrade=Base Health Upgrade
+Upgrade/Name/AS=Attack Speed
 Upgrade/Name/AlphaSquadTerran2=Alpha Squad Terran
 Upgrade/Name/AlphaSquadTerran22=Alpha Squad Terran
 Upgrade/Name/AlphaSquadTerran3=Alpha Squad Terran
@@ -1054,6 +1068,7 @@ Upgrade/Name/KineticFields2=Kinetic Fields
 Upgrade/Name/LaserTargetingSystemMarine2=Laser Targeting System Marine
 Upgrade/Name/MarineStimpack2=Stimpack
 Upgrade/Name/MasteryRaynorStimDuration2=Mastery Raynor Stim Duration
+Upgrade/Name/MovementSpeed=Movement Speed
 Upgrade/Name/ObverseIncubation2=Obverse Incubation
 Upgrade/Name/OrganicCarapace2=Organic Carapace
 Upgrade/Name/ProtossShieldsLevel12=Protoss Shields Level 1
@@ -1062,6 +1077,7 @@ Upgrade/Name/ProtossShieldsLevel22=Protoss Shields Level 2
 Upgrade/Name/ProtossShieldsLevel23=Protoss Shields Level 2
 Upgrade/Name/ProtossShieldsLevel32=Protoss Shields Level 3
 Upgrade/Name/ProtossShieldsLevel33=Protoss Shields Level 3
+Upgrade/Name/Range=Range
 Upgrade/Name/RaynorCommanderArmorVanadium2=Raynor Commander Armor Vanadium
 Upgrade/Name/RaynorCommanderStimUpgrade2=Raynor Commander Stim Upgrade
 Upgrade/Name/RaynorCommanderStimUpgrade22=Raynor Commander Stim Upgrade
@@ -1134,6 +1150,7 @@ Upgrade/Name/TerranVehicleWeaponsUltraCapacitorsLevel32=Terran Vehicle Weapons U
 Upgrade/Name/TransformationServos2=Transformation Servos
 Upgrade/Name/TunnelingClaws2=Tunneling Claws
 Upgrade/Name/TurboChargedEngines2=Turbo-Charged Engines
+Upgrade/Name/Vision=Vision
 Upgrade/Name/ZagaraCommander2=Commander - Zerg - Zagara
 Upgrade/Name/ZagaraCommander22=Commander - Zerg - Zagara
 Upgrade/Name/ZagaraCommander222=Commander - Zerg - Zagara

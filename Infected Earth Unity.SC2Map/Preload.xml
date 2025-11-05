@@ -15,7 +15,6 @@
 <Actor id="BattleStation_CommandCenter" Variations="1,3"/>
 <Actor id="CompoundMansion_Mengsk_Statue"/>
 <Actor id="Elsecaro_Mengsk_Statue"/>
-<Actor id="Explosions_Flak_Terran_Background"/>
 <Actor id="JarbanMinor_IndustrialGarage" Variations="3"/>
 <Actor id="LoSBlockerColumn"/>
 <Actor id="PortCity_Fountain_Destroyed" Variations="1"/>
@@ -61,6 +60,11 @@
 <Unit id="UnbuildableRocksSmallUnit" Variations="0,1,2,3,4,5"/>
 <Unit id="DestructibleRockEx12x6Horizontal"/>
 <Unit id="CollapsiblePurifierTowerDebris"/>
+<Unit id="NukeSiloNova"/>
+<Unit id="ColonistVehicleUnit01"/>
+<Unit id="DefenseWallN" Variations="0"/>
+<Unit id="DefenseWallNE" Variations="1"/>
+<Unit id="DefenseWallNW" Variations="2"/>
 <Unit id="AiurTempleStoneGateStraightHorizontalBF"/>
 <Unit id="AiurTempleStoneGateStraightVerticalLF"/>
 <Unit id="Purifier_DoorSmallN" Variations="1"/>

@@ -60,7 +60,7 @@
         <DisplayEffect value="RaynorGaussRifleDamage2"/>
         <TargetFilters value="Visible;Missile,Stasis,Dead,Hidden,Invulnerable"/>
         <MinScanRange value="6.5"/>
-        <Range value="15"/>
+        <Range value="8"/>
         <Period value="0.3"/>
         <DamagePoint value="17"/>
         <Backswing value="0.1"/>
