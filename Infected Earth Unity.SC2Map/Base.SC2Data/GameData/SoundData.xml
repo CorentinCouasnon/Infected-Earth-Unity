@@ -54,6 +54,613 @@
         <AssetArray File="Assets\Sounds\Zerg\SharedEffects\Explosions\Zerg_ExplosionSmall5.wav" Pitch="-3.000000,6.000000" Volume="-6.000000,-4.000000"/>
         <AssetArray File="Assets\Sounds\Zerg\SharedEffects\Explosions\Zerg_ExplosionSmall6.wav" Pitch="-3.000000,6.000000" Volume="-6.000000,-4.000000"/>
     </CSound>
+    <CSound id="HellionTank_Attack2" parent="TerranAck">
+        <AssetArray>
+            <File value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_018.ogg"/>
+            <FacialAnim value="zVO_TerranHellion_HellionSiege_018"/>
+            <FacialGroup value="zVO_TerranHellion_HellionSiege_018"/>
+            <FacialFile value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_018.fxe"/>
+        </AssetArray>
+        <AssetArray>
+            <File value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_019.ogg"/>
+            <FacialAnim value="zVO_TerranHellion_HellionSiege_019"/>
+            <FacialGroup value="zVO_TerranHellion_HellionSiege_019"/>
+            <FacialFile value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_019.fxe"/>
+        </AssetArray>
+        <AssetArray>
+            <File value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_020.ogg"/>
+            <FacialAnim value="zVO_TerranHellion_HellionSiege_020"/>
+            <FacialGroup value="zVO_TerranHellion_HellionSiege_020"/>
+            <FacialFile value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_020.fxe"/>
+        </AssetArray>
+        <AssetArray>
+            <File value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_021.ogg"/>
+            <FacialAnim value="zVO_TerranHellion_HellionSiege_021"/>
+            <FacialGroup value="zVO_TerranHellion_HellionSiege_021"/>
+            <FacialFile value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_021.fxe"/>
+        </AssetArray>
+        <AssetArray>
+            <File value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_022.ogg"/>
+            <FacialAnim value="zVO_TerranHellion_HellionSiege_022"/>
+            <FacialGroup value="zVO_TerranHellion_HellionSiege_022"/>
+            <FacialFile value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_022.fxe"/>
+        </AssetArray>
+        <AssetArray>
+            <File value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_023.ogg"/>
+            <FacialAnim value="zVO_TerranHellion_HellionSiege_023"/>
+            <FacialGroup value="zVO_TerranHellion_HellionSiege_023"/>
+            <FacialFile value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_023.fxe"/>
+        </AssetArray>
+        <AssetArray>
+            <File value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_024.ogg"/>
+            <FacialAnim value="zVO_TerranHellion_HellionSiege_024"/>
+            <FacialGroup value="zVO_TerranHellion_HellionSiege_024"/>
+            <FacialFile value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_024.fxe"/>
+        </AssetArray>
+    </CSound>
+    <CSound id="HellionTank_Attack3" parent="TerranAck">
+        <AssetArray>
+            <File value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_018.ogg"/>
+            <FacialAnim value="zVO_TerranHellion_HellionSiege_018"/>
+            <FacialGroup value="zVO_TerranHellion_HellionSiege_018"/>
+            <FacialFile value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_018.fxe"/>
+        </AssetArray>
+        <AssetArray>
+            <File value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_019.ogg"/>
+            <FacialAnim value="zVO_TerranHellion_HellionSiege_019"/>
+            <FacialGroup value="zVO_TerranHellion_HellionSiege_019"/>
+            <FacialFile value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_019.fxe"/>
+        </AssetArray>
+        <AssetArray>
+            <File value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_020.ogg"/>
+            <FacialAnim value="zVO_TerranHellion_HellionSiege_020"/>
+            <FacialGroup value="zVO_TerranHellion_HellionSiege_020"/>
+            <FacialFile value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_020.fxe"/>
+        </AssetArray>
+        <AssetArray>
+            <File value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_021.ogg"/>
+            <FacialAnim value="zVO_TerranHellion_HellionSiege_021"/>
+            <FacialGroup value="zVO_TerranHellion_HellionSiege_021"/>
+            <FacialFile value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_021.fxe"/>
+        </AssetArray>
+        <AssetArray>
+            <File value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_022.ogg"/>
+            <FacialAnim value="zVO_TerranHellion_HellionSiege_022"/>
+            <FacialGroup value="zVO_TerranHellion_HellionSiege_022"/>
+            <FacialFile value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_022.fxe"/>
+        </AssetArray>
+        <AssetArray>
+            <File value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_023.ogg"/>
+            <FacialAnim value="zVO_TerranHellion_HellionSiege_023"/>
+            <FacialGroup value="zVO_TerranHellion_HellionSiege_023"/>
+            <FacialFile value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_023.fxe"/>
+        </AssetArray>
+        <AssetArray>
+            <File value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_024.ogg"/>
+            <FacialAnim value="zVO_TerranHellion_HellionSiege_024"/>
+            <FacialGroup value="zVO_TerranHellion_HellionSiege_024"/>
+            <FacialFile value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_024.fxe"/>
+        </AssetArray>
+    </CSound>
+    <CSound id="HellionTank_AttackLaunch2" parent="Combat">
+        <EditorCategories value="Race:Terran"/>
+        <AssetArray File="Assets\Sounds\Terran\Hellion\Hellion_AttackLaunch0.wav"/>
+        <AssetArray File="Assets\Sounds\Terran\Hellion\Hellion_AttackLaunch1.wav"/>
+        <AssetArray File="Assets\Sounds\Terran\Hellion\Hellion_AttackLaunch2.wav"/>
+        <AssetArray File="Assets\Sounds\Terran\Hellion\Hellion_AttackLaunch3.wav"/>
+        <AssetArray File="Assets\Sounds\Terran\Hellion\Hellion_AttackLaunch4.wav"/>
+        <DupeDestroyCount value="8"/>
+        <DupeMaximumMethod value="Replace"/>
+        <DupeMuteCount value="6"/>
+        <Pitch value="9.000000,10.000000"/>
+        <Volume value="-10.000000,-9.000000"/>
+    </CSound>
+    <CSound id="HellionTank_AttackLaunch3" parent="Combat">
+        <EditorCategories value="Race:Terran"/>
+        <AssetArray File="Assets\Sounds\Terran\Hellion\Hellion_AttackLaunch0.wav"/>
+        <AssetArray File="Assets\Sounds\Terran\Hellion\Hellion_AttackLaunch1.wav"/>
+        <AssetArray File="Assets\Sounds\Terran\Hellion\Hellion_AttackLaunch2.wav"/>
+        <AssetArray File="Assets\Sounds\Terran\Hellion\Hellion_AttackLaunch3.wav"/>
+        <AssetArray File="Assets\Sounds\Terran\Hellion\Hellion_AttackLaunch4.wav"/>
+        <DupeDestroyCount value="8"/>
+        <DupeMaximumMethod value="Replace"/>
+        <DupeMuteCount value="6"/>
+        <Pitch value="9.000000,10.000000"/>
+        <Volume value="-10.000000,-9.000000"/>
+    </CSound>
+    <CSound id="HellionTank_Help2" parent="Alert">
+        <EditorCategories value="Race:Terran"/>
+        <AssetArray>
+            <File value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_025.ogg"/>
+            <FacialAnim value="zVO_TerranHellion_HellionSiege_025"/>
+            <FacialGroup value="zVO_TerranHellion_HellionSiege_025"/>
+            <FacialFile value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_025.fxe"/>
+        </AssetArray>
+        <AssetArray>
+            <File value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_026.ogg"/>
+            <FacialAnim value="zVO_TerranHellion_HellionSiege_026"/>
+            <FacialGroup value="zVO_TerranHellion_HellionSiege_026"/>
+            <FacialFile value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_026.fxe"/>
+        </AssetArray>
+    </CSound>
+    <CSound id="HellionTank_Help3" parent="Alert">
+        <EditorCategories value="Race:Terran"/>
+        <AssetArray>
+            <File value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_025.ogg"/>
+            <FacialAnim value="zVO_TerranHellion_HellionSiege_025"/>
+            <FacialGroup value="zVO_TerranHellion_HellionSiege_025"/>
+            <FacialFile value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_025.fxe"/>
+        </AssetArray>
+        <AssetArray>
+            <File value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_026.ogg"/>
+            <FacialAnim value="zVO_TerranHellion_HellionSiege_026"/>
+            <FacialGroup value="zVO_TerranHellion_HellionSiege_026"/>
+            <FacialFile value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_026.fxe"/>
+        </AssetArray>
+    </CSound>
+    <CSound id="HellionTank_Movement2" parent="Movement">
+        <EditorCategories value="Race:Terran"/>
+        <AssetArray File="Assets\Sounds\HellionTank_Movement_00.wav" FacialGroup=""/>
+        <Pitch value="-1.000000,1.000000"/>
+        <Volume value="2.000000,3.000000"/>
+    </CSound>
+    <CSound id="HellionTank_Movement3" parent="Movement">
+        <EditorCategories value="Race:Terran"/>
+        <AssetArray File="Assets\Sounds\HellionTank_Movement_00.wav" FacialGroup=""/>
+        <Pitch value="-1.000000,1.000000"/>
+        <Volume value="2.000000,3.000000"/>
+    </CSound>
+    <CSound id="HellionTank_Pissed2" parent="Pissed">
+        <EditorCategories value="Race:Terran"/>
+        <AssetArray>
+            <File value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_027.ogg"/>
+            <FacialAnim value="zVO_TerranHellion_HellionSiege_027"/>
+            <FacialGroup value="zVO_TerranHellion_HellionSiege_027"/>
+            <FacialFile value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_027.fxe"/>
+        </AssetArray>
+        <AssetArray>
+            <File value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_028.ogg"/>
+            <FacialAnim value="zVO_TerranHellion_HellionSiege_028"/>
+            <FacialGroup value="zVO_TerranHellion_HellionSiege_028"/>
+            <FacialFile value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_028.fxe"/>
+        </AssetArray>
+        <AssetArray>
+            <File value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_029.ogg"/>
+            <FacialAnim value="zVO_TerranHellion_HellionSiege_029"/>
+            <FacialGroup value="zVO_TerranHellion_HellionSiege_029"/>
+            <FacialFile value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_029.fxe"/>
+        </AssetArray>
+        <AssetArray>
+            <File value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_030.ogg"/>
+            <FacialAnim value="zVO_TerranHellion_HellionSiege_030"/>
+            <FacialGroup value="zVO_TerranHellion_HellionSiege_030"/>
+            <FacialFile value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_030.fxe"/>
+        </AssetArray>
+        <AssetArray>
+            <File value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_031.ogg"/>
+            <FacialAnim value="zVO_TerranHellion_HellionSiege_031"/>
+            <FacialGroup value="zVO_TerranHellion_HellionSiege_031"/>
+            <FacialFile value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_031.fxe"/>
+        </AssetArray>
+        <AssetArray>
+            <File value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_032.ogg"/>
+            <FacialAnim value="zVO_TerranHellion_HellionSiege_032"/>
+            <FacialGroup value="zVO_TerranHellion_HellionSiege_032"/>
+            <FacialFile value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_032.fxe"/>
+        </AssetArray>
+        <AssetArray>
+            <File value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_033.ogg"/>
+            <FacialAnim value="zVO_TerranHellion_HellionSiege_033"/>
+            <FacialGroup value="zVO_TerranHellion_HellionSiege_033"/>
+            <FacialFile value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_033.fxe"/>
+        </AssetArray>
+        <AssetArray>
+            <File value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_034.ogg"/>
+            <FacialAnim value="zVO_TerranHellion_HellionSiege_034"/>
+            <FacialGroup value="zVO_TerranHellion_HellionSiege_034"/>
+            <FacialFile value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_034.fxe"/>
+        </AssetArray>
+        <AssetArray>
+            <File value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_035.ogg"/>
+            <FacialAnim value="zVO_TerranHellion_HellionSiege_035"/>
+            <FacialGroup value="zVO_TerranHellion_HellionSiege_035"/>
+            <FacialFile value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_035.fxe"/>
+        </AssetArray>
+        <AssetArray>
+            <File value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_036.ogg"/>
+            <FacialAnim value="zVO_TerranHellion_HellionSiege_036"/>
+            <FacialGroup value="zVO_TerranHellion_HellionSiege_036"/>
+            <FacialFile value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_036.fxe"/>
+        </AssetArray>
+        <AssetArray>
+            <File value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_037.ogg"/>
+            <FacialAnim value="zVO_TerranHellion_HellionSiege_037"/>
+            <FacialGroup value="zVO_TerranHellion_HellionSiege_037"/>
+            <FacialFile value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_037.fxe"/>
+        </AssetArray>
+    </CSound>
+    <CSound id="HellionTank_Pissed3" parent="Pissed">
+        <EditorCategories value="Race:Terran"/>
+        <AssetArray>
+            <File value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_027.ogg"/>
+            <FacialAnim value="zVO_TerranHellion_HellionSiege_027"/>
+            <FacialGroup value="zVO_TerranHellion_HellionSiege_027"/>
+            <FacialFile value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_027.fxe"/>
+        </AssetArray>
+        <AssetArray>
+            <File value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_028.ogg"/>
+            <FacialAnim value="zVO_TerranHellion_HellionSiege_028"/>
+            <FacialGroup value="zVO_TerranHellion_HellionSiege_028"/>
+            <FacialFile value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_028.fxe"/>
+        </AssetArray>
+        <AssetArray>
+            <File value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_029.ogg"/>
+            <FacialAnim value="zVO_TerranHellion_HellionSiege_029"/>
+            <FacialGroup value="zVO_TerranHellion_HellionSiege_029"/>
+            <FacialFile value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_029.fxe"/>
+        </AssetArray>
+        <AssetArray>
+            <File value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_030.ogg"/>
+            <FacialAnim value="zVO_TerranHellion_HellionSiege_030"/>
+            <FacialGroup value="zVO_TerranHellion_HellionSiege_030"/>
+            <FacialFile value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_030.fxe"/>
+        </AssetArray>
+        <AssetArray>
+            <File value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_031.ogg"/>
+            <FacialAnim value="zVO_TerranHellion_HellionSiege_031"/>
+            <FacialGroup value="zVO_TerranHellion_HellionSiege_031"/>
+            <FacialFile value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_031.fxe"/>
+        </AssetArray>
+        <AssetArray>
+            <File value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_032.ogg"/>
+            <FacialAnim value="zVO_TerranHellion_HellionSiege_032"/>
+            <FacialGroup value="zVO_TerranHellion_HellionSiege_032"/>
+            <FacialFile value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_032.fxe"/>
+        </AssetArray>
+        <AssetArray>
+            <File value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_033.ogg"/>
+            <FacialAnim value="zVO_TerranHellion_HellionSiege_033"/>
+            <FacialGroup value="zVO_TerranHellion_HellionSiege_033"/>
+            <FacialFile value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_033.fxe"/>
+        </AssetArray>
+        <AssetArray>
+            <File value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_034.ogg"/>
+            <FacialAnim value="zVO_TerranHellion_HellionSiege_034"/>
+            <FacialGroup value="zVO_TerranHellion_HellionSiege_034"/>
+            <FacialFile value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_034.fxe"/>
+        </AssetArray>
+        <AssetArray>
+            <File value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_035.ogg"/>
+            <FacialAnim value="zVO_TerranHellion_HellionSiege_035"/>
+            <FacialGroup value="zVO_TerranHellion_HellionSiege_035"/>
+            <FacialFile value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_035.fxe"/>
+        </AssetArray>
+        <AssetArray>
+            <File value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_036.ogg"/>
+            <FacialAnim value="zVO_TerranHellion_HellionSiege_036"/>
+            <FacialGroup value="zVO_TerranHellion_HellionSiege_036"/>
+            <FacialFile value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_036.fxe"/>
+        </AssetArray>
+        <AssetArray>
+            <File value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_037.ogg"/>
+            <FacialAnim value="zVO_TerranHellion_HellionSiege_037"/>
+            <FacialGroup value="zVO_TerranHellion_HellionSiege_037"/>
+            <FacialFile value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_037.fxe"/>
+        </AssetArray>
+    </CSound>
+    <CSound id="HellionTank_Ready2" parent="Ready">
+        <EditorCategories value="Race:Terran"/>
+        <AssetArray File="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_005.ogg" FacialGroup=""/>
+    </CSound>
+    <CSound id="HellionTank_Ready3" parent="Ready">
+        <EditorCategories value="Race:Terran"/>
+        <AssetArray File="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_005.ogg" FacialGroup=""/>
+    </CSound>
+    <CSound id="HellionTank_What2" parent="TerranAck">
+        <AssetArray>
+            <File value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_006.ogg"/>
+            <FacialAnim value="zVO_TerranHellion_HellionSiege_006"/>
+            <FacialGroup value="zVO_TerranHellion_HellionSiege_006"/>
+            <FacialFile value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_006.fxe"/>
+        </AssetArray>
+        <AssetArray>
+            <File value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_007.ogg"/>
+            <FacialAnim value="zVO_TerranHellion_HellionSiege_007"/>
+            <FacialGroup value="zVO_TerranHellion_HellionSiege_007"/>
+            <FacialFile value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_007.fxe"/>
+        </AssetArray>
+        <AssetArray>
+            <File value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_008.ogg"/>
+            <FacialAnim value="zVO_TerranHellion_HellionSiege_008"/>
+            <FacialGroup value="zVO_TerranHellion_HellionSiege_008"/>
+            <FacialFile value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_008.fxe"/>
+        </AssetArray>
+        <AssetArray>
+            <File value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_009.ogg"/>
+            <FacialAnim value="zVO_TerranHellion_HellionSiege_009"/>
+            <FacialGroup value="zVO_TerranHellion_HellionSiege_009"/>
+            <FacialFile value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_009.fxe"/>
+        </AssetArray>
+        <AssetArray>
+            <File value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_010.ogg"/>
+            <FacialAnim value="zVO_TerranHellion_HellionSiege_010"/>
+            <FacialGroup value="zVO_TerranHellion_HellionSiege_010"/>
+            <FacialFile value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_010.fxe"/>
+        </AssetArray>
+    </CSound>
+    <CSound id="HellionTank_What3" parent="TerranAck">
+        <AssetArray>
+            <File value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_006.ogg"/>
+            <FacialAnim value="zVO_TerranHellion_HellionSiege_006"/>
+            <FacialGroup value="zVO_TerranHellion_HellionSiege_006"/>
+            <FacialFile value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_006.fxe"/>
+        </AssetArray>
+        <AssetArray>
+            <File value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_007.ogg"/>
+            <FacialAnim value="zVO_TerranHellion_HellionSiege_007"/>
+            <FacialGroup value="zVO_TerranHellion_HellionSiege_007"/>
+            <FacialFile value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_007.fxe"/>
+        </AssetArray>
+        <AssetArray>
+            <File value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_008.ogg"/>
+            <FacialAnim value="zVO_TerranHellion_HellionSiege_008"/>
+            <FacialGroup value="zVO_TerranHellion_HellionSiege_008"/>
+            <FacialFile value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_008.fxe"/>
+        </AssetArray>
+        <AssetArray>
+            <File value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_009.ogg"/>
+            <FacialAnim value="zVO_TerranHellion_HellionSiege_009"/>
+            <FacialGroup value="zVO_TerranHellion_HellionSiege_009"/>
+            <FacialFile value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_009.fxe"/>
+        </AssetArray>
+        <AssetArray>
+            <File value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_010.ogg"/>
+            <FacialAnim value="zVO_TerranHellion_HellionSiege_010"/>
+            <FacialGroup value="zVO_TerranHellion_HellionSiege_010"/>
+            <FacialFile value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_010.fxe"/>
+        </AssetArray>
+    </CSound>
+    <CSound id="HellionTank_Yes2" parent="TerranAck">
+        <AssetArray>
+            <File value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_011.ogg"/>
+            <FacialAnim value="zVO_TerranHellion_HellionSiege_011"/>
+            <FacialGroup value="zVO_TerranHellion_HellionSiege_011"/>
+            <FacialFile value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_011.fxe"/>
+        </AssetArray>
+        <AssetArray>
+            <File value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_012.ogg"/>
+            <FacialAnim value="zVO_TerranHellion_HellionSiege_012"/>
+            <FacialGroup value="zVO_TerranHellion_HellionSiege_012"/>
+            <FacialFile value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_012.fxe"/>
+        </AssetArray>
+        <AssetArray>
+            <File value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_013.ogg"/>
+            <FacialAnim value="zVO_TerranHellion_HellionSiege_013"/>
+            <FacialGroup value="zVO_TerranHellion_HellionSiege_013"/>
+            <FacialFile value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_013.fxe"/>
+        </AssetArray>
+        <AssetArray>
+            <File value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_014.ogg"/>
+            <FacialAnim value="zVO_TerranHellion_HellionSiege_014"/>
+            <FacialGroup value="zVO_TerranHellion_HellionSiege_014"/>
+            <FacialFile value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_014.fxe"/>
+        </AssetArray>
+        <AssetArray>
+            <File value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_015.ogg"/>
+            <FacialAnim value="zVO_TerranHellion_HellionSiege_015"/>
+            <FacialGroup value="zVO_TerranHellion_HellionSiege_015"/>
+            <FacialFile value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_015.fxe"/>
+        </AssetArray>
+        <AssetArray>
+            <File value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_016.ogg"/>
+            <FacialAnim value="zVO_TerranHellion_HellionSiege_016"/>
+            <FacialGroup value="zVO_TerranHellion_HellionSiege_016"/>
+            <FacialFile value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_016.fxe"/>
+        </AssetArray>
+        <AssetArray>
+            <File value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_017.ogg"/>
+            <FacialAnim value="zVO_TerranHellion_HellionSiege_017"/>
+            <FacialGroup value="zVO_TerranHellion_HellionSiege_017"/>
+            <FacialFile value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_017.fxe"/>
+        </AssetArray>
+    </CSound>
+    <CSound id="HellionTank_Yes3" parent="TerranAck">
+        <AssetArray>
+            <File value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_011.ogg"/>
+            <FacialAnim value="zVO_TerranHellion_HellionSiege_011"/>
+            <FacialGroup value="zVO_TerranHellion_HellionSiege_011"/>
+            <FacialFile value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_011.fxe"/>
+        </AssetArray>
+        <AssetArray>
+            <File value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_012.ogg"/>
+            <FacialAnim value="zVO_TerranHellion_HellionSiege_012"/>
+            <FacialGroup value="zVO_TerranHellion_HellionSiege_012"/>
+            <FacialFile value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_012.fxe"/>
+        </AssetArray>
+        <AssetArray>
+            <File value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_013.ogg"/>
+            <FacialAnim value="zVO_TerranHellion_HellionSiege_013"/>
+            <FacialGroup value="zVO_TerranHellion_HellionSiege_013"/>
+            <FacialFile value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_013.fxe"/>
+        </AssetArray>
+        <AssetArray>
+            <File value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_014.ogg"/>
+            <FacialAnim value="zVO_TerranHellion_HellionSiege_014"/>
+            <FacialGroup value="zVO_TerranHellion_HellionSiege_014"/>
+            <FacialFile value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_014.fxe"/>
+        </AssetArray>
+        <AssetArray>
+            <File value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_015.ogg"/>
+            <FacialAnim value="zVO_TerranHellion_HellionSiege_015"/>
+            <FacialGroup value="zVO_TerranHellion_HellionSiege_015"/>
+            <FacialFile value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_015.fxe"/>
+        </AssetArray>
+        <AssetArray>
+            <File value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_016.ogg"/>
+            <FacialAnim value="zVO_TerranHellion_HellionSiege_016"/>
+            <FacialGroup value="zVO_TerranHellion_HellionSiege_016"/>
+            <FacialFile value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_016.fxe"/>
+        </AssetArray>
+        <AssetArray>
+            <File value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_017.ogg"/>
+            <FacialAnim value="zVO_TerranHellion_HellionSiege_017"/>
+            <FacialGroup value="zVO_TerranHellion_HellionSiege_017"/>
+            <FacialFile value="LocalizedData\Sounds\VO\zVO_TerranHellion_HellionSiege_017.fxe"/>
+        </AssetArray>
+    </CSound>
+    <CSound id="Hellion_Attack2" parent="TerranAck">
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\Hellion\Hellion_Attack00.ogg" FacialAnim="Hellion_Attack00"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\Hellion\Hellion_Attack01.ogg" FacialAnim="Hellion_Attack01"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\Hellion\Hellion_Attack02.ogg" FacialAnim="Hellion_Attack02"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\Hellion\Hellion_Attack03.ogg" FacialAnim="Hellion_Attack03"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\Hellion\Hellion_Attack04.ogg" FacialAnim="Hellion_Attack04"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\Hellion\Hellion_Attack05.ogg" FacialAnim="Hellion_Attack05"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\Hellion\Hellion_Attack06.ogg" FacialAnim="Hellion_Attack06"/>
+        <Volume value="-1.000000,-1.000000"/>
+    </CSound>
+    <CSound id="Hellion_AttackImpact2" parent="Combat">
+        <EditorCategories value="Race:Terran"/>
+        <AssetArray File="Assets\Sounds\Terran\Hellion\Hellion_AttackImpact0.wav"/>
+        <AssetArray File="Assets\Sounds\Terran\Hellion\Hellion_AttackImpact1.wav"/>
+        <AssetArray File="Assets\Sounds\Terran\Hellion\Hellion_AttackImpact2.wav"/>
+        <AssetArray File="Assets\Sounds\Terran\Hellion\Hellion_AttackImpact3.wav"/>
+        <AssetArray File="Assets\Sounds\Terran\Hellion\Hellion_AttackImpact4.wav"/>
+        <DupeDestroyCount value="8"/>
+        <DupeMaximumMethod value="Replace"/>
+        <Pitch value="1.640000,3.160000"/>
+        <Volume value="-3.100000,-1.940000"/>
+    </CSound>
+    <CSound id="Hellion_AttackImpact3" parent="Combat">
+        <EditorCategories value="Race:Terran"/>
+        <AssetArray File="Assets\Sounds\Terran\Hellion\Hellion_AttackImpact0.wav"/>
+        <AssetArray File="Assets\Sounds\Terran\Hellion\Hellion_AttackImpact1.wav"/>
+        <AssetArray File="Assets\Sounds\Terran\Hellion\Hellion_AttackImpact2.wav"/>
+        <AssetArray File="Assets\Sounds\Terran\Hellion\Hellion_AttackImpact3.wav"/>
+        <AssetArray File="Assets\Sounds\Terran\Hellion\Hellion_AttackImpact4.wav"/>
+        <DupeDestroyCount value="8"/>
+        <DupeMaximumMethod value="Replace"/>
+        <Pitch value="1.640000,3.160000"/>
+        <Volume value="-3.100000,-1.940000"/>
+    </CSound>
+    <CSound id="Hellion_AttackLaunch2" parent="Combat">
+        <EditorCategories value="Race:Terran"/>
+        <AssetArray File="Assets\Sounds\Terran\Hellion\Hellion_AttackLaunch0.wav"/>
+        <AssetArray File="Assets\Sounds\Terran\Hellion\Hellion_AttackLaunch1.wav"/>
+        <AssetArray File="Assets\Sounds\Terran\Hellion\Hellion_AttackLaunch2.wav"/>
+        <AssetArray File="Assets\Sounds\Terran\Hellion\Hellion_AttackLaunch3.wav"/>
+        <AssetArray File="Assets\Sounds\Terran\Hellion\Hellion_AttackLaunch4.wav"/>
+        <DupeDestroyCount value="8"/>
+        <DupeMaximumMethod value="Replace"/>
+        <DupeMuteCount value="7"/>
+        <DupeThresholdFadeTime value="50"/>
+        <Pitch value="1.640000,3.160000"/>
+        <Volume value="-6.000000,-5.000000"/>
+    </CSound>
+    <CSound id="Hellion_Explode2" parent="Combat">
+        <EditorCategories value="Race:Terran"/>
+        <AssetArray File="Assets\Sounds\Terran\SharedEffects\Explosions\Terran_ExplosionMedium0.wav" Pitch="-3.000000,3.000000"/>
+        <AssetArray File="Assets\Sounds\Terran\SharedEffects\Explosions\Terran_ExplosionMedium1.wav" Pitch="-3.000000,3.000000"/>
+        <AssetArray File="Assets\Sounds\Terran\SharedEffects\Explosions\Terran_ExplosionMedium2.wav" Pitch="-3.000000,3.000000"/>
+        <AssetArray File="Assets\Sounds\Terran\SharedEffects\Explosions\Terran_ExplosionMedium3.wav" Pitch="-3.000000,3.000000"/>
+        <AssetArray File="Assets\Sounds\Terran\SharedEffects\Explosions\Terran_ExplosionMedium4.wav" Pitch="-3.000000,3.000000"/>
+        <AssetArray File="Assets\Sounds\Terran\SharedEffects\Explosions\Terran_ExplosionMedium5.wav" Pitch="-3.000000,3.000000"/>
+        <AssetArray File="Assets\Sounds\Terran\SharedEffects\Explosions\Terran_ExplosionMedium6.wav" Pitch="-3.000000,3.000000"/>
+        <AssetArray File="Assets\Sounds\Terran\SharedEffects\Explosions\Terran_ExplosionMedium7.wav" Pitch="-3.000000,3.000000"/>
+        <AssetArray File="Assets\Sounds\Terran\SharedEffects\Explosions\Terran_ExplosionMedium8.wav" Pitch="-3.000000,3.000000"/>
+        <AssetArray File="Assets\Sounds\Terran\SharedEffects\Explosions\Terran_ExplosionMedium9.wav" Pitch="-3.000000,3.000000"/>
+        <DupeDestroyCount value="5"/>
+    </CSound>
+    <CSound id="Hellion_Explode3" parent="Combat">
+        <EditorCategories value="Race:Terran"/>
+        <AssetArray File="Assets\Sounds\Terran\SharedEffects\Explosions\Terran_ExplosionMedium0.wav" Pitch="-3.000000,3.000000"/>
+        <AssetArray File="Assets\Sounds\Terran\SharedEffects\Explosions\Terran_ExplosionMedium1.wav" Pitch="-3.000000,3.000000"/>
+        <AssetArray File="Assets\Sounds\Terran\SharedEffects\Explosions\Terran_ExplosionMedium2.wav" Pitch="-3.000000,3.000000"/>
+        <AssetArray File="Assets\Sounds\Terran\SharedEffects\Explosions\Terran_ExplosionMedium3.wav" Pitch="-3.000000,3.000000"/>
+        <AssetArray File="Assets\Sounds\Terran\SharedEffects\Explosions\Terran_ExplosionMedium4.wav" Pitch="-3.000000,3.000000"/>
+        <AssetArray File="Assets\Sounds\Terran\SharedEffects\Explosions\Terran_ExplosionMedium5.wav" Pitch="-3.000000,3.000000"/>
+        <AssetArray File="Assets\Sounds\Terran\SharedEffects\Explosions\Terran_ExplosionMedium6.wav" Pitch="-3.000000,3.000000"/>
+        <AssetArray File="Assets\Sounds\Terran\SharedEffects\Explosions\Terran_ExplosionMedium7.wav" Pitch="-3.000000,3.000000"/>
+        <AssetArray File="Assets\Sounds\Terran\SharedEffects\Explosions\Terran_ExplosionMedium8.wav" Pitch="-3.000000,3.000000"/>
+        <AssetArray File="Assets\Sounds\Terran\SharedEffects\Explosions\Terran_ExplosionMedium9.wav" Pitch="-3.000000,3.000000"/>
+        <DupeDestroyCount value="5"/>
+    </CSound>
+    <CSound id="Hellion_Explode4" parent="Combat">
+        <EditorCategories value="Race:Terran"/>
+        <AssetArray File="Assets\Sounds\Terran\SharedEffects\Explosions\Terran_ExplosionMedium0.wav" Pitch="-3.000000,3.000000"/>
+        <AssetArray File="Assets\Sounds\Terran\SharedEffects\Explosions\Terran_ExplosionMedium1.wav" Pitch="-3.000000,3.000000"/>
+        <AssetArray File="Assets\Sounds\Terran\SharedEffects\Explosions\Terran_ExplosionMedium2.wav" Pitch="-3.000000,3.000000"/>
+        <AssetArray File="Assets\Sounds\Terran\SharedEffects\Explosions\Terran_ExplosionMedium3.wav" Pitch="-3.000000,3.000000"/>
+        <AssetArray File="Assets\Sounds\Terran\SharedEffects\Explosions\Terran_ExplosionMedium4.wav" Pitch="-3.000000,3.000000"/>
+        <AssetArray File="Assets\Sounds\Terran\SharedEffects\Explosions\Terran_ExplosionMedium5.wav" Pitch="-3.000000,3.000000"/>
+        <AssetArray File="Assets\Sounds\Terran\SharedEffects\Explosions\Terran_ExplosionMedium6.wav" Pitch="-3.000000,3.000000"/>
+        <AssetArray File="Assets\Sounds\Terran\SharedEffects\Explosions\Terran_ExplosionMedium7.wav" Pitch="-3.000000,3.000000"/>
+        <AssetArray File="Assets\Sounds\Terran\SharedEffects\Explosions\Terran_ExplosionMedium8.wav" Pitch="-3.000000,3.000000"/>
+        <AssetArray File="Assets\Sounds\Terran\SharedEffects\Explosions\Terran_ExplosionMedium9.wav" Pitch="-3.000000,3.000000"/>
+        <DupeDestroyCount value="5"/>
+    </CSound>
+    <CSound id="Hellion_Help2" parent="Alert">
+        <EditorCategories value="Race:Terran"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\Hellion\Hellion_Help00.ogg" FacialAnim="Hellion_Help00"/>
+        <Mode value="3DWorld"/>
+        <Volume value="-1.000000,-1.000000"/>
+    </CSound>
+    <CSound id="Hellion_Movement2" parent="Movement">
+        <EditorCategories value="Race:Terran"/>
+        <AssetArray File="Assets\Sounds\Terran\Hellion\Hellion_Movement0.wav"/>
+        <AssetArray File="Assets\Sounds\Terran\Hellion\Hellion_Movement1.wav"/>
+        <AssetArray File="Assets\Sounds\Terran\Hellion\Hellion_Movement2.wav"/>
+        <AssetArray File="Assets\Sounds\Terran\Hellion\Hellion_Movement3.wav"/>
+        <AssetArray File="Assets\Sounds\Terran\Hellion\Hellion_Movement4.wav"/>
+        <AssetArray File="Assets\Sounds\Terran\Hellion\Hellion_Movement5.wav"/>
+        <DupeDestroyCount value="3"/>
+        <Pitch value="-1.000000,1.000000"/>
+        <Volume value="-9.000000,-9.000000"/>
+    </CSound>
+    <CSound id="Hellion_Pissed2" parent="TerranAck">
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\Hellion\Hellion_Pissed00.ogg" FacialAnim="Hellion_Pissed00"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\Hellion\Hellion_Pissed01.ogg" FacialAnim="Hellion_Pissed01"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\Hellion\Hellion_Pissed02.ogg" FacialAnim="Hellion_Pissed02"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\Hellion\Hellion_Pissed03.ogg" FacialAnim="Hellion_Pissed03"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\Hellion\Hellion_Pissed04.ogg" FacialAnim="Hellion_Pissed04"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\Hellion\Hellion_Pissed05.ogg" FacialAnim="Hellion_Pissed05"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\Hellion\Hellion_Pissed06.ogg" FacialAnim="Hellion_Pissed06"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\Hellion\Hellion_Pissed07.ogg" FacialAnim="Hellion_Pissed07"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\Hellion\Hellion_Pissed08.ogg" FacialAnim="Hellion_Pissed08"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\Hellion\Hellion_Pissed09.ogg" FacialAnim="Hellion_Pissed09"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\Hellion\Hellion_Pissed10.ogg" FacialAnim="Hellion_Pissed10"/>
+        <Flags index="Download" value="0"/>
+        <Select value="Sequential"/>
+        <Volume value="-1.000000,-1.000000"/>
+    </CSound>
+    <CSound id="Hellion_Ready2" parent="Ready">
+        <EditorCategories value="Race:Terran"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\Hellion\Hellion_Ready00.ogg" FacialAnim="Hellion_Ready00"/>
+        <Volume value="-1.000000,-1.000000"/>
+    </CSound>
+    <CSound id="Hellion_What2" parent="TerranAck">
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\Hellion\Hellion_What00.ogg" FacialAnim="Hellion_What00"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\Hellion\Hellion_What01.ogg" FacialAnim="Hellion_What01"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\Hellion\Hellion_What02.ogg" FacialAnim="Hellion_What02"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\Hellion\Hellion_What03.ogg" FacialAnim="Hellion_What03"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\Hellion\Hellion_What04.ogg" FacialAnim="Hellion_What04"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\Hellion\Hellion_What05.ogg" FacialAnim="Hellion_What05"/>
+        <Volume value="-1.000000,-1.000000"/>
+    </CSound>
+    <CSound id="Hellion_Yes2" parent="TerranAck">
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\Hellion\Hellion_Yes00.ogg" FacialAnim="Hellion_Yes00"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\Hellion\Hellion_Yes01.ogg" FacialAnim="Hellion_Yes01"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\Hellion\Hellion_Yes02.ogg" FacialAnim="Hellion_Yes02"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\Hellion\Hellion_Yes03.ogg" FacialAnim="Hellion_Yes03"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\Hellion\Hellion_Yes04.ogg" FacialAnim="Hellion_Yes04"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\Hellion\Hellion_Yes05.ogg" FacialAnim="Hellion_Yes05"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\Hellion\Hellion_Yes06.ogg" FacialAnim="Hellion_Yes06"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\Hellion\Hellion_Yes07.ogg" FacialAnim="Hellion_Yes07"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\Hellion\Hellion_Yes08.ogg" FacialAnim="Hellion_Yes08"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\Hellion\Hellion_Yes09.ogg" FacialAnim="Hellion_Yes09"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\Hellion\Hellion_Yes10.ogg" FacialAnim="Hellion_Yes10"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\Hellion\Hellion_Yes11.ogg" FacialAnim="Hellion_Yes11"/>
+        <Volume value="-1.000000,-1.000000"/>
+    </CSound>
     <CSound id="HunterKiller_Death2" parent="Death">
         <EditorCategories value="Race:Zerg"/>
         <AssetArray File="Assets\Sounds\Zerg\Hydralisk\Hydralisk_Death0.wav"/>
@@ -184,6 +791,32 @@
         <Volume value="-5.000000,-5.000000"/>
     </CSound>
     <CSound id="Legionnaire_NoVO3" parent="ProtossAck_Void">
+        <AssetArray TemplateParam="ZealotPurifier_Attack00"/>
+        <AssetArray TemplateParam="ZealotPurifier_Attack01"/>
+        <AssetArray TemplateParam="ZealotPurifier_Attack02"/>
+        <AssetArray TemplateParam="ZealotPurifier_Attack03"/>
+        <AssetArray TemplateParam="ZealotPurifier_Attack04"/>
+        <AssetArray TemplateParam="ZealotPurifier_Attack05"/>
+        <AssetArray TemplateParam="ZealotPurifier_Attack06"/>
+        <Flags index="NeedsUpdate" value="1"/>
+        <Flags index="NeedsTTS" value="1"/>
+        <Chance value="0"/>
+        <Volume value="-5.000000,-5.000000"/>
+    </CSound>
+    <CSound id="Legionnaire_NoVO4" parent="ProtossAck_Void">
+        <AssetArray TemplateParam="ZealotPurifier_Attack00"/>
+        <AssetArray TemplateParam="ZealotPurifier_Attack01"/>
+        <AssetArray TemplateParam="ZealotPurifier_Attack02"/>
+        <AssetArray TemplateParam="ZealotPurifier_Attack03"/>
+        <AssetArray TemplateParam="ZealotPurifier_Attack04"/>
+        <AssetArray TemplateParam="ZealotPurifier_Attack05"/>
+        <AssetArray TemplateParam="ZealotPurifier_Attack06"/>
+        <Flags index="NeedsUpdate" value="1"/>
+        <Flags index="NeedsTTS" value="1"/>
+        <Chance value="0"/>
+        <Volume value="-5.000000,-5.000000"/>
+    </CSound>
+    <CSound id="Legionnaire_NoVO5" parent="ProtossAck_Void">
         <AssetArray TemplateParam="ZealotPurifier_Attack00"/>
         <AssetArray TemplateParam="ZealotPurifier_Attack01"/>
         <AssetArray TemplateParam="ZealotPurifier_Attack02"/>
@@ -1691,6 +2324,18 @@
         <Pitch value="9.000000,9.000000"/>
         <Volume value="-6.180000,-6.180000"/>
     </CSound>
+    <CSound id="Protoss_BuildingPlacementSmall5" parent="UI">
+        <EditorCategories value="Race:Protoss"/>
+        <AssetArray File="Assets\Sounds\Protoss\SharedEffects\Construction\Protoss_BuildingPlacementSmall0.wav"/>
+        <Pitch value="9.000000,9.000000"/>
+        <Volume value="-6.180000,-6.180000"/>
+    </CSound>
+    <CSound id="Protoss_BuildingPlacementSmall6" parent="UI">
+        <EditorCategories value="Race:Protoss"/>
+        <AssetArray File="Assets\Sounds\Protoss\SharedEffects\Construction\Protoss_BuildingPlacementSmall0.wav"/>
+        <Pitch value="9.000000,9.000000"/>
+        <Volume value="-6.180000,-6.180000"/>
+    </CSound>
     <CSound id="Ravager_Attack2" parent="ZergAck">
         <AssetArray File="Assets\Sounds\Ravager_Vox_Attack01.ogg" FacialGroup=""/>
         <AssetArray File="Assets\Sounds\Ravager_Vox_Attack02.ogg" FacialGroup=""/>
@@ -2343,7 +2988,25 @@
         <Pitch value="-1.000000,1.000000"/>
         <Volume value="-1.000000,1.000000"/>
     </CSound>
+    <CSound id="SOA_GuardianShell_End32" parent="Ambience_Object">
+        <EditorCategories value="Race:Protoss"/>
+        <AssetArray File="Assets\Sounds\SOA_GuardianShell_End01_1ch.wav" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\SOA_GuardianShell_End02_1ch.wav" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\SOA_GuardianShell_End03_1ch.wav" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\SOA_GuardianShell_End04_1ch.wav" FacialGroup=""/>
+        <Pitch value="-1.000000,1.000000"/>
+        <Volume value="-1.000000,1.000000"/>
+    </CSound>
     <CSound id="SOA_GuardianShell_End4" parent="Ambience_Object">
+        <EditorCategories value="Race:Protoss"/>
+        <AssetArray File="Assets\Sounds\SOA_GuardianShell_End01_1ch.wav" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\SOA_GuardianShell_End02_1ch.wav" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\SOA_GuardianShell_End03_1ch.wav" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\SOA_GuardianShell_End04_1ch.wav" FacialGroup=""/>
+        <Pitch value="-1.000000,1.000000"/>
+        <Volume value="-1.000000,1.000000"/>
+    </CSound>
+    <CSound id="SOA_GuardianShell_End5" parent="Ambience_Object">
         <EditorCategories value="Race:Protoss"/>
         <AssetArray File="Assets\Sounds\SOA_GuardianShell_End01_1ch.wav" FacialGroup=""/>
         <AssetArray File="Assets\Sounds\SOA_GuardianShell_End02_1ch.wav" FacialGroup=""/>
@@ -2408,7 +3071,63 @@
         <OffsetFadeIn Time="500"/>
         <Volume value="-2.000000,-2.000000"/>
     </CSound>
+    <CSound id="SOA_GuardianShell_Loop32" parent="Ambience_Object">
+        <EditorCategories value="Race:Protoss"/>
+        <AssetArray>
+            <File value="Assets\Sounds\SOA_GuardianShell_Loop01_1ch.wav"/>
+            <LoopCount value="-1"/>
+            <Volume value="-1.000000,1.000000"/>
+            <FacialGroup value=""/>
+        </AssetArray>
+        <AssetArray>
+            <File value="Assets\Sounds\SOA_GuardianShell_Loop02_1ch.wav"/>
+            <LoopCount value="-1"/>
+            <Pitch value="-1.000000,1.000000"/>
+            <Volume value="-1.000000,1.000000"/>
+            <FacialGroup value=""/>
+        </AssetArray>
+        <AssetArray>
+            <File value="Assets\Sounds\SOA_GuardianShell_Loop03_1ch.wav"/>
+            <LoopCount value="-1"/>
+            <Pitch value="-1.000000,1.000000"/>
+            <Volume value="-1.000000,1.000000"/>
+            <FacialGroup value=""/>
+        </AssetArray>
+        <Flags index="Purgable" value="1"/>
+        <DupeMuteCount value="5"/>
+        <OffsetFadeIn Volume="-96.000000"/>
+        <OffsetFadeIn Time="500"/>
+        <Volume value="-2.000000,-2.000000"/>
+    </CSound>
     <CSound id="SOA_GuardianShell_Loop4" parent="Ambience_Object">
+        <EditorCategories value="Race:Protoss"/>
+        <AssetArray>
+            <File value="Assets\Sounds\SOA_GuardianShell_Loop01_1ch.wav"/>
+            <LoopCount value="-1"/>
+            <Volume value="-1.000000,1.000000"/>
+            <FacialGroup value=""/>
+        </AssetArray>
+        <AssetArray>
+            <File value="Assets\Sounds\SOA_GuardianShell_Loop02_1ch.wav"/>
+            <LoopCount value="-1"/>
+            <Pitch value="-1.000000,1.000000"/>
+            <Volume value="-1.000000,1.000000"/>
+            <FacialGroup value=""/>
+        </AssetArray>
+        <AssetArray>
+            <File value="Assets\Sounds\SOA_GuardianShell_Loop03_1ch.wav"/>
+            <LoopCount value="-1"/>
+            <Pitch value="-1.000000,1.000000"/>
+            <Volume value="-1.000000,1.000000"/>
+            <FacialGroup value=""/>
+        </AssetArray>
+        <Flags index="Purgable" value="1"/>
+        <DupeMuteCount value="5"/>
+        <OffsetFadeIn Volume="-96.000000"/>
+        <OffsetFadeIn Time="500"/>
+        <Volume value="-2.000000,-2.000000"/>
+    </CSound>
+    <CSound id="SOA_GuardianShell_Loop5" parent="Ambience_Object">
         <EditorCategories value="Race:Protoss"/>
         <AssetArray>
             <File value="Assets\Sounds\SOA_GuardianShell_Loop01_1ch.wav"/>
@@ -2456,7 +3175,27 @@
         <Pitch value="-1.000000,1.000000"/>
         <Volume value="2.000000,4.000000"/>
     </CSound>
+    <CSound id="SOA_GuardianShell_Start32" parent="Spell">
+        <EditorCategories value="Race:Protoss"/>
+        <AssetArray File="Assets\Sounds\SOA_GuardianShell_Start01_1ch.wav" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\SOA_GuardianShell_Start02_1ch.wav" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\SOA_GuardianShell_Start03_1ch.wav" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\SOA_GuardianShell_Start04_1ch.wav" FacialGroup=""/>
+        <Flags index="VariationFallback" value="0"/>
+        <Pitch value="-1.000000,1.000000"/>
+        <Volume value="2.000000,4.000000"/>
+    </CSound>
     <CSound id="SOA_GuardianShell_Start4" parent="Spell">
+        <EditorCategories value="Race:Protoss"/>
+        <AssetArray File="Assets\Sounds\SOA_GuardianShell_Start01_1ch.wav" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\SOA_GuardianShell_Start02_1ch.wav" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\SOA_GuardianShell_Start03_1ch.wav" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\SOA_GuardianShell_Start04_1ch.wav" FacialGroup=""/>
+        <Flags index="VariationFallback" value="0"/>
+        <Pitch value="-1.000000,1.000000"/>
+        <Volume value="2.000000,4.000000"/>
+    </CSound>
+    <CSound id="SOA_GuardianShell_Start5" parent="Spell">
         <EditorCategories value="Race:Protoss"/>
         <AssetArray File="Assets\Sounds\SOA_GuardianShell_Start01_1ch.wav" FacialGroup=""/>
         <AssetArray File="Assets\Sounds\SOA_GuardianShell_Start02_1ch.wav" FacialGroup=""/>
@@ -2471,6 +3210,14 @@
         <AssetArray File="Assets\Sounds\Protoss\Sentry\Sentry_HallucinationDeathSmall.wav"/>
     </CSound>
     <CSound id="Sentry_HallucinationDeathSmall3" parent="Spell">
+        <EditorCategories value="Race:Protoss"/>
+        <AssetArray File="Assets\Sounds\Protoss\Sentry\Sentry_HallucinationDeathSmall.wav"/>
+    </CSound>
+    <CSound id="Sentry_HallucinationDeathSmall4" parent="Spell">
+        <EditorCategories value="Race:Protoss"/>
+        <AssetArray File="Assets\Sounds\Protoss\Sentry\Sentry_HallucinationDeathSmall.wav"/>
+    </CSound>
+    <CSound id="Sentry_HallucinationDeathSmall5" parent="Spell">
         <EditorCategories value="Race:Protoss"/>
         <AssetArray File="Assets\Sounds\Protoss\Sentry\Sentry_HallucinationDeathSmall.wav"/>
     </CSound>
@@ -2496,6 +3243,27 @@
         <Volume value="-3.000000,-2.000000"/>
     </CSound>
     <CSound id="ShadowUnit_DeathFX11" parent="Combat">
+        <AssetArray File="Assets\Sounds\SpiritPlasmaA_01.wav" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\SpiritPlasmaA_02.wav" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\SpiritPlasmaA_03.wav" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\SpiritPlasmaA_04.wav" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\SpiritPlasmaA_05.wav" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\SpiritPlasmaA_06.wav" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\SpiritPlasmaA_07.wav" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\SpiritPlasmaA_08.wav" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\SpiritPlasmaA_09.wav" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\SpiritPlasmaA_10.wav" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\SpiritPlasmaA_11.wav" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\SpiritPlasmaA_12.wav" FacialGroup=""/>
+        <DupeMaximumMethod value="Replace"/>
+        <DupeMuteCount value="2"/>
+        <DupeThresholdPoints/>
+        <DupeThresholdPoints Count="3" Volume="-3.000000"/>
+        <DupePrioritization value="Oldest"/>
+        <Pitch value="-1.000000,1.000000"/>
+        <Volume value="-3.000000,-2.000000"/>
+    </CSound>
+    <CSound id="ShadowUnit_DeathFX12" parent="Combat">
         <AssetArray File="Assets\Sounds\SpiritPlasmaA_01.wav" FacialGroup=""/>
         <AssetArray File="Assets\Sounds\SpiritPlasmaA_02.wav" FacialGroup=""/>
         <AssetArray File="Assets\Sounds\SpiritPlasmaA_03.wav" FacialGroup=""/>
@@ -3277,6 +4045,30 @@
         <Flags index="NeedsTTS" value="1"/>
         <Volume value="-5.000000,-5.000000"/>
     </CSound>
+    <CSound id="ZealotPurifier_Attack4" parent="ProtossAck_Void">
+        <AssetArray TemplateParam="ZealotPurifier_Attack00"/>
+        <AssetArray TemplateParam="ZealotPurifier_Attack01"/>
+        <AssetArray TemplateParam="ZealotPurifier_Attack02"/>
+        <AssetArray TemplateParam="ZealotPurifier_Attack03"/>
+        <AssetArray TemplateParam="ZealotPurifier_Attack04"/>
+        <AssetArray TemplateParam="ZealotPurifier_Attack05"/>
+        <AssetArray TemplateParam="ZealotPurifier_Attack06"/>
+        <Flags index="NeedsUpdate" value="1"/>
+        <Flags index="NeedsTTS" value="1"/>
+        <Volume value="-5.000000,-5.000000"/>
+    </CSound>
+    <CSound id="ZealotPurifier_Attack5" parent="ProtossAck_Void">
+        <AssetArray TemplateParam="ZealotPurifier_Attack00"/>
+        <AssetArray TemplateParam="ZealotPurifier_Attack01"/>
+        <AssetArray TemplateParam="ZealotPurifier_Attack02"/>
+        <AssetArray TemplateParam="ZealotPurifier_Attack03"/>
+        <AssetArray TemplateParam="ZealotPurifier_Attack04"/>
+        <AssetArray TemplateParam="ZealotPurifier_Attack05"/>
+        <AssetArray TemplateParam="ZealotPurifier_Attack06"/>
+        <Flags index="NeedsUpdate" value="1"/>
+        <Flags index="NeedsTTS" value="1"/>
+        <Volume value="-5.000000,-5.000000"/>
+    </CSound>
     <CSound id="ZealotPurifier_Help2" parent="ProtossHelp">
         <AssetArray TemplateParam="ZealotPurifier_Help00"/>
         <Flags index="NeedsUpdate" value="1"/>
@@ -3284,6 +4076,18 @@
         <Volume value="-3.000000,-3.000000"/>
     </CSound>
     <CSound id="ZealotPurifier_Help3" parent="ProtossHelp">
+        <AssetArray TemplateParam="ZealotPurifier_Help00"/>
+        <Flags index="NeedsUpdate" value="1"/>
+        <Flags index="NeedsTTS" value="1"/>
+        <Volume value="-3.000000,-3.000000"/>
+    </CSound>
+    <CSound id="ZealotPurifier_Help4" parent="ProtossHelp">
+        <AssetArray TemplateParam="ZealotPurifier_Help00"/>
+        <Flags index="NeedsUpdate" value="1"/>
+        <Flags index="NeedsTTS" value="1"/>
+        <Volume value="-3.000000,-3.000000"/>
+    </CSound>
+    <CSound id="ZealotPurifier_Help5" parent="ProtossHelp">
         <AssetArray TemplateParam="ZealotPurifier_Help00"/>
         <Flags index="NeedsUpdate" value="1"/>
         <Flags index="NeedsTTS" value="1"/>
@@ -3315,6 +4119,32 @@
         <Exclusivity value="KaldalisAndLegionnaire_UnitDX_Exclusivity"/>
         <Volume value="-4.000000,-4.000000"/>
     </CSound>
+    <CSound id="ZealotPurifier_Pissed4" parent="ProtossPissed">
+        <AssetArray TemplateParam="ZealotPurifier_Pissed01"/>
+        <AssetArray TemplateParam="ZealotPurifier_Pissed02"/>
+        <AssetArray TemplateParam="ZealotPurifier_Pissed03"/>
+        <AssetArray TemplateParam="ZealotPurifier_Pissed04"/>
+        <AssetArray TemplateParam="ZealotPurifier_Pissed05"/>
+        <AssetArray TemplateParam="ZealotPurifier_Pissed06"/>
+        <AssetArray TemplateParam="ZealotPurifier_Pissed07"/>
+        <Flags index="NeedsUpdate" value="1"/>
+        <Flags index="NeedsTTS" value="1"/>
+        <Exclusivity value="KaldalisAndLegionnaire_UnitDX_Exclusivity"/>
+        <Volume value="-4.000000,-4.000000"/>
+    </CSound>
+    <CSound id="ZealotPurifier_Pissed5" parent="ProtossPissed">
+        <AssetArray TemplateParam="ZealotPurifier_Pissed01"/>
+        <AssetArray TemplateParam="ZealotPurifier_Pissed02"/>
+        <AssetArray TemplateParam="ZealotPurifier_Pissed03"/>
+        <AssetArray TemplateParam="ZealotPurifier_Pissed04"/>
+        <AssetArray TemplateParam="ZealotPurifier_Pissed05"/>
+        <AssetArray TemplateParam="ZealotPurifier_Pissed06"/>
+        <AssetArray TemplateParam="ZealotPurifier_Pissed07"/>
+        <Flags index="NeedsUpdate" value="1"/>
+        <Flags index="NeedsTTS" value="1"/>
+        <Exclusivity value="KaldalisAndLegionnaire_UnitDX_Exclusivity"/>
+        <Volume value="-4.000000,-4.000000"/>
+    </CSound>
     <CSound id="ZealotPurifier_Ready2" parent="ProtossReady">
         <AssetArray TemplateParam="ZealotPurifier_Ready00"/>
         <Flags index="NeedsUpdate" value="1"/>
@@ -3322,6 +4152,18 @@
         <Volume value="-1.000000,-1.000000"/>
     </CSound>
     <CSound id="ZealotPurifier_Ready3" parent="ProtossReady">
+        <AssetArray TemplateParam="ZealotPurifier_Ready00"/>
+        <Flags index="NeedsUpdate" value="1"/>
+        <Flags index="NeedsTTS" value="1"/>
+        <Volume value="-1.000000,-1.000000"/>
+    </CSound>
+    <CSound id="ZealotPurifier_Ready4" parent="ProtossReady">
+        <AssetArray TemplateParam="ZealotPurifier_Ready00"/>
+        <Flags index="NeedsUpdate" value="1"/>
+        <Flags index="NeedsTTS" value="1"/>
+        <Volume value="-1.000000,-1.000000"/>
+    </CSound>
+    <CSound id="ZealotPurifier_Ready5" parent="ProtossReady">
         <AssetArray TemplateParam="ZealotPurifier_Ready00"/>
         <Flags index="NeedsUpdate" value="1"/>
         <Flags index="NeedsTTS" value="1"/>
@@ -3353,6 +4195,32 @@
         <Exclusivity value="KaldalisAndLegionnaire_UnitDX_Exclusivity"/>
         <Volume value="-4.000000,-4.000000"/>
     </CSound>
+    <CSound id="ZealotPurifier_What4" parent="ProtossAck_Void">
+        <AssetArray TemplateParam="ZealotPurifier_What00"/>
+        <AssetArray TemplateParam="ZealotPurifier_What01"/>
+        <AssetArray TemplateParam="ZealotPurifier_What02"/>
+        <AssetArray TemplateParam="ZealotPurifier_What03"/>
+        <AssetArray TemplateParam="ZealotPurifier_What04"/>
+        <AssetArray TemplateParam="ZealotPurifier_What05"/>
+        <AssetArray TemplateParam="ZealotPurifier_What06"/>
+        <Flags index="NeedsUpdate" value="1"/>
+        <Flags index="NeedsTTS" value="1"/>
+        <Exclusivity value="KaldalisAndLegionnaire_UnitDX_Exclusivity"/>
+        <Volume value="-4.000000,-4.000000"/>
+    </CSound>
+    <CSound id="ZealotPurifier_What5" parent="ProtossAck_Void">
+        <AssetArray TemplateParam="ZealotPurifier_What00"/>
+        <AssetArray TemplateParam="ZealotPurifier_What01"/>
+        <AssetArray TemplateParam="ZealotPurifier_What02"/>
+        <AssetArray TemplateParam="ZealotPurifier_What03"/>
+        <AssetArray TemplateParam="ZealotPurifier_What04"/>
+        <AssetArray TemplateParam="ZealotPurifier_What05"/>
+        <AssetArray TemplateParam="ZealotPurifier_What06"/>
+        <Flags index="NeedsUpdate" value="1"/>
+        <Flags index="NeedsTTS" value="1"/>
+        <Exclusivity value="KaldalisAndLegionnaire_UnitDX_Exclusivity"/>
+        <Volume value="-4.000000,-4.000000"/>
+    </CSound>
     <CSound id="ZealotPurifier_Yes2" parent="ProtossAck_Void">
         <AssetArray TemplateParam="ZealotPurifier_Yes00"/>
         <AssetArray TemplateParam="ZealotPurifier_Yes01"/>
@@ -3365,6 +4233,28 @@
         <Volume value="-4.000000,-4.000000"/>
     </CSound>
     <CSound id="ZealotPurifier_Yes3" parent="ProtossAck_Void">
+        <AssetArray TemplateParam="ZealotPurifier_Yes00"/>
+        <AssetArray TemplateParam="ZealotPurifier_Yes01"/>
+        <AssetArray TemplateParam="ZealotPurifier_Yes02"/>
+        <AssetArray TemplateParam="ZealotPurifier_Yes03"/>
+        <AssetArray TemplateParam="ZealotPurifier_Yes04"/>
+        <AssetArray TemplateParam="ZealotPurifier_Yes05"/>
+        <Flags index="NeedsUpdate" value="1"/>
+        <Flags index="NeedsTTS" value="1"/>
+        <Volume value="-4.000000,-4.000000"/>
+    </CSound>
+    <CSound id="ZealotPurifier_Yes4" parent="ProtossAck_Void">
+        <AssetArray TemplateParam="ZealotPurifier_Yes00"/>
+        <AssetArray TemplateParam="ZealotPurifier_Yes01"/>
+        <AssetArray TemplateParam="ZealotPurifier_Yes02"/>
+        <AssetArray TemplateParam="ZealotPurifier_Yes03"/>
+        <AssetArray TemplateParam="ZealotPurifier_Yes04"/>
+        <AssetArray TemplateParam="ZealotPurifier_Yes05"/>
+        <Flags index="NeedsUpdate" value="1"/>
+        <Flags index="NeedsTTS" value="1"/>
+        <Volume value="-4.000000,-4.000000"/>
+    </CSound>
+    <CSound id="ZealotPurifier_Yes5" parent="ProtossAck_Void">
         <AssetArray TemplateParam="ZealotPurifier_Yes00"/>
         <AssetArray TemplateParam="ZealotPurifier_Yes01"/>
         <AssetArray TemplateParam="ZealotPurifier_Yes02"/>
@@ -3404,6 +4294,24 @@
         <Volume value="-3.000000,-3.000000"/>
     </CSound>
     <CSound id="Zealot_DeathFX4" parent="Combat">
+        <EditorCategories value="Race:Protoss"/>
+        <AssetArray File="Assets\Sounds\Protoss\SharedEffects\DeathFX\Protoss_DeathFX0.wav"/>
+        <AssetArray File="Assets\Sounds\Protoss\SharedEffects\DeathFX\Protoss_DeathFX1.wav"/>
+        <AssetArray File="Assets\Sounds\Protoss\SharedEffects\DeathFX\Protoss_DeathFX2.wav"/>
+        <DupeDestroyCount value="4"/>
+        <Pitch value="-1.000000,1.000000"/>
+        <Volume value="-3.000000,-3.000000"/>
+    </CSound>
+    <CSound id="Zealot_DeathFX5" parent="Combat">
+        <EditorCategories value="Race:Protoss"/>
+        <AssetArray File="Assets\Sounds\Protoss\SharedEffects\DeathFX\Protoss_DeathFX0.wav"/>
+        <AssetArray File="Assets\Sounds\Protoss\SharedEffects\DeathFX\Protoss_DeathFX1.wav"/>
+        <AssetArray File="Assets\Sounds\Protoss\SharedEffects\DeathFX\Protoss_DeathFX2.wav"/>
+        <DupeDestroyCount value="4"/>
+        <Pitch value="-1.000000,1.000000"/>
+        <Volume value="-3.000000,-3.000000"/>
+    </CSound>
+    <CSound id="Zealot_DeathFX6" parent="Combat">
         <EditorCategories value="Race:Protoss"/>
         <AssetArray File="Assets\Sounds\Protoss\SharedEffects\DeathFX\Protoss_DeathFX0.wav"/>
         <AssetArray File="Assets\Sounds\Protoss\SharedEffects\DeathFX\Protoss_DeathFX1.wav"/>

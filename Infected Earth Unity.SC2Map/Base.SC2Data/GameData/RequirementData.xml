@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Catalog>
+    <CRequirement id="HaveHHHellionAttackDoT2">
+        <NodeArray index="Use" Link="CountUpgradeHHHellionAttackDoTCompleteOnly2025306919"/>
+        <NodeArray index="Show" Link="AndGTECountUpgradeCommanderLevelCompleteOnly9Not1225867992CountBehaviorUnderConstructionCompleteOnlyAtUnit"/>
+    </CRequirement>
+    <CRequirement id="HaveHHHellionFearDeath2">
+        <NodeArray index="Use" Link="CountUpgradeHHHellionFearDeathCompleteOnly4136583223"/>
+    </CRequirement>
+    <CRequirement id="HaveHHSOBuff2">
+        <NodeArray index="Show" Link="CountUpgradeHHSOBuffCompleteOnly"/>
+    </CRequirement>
     <CRequirement id="HaveHotSGroovedSpines2">
         <EditorCategories value="Race:Zerg,TechType:Upgrade"/>
         <NodeArray index="Show" Link="CountUpgradeHotSGroovedSpinesCompleteOnly"/>

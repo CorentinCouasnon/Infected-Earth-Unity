@@ -82,6 +82,30 @@
             <YawPitchRoll value="MAX"/>
         </MotionPhases>
     </CMoverMissile>
+    <CMoverMissile id="AlarakSoulAbsorptionDummyAttackMissile5">
+        <MotionPhases>
+            <Driver value="Throw"/>
+            <Acceleration value="3200"/>
+            <MaxSpeed value="7"/>
+            <ArrivalTestType value="2D"/>
+            <BlendType value="Linear"/>
+            <Outro value="4,4.5"/>
+            <RotationActorType value="LookAtTarget"/>
+            <ThrowVector value="0,-1,0"/>
+            <ThrowBandYaw value="180,-180,14.9963,-14.9963"/>
+            <ThrowBandPitch value="90,4.9987"/>
+        </MotionPhases>
+        <MotionPhases>
+            <Driver value="Guidance"/>
+            <Acceleration value="3200"/>
+            <MaxSpeed value="10"/>
+            <TurnType value="Optimal"/>
+            <ArrivalTestType value="2D"/>
+            <BlendType value="Linear"/>
+            <RotationActorType value="LookAtTarget"/>
+            <YawPitchRoll value="MAX"/>
+        </MotionPhases>
+    </CMoverMissile>
     <CMoverMissile id="AlarakSoulStealDummyAttackMissile2">
         <MotionPhases>
             <Driver value="Throw"/>
@@ -131,6 +155,30 @@
         </MotionPhases>
     </CMoverMissile>
     <CMoverMissile id="AlarakSoulStealDummyAttackMissile4">
+        <MotionPhases>
+            <Driver value="Throw"/>
+            <Acceleration value="3200"/>
+            <MaxSpeed value="7"/>
+            <ArrivalTestType value="2D"/>
+            <BlendType value="Linear"/>
+            <Outro value="2,2.5"/>
+            <RotationActorType value="LookAtTarget"/>
+            <ThrowVector value="0,-1,0"/>
+            <ThrowBandYaw value="180,-180,14.9963,-14.9963"/>
+            <ThrowBandPitch value="90,4.9987,-360,-360"/>
+        </MotionPhases>
+        <MotionPhases>
+            <Driver value="Guidance"/>
+            <Acceleration value="3200"/>
+            <MaxSpeed value="10"/>
+            <TurnType value="Optimal"/>
+            <ArrivalTestType value="2D"/>
+            <BlendType value="Linear"/>
+            <RotationActorType value="LookAtTarget"/>
+            <YawPitchRoll value="MAX"/>
+        </MotionPhases>
+    </CMoverMissile>
+    <CMoverMissile id="AlarakSoulStealDummyAttackMissile5">
         <MotionPhases>
             <Driver value="Throw"/>
             <Acceleration value="3200"/>
@@ -214,6 +262,21 @@
             <Bits index="GroundNoSpawn" value="1"/>
         </PlacementArray>
     </CMoverAvoid>
+    <CMoverAvoid id="Ground17">
+        <PlacementArray index="Prevent">
+            <Bits index="GroundNoSpawn" value="1"/>
+        </PlacementArray>
+    </CMoverAvoid>
+    <CMoverAvoid id="Ground18">
+        <PlacementArray index="Prevent">
+            <Bits index="GroundNoSpawn" value="1"/>
+        </PlacementArray>
+    </CMoverAvoid>
+    <CMoverAvoid id="Ground19">
+        <PlacementArray index="Prevent">
+            <Bits index="GroundNoSpawn" value="1"/>
+        </PlacementArray>
+    </CMoverAvoid>
     <CMoverAvoid id="Ground2">
         <PlacementArray index="Prevent">
             <Bits index="GroundNoSpawn" value="1"/>
@@ -254,6 +317,20 @@
             <Bits index="GroundNoSpawn" value="1"/>
         </PlacementArray>
     </CMoverAvoid>
+    <CMoverMissile id="InfernalFlameThrowerCoopWeapon2">
+        <MotionPhases>
+            <Driver value="Guidance"/>
+            <Acceleration value="3200"/>
+            <MinSpeed value="16"/>
+            <MaxSpeed value="16"/>
+            <ClearanceAcceleration value="75"/>
+            <ActorTracking value="Actual"/>
+            <Outro value="-1"/>
+            <RotationLaunchActorType value="LaunchToTarget2D"/>
+            <YawPitchRoll value="719.2968"/>
+        </MotionPhases>
+        <MotionPhases YawPitchRoll="MAX"/>
+    </CMoverMissile>
     <CMoverMissile id="MissileDefault3">
         <MotionPhases>
             <Driver value="Guidance"/>
