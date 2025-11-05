@@ -592,6 +592,18 @@
             <Cooldown TimeUse="0.0625"/>
             <Button DefaultButtonFace="MovementSpeed"/>
         </InfoArray>
+        <InfoArray index="Research8" Upgrade="StimpackUpgrades">
+            <Resource index="Minerals" value="100"/>
+            <Display index="Minerals" value="1"/>
+            <Charge>
+                <CountMax value="15"/>
+                <CountStart value="15"/>
+                <CountUse value="1"/>
+                <Link value="RaynorStimpackUpgrade"/>
+            </Charge>
+            <Cooldown TimeUse="0.0625"/>
+            <Button DefaultButtonFace="StimpackUpgrade"/>
+        </InfoArray>
     </CAbilResearch>
     <CAbilEffectInstant id="Stimpack2">
         <AbilSetId value="Stimpack"/>

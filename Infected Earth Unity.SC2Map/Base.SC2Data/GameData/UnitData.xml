@@ -6,6 +6,7 @@
         <FlagArray index="Unclickable" value="0"/>
         <FlagArray index="Uncommandable" value="1"/>
         <FlagArray index="Unhighlightable" value="0"/>
+        <FlagArray index="Untooltipable" value="0"/>
         <FlagArray index="PreventReveal" value="1"/>
         <FlagArray index="PreventDefeat" value="1"/>
         <FlagArray index="PreventDestroy" value="1"/>
@@ -13,6 +14,7 @@
         <FlagArray index="Undetectable" value="1"/>
         <FlagArray index="KillCredit" value="0"/>
         <FlagArray index="NoPortraitTalk" value="0"/>
+        <FlagArray index="AICantAddToWave" value="1"/>
         <FlagArray index="ShowResources" value="0"/>
         <FlagArray index="ArmorDisabledWhileConstructing" value="0"/>
         <FlagArray index="Unstoppable" value="1"/>
@@ -1996,6 +1998,7 @@
             <LayoutButtons Face="Range" Type="AbilCmd" AbilCmd="RaynorUpgrades,Research4" Row="1" Column="3"/>
             <LayoutButtons Face="OpenFirstPanel" Type="CancelSubmenu" Row="2" Column="4"/>
             <LayoutButtons Face="MovementSpeed" Type="AbilCmd" AbilCmd="RaynorUpgrades,Research7" Row="1" Column="1"/>
+            <LayoutButtons Face="StimpackUpgrade" Type="AbilCmd" AbilCmd="StimpackDeRaynor,Execute" Row="0" Column="4"/>
         </CardLayouts>
         <Radius value="0.5"/>
         <CargoSize value="1"/>
@@ -4190,11 +4193,17 @@
         <FlagArray index="Movable" value="0"/>
         <FlagArray index="CreateVisible" value="0"/>
         <FlagArray index="Unclickable" value="0"/>
+        <FlagArray index="Uncommandable" value="1"/>
         <FlagArray index="Unhighlightable" value="0"/>
         <FlagArray index="Untooltipable" value="0"/>
+        <FlagArray index="PreventReveal" value="1"/>
+        <FlagArray index="PreventDefeat" value="1"/>
+        <FlagArray index="PreventDestroy" value="1"/>
+        <FlagArray index="Uncloakable" value="1"/>
         <FlagArray index="Undetectable" value="1"/>
         <FlagArray index="KillCredit" value="0"/>
         <FlagArray index="NoPortraitTalk" value="0"/>
+        <FlagArray index="AICantAddToWave" value="1"/>
         <FlagArray index="ShowResources" value="0"/>
         <FlagArray index="ArmorDisabledWhileConstructing" value="0"/>
         <FlagArray index="Unstoppable" value="1"/>
@@ -4206,11 +4215,17 @@
         <FlagArray index="Movable" value="0"/>
         <FlagArray index="CreateVisible" value="0"/>
         <FlagArray index="Unclickable" value="0"/>
+        <FlagArray index="Uncommandable" value="1"/>
         <FlagArray index="Unhighlightable" value="0"/>
         <FlagArray index="Untooltipable" value="0"/>
+        <FlagArray index="PreventReveal" value="1"/>
+        <FlagArray index="PreventDefeat" value="1"/>
+        <FlagArray index="PreventDestroy" value="1"/>
+        <FlagArray index="Uncloakable" value="1"/>
         <FlagArray index="Undetectable" value="1"/>
         <FlagArray index="KillCredit" value="0"/>
         <FlagArray index="NoPortraitTalk" value="0"/>
+        <FlagArray index="AICantAddToWave" value="1"/>
         <FlagArray index="ShowResources" value="0"/>
         <FlagArray index="ArmorDisabledWhileConstructing" value="0"/>
         <FlagArray index="Unstoppable" value="1"/>
@@ -4222,11 +4237,17 @@
         <FlagArray index="Movable" value="0"/>
         <FlagArray index="CreateVisible" value="0"/>
         <FlagArray index="Unclickable" value="0"/>
+        <FlagArray index="Uncommandable" value="1"/>
         <FlagArray index="Unhighlightable" value="0"/>
         <FlagArray index="Untooltipable" value="0"/>
+        <FlagArray index="PreventReveal" value="1"/>
+        <FlagArray index="PreventDefeat" value="1"/>
+        <FlagArray index="PreventDestroy" value="1"/>
+        <FlagArray index="Uncloakable" value="1"/>
         <FlagArray index="Undetectable" value="1"/>
         <FlagArray index="KillCredit" value="0"/>
         <FlagArray index="NoPortraitTalk" value="0"/>
+        <FlagArray index="AICantAddToWave" value="1"/>
         <FlagArray index="ShowResources" value="0"/>
         <FlagArray index="ArmorDisabledWhileConstructing" value="0"/>
         <FlagArray index="Unstoppable" value="1"/>
@@ -4238,11 +4259,17 @@
         <FlagArray index="Movable" value="0"/>
         <FlagArray index="CreateVisible" value="0"/>
         <FlagArray index="Unclickable" value="0"/>
+        <FlagArray index="Uncommandable" value="1"/>
         <FlagArray index="Unhighlightable" value="0"/>
         <FlagArray index="Untooltipable" value="0"/>
+        <FlagArray index="PreventReveal" value="1"/>
+        <FlagArray index="PreventDefeat" value="1"/>
+        <FlagArray index="PreventDestroy" value="1"/>
+        <FlagArray index="Uncloakable" value="1"/>
         <FlagArray index="Undetectable" value="1"/>
         <FlagArray index="KillCredit" value="0"/>
         <FlagArray index="NoPortraitTalk" value="0"/>
+        <FlagArray index="AICantAddToWave" value="1"/>
         <FlagArray index="ShowResources" value="0"/>
         <FlagArray index="ArmorDisabledWhileConstructing" value="0"/>
         <FlagArray index="Unstoppable" value="1"/>
@@ -4254,11 +4281,17 @@
         <FlagArray index="Movable" value="0"/>
         <FlagArray index="CreateVisible" value="0"/>
         <FlagArray index="Unclickable" value="0"/>
+        <FlagArray index="Uncommandable" value="1"/>
         <FlagArray index="Unhighlightable" value="0"/>
         <FlagArray index="Untooltipable" value="0"/>
+        <FlagArray index="PreventReveal" value="1"/>
+        <FlagArray index="PreventDefeat" value="1"/>
+        <FlagArray index="PreventDestroy" value="1"/>
+        <FlagArray index="Uncloakable" value="1"/>
         <FlagArray index="Undetectable" value="1"/>
         <FlagArray index="KillCredit" value="0"/>
         <FlagArray index="NoPortraitTalk" value="0"/>
+        <FlagArray index="AICantAddToWave" value="1"/>
         <FlagArray index="ShowResources" value="0"/>
         <FlagArray index="ArmorDisabledWhileConstructing" value="0"/>
         <FlagArray index="Unstoppable" value="1"/>
@@ -4270,11 +4303,17 @@
         <FlagArray index="Movable" value="0"/>
         <FlagArray index="CreateVisible" value="0"/>
         <FlagArray index="Unclickable" value="0"/>
+        <FlagArray index="Uncommandable" value="1"/>
         <FlagArray index="Unhighlightable" value="0"/>
         <FlagArray index="Untooltipable" value="0"/>
+        <FlagArray index="PreventReveal" value="1"/>
+        <FlagArray index="PreventDefeat" value="1"/>
+        <FlagArray index="PreventDestroy" value="1"/>
+        <FlagArray index="Uncloakable" value="1"/>
         <FlagArray index="Undetectable" value="1"/>
         <FlagArray index="KillCredit" value="0"/>
         <FlagArray index="NoPortraitTalk" value="0"/>
+        <FlagArray index="AICantAddToWave" value="1"/>
         <FlagArray index="ShowResources" value="0"/>
         <FlagArray index="ArmorDisabledWhileConstructing" value="0"/>
         <FlagArray index="Unstoppable" value="1"/>
@@ -4288,11 +4327,17 @@
         <FlagArray index="Movable" value="0"/>
         <FlagArray index="CreateVisible" value="0"/>
         <FlagArray index="Unclickable" value="0"/>
+        <FlagArray index="Uncommandable" value="1"/>
         <FlagArray index="Unhighlightable" value="0"/>
         <FlagArray index="Untooltipable" value="0"/>
+        <FlagArray index="PreventReveal" value="1"/>
+        <FlagArray index="PreventDefeat" value="1"/>
+        <FlagArray index="PreventDestroy" value="1"/>
+        <FlagArray index="Uncloakable" value="1"/>
         <FlagArray index="Undetectable" value="1"/>
         <FlagArray index="KillCredit" value="0"/>
         <FlagArray index="NoPortraitTalk" value="0"/>
+        <FlagArray index="AICantAddToWave" value="1"/>
         <FlagArray index="ShowResources" value="0"/>
         <FlagArray index="ArmorDisabledWhileConstructing" value="0"/>
         <FlagArray index="Unstoppable" value="1"/>
@@ -4312,11 +4357,17 @@
         <FlagArray index="Movable" value="0"/>
         <FlagArray index="CreateVisible" value="0"/>
         <FlagArray index="Unclickable" value="0"/>
+        <FlagArray index="Uncommandable" value="1"/>
         <FlagArray index="Unhighlightable" value="0"/>
         <FlagArray index="Untooltipable" value="0"/>
+        <FlagArray index="PreventReveal" value="1"/>
+        <FlagArray index="PreventDefeat" value="1"/>
+        <FlagArray index="PreventDestroy" value="1"/>
+        <FlagArray index="Uncloakable" value="1"/>
         <FlagArray index="Undetectable" value="1"/>
         <FlagArray index="KillCredit" value="0"/>
         <FlagArray index="NoPortraitTalk" value="0"/>
+        <FlagArray index="AICantAddToWave" value="1"/>
         <FlagArray index="ShowResources" value="0"/>
         <FlagArray index="ArmorDisabledWhileConstructing" value="0"/>
         <FlagArray index="Unstoppable" value="1"/>
@@ -4333,11 +4384,17 @@
         <FlagArray index="Movable" value="0"/>
         <FlagArray index="CreateVisible" value="0"/>
         <FlagArray index="Unclickable" value="0"/>
+        <FlagArray index="Uncommandable" value="1"/>
         <FlagArray index="Unhighlightable" value="0"/>
         <FlagArray index="Untooltipable" value="0"/>
+        <FlagArray index="PreventReveal" value="1"/>
+        <FlagArray index="PreventDefeat" value="1"/>
+        <FlagArray index="PreventDestroy" value="1"/>
+        <FlagArray index="Uncloakable" value="1"/>
         <FlagArray index="Undetectable" value="1"/>
         <FlagArray index="KillCredit" value="0"/>
         <FlagArray index="NoPortraitTalk" value="0"/>
+        <FlagArray index="AICantAddToWave" value="1"/>
         <FlagArray index="ShowResources" value="0"/>
         <FlagArray index="ArmorDisabledWhileConstructing" value="0"/>
         <FlagArray index="Unstoppable" value="1"/>
@@ -4349,11 +4406,17 @@
         <FlagArray index="Movable" value="0"/>
         <FlagArray index="CreateVisible" value="0"/>
         <FlagArray index="Unclickable" value="0"/>
+        <FlagArray index="Uncommandable" value="1"/>
         <FlagArray index="Unhighlightable" value="0"/>
         <FlagArray index="Untooltipable" value="0"/>
+        <FlagArray index="PreventReveal" value="1"/>
+        <FlagArray index="PreventDefeat" value="1"/>
+        <FlagArray index="PreventDestroy" value="1"/>
+        <FlagArray index="Uncloakable" value="1"/>
         <FlagArray index="Undetectable" value="1"/>
         <FlagArray index="KillCredit" value="0"/>
         <FlagArray index="NoPortraitTalk" value="0"/>
+        <FlagArray index="AICantAddToWave" value="1"/>
         <FlagArray index="ShowResources" value="0"/>
         <FlagArray index="ArmorDisabledWhileConstructing" value="0"/>
         <FlagArray index="Unstoppable" value="1"/>
@@ -4365,11 +4428,17 @@
         <FlagArray index="Movable" value="0"/>
         <FlagArray index="CreateVisible" value="0"/>
         <FlagArray index="Unclickable" value="0"/>
+        <FlagArray index="Uncommandable" value="1"/>
         <FlagArray index="Unhighlightable" value="0"/>
         <FlagArray index="Untooltipable" value="0"/>
+        <FlagArray index="PreventReveal" value="1"/>
+        <FlagArray index="PreventDefeat" value="1"/>
+        <FlagArray index="PreventDestroy" value="1"/>
+        <FlagArray index="Uncloakable" value="1"/>
         <FlagArray index="Undetectable" value="1"/>
         <FlagArray index="KillCredit" value="0"/>
         <FlagArray index="NoPortraitTalk" value="0"/>
+        <FlagArray index="AICantAddToWave" value="1"/>
         <FlagArray index="ShowResources" value="0"/>
         <FlagArray index="ArmorDisabledWhileConstructing" value="0"/>
         <FlagArray index="Unstoppable" value="1"/>
@@ -4381,11 +4450,17 @@
         <FlagArray index="Movable" value="0"/>
         <FlagArray index="CreateVisible" value="0"/>
         <FlagArray index="Unclickable" value="0"/>
+        <FlagArray index="Uncommandable" value="1"/>
         <FlagArray index="Unhighlightable" value="0"/>
         <FlagArray index="Untooltipable" value="0"/>
+        <FlagArray index="PreventReveal" value="1"/>
+        <FlagArray index="PreventDefeat" value="1"/>
+        <FlagArray index="PreventDestroy" value="1"/>
+        <FlagArray index="Uncloakable" value="1"/>
         <FlagArray index="Undetectable" value="1"/>
         <FlagArray index="KillCredit" value="0"/>
         <FlagArray index="NoPortraitTalk" value="0"/>
+        <FlagArray index="AICantAddToWave" value="1"/>
         <FlagArray index="ShowResources" value="0"/>
         <FlagArray index="ArmorDisabledWhileConstructing" value="0"/>
         <FlagArray index="Unstoppable" value="1"/>
@@ -4397,11 +4472,17 @@
         <FlagArray index="Movable" value="0"/>
         <FlagArray index="CreateVisible" value="0"/>
         <FlagArray index="Unclickable" value="0"/>
+        <FlagArray index="Uncommandable" value="1"/>
         <FlagArray index="Unhighlightable" value="0"/>
         <FlagArray index="Untooltipable" value="0"/>
+        <FlagArray index="PreventReveal" value="1"/>
+        <FlagArray index="PreventDefeat" value="1"/>
+        <FlagArray index="PreventDestroy" value="1"/>
+        <FlagArray index="Uncloakable" value="1"/>
         <FlagArray index="Undetectable" value="1"/>
         <FlagArray index="KillCredit" value="0"/>
         <FlagArray index="NoPortraitTalk" value="0"/>
+        <FlagArray index="AICantAddToWave" value="1"/>
         <FlagArray index="ShowResources" value="0"/>
         <FlagArray index="ArmorDisabledWhileConstructing" value="0"/>
         <FlagArray index="Unstoppable" value="1"/>
@@ -4413,11 +4494,17 @@
         <FlagArray index="Movable" value="0"/>
         <FlagArray index="CreateVisible" value="0"/>
         <FlagArray index="Unclickable" value="0"/>
+        <FlagArray index="Uncommandable" value="1"/>
         <FlagArray index="Unhighlightable" value="0"/>
         <FlagArray index="Untooltipable" value="0"/>
+        <FlagArray index="PreventReveal" value="1"/>
+        <FlagArray index="PreventDefeat" value="1"/>
+        <FlagArray index="PreventDestroy" value="1"/>
+        <FlagArray index="Uncloakable" value="1"/>
         <FlagArray index="Undetectable" value="1"/>
         <FlagArray index="KillCredit" value="0"/>
         <FlagArray index="NoPortraitTalk" value="0"/>
+        <FlagArray index="AICantAddToWave" value="1"/>
         <FlagArray index="ShowResources" value="0"/>
         <FlagArray index="ArmorDisabledWhileConstructing" value="0"/>
         <FlagArray index="Unstoppable" value="1"/>
@@ -4429,11 +4516,17 @@
         <FlagArray index="Movable" value="0"/>
         <FlagArray index="CreateVisible" value="0"/>
         <FlagArray index="Unclickable" value="0"/>
+        <FlagArray index="Uncommandable" value="1"/>
         <FlagArray index="Unhighlightable" value="0"/>
         <FlagArray index="Untooltipable" value="0"/>
+        <FlagArray index="PreventReveal" value="1"/>
+        <FlagArray index="PreventDefeat" value="1"/>
+        <FlagArray index="PreventDestroy" value="1"/>
+        <FlagArray index="Uncloakable" value="1"/>
         <FlagArray index="Undetectable" value="1"/>
         <FlagArray index="KillCredit" value="0"/>
         <FlagArray index="NoPortraitTalk" value="0"/>
+        <FlagArray index="AICantAddToWave" value="1"/>
         <FlagArray index="ShowResources" value="0"/>
         <FlagArray index="ArmorDisabledWhileConstructing" value="0"/>
         <FlagArray index="Unstoppable" value="1"/>

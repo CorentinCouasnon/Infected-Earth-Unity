@@ -114,6 +114,7 @@ Button/Hotkey/Stim5=T
 Button/Hotkey/Stim6=T
 Button/Hotkey/Stim7=T
 Button/Hotkey/Stim72=T
+Button/Hotkey/StimpackUpgrade=W
 Button/Hotkey/Stop10=S
 Button/Hotkey/Stop11=S
 Button/Hotkey/Stop12=S

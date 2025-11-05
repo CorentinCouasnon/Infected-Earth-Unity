@@ -5592,6 +5592,11 @@
         <AffectedUnitArray value="Marauder"/>
         <LeaderAlias value=""/>
     </CUpgrade>
+    <CUpgrade id="StimpackUpgrades">
+        <EffectArray Reference="Abil,StimpackDeRaynor,Cost[0].Resource[Minerals]" Value="50"/>
+        <EffectArray Reference="Behavior,StimpackDeRaynor,Modification.MoveSpeedBonus" Value="0.332000"/>
+        <MaxLevel value="20"/>
+    </CUpgrade>
     <CUpgrade id="SwannCommander2">
         <Flags index="UpgradeCheat" value="0"/>
         <EffectArray Reference="Unit,HellionTank,LifeMax" Value="100"/>

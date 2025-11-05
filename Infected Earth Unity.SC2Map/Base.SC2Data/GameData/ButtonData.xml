@@ -918,6 +918,9 @@
         <EditorCategories value="Race:Terran"/>
         <Universal value="1"/>
     </CButton>
+    <CButton id="StimpackUpgrade">
+        <Icon value="Assets\Textures\btn-ability-terran-stimpack-color.dds"/>
+    </CButton>
     <CButton id="Stop10">
         <Icon value="Assets\Textures\btn-command-stop.dds"/>
         <AlertIcon value="Assets\Textures\btn-command-stop.dds"/>

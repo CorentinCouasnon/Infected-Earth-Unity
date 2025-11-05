@@ -619,7 +619,7 @@
         <InfoIcon value="Assets\Textures\btn-ability-terran-stimpack.dds"/>
         <EditorCategories value="Race:Terran,AbilityorEffectType:Units"/>
         <Duration value="10"/>
-        <Modification MoveSpeedMultiplier="1.5" AttackSpeedMultiplier="2"/>
+        <Modification MoveSpeedBonus="2" MoveSpeedMultiplier="0.01" AttackSpeedMultiplier="2"/>
     </CBehaviorBuff>
     <CBehaviorBuff id="SwannCommanderMechWreckageBurning2">
         <Alignment value="Negative"/>

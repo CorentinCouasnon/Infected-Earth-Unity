@@ -357,6 +357,7 @@ Button/Name/Stim5=Stimpack
 Button/Name/Stim6=Stimpack
 Button/Name/Stim7=Stimpack
 Button/Name/Stim72=Stimpack
+Button/Name/StimpackUpgrade=StimpackUpgrade
 Button/Name/Stop10=Stop
 Button/Name/Stop11=Stop
 Button/Name/Stop12=Stop
@@ -562,6 +563,7 @@ Button/Tooltip/Stim5=Injects the unit with powerful stimulants that greatly incr
 Button/Tooltip/Stim6=Injects the unit with powerful stimulants that greatly increase attack and movement speeds for <d ref="Behavior,Stimpack,Duration" precision="1"/> seconds. Injures the unit for <d ref="Abil,Stimpack,Cost[0].Vital[Life]"/> of the unit's life.
 Button/Tooltip/Stim7=Injects the unit with powerful stimulants that greatly increase attack and movement speeds for <d ref="Behavior,Stimpack,Duration" precision="1"/> seconds. Injures the unit for <d ref="Abil,Stimpack,Cost[0].Vital[Life]"/> of the unit's life.
 Button/Tooltip/Stim72=Injects the unit with powerful stimulants that greatly increase attack and movement speeds for <d ref="Behavior,Stimpack,Duration" precision="1"/> seconds. Injures the unit for <d ref="Abil,Stimpack,Cost[0].Vital[Life]"/> of the unit's life.
+Button/Tooltip/StimpackUpgrade=Add 0.3 movement speed for the Stimpack for each upgrade
 Button/Tooltip/Stop10=Orders selected units to cancel all orders and stop moving.
 Button/Tooltip/Stop11=Orders selected units to cancel all orders and stop moving.
 Button/Tooltip/Stop12=Orders selected units to cancel all orders and stop moving.
@@ -1099,6 +1101,7 @@ Upgrade/Name/StimDamageUpgrade2=Stim Damage Upgrade
 Upgrade/Name/StimDamageUpgrade22=Stim Damage Upgrade
 Upgrade/Name/StimDamageUpgrade3=Stim Damage Upgrade
 Upgrade/Name/Stimpack2=Stimpack
+Upgrade/Name/StimpackUpgrades=StimpackUpgrades
 Upgrade/Name/SwannCommander2=Swann
 Upgrade/Name/SwannCommanderVehicleAttackSpeed2=Swann Commander Vehicle Attack Speed
 Upgrade/Name/SwannCommanderVehicleHealth2=Swann Commander Vehicle Health
