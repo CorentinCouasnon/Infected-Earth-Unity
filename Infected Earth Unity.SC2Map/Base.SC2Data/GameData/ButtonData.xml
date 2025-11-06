@@ -3,9 +3,21 @@
     <CButton id="AS">
         <Icon value="Assets\Textures\btn-ability-terran-bombardmentstrike-color.dds"/>
     </CButton>
+    <CButton id="AcquireMove2">
+        <Icon value="Assets\Textures\btn-command-attack.dds"/>
+        <AlertIcon value="Assets\Textures\btn-command-attack.dds"/>
+        <EditorCategories value="Race:Neutral"/>
+        <TintRacially value="1"/>
+        <HotkeyAlias value="Attack"/>
+    </CButton>
     <CButton id="AncillaryCarapaceHydralisk2">
         <Icon value="Assets\Textures\btn-upgrade-zerg-ancillaryarmor.dds"/>
         <EditorCategories value="Race:Zerg"/>
+    </CButton>
+    <CButton id="AresClassWeaponsSystemviking2">
+        <Icon value="Assets\Textures\BTN-Upgrade-Raynor-PhobosClassWeaponsSystem.dds"/>
+        <AlertIcon value="Assets\Textures\BTN-Upgrade-Raynor-PhobosClassWeaponsSystem.dds"/>
+        <EditorCategories value="Race:Terran"/>
     </CButton>
     <CButton id="Attack10">
         <Icon value="Assets\Textures\btn-command-attack.dds"/>
@@ -118,6 +130,46 @@
         <TintRacially value="1"/>
         <Universal value="1"/>
         <SimpleDisplayText value="SimpleDisplay/Attack21"/>
+    </CButton>
+    <CButton id="Attack22">
+        <Icon value="Assets\Textures\btn-command-attack.dds"/>
+        <AlertIcon value="Assets\Textures\btn-command-attack.dds"/>
+        <EditorCategories value="Race:Neutral"/>
+        <TintRacially value="1"/>
+        <Universal value="1"/>
+        <SimpleDisplayText value="SimpleDisplay/Attack22"/>
+    </CButton>
+    <CButton id="Attack23">
+        <Icon value="Assets\Textures\btn-command-attack.dds"/>
+        <AlertIcon value="Assets\Textures\btn-command-attack.dds"/>
+        <EditorCategories value="Race:Neutral"/>
+        <TintRacially value="1"/>
+        <Universal value="1"/>
+        <SimpleDisplayText value="SimpleDisplay/Attack23"/>
+    </CButton>
+    <CButton id="Attack24">
+        <Icon value="Assets\Textures\btn-command-attack.dds"/>
+        <AlertIcon value="Assets\Textures\btn-command-attack.dds"/>
+        <EditorCategories value="Race:Neutral"/>
+        <TintRacially value="1"/>
+        <Universal value="1"/>
+        <SimpleDisplayText value="SimpleDisplay/Attack24"/>
+    </CButton>
+    <CButton id="Attack25">
+        <Icon value="Assets\Textures\btn-command-attack.dds"/>
+        <AlertIcon value="Assets\Textures\btn-command-attack.dds"/>
+        <EditorCategories value="Race:Neutral"/>
+        <TintRacially value="1"/>
+        <Universal value="1"/>
+        <SimpleDisplayText value="SimpleDisplay/Attack25"/>
+    </CButton>
+    <CButton id="Attack26">
+        <Icon value="Assets\Textures\btn-command-attack.dds"/>
+        <AlertIcon value="Assets\Textures\btn-command-attack.dds"/>
+        <EditorCategories value="Race:Neutral"/>
+        <TintRacially value="1"/>
+        <Universal value="1"/>
+        <SimpleDisplayText value="SimpleDisplay/Attack26"/>
     </CButton>
     <CButton id="Attack3">
         <Icon value="Assets\Textures\btn-command-attack.dds"/>
@@ -243,7 +295,28 @@
         <AlertIcon value="Assets\Textures\btn-upgrade-terran-reapercombatdrugs.dds"/>
         <EditorCategories value="Race:Terran"/>
     </CButton>
+    <CButton id="CombatDrugs4">
+        <Icon value="Assets\Textures\btn-upgrade-terran-reapercombatdrugs.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-terran-reapercombatdrugs.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="CycloneLockOnAir2">
+        <Icon value="Assets\Textures\btn-ability-terran-surfacetoairtargeting.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-terran-surfacetoairtargeting.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="CycloneLockOnAir3">
+        <Icon value="Assets\Textures\btn-ability-terran-surfacetoairtargeting.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-terran-surfacetoairtargeting.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
     <CButton id="D8Charge2">
+        <Icon value="Assets\Textures\BTN-Ability-Terran-D8Charge.dds"/>
+        <AlertIcon value="Assets\Textures\BTN-Ability-Terran-D8Charge.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <TintRacially value="1"/>
+    </CButton>
+    <CButton id="D8Charge3">
         <Icon value="Assets\Textures\BTN-Ability-Terran-D8Charge.dds"/>
         <AlertIcon value="Assets\Textures\BTN-Ability-Terran-D8Charge.dds"/>
         <EditorCategories value="Race:Terran"/>
@@ -254,6 +327,13 @@
         <Icon value="Assets\Textures\btn-ability-zerg-explode-color.dds"/>
         <AlertIcon value="Assets\Textures\btn-ability-zerg-explode-color.dds"/>
         <EditorCategories value="Race:Zerg"/>
+    </CButton>
+    <CButton id="FighterMode2">
+        <Icon value="Assets\Textures\btn-unit-terran-vikingfighter.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-terran-vikingfighter.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <HotkeySet value="VikingModes"/>
+        <Universal value="1"/>
     </CButton>
     <CButton id="GroovedSpines2">
         <Icon value="Assets\Textures\btn-upgrade-zerg-hotsgroovedspines.dds"/>
@@ -333,6 +413,37 @@
         <Icon value="Assets\Textures\BTN-Ability-Terran-JetPack-color.dds"/>
         <AlertIcon value="Assets\Textures\BTN-Ability-Terran-JetPack-color.dds"/>
         <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="JetPack4">
+        <Icon value="Assets\Textures\BTN-Ability-Terran-JetPack-color.dds"/>
+        <AlertIcon value="Assets\Textures\BTN-Ability-Terran-JetPack-color.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="LockOn2">
+        <Icon value="Assets\Textures\btn-ability-terran-lockon.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-terran-lockon.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="LockOn3">
+        <Icon value="Assets\Textures\btn-ability-terran-lockon.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-terran-lockon.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="LockOnCancel2">
+        <Icon value="Assets\Textures\btn-command-cancel.dds"/>
+        <AlertIcon value="Assets\Textures\btn-command-cancel.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <TintRacially value="1"/>
+        <HotkeyAlias value="Cancel"/>
+        <Universal value="1"/>
+    </CButton>
+    <CButton id="LockOnCancel3">
+        <Icon value="Assets\Textures\btn-command-cancel.dds"/>
+        <AlertIcon value="Assets\Textures\btn-command-cancel.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <TintRacially value="1"/>
+        <HotkeyAlias value="Cancel"/>
+        <Universal value="1"/>
     </CButton>
     <CButton id="MorphToHHHellion2">
         <Icon value="Assets\Textures\btn-unit-collection-hellion-junker.dds"/>
@@ -477,6 +588,46 @@
         <TintRacially value="1"/>
         <Universal value="1"/>
         <SimpleDisplayText value="SimpleDisplay/Move21"/>
+    </CButton>
+    <CButton id="Move22">
+        <Icon value="Assets\Textures\btn-command-move.dds"/>
+        <AlertIcon value="Assets\Textures\btn-command-move.dds"/>
+        <EditorCategories value="Race:Neutral"/>
+        <TintRacially value="1"/>
+        <Universal value="1"/>
+        <SimpleDisplayText value="SimpleDisplay/Move22"/>
+    </CButton>
+    <CButton id="Move23">
+        <Icon value="Assets\Textures\btn-command-move.dds"/>
+        <AlertIcon value="Assets\Textures\btn-command-move.dds"/>
+        <EditorCategories value="Race:Neutral"/>
+        <TintRacially value="1"/>
+        <Universal value="1"/>
+        <SimpleDisplayText value="SimpleDisplay/Move23"/>
+    </CButton>
+    <CButton id="Move24">
+        <Icon value="Assets\Textures\btn-command-move.dds"/>
+        <AlertIcon value="Assets\Textures\btn-command-move.dds"/>
+        <EditorCategories value="Race:Neutral"/>
+        <TintRacially value="1"/>
+        <Universal value="1"/>
+        <SimpleDisplayText value="SimpleDisplay/Move24"/>
+    </CButton>
+    <CButton id="Move25">
+        <Icon value="Assets\Textures\btn-command-move.dds"/>
+        <AlertIcon value="Assets\Textures\btn-command-move.dds"/>
+        <EditorCategories value="Race:Neutral"/>
+        <TintRacially value="1"/>
+        <Universal value="1"/>
+        <SimpleDisplayText value="SimpleDisplay/Move25"/>
+    </CButton>
+    <CButton id="Move26">
+        <Icon value="Assets\Textures\btn-command-move.dds"/>
+        <AlertIcon value="Assets\Textures\btn-command-move.dds"/>
+        <EditorCategories value="Race:Neutral"/>
+        <TintRacially value="1"/>
+        <Universal value="1"/>
+        <SimpleDisplayText value="SimpleDisplay/Move26"/>
     </CButton>
     <CButton id="Move3">
         <Icon value="Assets\Textures\btn-command-move.dds"/>
@@ -632,6 +783,41 @@
         <TintRacially value="1"/>
         <Universal value="1"/>
     </CButton>
+    <CButton id="MoveHoldPosition22">
+        <Icon value="Assets\Textures\btn-command-holdposition.dds"/>
+        <AlertIcon value="Assets\Textures\btn-command-holdposition.dds"/>
+        <EditorCategories value="Race:Neutral"/>
+        <TintRacially value="1"/>
+        <Universal value="1"/>
+    </CButton>
+    <CButton id="MoveHoldPosition23">
+        <Icon value="Assets\Textures\btn-command-holdposition.dds"/>
+        <AlertIcon value="Assets\Textures\btn-command-holdposition.dds"/>
+        <EditorCategories value="Race:Neutral"/>
+        <TintRacially value="1"/>
+        <Universal value="1"/>
+    </CButton>
+    <CButton id="MoveHoldPosition24">
+        <Icon value="Assets\Textures\btn-command-holdposition.dds"/>
+        <AlertIcon value="Assets\Textures\btn-command-holdposition.dds"/>
+        <EditorCategories value="Race:Neutral"/>
+        <TintRacially value="1"/>
+        <Universal value="1"/>
+    </CButton>
+    <CButton id="MoveHoldPosition25">
+        <Icon value="Assets\Textures\btn-command-holdposition.dds"/>
+        <AlertIcon value="Assets\Textures\btn-command-holdposition.dds"/>
+        <EditorCategories value="Race:Neutral"/>
+        <TintRacially value="1"/>
+        <Universal value="1"/>
+    </CButton>
+    <CButton id="MoveHoldPosition26">
+        <Icon value="Assets\Textures\btn-command-holdposition.dds"/>
+        <AlertIcon value="Assets\Textures\btn-command-holdposition.dds"/>
+        <EditorCategories value="Race:Neutral"/>
+        <TintRacially value="1"/>
+        <Universal value="1"/>
+    </CButton>
     <CButton id="MoveHoldPosition3">
         <Icon value="Assets\Textures\btn-command-holdposition.dds"/>
         <AlertIcon value="Assets\Textures\btn-command-holdposition.dds"/>
@@ -779,6 +965,41 @@
         <TintRacially value="1"/>
         <Universal value="1"/>
     </CButton>
+    <CButton id="MovePatrol22">
+        <Icon value="Assets\Textures\btn-command-patrol.dds"/>
+        <AlertIcon value="Assets\Textures\btn-command-patrol.dds"/>
+        <EditorCategories value="Race:Neutral"/>
+        <TintRacially value="1"/>
+        <Universal value="1"/>
+    </CButton>
+    <CButton id="MovePatrol23">
+        <Icon value="Assets\Textures\btn-command-patrol.dds"/>
+        <AlertIcon value="Assets\Textures\btn-command-patrol.dds"/>
+        <EditorCategories value="Race:Neutral"/>
+        <TintRacially value="1"/>
+        <Universal value="1"/>
+    </CButton>
+    <CButton id="MovePatrol24">
+        <Icon value="Assets\Textures\btn-command-patrol.dds"/>
+        <AlertIcon value="Assets\Textures\btn-command-patrol.dds"/>
+        <EditorCategories value="Race:Neutral"/>
+        <TintRacially value="1"/>
+        <Universal value="1"/>
+    </CButton>
+    <CButton id="MovePatrol25">
+        <Icon value="Assets\Textures\btn-command-patrol.dds"/>
+        <AlertIcon value="Assets\Textures\btn-command-patrol.dds"/>
+        <EditorCategories value="Race:Neutral"/>
+        <TintRacially value="1"/>
+        <Universal value="1"/>
+    </CButton>
+    <CButton id="MovePatrol26">
+        <Icon value="Assets\Textures\btn-command-patrol.dds"/>
+        <AlertIcon value="Assets\Textures\btn-command-patrol.dds"/>
+        <EditorCategories value="Race:Neutral"/>
+        <TintRacially value="1"/>
+        <Universal value="1"/>
+    </CButton>
     <CButton id="MovePatrol3">
         <Icon value="Assets\Textures\btn-command-patrol.dds"/>
         <AlertIcon value="Assets\Textures\btn-command-patrol.dds"/>
@@ -865,6 +1086,16 @@
     <CButton id="RapidRegeneration2">
         <Icon value="Assets\Textures\BTN-ability-zerg-rapidregeneration-color.dds"/>
         <EditorCategories value="Race:Zerg"/>
+    </CButton>
+    <CButton id="RetributionField2">
+        <Icon value="Assets\Textures\btn-ability-terran-emp-color.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-terran-emp-color.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="RipwaveMissiles2">
+        <Icon value="Assets\Textures\btn-upgrade-raynor-ripwavemissiles.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-raynor-ripwavemissiles.dds"/>
+        <EditorCategories value="Race:Terran"/>
     </CButton>
     <CButton id="Stim2">
         <TooltipAppender Validator="HaveMasteryRaynorStimDuration" Text="Button/Tooltip/MasteryRaynorStim2DurationAppend"/>
@@ -1013,6 +1244,41 @@
         <Universal value="1"/>
     </CButton>
     <CButton id="Stop21">
+        <Icon value="Assets\Textures\btn-command-stop.dds"/>
+        <AlertIcon value="Assets\Textures\btn-command-stop.dds"/>
+        <EditorCategories value="Race:Neutral"/>
+        <TintRacially value="1"/>
+        <Universal value="1"/>
+    </CButton>
+    <CButton id="Stop22">
+        <Icon value="Assets\Textures\btn-command-stop.dds"/>
+        <AlertIcon value="Assets\Textures\btn-command-stop.dds"/>
+        <EditorCategories value="Race:Neutral"/>
+        <TintRacially value="1"/>
+        <Universal value="1"/>
+    </CButton>
+    <CButton id="Stop23">
+        <Icon value="Assets\Textures\btn-command-stop.dds"/>
+        <AlertIcon value="Assets\Textures\btn-command-stop.dds"/>
+        <EditorCategories value="Race:Neutral"/>
+        <TintRacially value="1"/>
+        <Universal value="1"/>
+    </CButton>
+    <CButton id="Stop24">
+        <Icon value="Assets\Textures\btn-command-stop.dds"/>
+        <AlertIcon value="Assets\Textures\btn-command-stop.dds"/>
+        <EditorCategories value="Race:Neutral"/>
+        <TintRacially value="1"/>
+        <Universal value="1"/>
+    </CButton>
+    <CButton id="Stop25">
+        <Icon value="Assets\Textures\btn-command-stop.dds"/>
+        <AlertIcon value="Assets\Textures\btn-command-stop.dds"/>
+        <EditorCategories value="Race:Neutral"/>
+        <TintRacially value="1"/>
+        <Universal value="1"/>
+    </CButton>
+    <CButton id="Stop26">
         <Icon value="Assets\Textures\btn-command-stop.dds"/>
         <AlertIcon value="Assets\Textures\btn-command-stop.dds"/>
         <EditorCategories value="Race:Neutral"/>

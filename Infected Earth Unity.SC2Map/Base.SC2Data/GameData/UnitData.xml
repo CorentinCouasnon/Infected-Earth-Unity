@@ -570,7 +570,39 @@
         <EditorCategories value="ObjectType:Unit,ObjectFamily:Melee"/>
         <TacticalAI value="BanelingEgg"/>
     </CUnit>
+    <CUnit id="Cyclone">
+        <LifeStart value="170"/>
+        <LifeMax value="170"/>
+    </CUnit>
     <CUnit id="D8Charge2">
+        <DeathRevealRadius value="3"/>
+        <Race value="Terr"/>
+        <FlagArray index="Uncommandable" value="1"/>
+        <FlagArray index="UseLineOfSight" value="1"/>
+        <FlagArray index="KillCredit" value="0"/>
+        <FlagArray index="Invulnerable" value="1"/>
+        <FlagArray index="NoScore" value="1"/>
+        <PlaneArray index="Ground" value="1"/>
+        <Collide index="Burrow3" value="1"/>
+        <Attributes index="Light" value="1"/>
+        <Attributes index="Mechanical" value="1"/>
+        <LifeStart value="45"/>
+        <LifeMax value="45"/>
+        <LifeArmorName value="Unit/LifeArmorName/TerranBuildingPlating"/>
+        <Acceleration value="1000"/>
+        <StationaryTurningRate value="2292.8906"/>
+        <Sight value="4"/>
+        <AttackTargetPriority value="20"/>
+        <BehaviorArray Link="D8ChargeFate"/>
+        <Radius value="0.375"/>
+        <SeparationRadius value="0"/>
+        <SubgroupPriority value="15"/>
+        <MinimapRadius value="0.25"/>
+        <EditorCategories value="ObjectType:Unit,ObjectFamily:Melee"/>
+        <TacticalAIThink value="AIThinkD8Charge"/>
+        <LeaderAlias value=""/>
+    </CUnit>
+    <CUnit id="D8Charge3">
         <DeathRevealRadius value="3"/>
         <Race value="Terr"/>
         <FlagArray index="Uncommandable" value="1"/>
@@ -602,6 +634,15 @@
         <ReviveType value="G4ChargeWeapon"/>
         <Race value="Terr"/>
         <Mover value="D8Charge2"/>
+        <EditorCategories value="ObjectType:Projectile,ObjectFamily:Campaign"/>
+        <SelectAlias value="G4ChargeWeapon"/>
+        <SubgroupAlias value="G4ChargeWeapon"/>
+        <AIEvaluateAlias value="G4ChargeWeapon"/>
+    </CUnit>
+    <CUnit id="D8ChargeWeapon3" parent="MISSILE">
+        <ReviveType value="G4ChargeWeapon"/>
+        <Race value="Terr"/>
+        <Mover value="D8Charge3"/>
         <EditorCategories value="ObjectType:Projectile,ObjectFamily:Campaign"/>
         <SelectAlias value="G4ChargeWeapon"/>
         <SubgroupAlias value="G4ChargeWeapon"/>
@@ -689,7 +730,7 @@
         <GlossaryPriority value="256"/>
         <HotkeyCategory value="Unit/Category/TerranUnits"/>
     </CUnit>
-    <CUnit id="Ghost2">
+    <CUnit id="GhostChien">
         <DeathRevealRadius value="3"/>
         <Race value="Terr"/>
         <Mob value="Multiplayer"/>
@@ -907,8 +948,8 @@
         <Description value="Button/Tooltip/HellionChien"/>
         <LifeStart value="250"/>
         <LifeMax value="250"/>
-        <LifeArmor value="3"/>
-        <Speed value="5"/>
+        <LifeArmor value="1"/>
+        <Speed value="4"/>
         <DamageDealtXP value="1"/>
         <DamageTakenXP value="1"/>
         <KillXP value="30"/>
@@ -2157,6 +2198,82 @@
         <TauntDuration index="Cheer" value="5"/>
         <TauntDuration index="Dance" value="5"/>
     </CUnit>
+    <CUnit id="MarauderChien">
+        <DeathRevealRadius value="3"/>
+        <Race value="Terr"/>
+        <Mob value="Multiplayer"/>
+        <FlagArray index="PreventDestroy" value="1"/>
+        <FlagArray index="UseLineOfSight" value="1"/>
+        <FlagArray index="ArmySelect" value="1"/>
+        <PlaneArray index="Ground" value="1"/>
+        <Collide index="Ground" value="1"/>
+        <Collide index="ForceField" value="1"/>
+        <Collide index="Locust" value="1"/>
+        <Collide index="Small" value="1"/>
+        <Attributes index="Armored" value="1"/>
+        <Attributes index="Biological" value="1"/>
+        <LifeStart value="165"/>
+        <LifeMax value="165"/>
+        <LifeArmor value="4"/>
+        <LifeArmorName value="Unit/LifeArmorName/TerranInfantryArmor"/>
+        <Speed value="3"/>
+        <Acceleration value="1000"/>
+        <LateralAcceleration value="69.125"/>
+        <StationaryTurningRate value="999.8437"/>
+        <TurningRate value="999.8437"/>
+        <Sight value="10"/>
+        <Food value="-2"/>
+        <CostCategory value="Army"/>
+        <CostResource index="Minerals" value="100"/>
+        <CostResource index="Vespene" value="25"/>
+        <RepairTime value="25"/>
+        <AttackTargetPriority value="20"/>
+        <AbilArray Link="stop"/>
+        <AbilArray Link="attack"/>
+        <AbilArray Link="move"/>
+        <AbilArray Link="StimpackMarauder"/>
+        <BehaviorArray Link="AllUnitBehaviorController"/>
+        <WeaponArray Link="PunisherGrenades"/>
+        <CardLayouts>
+            <LayoutButtons Face="Move" Type="AbilCmd" AbilCmd="move,Move" Row="0" Column="0"/>
+            <LayoutButtons Face="Stop" Type="AbilCmd" AbilCmd="stop,Stop" Row="0" Column="1"/>
+            <LayoutButtons Face="MoveHoldPosition" Type="AbilCmd" AbilCmd="move,HoldPos" Row="0" Column="2"/>
+            <LayoutButtons Face="MovePatrol" Type="AbilCmd" AbilCmd="move,Patrol" Row="0" Column="3"/>
+            <LayoutButtons Face="Attack" Type="AbilCmd" AbilCmd="attack,Execute" Row="0" Column="4"/>
+            <LayoutButtons>
+                <Face value="ConcussiveGrenade"/>
+                <Type value="Passive"/>
+                <AbilCmd value="255"/>
+                <Requirements value="UsePunisherGrenades"/>
+                <Row value="2"/>
+                <Column value="1"/>
+            </LayoutButtons>
+            <LayoutButtons Face="StimMarauder" Type="AbilCmd" AbilCmd="StimpackMarauder,Execute" Row="2" Column="0"/>
+        </CardLayouts>
+        <Radius value="0.5625"/>
+        <InnerRadius value="0.375"/>
+        <CargoSize value="2"/>
+        <ScoreResult value="BuildOrder"/>
+        <SubgroupPriority value="114"/>
+        <EditorCategories value="ObjectType:Unit,ObjectFamily:Melee"/>
+        <TacticalAI value="Marauder"/>
+        <GlossaryCategory value="Unit/Category/TerranUnits"/>
+        <GlossaryPriority value="60"/>
+        <GlossaryStrongArray value="Thor"/>
+        <GlossaryStrongArray value="Roach"/>
+        <GlossaryStrongArray value="Stalker"/>
+        <GlossaryWeakArray value="Marine"/>
+        <GlossaryWeakArray value="Zergling"/>
+        <GlossaryWeakArray value="Zealot"/>
+        <HotkeyCategory value="Unit/Category/TerranUnits"/>
+        <Fidget>
+            <ChanceArray index="Anim" value="33"/>
+            <ChanceArray index="Idle" value="33"/>
+            <ChanceArray index="Turn" value="33"/>
+        </Fidget>
+        <TauntDuration index="Cheer" value="5"/>
+        <TauntDuration index="Dance" value="5"/>
+    </CUnit>
     <CUnit id="Marine22">
         <DeathRevealRadius value="3"/>
         <Race value="Terr"/>
@@ -2303,6 +2420,83 @@
     </CUnit>
     <CUnit id="NeedleSpinesWeapon2" parent="MISSILE">
         <Name value="Unit/Name/HydraliskGroundWeapon"/>
+    </CUnit>
+    <CUnit id="PredatorChien">
+        <DeathRevealRadius value="3"/>
+        <ReviveType value=""/>
+        <Race value="Terr"/>
+        <Mob value="Campaign"/>
+        <FlagArray index="PreventDestroy" value="1"/>
+        <FlagArray index="UseLineOfSight" value="1"/>
+        <FlagArray index="ArmySelect" value="1"/>
+        <PlaneArray index="Ground" value="1"/>
+        <Collide index="Ground" value="1"/>
+        <Collide index="ForceField" value="1"/>
+        <Collide index="Locust" value="1"/>
+        <Collide index="Small" value="1"/>
+        <Attributes index="Armored" value="1"/>
+        <Attributes index="Mechanical" value="1"/>
+        <LifeStart value="160"/>
+        <LifeMax value="160"/>
+        <LifeArmor value="1"/>
+        <LifeArmorName value="Unit/LifeArmorName/TerranVehiclePlating"/>
+        <Speed value="3.5"/>
+        <Acceleration value="1000"/>
+        <LateralAcceleration value="46"/>
+        <StationaryTurningRate value="1499.9414"/>
+        <TurningRate value="1499.9414"/>
+        <Sight value="10"/>
+        <Food value="-3"/>
+        <CostCategory value="Army"/>
+        <CostResource index="Minerals" value="100"/>
+        <CostResource index="Vespene" value="100"/>
+        <RepairTime value="33.3332"/>
+        <AttackTargetPriority value="20"/>
+        <DamageDealtXP value="1"/>
+        <DamageTakenXP value="1"/>
+        <KillXP value="30"/>
+        <AbilArray Link="attack"/>
+        <AbilArray Link="move"/>
+        <AbilArray Link="stop"/>
+        <WeaponArray Link="Predator"/>
+        <CardLayouts>
+            <LayoutButtons Face="Move" Type="AbilCmd" AbilCmd="move,Move" Row="0" Column="0"/>
+            <LayoutButtons Face="Stop" Type="AbilCmd" AbilCmd="stop,Stop" Row="0" Column="1"/>
+            <LayoutButtons Face="MoveHoldPosition" Type="AbilCmd" AbilCmd="move,HoldPos" Row="0" Column="2"/>
+            <LayoutButtons Face="MovePatrol" Type="AbilCmd" AbilCmd="move,Patrol" Row="0" Column="3"/>
+            <LayoutButtons Face="Attack" Type="AbilCmd" AbilCmd="attack,Execute" Row="0" Column="4"/>
+            <LayoutButtons Face="AcquireMove" Type="AbilCmd" AbilCmd="move,AcquireMove" Row="0" Column="4"/>
+            <LayoutButtons Face="RetributionField" Type="Passive" Row="2" Column="0"/>
+        </CardLayouts>
+        <Radius value="0.625"/>
+        <SeparationRadius value="0.625"/>
+        <InnerRadius value="0.5"/>
+        <CargoSize value="2"/>
+        <ScoreMake value="300"/>
+        <ScoreKill value="600"/>
+        <ScoreResult value="BuildOrder"/>
+        <SubgroupPriority value="8"/>
+        <MinimapRadius value="0.625"/>
+        <EditorCategories value="ObjectType:Unit,ObjectFamily:Campaign"/>
+        <TacticalAI value=""/>
+        <LeaderAlias value=""/>
+        <HotkeyAlias value="Predator"/>
+        <SelectAlias value="Predator"/>
+        <SubgroupAlias value="Predator"/>
+        <GlossaryCategory value="Unit/Category/TerranUnits"/>
+        <GlossaryPriority value="110"/>
+        <GlossaryStrongArray value="Zergling"/>
+        <GlossaryStrongArray value="Zealot"/>
+        <GlossaryStrongArray value="Marine"/>
+        <GlossaryWeakArray value="Roach"/>
+        <GlossaryWeakArray value="Immortal"/>
+        <GlossaryWeakArray value="Thor"/>
+        <HotkeyCategory value="Unit/Category/TerranStory"/>
+        <AIEvaluateAlias value="Predator"/>
+        <ReviveInfoBase>
+            <Charge Link="Predator/Revive"/>
+            <Cooldown Link="Predator/Revive"/>
+        </ReviveInfoBase>
     </CUnit>
     <CUnit id="PrisonZealot2">
         <Name value="Unit/Name/Zealot"/>
@@ -3093,82 +3287,30 @@
             <ChanceArray index="Turn" value="33"/>
         </Fidget>
     </CUnit>
-    <CUnit id="ReaperChien">
-        <DeathRevealRadius value="3"/>
-        <Race value="Terr"/>
-        <Mob value="Multiplayer"/>
-        <FlagArray index="PreventDestroy" value="1"/>
-        <FlagArray index="UseLineOfSight" value="1"/>
-        <FlagArray index="AIPressForwardDisabled" value="1"/>
-        <FlagArray index="ArmySelect" value="1"/>
-        <PlaneArray index="Ground" value="1"/>
-        <Collide index="Ground" value="1"/>
-        <Collide index="ForceField" value="1"/>
-        <Collide index="Locust" value="1"/>
-        <Collide index="Small" value="1"/>
-        <Attributes index="Light" value="1"/>
-        <Attributes index="Biological" value="1"/>
-        <LifeStart value="140"/>
-        <LifeMax value="140"/>
-        <LifeArmorName value="Unit/LifeArmorName/TerranInfantryArmor"/>
-        <Mover value="CliffJumper2"/>
-        <Speed value="4"/>
-        <Acceleration value="1000"/>
-        <LateralAcceleration value="46.0625"/>
-        <StationaryTurningRate value="999.8437"/>
-        <TurningRate value="999.8437"/>
-        <Sight value="9"/>
-        <Height value="0.5"/>
-        <Food value="-1"/>
-        <CostCategory value="Army"/>
-        <CostResource index="Minerals" value="50"/>
-        <CostResource index="Vespene" value="50"/>
-        <RepairTime value="20"/>
-        <AttackTargetPriority value="20"/>
-        <AbilArray Link="stop13"/>
-        <AbilArray Link="attack15"/>
-        <AbilArray Link="move13"/>
-        <AbilArray Link="D8Charge2"/>
-        <AbilArray Link="ReaperSpiderMines"/>
-        <AbilArray Link="ReaperFlyMorph"/>
-        <BehaviorArray Link="ReaperJump2"/>
-        <BehaviorArray Link="AllUnitBehaviorController"/>
-        <WeaponArray Link="P38ScytheGuassPistol"/>
-        <WeaponArray/>
-        <CardLayouts>
-            <LayoutButtons Face="Move15" Type="AbilCmd" AbilCmd="move13,0" Row="0" Column="0"/>
-            <LayoutButtons Face="Stop15" Type="AbilCmd" AbilCmd="stop13,0" Row="0" Column="1"/>
-            <LayoutButtons Face="MoveHoldPosition15" Type="AbilCmd" AbilCmd="move13,2" Row="0" Column="2"/>
-            <LayoutButtons Face="Attack15" Type="AbilCmd" AbilCmd="attack15,0" Row="0" Column="4"/>
-            <LayoutButtons Face="MovePatrol15" Type="AbilCmd" AbilCmd="move13,1" Row="0" Column="3"/>
-            <LayoutButtons Face="JetPack2" Type="Passive" AbilCmd="255,255" Row="2" Column="1"/>
-            <LayoutButtons Face="SpiderMine" Type="AbilCmd" AbilCmd="ReaperSpiderMines,Execute" Row="2" Column="0"/>
-            <LayoutButtons Face="U238Rounds" Type="Passive" Requirements="UseReaperU238Rounds" Row="2" Column="2"/>
+    <CUnit id="ReaperChien" parent="Reaper">
+        <Name value="Unit/Name/ReaperChien"/>
+        <Description value="Button/Tooltip/ReaperChien"/>
+        <Collide index="Locust" value="0"/>
+        <LifeStart value="150"/>
+        <LifeMax value="150"/>
+        <LifeRegenDelay value="10"/>
+        <LifeRegenRate value="2"/>
+        <Speed value="3.75"/>
+        <DamageDealtXP value="1"/>
+        <DamageTakenXP value="1"/>
+        <KillXP value="20"/>
+        <AbilArray index="3" removed="1"/>
+        <AbilArray index="4" removed="1"/>
+        <BehaviorArray index="1" removed="1"/>
+        <WeaponArray index="1" Link=""/>
+        <CardLayouts index="0">
+            <LayoutButtons index="5" AbilCmd="255" Column="0"/>
+            <LayoutButtons index="6" Face="CombatDrugs" Type="Passive" AbilCmd="" Column="1"/>
+            <LayoutButtons index="7" removed="1"/>
         </CardLayouts>
-        <Radius value="0.375"/>
-        <SeparationRadius value="0.375"/>
-        <InnerRadius value="0.375"/>
-        <CargoSize value="1"/>
-        <ScoreResult value="BuildOrder"/>
-        <SubgroupPriority value="107"/>
-        <MinimapRadius value="0.375"/>
-        <EditorCategories value="ObjectType:Unit,ObjectFamily:Melee"/>
-        <TacticalAI value="Reaper"/>
-        <AIEvalFactor value="1.5"/>
-        <GlossaryCategory value="Unit/Category/TerranUnits"/>
-        <GlossaryPriority value="50"/>
-        <GlossaryStrongArray value="SCV"/>
-        <GlossaryStrongArray value="Drone"/>
-        <GlossaryStrongArray value="Probe"/>
-        <GlossaryWeakArray value="Marauder"/>
-        <GlossaryWeakArray value="Roach"/>
-        <GlossaryWeakArray value="Stalker"/>
-        <HotkeyCategory value="Unit/Category/TerranUnits"/>
-        <Fidget>
-            <ChanceArray index="Anim" value="33"/>
-            <ChanceArray index="Idle" value="33"/>
-            <ChanceArray index="Turn" value="33"/>
-        </Fidget>
+        <ScoreMake value="100"/>
+        <ScoreKill value="100"/>
+        <SubgroupPriority value="7"/>
     </CUnit>
     <CUnit id="RoachChien">
         <Name value="Unit/Name/Roach"/>
@@ -4114,6 +4256,26 @@
         <Race value="Terr"/>
         <Mover value="TossGrenade2"/>
         <EditorCategories value="ObjectType:Projectile,ObjectFamily:Campaign"/>
+    </CUnit>
+    <CUnit id="VikingChien" parent="VikingAssault">
+        <Description value="Button/Tooltip/VikingChien"/>
+        <LifeStart value="175"/>
+        <LifeMax value="175"/>
+        <RepairTime value="41.6667"/>
+        <DamageDealtXP value="1"/>
+        <DamageTakenXP value="1"/>
+        <KillXP value="30"/>
+        <AbilArray index="4" removed="1"/>
+        <BehaviorArray index="0" removed="1"/>
+        <EffectArray index="Create" value=""/>
+        <EffectArray index="Death" value=""/>
+        <CardLayouts index="0">
+            <LayoutButtons index="7" Column="2"/>
+            <LayoutButtons index="8" removed="1"/>
+            <LayoutButtons index="9" removed="1"/>
+        </CardLayouts>
+        <ScoreKill value="225"/>
+        <SubgroupPriority value="12"/>
     </CUnit>
     <CUnit id="WarPig2">
         <DeathRevealRadius value="3"/>

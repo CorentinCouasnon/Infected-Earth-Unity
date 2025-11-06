@@ -51,6 +51,22 @@
         <Flags index="TechTreeCheat" value="0"/>
         <Count Link="Charge4" State="QueuedOrBetter"/>
     </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradePredatorCompleteOnly2">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="PredatorChien" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradePunisherGrenadesCompleteOnly1926426333TechTreeCheat2">
+        <Tooltip value="RequirementNode/Tooltip/CountUpgradePunisherGrenadesCompleteOnly1926426333"/>
+        <Count Link="ConcussiveMarauderChien" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradePunisherGrenadesCompleteOnly679349TechTreeCheat2">
+        <Tooltip value="RequirementNode/Tooltip/CountUpgradePunisherGrenadesCompleteOnly679349"/>
+        <Count Link="ConcussiveMarauderChien" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradePunisherGrenadesQueuedOrBetter2">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="ConcussiveMarauderChien" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
     <CRequirementCountUpgrade id="CountUpgradeStimpackCompleteOnly2">
         <Count Link="StimpackDeRaynor" State="CompleteOnly"/>
     </CRequirementCountUpgrade>

@@ -13,6 +13,10 @@
         <Period value="1"/>
         <Effect value="AcidSalivaLM2"/>
     </CWeaponLegacy>
+    <CWeaponLegacy id="C10CanisterRifle">
+        <DamagePoint value="0"/>
+        <Backswing value="0.1"/>
+    </CWeaponLegacy>
     <CWeaponLegacy id="Claws2">
         <EditorCategories value="Race:Zerg"/>
         <Options index="Melee" value="1"/>
@@ -91,6 +95,16 @@
         <Range value="6.5"/>
         <Period value="0.7"/>
     </CWeaponLegacy>
+    <CWeaponLegacy id="Predator2">
+        <EditorCategories value="Race:Terran"/>
+        <Options index="Melee" value="1"/>
+        <Icon value="Assets\Textures\BTN-Upgrade-Terran-VehicleWeaponsLevel0.dds"/>
+        <TargetFilters value="Ground,Visible;Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <Range value="0.1"/>
+        <Period value="1"/>
+        <DamagePoint value="0.15"/>
+        <Effect value="RetributionFieldSet2"/>
+    </CWeaponLegacy>
     <CWeaponLegacy id="RaynorWeapon2">
         <EditorCategories value="Race:Terran"/>
         <Icon value="Assets\Textures\btn-upgrade-terran-infantryweaponslevel0.dds"/>
@@ -114,6 +128,35 @@
         <DamagePoint value="0.05"/>
         <Backswing value="0.75"/>
         <Effect value="RaynorWeaponU"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="TwinGatlingCannon2">
+        <EditorCategories value="Race:Terran"/>
+        <Icon value="Assets\Textures\btn-upgrade-terran-shipweaponslevel0.dds"/>
+        <DisplayEffect value="TwinGatlingCannons2"/>
+        <TargetFilters value="Ground,Visible;Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <MinScanRange value="6.5"/>
+        <Range value="6"/>
+        <Arc value="5.625"/>
+        <Period value="1"/>
+        <Effect value="TwinGatlingCannons2"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="TyphoonMissilePod2">
+        <EditorCategories value="Race:Terran"/>
+        <Icon value="Assets\Textures\btn-upgrade-terran-vehicleweaponslevel0.dds"/>
+        <DisplayEffect value="CycloneAttackWeaponDamage2"/>
+        <TargetFilters value="Visible;Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <MinScanRange value="5.5"/>
+        <Period value="1"/>
+        <Effect value="CycloneAttackWeaponLaunchMissileSwitch2"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="TyphoonMissilePod3">
+        <EditorCategories value="Race:Terran"/>
+        <Icon value="Assets\Textures\btn-upgrade-terran-vehicleweaponslevel0.dds"/>
+        <DisplayEffect value="CycloneAttackWeaponDamage3"/>
+        <TargetFilters value="Visible;Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <MinScanRange value="5.5"/>
+        <Period value="1"/>
+        <Effect value="CycloneAttackWeaponLaunchMissileSwitch3"/>
     </CWeaponLegacy>
     <CWeaponLegacy id="ZeratulSwords">
         <EditorCategories value="Race:Protoss"/>
