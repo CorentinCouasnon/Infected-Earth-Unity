@@ -1,6 +1,7 @@
 void Chat_Init()
 {
     TriggerAddEventChatMessage(TriggerCreate("Chat_SetZoom"), c_playerAny, "-zoom", false);
+    TriggerAddEventChatMessage(TriggerCreate("Chat_AddRessources"), c_playerAny, "-ressources", false);
     TriggerAddEventChatMessage(TriggerCreate("Chat_UnlockCam"), c_playerAny, "-unlockcam", false);
 }
 
@@ -11,6 +12,20 @@ bool Chat_SetZoom(bool testConds, bool runActions)
     if (Utility_IsNumber(param))
     {
         Camera_SetZoomForPlayer(EventPlayer(), StringToInt(param));
+    }
+
+    return true;
+}
+
+bool Chat_AddRessources(bool testConds, bool runActions)
+{
+    string paramPlayer = StringWord(EventChatMessage(false), 2);
+    string paramRess = StringWord(EventChatMessage(false), 3);
+    string paramAmount = StringWord(EventChatMessage(false), 4);
+
+    if (Utility_IsNumber(paramPlayer) && Utility_IsNumber(paramRess) && Utility_IsNumber(paramAmount))
+    {
+        PlayerModifyPropertyFixed(StringToInt(paramPlayer), StringToInt(paramRess), c_playerPropOperAdd, StringToInt(paramAmount));
     }
 
     return true;

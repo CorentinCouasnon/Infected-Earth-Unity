@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Desc>
+
+	<!-- local templates -->
+
+	<Frame type="ProgressBar" name="ProgressBarTemplate">
+		<Value val="100"/>
+		<MinValue val="0"/>
+		<MaxValue val="100"/>
+
+		<AcceptsMouse val="false"/>
+		<Frame type="TextFormatFrame" name="TextFormat">
+			<Anchor relative="$parent"/>
+			<FormatText val="%0% / %1%"/>
+			<Replacement val="{$parent/@Value}" index="0"/>
+			<Replacement val="{$parent/@MaxValue}" index="1"/>
+			<Visible val="false"/>
+			<AcceptsMouse val="false"/>
+		</Frame>
+
+		<Frame type="Frame" name="FillImageContainer">
+			<Anchor relative="$parent" />
+			<AcceptsMouse val="false"/>
+			<Frame type="Image" name="FillImage">
+				<Anchor relative="$parent"/>
+				<Texture val="Assets\Textures\UI_Kerrigan_HealthBar_Fill.dds"/>
+				<TextureType val="NineSlice"/>
+				<ColorAdjustMode val="None" />
+				<LayerColor val="21,130,255"/>
+				<SubpixelRendering val="True"/>
+				<AcceptsMouse val="false"/>
+				<SubpixelRendering val="true"/>
+			</Frame>
+		</Frame>
+	</Frame>
+
+	<Frame type="Frame" name="BossTemplate">
+		<Anchor side="Top" relative="$parent" pos="Min" offset="10"/>
+		<Anchor side="Left" relative="$parent" pos="Mid" offset="-250"/>
+		
+		<Height val="100"/>
+		<Width val="500"/>
+
+		<Frame type="Image" name="Background">
+			<Anchor relative="$parent"/>
+			
+			<Texture val="Assets/Textures/ui_ingame_tutorial_textborder_terr.dds"/>
+			<TextureType val="NineSlice"/>
+		</Frame>
+
+
+		<Frame type="Image" name="Portrait">
+			<Anchor side="Top" relative="$parent" pos="Min" offset="10"/>
+			<Anchor side="Bottom" relative="$parent" pos="Max" offset="-10"/>
+			<Anchor side="Left" relative="$parent" pos="Min" offset="10"/>
+			
+			<Width val="80"/>
+			<Height val="80"/>
+
+			<Texture val="Assets\Textures\ui_battlenet_glue_blueimageborder.dds"/>
+			<TextureType val="Normal"/>
+		</Frame>
+
+		<Frame type="Label" name="Name">
+			<Anchor side="Top" relative="$parent" pos="Min" offset="14"/>
+			<Anchor side="Left" relative="$parent/Portrait" pos="Max" offset="14"/>
+			<Anchor side="Right" relative="$parent" pos="Max" offset="-14"/>
+			
+			<Style val="Regular"/>
+			<Text val="Umby"/>
+		</Frame>
+
+		<Frame type="ProgressBar" name="HealthBar" template="Boss/ProgressBarTemplate">
+			<Anchor side="Top" relative="$parent/Name" pos="Max" offset="14"/>
+			<Anchor side="Left" relative="$parent/Portrait" pos="Max" offset="14"/>
+			<Anchor side="Right" relative="$parent" pos="Max" offset="-14"/>
+			<Anchor side="Bottom" relative="$parent" pos="Max" offset="-14"/>
+
+			<Frame type="MathFrame" name="Percent">
+				<Operator val="Divide"/>
+				<A val="{$parent/@Value}"/>
+				<B val="{$parent/@MaxValue}"/>
+			</Frame>
+
+			<StateGroup name="Colorchanger">
+				<DefaultState val="Green"/>
+				<State name="Red">
+					<When type="Property" frame="Percent" operator="LessThanOrEqual" Result="0.25"/>
+					<Action type="SetProperty" frame="FillImageContainer/FillImage" LayerColor="255,0,0"/>
+				</State>
+				<State name="Orange">
+					<When type="Property" frame="Percent" operator="GreaterThan" Result="0.25"/>
+					<When type="Property" frame="Percent" operator="LessThanOrEqual" Result="0.50"/>
+					<Action type="SetProperty" frame="FillImageContainer/FillImage" LayerColor="255,128,0"/>
+				</State>
+				<State name="Yellow">
+					<When type="Property" frame="Percent" operator="GreaterThan" Result="0.50"/>
+					<When type="Property" frame="Percent" operator="LessThanOrEqual" Result="0.75"/>
+					<Action type="SetProperty" frame="FillImageContainer/FillImage" LayerColor="255,255,0"/>
+				</State>
+				<State name="Green">
+					<When type="Property" frame="Percent" operator="GreaterThan" Result="0.75"/>
+					<Action type="SetProperty" frame="FillImageContainer/FillImage" LayerColor="0,255,0"/></State>
+			</StateGroup>
+
+			<Frame type="Frame" name="FillImageContainer">
+				<Frame type="Image" name="FillImage">
+					<LayerColor val="42,213,0"/>
+				</Frame>
+			</Frame>
+
+		</Frame>
+
+		<Frame type="Label" name="HealthBarValueLabel">
+			<Anchor side="Top" relative="$parent/HealthBar" pos="Mid" offset="0"/>
+			<Anchor side="Bottom" relative="$parent/HealthBar" pos="Mid" offset="0"/>
+			<Anchor side="Left" relative="$parent/HealthBar" pos="Min" offset="0"/>
+			<Anchor side="Right" relative="$parent/HealthBar" pos="Max" offset="0"/>
+			<Height val="24"/>
+			<Style val="Regular"/>
+			<Text val="{$parent/HealthBar/TextFormat/@Text}"/>
+			<AcceptsMouse val="false"/>
+		</Frame>
+
+	</Frame>
+
+	<!-- actual frame -->
+
+	<Frame type="Frame" name="GameUI/UIContainer" file="GameUI">
+		<Frame type="Frame" name="BossPanel">
+			<Anchor side="Top" relative="$parent" pos="Min" offset="0"/>
+			<Anchor side="Bottom" relative="$parent" pos="Max" offset="0"/>
+			<Anchor side="Left" relative="$parent" pos="Min" offset="0"/>
+			<Anchor side="Right" relative="$parent" pos="Max" offset="0"/>
+
+		</Frame>
+	</Frame>
+
+</Desc>

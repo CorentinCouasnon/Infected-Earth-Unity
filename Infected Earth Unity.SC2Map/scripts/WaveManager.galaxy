@@ -1,77 +1,97 @@
-bool Wave_CanStart() 
+bool Wave_OnTimerElapsed(bool testConds, bool runActions)
 {
-    return gv_enemiesAlive == 0 && gv_currentWave < 10 && gv_enemySpawnQueueCount == 0;
+    f_isWaveTimerElapsed = true;
+
+    return true;
 }
 
-bool Wave_OnUnitDeath(bool testConds, bool runActions) {
+void Wave_StartTimer()
+{
+    TimerStart(gv_nextWaveTimer, c_timeBetweenWaveInSeconds, false, c_timeGame);
+    f_isWaveTimerElapsed = false;
+}
+
+bool Wave_OnUnitDeath(bool testConds, bool runActions) 
+{
+    unit deadUnit = EventUnit();
+
     if (EventPlayer() != 15)
     {
         return true;
     }
     
-    if (gv_enemiesAlive > 0) 
-    {
-        gv_enemiesAlive -= 1;
-        UI_WaveInfo_Update();
-    }
+    gv_enemiesAlive -= 1;
+    UnitGroupRemove(gv_enemiesGroup, deadUnit);
     
-    // Si fin de vague
-    if (gv_enemiesAlive == 0 && gv_currentWave > 0) {
-        if (gv_currentWave == 10) {
-            // Victoire pour le Joueur 1 !
-            GameOver(1, c_gameOverVictory, true, true);
-            UIDisplayMessage(PlayerGroupAll(), c_messageAreaChat, StringToText("Victoire ! Toutes les vagues sont vaincues !"));
-        } else {
-            // Message pour la prochaine vague
-            UIDisplayMessage(PlayerGroupAll(), c_messageAreaChat, StringToText("Vague terminée ! Préparez-vous pour la suivante..."));
-        }
+    if (gv_enemiesAlive <= 0) 
+    {
+        f_isWaveInProgress = false;
     }
 
     return true;
 }
 
-bool Wave_TryStartNew(bool testConds, bool runActions) {
+void Wave_OnNewWave() {
     int i;
     int j;
-    unit newUnit;
     string u;
     int count;
+    int total;
+    int randomInt;
+    string tmp;
 
-    if (gv_currentWave >= 10) 
+    f_isWaveInProgress = true;
+
+    gv_tmpEnemySpawnQueueCount = 0;
+
+    // Collect all wave units in the temporary array
+    for (i = 1; i <= c_maximumUnitTypePerWave; i += 1) 
     {
-        return false;
-    }
-    
-    if (!Wave_CanStart())
-    {
-        return false;
-    }
-
-    gv_currentWave += 1;
-    UI_WaveInfo_Update();
-    UnitGroupClear(gv_enemiesGroup);
-
-    for (i = 1; i <= c_maximumUnitTypePerWave; i += 1) {
         u = UserDataGetUnit("WaveTable", IntToString(gv_currentWave), "unit", i);
         count = UserDataGetInt("WaveTable", IntToString(gv_currentWave), "count", i);
 
-        if (count == 0) {
+        if (count == 0) 
+        {
             continue;
         }
 
-        for (j = 0; j < count; j += 1) {
-            gv_enemySpawnQueue[gv_enemySpawnQueueCount] = u;
-            gv_enemySpawnQueueCount += 1;
+        for (j = 0; j < count; j += 1) 
+        {
+            gv_tmpEnemySpawnQueue[gv_tmpEnemySpawnQueueCount] = u;
+            gv_tmpEnemySpawnQueueCount += 1;
         }
     }
 
-    return true;
+    // Fisher-Yates shuffle on the temporary array (intra-wave random)
+    for (i = gv_tmpEnemySpawnQueueCount - 1; i > 0; i -= 1) 
+    {
+        randomInt = RandomInt(0, i);
+        tmp = gv_tmpEnemySpawnQueue[i];
+        gv_tmpEnemySpawnQueue[i] = gv_tmpEnemySpawnQueue[randomInt];
+        gv_tmpEnemySpawnQueue[randomInt] = tmp;
+    }
+
+    // Add shuffled units to the global queue
+    for (i = 0; i < gv_tmpEnemySpawnQueueCount; i += 1) 
+    {
+        gv_enemySpawnQueue[gv_enemySpawnQueueCount] = gv_tmpEnemySpawnQueue[i];
+        gv_enemySpawnQueueCount += 1;
+    }
+
+    if (gv_enemySpawnQueueCount == 0)
+    {
+        gv_framesToSkipCount = 0;
+        return;    
+    }
+
+    gv_framesToSkipCount = FloorI(960 / gv_enemySpawnQueueCount);
+    gv_skippedFrameCount = gv_framesToSkipCount;
 }
 
-// TODO : Peut etre passer en FIFO si possibilité de spawner plusieurs vagues en meme temps
 bool Wave_SpawnTick(bool testConds, bool runActions) 
 {
-    unit newUnit;
+    int i;
+    string unitType;
 
     if (gv_enemySpawnQueueCount < 1)
     {
@@ -83,14 +103,27 @@ bool Wave_SpawnTick(bool testConds, bool runActions)
         return true;
     }
 
+    if (gv_skippedFrameCount < gv_framesToSkipCount)
+    {
+        gv_skippedFrameCount += 1;
+        return true;
+    }
+
+    gv_skippedFrameCount = 0;
+
+    // Pour FIFO : Prendre le premier élément et décaler les éléments restants
+    unitType = gv_enemySpawnQueue[0];
+    for (i = 0; i < gv_enemySpawnQueueCount - 1; i += 1)
+    {
+        gv_enemySpawnQueue[i] = gv_enemySpawnQueue[i + 1];
+    }
+
     gv_enemySpawnQueueCount -= 1;
 
-    libNtve_gf_CreateUnitsWithDefaultFacing(1, gv_enemySpawnQueue[gv_enemySpawnQueueCount], 0, 15, RegionRandomPoint(Region_GetRandomSpawnRegion(c_Part_Terran)));
-    newUnit = UnitLastCreated();
-    UnitGroupAdd(gv_enemiesGroup, newUnit);
+    libNtve_gf_CreateUnitsWithDefaultFacing(1, unitType, 0, 15, RegionRandomPoint(Region_GetRandomSpawnRegion(c_Part_Terran)));
+    UnitGroupAdd(gv_enemiesGroup, UnitLastCreated());
 
     gv_enemiesAlive += 1;
-    UI_WaveInfo_Update();
 
     return true;
 }
@@ -100,8 +133,9 @@ void Wave_Init()
     gv_currentWave = 0;
     gv_enemiesAlive = 0;
     gv_enemiesGroup = UnitGroupEmpty();
-    
-    TriggerAddEventTimePeriodic(TriggerCreate("Wave_TryStartNew"), 1, c_timeGame);
+    gv_nextWaveTimer = TimerCreate();
+
+    TriggerAddEventTimer(TriggerCreate("Wave_OnTimerElapsed"), gv_nextWaveTimer);
     TriggerAddEventTimePeriodic(TriggerCreate("Wave_SpawnTick"), c_minimumTickTime, c_timeGame);
     TriggerAddEventUnitDied(TriggerCreate("Wave_OnUnitDeath"), null);
 }

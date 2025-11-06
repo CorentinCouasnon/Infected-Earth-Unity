@@ -1,0 +1,83 @@
+struct BossUI {
+    int panel;
+    int portraitControl;
+    int nameControl;
+    int progressBarControl;
+};
+
+static int boss_frame;
+static int boss_bossesUICount;
+static BossUI[8] boss_bossesUI;
+
+void UI_Boss_SetIcon(int bossIndex, string bossType)
+{
+    string icon = CatalogFieldValueGet(c_gameCatalogActor, bossType, "UnitIcon", c_playerAny);
+
+    libNtve_gf_SetDialogItemImage(boss_bossesUI[bossIndex].portraitControl, icon , PlayerGroupAll());
+}
+
+void UI_Boss_SetName(int bossIndex, string bossType)
+{
+    libNtve_gf_SetDialogItemText(boss_bossesUI[bossIndex].nameControl, StringToText(bossType), PlayerGroupAll());
+}
+
+void UI_Boss_SetHealth(int bossIndex, unit boss)
+{
+    libNtve_gf_SetDialogItemMaximumValue(boss_bossesUI[bossIndex].progressBarControl, Round(UnitGetPropertyFixed(boss, c_unitPropLifeMax, true)), PlayerGroupAll());
+    libNtve_gf_SetDialogItemCurrentValue(boss_bossesUI[bossIndex].progressBarControl, Round(UnitGetPropertyFixed(boss, c_unitPropLife, true)), PlayerGroupAll());
+}
+
+void UI_Boss_Spawn(unit u) 
+{
+    int index;
+
+    if (boss_bossesUICount >= 8)
+    {
+        return;
+    }
+    
+    index = boss_bossesUICount;
+    boss_bossesUICount += 1;
+    
+    boss_bossesUI[index].panel = DialogControlCreateInPanelFromTemplate(boss_frame, c_triggerControlTypePanel, "Boss/BossTemplate");
+        
+    boss_bossesUI[index].portraitControl = DialogControlHookup(boss_bossesUI[index].panel, c_triggerControlTypeImage, "Portrait");
+    boss_bossesUI[index].nameControl = DialogControlHookup(boss_bossesUI[index].panel, c_triggerControlTypeLabel, "Name");
+    boss_bossesUI[index].progressBarControl = DialogControlHookup(boss_bossesUI[index].panel, c_triggerControlTypeProgressBar, "HealthBar");
+
+    UI_Boss_SetIcon(index, UnitGetType(u));
+    UI_Boss_SetName(index, UnitGetType(u));
+    UI_Boss_SetHealth(index, u);
+
+    DialogControlSetVisible(boss_bossesUI[index].panel, PlayerGroupAll(), true);
+}
+
+void UI_Boss_Remove()
+{
+    boss_bossesUICount -= 1;
+    DialogControlDestroy(boss_bossesUI[0].panel);
+}
+
+void UI_Boss_Update() 
+{
+    unit u;
+
+    if (UnitGroupCount(gv_bossesGroup, 0) == 0)
+    {
+        return;
+    }
+
+    u = UnitGroupUnit(gv_bossesGroup, 1);
+
+    if (!UnitIsAlive(u))
+    {
+        return;
+    }
+
+    UI_Boss_SetHealth(0, u);
+}
+
+void UI_Boss_Init() 
+{ 
+    boss_frame = DialogControlHookupStandard(c_triggerControlTypePanel, "UIContainer/BossPanel");
+}

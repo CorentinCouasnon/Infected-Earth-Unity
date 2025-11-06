@@ -8,13 +8,19 @@ void UI_CreateTextTag(text inText, color inColor, point position, playergroup gr
     TextTagDestroy(textTag);
 }
 
+bool UI_Update(bool testConds, bool runActions)
+{
+    UI_WaveInfo_Update();
+    UI_Boss_Update();
+
+    return true;
+}
+
 void UI_Init()
 {
     UI_WaveInfo_Init();
     UI_HeroSelection_Init();
-}
+    UI_Boss_Init();
 
-void UI_Update()
-{
-    UI_WaveInfo_Update();
+    TriggerAddEventTimePeriodic(TriggerCreate("UI_Update"), c_minimumTickTime, c_timeGame);
 }

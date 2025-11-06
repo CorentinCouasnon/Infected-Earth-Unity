@@ -12,5 +12,5 @@ bool Enemy_GroupAttack(bool testConds, bool runActions)
 
 void Enemy_Init()
 {
-    TriggerAddEventTimePeriodic(TriggerCreate("Enemy_GroupAttack"), 0.025, c_timeGame);
+    TriggerAddEventTimePeriodic(TriggerCreate("Enemy_GroupAttack"), c_minimumTickTime, c_timeGame);
 }
