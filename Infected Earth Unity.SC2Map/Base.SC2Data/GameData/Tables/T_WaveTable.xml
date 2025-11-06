@@ -4,14 +4,14 @@
         <Fields>
             <Id value="unit"/>
             <Type value="Unit"/>
-            <Count value="5"/>
+            <Count value="20"/>
             <EditorColumn value="1"/>
             <EditorText value="Name"/>
         </Fields>
         <Fields>
             <Id value="count"/>
             <Type value="Int"/>
-            <Count value="5"/>
+            <Count value="20"/>
             <EditorColumn value="1"/>
             <EditorText value="Name"/>
         </Fields>
@@ -47,56 +47,38 @@
             </Unit>
         </Instances>
         <Instances Id="4">
-            <Int Int="100">
+            <Int Int="140">
                 <Field Id="count"/>
             </Int>
             <Int Int="40">
                 <Field Id="count" Index="1"/>
-            </Int>
-            <Int Int="30">
-                <Field Id="count" Index="2"/>
             </Int>
             <Unit Unit="Marine22">
                 <Field Id="unit"/>
             </Unit>
             <Unit Unit="ReaperChien">
                 <Field Id="unit" Index="1"/>
-            </Unit>
-            <Unit Unit="HellionChien">
-                <Field Id="unit" Index="2"/>
             </Unit>
         </Instances>
         <Instances Id="5">
-            <Int Int="30">
+            <Int Int="140">
                 <Field Id="count"/>
             </Int>
-            <Int Int="80">
+            <Int Int="50">
                 <Field Id="count" Index="1"/>
-            </Int>
-            <Int Int="130">
-                <Field Id="count" Index="2"/>
             </Int>
             <Unit Unit="Marine22">
                 <Field Id="unit"/>
             </Unit>
             <Unit Unit="ReaperChien">
                 <Field Id="unit" Index="1"/>
-            </Unit>
-            <Unit Unit="HellionChien">
-                <Field Id="unit" Index="2"/>
             </Unit>
         </Instances>
         <Instances Id="6">
-            <Int Int="60">
-                <Field Id="count" Index="3"/>
-            </Int>
-            <Int Int="40">
-                <Field Id="count" Index="2"/>
-            </Int>
-            <Int Int="40">
+            <Int Int="50">
                 <Field Id="count" Index="1"/>
             </Int>
-            <Int Int="100">
+            <Int Int="150">
                 <Field Id="count"/>
             </Int>
             <Unit Unit="Marine22">
@@ -104,25 +86,16 @@
             </Unit>
             <Unit Unit="ReaperChien">
                 <Field Id="unit" Index="1"/>
-            </Unit>
-            <Unit Unit="HellionChien">
-                <Field Id="unit" Index="2"/>
-            </Unit>
-            <Unit Unit="HellbatChien">
-                <Field Id="unit" Index="3"/>
             </Unit>
         </Instances>
         <Instances Id="7">
             <Int Int="150">
                 <Field Id="count"/>
             </Int>
-            <Int Int="25">
-                <Field Id="count" Index="3"/>
-            </Int>
-            <Int Int="25">
+            <Int Int="40">
                 <Field Id="count" Index="2"/>
             </Int>
-            <Int Int="25">
+            <Int Int="20">
                 <Field Id="count" Index="1"/>
             </Int>
             <Unit Unit="Marine22">
@@ -131,51 +104,174 @@
             <Unit Unit="ReaperChien">
                 <Field Id="unit" Index="1"/>
             </Unit>
-            <Unit Unit="HellionChien">
+            <Unit Unit="MarauderChien">
                 <Field Id="unit" Index="2"/>
-            </Unit>
-            <Unit Unit="HellbatChien">
-                <Field Id="unit" Index="3"/>
             </Unit>
         </Instances>
         <Instances Id="8">
-            <Int Int="50">
+            <Int Int="120">
                 <Field Id="count"/>
             </Int>
-            <Int Int="200">
+            <Int Int="10">
                 <Field Id="count" Index="1"/>
             </Int>
-            <Int Int="25">
-                <Field Id="count" Index="3"/>
+            <Int Int="45">
+                <Field Id="count" Index="2"/>
             </Int>
             <Unit Unit="Marine22">
                 <Field Id="unit"/>
             </Unit>
             <Unit Unit="ReaperChien">
                 <Field Id="unit" Index="1"/>
+            </Unit>
+            <Unit Unit="MarauderChien">
+                <Field Id="unit" Index="2"/>
+            </Unit>
+        </Instances>
+        <Instances Id="9">
+            <Int Int="50">
+                <Field Id="count" Index="2"/>
+            </Int>
+            <Int Int="30">
+                <Field Id="count" Index="1"/>
+            </Int>
+            <Int Int="150">
+                <Field Id="count"/>
+            </Int>
+            <Unit Unit="Marine22">
+                <Field Id="unit"/>
+            </Unit>
+            <Unit Unit="ReaperChien">
+                <Field Id="unit" Index="1"/>
+            </Unit>
+            <Unit Unit="MarauderChien">
+                <Field Id="unit" Index="2"/>
+            </Unit>
+        </Instances>
+        <Instances Id="10">
+            <Int Int="130">
+                <Field Id="count"/>
+            </Int>
+            <Int Int="50">
+                <Field Id="count" Index="1"/>
+            </Int>
+            <Unit Unit="HellionChien">
+                <Field Id="unit"/>
+            </Unit>
+            <Unit Unit="HellbatChien">
+                <Field Id="unit" Index="1"/>
+            </Unit>
+        </Instances>
+        <Instances Id="11">
+            <Int Int="130">
+                <Field Id="count"/>
+            </Int>
+            <Int Int="25">
+                <Field Id="count" Index="1"/>
+            </Int>
+            <Int Int="70">
+                <Field Id="count" Index="2"/>
+            </Int>
+            <Unit Unit="HellbatChien">
+                <Field Id="unit" Index="1"/>
+            </Unit>
+            <Unit Unit="HellionChien">
+                <Field Id="unit"/>
+            </Unit>
+            <Unit Unit="Marine22">
+                <Field Id="unit" Index="2"/>
+            </Unit>
+        </Instances>
+        <Instances Id="12">
+            <Int Int="150">
+                <Field Id="count"/>
+            </Int>
+            <Int Int="20">
+                <Field Id="count" Index="1"/>
+            </Int>
+            <Int Int="60">
+                <Field Id="count" Index="2"/>
+            </Int>
+            <Unit Unit="Marine22">
+                <Field Id="unit"/>
+            </Unit>
+            <Unit Unit="HellbatChien">
+                <Field Id="unit" Index="1"/>
+            </Unit>
+            <Unit Unit="HellionChien">
+                <Field Id="unit" Index="2"/>
+            </Unit>
+        </Instances>
+        <Instances Id="13">
+            <Int Int="50">
+                <Field Id="count" Index="2"/>
+            </Int>
+            <Int Int="130">
+                <Field Id="count" Index="1"/>
+            </Int>
+            <Int Int="60">
+                <Field Id="count"/>
+            </Int>
+            <Int Int="20">
+                <Field Id="count" Index="3"/>
+            </Int>
+            <Unit Unit="HellionChien">
+                <Field Id="unit"/>
+            </Unit>
+            <Unit Unit="Marine22">
+                <Field Id="unit" Index="1"/>
+            </Unit>
+            <Unit Unit="VikingChien">
+                <Field Id="unit" Index="2"/>
             </Unit>
             <Unit Unit="HellbatChien">
                 <Field Id="unit" Index="3"/>
             </Unit>
         </Instances>
-        <Instances Id="9">
-            <Int Int="25">
-                <Field Id="count" Index="3"/>
+        <Instances Id="14">
+            <Int Int="130">
+                <Field Id="count"/>
             </Int>
-            <Int Int="100">
-                <Field Id="count" Index="2"/>
-            </Int>
-            <Int Int="25">
+            <Int Int="30">
                 <Field Id="count" Index="1"/>
             </Int>
-            <Int Int="25">
-                <Field Id="count"/>
+            <Int Int="35">
+                <Field Id="count" Index="2"/>
+            </Int>
+            <Int Int="45">
+                <Field Id="count" Index="3"/>
             </Int>
             <Unit Unit="Marine22">
                 <Field Id="unit"/>
             </Unit>
-            <Unit Unit="ReaperChien">
+            <Unit Unit="PredatorChien">
                 <Field Id="unit" Index="1"/>
+            </Unit>
+            <Unit Unit="VikingChien">
+                <Field Id="unit" Index="2"/>
+            </Unit>
+            <Unit Unit="HellionChien">
+                <Field Id="unit" Index="3"/>
+            </Unit>
+        </Instances>
+        <Instances Id="15">
+            <Int Int="150">
+                <Field Id="count"/>
+            </Int>
+            <Int Int="30">
+                <Field Id="count" Index="1"/>
+            </Int>
+            <Int Int="50">
+                <Field Id="count" Index="2"/>
+            </Int>
+            <Int Int="15">
+                <Field Id="count" Index="3"/>
+            </Int>
+            <Int Int="30">
+                <Field Id="count" Index="4"/>
+            </Int>
+            <Unit Unit="Marine22">
+                <Field Id="unit"/>
             </Unit>
             <Unit Unit="HellionChien">
                 <Field Id="unit" Index="2"/>
@@ -183,20 +279,17 @@
             <Unit Unit="HellbatChien">
                 <Field Id="unit" Index="3"/>
             </Unit>
-        </Instances>
-        <Instances Id="10">
-            <Int Int="150">
-                <Field Id="count"/>
-            </Int>
-            <Int Int="50">
-                <Field Id="count" Index="1"/>
-            </Int>
-            <Unit Unit="HellionChien">
-                <Field Id="unit"/>
-            </Unit>
-            <Unit Unit="HellbatChien">
+            <Unit Unit="PredatorChien">
                 <Field Id="unit" Index="1"/>
             </Unit>
+            <Unit Unit="VikingChien">
+                <Field Id="unit" Index="4"/>
+            </Unit>
         </Instances>
+        <Instances Id="16"/>
+        <Instances Id="17"/>
+        <Instances Id="18"/>
+        <Instances Id="19"/>
+        <Instances Id="20"/>
     </CUser>
 </Catalog>

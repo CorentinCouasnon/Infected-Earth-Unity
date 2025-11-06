@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Catalog>
+    <CRequirement id="HALORocketsResearched2">
+        <EditorCategories value="Race:Terran,TechType:Unit"/>
+        <NodeArray index="Use" Link="CountUpgradeHALORocketsCompleteOnly3559653681"/>
+        <NodeArray index="Show" Link="AndCountUpgradeRaynorCommanderCompleteOnlyLTE13CountUpgradeCommanderLevelCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="HaveCycloneLockOnAirUpgrade2">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Use" Link="CountUpgradeCycloneAirUpgradeCompleteOnly2751028187"/>
+    </CRequirement>
+    <CRequirement id="HaveCycloneLockOnAirUpgrade3">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Use" Link="CountUpgradeCycloneAirUpgradeCompleteOnly2751028187"/>
+    </CRequirement>
     <CRequirement id="HaveHHHellionAttackDoT2">
         <NodeArray index="Use" Link="CountUpgradeHHHellionAttackDoTCompleteOnly2025306919"/>
         <NodeArray index="Show" Link="AndGTECountUpgradeCommanderLevelCompleteOnly9Not1225867992CountBehaviorUnderConstructionCompleteOnlyAtUnit"/>
@@ -50,6 +63,10 @@
         <EditorCategories value="Race:Terran,TechType:Ability"/>
         <NodeArray index="Use" Link="CountUpgradeShieldWallCompleteOnly3612790349"/>
         <NodeArray index="Show" Link="CountUpgradeRaynorCommanderCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="PhobusClassWeaponSystemsResearched2">
+        <EditorCategories value="Race:Terran"/>
+        <NodeArray index="Use" Link="CountUpgradeAresClassWeaponsSystemVikingCompleteOnly2563897870"/>
     </CRequirement>
     <CRequirement id="UseBattlecruiserSpecializations">
         <NodeArray index="Use" Link="AllowAbilSJHyperionBanshees03622066930TechTreeCheat"/>

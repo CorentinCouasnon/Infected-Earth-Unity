@@ -1,5 +1,78 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Catalog>
+    <CAbilResearch id="BarracksTechLabResearch2">
+        <EditorCategories value="Race:Terran,AbilityorEffectType:Structures"/>
+        <InfoArray index="Research1" Time="60" Upgrade="Stimpack">
+            <Resource index="Minerals" value="100"/>
+            <Resource index="Vespene" value="100"/>
+            <Button DefaultButtonFace="Stimpack" Requirements="LearnStimpack"/>
+        </InfoArray>
+        <InfoArray index="Research2" Time="60" Upgrade="ShieldWall">
+            <Resource index="Minerals" value="100"/>
+            <Resource index="Vespene" value="100"/>
+            <Button DefaultButtonFace="ResearchShieldWall" Requirements="LearnShieldWall"/>
+        </InfoArray>
+        <InfoArray index="Research3" Time="60" Upgrade="ConcussiveMarauderChien">
+            <Resource index="Minerals" value="50"/>
+            <Resource index="Vespene" value="50"/>
+            <Button DefaultButtonFace="ResearchPunisherGrenades" Requirements="LearnPunisherGrenades"/>
+        </InfoArray>
+        <InfoArray index="Research4" Time="60" Upgrade="BearclawNozzles">
+            <Resource index="Minerals" value="50"/>
+            <Resource index="Vespene" value="50"/>
+            <Button DefaultButtonFace="ResearchIncineratorGauntlets" State="Restricted" Requirements="LearnIncineratorGauntlets"/>
+        </InfoArray>
+        <InfoArray index="Research5" Time="60" Upgrade="ClusterBomb">
+            <Resource index="Minerals" value="50"/>
+            <Resource index="Vespene" value="50"/>
+            <Button DefaultButtonFace="ResearchG4Clusterbomb" State="Restricted" Requirements="LearnClusterBomb"/>
+        </InfoArray>
+        <InfoArray index="Research6" Time="60" Upgrade="StabilizerMedPacks">
+            <Resource index="Minerals" value="100"/>
+            <Resource index="Vespene" value="100"/>
+            <Button DefaultButtonFace="ResearchStabilizerMedpacks" State="Restricted" Requirements="LearnStabilizerMedPacks"/>
+        </InfoArray>
+        <InfoArray index="Research7" Time="60" Upgrade="FirebatJuggernautPlating">
+            <Resource index="Minerals" value="100"/>
+            <Resource index="Vespene" value="100"/>
+            <Button DefaultButtonFace="ResearchJuggernautPlating" State="Restricted" Requirements="LearnFirebatJuggernautPlating"/>
+        </InfoArray>
+        <InfoArray index="Research8" Time="90" Upgrade="ReaperSpiderMines">
+            <Resource index="Minerals" value="150"/>
+            <Resource index="Vespene" value="150"/>
+            <Button DefaultButtonFace="ResearchReaperSpiderMines" State="Restricted" Requirements="LearnReaperSpiderMines"/>
+        </InfoArray>
+        <InfoArray index="Research9" Time="90" Upgrade="MarineSuperStim">
+            <Resource index="Minerals" value="150"/>
+            <Resource index="Vespene" value="150"/>
+            <Button DefaultButtonFace="ResearchSuperStim" State="Restricted" Requirements="LearnMarineSuperStim"/>
+        </InfoArray>
+        <InfoArray index="Research10" Time="90" Upgrade="MarauderMagrailMunitions">
+            <Resource index="Minerals" value="150"/>
+            <Resource index="Vespene" value="150"/>
+            <Button DefaultButtonFace="ResearchMarauderMagrailMunitions" State="Restricted" Requirements="LearnMarauderMagrailMunitions"/>
+        </InfoArray>
+        <InfoArray index="Research11" Time="60" Upgrade="NovaConcussiveShells">
+            <Resource index="Minerals" value="100"/>
+            <Resource index="Vespene" value="100"/>
+            <Button DefaultButtonFace="ResearchNovaConcussiveShells" State="Restricted" Requirements="LearnNovaConcussiveShells"/>
+        </InfoArray>
+        <InfoArray index="Research12" Time="60" Upgrade="LaserTargetingSystemNova">
+            <Resource index="Minerals" value="100"/>
+            <Resource index="Vespene" value="100"/>
+            <Button DefaultButtonFace="ResearchLaserTargetingSystemNova" State="Restricted" Requirements="LearnLaserTargetingSystemNova"/>
+        </InfoArray>
+        <InfoArray index="Research13" Time="60" Upgrade="GhostBlackOpsEMP">
+            <Resource index="Minerals" value="100"/>
+            <Resource index="Vespene" value="100"/>
+            <Button DefaultButtonFace="ResearchGhostBlackOpsEMP" Requirements="LearnGhostBlackOpsEMP"/>
+        </InfoArray>
+        <InfoArray index="Research14" Time="90" Upgrade="GhostBlackOpsTripleTap">
+            <Resource index="Minerals" value="150"/>
+            <Resource index="Vespene" value="150"/>
+            <Button DefaultButtonFace="ResearchGhostBlackOpsTripleTap" State="Restricted" Requirements="LearnGhostBlackOpsTripleTap"/>
+        </InfoArray>
+    </CAbilResearch>
     <CAbilMorph id="BurrowHydraliskDown2">
         <AbilSetId value="BrwD"/>
         <EditorCategories value="Race:Zerg,AbilityorEffectType:MorphsandBurrows"/>
@@ -137,6 +210,19 @@
         <Effect index="0" value="D8Charge"/>
         <Cost>
             <Cooldown Link="D8ChargeD8Charge3" TimeUse="60"/>
+        </Cost>
+        <TargetFilters value="Ground,Visible;-"/>
+        <Range value="5"/>
+        <CastOutroTime value="0.35"/>
+        <AINotifyEffect value="D8Charge"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="D8Charge" Requirements="UseG4ClusterBombs"/>
+    </CAbilEffectTarget>
+    <CAbilEffectTarget id="D8Charge4">
+        <Alignment value="Negative"/>
+        <EditorCategories value="Race:Terran,AbilityorEffectType:Units"/>
+        <Effect index="0" value="D8Charge3"/>
+        <Cost>
+            <Cooldown Link="D8ChargeD8Charge4" TimeUse="60"/>
         </Cost>
         <TargetFilters value="Ground,Visible;-"/>
         <Range value="5"/>
@@ -390,6 +476,241 @@
             <Button DefaultButtonFace="ResearchFortifiedBunker" State="Restricted" Requirements="LearnFortifiedBunker"/>
         </InfoArray>
     </CAbilResearch>
+    <CAbilMorph id="FighterMode2">
+        <AbilSetId value="FighterMode"/>
+        <EditorCategories value="Race:Terran,AbilityorEffectType:Units"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="FighterMode" Requirements="UseFighterMode">
+            <Flags index="ToSelection" value="1"/>
+        </CmdButtonArray>
+        <Flags index="IgnoreFacing" value="1"/>
+        <InfoArray Unit="VikingFighter2" RandomDelayMax="0.5">
+            <SectionArray index="Actor">
+                <DurationArray index="Duration" value="2.333"/>
+            </SectionArray>
+            <SectionArray index="Collide">
+                <DurationArray index="Delay" value="1.5"/>
+            </SectionArray>
+            <SectionArray index="Mover">
+                <DurationArray index="Delay" value="0.6"/>
+                <DurationArray index="Duration" value="0.85"/>
+            </SectionArray>
+            <SectionArray index="Stats">
+                <DurationArray index="Duration" value="2.333"/>
+            </SectionArray>
+        </InfoArray>
+    </CAbilMorph>
+    <!--CAbilTrain id="GatewayTrain">-->
+    <!--        <InfoArray index="Train1">-->
+    <!--            <Button DefaultButtonFace="ZealotAiur"/>-->
+    <!--            <Unit index="0" value="ZealotAiur"/>-->
+    <!--        </InfoArray>-->
+    <!--        <InfoArray index="Train2" Time="38">-->
+    <!--            <Button DefaultButtonFace="ZealotShakuras" Requirements=""/>-->
+    <!--            <Unit index="0" value="ZealotShakuras"/>-->
+    <!--        </InfoArray>-->
+    <!--        <InfoArray index="Train3" Time="38">-->
+    <!--            <Button DefaultButtonFace="ZealotPurifier" Requirements=""/>-->
+    <!--            <Unit index="0" value="ZealotPurifier"/>-->
+    <!--        </InfoArray>-->
+    <!--        <InfoArray index="Train4" Time="42">-->
+    <!--            <Button DefaultButtonFace="StalkerShakuras" Requirements="HaveCyberneticsCore"/>-->
+    <!--            <Unit index="0" value="StalkerShakuras"/>-->
+    <!--        </InfoArray>-->
+    <!--        <InfoArray index="Train5" Time="42">-->
+    <!--            <Button DefaultButtonFace="Dragoon" Requirements="HaveCyberneticsCore"/>-->
+    <!--            <Unit index="0" value="Dragoon"/>-->
+    <!--        </InfoArray>-->
+    <!--        <InfoArray index="Train6" Time="42">-->
+    <!--            <Button DefaultButtonFace="StalkerPurifier" Requirements="HaveCyberneticsCore"/>-->
+    <!--            <Unit index="0" value="StalkerPurifier"/>-->
+    <!--        </InfoArray>-->
+    <!--        <InfoArray index="Train7" Time="37">-->
+    <!--            <Button DefaultButtonFace="VoidSentryAiur" State="Restricted" Requirements="HaveCyberneticsCore"/>-->
+    <!--            <Unit value="SentryAiur"/>-->
+    <!--        </InfoArray>-->
+    <!--        <InfoArray index="Train8" Time="37">-->
+    <!--            <Button DefaultButtonFace="VoidSentryPurifier" Requirements="HaveCyberneticsCore"/>-->
+    <!--            <Unit index="0" value="SentryPurifier"/>-->
+    <!--        </InfoArray>-->
+    <!--        <InfoArray index="Train9" Time="37">-->
+    <!--            <Button DefaultButtonFace="WarpInReplicant" State="Restricted" Requirements="HaveCyberneticsCore"/>-->
+    <!--            <Unit value="Replicant"/>-->
+    <!--        </InfoArray>-->
+    <!--        <InfoArray index="Train10" Time="55">-->
+    <!--            <Button DefaultButtonFace="HighArchon" State="Restricted" Requirements="HaveTemplarArchives"/>-->
+    <!--            <Unit value="ArchonAdvanced"/>-->
+    <!--        </InfoArray>-->
+    <!--        <InfoArray index="Train11" Time="55">-->
+    <!--            <Button DefaultButtonFace="VoidHighTemplarShakuras" State="Restricted" Requirements="HaveTemplarArchives"/>-->
+    <!--            <Unit value="HighTemplarShakuras"/>-->
+    <!--        </InfoArray>-->
+    <!--        <InfoArray index="Train12" Time="55">-->
+    <!--            <Button DefaultButtonFace="VoidHighTemplarTaldarim" State="Restricted" Requirements="HaveTemplarArchives"/>-->
+    <!--            <Unit value="HighTemplarTaldarim"/>-->
+    <!--        </InfoArray>-->
+    <!--        <InfoArray index="Train13" Time="55">-->
+    <!--            <Button DefaultButtonFace="DarkTemplarShakuras" State="Restricted" Requirements="HaveDarkShrine"/>-->
+    <!--            <Unit value="DarkTemplarShakuras"/>-->
+    <!--        </InfoArray>-->
+    <!--        <InfoArray index="Train14" Time="55">-->
+    <!--            <Button DefaultButtonFace="DarkTemplarAiur" State="Restricted" Requirements="HaveDarkShrine"/>-->
+    <!--            <Unit value="DarkTemplarAiur"/>-->
+    <!--        </InfoArray>-->
+    <!--        <InfoArray index="Train15" Time="55">-->
+    <!--            <Button DefaultButtonFace="DarkTemplarTaldarim" State="Restricted" Requirements="HaveDarkShrine"/>-->
+    <!--            <Unit value="DarkTemplarTaldarim"/>-->
+    <!--        </InfoArray>-->
+    <!--        <InfoArray index="Train16" Time="38">-->
+    <!--            <Button DefaultButtonFace="Zealot" State="Restricted"/>-->
+    <!--            <Unit value="Zealot"/>-->
+    <!--        </InfoArray>-->
+    <!--        <InfoArray index="Train17" Time="42">-->
+    <!--            <Button DefaultButtonFace="Stalker" State="Restricted" Requirements="HaveCyberneticsCore"/>-->
+    <!--            <Unit value="Stalker"/>-->
+    <!--        </InfoArray>-->
+    <!--        <InfoArray index="Train18" Time="37">-->
+    <!--            <Button DefaultButtonFace="Sentry" State="Restricted" Requirements="HaveCyberneticsCore"/>-->
+    <!--            <Unit value="Sentry"/>-->
+    <!--        </InfoArray>-->
+    <!--        <InfoArray index="Train19" Time="55">-->
+    <!--            <Button DefaultButtonFace="HighTemplar" State="Restricted" Requirements="HaveTemplarArchives"/>-->
+    <!--            <Unit value="HighTemplar"/>-->
+    <!--        </InfoArray>-->
+    <!--        <InfoArray index="Train20" Time="55">-->
+    <!--            <Button DefaultButtonFace="DarkTemplar" State="Restricted" Requirements="HaveDarkShrine"/>-->
+    <!--            <Unit value="DarkTemplar"/>-->
+    <!--        </InfoArray>-->
+    <!--    </CAbilTrain-->
+    <CAbilBehavior id="GhostCloak">
+        <Flags index="AutoCastOn" value="1"/>
+    </CAbilBehavior>
+    <CAbilEffectTarget id="KD8Charge4">
+        <Alignment value="Negative"/>
+        <EditorCategories value="Race:Terran,AbilityorEffectType:Units"/>
+        <Effect index="0" value="KD8Charge"/>
+        <Cost>
+            <Cooldown Link="KD8ChargeKD8Charge4" TimeUse="10"/>
+        </Cost>
+        <TargetFilters value="Ground,Visible;-"/>
+        <Range value="5"/>
+        <CastOutroTime value="0.35"/>
+        <AINotifyEffect value="KD8Charge"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="KD8Charge"/>
+    </CAbilEffectTarget>
+    <CAbilEffectTarget id="LockOn2">
+        <Alignment value="Negative"/>
+        <EditorCategories value="Race:Terran,AbilityorEffectType:Units"/>
+        <PrepEffect value="LockOnInitialAB2"/>
+        <Effect index="0" value="LockOnInitialSet2"/>
+        <Flags index="AutoCast" value="1"/>
+        <Flags index="AutoCastOn" value="1"/>
+        <Cost>
+            <Cooldown TimeUse="6"/>
+        </Cost>
+        <TargetFilters value="Visible;Self,Player,Ally,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <Range value="7"/>
+        <Arc value="360"/>
+        <AutoCastFilters value="Visible;Player,Ally,Neutral"/>
+        <AutoCastRange value="7"/>
+        <AutoCastValidatorArray value="noMarkers"/>
+        <AutoCastValidatorArray value="TargetNotLockOn"/>
+        <AutoCastValidatorArray value="IsNotInterceptor"/>
+        <AutoCastValidatorArray value="TargetNotChangeling"/>
+        <AutoCastValidatorArray value="IsNotNeuralParasited"/>
+        <AutoCastValidatorArray value="TargetNotChangeling"/>
+        <AutoCastValidatorArray value="IsDefensiveStructure"/>
+        <AutoCastValidatorArray value="IsNotBroodlingFate"/>
+        <AutoCastValidatorArray value="NotLarva"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="LockOn" Requirements="NoLockedOn"/>
+        <FollowRange value="7"/>
+    </CAbilEffectTarget>
+    <CAbilEffectTarget id="LockOn3">
+        <Alignment value="Negative"/>
+        <EditorCategories value="Race:Terran,AbilityorEffectType:Units"/>
+        <PrepEffect value="LockOnInitialAB3"/>
+        <Effect index="0" value="LockOnInitialSet3"/>
+        <Flags index="AutoCast" value="1"/>
+        <Flags index="AutoCastOn" value="1"/>
+        <Cost>
+            <Cooldown TimeUse="6"/>
+        </Cost>
+        <TargetFilters value="Visible;Self,Player,Ally,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <Range value="7"/>
+        <Arc value="360"/>
+        <AutoCastFilters value="Visible;Player,Ally,Neutral"/>
+        <AutoCastRange value="7"/>
+        <AutoCastValidatorArray value="noMarkers"/>
+        <AutoCastValidatorArray value="TargetNotLockOn"/>
+        <AutoCastValidatorArray value="IsNotInterceptor"/>
+        <AutoCastValidatorArray value="TargetNotChangeling"/>
+        <AutoCastValidatorArray value="IsNotNeuralParasited"/>
+        <AutoCastValidatorArray value="TargetNotChangeling"/>
+        <AutoCastValidatorArray value="IsDefensiveStructure"/>
+        <AutoCastValidatorArray value="IsNotBroodlingFate"/>
+        <AutoCastValidatorArray value="NotLarva"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="LockOn" Requirements="NoLockedOn"/>
+        <FollowRange value="7"/>
+    </CAbilEffectTarget>
+    <CAbilEffectTarget id="LockOnAir2">
+        <Alignment value="Negative"/>
+        <EditorCategories value="Race:Terran,AbilityorEffectType:Units"/>
+        <PrepEffect value="LockOnInitialAB"/>
+        <Effect index="0" value="LockOnAirInitialSet"/>
+        <Flags index="AutoCast" value="1"/>
+        <Flags index="AutoCastOn" value="1"/>
+        <Cost>
+            <Cooldown Link="LockOnShared" Location="Unit" TimeUse="6"/>
+        </Cost>
+        <TargetFilters value="Air,Visible;Self,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <Range value="7"/>
+        <Arc value="360"/>
+        <AutoCastFilters value="Visible;Player,Ally,Neutral"/>
+        <AutoCastRange value="7"/>
+        <AutoCastValidatorArray value="noMarkers"/>
+        <AutoCastValidatorArray value="TargetNotLockOn"/>
+        <AutoCastValidatorArray value="IsNotInterceptor"/>
+        <AutoCastValidatorArray value="TargetNotChangeling"/>
+        <AutoCastValidatorArray value="IsNotNeuralParasited"/>
+        <AutoCastValidatorArray value="IsFlying"/>
+        <AutoCastValidatorArray value="IsNotBroodlingFate"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="LockOnAir" Requirements="NoLockedOn"/>
+    </CAbilEffectTarget>
+    <CAbilEffectTarget id="LockOnAir3">
+        <Alignment value="Negative"/>
+        <EditorCategories value="Race:Terran,AbilityorEffectType:Units"/>
+        <PrepEffect value="LockOnInitialAB"/>
+        <Effect index="0" value="LockOnAirInitialSet"/>
+        <Flags index="AutoCast" value="1"/>
+        <Flags index="AutoCastOn" value="1"/>
+        <Cost>
+            <Cooldown Link="LockOnShared" Location="Unit" TimeUse="6"/>
+        </Cost>
+        <TargetFilters value="Air,Visible;Self,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <Range value="7"/>
+        <Arc value="360"/>
+        <AutoCastFilters value="Visible;Player,Ally,Neutral"/>
+        <AutoCastRange value="7"/>
+        <AutoCastValidatorArray value="noMarkers"/>
+        <AutoCastValidatorArray value="TargetNotLockOn"/>
+        <AutoCastValidatorArray value="IsNotInterceptor"/>
+        <AutoCastValidatorArray value="TargetNotChangeling"/>
+        <AutoCastValidatorArray value="IsNotNeuralParasited"/>
+        <AutoCastValidatorArray value="IsFlying"/>
+        <AutoCastValidatorArray value="IsNotBroodlingFate"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="LockOnAir" Requirements="NoLockedOn"/>
+    </CAbilEffectTarget>
+    <CAbilEffectInstant id="LockOnCancel2">
+        <EditorCategories value="Race:Terran,AbilityorEffectType:Units"/>
+        <Effect index="0" value="LockOnDisableAttackRB2"/>
+        <Flags index="Transient" value="1"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="LockOnCancel" Requirements="LockedOn"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="LockOnCancel3">
+        <EditorCategories value="Race:Terran,AbilityorEffectType:Units"/>
+        <Effect index="0" value="LockOnDisableAttackRB3"/>
+        <Flags index="Transient" value="1"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="LockOnCancel" Requirements="LockedOn"/>
+    </CAbilEffectInstant>
     <CAbilMorph id="MorphToHHHellion2">
         <AbilSetId value="HellionMode"/>
         <EditorCategories value="Race:Terran,AbilityorEffectType:MorphsandBurrows"/>
@@ -576,6 +897,7 @@
                 <CountStart value="50"/>
                 <CountUse value="1"/>
                 <Link value="RaynorAttackSpeedUpgrade"/>
+                <Location value="Player"/>
             </Charge>
             <Cooldown TimeUse="0.0625"/>
             <Button DefaultButtonFace="AS"/>
@@ -587,7 +909,8 @@
                 <CountMax value="15"/>
                 <CountStart value="15"/>
                 <CountUse value="1"/>
-                <Link value="RaynorAttackSpeedUpgrade"/>
+                <Link value="RaynorMovementSpeedUpgrade"/>
+                <Location value="Player"/>
             </Charge>
             <Cooldown TimeUse="0.0625"/>
             <Button DefaultButtonFace="MovementSpeed"/>
@@ -1476,6 +1799,31 @@
         <MinAttackSpeedMultiplier value="0.25"/>
         <MaxAttackSpeedMultiplier value="128"/>
     </CAbilAttack>
+    <CAbilAttack id="attack24">
+        <TargetMessage value="Abil/TargetMessage/attack24"/>
+        <MinAttackSpeedMultiplier value="0.25"/>
+        <MaxAttackSpeedMultiplier value="128"/>
+    </CAbilAttack>
+    <CAbilAttack id="attack25">
+        <TargetMessage value="Abil/TargetMessage/attack25"/>
+        <MinAttackSpeedMultiplier value="0.25"/>
+        <MaxAttackSpeedMultiplier value="128"/>
+    </CAbilAttack>
+    <CAbilAttack id="attack26">
+        <TargetMessage value="Abil/TargetMessage/attack26"/>
+        <MinAttackSpeedMultiplier value="0.25"/>
+        <MaxAttackSpeedMultiplier value="128"/>
+    </CAbilAttack>
+    <CAbilAttack id="attack27">
+        <TargetMessage value="Abil/TargetMessage/attack27"/>
+        <MinAttackSpeedMultiplier value="0.25"/>
+        <MaxAttackSpeedMultiplier value="128"/>
+    </CAbilAttack>
+    <CAbilAttack id="attack28">
+        <TargetMessage value="Abil/TargetMessage/attack28"/>
+        <MinAttackSpeedMultiplier value="0.25"/>
+        <MaxAttackSpeedMultiplier value="128"/>
+    </CAbilAttack>
     <CAbilAttack id="attack3">
         <TargetMessage value="Abil/TargetMessage/attack3"/>
         <MinAttackSpeedMultiplier value="0.25"/>
@@ -1604,6 +1952,46 @@
         <MinPatrolDistance value="1"/>
         <FollowFilters value="-;Hover"/>
     </CAbilMove>
+    <CAbilMove id="move20">
+        <FleeRange value="5"/>
+        <FleeTime value="5"/>
+        <FollowRangeSlop value="1"/>
+        <FollowAcquireRange value="6"/>
+        <MinPatrolDistance value="1"/>
+        <FollowFilters value="-;Hover"/>
+    </CAbilMove>
+    <CAbilMove id="move21">
+        <FleeRange value="5"/>
+        <FleeTime value="5"/>
+        <FollowRangeSlop value="1"/>
+        <FollowAcquireRange value="6"/>
+        <MinPatrolDistance value="1"/>
+        <FollowFilters value="-;Hover"/>
+    </CAbilMove>
+    <CAbilMove id="move22">
+        <FleeRange value="5"/>
+        <FleeTime value="5"/>
+        <FollowRangeSlop value="1"/>
+        <FollowAcquireRange value="6"/>
+        <MinPatrolDistance value="1"/>
+        <FollowFilters value="-;Hover"/>
+    </CAbilMove>
+    <CAbilMove id="move23">
+        <FleeRange value="5"/>
+        <FleeTime value="5"/>
+        <FollowRangeSlop value="1"/>
+        <FollowAcquireRange value="6"/>
+        <MinPatrolDistance value="1"/>
+        <FollowFilters value="-;Hover"/>
+    </CAbilMove>
+    <CAbilMove id="move24">
+        <FleeRange value="5"/>
+        <FleeTime value="5"/>
+        <FollowRangeSlop value="1"/>
+        <FollowAcquireRange value="6"/>
+        <MinPatrolDistance value="1"/>
+        <FollowFilters value="-;Hover"/>
+    </CAbilMove>
     <CAbilMove id="move3">
         <FleeRange value="5"/>
         <FleeTime value="5"/>
@@ -1704,6 +2092,21 @@
         <CmdButtonArray index="HoldFire" DefaultButtonFace="HoldFireSpecial"/>
     </CAbilStop>
     <CAbilStop id="stop2">
+        <CmdButtonArray index="HoldFire" DefaultButtonFace="HoldFireSpecial"/>
+    </CAbilStop>
+    <CAbilStop id="stop20">
+        <CmdButtonArray index="HoldFire" DefaultButtonFace="HoldFireSpecial"/>
+    </CAbilStop>
+    <CAbilStop id="stop21">
+        <CmdButtonArray index="HoldFire" DefaultButtonFace="HoldFireSpecial"/>
+    </CAbilStop>
+    <CAbilStop id="stop22">
+        <CmdButtonArray index="HoldFire" DefaultButtonFace="HoldFireSpecial"/>
+    </CAbilStop>
+    <CAbilStop id="stop23">
+        <CmdButtonArray index="HoldFire" DefaultButtonFace="HoldFireSpecial"/>
+    </CAbilStop>
+    <CAbilStop id="stop24">
         <CmdButtonArray index="HoldFire" DefaultButtonFace="HoldFireSpecial"/>
     </CAbilStop>
     <CAbilStop id="stop3">

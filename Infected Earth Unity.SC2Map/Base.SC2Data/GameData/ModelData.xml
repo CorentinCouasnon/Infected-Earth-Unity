@@ -404,6 +404,21 @@
         <ScaleMax value="0.500000,0.500000,0.500000"/>
         <ScaleMin value="0.500000,0.500000,0.500000"/>
     </CModel>
+    <CModel id="BloodTargetImpact10" parent="ImpactFX">
+        <Model value="Assets\Effects\Other\BloodTargetImpact\BloodTargetImpact.m3"/>
+        <EditorCategories value="Race:Neutral"/>
+        <Flags index="Ignorable" value="1"/>
+    </CModel>
+    <CModel id="BloodTargetImpact11" parent="ImpactFX">
+        <Model value="Assets\Effects\Other\BloodTargetImpact\BloodTargetImpact.m3"/>
+        <EditorCategories value="Race:Neutral"/>
+        <Flags index="Ignorable" value="1"/>
+    </CModel>
+    <CModel id="BloodTargetImpact12" parent="ImpactFX">
+        <Model value="Assets\Effects\Other\BloodTargetImpact\BloodTargetImpact.m3"/>
+        <EditorCategories value="Race:Neutral"/>
+        <Flags index="Ignorable" value="1"/>
+    </CModel>
     <CModel id="BloodTargetImpact2" parent="ImpactFX">
         <Model value="Assets\Effects\Other\BloodTargetImpact\BloodTargetImpact.m3"/>
         <EditorCategories value="Race:Neutral"/>
@@ -449,7 +464,72 @@
         <LowQualityModel value="ZergSmallUnitDeathLow"/>
         <Occlusion value="Show"/>
     </CModel>
+    <CModel id="CyberCatPortrait2" parent="Portrait">
+        <Model value="Assets\Portraits\Terran\PredatorPortrait\PredatorPortrait.m3"/>
+        <Image value="Assets\Textures\PredatorPortrait_Static.dds"/>
+    </CModel>
+    <CModel id="Cyclone2" parent="CycloneBase">
+        <Model value="Assets\Units\Terran\Cyclone\Cyclone.m3"/>
+    </CModel>
+    <CModel id="Cyclone3" parent="CycloneBase">
+        <Model value="Assets\Units\Terran\Cyclone\Cyclone.m3"/>
+    </CModel>
+    <CModel id="CycloneDeath2" parent="CycloneDeathBase">
+        <Model value="Assets\Units\Terran\Cyclone_Death\Cyclone_Death.m3"/>
+    </CModel>
+    <CModel id="CycloneDeath3" parent="CycloneDeathBase">
+        <Model value="Assets\Units\Terran\Cyclone_Death\Cyclone_Death.m3"/>
+    </CModel>
+    <CModel id="CycloneDeathRagdoll2" parent="CycloneDeathRagdollBase">
+        <Model value="Assets\Units\Terran\CycloneDeathRagdoll\CycloneDeathRagdoll.m3"/>
+    </CModel>
+    <CModel id="CycloneDeathRagdoll3" parent="CycloneDeathRagdollBase">
+        <Model value="Assets\Units\Terran\CycloneDeathRagdoll\CycloneDeathRagdoll.m3"/>
+    </CModel>
+    <CModel id="CycloneMissile2" parent="MissileFX">
+        <Model value="Assets\Effects\Terran\Cyclone_Missile\Cyclone_Missile.m3"/>
+        <EditorCategories value="Race:Terran"/>
+        <ScaleMax value="0.500000,0.500000,0.500000"/>
+        <ScaleMin value="0.500000,0.500000,0.500000"/>
+    </CModel>
+    <CModel id="CycloneMissile3" parent="MissileFX">
+        <Model value="Assets\Effects\Terran\Cyclone_Missile\Cyclone_Missile.m3"/>
+        <EditorCategories value="Race:Terran"/>
+        <ScaleMax value="0.500000,0.500000,0.500000"/>
+        <ScaleMin value="0.500000,0.500000,0.500000"/>
+    </CModel>
+    <CModel id="CycloneMissileImpact2" parent="ImpactFX">
+        <Model value="Assets\Effects\Terran\Cyclone_Missile_Impact\Cyclone_Missile_Impact.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="CycloneMissileImpact3" parent="ImpactFX">
+        <Model value="Assets\Effects\Terran\Cyclone_Missile_Impact\Cyclone_Missile_Impact.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="CycloneMissileLaunch2" parent="LaunchFX">
+        <Model value="Assets\Effects\Terran\Cyclone_Missile_Launch\Cyclone_Missile_Launch.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="CycloneMissileLaunch3" parent="LaunchFX">
+        <Model value="Assets\Effects\Terran\Cyclone_Missile_Launch\Cyclone_Missile_Launch.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="CyclonePortrait2" parent="CyclonePortraitBase">
+        <Model value="Assets\Portraits\Terran\CycloneEx2_Portrait\CycloneEx2_Portrait.m3"/>
+        <Image value="Assets\Textures\CyclonePortrait_Static.dds"/>
+        <Lighting value="CyclonePortrait"/>
+    </CModel>
+    <CModel id="CyclonePortrait3" parent="CyclonePortraitBase">
+        <Model value="Assets\Portraits\Terran\CycloneEx2_Portrait\CycloneEx2_Portrait.m3"/>
+        <Image value="Assets\Textures\CyclonePortrait_Static.dds"/>
+        <Lighting value="CyclonePortrait"/>
+    </CModel>
     <CModel id="D8ChargeWeapon2" parent="MissileFX">
+        <Model value="Assets\Effects\Terran\MagneticMineMissile\MagneticMineMissile.m3"/>
+        <EditorCategories value="Race:Terran"/>
+        <Occlusion value="Show"/>
+    </CModel>
+    <CModel id="D8ChargeWeapon3" parent="MissileFX">
         <Model value="Assets\Effects\Terran\MagneticMineMissile\MagneticMineMissile.m3"/>
         <EditorCategories value="Race:Terran"/>
         <Occlusion value="Show"/>
@@ -573,6 +653,10 @@
         <ScaleMin value="1.500000,1.500000,1.500000"/>
     </CModel>
     <CModel id="DeathVoidShadowSmall10" parent="UnitDeath">
+        <Model value="Assets\Units\Neutral\VoidUnit_Death\VoidUnit_Death.m3"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CModel>
+    <CModel id="DeathVoidShadowSmall11" parent="UnitDeath">
         <Model value="Assets\Units\Neutral\VoidUnit_Death\VoidUnit_Death.m3"/>
         <EditorCategories value="Race:Zerg"/>
     </CModel>
@@ -1113,7 +1197,47 @@
         <SelectionRadius value="0.000000"/>
         <ShadowRadius value="0.000000"/>
     </CModel>
+    <CModel id="Invisible26" Race="Neutral">
+        <Model value="Assets\Units\Test\InvisibleUnit\InvisibleUnit.m3"/>
+        <EditorCategories value="Race:Neutral"/>
+        <Flags index="TeenSafe" value="1"/>
+        <Radius value="-1.000000"/>
+        <SelectionRadius value="0.000000"/>
+        <ShadowRadius value="0.000000"/>
+    </CModel>
+    <CModel id="Invisible27" Race="Neutral">
+        <Model value="Assets\Units\Test\InvisibleUnit\InvisibleUnit.m3"/>
+        <EditorCategories value="Race:Neutral"/>
+        <Flags index="TeenSafe" value="1"/>
+        <Radius value="-1.000000"/>
+        <SelectionRadius value="0.000000"/>
+        <ShadowRadius value="0.000000"/>
+    </CModel>
+    <CModel id="Invisible28" Race="Neutral">
+        <Model value="Assets\Units\Test\InvisibleUnit\InvisibleUnit.m3"/>
+        <EditorCategories value="Race:Neutral"/>
+        <Flags index="TeenSafe" value="1"/>
+        <Radius value="-1.000000"/>
+        <SelectionRadius value="0.000000"/>
+        <ShadowRadius value="0.000000"/>
+    </CModel>
+    <CModel id="Invisible29" Race="Neutral">
+        <Model value="Assets\Units\Test\InvisibleUnit\InvisibleUnit.m3"/>
+        <EditorCategories value="Race:Neutral"/>
+        <Flags index="TeenSafe" value="1"/>
+        <Radius value="-1.000000"/>
+        <SelectionRadius value="0.000000"/>
+        <ShadowRadius value="0.000000"/>
+    </CModel>
     <CModel id="Invisible3" Race="Neutral">
+        <Model value="Assets\Units\Test\InvisibleUnit\InvisibleUnit.m3"/>
+        <EditorCategories value="Race:Neutral"/>
+        <Flags index="TeenSafe" value="1"/>
+        <Radius value="-1.000000"/>
+        <SelectionRadius value="0.000000"/>
+        <ShadowRadius value="0.000000"/>
+    </CModel>
+    <CModel id="Invisible30" Race="Neutral">
         <Model value="Assets\Units\Test\InvisibleUnit\InvisibleUnit.m3"/>
         <EditorCategories value="Race:Neutral"/>
         <Flags index="TeenSafe" value="1"/>
@@ -1472,6 +1596,23 @@
         <Model value="Assets\Effects\Zerg\HydraliskMissile\HydraliskMissile.m3"/>
         <EditorCategories value="Race:Zerg"/>
     </CModel>
+    <CModel id="Predator2" parent="Unit">
+        <Model value="Assets\Units\Terran\Predator\Predator.m3"/>
+        <EditorCategories value="Race:Terran"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraMid04"/>
+        <Radius value="0.650000"/>
+        <ScaleMax value="1.300000,1.300000,1.300000"/>
+        <ScaleMin value="1.300000,1.300000,1.300000"/>
+        <SelectionRadius value="0.400000"/>
+        <ShadowRadius value="0.400000"/>
+        <TechPurchaseCamera value="Star2CameraMid04"/>
+        <UnitGlossaryCamera value="Star2CameraMid04"/>
+    </CModel>
+    <CModel id="PredatorDeath2" parent="UnitDeath" Race="Terran">
+        <Model value="Assets\Units\Terran\PredatorDeath\PredatorDeath.m3"/>
+        <LowQualityModel value="TerranSmallUnitDeath"/>
+    </CModel>
     <CModel id="ProtossSmallUnitDeathLow10" parent="UnitDeath" Race="Protoss">
         <Model value="Assets\Effects\Protoss\ProtossUnitDeath\ProtossUnitDeath_Low.m3"/>
         <Flags index="TeenSafe" value="1"/>
@@ -1608,7 +1749,47 @@
         <SelectionRadius value="0.400000"/>
         <ShadowRadius value="0.400000"/>
     </CModel>
+    <CModel id="ProtossSmallUnitDeathLow26" parent="UnitDeath" Race="Protoss">
+        <Model value="Assets\Effects\Protoss\ProtossUnitDeath\ProtossUnitDeath_Low.m3"/>
+        <Flags index="TeenSafe" value="1"/>
+        <ScaleMax value="1.250000,1.250000,1.250000"/>
+        <ScaleMin value="1.250000,1.250000,1.250000"/>
+        <SelectionRadius value="0.400000"/>
+        <ShadowRadius value="0.400000"/>
+    </CModel>
+    <CModel id="ProtossSmallUnitDeathLow27" parent="UnitDeath" Race="Protoss">
+        <Model value="Assets\Effects\Protoss\ProtossUnitDeath\ProtossUnitDeath_Low.m3"/>
+        <Flags index="TeenSafe" value="1"/>
+        <ScaleMax value="1.250000,1.250000,1.250000"/>
+        <ScaleMin value="1.250000,1.250000,1.250000"/>
+        <SelectionRadius value="0.400000"/>
+        <ShadowRadius value="0.400000"/>
+    </CModel>
+    <CModel id="ProtossSmallUnitDeathLow28" parent="UnitDeath" Race="Protoss">
+        <Model value="Assets\Effects\Protoss\ProtossUnitDeath\ProtossUnitDeath_Low.m3"/>
+        <Flags index="TeenSafe" value="1"/>
+        <ScaleMax value="1.250000,1.250000,1.250000"/>
+        <ScaleMin value="1.250000,1.250000,1.250000"/>
+        <SelectionRadius value="0.400000"/>
+        <ShadowRadius value="0.400000"/>
+    </CModel>
+    <CModel id="ProtossSmallUnitDeathLow29" parent="UnitDeath" Race="Protoss">
+        <Model value="Assets\Effects\Protoss\ProtossUnitDeath\ProtossUnitDeath_Low.m3"/>
+        <Flags index="TeenSafe" value="1"/>
+        <ScaleMax value="1.250000,1.250000,1.250000"/>
+        <ScaleMin value="1.250000,1.250000,1.250000"/>
+        <SelectionRadius value="0.400000"/>
+        <ShadowRadius value="0.400000"/>
+    </CModel>
     <CModel id="ProtossSmallUnitDeathLow3" parent="UnitDeath" Race="Protoss">
+        <Model value="Assets\Effects\Protoss\ProtossUnitDeath\ProtossUnitDeath_Low.m3"/>
+        <Flags index="TeenSafe" value="1"/>
+        <ScaleMax value="1.250000,1.250000,1.250000"/>
+        <ScaleMin value="1.250000,1.250000,1.250000"/>
+        <SelectionRadius value="0.400000"/>
+        <ShadowRadius value="0.400000"/>
+    </CModel>
+    <CModel id="ProtossSmallUnitDeathLow30" parent="UnitDeath" Race="Protoss">
         <Model value="Assets\Effects\Protoss\ProtossUnitDeath\ProtossUnitDeath_Low.m3"/>
         <Flags index="TeenSafe" value="1"/>
         <ScaleMax value="1.250000,1.250000,1.250000"/>
@@ -1730,11 +1911,18 @@
     <CModel id="Reaper3" parent="ReaperBase">
         <Model value="Assets\Units\Terran\Reaper\Reaper.m3"/>
     </CModel>
+    <CModel id="Reaper4" parent="ReaperBase">
+        <Model value="Assets\Units\Terran\Reaper\Reaper.m3"/>
+    </CModel>
     <CModel id="ReaperAttackImpact2" parent="ImpactFX">
         <Model value="Assets\Effects\Terran\ReaperWeaponImpact\ReaperWeaponImpact.m3"/>
         <EditorCategories value="Race:Terran"/>
     </CModel>
     <CModel id="ReaperAttackImpact3" parent="ImpactFX">
+        <Model value="Assets\Effects\Terran\ReaperWeaponImpact\ReaperWeaponImpact.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="ReaperAttackImpact4" parent="ImpactFX">
         <Model value="Assets\Effects\Terran\ReaperWeaponImpact\ReaperWeaponImpact.m3"/>
         <EditorCategories value="Race:Terran"/>
     </CModel>
@@ -1746,6 +1934,10 @@
         <Model value="Assets\Effects\Terran\ReaperWeaponLaunch\ReaperWeaponLaunch.m3"/>
         <EditorCategories value="Race:Terran"/>
     </CModel>
+    <CModel id="ReaperAttackLaunch4" parent="LaunchFX">
+        <Model value="Assets\Effects\Terran\ReaperWeaponLaunch\ReaperWeaponLaunch.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
     <CModel id="ReaperBunkerAttackLaunch2" parent="LaunchFX">
         <Model value="Assets\Effects\Terran\ReaperFireSprite\ReaperFireSprite.m3"/>
         <EditorCategories value="Race:Terran"/>
@@ -1754,7 +1946,15 @@
         <Model value="Assets\Effects\Terran\ReaperFireSprite\ReaperFireSprite.m3"/>
         <EditorCategories value="Race:Terran"/>
     </CModel>
+    <CModel id="ReaperBunkerAttackLaunch4" parent="LaunchFX">
+        <Model value="Assets\Effects\Terran\ReaperFireSprite\ReaperFireSprite.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
     <CModel id="ReaperD8AttackImpact2" parent="LaunchFX">
+        <Model value="Assets\Effects\Terran\TerranSmallBlast\TerranSmallBlast.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="ReaperD8AttackImpact3" parent="LaunchFX">
         <Model value="Assets\Effects\Terran\TerranSmallBlast\TerranSmallBlast.m3"/>
         <EditorCategories value="Race:Terran"/>
     </CModel>
@@ -1764,10 +1964,16 @@
     <CModel id="ReaperDeath3" parent="ReaperDeathBase">
         <Model value="Assets\Units\Terran\ReaperDeathEx1\ReaperDeathEx1.m3"/>
     </CModel>
+    <CModel id="ReaperDeath4" parent="ReaperDeathBase">
+        <Model value="Assets\Units\Terran\ReaperDeathEx1\ReaperDeathEx1.m3"/>
+    </CModel>
     <CModel id="ReaperDeathRagdoll2" parent="ReaperDeathRagdollBase">
         <Model value="Assets\Units\Terran\ReaperDeathRagdoll\ReaperDeathRagdoll.m3"/>
     </CModel>
     <CModel id="ReaperDeathRagdoll3" parent="ReaperDeathRagdollBase">
+        <Model value="Assets\Units\Terran\ReaperDeathRagdoll\ReaperDeathRagdoll.m3"/>
+    </CModel>
+    <CModel id="ReaperDeathRagdoll4" parent="ReaperDeathRagdollBase">
         <Model value="Assets\Units\Terran\ReaperDeathRagdoll\ReaperDeathRagdoll.m3"/>
     </CModel>
     <CModel id="ReaperHeal2" parent="PersistentSpellFX">
@@ -1782,12 +1988,23 @@
         <ScaleMax value="0.800000,0.800000,0.800000"/>
         <ScaleMin value="0.800000,0.800000,0.800000"/>
     </CModel>
+    <CModel id="ReaperHeal4" parent="PersistentSpellFX">
+        <Model value="Assets\Effects\Terran\ReaperHeal\ReaperHeal.m3"/>
+        <EditorCategories value="Race:Terran"/>
+        <ScaleMax value="0.800000,0.800000,0.800000"/>
+        <ScaleMin value="0.800000,0.800000,0.800000"/>
+    </CModel>
     <CModel id="ReaperJumpLandDownModel2" parent="OneShotSpellFX">
         <Model value="Assets\Effects\Terran\ReaperJumpLandDown\ReaperJumpLandDown.m3"/>
         <EditorCategories value="Race:Terran"/>
         <RadiusLoose value="0.500000"/>
     </CModel>
     <CModel id="ReaperJumpLandDownModel3" parent="OneShotSpellFX">
+        <Model value="Assets\Effects\Terran\ReaperJumpLandDown\ReaperJumpLandDown.m3"/>
+        <EditorCategories value="Race:Terran"/>
+        <RadiusLoose value="0.500000"/>
+    </CModel>
+    <CModel id="ReaperJumpLandDownModel4" parent="OneShotSpellFX">
         <Model value="Assets\Effects\Terran\ReaperJumpLandDown\ReaperJumpLandDown.m3"/>
         <EditorCategories value="Race:Terran"/>
         <RadiusLoose value="0.500000"/>
@@ -1804,6 +2021,12 @@
         <Radius value="0.350000"/>
         <RadiusLoose value="0.350000"/>
     </CModel>
+    <CModel id="ReaperJumpLaunchModel4" parent="OneShotSpellFX">
+        <Model value="Assets\Effects\Terran\ReaperJumpLaunch\ReaperJumpLaunch.m3"/>
+        <EditorCategories value="Race:Terran"/>
+        <Radius value="0.350000"/>
+        <RadiusLoose value="0.350000"/>
+    </CModel>
     <CModel id="ReaperPortrait2" parent="ReaperPortraitBase">
         <Model value="Assets\Portraits\Terran\ReaperPortrait\ReaperPortrait.m3"/>
         <Image value="Assets\Textures\ReaperPortrait_Static.dds"/>
@@ -1813,6 +2036,16 @@
         <Model value="Assets\Portraits\Terran\ReaperPortrait\ReaperPortrait.m3"/>
         <Image value="Assets\Textures\ReaperPortrait_Static.dds"/>
         <Lighting value="ReaperPortrait"/>
+    </CModel>
+    <CModel id="ReaperPortrait4" parent="ReaperPortraitBase">
+        <Model value="Assets\Portraits\Terran\ReaperPortrait\ReaperPortrait.m3"/>
+        <Image value="Assets\Textures\ReaperPortrait_Static.dds"/>
+        <Lighting value="ReaperPortrait"/>
+    </CModel>
+    <CModel id="RetributionFieldLaunch2" parent="ImpactFX">
+        <Model value="Assets\Effects\Terran\PredatorImpactShockwave\PredatorImpactShockwave.m3"/>
+        <EditorCategories value="Race:Terran"/>
+        <Radius value="1.000000"/>
     </CModel>
     <CModel id="Roach2" parent="RoachBase">
         <Model value="Assets\Units\Zerg\Roach\Roach.m3"/>
@@ -2202,8 +2435,53 @@
         <SelectionRadius value="0.454300"/>
         <ShadowRadius value="0.454300"/>
     </CModel>
+    <CModel id="TerranSmallUnitDeathLow26" parent="UnitDeath" Race="Terran">
+        <Model value="Assets\Effects\Terran\TerranSmallUnitDeath\TerranSmallUnitDeath_Low.m3"/>
+        <EditorCategories value="Race:Zerg"/>
+        <Flags index="TeenSafe" value="1"/>
+        <ScaleMax value="1.100000,1.100000,1.100000"/>
+        <ScaleMin value="1.100000,1.100000,1.100000"/>
+        <SelectionRadius value="0.454300"/>
+        <ShadowRadius value="0.454300"/>
+    </CModel>
+    <CModel id="TerranSmallUnitDeathLow27" parent="UnitDeath" Race="Terran">
+        <Model value="Assets\Effects\Terran\TerranSmallUnitDeath\TerranSmallUnitDeath_Low.m3"/>
+        <EditorCategories value="Race:Zerg"/>
+        <Flags index="TeenSafe" value="1"/>
+        <ScaleMax value="1.100000,1.100000,1.100000"/>
+        <ScaleMin value="1.100000,1.100000,1.100000"/>
+        <SelectionRadius value="0.454300"/>
+        <ShadowRadius value="0.454300"/>
+    </CModel>
+    <CModel id="TerranSmallUnitDeathLow28" parent="UnitDeath" Race="Terran">
+        <Model value="Assets\Effects\Terran\TerranSmallUnitDeath\TerranSmallUnitDeath_Low.m3"/>
+        <EditorCategories value="Race:Zerg"/>
+        <Flags index="TeenSafe" value="1"/>
+        <ScaleMax value="1.100000,1.100000,1.100000"/>
+        <ScaleMin value="1.100000,1.100000,1.100000"/>
+        <SelectionRadius value="0.454300"/>
+        <ShadowRadius value="0.454300"/>
+    </CModel>
+    <CModel id="TerranSmallUnitDeathLow29" parent="UnitDeath" Race="Terran">
+        <Model value="Assets\Effects\Terran\TerranSmallUnitDeath\TerranSmallUnitDeath_Low.m3"/>
+        <EditorCategories value="Race:Zerg"/>
+        <Flags index="TeenSafe" value="1"/>
+        <ScaleMax value="1.100000,1.100000,1.100000"/>
+        <ScaleMin value="1.100000,1.100000,1.100000"/>
+        <SelectionRadius value="0.454300"/>
+        <ShadowRadius value="0.454300"/>
+    </CModel>
     <CModel id="TerranSmallUnitDeathLow3" parent="UnitDeath" Race="Terran">
         <Model value="Assets\Effects\Terran\TerranSmallUnitDeath\TerranSmallUnitDeath_Low.m3"/>
+        <Flags index="TeenSafe" value="1"/>
+        <ScaleMax value="1.100000,1.100000,1.100000"/>
+        <ScaleMin value="1.100000,1.100000,1.100000"/>
+        <SelectionRadius value="0.454300"/>
+        <ShadowRadius value="0.454300"/>
+    </CModel>
+    <CModel id="TerranSmallUnitDeathLow30" parent="UnitDeath" Race="Terran">
+        <Model value="Assets\Effects\Terran\TerranSmallUnitDeath\TerranSmallUnitDeath_Low.m3"/>
+        <EditorCategories value="Race:Zerg"/>
         <Flags index="TeenSafe" value="1"/>
         <ScaleMax value="1.100000,1.100000,1.100000"/>
         <ScaleMin value="1.100000,1.100000,1.100000"/>
@@ -2355,6 +2633,28 @@
     </CModel>
     <CModel id="UnityBarrier5" parent="PersistentSpellFX">
         <Model value="Assets\Effects\Protoss\Karax_UnityBarrier\Karax_UnityBarrier.m3"/>
+    </CModel>
+    <CModel id="VikingAssault2" parent="VikingAssaultBase">
+        <Model value="Assets\Units\Terran\VikingAssault\VikingAssault.m3"/>
+    </CModel>
+    <CModel id="VikingAssaultAttackImpact2" parent="ImpactFX">
+        <Model value="Assets\Effects\Terran\VikingAssaultWeaponImpact\VikingAssaultWeaponImpact.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="VikingAssaultAttackLaunch2" parent="LaunchFX">
+        <Model value="Assets\Effects\Terran\VikingAssaultWeaponLaunch\VikingAssaultWeaponLaunch.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="VikingAssaultDeath2" parent="VikingAssaultDeathBase">
+        <Model value="Assets\Units\Terran\VikingAssaultDeathEx1\VikingAssaultDeathEx1.m3"/>
+    </CModel>
+    <CModel id="VikingAssaultDeathRagdoll2" parent="VikingAssaultDeathRagdollBase">
+        <Model value="Assets\Units\Terran\VikingAssaultDeathRagdoll\VikingAssaultDeathRagdoll.m3"/>
+    </CModel>
+    <CModel id="VikingFighterPortrait2" parent="VikingPortraitBase">
+        <Model value="Assets\Portraits\Terran\VikingPortrait\VikingPortrait.m3"/>
+        <Image value="Assets\Textures\VikingFighterPortrait_Static.dds"/>
+        <Lighting value="VikingFighterPortrait"/>
     </CModel>
     <CModel id="VoidZealotWhirlwindImpact2" parent="ImpactFX">
         <Model value="Assets\Effects\Protoss\Zealot_Aiur_Whirlwind_Impact\Zealot_Aiur_Whirlwind_Impact.m3"/>
@@ -2848,7 +3148,52 @@
         <SelectionRadius value="0.625000"/>
         <ShadowRadius value="0.625000"/>
     </CModel>
+    <CModel id="ZergSmallUnitDeathLow26" parent="UnitDeath" Race="Zerg">
+        <Model value="Assets\Effects\Zerg\ZergSmallUnitDeath\ZergSmallUnitDeath_low.m3"/>
+        <Flags index="TeenSafe" value="1"/>
+        <Occlusion value="Show"/>
+        <ScaleMax value="0.800000,0.800000,0.800000"/>
+        <ScaleMin value="0.800000,0.800000,0.800000"/>
+        <SelectionRadius value="0.625000"/>
+        <ShadowRadius value="0.625000"/>
+    </CModel>
+    <CModel id="ZergSmallUnitDeathLow27" parent="UnitDeath" Race="Zerg">
+        <Model value="Assets\Effects\Zerg\ZergSmallUnitDeath\ZergSmallUnitDeath_low.m3"/>
+        <Flags index="TeenSafe" value="1"/>
+        <Occlusion value="Show"/>
+        <ScaleMax value="0.800000,0.800000,0.800000"/>
+        <ScaleMin value="0.800000,0.800000,0.800000"/>
+        <SelectionRadius value="0.625000"/>
+        <ShadowRadius value="0.625000"/>
+    </CModel>
+    <CModel id="ZergSmallUnitDeathLow28" parent="UnitDeath" Race="Zerg">
+        <Model value="Assets\Effects\Zerg\ZergSmallUnitDeath\ZergSmallUnitDeath_low.m3"/>
+        <Flags index="TeenSafe" value="1"/>
+        <Occlusion value="Show"/>
+        <ScaleMax value="0.800000,0.800000,0.800000"/>
+        <ScaleMin value="0.800000,0.800000,0.800000"/>
+        <SelectionRadius value="0.625000"/>
+        <ShadowRadius value="0.625000"/>
+    </CModel>
+    <CModel id="ZergSmallUnitDeathLow29" parent="UnitDeath" Race="Zerg">
+        <Model value="Assets\Effects\Zerg\ZergSmallUnitDeath\ZergSmallUnitDeath_low.m3"/>
+        <Flags index="TeenSafe" value="1"/>
+        <Occlusion value="Show"/>
+        <ScaleMax value="0.800000,0.800000,0.800000"/>
+        <ScaleMin value="0.800000,0.800000,0.800000"/>
+        <SelectionRadius value="0.625000"/>
+        <ShadowRadius value="0.625000"/>
+    </CModel>
     <CModel id="ZergSmallUnitDeathLow3" parent="UnitDeath" Race="Zerg">
+        <Model value="Assets\Effects\Zerg\ZergSmallUnitDeath\ZergSmallUnitDeath_low.m3"/>
+        <Flags index="TeenSafe" value="1"/>
+        <Occlusion value="Show"/>
+        <ScaleMax value="0.800000,0.800000,0.800000"/>
+        <ScaleMin value="0.800000,0.800000,0.800000"/>
+        <SelectionRadius value="0.625000"/>
+        <ShadowRadius value="0.625000"/>
+    </CModel>
+    <CModel id="ZergSmallUnitDeathLow30" parent="UnitDeath" Race="Zerg">
         <Model value="Assets\Effects\Zerg\ZergSmallUnitDeath\ZergSmallUnitDeath_low.m3"/>
         <Flags index="TeenSafe" value="1"/>
         <Occlusion value="Show"/>
