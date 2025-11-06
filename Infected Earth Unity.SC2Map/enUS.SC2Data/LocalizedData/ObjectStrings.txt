@@ -1934,6 +1934,7 @@ Upgrade/EditorSuffix/Burrow32=(All Zerg Unit Burrow)
 Upgrade/EditorSuffix/Burrow4=(All Zerg Unit Burrow)
 Upgrade/EditorSuffix/HotsAcceleratedMorph2=
 Upgrade/EditorSuffix/ShieldWallBlackOps2=(Black Ops Skin)
+User/Name/KillRewardTable=KillRewardTable
 User/Name/WaveTable=WaveTable
 Validator/Name/CasterNotHoldingPosition2=Caster Not Holding Position
 Validator/Name/CasterNotHoldingPosition3=Caster Not Holding Position
