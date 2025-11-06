@@ -10,4 +10,14 @@
         <AbilCmdIndex value="2"/>
         <Find value="0"/>
     </CValidatorUnitOrderQueue>
+    <CValidatorUnitOrderQueue id="CasterNotHoldingPosition4">
+        <AbilLink value="move"/>
+        <AbilCmdIndex value="2"/>
+        <Find value="0"/>
+    </CValidatorUnitOrderQueue>
+    <CValidatorUnitOrderQueue id="CasterNotHoldingPosition5">
+        <AbilLink value="move"/>
+        <AbilCmdIndex value="2"/>
+        <Find value="0"/>
+    </CValidatorUnitOrderQueue>
 </Catalog>

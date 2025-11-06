@@ -29,11 +29,27 @@
     </CRequirementAllowUnit>
     <CRequirementCountUpgrade id="CountUpgradeChargeCompleteOnly137519211TechTreeCheat2">
         <Tooltip value="RequirementNode/Tooltip/UpgradeChargeCompleteOnly"/>
-        <Count Link="Charge2" State="CompleteOnly"/>
+        <Count Link="ZeratulCharge2" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeChargeCompleteOnly137519211TechTreeCheat3">
+        <Tooltip value="RequirementNode/Tooltip/UpgradeChargeCompleteOnly"/>
+        <Count Link="Charge3" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeChargeCompleteOnly137519211TechTreeCheat4">
+        <Tooltip value="RequirementNode/Tooltip/UpgradeChargeCompleteOnly"/>
+        <Count Link="Charge4" State="CompleteOnly"/>
     </CRequirementCountUpgrade>
     <CRequirementCountUpgrade id="CountUpgradeChargeQueuedOrBetter2">
         <Flags index="TechTreeCheat" value="0"/>
-        <Count Link="Charge2" State="QueuedOrBetter"/>
+        <Count Link="ZeratulCharge2" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeChargeQueuedOrBetter3">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="Charge3" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeChargeQueuedOrBetter4">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="Charge4" State="QueuedOrBetter"/>
     </CRequirementCountUpgrade>
     <CRequirementCountUpgrade id="CountUpgradeStimpackCompleteOnly2">
         <Count Link="StimpackDeRaynor" State="CompleteOnly"/>
@@ -56,6 +72,14 @@
     </CRequirementCountUpgrade>
     <CRequirementCountUpgrade id="CountUpgradeVoidZealotChargeCompleteOnly2">
         <Flags index="TechTreeCheat" value="0"/>
-        <Count Link="Charge2" State="CompleteOnly"/>
+        <Count Link="ZeratulCharge2" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeVoidZealotChargeCompleteOnly3">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="Charge3" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeVoidZealotChargeCompleteOnly4">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="Charge4" State="CompleteOnly"/>
     </CRequirementCountUpgrade>
 </Catalog>

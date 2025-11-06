@@ -390,6 +390,84 @@
             <Button DefaultButtonFace="ResearchFortifiedBunker" State="Restricted" Requirements="LearnFortifiedBunker"/>
         </InfoArray>
     </CAbilResearch>
+    <CAbilMorph id="MorphToHHHellion2">
+        <AbilSetId value="HellionMode"/>
+        <EditorCategories value="Race:Terran,AbilityorEffectType:MorphsandBurrows"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="MorphToHellion">
+            <Flags index="ToSelection" value="1"/>
+        </CmdButtonArray>
+        <Flags index="IgnoreFacing" value="1"/>
+        <InfoArray Unit="HellionTest" RandomDelayMax="0.25">
+            <SectionArray index="Actor">
+                <DurationArray index="Delay" value="0.33"/>
+                <DurationArray index="Duration" value="3.67"/>
+            </SectionArray>
+            <SectionArray index="Collide">
+                <DurationArray index="Delay" value="4"/>
+            </SectionArray>
+            <SectionArray index="Stats">
+                <DurationArray index="Delay" value="0.33"/>
+                <DurationArray index="Duration" value="3.67"/>
+            </SectionArray>
+        </InfoArray>
+    </CAbilMorph>
+    <CAbilMorph id="MorphToHellion2">
+        <AbilSetId value="HellionMode"/>
+        <EditorCategories value="Race:Terran,AbilityorEffectType:MorphsandBurrows"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="MorphToHellion">
+            <Flags index="ToSelection" value="1"/>
+        </CmdButtonArray>
+        <Flags index="IgnoreFacing" value="1"/>
+        <InfoArray Unit="Hellion2" RandomDelayMax="0.25">
+            <SectionArray index="Actor">
+                <DurationArray index="Delay" value="0.33"/>
+                <DurationArray index="Duration" value="3.67"/>
+            </SectionArray>
+            <SectionArray index="Collide">
+                <DurationArray index="Delay" value="4"/>
+            </SectionArray>
+            <SectionArray index="Stats">
+                <DurationArray index="Delay" value="0.33"/>
+                <DurationArray index="Duration" value="3.67"/>
+            </SectionArray>
+        </InfoArray>
+    </CAbilMorph>
+    <CAbilMorph id="MorphToHellionTank2">
+        <AbilSetId value="TankMode"/>
+        <EditorCategories value="Race:Terran,AbilityorEffectType:MorphsandBurrows"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="HellionTank">
+            <Flags index="ToSelection" value="1"/>
+        </CmdButtonArray>
+        <Flags index="IgnoreFacing" value="1"/>
+        <InfoArray Unit="Hellioniii" RandomDelayMax="0.25">
+            <SectionArray index="Actor">
+                <DurationArray index="Delay" value="0.33"/>
+                <DurationArray index="Duration" value="3.67"/>
+            </SectionArray>
+            <SectionArray index="Collide">
+                <DurationArray index="Delay" value="4"/>
+            </SectionArray>
+            <SectionArray index="Stats">
+                <DurationArray index="Delay" value="0.33"/>
+                <DurationArray index="Duration" value="3.67"/>
+            </SectionArray>
+        </InfoArray>
+    </CAbilMorph>
+    <CAbilEffectInstant id="Spell2Zeratul">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Effect index="0" value="GuardianShieldPersistent2"/>
+        <Effect value="GuardianShieldApplyBehavior2"/>
+        <Flags index="AllowMovement" value="1"/>
+        <Flags index="BestUnit" value="1"/>
+        <Flags index="NoDeceleration" value="1"/>
+        <Flags index="Transient" value="1"/>
+        <Cost>
+            <Vital index="Energy" value="150"/>
+            <Cooldown Link="GuardianShieldGuardianShield2GuardianShieldSpell2Zeratul" TimeStart="25" TimeUse="25"/>
+        </Cost>
+        <AINotifyEffect value=""/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="GuardianShield2"/>
+    </CAbilEffectInstant>
     <CAbilEffectTarget id="KD8Charge2">
         <Alignment value="Negative"/>
         <EditorCategories value="Race:Terran,AbilityorEffectType:Units"/>
@@ -427,8 +505,8 @@
             <Resource index="Minerals" value="10"/>
             <Display index="Minerals" value="1"/>
             <Charge>
-                <CountMax value="50"/>
-                <CountStart value="50"/>
+                <CountMax value="75"/>
+                <CountStart value="75"/>
                 <CountUse value="1"/>
                 <Link value="RaynorDmgCharge"/>
                 <Location value="Player"/>
@@ -443,8 +521,8 @@
             <Resource index="Minerals" value="5"/>
             <Display index="Minerals" value="1"/>
             <Charge>
-                <CountMax value="30"/>
-                <CountStart value="30"/>
+                <CountMax value="25"/>
+                <CountStart value="25"/>
                 <CountUse value="1"/>
                 <Link value="RaynorHealthCharge"/>
                 <Location value="Player"/>
@@ -456,14 +534,75 @@
             <Resource index="Minerals" value="20"/>
             <Display index="Minerals" value="1"/>
             <Charge>
-                <CountMax value="10"/>
-                <CountStart value="10"/>
+                <CountMax value="15"/>
+                <CountStart value="15"/>
                 <CountUse value="1"/>
                 <Link value="RaynorArmorCharge"/>
                 <Location value="Player"/>
             </Charge>
             <Cooldown TimeUse="0.0625"/>
             <Button DefaultButtonFace="TerranInfantryArmorLevel1"/>
+        </InfoArray>
+        <InfoArray index="Research4" Upgrade="Range">
+            <Resource index="Minerals" value="50"/>
+            <Display index="Minerals" value="1"/>
+            <Charge>
+                <CountMax value="25"/>
+                <CountStart value="25"/>
+                <CountUse value="1"/>
+                <Link value="RaynorRangeUpgrade"/>
+            </Charge>
+            <Cooldown TimeUse="0.0625"/>
+            <Button DefaultButtonFace="Range"/>
+        </InfoArray>
+        <InfoArray index="Research5" Upgrade="Vision">
+            <Resource index="Minerals" value="150"/>
+            <Display index="Minerals" value="1"/>
+            <Charge>
+                <CountMax value="13"/>
+                <CountStart value="13"/>
+                <CountUse value="1"/>
+                <Link value="RaynorVisionUpgrade"/>
+                <Location value="Player"/>
+            </Charge>
+            <Cooldown TimeUse="0.0625"/>
+            <Button DefaultButtonFace="Vision2"/>
+        </InfoArray>
+        <InfoArray index="Research6" Upgrade="AS">
+            <Resource index="Minerals" value="100"/>
+            <Display index="Minerals" value="1"/>
+            <Charge>
+                <CountMax value="50"/>
+                <CountStart value="50"/>
+                <CountUse value="1"/>
+                <Link value="RaynorAttackSpeedUpgrade"/>
+            </Charge>
+            <Cooldown TimeUse="0.0625"/>
+            <Button DefaultButtonFace="AS"/>
+        </InfoArray>
+        <InfoArray index="Research7" Upgrade="MovementSpeed">
+            <Resource index="Minerals" value="150"/>
+            <Display index="Minerals" value="1"/>
+            <Charge>
+                <CountMax value="15"/>
+                <CountStart value="15"/>
+                <CountUse value="1"/>
+                <Link value="RaynorAttackSpeedUpgrade"/>
+            </Charge>
+            <Cooldown TimeUse="0.0625"/>
+            <Button DefaultButtonFace="MovementSpeed"/>
+        </InfoArray>
+        <InfoArray index="Research8" Upgrade="StimpackUpgrades">
+            <Resource index="Minerals" value="100"/>
+            <Display index="Minerals" value="1"/>
+            <Charge>
+                <CountMax value="15"/>
+                <CountStart value="15"/>
+                <CountUse value="1"/>
+                <Link value="RaynorStimpackUpgrade"/>
+            </Charge>
+            <Cooldown TimeUse="0.0625"/>
+            <Button DefaultButtonFace="StimpackUpgrade"/>
         </InfoArray>
     </CAbilResearch>
     <CAbilEffectInstant id="Stimpack2">
@@ -585,33 +724,6 @@
             <Button DefaultButtonFace="ProtossGroundWeaponsLevel1"/>
         </InfoArray>
     </CAbilResearch>
-    <CAbilEffectTarget id="TestZeratulCharge">
-        <Alignment value="Negative"/>
-        <OrderArray index="0" Model="Assets\UI\Cursors\WayPointConfirm_Void\WayPointConfirm_Void.m3"/>
-        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
-        <Flags index="AllowMovement" value="1"/>
-        <Flags index="AutoCast" value="1"/>
-    </CAbilEffectTarget>
-    <CAbilAugment id="ZeratulCharge3">
-        <Alignment value="Negative"/>
-        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
-        <CmdButtonArray index="Execute" DefaultButtonFace="Charge" Requirements="UseCharge"/>
-        <Flags index="AutoCast" value="1"/>
-        <Flags index="AutoCastOn" value="1"/>
-        <AbilCmd value="attack,Execute"/>
-        <Cost>
-            <Display index="Energy" value="1"/>
-            <Vital index="Energy" value="75"/>
-            <Cooldown>
-                <Link value="ChargeCharge3ChargeZeratulCharge3"/>
-                <Location value="Unit"/>
-                <TimeStart value="5"/>
-                <TimeUse value="5"/>
-            </Cooldown>
-        </Cost>
-        <Effect value="Charge"/>
-        <AutoCastValidatorArray value="CasterNotHoldingPosition"/>
-    </CAbilAugment>
     <CAbilResearch id="EngineeringBayResearch2">
         <EditorCategories value="Race:Terran,AbilityorEffectType:Structures"/>
         <InfoArray index="Research1" Time="60" Upgrade="HiSecAutoTracking">
@@ -1284,97 +1396,6 @@
         <VitalStartFactor index="Shields" value="1"/>
         <VitalStartFactor index="Energy" value="10"/>
     </CAbilWarpable>
-    <CAbilEffectTarget id="ZeratulBlink2">
-        <AbilSetId value="Blnk"/>
-        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
-        <Flags index="BestUnit" value="0"/>
-        <Flags index="RequireTargetVision" value="0"/>
-        <Cost>
-            <Charge>
-                <CountMax value="1"/>
-                <CountStart value="1"/>
-                <CountUse value="1"/>
-                <TimeUse value="8"/>
-            </Charge>
-        </Cost>
-        <Range value="500"/>
-        <Arc value="360"/>
-        <CmdButtonArray index="Execute" DefaultButtonFace="ZeratulBlink">
-            <Flags index="ToSelection" value="1"/>
-        </CmdButtonArray>
-    </CAbilEffectTarget>
-    <CAbilEffectTarget id="ZeratulBlink3">
-        <AbilSetId value="Blnk"/>
-        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
-        <Flags index="BestUnit" value="0"/>
-        <Flags index="RequireTargetVision" value="0"/>
-        <Cost>
-            <Charge>
-                <CountMax value="1"/>
-                <CountStart value="1"/>
-                <CountUse value="1"/>
-                <TimeUse value="8"/>
-            </Charge>
-        </Cost>
-        <Range value="500"/>
-        <Arc value="360"/>
-        <CmdButtonArray index="Execute" DefaultButtonFace="ZeratulBlink">
-            <Flags index="ToSelection" value="1"/>
-        </CmdButtonArray>
-    </CAbilEffectTarget>
-    <CAbilAugment id="ZeratulCharge2">
-        <Alignment value="Negative"/>
-        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
-        <CmdButtonArray index="Execute" DefaultButtonFace="Charge" Requirements="HaveLegendaryLegionAbilities"/>
-        <Flags index="AutoCast" value="1"/>
-        <Flags index="AutoCastOn" value="1"/>
-        <AbilCmd value="attack,Execute"/>
-        <Cost>
-            <Cooldown Link="Charge" Location="Unit" TimeUse="10"/>
-        </Cost>
-        <Effect value="Charge"/>
-        <AutoCastValidatorArray value="CasterNotHoldingPosition"/>
-    </CAbilAugment>
-    <CAbilEffectTarget id="ZeratulStun2">
-        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
-        <Effect index="0" value="ZeratulVoidPrisonSearch2"/>
-        <Cost>
-            <Cooldown TimeUse="22"/>
-        </Cost>
-        <Range value="6"/>
-        <CursorEffect value="ZeratulVoidPrisonSearch"/>
-        <AINotifyEffect value=""/>
-        <CmdButtonArray index="Execute" DefaultButtonFace="ZeratulStun"/>
-    </CAbilEffectTarget>
-    <CAbilEffectTarget id="ZeratulStun3">
-        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
-        <Effect index="0" value="ZeratulVoidPrisonSearch3"/>
-        <Cost>
-            <Cooldown TimeUse="22"/>
-        </Cost>
-        <Range value="6"/>
-        <CursorEffect value="ZeratulVoidPrisonSearch"/>
-        <AINotifyEffect value=""/>
-        <CmdButtonArray index="Execute" DefaultButtonFace="ZeratulStun"/>
-    </CAbilEffectTarget>
-    <CAbilEffectInstant id="ZeratulZealotWhirlwind2">
-        <Name value="Abil/Name/VoidZealotWhirlwind"/>
-        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
-        <Effect index="0" value="VoidZealotWhirlwindSet2"/>
-        <Flags index="AutoCast" value="1"/>
-        <Flags index="AutoCastOn" value="1"/>
-        <Flags index="TransientPreferred" value="1"/>
-        <Cost>
-            <Cooldown TimeUse="10"/>
-        </Cost>
-        <AutoCastFilters value="Visible;Player,Ally,Neutral"/>
-        <AutoCastRange value="1.5"/>
-        <AutoCastValidatorArray value="VoidZealotWhirlwindCheck"/>
-        <CastOutroTime value="1.2"/>
-        <UninterruptibleArray index="Cast" value="1"/>
-        <AINotifyEffect value="VoidZealotWhirlwind"/>
-        <CmdButtonArray index="Execute" DefaultButtonFace="VoidZealotWhirlwind"/>
-    </CAbilEffectInstant>
     <CAbilAttack id="attack10">
         <TargetMessage value="Abil/TargetMessage/attack10"/>
         <MinAttackSpeedMultiplier value="0.25"/>
@@ -1425,8 +1446,33 @@
         <MinAttackSpeedMultiplier value="0.25"/>
         <MaxAttackSpeedMultiplier value="128"/>
     </CAbilAttack>
+    <CAbilAttack id="attack19">
+        <TargetMessage value="Abil/TargetMessage/attack19"/>
+        <MinAttackSpeedMultiplier value="0.25"/>
+        <MaxAttackSpeedMultiplier value="128"/>
+    </CAbilAttack>
     <CAbilAttack id="attack2">
         <TargetMessage value="Abil/TargetMessage/attack2"/>
+        <MinAttackSpeedMultiplier value="0.25"/>
+        <MaxAttackSpeedMultiplier value="128"/>
+    </CAbilAttack>
+    <CAbilAttack id="attack20">
+        <TargetMessage value="Abil/TargetMessage/attack20"/>
+        <MinAttackSpeedMultiplier value="0.25"/>
+        <MaxAttackSpeedMultiplier value="128"/>
+    </CAbilAttack>
+    <CAbilAttack id="attack21">
+        <TargetMessage value="Abil/TargetMessage/attack21"/>
+        <MinAttackSpeedMultiplier value="0.25"/>
+        <MaxAttackSpeedMultiplier value="128"/>
+    </CAbilAttack>
+    <CAbilAttack id="attack22">
+        <TargetMessage value="Abil/TargetMessage/attack22"/>
+        <MinAttackSpeedMultiplier value="0.25"/>
+        <MaxAttackSpeedMultiplier value="128"/>
+    </CAbilAttack>
+    <CAbilAttack id="attack23">
+        <TargetMessage value="Abil/TargetMessage/attack23"/>
         <MinAttackSpeedMultiplier value="0.25"/>
         <MaxAttackSpeedMultiplier value="128"/>
     </CAbilAttack>
@@ -1519,6 +1565,30 @@
         <FollowFilters value="-;Hover"/>
     </CAbilMove>
     <CAbilMove id="move16">
+        <FleeRange value="5"/>
+        <FleeTime value="5"/>
+        <FollowRangeSlop value="1"/>
+        <FollowAcquireRange value="6"/>
+        <MinPatrolDistance value="1"/>
+        <FollowFilters value="-;Hover"/>
+    </CAbilMove>
+    <CAbilMove id="move17">
+        <FleeRange value="5"/>
+        <FleeTime value="5"/>
+        <FollowRangeSlop value="1"/>
+        <FollowAcquireRange value="6"/>
+        <MinPatrolDistance value="1"/>
+        <FollowFilters value="-;Hover"/>
+    </CAbilMove>
+    <CAbilMove id="move18">
+        <FleeRange value="5"/>
+        <FleeTime value="5"/>
+        <FollowRangeSlop value="1"/>
+        <FollowAcquireRange value="6"/>
+        <MinPatrolDistance value="1"/>
+        <FollowFilters value="-;Hover"/>
+    </CAbilMove>
+    <CAbilMove id="move19">
         <FleeRange value="5"/>
         <FleeTime value="5"/>
         <FollowRangeSlop value="1"/>
@@ -1622,6 +1692,15 @@
         <CmdButtonArray index="HoldFire" DefaultButtonFace="HoldFireSpecial"/>
     </CAbilStop>
     <CAbilStop id="stop16">
+        <CmdButtonArray index="HoldFire" DefaultButtonFace="HoldFireSpecial"/>
+    </CAbilStop>
+    <CAbilStop id="stop17">
+        <CmdButtonArray index="HoldFire" DefaultButtonFace="HoldFireSpecial"/>
+    </CAbilStop>
+    <CAbilStop id="stop18">
+        <CmdButtonArray index="HoldFire" DefaultButtonFace="HoldFireSpecial"/>
+    </CAbilStop>
+    <CAbilStop id="stop19">
         <CmdButtonArray index="HoldFire" DefaultButtonFace="HoldFireSpecial"/>
     </CAbilStop>
     <CAbilStop id="stop2">

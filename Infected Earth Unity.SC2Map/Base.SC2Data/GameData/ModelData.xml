@@ -139,7 +139,139 @@
             <Payload value="Alarak_LightningCharge_Stop"/>
         </Events>
     </CModel>
+    <CModel id="Alarak_COOP_LightningStrikes_PowerUp32" parent="RacePersistentSpellFX" Race="Protoss">
+        <Model value="Assets\Effects\Protoss\Alarak_COOP_LightningStrikes_PowerUp\Alarak_COOP_LightningStrikes_PowerUp.m3"/>
+        <Events>
+            <Anim value="Birth,00"/>
+            <Name value="Alarak_LightningCharge_Start"/>
+            <Type value="Sound"/>
+            <Time value="0.007000"/>
+            <Payload value="Alarak_LightningCharge_Start"/>
+        </Events>
+        <Events>
+            <Anim value="Stand,00"/>
+            <Name value="Alarak_LightningCharge_Stand"/>
+            <Type value="Sound"/>
+            <Time value="0.013000"/>
+            <Payload value="Alarak_LightningCharge_Stand"/>
+        </Events>
+        <Events>
+            <Anim value="Stand,00"/>
+            <Name value="Alarak_LightningCharge_Stand"/>
+            <Type value="Sound"/>
+            <Time value="0.267000"/>
+            <Payload value="Alarak_LightningCharge_Stand"/>
+        </Events>
+        <Events>
+            <Anim value="Stand,00"/>
+            <Name value="Alarak_LightningCharge_Stand"/>
+            <Type value="Sound"/>
+            <Time value="0.523000"/>
+            <Payload value="Alarak_LightningCharge_Stand"/>
+        </Events>
+        <Events>
+            <Anim value="Stand,00"/>
+            <Name value="Alarak_LightningCharge_Stand"/>
+            <Type value="Sound"/>
+            <Time value="0.849000"/>
+            <Payload value="Alarak_LightningCharge_Stand"/>
+        </Events>
+        <Events>
+            <Anim value="Stand,01"/>
+            <Name value="Alarak_LightningCharge_Stand"/>
+            <Type value="Sound"/>
+            <Time value="0.005000"/>
+            <Payload value="Alarak_LightningCharge_Stand"/>
+        </Events>
+        <Events>
+            <Anim value="Stand,01"/>
+            <Name value="Alarak_LightningCharge_Stand"/>
+            <Type value="Sound"/>
+            <Time value="0.208000"/>
+            <Payload value="Alarak_LightningCharge_Stand"/>
+        </Events>
+        <Events>
+            <Anim value="Stand,01"/>
+            <Name value="Alarak_LightningCharge_Stand"/>
+            <Type value="Sound"/>
+            <Time value="0.512000"/>
+            <Payload value="Alarak_LightningCharge_Stand"/>
+        </Events>
+        <Events>
+            <Anim value="Death,00"/>
+            <Name value="Alarak_LightningCharge_Stop"/>
+            <Type value="Sound"/>
+            <Time value="0.013000"/>
+            <Payload value="Alarak_LightningCharge_Stop"/>
+        </Events>
+    </CModel>
     <CModel id="Alarak_COOP_LightningStrikes_PowerUp4" parent="RacePersistentSpellFX" Race="Protoss">
+        <Model value="Assets\Effects\Protoss\Alarak_COOP_LightningStrikes_PowerUp\Alarak_COOP_LightningStrikes_PowerUp.m3"/>
+        <Events>
+            <Anim value="Birth,00"/>
+            <Name value="Alarak_LightningCharge_Start"/>
+            <Type value="Sound"/>
+            <Time value="0.007000"/>
+            <Payload value="Alarak_LightningCharge_Start"/>
+        </Events>
+        <Events>
+            <Anim value="Stand,00"/>
+            <Name value="Alarak_LightningCharge_Stand"/>
+            <Type value="Sound"/>
+            <Time value="0.013000"/>
+            <Payload value="Alarak_LightningCharge_Stand"/>
+        </Events>
+        <Events>
+            <Anim value="Stand,00"/>
+            <Name value="Alarak_LightningCharge_Stand"/>
+            <Type value="Sound"/>
+            <Time value="0.267000"/>
+            <Payload value="Alarak_LightningCharge_Stand"/>
+        </Events>
+        <Events>
+            <Anim value="Stand,00"/>
+            <Name value="Alarak_LightningCharge_Stand"/>
+            <Type value="Sound"/>
+            <Time value="0.523000"/>
+            <Payload value="Alarak_LightningCharge_Stand"/>
+        </Events>
+        <Events>
+            <Anim value="Stand,00"/>
+            <Name value="Alarak_LightningCharge_Stand"/>
+            <Type value="Sound"/>
+            <Time value="0.849000"/>
+            <Payload value="Alarak_LightningCharge_Stand"/>
+        </Events>
+        <Events>
+            <Anim value="Stand,01"/>
+            <Name value="Alarak_LightningCharge_Stand"/>
+            <Type value="Sound"/>
+            <Time value="0.005000"/>
+            <Payload value="Alarak_LightningCharge_Stand"/>
+        </Events>
+        <Events>
+            <Anim value="Stand,01"/>
+            <Name value="Alarak_LightningCharge_Stand"/>
+            <Type value="Sound"/>
+            <Time value="0.208000"/>
+            <Payload value="Alarak_LightningCharge_Stand"/>
+        </Events>
+        <Events>
+            <Anim value="Stand,01"/>
+            <Name value="Alarak_LightningCharge_Stand"/>
+            <Type value="Sound"/>
+            <Time value="0.512000"/>
+            <Payload value="Alarak_LightningCharge_Stand"/>
+        </Events>
+        <Events>
+            <Anim value="Death,00"/>
+            <Name value="Alarak_LightningCharge_Stop"/>
+            <Type value="Sound"/>
+            <Time value="0.013000"/>
+            <Payload value="Alarak_LightningCharge_Stop"/>
+        </Events>
+    </CModel>
+    <CModel id="Alarak_COOP_LightningStrikes_PowerUp5" parent="RacePersistentSpellFX" Race="Protoss">
         <Model value="Assets\Effects\Protoss\Alarak_COOP_LightningStrikes_PowerUp\Alarak_COOP_LightningStrikes_PowerUp.m3"/>
         <Events>
             <Anim value="Birth,00"/>
@@ -211,7 +343,13 @@
     <CModel id="Alarak_COOP_Sacrifice_Impact3" parent="RaceImpactFX" Race="Protoss">
         <Model value="Assets\Effects\Protoss\Alarak_COOP_Sacrifice_Impact\Alarak_COOP_Sacrifice_Impact.m3"/>
     </CModel>
+    <CModel id="Alarak_COOP_Sacrifice_Impact32" parent="RaceImpactFX" Race="Protoss">
+        <Model value="Assets\Effects\Protoss\Alarak_COOP_Sacrifice_Impact\Alarak_COOP_Sacrifice_Impact.m3"/>
+    </CModel>
     <CModel id="Alarak_COOP_Sacrifice_Impact4" parent="RaceImpactFX" Race="Protoss">
+        <Model value="Assets\Effects\Protoss\Alarak_COOP_Sacrifice_Impact\Alarak_COOP_Sacrifice_Impact.m3"/>
+    </CModel>
+    <CModel id="Alarak_COOP_Sacrifice_Impact5" parent="RaceImpactFX" Race="Protoss">
         <Model value="Assets\Effects\Protoss\Alarak_COOP_Sacrifice_Impact\Alarak_COOP_Sacrifice_Impact.m3"/>
     </CModel>
     <CModel id="Alarak_COOP_Sacrifice_Missile2" parent="RaceMissileFX" Race="Protoss">
@@ -223,13 +361,22 @@
     <CModel id="Alarak_COOP_Sacrifice_Missile4" parent="RaceMissileFX" Race="Protoss">
         <Model value="Assets\Effects\Protoss\Alarak_COOP_Sacrifice_Missile\Alarak_COOP_Sacrifice_Missile.m3"/>
     </CModel>
+    <CModel id="Alarak_COOP_Sacrifice_Missile5" parent="RaceMissileFX" Race="Protoss">
+        <Model value="Assets\Effects\Protoss\Alarak_COOP_Sacrifice_Missile\Alarak_COOP_Sacrifice_Missile.m3"/>
+    </CModel>
     <CModel id="Alarak_COOP_Sacrifice_Missile_Impact2" parent="RaceImpactFX" Race="Protoss">
         <Model value="Assets\Effects\Protoss\Alarak_COOP_Sacrifice_Missile_Impact\Alarak_COOP_Sacrifice_Missile_Impact.m3"/>
     </CModel>
     <CModel id="Alarak_COOP_Sacrifice_Missile_Impact3" parent="RaceImpactFX" Race="Protoss">
         <Model value="Assets\Effects\Protoss\Alarak_COOP_Sacrifice_Missile_Impact\Alarak_COOP_Sacrifice_Missile_Impact.m3"/>
     </CModel>
+    <CModel id="Alarak_COOP_Sacrifice_Missile_Impact32" parent="RaceImpactFX" Race="Protoss">
+        <Model value="Assets\Effects\Protoss\Alarak_COOP_Sacrifice_Missile_Impact\Alarak_COOP_Sacrifice_Missile_Impact.m3"/>
+    </CModel>
     <CModel id="Alarak_COOP_Sacrifice_Missile_Impact4" parent="RaceImpactFX" Race="Protoss">
+        <Model value="Assets\Effects\Protoss\Alarak_COOP_Sacrifice_Missile_Impact\Alarak_COOP_Sacrifice_Missile_Impact.m3"/>
+    </CModel>
+    <CModel id="Alarak_COOP_Sacrifice_Missile_Impact5" parent="RaceImpactFX" Race="Protoss">
         <Model value="Assets\Effects\Protoss\Alarak_COOP_Sacrifice_Missile_Impact\Alarak_COOP_Sacrifice_Missile_Impact.m3"/>
     </CModel>
     <CModel id="Alarak_COOP_Sacrifice_Missile_Impact_Small2" parent="RaceImpactFX" Race="Protoss">
@@ -242,7 +389,17 @@
         <ScaleMax value="0.500000,0.500000,0.500000"/>
         <ScaleMin value="0.500000,0.500000,0.500000"/>
     </CModel>
+    <CModel id="Alarak_COOP_Sacrifice_Missile_Impact_Small32" parent="RaceImpactFX" Race="Protoss">
+        <Model value="Assets\Effects\Protoss\Alarak_COOP_Sacrifice_Missile_Impact\Alarak_COOP_Sacrifice_Missile_Impact.m3"/>
+        <ScaleMax value="0.500000,0.500000,0.500000"/>
+        <ScaleMin value="0.500000,0.500000,0.500000"/>
+    </CModel>
     <CModel id="Alarak_COOP_Sacrifice_Missile_Impact_Small4" parent="RaceImpactFX" Race="Protoss">
+        <Model value="Assets\Effects\Protoss\Alarak_COOP_Sacrifice_Missile_Impact\Alarak_COOP_Sacrifice_Missile_Impact.m3"/>
+        <ScaleMax value="0.500000,0.500000,0.500000"/>
+        <ScaleMin value="0.500000,0.500000,0.500000"/>
+    </CModel>
+    <CModel id="Alarak_COOP_Sacrifice_Missile_Impact_Small5" parent="RaceImpactFX" Race="Protoss">
         <Model value="Assets\Effects\Protoss\Alarak_COOP_Sacrifice_Missile_Impact\Alarak_COOP_Sacrifice_Missile_Impact.m3"/>
         <ScaleMax value="0.500000,0.500000,0.500000"/>
         <ScaleMin value="0.500000,0.500000,0.500000"/>
@@ -303,7 +460,13 @@
     <CModel id="DOM_Explosion_Lg3" parent="Doodad">
         <Model value="Assets\Doodads\DOM_Explosion_Lg\DOM_Explosion_Lg.m3"/>
     </CModel>
+    <CModel id="DOM_Explosion_Lg32" parent="Doodad">
+        <Model value="Assets\Doodads\DOM_Explosion_Lg\DOM_Explosion_Lg.m3"/>
+    </CModel>
     <CModel id="DOM_Explosion_Lg4" parent="Doodad">
+        <Model value="Assets\Doodads\DOM_Explosion_Lg\DOM_Explosion_Lg.m3"/>
+    </CModel>
+    <CModel id="DOM_Explosion_Lg5" parent="Doodad">
         <Model value="Assets\Doodads\DOM_Explosion_Lg\DOM_Explosion_Lg.m3"/>
     </CModel>
     <CModel id="DarkTemplarAiurRecallStart2" parent="OneShotSpellFX">
@@ -320,7 +483,21 @@
         <SelectionRadius value="0.555400"/>
         <ShadowRadius value="0.555400"/>
     </CModel>
+    <CModel id="DarkTemplarAiurRecallStart32" parent="OneShotSpellFX">
+        <Model value="Assets\Effects\Protoss\DarkTemplarAiurWarpOut\DarkTemplarAiurWarpOut.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Occlusion value="Show"/>
+        <SelectionRadius value="0.555400"/>
+        <ShadowRadius value="0.555400"/>
+    </CModel>
     <CModel id="DarkTemplarAiurRecallStart4" parent="OneShotSpellFX">
+        <Model value="Assets\Effects\Protoss\DarkTemplarAiurWarpOut\DarkTemplarAiurWarpOut.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Occlusion value="Show"/>
+        <SelectionRadius value="0.555400"/>
+        <ShadowRadius value="0.555400"/>
+    </CModel>
+    <CModel id="DarkTemplarAiurRecallStart5" parent="OneShotSpellFX">
         <Model value="Assets\Effects\Protoss\DarkTemplarAiurWarpOut\DarkTemplarAiurWarpOut.m3"/>
         <EditorCategories value="Race:Protoss"/>
         <Occlusion value="Show"/>
@@ -341,7 +518,21 @@
         <SelectionRadius value="0.555400"/>
         <ShadowRadius value="0.555400"/>
     </CModel>
+    <CModel id="DarkTemplarAiurRecallStop32" parent="OneShotSpellFX">
+        <Model value="Assets\Effects\Protoss\DarkTemplarAiurWarpIn\DarkTemplarAiurWarpIn.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Occlusion value="Show"/>
+        <SelectionRadius value="0.555400"/>
+        <ShadowRadius value="0.555400"/>
+    </CModel>
     <CModel id="DarkTemplarAiurRecallStop4" parent="OneShotSpellFX">
+        <Model value="Assets\Effects\Protoss\DarkTemplarAiurWarpIn\DarkTemplarAiurWarpIn.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Occlusion value="Show"/>
+        <SelectionRadius value="0.555400"/>
+        <ShadowRadius value="0.555400"/>
+    </CModel>
+    <CModel id="DarkTemplarAiurRecallStop5" parent="OneShotSpellFX">
         <Model value="Assets\Effects\Protoss\DarkTemplarAiurWarpIn\DarkTemplarAiurWarpIn.m3"/>
         <EditorCategories value="Race:Protoss"/>
         <Occlusion value="Show"/>
@@ -354,7 +545,13 @@
     <CModel id="DarkTemplar_Zeratul_COOP_StasisCacoon3">
         <Model value="Assets\COOP\Zeratul\Effects\DarkTemplar_Zeratul_COOP_StasisCacoon\DarkTemplar_Zeratul_COOP_StasisCacoon.m3"/>
     </CModel>
+    <CModel id="DarkTemplar_Zeratul_COOP_StasisCacoon32">
+        <Model value="Assets\COOP\Zeratul\Effects\DarkTemplar_Zeratul_COOP_StasisCacoon\DarkTemplar_Zeratul_COOP_StasisCacoon.m3"/>
+    </CModel>
     <CModel id="DarkTemplar_Zeratul_COOP_StasisCacoon4">
+        <Model value="Assets\COOP\Zeratul\Effects\DarkTemplar_Zeratul_COOP_StasisCacoon\DarkTemplar_Zeratul_COOP_StasisCacoon.m3"/>
+    </CModel>
+    <CModel id="DarkTemplar_Zeratul_COOP_StasisCacoon5">
         <Model value="Assets\COOP\Zeratul\Effects\DarkTemplar_Zeratul_COOP_StasisCacoon\DarkTemplar_Zeratul_COOP_StasisCacoon.m3"/>
     </CModel>
     <CModel id="DeathVoidShadowMedium2" parent="UnitDeath">
@@ -364,6 +561,12 @@
         <ScaleMin value="1.500000,1.500000,1.500000"/>
     </CModel>
     <CModel id="DeathVoidShadowMedium3" parent="UnitDeath">
+        <Model value="Assets\Units\Neutral\VoidUnit_Death\VoidUnit_Death.m3"/>
+        <EditorCategories value="Race:Zerg"/>
+        <ScaleMax value="1.500000,1.500000,1.500000"/>
+        <ScaleMin value="1.500000,1.500000,1.500000"/>
+    </CModel>
+    <CModel id="DeathVoidShadowMedium4" parent="UnitDeath">
         <Model value="Assets\Units\Neutral\VoidUnit_Death\VoidUnit_Death.m3"/>
         <EditorCategories value="Race:Zerg"/>
         <ScaleMax value="1.500000,1.500000,1.500000"/>
@@ -417,7 +620,13 @@
     <CModel id="GlazeTychusHERCShield3">
         <Model value="Assets\Effects\Glaze\Glaze_Nova_Base_Decoy\Glaze_Nova_Base_Decoy.m3"/>
     </CModel>
+    <CModel id="GlazeTychusHERCShield32">
+        <Model value="Assets\Effects\Glaze\Glaze_Nova_Base_Decoy\Glaze_Nova_Base_Decoy.m3"/>
+    </CModel>
     <CModel id="GlazeTychusHERCShield4">
+        <Model value="Assets\Effects\Glaze\Glaze_Nova_Base_Decoy\Glaze_Nova_Base_Decoy.m3"/>
+    </CModel>
+    <CModel id="GlazeTychusHERCShield5">
         <Model value="Assets\Effects\Glaze\Glaze_Nova_Base_Decoy\Glaze_Nova_Base_Decoy.m3"/>
     </CModel>
     <CModel id="Glaze_Alarak_COOP_Sacrifice2" parent="Glaze">
@@ -428,9 +637,98 @@
         <Model value="Assets\Effects\Glaze\Glaze_Alarak_COOP_Sacrifice\Glaze_Alarak_COOP_Sacrifice.m3"/>
         <EditorCategories value="Race:Protoss"/>
     </CModel>
+    <CModel id="Glaze_Alarak_COOP_Sacrifice32" parent="Glaze">
+        <Model value="Assets\Effects\Glaze\Glaze_Alarak_COOP_Sacrifice\Glaze_Alarak_COOP_Sacrifice.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
     <CModel id="Glaze_Alarak_COOP_Sacrifice4" parent="Glaze">
         <Model value="Assets\Effects\Glaze\Glaze_Alarak_COOP_Sacrifice\Glaze_Alarak_COOP_Sacrifice.m3"/>
         <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="Glaze_Alarak_COOP_Sacrifice5" parent="Glaze">
+        <Model value="Assets\Effects\Glaze\Glaze_Alarak_COOP_Sacrifice\Glaze_Alarak_COOP_Sacrifice.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="GuardianShield2" parent="PersistentSpellFX">
+        <Model value="Assets\Effects\Protoss\SentryShieldBubble_Ex2\SentryShieldBubble_Ex2.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Events>
+            <Anim value="Birth,00"/>
+            <Name value="SoundStart"/>
+            <Type value="Custom"/>
+            <Time value="0.010000"/>
+        </Events>
+        <Events>
+            <Anim value="Stand,01"/>
+            <Name value="SoundLoopStart"/>
+            <Type value="Custom"/>
+            <Time value="0.010000"/>
+        </Events>
+        <Events>
+            <Anim value="Death,00"/>
+            <Name value="SoundLoopEnd"/>
+            <Type value="Custom"/>
+            <Time value="0.010000"/>
+        </Events>
+        <ScaleMax value="0.212500,0.212500,0.212500"/>
+        <ScaleMin value="0.212500,0.212500,0.212500"/>
+    </CModel>
+    <CModel id="GuardianShieldImpact2" parent="PersistentSpellFX">
+        <Model value="Assets\Effects\Protoss\SentryShieldImpact\SentryShieldImpact.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CModel>
+    <CModel id="HHHellionDoTImpact2" parent="ImpactFX">
+        <Model value="Assets\Effects\Protoss\Colossus_FireBeam_Unit_Impact\Colossus_FireBeam_Unit_Impact.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="HHHellionTank2" parent="Unit" Race="Terran">
+        <Model value="Assets\Units\Terran\Hellbat_Junker_Collection\Hellbat_Junker_Collection.m3"/>
+        <Events>
+            <Anim value="Unload,00"/>
+            <Name value="HH_Hellbat_Land"/>
+            <Type value="Sound"/>
+            <Time value="0.030000"/>
+            <Payload value="HH_Hellbat_Land"/>
+        </Events>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraMid06"/>
+        <Radius value="0.650000"/>
+        <ScaleMax value="0.750000,0.750000,0.750000"/>
+        <ScaleMin value="0.750000,0.750000,0.750000"/>
+        <SelectionRadius value="0.866400"/>
+        <ShadowRadius value="0.866400"/>
+        <SquibTypeDefault value="Metal"/>
+        <TechPurchaseCamera value="TechPurchaseVehicle"/>
+        <UnitGlossaryCamera value="Star2CameraMid06"/>
+    </CModel>
+    <CModel id="HHHellionTankAttackLaunch2" parent="LaunchFX">
+        <Model value="Assets\Effects\Terran\MiraHorner_Hellbat_Coop_RedAttack\MiraHorner_Hellbat_Coop_RedAttack.m3"/>
+        <LowQualityModel value="HellionTankAttackLaunchLow"/>
+        <EditorCategories value="Race:Terran"/>
+        <ScaleMax value="1.650000,1.650000,1.000000"/>
+        <ScaleMin value="1.650000,1.650000,1.000000"/>
+    </CModel>
+    <CModel id="HHHellionTankDeath2" parent="UnitDeath" Race="Terran">
+        <Model value="Assets\Units\Terran\Hellbat_Junker_Collection_Death\Hellbat_Junker_Collection_Death.m3"/>
+        <LowQualityModel value="TerranSmallUnitDeathLow"/>
+        <Events>
+            <Anim value="Death,00"/>
+            <Name value="Uni_DeathFXincidentallFire"/>
+            <Type value="Sound"/>
+            <Time value="0.600000"/>
+            <Payload value="Uni_DeathFXincidentallFire"/>
+        </Events>
+        <Events>
+            <Anim value="Death,01"/>
+            <Name value="Uni_DeathFXincidentallFire"/>
+            <Type value="Sound"/>
+            <Time value="0.600000"/>
+            <Payload value="Uni_DeathFXincidentallFire"/>
+        </Events>
+        <Occlusion value="Show"/>
+    </CModel>
+    <CModel id="HHHellionTankDeathRagdoll2" parent="UnitDeathRagdoll" Race="Terran">
+        <Model value="Assets\Units\Terran\Hellbat_Junker_Collection_DeathRagdoll\Hellbat_Junker_Collection_DeathRagdoll.m3"/>
     </CModel>
     <CModel id="HHMarine">
         <EditorCategories value="Race:Zerg"/>
@@ -539,6 +837,77 @@
         <EditorCategories value="Race:Protoss"/>
         <Flags index="TeenSafe" value="1"/>
     </CModel>
+    <CModel id="HallucinationDeath8" parent="OneShotSpellFX">
+        <Model value="Assets\Effects\Protoss\HallucinateDeath\HallucinateDeath.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Flags index="TeenSafe" value="1"/>
+    </CModel>
+    <CModel id="HallucinationDeath9" parent="OneShotSpellFX">
+        <Model value="Assets\Effects\Protoss\HallucinateDeath\HallucinateDeath.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Flags index="TeenSafe" value="1"/>
+    </CModel>
+    <CModel id="Hellion2" parent="HellionBase">
+        <Model value="Assets\Units\Terran\HellionEx1\HellionEx1.m3"/>
+    </CModel>
+    <CModel id="HellionAttackDamageReaction2" parent="ImpactFX">
+        <Model value="Assets\Effects\Terran\HellionBeamImpact\HellionBeamImpact.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="HellionDeath2" parent="HellionDeathBase">
+        <Model value="Assets\Units\Terran\HellionEx1Death\HellionEx1Death.m3"/>
+    </CModel>
+    <CModel id="HellionDeathRagdoll2" parent="HellionDeathRagdollBase">
+        <Model value="Assets\Units\Terran\HellionDeathRagdoll\HellionDeathRagdoll.m3"/>
+    </CModel>
+    <CModel id="HellionPortrait2" parent="HellionPortraitBase">
+        <Model value="Assets\Portraits\Terran\HellionMorphPortrait\HellionMorphPortrait.m3"/>
+        <Image value="Assets\Textures\HellionPortrait_Static.dds"/>
+        <Lighting value="HellionPortrait"/>
+    </CModel>
+    <CModel id="HellionPortrait3" parent="HellionPortraitBase">
+        <Model value="Assets\Portraits\Terran\HellionMorphPortrait\HellionMorphPortrait.m3"/>
+        <Image value="Assets\Textures\HellionPortrait_Static.dds"/>
+        <Lighting value="HellionPortrait"/>
+    </CModel>
+    <CModel id="HellionTank2" parent="HellionHellbatBase">
+        <Model value="Assets\Units\Terran\HellionEx1Tank\HellionEx1Tank.m3"/>
+    </CModel>
+    <CModel id="HellionTankAttackFireAddition2" parent="ImpactFX">
+        <Model value="Assets\Effects\Terran\FireImpact\FireImpact.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="HellionTankAttackLaunch2" parent="LaunchFX">
+        <Model value="Assets\Effects\Terran\HellionTankAttack\HellionTankAttack.m3"/>
+        <LowQualityModel value="HellionTankAttackLaunchLow"/>
+        <EditorCategories value="Race:Terran"/>
+        <ScaleMax value="1.650000,1.650000,1.000000"/>
+        <ScaleMin value="1.650000,1.650000,1.000000"/>
+    </CModel>
+    <CModel id="HellionTankAttackUpgradedFireAddition2" parent="ImpactFX">
+        <Model value="Assets\Effects\Terran\HellionBeamBuildingUpgradeImpact\HellionBeamBuildingUpgradeImpact.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="HellionTankDeath2" parent="HellionHellbatDeathBase">
+        <Model value="Assets\Units\Terran\HellionEx1TankDeath\HellionEx1TankDeath.m3"/>
+    </CModel>
+    <CModel id="HellionTankDeathRagdoll2" parent="HellionHellbatDeathRagdollBase">
+        <Model value="Assets\Units\Terran\HellionTankDeathRagdoll\HellionTankDeathRagdoll.m3"/>
+    </CModel>
+    <CModel id="HellionUpgradedAttackDamageReaction2" parent="ImpactFX">
+        <Model value="Assets\Effects\Terran\HellionBeamUpgradeImpact\HellionBeamUpgradeImpact.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="HellionUpgradedAttackDamageReactionStructure2" parent="ImpactFX">
+        <Model value="Assets\Effects\Terran\HellionBeamBuildingUpgradeImpact\HellionBeamBuildingUpgradeImpact.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="Hellion_HornerHan_Portrait2" parent="FXAPortrait" Race="Terran">
+        <Model value="Assets\Portraits\Terran\Hellion_HornerHan_Portrait\Hellion_HornerHan_Portrait.m3"/>
+        <FacialController value="LocalizedData\Facial\HellionPortrait.fxa"/>
+        <Image value="Assets\Textures\Hellion_HornerHan_Portrait_Static.dds"/>
+        <Lighting value="Hellion_HornerHan_Portrait"/>
+    </CModel>
     <CModel id="HeroDetectorRadarModel2" parent="PersistentSpellFX">
         <Model value="Assets\UI\Feedback\AIBeaconDetectPing\AIBeaconDetectPing.m3"/>
         <ScaleMax value="2.000000,2.000000,2.000000"/>
@@ -593,7 +962,17 @@
         <ScaleMax value="1.500000,1.500000,1.500000"/>
         <ScaleMin value="1.500000,1.500000,1.500000"/>
     </CModel>
+    <CModel id="HyperionHyperjumpLaunch32">
+        <Model value="Assets\Effects\Terran\HyperionTeleportOut\HyperionTeleportOut.m3"/>
+        <ScaleMax value="1.500000,1.500000,1.500000"/>
+        <ScaleMin value="1.500000,1.500000,1.500000"/>
+    </CModel>
     <CModel id="HyperionHyperjumpLaunch4">
+        <Model value="Assets\Effects\Terran\HyperionTeleportOut\HyperionTeleportOut.m3"/>
+        <ScaleMax value="1.500000,1.500000,1.500000"/>
+        <ScaleMin value="1.500000,1.500000,1.500000"/>
+    </CModel>
+    <CModel id="HyperionHyperjumpLaunch5">
         <Model value="Assets\Effects\Terran\HyperionTeleportOut\HyperionTeleportOut.m3"/>
         <ScaleMax value="1.500000,1.500000,1.500000"/>
         <ScaleMin value="1.500000,1.500000,1.500000"/>
@@ -687,6 +1066,46 @@
         <ShadowRadius value="0.000000"/>
     </CModel>
     <CModel id="Invisible20" Race="Neutral">
+        <Model value="Assets\Units\Test\InvisibleUnit\InvisibleUnit.m3"/>
+        <EditorCategories value="Race:Neutral"/>
+        <Flags index="TeenSafe" value="1"/>
+        <Radius value="-1.000000"/>
+        <SelectionRadius value="0.000000"/>
+        <ShadowRadius value="0.000000"/>
+    </CModel>
+    <CModel id="Invisible21" Race="Neutral">
+        <Model value="Assets\Units\Test\InvisibleUnit\InvisibleUnit.m3"/>
+        <EditorCategories value="Race:Neutral"/>
+        <Flags index="TeenSafe" value="1"/>
+        <Radius value="-1.000000"/>
+        <SelectionRadius value="0.000000"/>
+        <ShadowRadius value="0.000000"/>
+    </CModel>
+    <CModel id="Invisible22" Race="Neutral">
+        <Model value="Assets\Units\Test\InvisibleUnit\InvisibleUnit.m3"/>
+        <EditorCategories value="Race:Neutral"/>
+        <Flags index="TeenSafe" value="1"/>
+        <Radius value="-1.000000"/>
+        <SelectionRadius value="0.000000"/>
+        <ShadowRadius value="0.000000"/>
+    </CModel>
+    <CModel id="Invisible23" Race="Neutral">
+        <Model value="Assets\Units\Test\InvisibleUnit\InvisibleUnit.m3"/>
+        <EditorCategories value="Race:Neutral"/>
+        <Flags index="TeenSafe" value="1"/>
+        <Radius value="-1.000000"/>
+        <SelectionRadius value="0.000000"/>
+        <ShadowRadius value="0.000000"/>
+    </CModel>
+    <CModel id="Invisible24" Race="Neutral">
+        <Model value="Assets\Units\Test\InvisibleUnit\InvisibleUnit.m3"/>
+        <EditorCategories value="Race:Neutral"/>
+        <Flags index="TeenSafe" value="1"/>
+        <Radius value="-1.000000"/>
+        <SelectionRadius value="0.000000"/>
+        <ShadowRadius value="0.000000"/>
+    </CModel>
+    <CModel id="Invisible25" Race="Neutral">
         <Model value="Assets\Units\Test\InvisibleUnit\InvisibleUnit.m3"/>
         <EditorCategories value="Race:Neutral"/>
         <Flags index="TeenSafe" value="1"/>
@@ -1149,6 +1568,46 @@
         <SelectionRadius value="0.400000"/>
         <ShadowRadius value="0.400000"/>
     </CModel>
+    <CModel id="ProtossSmallUnitDeathLow21" parent="UnitDeath" Race="Protoss">
+        <Model value="Assets\Effects\Protoss\ProtossUnitDeath\ProtossUnitDeath_Low.m3"/>
+        <Flags index="TeenSafe" value="1"/>
+        <ScaleMax value="1.250000,1.250000,1.250000"/>
+        <ScaleMin value="1.250000,1.250000,1.250000"/>
+        <SelectionRadius value="0.400000"/>
+        <ShadowRadius value="0.400000"/>
+    </CModel>
+    <CModel id="ProtossSmallUnitDeathLow22" parent="UnitDeath" Race="Protoss">
+        <Model value="Assets\Effects\Protoss\ProtossUnitDeath\ProtossUnitDeath_Low.m3"/>
+        <Flags index="TeenSafe" value="1"/>
+        <ScaleMax value="1.250000,1.250000,1.250000"/>
+        <ScaleMin value="1.250000,1.250000,1.250000"/>
+        <SelectionRadius value="0.400000"/>
+        <ShadowRadius value="0.400000"/>
+    </CModel>
+    <CModel id="ProtossSmallUnitDeathLow23" parent="UnitDeath" Race="Protoss">
+        <Model value="Assets\Effects\Protoss\ProtossUnitDeath\ProtossUnitDeath_Low.m3"/>
+        <Flags index="TeenSafe" value="1"/>
+        <ScaleMax value="1.250000,1.250000,1.250000"/>
+        <ScaleMin value="1.250000,1.250000,1.250000"/>
+        <SelectionRadius value="0.400000"/>
+        <ShadowRadius value="0.400000"/>
+    </CModel>
+    <CModel id="ProtossSmallUnitDeathLow24" parent="UnitDeath" Race="Protoss">
+        <Model value="Assets\Effects\Protoss\ProtossUnitDeath\ProtossUnitDeath_Low.m3"/>
+        <Flags index="TeenSafe" value="1"/>
+        <ScaleMax value="1.250000,1.250000,1.250000"/>
+        <ScaleMin value="1.250000,1.250000,1.250000"/>
+        <SelectionRadius value="0.400000"/>
+        <ShadowRadius value="0.400000"/>
+    </CModel>
+    <CModel id="ProtossSmallUnitDeathLow25" parent="UnitDeath" Race="Protoss">
+        <Model value="Assets\Effects\Protoss\ProtossUnitDeath\ProtossUnitDeath_Low.m3"/>
+        <Flags index="TeenSafe" value="1"/>
+        <ScaleMax value="1.250000,1.250000,1.250000"/>
+        <ScaleMin value="1.250000,1.250000,1.250000"/>
+        <SelectionRadius value="0.400000"/>
+        <ShadowRadius value="0.400000"/>
+    </CModel>
     <CModel id="ProtossSmallUnitDeathLow3" parent="UnitDeath" Race="Protoss">
         <Model value="Assets\Effects\Protoss\ProtossUnitDeath\ProtossUnitDeath_Low.m3"/>
         <Flags index="TeenSafe" value="1"/>
@@ -1395,7 +1854,13 @@
     <CModel id="SOAHeroicShieldLongModel3">
         <Model value="Assets\Effects\Protoss\SOA_GuardianShell_Long\SOA_GuardianShell_Long.m3"/>
     </CModel>
+    <CModel id="SOAHeroicShieldLongModel32">
+        <Model value="Assets\Effects\Protoss\SOA_GuardianShell_Long\SOA_GuardianShell_Long.m3"/>
+    </CModel>
     <CModel id="SOAHeroicShieldLongModel4">
+        <Model value="Assets\Effects\Protoss\SOA_GuardianShell_Long\SOA_GuardianShell_Long.m3"/>
+    </CModel>
+    <CModel id="SOAHeroicShieldLongModel5">
         <Model value="Assets\Effects\Protoss\SOA_GuardianShell_Long\SOA_GuardianShell_Long.m3"/>
     </CModel>
     <CModel id="SOAHeroicShieldModel2">
@@ -1404,7 +1869,13 @@
     <CModel id="SOAHeroicShieldModel3">
         <Model value="Assets\Effects\Protoss\SOA_GuardianShell\SOA_GuardianShell.m3"/>
     </CModel>
+    <CModel id="SOAHeroicShieldModel32">
+        <Model value="Assets\Effects\Protoss\SOA_GuardianShell\SOA_GuardianShell.m3"/>
+    </CModel>
     <CModel id="SOAHeroicShieldModel4">
+        <Model value="Assets\Effects\Protoss\SOA_GuardianShell\SOA_GuardianShell.m3"/>
+    </CModel>
+    <CModel id="SOAHeroicShieldModel5">
         <Model value="Assets\Effects\Protoss\SOA_GuardianShell\SOA_GuardianShell.m3"/>
     </CModel>
     <CModel id="SOAHeroicShieldTallModel2">
@@ -1413,8 +1884,18 @@
     <CModel id="SOAHeroicShieldTallModel3">
         <Model value="Assets\Effects\Protoss\SOA_GuardianShell_Tall\SOA_GuardianShell_Tall.m3"/>
     </CModel>
+    <CModel id="SOAHeroicShieldTallModel32">
+        <Model value="Assets\Effects\Protoss\SOA_GuardianShell_Tall\SOA_GuardianShell_Tall.m3"/>
+    </CModel>
     <CModel id="SOAHeroicShieldTallModel4">
         <Model value="Assets\Effects\Protoss\SOA_GuardianShell_Tall\SOA_GuardianShell_Tall.m3"/>
+    </CModel>
+    <CModel id="SOAHeroicShieldTallModel5">
+        <Model value="Assets\Effects\Protoss\SOA_GuardianShell_Tall\SOA_GuardianShell_Tall.m3"/>
+    </CModel>
+    <CModel id="SiegeTankSiegedAttackDamage2" parent="ImpactFX">
+        <Model value="Assets\Effects\Terran\FireImpact\FireImpact.m3"/>
+        <EditorCategories value="Race:Terran"/>
     </CModel>
     <CModel id="StimpackEndImpact">
         <EditorCategories value="Race:Zerg"/>
@@ -1676,6 +2157,51 @@
         <SelectionRadius value="0.454300"/>
         <ShadowRadius value="0.454300"/>
     </CModel>
+    <CModel id="TerranSmallUnitDeathLow21" parent="UnitDeath" Race="Terran">
+        <Model value="Assets\Effects\Terran\TerranSmallUnitDeath\TerranSmallUnitDeath_Low.m3"/>
+        <EditorCategories value="Race:Zerg"/>
+        <Flags index="TeenSafe" value="1"/>
+        <ScaleMax value="1.100000,1.100000,1.100000"/>
+        <ScaleMin value="1.100000,1.100000,1.100000"/>
+        <SelectionRadius value="0.454300"/>
+        <ShadowRadius value="0.454300"/>
+    </CModel>
+    <CModel id="TerranSmallUnitDeathLow22" parent="UnitDeath" Race="Terran">
+        <Model value="Assets\Effects\Terran\TerranSmallUnitDeath\TerranSmallUnitDeath_Low.m3"/>
+        <EditorCategories value="Race:Zerg"/>
+        <Flags index="TeenSafe" value="1"/>
+        <ScaleMax value="1.100000,1.100000,1.100000"/>
+        <ScaleMin value="1.100000,1.100000,1.100000"/>
+        <SelectionRadius value="0.454300"/>
+        <ShadowRadius value="0.454300"/>
+    </CModel>
+    <CModel id="TerranSmallUnitDeathLow23" parent="UnitDeath" Race="Terran">
+        <Model value="Assets\Effects\Terran\TerranSmallUnitDeath\TerranSmallUnitDeath_Low.m3"/>
+        <EditorCategories value="Race:Zerg"/>
+        <Flags index="TeenSafe" value="1"/>
+        <ScaleMax value="1.100000,1.100000,1.100000"/>
+        <ScaleMin value="1.100000,1.100000,1.100000"/>
+        <SelectionRadius value="0.454300"/>
+        <ShadowRadius value="0.454300"/>
+    </CModel>
+    <CModel id="TerranSmallUnitDeathLow24" parent="UnitDeath" Race="Terran">
+        <Model value="Assets\Effects\Terran\TerranSmallUnitDeath\TerranSmallUnitDeath_Low.m3"/>
+        <EditorCategories value="Race:Zerg"/>
+        <Flags index="TeenSafe" value="1"/>
+        <ScaleMax value="1.100000,1.100000,1.100000"/>
+        <ScaleMin value="1.100000,1.100000,1.100000"/>
+        <SelectionRadius value="0.454300"/>
+        <ShadowRadius value="0.454300"/>
+    </CModel>
+    <CModel id="TerranSmallUnitDeathLow25" parent="UnitDeath" Race="Terran">
+        <Model value="Assets\Effects\Terran\TerranSmallUnitDeath\TerranSmallUnitDeath_Low.m3"/>
+        <EditorCategories value="Race:Zerg"/>
+        <Flags index="TeenSafe" value="1"/>
+        <ScaleMax value="1.100000,1.100000,1.100000"/>
+        <ScaleMin value="1.100000,1.100000,1.100000"/>
+        <SelectionRadius value="0.454300"/>
+        <ShadowRadius value="0.454300"/>
+    </CModel>
     <CModel id="TerranSmallUnitDeathLow3" parent="UnitDeath" Race="Terran">
         <Model value="Assets\Effects\Terran\TerranSmallUnitDeath\TerranSmallUnitDeath_Low.m3"/>
         <Flags index="TeenSafe" value="1"/>
@@ -1776,7 +2302,33 @@
         <ScaleMax value="0.500000,0.500000,0.500000"/>
         <ScaleMin value="0.500000,0.500000,0.500000"/>
     </CModel>
+    <CModel id="TychusHercShieldExplosion32" parent="OneShotSpellFX">
+        <Model value="Assets\Effects\Zerg\KerriganDropPodExplosion\KerriganDropPodExplosion.m3"/>
+        <EditorCategories value="Race:Terran"/>
+        <Events>
+            <Anim value="Birth"/>
+            <Name value="Tychus_HercShield_Explosion"/>
+            <Type value="Sound"/>
+            <Time value="0.010000"/>
+            <Payload value="Tychus_HercShield_Explosion"/>
+        </Events>
+        <ScaleMax value="0.500000,0.500000,0.500000"/>
+        <ScaleMin value="0.500000,0.500000,0.500000"/>
+    </CModel>
     <CModel id="TychusHercShieldExplosion4" parent="OneShotSpellFX">
+        <Model value="Assets\Effects\Zerg\KerriganDropPodExplosion\KerriganDropPodExplosion.m3"/>
+        <EditorCategories value="Race:Terran"/>
+        <Events>
+            <Anim value="Birth"/>
+            <Name value="Tychus_HercShield_Explosion"/>
+            <Type value="Sound"/>
+            <Time value="0.010000"/>
+            <Payload value="Tychus_HercShield_Explosion"/>
+        </Events>
+        <ScaleMax value="0.500000,0.500000,0.500000"/>
+        <ScaleMin value="0.500000,0.500000,0.500000"/>
+    </CModel>
+    <CModel id="TychusHercShieldExplosion5" parent="OneShotSpellFX">
         <Model value="Assets\Effects\Zerg\KerriganDropPodExplosion\KerriganDropPodExplosion.m3"/>
         <EditorCategories value="Race:Terran"/>
         <Events>
@@ -1795,7 +2347,13 @@
     <CModel id="UnityBarrier3" parent="PersistentSpellFX">
         <Model value="Assets\Effects\Protoss\Karax_UnityBarrier\Karax_UnityBarrier.m3"/>
     </CModel>
+    <CModel id="UnityBarrier32" parent="PersistentSpellFX">
+        <Model value="Assets\Effects\Protoss\Karax_UnityBarrier\Karax_UnityBarrier.m3"/>
+    </CModel>
     <CModel id="UnityBarrier4" parent="PersistentSpellFX">
+        <Model value="Assets\Effects\Protoss\Karax_UnityBarrier\Karax_UnityBarrier.m3"/>
+    </CModel>
+    <CModel id="UnityBarrier5" parent="PersistentSpellFX">
         <Model value="Assets\Effects\Protoss\Karax_UnityBarrier\Karax_UnityBarrier.m3"/>
     </CModel>
     <CModel id="VoidZealotWhirlwindImpact2" parent="ImpactFX">
@@ -1925,6 +2483,36 @@
         </TextureDeclares>
         <UnitGlossaryCamera value="Star2CameraMid05"/>
     </CModel>
+    <CModel id="ZealotPurifier4">
+        <Model value="Assets\Units\Protoss\Zealot_Purifier\Zealot_Purifier.m3"/>
+        <RequiredAnims value="Assets\Units\Protoss\Zealot_SwarmAnims\Zealot_SwarmAnims.m3a"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraMid05"/>
+        <Radius value="0.375000"/>
+        <SelectionRadius value="0.416500"/>
+        <ShadowRadius value="0.416500"/>
+        <SquibTypeDefault value="Metal"/>
+        <TechPurchaseCamera value="Star2CameraMid05"/>
+        <TextureDeclares Prefix="zealot_">
+            <Adaptions TriggerOnSubstring="_Diffuse" Slot="main"/>
+        </TextureDeclares>
+        <UnitGlossaryCamera value="Star2CameraMid05"/>
+    </CModel>
+    <CModel id="ZealotPurifier5">
+        <Model value="Assets\Units\Protoss\Zealot_Purifier\Zealot_Purifier.m3"/>
+        <RequiredAnims value="Assets\Units\Protoss\Zealot_SwarmAnims\Zealot_SwarmAnims.m3a"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraMid05"/>
+        <Radius value="0.375000"/>
+        <SelectionRadius value="0.416500"/>
+        <ShadowRadius value="0.416500"/>
+        <SquibTypeDefault value="Metal"/>
+        <TechPurchaseCamera value="Star2CameraMid05"/>
+        <TextureDeclares Prefix="zealot_">
+            <Adaptions TriggerOnSubstring="_Diffuse" Slot="main"/>
+        </TextureDeclares>
+        <UnitGlossaryCamera value="Star2CameraMid05"/>
+    </CModel>
     <CModel id="ZealotPurifierDeath2" parent="UnitDeath" Race="Protoss">
         <Model value="Assets\Units\Protoss\Zealot_Purifier_Death\Zealot_Purifier_Death.m3"/>
         <LowQualityModel value="ProtossSpiritDeathLow"/>
@@ -1934,6 +2522,22 @@
         <VariationCount value="2"/>
     </CModel>
     <CModel id="ZealotPurifierDeath3" parent="UnitDeath" Race="Protoss">
+        <Model value="Assets\Units\Protoss\Zealot_Purifier_Death\Zealot_Purifier_Death.m3"/>
+        <LowQualityModel value="ProtossSpiritDeathLow"/>
+        <Occlusion value="Show"/>
+        <SelectionRadius value="0.555400"/>
+        <ShadowRadius value="0.555400"/>
+        <VariationCount value="2"/>
+    </CModel>
+    <CModel id="ZealotPurifierDeath4" parent="UnitDeath" Race="Protoss">
+        <Model value="Assets\Units\Protoss\Zealot_Purifier_Death\Zealot_Purifier_Death.m3"/>
+        <LowQualityModel value="ProtossSpiritDeathLow"/>
+        <Occlusion value="Show"/>
+        <SelectionRadius value="0.555400"/>
+        <ShadowRadius value="0.555400"/>
+        <VariationCount value="2"/>
+    </CModel>
+    <CModel id="ZealotPurifierDeath5" parent="UnitDeath" Race="Protoss">
         <Model value="Assets\Units\Protoss\Zealot_Purifier_Death\Zealot_Purifier_Death.m3"/>
         <LowQualityModel value="ProtossSpiritDeathLow"/>
         <Occlusion value="Show"/>
@@ -1957,12 +2561,38 @@
         <SelectionRadius value="0.416500"/>
         <ShadowRadius value="0.416500"/>
     </CModel>
+    <CModel id="ZealotPurifierPlacement4" parent="Placement" Race="Protoss">
+        <Model value="Assets\Units\Protoss\Zealot_Purifier_Placement\Zealot_Purifier_Placement.m3"/>
+        <Lighting value="Zealot"/>
+        <Occlusion value="Show"/>
+        <Radius value="-1.000000"/>
+        <SelectionRadius value="0.416500"/>
+        <ShadowRadius value="0.416500"/>
+    </CModel>
+    <CModel id="ZealotPurifierPlacement5" parent="Placement" Race="Protoss">
+        <Model value="Assets\Units\Protoss\Zealot_Purifier_Placement\Zealot_Purifier_Placement.m3"/>
+        <Lighting value="Zealot"/>
+        <Occlusion value="Show"/>
+        <Radius value="-1.000000"/>
+        <SelectionRadius value="0.416500"/>
+        <ShadowRadius value="0.416500"/>
+    </CModel>
     <CModel id="ZealotPurifierPortrait2" parent="Portrait" Race="Protoss">
         <Model value="Assets\Portraits\Protoss\Zealot_Purifier_Portrait\Zealot_Purifier_Portrait.m3"/>
         <Image value="Assets\Textures\purifierzealotportrait_static.dds"/>
         <Lighting value="PortraitZealotPurifier"/>
     </CModel>
     <CModel id="ZealotPurifierPortrait3" parent="Portrait" Race="Protoss">
+        <Model value="Assets\Portraits\Protoss\Zealot_Purifier_Portrait\Zealot_Purifier_Portrait.m3"/>
+        <Image value="Assets\Textures\purifierzealotportrait_static.dds"/>
+        <Lighting value="PortraitZealotPurifier"/>
+    </CModel>
+    <CModel id="ZealotPurifierPortrait4" parent="Portrait" Race="Protoss">
+        <Model value="Assets\Portraits\Protoss\Zealot_Purifier_Portrait\Zealot_Purifier_Portrait.m3"/>
+        <Image value="Assets\Textures\purifierzealotportrait_static.dds"/>
+        <Lighting value="PortraitZealotPurifier"/>
+    </CModel>
+    <CModel id="ZealotPurifierPortrait5" parent="Portrait" Race="Protoss">
         <Model value="Assets\Portraits\Protoss\Zealot_Purifier_Portrait\Zealot_Purifier_Portrait.m3"/>
         <Image value="Assets\Textures\purifierzealotportrait_static.dds"/>
         <Lighting value="PortraitZealotPurifier"/>
@@ -1976,6 +2606,22 @@
         <ShadowRadius value="0.555400"/>
     </CModel>
     <CModel id="ZealotPurifierWarpIn3" parent="OneShotSpellFX">
+        <Model value="Assets\Units\Protoss\Zealot_Purifier_WarpIn\Zealot_Purifier_WarpIn.m3"/>
+        <LowQualityModel value="ProtossUnitBirth"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Occlusion value="Show"/>
+        <SelectionRadius value="0.555400"/>
+        <ShadowRadius value="0.555400"/>
+    </CModel>
+    <CModel id="ZealotPurifierWarpIn4" parent="OneShotSpellFX">
+        <Model value="Assets\Units\Protoss\Zealot_Purifier_WarpIn\Zealot_Purifier_WarpIn.m3"/>
+        <LowQualityModel value="ProtossUnitBirth"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Occlusion value="Show"/>
+        <SelectionRadius value="0.555400"/>
+        <ShadowRadius value="0.555400"/>
+    </CModel>
+    <CModel id="ZealotPurifierWarpIn5" parent="OneShotSpellFX">
         <Model value="Assets\Units\Protoss\Zealot_Purifier_WarpIn\Zealot_Purifier_WarpIn.m3"/>
         <LowQualityModel value="ProtossUnitBirth"/>
         <EditorCategories value="Race:Protoss"/>
@@ -2149,6 +2795,51 @@
         <ShadowRadius value="0.625000"/>
     </CModel>
     <CModel id="ZergSmallUnitDeathLow20" parent="UnitDeath" Race="Zerg">
+        <Model value="Assets\Effects\Zerg\ZergSmallUnitDeath\ZergSmallUnitDeath_low.m3"/>
+        <Flags index="TeenSafe" value="1"/>
+        <Occlusion value="Show"/>
+        <ScaleMax value="0.800000,0.800000,0.800000"/>
+        <ScaleMin value="0.800000,0.800000,0.800000"/>
+        <SelectionRadius value="0.625000"/>
+        <ShadowRadius value="0.625000"/>
+    </CModel>
+    <CModel id="ZergSmallUnitDeathLow21" parent="UnitDeath" Race="Zerg">
+        <Model value="Assets\Effects\Zerg\ZergSmallUnitDeath\ZergSmallUnitDeath_low.m3"/>
+        <Flags index="TeenSafe" value="1"/>
+        <Occlusion value="Show"/>
+        <ScaleMax value="0.800000,0.800000,0.800000"/>
+        <ScaleMin value="0.800000,0.800000,0.800000"/>
+        <SelectionRadius value="0.625000"/>
+        <ShadowRadius value="0.625000"/>
+    </CModel>
+    <CModel id="ZergSmallUnitDeathLow22" parent="UnitDeath" Race="Zerg">
+        <Model value="Assets\Effects\Zerg\ZergSmallUnitDeath\ZergSmallUnitDeath_low.m3"/>
+        <Flags index="TeenSafe" value="1"/>
+        <Occlusion value="Show"/>
+        <ScaleMax value="0.800000,0.800000,0.800000"/>
+        <ScaleMin value="0.800000,0.800000,0.800000"/>
+        <SelectionRadius value="0.625000"/>
+        <ShadowRadius value="0.625000"/>
+    </CModel>
+    <CModel id="ZergSmallUnitDeathLow23" parent="UnitDeath" Race="Zerg">
+        <Model value="Assets\Effects\Zerg\ZergSmallUnitDeath\ZergSmallUnitDeath_low.m3"/>
+        <Flags index="TeenSafe" value="1"/>
+        <Occlusion value="Show"/>
+        <ScaleMax value="0.800000,0.800000,0.800000"/>
+        <ScaleMin value="0.800000,0.800000,0.800000"/>
+        <SelectionRadius value="0.625000"/>
+        <ShadowRadius value="0.625000"/>
+    </CModel>
+    <CModel id="ZergSmallUnitDeathLow24" parent="UnitDeath" Race="Zerg">
+        <Model value="Assets\Effects\Zerg\ZergSmallUnitDeath\ZergSmallUnitDeath_low.m3"/>
+        <Flags index="TeenSafe" value="1"/>
+        <Occlusion value="Show"/>
+        <ScaleMax value="0.800000,0.800000,0.800000"/>
+        <ScaleMin value="0.800000,0.800000,0.800000"/>
+        <SelectionRadius value="0.625000"/>
+        <ShadowRadius value="0.625000"/>
+    </CModel>
+    <CModel id="ZergSmallUnitDeathLow25" parent="UnitDeath" Race="Zerg">
         <Model value="Assets\Effects\Zerg\ZergSmallUnitDeath\ZergSmallUnitDeath_low.m3"/>
         <Flags index="TeenSafe" value="1"/>
         <Occlusion value="Show"/>

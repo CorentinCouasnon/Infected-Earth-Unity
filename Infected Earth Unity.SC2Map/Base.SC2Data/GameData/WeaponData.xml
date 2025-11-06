@@ -41,8 +41,8 @@
         <Range value="0.1"/>
         <Period value="1"/>
         <Effect value="HotSZerglingClaws22"/>
-        <DamagePoint value="20"/>
-        <Backswing value="0.1"/>
+        <DamagePoint value="0"/>
+        <Backswing value="0"/>
     </CWeaponLegacy>
     <CWeaponLegacy id="Claws3">
         <EditorCategories value="Race:Zerg"/>
@@ -60,8 +60,8 @@
         <DisplayEffect value="RaynorGaussRifleDamage2"/>
         <TargetFilters value="Visible;Missile,Stasis,Dead,Hidden,Invulnerable"/>
         <MinScanRange value="6.5"/>
-        <Range value="15"/>
-        <Period value="0.15"/>
+        <Range value="8"/>
+        <Period value="0.3"/>
         <DamagePoint value="17"/>
         <Backswing value="0.1"/>
         <Effect value="RaynorGaussRifleDamage2"/>
@@ -71,11 +71,18 @@
         <Icon value="Assets\Textures\btn-upgrade-terran-infantryweaponslevel0.dds"/>
         <TargetFilters value="Visible;Missile,Stasis,Dead,Hidden,Invulnerable"/>
         <MinScanRange value="5.5"/>
-        <Period value="0.5"/>
+        <Period value="0.9"/>
         <DamagePoint value="0.05"/>
     </CWeaponLegacy>
-    <CWeaponLegacy id="InfernalFlameThrower">
-        <Period value="1.5"/>
+    <CWeaponLegacy id="HellbatArme">
+        <EditorCategories value="Race:Terran"/>
+        <Icon value="Assets\Textures\btn-upgrade-terran-vehicleweaponslevel0.dds"/>
+        <DisplayEffect value="HHHellionTankDamage2"/>
+        <TargetFilters value="Ground,Visible;Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <AcquirePrioritization value="ByAngle"/>
+        <Range value="2"/>
+        <Period value="2.5"/>
+        <Effect value="HHHellionTank2"/>
     </CWeaponLegacy>
     <CWeaponLegacy id="NeedleSpines">
         <Range value="9"/>
@@ -83,30 +90,6 @@
     <CWeaponLegacy id="P38ScytheGuassPistol">
         <Range value="6.5"/>
         <Period value="0.7"/>
-    </CWeaponLegacy>
-    <CWeaponLegacy id="P38ScytheGuassPistol2">
-        <EditorCategories value="Race:Terran"/>
-        <Icon value="Assets\Textures\btn-upgrade-terran-infantryweaponslevel0.dds"/>
-        <DisplayAttackCount value="2"/>
-        <TargetFilters value="Ground,Visible;Structure,Missile,Stasis,Dead,Hidden,Invulnerable"/>
-        <MinScanRange value="5.5"/>
-        <Range value="4.5"/>
-        <Period value="1.1"/>
-        <DamagePoint value="0"/>
-        <Backswing value="0.75"/>
-        <Effect value="P38ScytheGuassPistolBurst2"/>
-    </CWeaponLegacy>
-    <CWeaponLegacy id="P38ScytheGuassPistol3">
-        <EditorCategories value="Race:Terran"/>
-        <Icon value="Assets\Textures\btn-upgrade-terran-infantryweaponslevel0.dds"/>
-        <DisplayAttackCount value="2"/>
-        <TargetFilters value="Ground,Visible;Structure,Missile,Stasis,Dead,Hidden,Invulnerable"/>
-        <MinScanRange value="5.5"/>
-        <Range value="4.5"/>
-        <Period value="1.1"/>
-        <DamagePoint value="0"/>
-        <Backswing value="0.75"/>
-        <Effect value="P38ScytheGuassPistolBurst3"/>
     </CWeaponLegacy>
     <CWeaponLegacy id="RaynorWeapon2">
         <EditorCategories value="Race:Terran"/>
@@ -144,7 +127,7 @@
         <Cost>
             <Cooldown Link="Weapon/PsiBlades"/>
         </Cost>
-        <Period value="0.1"/>
+        <Period value="0.7"/>
         <DamagePoint value="30000"/>
         <Effect value="ZealotAiurWeaponCleaveSet2"/>
     </CWeaponLegacy>

@@ -6,13 +6,10 @@
     <ObjectDoodad Id="1943231257" Position="89.5,52.5,7.9987" Rotation="4.73" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="818564716" Position="17.5,221.5,7.9987" Rotation="4.957" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="818564716" Position="17.5,221.5,9.9992" Rotation="4.957" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="2024385831" Position="192.4584,68.2617,7.9995" Rotation="6.2646" Scale="1,1,1" Type="CompoundMansion_Mengsk_Statue">
-        <Flag Index="HeightAbsolute" Value="1"/>
-    </ObjectDoodad>
-    <ObjectDoodad Id="213014304" Position="116.5,221.5,7.9987" Rotation="0.1376" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1684012211" Position="250.5,96.5,7.9987" Rotation="2.2778" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
@@ -27,7 +24,7 @@
     <ObjectDoodad Id="2051035372" Position="97.5,195.5,7.9995" Rotation="0.634" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1067309370" Position="125.5,158.5,7.999" Rotation="5.2583" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="1067309370" Position="125.5,158.5,7.9995" Rotation="5.2583" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1768407322" Position="18.5,104.5,7.999" Rotation="3.933" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
@@ -43,7 +40,7 @@
     <ObjectDoodad Id="1928414889" Position="188.5,52.5,7.9992" Rotation="0.292" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1615115637" Position="122.5,157.5,7.999" Rotation="1.4985" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="1615115637" Position="122.5,157.5,7.9995" Rotation="1.4985" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1505402704" Position="176.5,1.5,7.9992" Scale="1,1,1" Type="PathingandSightBlocker1x1Doodad">
@@ -67,7 +64,7 @@
     <ObjectDoodad Id="1557481524" Variation="2" Position="0.5,220.5,7.9987" Rotation="6.077" Scale="1,1,1" Type="BraxisAlphaBarrels">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="290103074" Position="66.5,243.5,7.9987" Rotation="0.2854" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="290103074" Position="107.5,250.5,7.9992" Rotation="0.2854" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="449958808" Position="89.5,53.5,7.9987" Rotation="5.4243" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
@@ -82,11 +79,13 @@
     <ObjectDoodad Id="94234769" Position="192.5,56.5,7.9992" Rotation="0.095" Scale="1,1,1" Type="BuildingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1230790050" Position="23.5,155.5,7.9482" Rotation="3.3925" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="1230790050" Position="16.861,158.576,7.999" Rotation="3.3925" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
+        <Flag Index="ForcePlacement" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1290576431" Position="131.6972,248.8625,7.9995" Rotation="5.479" Scale="1,1,1" Type="UmojanLabZergCratesOpen">
+    <ObjectDoodad Id="1290576431" Position="144.8571,239.26,8" Rotation="5.479" Scale="1,1,1" Type="UmojanLabZergCratesOpen">
         <Flag Index="HeightAbsolute" Value="1"/>
+        <Flag Index="ForcePlacement" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1397982856" Position="97.5,209.5,7.9995" Rotation="0.634" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
@@ -106,10 +105,7 @@
     <ObjectDoodad Id="1175941124" Position="203,57,7.9992" Rotation="0.1494" Scale="0.8498,0.8498,0.8498" Type="PathingBlocker2x2Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1454408921" Position="15.5,221.5,8.0212" Rotation="5.5815" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
-        <Flag Index="HeightAbsolute" Value="1"/>
-    </ObjectDoodad>
-    <ObjectDoodad Id="312034954" Position="117.5,226.5,7.9987" Rotation="5.1853" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="1454408921" Position="15.5,221.5,10.011" Rotation="5.5815" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="439068698" Position="250.5,94.5,7.9987" Rotation="0.2885" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
@@ -128,7 +124,7 @@
     <ObjectDoodad Id="694512292" Position="199,54,7.9992" Rotation="1.1291" Scale="0.8498,0.8498,0.8498" Type="PathingBlocker2x2Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1639996177" Position="67.5,245.5,7.9987" Rotation="3.5712" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="1639996177" Position="108.5,252.5,7.9992" Rotation="3.5712" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="338288514" Position="59.5,59.5,7.9987" Rotation="3.1572" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
@@ -137,7 +133,7 @@
     <ObjectDoodad Id="815467170" Position="201.5,75.5,7.9992" Rotation="1.494" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1989142434" Variation="5" Position="108.1616,170.345,7.9987" Rotation="4.1064" Scale="0.8923,0.8923,0.8923" Type="AsteroidCliffMetal">
+    <ObjectDoodad Id="1989142434" Variation="5" Position="108.1616,170.345,7.9992" Rotation="4.1064" Scale="0.8923,0.8923,0.8923" Type="AsteroidCliffMetal">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="78373670" Position="177.5,3.5,7.9992" Scale="1,1,1" Type="PathingandSightBlocker1x1Doodad">
@@ -170,13 +166,10 @@
     <ObjectDoodad Id="2041473770" Position="191.5,73.5,7.9992" Rotation="0.3972" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1919264472" Position="17.5,222.5,7.9987" Rotation="4.3664" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="1919264472" Position="17.5,222.5,9.9992" Rotation="4.3664" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="93284703" Position="64.5,245.5,7.9987" Rotation="3.025" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
-        <Flag Index="HeightAbsolute" Value="1"/>
-    </ObjectDoodad>
-    <ObjectDoodad Id="1465620468" Position="32.5,178.5,7.9987" Rotation="0.2006" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="93284703" Position="105.5,252.5,7.9992" Rotation="3.025" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="154422279" Position="69.5,200.5,7.9995" Rotation="0.634" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
@@ -194,16 +187,19 @@
     <ObjectDoodad Id="748302906" Position="80.5,122.5,11.999" Rotation="0.8481" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="120347417" Position="65.5,245.5,7.9987" Rotation="5.4602" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="2116480884" Position="78.5,147.5,7.9985" Rotation="1.6247" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1949819637" Position="125.5,157.5,7.999" Rotation="2.2045" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="120347417" Position="106.5,252.5,7.9992" Rotation="5.4602" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="1949819637" Position="125.5,157.5,7.9995" Rotation="2.2045" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1126851692" Position="184.5,96.5,7.9992" Rotation="0.9941" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="614808607" Variation="1" Position="71.5,243.5,7.9987" Rotation="0.5615" Scale="1,1,1" Type="BraxisAlphaBarrels">
+    <ObjectDoodad Id="614808607" Variation="1" Position="112.5,250.5,7.9987" Rotation="0.5615" Scale="1,1,1" Type="BraxisAlphaBarrels">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1760157913" Position="55.5,37.5,7.9992" Rotation="3.744" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
@@ -212,7 +208,7 @@
     <ObjectDoodad Id="1185869330" Position="196.5,55.5,7.9992" Rotation="1.2717" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1550924011" Position="47,149,7.999" Rotation="3.1193" Scale="1,1,1" Type="AvernusUltraliskShackled">
+    <ObjectDoodad Id="1550924011" Position="47,149,7.999" Rotation="3.1193" Scale="1,1,1" Name="UltraliskEnCage" Type="AvernusUltraliskShackled">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="621505477" Position="1.5,220.5,7.9987" Rotation="5.4274" Scale="1,1,1" Type="BraxisAlphaBarrels">
@@ -228,7 +224,7 @@
     <ObjectDoodad Id="1867659347" Position="226.5,121.5,7.9992" Scale="1,1,1" Type="PathingandSightBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1417955792" Position="16.5,223.5,7.9987" Rotation="2.9538" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="1417955792" Position="16.5,223.5,9.9992" Rotation="2.9538" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="430630490" Position="154.5,67.5,7.9992" Scale="1,1,1" Type="PathingandSightBlocker1x1Doodad">
@@ -237,11 +233,12 @@
     <ObjectDoodad Id="1639342494" Position="82.5,121.5,11.999" Rotation="5.9675" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1130441032" Position="124.5,161.5,7.9987" Rotation="3.4663" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="1130441032" Position="124.5,161.5,7.9992" Rotation="3.4663" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1333160945" Position="146.5,174.5,7.999" Rotation="2.0803" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="1333160945" Position="144.1206,159.7355,8.0278" Rotation="3.3764" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
+        <Flag Index="ForcePlacement" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1662189264" Position="239.1184,202.2905,7.9995" Rotation="3.1525" Scale="1,1,1" Type="Tarsonis_BuildingWall_Concrete_Straight">
         <Flag Index="HeightAbsolute" Value="1"/>
@@ -249,19 +246,22 @@
     <ObjectDoodad Id="1713981310" Position="90.5,47.5,7.9987" Rotation="4.3332" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1529901193" Position="63.5,245.5,7.9987" Rotation="1.079" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="1529901193" Position="104.5,252.5,7.9992" Rotation="1.079" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="778750136" Position="81.5,121.5,11.999" Rotation="4.127" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="542900885" Position="66.5,242.5,7.9987" Rotation="2.6911" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="542900885" Position="107.5,249.5,7.9992" Rotation="2.6911" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="2044304201" Position="17.5,224.5,7.9987" Rotation="3.4587" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="2044304201" Position="17.5,224.5,9.9992" Rotation="3.4587" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1000458771" Position="192.5,75.5,7.9992" Rotation="5.5104" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="1928452676" Position="79.5,147.5,7.9985" Rotation="4.9711" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="2036039243" Position="205.5,60.5,7.9992" Scale="1,1,1" Type="NewFolsomSandbags">
@@ -273,8 +273,9 @@
     <ObjectDoodad Id="279934949" Position="188.5,53.5,7.9992" Rotation="2.6706" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="469108895" Position="17.5,248.5,7.9987" Rotation="5.9096" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="469108895" Position="39.8901,242.3493,7.9992" Rotation="0.74" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
+        <Flag Index="ForcePlacement" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1696747422" Position="50.5,133.5,11.999" Rotation="5.5275" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
@@ -308,7 +309,7 @@
     <ObjectDoodad Id="40645674" Position="64.5,209.5,7.9995" Rotation="4.1635" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="253054920" Position="66.5,244.5,7.9987" Rotation="5.7856" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="253054920" Position="107.5,251.5,7.9992" Rotation="5.7856" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="13301231" Position="98.5,121.5,7.999" Rotation="4.882" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
@@ -320,19 +321,24 @@
     <ObjectDoodad Id="1551509898" Position="95.5,117.5,7.999" Rotation="0.668" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="914762050" Position="31.9943,177.349,7.9987" Rotation="2.2783" Scale="1.1992,1.1992,1.1992" Type="AsteroidCliffGirder">
+    <ObjectDoodad Id="914762050" Position="82.9,146.6154,7.9992" Rotation="3.6333" Scale="1.1992,1.1992,1.1992" Type="AsteroidCliffGirder">
         <Flag Index="HeightAbsolute" Value="1"/>
+        <Flag Index="ForcePlacement" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="175330045" Variation="1" Position="71.5,245.5,7.9987" Rotation="5.8037" Scale="1,1,1" Type="BraxisAlphaBarrels">
+    <ObjectDoodad Id="175330045" Variation="1" Position="112.5,252.5,7.9987" Rotation="5.8037" Scale="1,1,1" Type="BraxisAlphaBarrels">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1354097074" Position="116.5,75.5,7.9987" Rotation="4.3801" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1067581896" Position="16.5,250.5,7.9987" Rotation="4.8034" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="1067581896" Position="38.8901,244.3493,7.9868" Rotation="0.6425" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
+        <Flag Index="ForcePlacement" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1210506093" Position="5.5,58.5,9.996" Scale="1,1,1" Type="MeinhoffCurtain">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="1374626868" Position="80.5,147.5,7.9985" Rotation="1.2456" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1673482704" Position="117.5,82.5,7.999" Rotation="0.2875" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
@@ -350,7 +356,7 @@
     <ObjectDoodad Id="962673851" Position="226.7368,247.0524,7.9995" Rotation="3.153" Scale="1,1,1" Type="XelNaga_Cavern_Wall_Statue">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1521534003" Position="126.5,160.5,7.9987" Rotation="3.4404" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="1521534003" Position="126.5,160.5,7.9992" Rotation="3.4404" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="475933078" Position="88.5,196.5,7.9992" Rotation="0.4011" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
@@ -366,7 +372,7 @@
     <ObjectDoodad Id="378692389" Position="55.5,58.5,7.9987" Rotation="0.3527" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1677757532" Variation="1" Position="4.5,220.5,8.0012" Rotation="5.212" Scale="1,1,1" Type="BraxisAlphaBarrels">
+    <ObjectDoodad Id="1677757532" Variation="1" Position="4.5,220.5,8.0217" Rotation="5.212" Scale="1,1,1" Type="BraxisAlphaBarrels">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1658483361" Position="86.5,53.5,7.9987" Rotation="2.0534" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
@@ -394,9 +400,6 @@
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="855933990" Position="113.5,81.5,7.9987" Rotation="4.1635" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
-        <Flag Index="HeightAbsolute" Value="1"/>
-    </ObjectDoodad>
-    <ObjectDoodad Id="687641432" Position="111.5,224.5,7.9987" Rotation="3.8537" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1313815081" Position="118.5,86.5,7.999" Rotation="1.398" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
@@ -462,9 +465,6 @@
     <ObjectDoodad Id="424141657" Position="30.5,125.5,7.999" Rotation="2.43" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1022642636" Position="109.5,234.5,9.9987" Rotation="4.0107" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
-        <Flag Index="HeightAbsolute" Value="1"/>
-    </ObjectDoodad>
     <ObjectDoodad Id="1633001853" Position="20.5,33.5,7.999" Rotation="1.1665" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
@@ -480,7 +480,7 @@
     <ObjectDoodad Id="87180021" Position="62.671,196.1477,7.9995" Rotation="5.6228" Scale="1,1,1" Type="PipesSmallShort">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1102344535" Position="68.5,244.5,7.9987" Rotation="2.883" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="1102344535" Position="109.5,251.5,7.9992" Rotation="2.883" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="569812377" Position="227.2368,199.0524,7.9995" Rotation="0.0083" Scale="1,1,1" Type="XelNaga_Cavern_Wall_Statue">
@@ -496,12 +496,6 @@
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="978961599" Position="188.5,97.5,7.9992" Rotation="5.6386" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
-        <Flag Index="HeightAbsolute" Value="1"/>
-    </ObjectDoodad>
-    <ObjectDoodad Id="1705881031" Position="109.3273,234.9191,9.9987" Scale="1,1,1" Type="SnowRefinery_Terran_Antenna">
-        <Flag Index="HeightAbsolute" Value="1"/>
-    </ObjectDoodad>
-    <ObjectDoodad Id="1379272483" Position="30.5,178.5,7.9987" Rotation="5.3608" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1669044367" Position="97.5,118.5,7.999" Rotation="0.7607" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
@@ -532,7 +526,7 @@
     <ObjectDoodad Id="667334087" Position="239.5,89.5,7.9992" Scale="1,1,1" Type="PathingandSightBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1379098770" Position="123.5,159.5,7.999" Rotation="2.8972" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="1379098770" Position="123.5,159.5,7.9995" Rotation="2.8972" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1089001138" Position="56.5,63.5,7.9987" Rotation="2.2226" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
@@ -550,22 +544,13 @@
     <ObjectDoodad Id="1266444852" Position="59.5,62.5,7.9987" Rotation="4.9204" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="661041159" Position="115.5,225.5,7.9987" Rotation="2.2861" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
-        <Flag Index="HeightAbsolute" Value="1"/>
-    </ObjectDoodad>
-    <ObjectDoodad Id="259309333" Position="113.5,225.5,7.9987" Rotation="4.6032" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
-        <Flag Index="HeightAbsolute" Value="1"/>
-    </ObjectDoodad>
-    <ObjectDoodad Id="603367783" Position="17.5,219.5,8.0012" Rotation="2.3757" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="603367783" Position="17.5,219.5,8.0217" Rotation="2.3757" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="997329616" Position="62.5,196.5,7.9995" Rotation="1.6242" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="2087687799" Position="205.7368,247.0524,7.9995" Rotation="3.153" Scale="1,1,1" Type="XelNaga_Cavern_Wall_Statue">
-        <Flag Index="HeightAbsolute" Value="1"/>
-    </ObjectDoodad>
-    <ObjectDoodad Id="843428592" Position="112.5,225.5,7.9987" Rotation="5.158" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1657225976" Variation="4" Position="214.141,72.024,7.9992" Rotation="5.2363" Scale="1,1,1" Type="ScientistCorpseGory">
@@ -584,13 +569,17 @@
     <ObjectDoodad Id="1323504507" Position="184.5,97.5,7.9992" Rotation="4.8088" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1643079192" Position="146.5,176.5,7.999" Rotation="4.5578" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="1643079192" Position="144.1206,161.7355,7.9995" Rotation="3.5537" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
+        <Flag Index="ForcePlacement" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="471119272" Variation="2" Position="204.5,58.5,7.9992" Scale="1,1,1" Type="NewFolsomSandbags">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="2072056273" Position="41.5,65.5,7.9987" Scale="1,1,1" Type="LoSBlockerColumn">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="1363790343" Position="77.5,147.5,7.9985" Rotation="0.699" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1463059839" Position="206.102,204.6811,7.9995" Rotation="3.163" Scale="1,1,1" Type="Tarsonis_BuildingWall_Concrete_Straight">
@@ -602,10 +591,13 @@
     <ObjectDoodad Id="1173327623" Position="82.5,118.5,11.999" Rotation="2.3107" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1068613890" Position="126.5,163.5,7.9987" Rotation="5.7312" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="1068613890" Position="126.5,163.5,7.9992" Rotation="5.7312" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1242775880" Position="58.5,58.5,7.9987" Rotation="0.456" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="560543153" Position="80.5,146.5,7.9985" Rotation="4.0375" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="550319431" Position="180.5,67.5,7.9992" Rotation="0.931" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
@@ -626,13 +618,10 @@
     <ObjectDoodad Id="1815932335" Position="153.5,67.5,7.9992" Scale="1,1,1" Type="PathingandSightBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="781869409" Position="122.5,160.5,7.9987" Rotation="1.3056" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="781869409" Position="122.5,160.5,7.9992" Rotation="1.3056" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1317396658" Position="224.5,120.5,7.9992" Scale="1,1,1" Type="PathingandSightBlocker1x1Doodad">
-        <Flag Index="HeightAbsolute" Value="1"/>
-    </ObjectDoodad>
-    <ObjectDoodad Id="1319869573" Position="31.5,177.5,7.9987" Rotation="3.491" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1546626902" Position="211.7368,247.0524,7.9995" Rotation="3.153" Scale="1,1,1" Type="XelNaga_Cavern_Wall_Statue">
@@ -641,7 +630,7 @@
     <ObjectDoodad Id="830245575" Position="116.5,84.5,7.999" Rotation="5.0334" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1454086380" Position="127.5,158.5,7.999" Rotation="0.7656" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="1454086380" Position="127.5,158.5,7.9995" Rotation="0.7656" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="228016610" Position="94.5,208.5,7.9992" Rotation="3.758" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
@@ -677,16 +666,13 @@
     <ObjectDoodad Id="782456072" Position="195.5,55.5,7.9992" Rotation="0.7744" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1705032759" Position="116.5,226.5,7.9987" Rotation="1.3437" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
-        <Flag Index="HeightAbsolute" Value="1"/>
-    </ObjectDoodad>
-    <ObjectDoodad Id="1508685441" Position="14.5,224.5,7.9987" Rotation="2.6677" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="1508685441" Position="14.5,224.5,9.9992" Rotation="2.6677" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="94747986" Position="196.5,75.5,7.9992" Rotation="1.4711" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="154227726" Position="67.5,244.5,7.9987" Rotation="0.6894" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="154227726" Position="108.5,251.5,7.9992" Rotation="0.6894" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="2139429459" Position="30.5,129.5,7.999" Rotation="3.0432" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
@@ -728,22 +714,19 @@
     <ObjectDoodad Id="1813381959" Position="200.5,75.5,7.9992" Rotation="4.0234" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="861895606" Position="132.5,250.5,8.0212" Rotation="0.2163" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
-        <Flag Index="HeightAbsolute" Value="1"/>
-    </ObjectDoodad>
     <ObjectDoodad Id="2146030608" Position="13.5,99.5,7.9987" Rotation="5.1806" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1555836181" Position="153.5,69.5,7.9992" Scale="1,1,1" Type="PathingandSightBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
+    <ObjectDoodad Id="498593995" Position="82.5,147.5,7.9985" Rotation="2.2482" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
     <ObjectDoodad Id="229234598" Position="176.5,71.5,7.9992" Rotation="4.0056" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1037758898" Position="62.5,195.5,7.9995" Rotation="0.634" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
-        <Flag Index="HeightAbsolute" Value="1"/>
-    </ObjectDoodad>
-    <ObjectDoodad Id="346539793" Position="33.5,177.5,7.9987" Rotation="0.185" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1581559380" Position="57.5,58.5,7.9987" Rotation="0.7795" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
@@ -780,9 +763,6 @@
     <ObjectDoodad Id="751112083" Position="84.5,51.5,7.9987" Rotation="6.2607" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1483670474" Position="36.09,226.962,10.009" Rotation="1.1484" Scale="0.8791,0.8791,0.8791" Type="Explosions_Flak_Terran_Background">
-        <Flag Index="HeightAbsolute" Value="1"/>
-    </ObjectDoodad>
     <ObjectDoodad Id="570544590" Position="184.5,59.5,7.9992" Rotation="0.998" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
@@ -798,16 +778,11 @@
     <ObjectDoodad Id="1767553294" Position="187.5,98.5,7.9992" Rotation="3.5693" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1984094267" Position="17.5,249.5,7.9987" Rotation="6.2221" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="1984094267" Position="39.8901,243.3493,7.9992" Rotation="0.6013" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
-    </ObjectDoodad>
-    <ObjectDoodad Id="1654096123" Position="111.5,223.5,7.9987" Rotation="3.1206" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
-        <Flag Index="HeightAbsolute" Value="1"/>
+        <Flag Index="ForcePlacement" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="361928013" Position="239.5,87.5,7.9992" Scale="1,1,1" Type="PathingandSightBlocker1x1Doodad">
-        <Flag Index="HeightAbsolute" Value="1"/>
-    </ObjectDoodad>
-    <ObjectDoodad Id="235966610" Variation="1" Position="111,224.5,7.9987" Scale="1,1,1" Type="TerranButcherPropLarge">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="30810862" Position="238.5,90.5,7.9992" Scale="1,1,1" Type="PathingandSightBlocker1x1Doodad">
@@ -828,6 +803,10 @@
     <ObjectDoodad Id="281226892" Position="183.5,57.5,7.9992" Rotation="6.261" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
+    <ObjectDoodad Id="914323220" Position="83.3078,146.6652,7.9985" Rotation="3.721" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+        <Flag Index="HeightAbsolute" Value="1"/>
+        <Flag Index="ForcePlacement" Value="1"/>
+    </ObjectDoodad>
     <ObjectDoodad Id="1511212387" Position="98.5,122.5,7.999" Rotation="2.76" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
@@ -843,14 +822,16 @@
     <ObjectDoodad Id="1576581165" Position="191.5,67.5,7.9992" Rotation="5.5397" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="829688341" Position="132.5,249.5,7.9987" Rotation="5.045" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="829688341" Position="145.66,239.8974,7.9992" Rotation="5.045" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+        <Flag Index="HeightAbsolute" Value="1"/>
+        <Flag Index="ForcePlacement" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="385891232" Position="108.5,253.5,7.9992" Rotation="2.984" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="385891232" Position="67.5,246.5,7.9987" Rotation="2.984" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="1099979491" Position="37.8901,243.3493,8.0122" Rotation="0.8693" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
-    </ObjectDoodad>
-    <ObjectDoodad Id="1099979491" Position="15.5,249.5,7.9831" Rotation="2.4711" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
-        <Flag Index="HeightAbsolute" Value="1"/>
+        <Flag Index="ForcePlacement" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1357451814" Position="180.5,5.5,7.9992" Scale="1,1,1" Type="PathingandSightBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
@@ -864,13 +845,11 @@
     <ObjectDoodad Id="437730316" Position="180.5,3.5,7.9992" Scale="1,1,1" Type="PathingandSightBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="77193197" Position="133.5,248.5,7.9987" Rotation="3.9658" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="77193197" Position="146.66,238.8974,8.1745" Rotation="3.9658" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
+        <Flag Index="ForcePlacement" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1592682632" Position="125.5,156.5,7.999" Rotation="2.5288" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
-        <Flag Index="HeightAbsolute" Value="1"/>
-    </ObjectDoodad>
-    <ObjectDoodad Id="678280642" Position="109.5,224.5,7.9987" Rotation="1.558" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="1592682632" Position="125.5,156.5,7.9995" Rotation="2.5288" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="206725291" Variation="1" Position="215.404,73.2641,7.9992" Rotation="1.4704" Scale="1,1,1" Type="ScientistCorpseGory">
@@ -880,7 +859,7 @@
     <ObjectDoodad Id="681221784" Variation="6" Position="204.5,59.5,7.9992" Scale="1,1,1" Type="NewFolsomSandbags">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="616409875" Position="126.5,158.5,7.999" Rotation="3.5693" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="616409875" Position="126.5,158.5,7.9995" Rotation="3.5693" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1860337351" Position="49.5,131.5,11.999" Rotation="4.941" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
@@ -895,7 +874,7 @@
     <ObjectDoodad Id="737074911" Position="78.5,13.5,7.9992" Rotation="4.2294" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1940341574" Position="122.5,158.5,7.999" Rotation="3.137" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="1940341574" Position="122.5,158.5,7.9995" Rotation="3.137" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="111974328" Position="116.5,76.5,7.9987" Rotation="0.659" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
@@ -919,13 +898,13 @@
     <ObjectDoodad Id="773921271" Position="90.5,50.5,7.9987" Rotation="6.0158" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1886938035" Position="63.5,242.5,7.9987" Rotation="5.5341" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="1886938035" Position="104.5,249.5,7.9992" Rotation="5.5341" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="975227448" Position="98.5,120.5,7.999" Rotation="0.1545" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1919989607" Position="16.5,220.5,7.9987" Rotation="1.0866" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="1919989607" Position="16.5,220.5,8.3471" Rotation="1.0866" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1093409976" Position="251.5,97.5,7.9987" Rotation="2.302" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
@@ -961,7 +940,7 @@
     <ObjectDoodad Id="1951165589" Position="179.5,4.5,7.9992" Scale="1,1,1" Type="PathingandSightBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="405298095" Position="128.5,161.5,7.9987" Rotation="5.1262" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="405298095" Position="128.5,161.5,7.9992" Rotation="5.1262" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="2013329790" Position="251.5,94.5,7.9987" Rotation="5.9743" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
@@ -988,7 +967,7 @@
     <ObjectDoodad Id="367125539" Position="115.5,81.5,7.9987" Rotation="0.6325" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="593129423" Position="124.5,162.5,7.9987" Rotation="5.3608" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="593129423" Position="124.5,162.5,7.9992" Rotation="5.3608" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="317151878" Position="195.5,56.5,7.9992" Rotation="2.4262" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
@@ -1037,13 +1016,14 @@
     <ObjectDoodad Id="809971117" Position="16.5,106.5,7.999" Rotation="5.8344" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="617432827" Position="13.5,223.5,7.9987" Rotation="0.2946" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="617432827" Position="17.4172,220.0341,8" Rotation="0.2946" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
+        <Flag Index="ForcePlacement" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="112466102" Position="85.5,49.5,7.9987" Rotation="1.791" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="2122978022" Position="17.5,220.5,7.9987" Rotation="2.6042" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="2122978022" Position="17.5,220.5,8.0131" Rotation="2.6042" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="289089018" Position="179.5,68.5,7.9992" Rotation="2.8903" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
@@ -1062,13 +1042,17 @@
         <Flag Index="HeightAbsolute" Value="1"/>
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="886856091" Position="123.5,156.5,7.999" Rotation="5.688" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="886856091" Position="123.5,156.5,7.9995" Rotation="5.688" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="746615675" Position="125.5,162.5,7.9987" Rotation="1.1271" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="746615675" Position="125.5,162.5,7.9992" Rotation="1.1271" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="540790125" Position="223.5,120.5,7.9992" Scale="1,1,1" Type="PathingandSightBlocker1x1Doodad">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="924823559" Position="75.0124,147.0886,7.9992" Rotation="2.4191" Scale="1.1992,1.1992,1.1992" Type="AsteroidCliffGirder">
+        <Flag Index="HeightOffset" Value="1"/>
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="2036963685" Position="59.5,60.5,7.9987" Rotation="2.3183" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
@@ -1081,10 +1065,13 @@
     <ObjectDoodad Id="2125442322" Position="87.5,54.5,7.9987" Rotation="4.21" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="277236910" Position="62.5,246.5,7.9987" Rotation="1.9345" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="277236910" Position="103.5,253.5,7.9992" Rotation="1.9345" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1062437202" Position="123.5,158.5,7.999" Rotation="1.4213" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="1062437202" Position="123.5,158.5,7.9995" Rotation="1.4213" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="1919637629" Position="78.5,146.5,7.9985" Rotation="4.1215" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1520078096" Variation="5" Position="209.2072,75.0122,7.9992" Rotation="0.4155" Scale="1,1,1" Type="ScientistCorpseGory">
@@ -1094,8 +1081,9 @@
     <ObjectDoodad Id="1459102197" Position="61.5,196.5,7.9995" Rotation="0.634" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="91527759" Position="130.5,247.5,7.9987" Rotation="5.3916" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="91527759" Position="143.66,237.8974,7.9992" Rotation="5.3916" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
+        <Flag Index="ForcePlacement" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="332640019" Position="176.5,5.5,7.9992" Scale="1,1,1" Type="PathingandSightBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
@@ -1116,16 +1104,7 @@
     <ObjectDoodad Id="726104573" Position="77.5,15.5,7.9992" Rotation="2.928" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1227958740" Position="34.5,176.5,7.9987" Rotation="4.3442" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
-        <Flag Index="HeightAbsolute" Value="1"/>
-    </ObjectDoodad>
-    <ObjectDoodad Id="215190193" Position="113.5,224.5,7.9987" Rotation="5.4958" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
-        <Flag Index="HeightAbsolute" Value="1"/>
-    </ObjectDoodad>
-    <ObjectDoodad Id="451842726" Position="65.5,242.5,7.9987" Rotation="5.9277" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
-        <Flag Index="HeightAbsolute" Value="1"/>
-    </ObjectDoodad>
-    <ObjectDoodad Id="1405076317" Position="110.5,226.5,7.9987" Rotation="1.676" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="451842726" Position="106.5,249.5,7.9992" Rotation="5.9277" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="2071640462" Position="119.5,79.5,7.999" Rotation="1.934" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
@@ -1134,7 +1113,7 @@
     <ObjectDoodad Id="57928722" Position="14.5,103.5,7.9987" Rotation="0.5275" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="39213876" Position="128.5,160.5,7.9987" Rotation="5.5551" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="39213876" Position="128.5,160.5,7.9992" Rotation="5.5551" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="870539293" Position="76.5,14.5,7.9992" Rotation="0.7453" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
@@ -1143,7 +1122,7 @@
     <ObjectDoodad Id="1156732263" Position="185.5,96.5,7.9992" Rotation="2.8806" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="87469649" Position="65.5,244.5,7.9987" Rotation="1.8937" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="87469649" Position="106.5,251.5,7.9992" Rotation="1.8937" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1563751329" Position="251.5,91.5,7.9987" Rotation="3.7285" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
@@ -1161,9 +1140,6 @@
     <ObjectDoodad Id="1746524098" Position="178.5,72.5,7.9992" Rotation="2.5114" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1701452944" Position="32.5,177.5,7.9987" Rotation="2.2426" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
-        <Flag Index="HeightAbsolute" Value="1"/>
-    </ObjectDoodad>
     <ObjectDoodad Id="656206305" Position="57.5,61.5,7.9987" Rotation="5.9091" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
@@ -1174,10 +1150,11 @@
         <Flag Index="HeightAbsolute" Value="1"/>
         <Flag Index="NoDoodadFootprint" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="96411951" Position="146.5,175.5,7.999" Rotation="5.9167" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="96411951" Position="144.1206,160.7355,7.9995" Rotation="3.4414" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
+        <Flag Index="ForcePlacement" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="26598470" Position="19.5,222.5,7.9987" Rotation="3.5656" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="26598470" Position="19.5,222.5,8.3334" Rotation="3.5656" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="83767377" Position="193.5,75.5,7.9992" Rotation="2.1147" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
@@ -1192,10 +1169,7 @@
     <ObjectDoodad Id="1238679858" Position="237.5,88.5,7.9992" Scale="1,1,1" Type="PathingandSightBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="460263121" Variation="1" Position="133.5,198,7.9965" Scale="1,1,1" Type="TerranCliffGapFiller">
-        <Flag Index="HeightAbsolute" Value="1"/>
-    </ObjectDoodad>
-    <ObjectDoodad Id="342174568" Position="15.5,225.5,7.9987" Rotation="0.0786" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="342174568" Position="15.5,225.5,9.9992" Rotation="0.0786" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1222432374" Position="116.5,83.5,7.999" Rotation="5.2692" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
@@ -1205,9 +1179,6 @@
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1080926812" Variation="2" Position="226.418,175.429,7.9992" Scale="1,1,1" Type="Protoss_Base_Core_Trims">
-        <Flag Index="HeightAbsolute" Value="1"/>
-    </ObjectDoodad>
-    <ObjectDoodad Id="766150461" Position="115.5,222.5,7.9987" Rotation="3.575" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="317508522" Position="212.2368,199.0524,7.9995" Rotation="0.0083" Scale="1,1,1" Type="XelNaga_Cavern_Wall_Statue">
@@ -1220,9 +1191,6 @@
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="249310974" Position="225.5,120.5,7.9992" Scale="1,1,1" Type="PathingandSightBlocker1x1Doodad">
-        <Flag Index="HeightAbsolute" Value="1"/>
-    </ObjectDoodad>
-    <ObjectDoodad Id="1429777416" Position="112.5,222.5,7.9987" Rotation="3.9606" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1296478413" Position="157.5,68.5,7.9992" Scale="1,1,1" Type="PathingandSightBlocker1x1Doodad">
@@ -1258,16 +1226,20 @@
     <ObjectDoodad Id="1555215687" Position="90.5,49.5,7.9987" Rotation="2.9985" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
+    <ObjectDoodad Id="1458330954" Position="82.3078,146.6652,7.9985" Rotation="3.5053" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+        <Flag Index="HeightAbsolute" Value="1"/>
+        <Flag Index="ForcePlacement" Value="1"/>
+    </ObjectDoodad>
     <ObjectDoodad Id="356773267" Position="28.5,126.5,7.999" Rotation="2.9035" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1355314366" Position="15.5,223.5,7.9987" Rotation="3.707" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="1355314366" Position="15.5,223.5,10.012" Rotation="3.707" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1755708170" Position="58.5,60.5,7.9987" Rotation="6.159" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="630728940" Position="125.5,160.5,7.9987" Rotation="5.8635" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="630728940" Position="125.5,160.5,7.9992" Rotation="5.8635" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="769415560" Position="255.5,94.5,7.9987" Rotation="1.1235" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
@@ -1282,19 +1254,23 @@
     <ObjectDoodad Id="1623659384" Position="55.5,62.5,7.9987" Rotation="1.0256" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
+    <ObjectDoodad Id="851272741" Position="84.3078,146.6652,7.9492" Rotation="3.8896" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+        <Flag Index="HeightAbsolute" Value="1"/>
+        <Flag Index="ForcePlacement" Value="1"/>
+    </ObjectDoodad>
     <ObjectDoodad Id="610474420" Position="226.2846,121.5515,7.9992" Rotation="3.034" Scale="0.9323,0.9323,0.9323" Type="RockVolcanicGiant">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="91172711" Position="85.5,54.5,7.9987" Rotation="2.1904" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1326381867" Position="126.5,159.5,7.999" Rotation="0.7202" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="1326381867" Position="126.5,159.5,7.9995" Rotation="0.7202" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="490821394" Variation="2" Position="1.5,219.5,7.9987" Rotation="0.2993" Scale="1,1,1" Type="BraxisAlphaBarrels">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1687261610" Position="124.5,160.5,7.9987" Rotation="0.6384" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="1687261610" Position="124.5,160.5,7.9992" Rotation="0.6384" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1630361566" Position="203.5,98.5,7.9992" Rotation="2.676" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
@@ -1303,8 +1279,9 @@
     <ObjectDoodad Id="325469861" Position="185.5,53.5,7.9992" Rotation="2.5344" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1792457717" Position="131.5,249.5,7.9987" Rotation="4.142" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="1792457717" Position="144.66,239.8974,7.9992" Rotation="4.142" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
+        <Flag Index="ForcePlacement" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1336471" Position="91.5,50.5,7.9987" Rotation="2.9448" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
@@ -1339,7 +1316,7 @@
         <Flag Index="HeightOffset" Value="1"/>
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1318851623" Variation="2" Position="2.5,221.5,7.9987" Rotation="1.5732" Scale="1,1,1" Type="BraxisAlphaBarrels">
+    <ObjectDoodad Id="1318851623" Variation="2" Position="2.5,221.5,7.9992" Rotation="1.5732" Scale="1,1,1" Type="BraxisAlphaBarrels">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="358520904" Position="161.5,92.5,7.9992" Scale="1,1,1" Type="PathingandSightBlocker1x1Doodad">
@@ -1348,10 +1325,10 @@
     <ObjectDoodad Id="300530373" Position="87.5,192.5,7.9992" Rotation="2.4807" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="870751475" Position="68.5,246.5,7.9987" Rotation="1.9355" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="870751475" Position="109.5,253.5,7.9992" Rotation="1.9355" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1703480604" Position="14.5,222.5,7.9987" Rotation="4.6093" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="1703480604" Position="14.5,222.5,9.9995" Rotation="4.6093" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1641396991" Position="80.5,120.5,11.999" Rotation="2.5761" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
@@ -1373,7 +1350,7 @@
         <Flag Index="HeightOffset" Value="1"/>
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="585604098" Position="16.5,224.5,7.9987" Rotation="5.489" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="585604098" Position="16.5,224.5,9.9992" Rotation="5.489" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="838586485" Position="200.5,97.5,7.9992" Rotation="4.5405" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
@@ -1382,13 +1359,7 @@
     <ObjectDoodad Id="1196339544" Position="58.5,62.5,7.9987" Rotation="5.2968" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="438397421" Position="63.5,244.5,7.9987" Rotation="0.804" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
-        <Flag Index="HeightAbsolute" Value="1"/>
-    </ObjectDoodad>
-    <ObjectDoodad Id="1220912821" Position="112.5,226.5,7.9987" Rotation="5.2145" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
-        <Flag Index="HeightAbsolute" Value="1"/>
-    </ObjectDoodad>
-    <ObjectDoodad Id="1056706901" Position="114.5,226.5,7.9987" Rotation="5.774" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="438397421" Position="104.5,251.5,7.9992" Rotation="0.804" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1769689449" Position="220.7512,170.3425,7.9992" Scale="1,1,1" Type="Protoss_Base_RepairBay_Broken">
@@ -1406,7 +1377,7 @@
     <ObjectDoodad Id="1217103981" Position="197,57,7.9992" Rotation="0.4916" Scale="0.8498,0.8498,0.8498" Type="PathingBlocker2x2Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1954530873" Position="125.5,161.5,7.9987" Rotation="4.111" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="1954530873" Position="125.5,161.5,7.9992" Rotation="4.111" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="26006429" Position="248.2368,208.5524,7.9995" Rotation="1.548" Scale="1,1,1" Type="XelNaga_Cavern_Wall_Statue">
@@ -1424,7 +1395,7 @@
     <ObjectDoodad Id="1263413253" Position="94.5,119.5,7.999" Rotation="3.741" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="513309900" Position="66.5,246.5,7.9987" Rotation="0.8112" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="513309900" Position="107.5,253.5,7.9992" Rotation="0.8112" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="470139298" Position="188.5,55.5,7.9992" Rotation="4.7597" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
@@ -1433,16 +1404,17 @@
     <ObjectDoodad Id="2044907570" Variation="2" Position="205.5,61.5,7.9992" Scale="1,1,1" Type="NewFolsomSandbags">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1371801654" Position="59.352,175.402,7.9987" Rotation="0.7441" Scale="1,1,1" Type="Garage">
+    <ObjectDoodad Id="1371801654" Position="90.352,250.402,7.9992" Rotation="0.7441" Scale="1,1,1" Type="Garage">
         <Flag Index="HeightOffset" Value="1"/>
         <Flag Index="HeightAbsolute" Value="1"/>
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="667351410" Position="124.5,158.5,7.999" Rotation="4.965" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="667351410" Position="124.5,158.5,7.9995" Rotation="4.965" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="758801906" Position="147.5,174.5,7.999" Rotation="4.7961" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="758801906" Position="145.1206,159.7355,7.9841" Rotation="3.5771" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
+        <Flag Index="ForcePlacement" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1108398405" Position="164.5,94.5,7.9992" Scale="1,1,1" Type="PathingandSightBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
@@ -1477,6 +1449,9 @@
     <ObjectDoodad Id="536845004" Position="180.5,69.5,7.9992" Rotation="3.2333" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
+    <ObjectDoodad Id="1788032127" Position="75.5,147.5,7.9985" Rotation="2.5578" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
     <ObjectDoodad Id="1446688997" Position="197.2368,230.5524,7.9995" Rotation="4.7478" Scale="1,1,1" Type="XelNaga_Cavern_Wall_Statue">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
@@ -1493,12 +1468,6 @@
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1872610588" Position="162.5,92.5,7.9992" Scale="1,1,1" Type="PathingandSightBlocker1x1Doodad">
-        <Flag Index="HeightAbsolute" Value="1"/>
-    </ObjectDoodad>
-    <ObjectDoodad Id="596148024" Position="116.5,224.5,7.9987" Rotation="4.094" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
-        <Flag Index="HeightAbsolute" Value="1"/>
-    </ObjectDoodad>
-    <ObjectDoodad Id="373777816" Position="116.5,225.5,7.9987" Rotation="2.4016" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1154541858" Position="119.5,80.5,7.999" Rotation="2.5898" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
@@ -1553,9 +1522,6 @@
     <ObjectDoodad Id="2123708019" Position="85.5,50.5,7.9987" Rotation="2.7463" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="608640416" Position="131.5,250.5,7.9987" Rotation="6.215" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
-        <Flag Index="HeightAbsolute" Value="1"/>
-    </ObjectDoodad>
     <ObjectDoodad Id="1876221420" Variation="1" Position="0.5,222.5,7.9987" Rotation="3.0324" Scale="1,1,1" Type="BraxisAlphaBarrels">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
@@ -1565,7 +1531,7 @@
     <ObjectDoodad Id="686876406" Position="41.5,59.5,7.9987" Scale="1,1,1" Type="LoSBlockerColumn">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1906819240" Position="123.5,157.5,7.999" Rotation="5" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="1906819240" Position="123.5,157.5,7.9995" Rotation="5" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="194954715" Position="87.5,50.5,7.9987" Rotation="2.785" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
@@ -1629,9 +1595,6 @@
     <ObjectDoodad Id="2111809940" Position="186.5,98.5,7.9992" Rotation="6.1716" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="677717707" Position="31.5,178.5,7.9987" Rotation="4.6826" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
-        <Flag Index="HeightAbsolute" Value="1"/>
-    </ObjectDoodad>
     <ObjectDoodad Id="2037548319" Position="15.5966,102.428,7.9987" Rotation="3.942" Scale="1,1,1" Type="Aiur_City_LandingDeck">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
@@ -1659,6 +1622,9 @@
     <ObjectDoodad Id="304646331" Position="117.5,74.5,7.9987" Rotation="5.9597" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
+    <ObjectDoodad Id="119947044" Position="73.5,146.5,8.021" Rotation="5.7746" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
     <ObjectDoodad Id="1274018975" Variation="3" Position="213.577,70.5615,7.9992" Rotation="4.0234" Scale="1,1,1" Type="ScientistCorpseGory">
         <Flag Index="HeightAbsolute" Value="1"/>
         <Flag Index="NoDoodadFootprint" Value="1"/>
@@ -1669,9 +1635,6 @@
     <ObjectDoodad Id="1383631589" Position="29.5,127.5,7.999" Rotation="4.3808" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="374428230" Position="109.5,235.5,9.9987" Rotation="1.589" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
-        <Flag Index="HeightAbsolute" Value="1"/>
-    </ObjectDoodad>
     <ObjectDoodad Id="1226924025" Position="93.5,118.5,7.999" Rotation="0.9777" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
@@ -1679,9 +1642,6 @@
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1157454076" Position="191.5,69.5,7.9992" Rotation="3.998" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
-        <Flag Index="HeightAbsolute" Value="1"/>
-    </ObjectDoodad>
-    <ObjectDoodad Id="757560634" Position="34.6557,226.933,10.009" Rotation="5.5463" Scale="0.9367,0.9367,0.9367" Type="Explosions_Flak_Terran_Background">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="911954505" Position="177.5,2.5,7.9992" Scale="1,1,1" Type="PathingandSightBlocker1x1Doodad">
@@ -1699,7 +1659,7 @@
     <ObjectDoodad Id="323755953" Position="194.5,73.5,7.9992" Rotation="3.556" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="222048017" Position="18.5,223.5,7.9987" Rotation="2.0405" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="222048017" Position="18.5,223.5,9.9968" Rotation="2.0405" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="887370289" Position="117.5,76.5,7.9987" Rotation="0.7866" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
@@ -1739,13 +1699,7 @@
     <ObjectDoodad Id="889981718" Position="92.5,53.5,7.9987" Rotation="3.318" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1876577496" Position="111.5,225.5,7.9987" Rotation="1.3393" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
-        <Flag Index="HeightAbsolute" Value="1"/>
-    </ObjectDoodad>
     <ObjectDoodad Id="941902047" Position="185.5,97.5,7.9992" Rotation="0.3876" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
-        <Flag Index="HeightAbsolute" Value="1"/>
-    </ObjectDoodad>
-    <ObjectDoodad Id="1835380763" Position="108.5,234.5,9.9987" Rotation="2.1442" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="416291329" Position="17.5,105.5,7.999" Rotation="4.6774" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
@@ -1757,14 +1711,14 @@
     <ObjectDoodad Id="2139435779" Position="156.5,71.5,7.9992" Scale="1,1,1" Type="PathingandSightBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
+    <ObjectDoodad Id="1922354651" Position="74.5,148.5,7.9985" Rotation="0.883" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
     <ObjectDoodad Id="130550120" Position="67.5,24.5,7.9995" Rotation="0.745" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightOffset" Value="1"/>
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1188499458" Position="87.5,48.5,7.9987" Rotation="3.237" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
-        <Flag Index="HeightAbsolute" Value="1"/>
-    </ObjectDoodad>
-    <ObjectDoodad Id="511129983" Position="114.5,225.5,7.9987" Rotation="6.1796" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="359790061" Position="199,57,7.9992" Rotation="0.7441" Scale="0.8498,0.8498,0.8498" Type="PathingBlocker2x2Doodad">
@@ -1791,9 +1745,6 @@
     <ObjectDoodad Id="1652891801" Position="140.5,42.5,7.9992" Rotation="3.764" Scale="1,1,1" Type="TRaynor01RadarDish">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1426591444" Position="109.5,223.5,7.9987" Rotation="4.944" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
-        <Flag Index="HeightAbsolute" Value="1"/>
-    </ObjectDoodad>
     <ObjectDoodad Id="587895138" Position="96.5,122.5,7.999" Rotation="0.88" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
@@ -1809,10 +1760,7 @@
     <ObjectDoodad Id="2074521175" Position="179.5,73.5,7.9992" Rotation="5.3073" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="842194602" Position="124.4074,208.1882,10.0063" Rotation="1.9506" Scale="1,1,1" Type="SnowRefinery_Terran_WindSock">
-        <Flag Index="HeightAbsolute" Value="1"/>
-    </ObjectDoodad>
-    <ObjectDoodad Id="866545274" Variation="2" Position="0.5,224.5,8.0212" Rotation="4.446" Scale="1,1,1" Type="BraxisAlphaBarrels">
+    <ObjectDoodad Id="866545274" Variation="2" Position="0.5,224.5,8.0117" Rotation="4.446" Scale="1,1,1" Type="BraxisAlphaBarrels">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1361936977" Position="90.5,52.5,7.9987" Rotation="4.3947" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
@@ -1821,11 +1769,13 @@
     <ObjectDoodad Id="377530735" Position="85.5,187.5,7.9995" Rotation="6.0981" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1455017677" Position="23.5,156.5,7.999" Rotation="0.842" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="1455017677" Position="16.861,159.576,7.9995" Rotation="0.842" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
+        <Flag Index="ForcePlacement" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="2134348707" Position="16.5,249,7.9995" Rotation="0.6618" Scale="1,1,1" Type="UmojanLabZergCratesOpen">
+    <ObjectDoodad Id="2134348707" Position="38.8901,242.8493,7.9997" Rotation="0.818" Scale="1,1,1" Type="UmojanLabZergCratesOpen">
         <Flag Index="HeightAbsolute" Value="1"/>
+        <Flag Index="ForcePlacement" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="2081871984" Position="200.5,96.5,7.9992" Rotation="2.9794" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
@@ -1855,18 +1805,15 @@
     <ObjectDoodad Id="794342507" Position="194.5,51.5,7.9992" Rotation="4.741" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1273211967" Position="117.5,224.5,7.9987" Rotation="1.8806" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
-        <Flag Index="HeightAbsolute" Value="1"/>
-    </ObjectDoodad>
     <ObjectDoodad Id="1077914118" Position="185.5,99.5,7.9992" Rotation="2.537" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1842204650" Position="63.3098,171.215,7.9987" Rotation="0.7441" Scale="1,1,1" Type="Garage">
+    <ObjectDoodad Id="1842204650" Position="94.3098,246.215,7.9992" Rotation="0.7441" Scale="1,1,1" Type="Garage">
         <Flag Index="HeightOffset" Value="1"/>
         <Flag Index="HeightAbsolute" Value="1"/>
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1558330857" Position="64.5,243.5,7.9987" Rotation="5.7517" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="1558330857" Position="105.5,250.5,7.9992" Rotation="5.7517" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="326244094" Position="205.5,75.5,7.9992" Rotation="0.6984" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
@@ -1875,13 +1822,10 @@
     <ObjectDoodad Id="1822918640" Variation="1" Position="14.5,77.5,9.9958" Scale="1,1,1" Type="MeinhoffCurtain">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1068198038" Position="61.3586,173.3383,7.9987" Rotation="0.7441" Scale="1,1,1" Type="Garage">
+    <ObjectDoodad Id="1068198038" Position="92.3586,248.3383,7.9992" Rotation="0.7441" Scale="1,1,1" Type="Garage">
         <Flag Index="HeightOffset" Value="1"/>
         <Flag Index="HeightAbsolute" Value="1"/>
         <Flag Index="ForcePlacement" Value="1"/>
-    </ObjectDoodad>
-    <ObjectDoodad Id="716735187" Position="110.5,225.5,7.9987" Rotation="4.1132" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
-        <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="66620989" Position="49.5,129.5,11.999" Rotation="2.5173" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
@@ -1901,12 +1845,12 @@
     <ObjectDoodad Id="1862567073" Position="17.5,103.5,7.9987" Rotation="1.0256" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1018628009" Position="57.347,177.5402,7.9987" Rotation="0.7441" Scale="1,1,1" Type="Garage">
+    <ObjectDoodad Id="1018628009" Position="88.347,252.5402,7.9992" Rotation="0.7441" Scale="1,1,1" Type="Garage">
         <Flag Index="HeightOffset" Value="1"/>
         <Flag Index="HeightAbsolute" Value="1"/>
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1544697357" Position="19.5,220.5,7.9987" Rotation="0.9584" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="1544697357" Position="19.5,220.5,8.0217" Rotation="0.9584" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1760557128" Position="91.5,48.5,7.9987" Rotation="4.9733" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
@@ -1922,9 +1866,6 @@
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1585005671" Position="180.5,71.5,7.9992" Rotation="4.8276" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
-        <Flag Index="HeightAbsolute" Value="1"/>
-    </ObjectDoodad>
-    <ObjectDoodad Id="467471461" Position="110.5,223.5,7.9987" Rotation="4.6042" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="115907452" Position="186.5,54.5,7.9992" Rotation="1.182" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
@@ -1948,8 +1889,9 @@
     <ObjectDoodad Id="2073665546" Position="198.5,99.5,7.9992" Rotation="3.3728" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="42777218" Position="147.5,176.5,7.999" Rotation="0.6848" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="42777218" Position="145.1206,161.7355,7.9995" Rotation="3.8464" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
+        <Flag Index="ForcePlacement" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1355426173" Position="225.5,122.5,7.9992" Scale="1,1,1" Type="PathingandSightBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
@@ -1957,28 +1899,20 @@
     <ObjectDoodad Id="400177153" Position="80.5,118.5,11.999" Rotation="6.1337" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1622284679" Position="147.5,175.5,7.999" Rotation="4.0002" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="1622284679" Position="145.1206,160.7355,7.9995" Rotation="3.6833" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
+        <Flag Index="ForcePlacement" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="704766460" Position="18.5,219.5,7.9987" Rotation="4.5166" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="704766460" Position="18.5,219.5,7.9992" Rotation="4.5166" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1422019600" Position="18.5,106.5,7.999" Rotation="5.0222" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="762381218" Position="113.5,222.5,7.9987" Rotation="1.8967" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
-        <Flag Index="HeightAbsolute" Value="1"/>
-    </ObjectDoodad>
-    <ObjectDoodad Id="276874558" Position="114.5,224.5,7.9987" Rotation="5.5573" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
-        <Flag Index="HeightAbsolute" Value="1"/>
-    </ObjectDoodad>
-    <ObjectDoodad Id="94699007" Variation="3" Position="66.041,244.0324,7.9987" Scale="1,1,1" Type="JarbanMinor_IndustrialGarage">
+    <ObjectDoodad Id="94699007" Variation="3" Position="107.041,251.0324,7.9992" Scale="1,1,1" Type="JarbanMinor_IndustrialGarage">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1836356315" Position="162.5,96.5,7.9992" Scale="1,1,1" Type="PathingandSightBlocker1x1Doodad">
-        <Flag Index="HeightAbsolute" Value="1"/>
-    </ObjectDoodad>
-    <ObjectDoodad Id="676419444" Position="109.5,225.5,7.9987" Rotation="0.2377" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1577730416" Position="17.5,106.5,7.999" Rotation="5.4367" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
@@ -2008,10 +1942,10 @@
     <ObjectDoodad Id="394038953" Position="82.5,123.5,11.999" Rotation="0.6345" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1437327297" Position="68.5,242.5,7.9987" Rotation="1.1596" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="1437327297" Position="109.5,249.5,7.9992" Rotation="1.1596" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1933195398" Position="65.5,246.5,7.9987" Rotation="3.0124" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="1933195398" Position="106.5,253.5,7.9992" Rotation="3.0124" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1135578310" Position="177.5,1.5,7.9992" Scale="1,1,1" Type="PathingandSightBlocker1x1Doodad">
@@ -2044,7 +1978,7 @@
     <ObjectDoodad Id="69805219" Position="233.2368,199.0524,7.9995" Rotation="0.0083" Scale="1,1,1" Type="XelNaga_Cavern_Wall_Statue">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="203404353" Variation="2" Position="1.5,223.5,7.9987" Rotation="0.9636" Scale="1,1,1" Type="BraxisAlphaBarrels">
+    <ObjectDoodad Id="203404353" Variation="2" Position="1.5,223.5,7.9992" Rotation="0.9636" Scale="1,1,1" Type="BraxisAlphaBarrels">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="298096488" Position="250.5,93.5,7.9987" Rotation="0.647" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
@@ -2092,13 +2026,11 @@
     <ObjectDoodad Id="113083119" Position="185.5,59.5,7.9992" Rotation="5.2314" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="511952449" Position="15.5,250.5,7.9506" Rotation="5.3457" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="511952449" Position="37.8901,244.3493,8.0241" Rotation="0.7585" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
+        <Flag Index="ForcePlacement" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1439698674" Position="14.5,223.5,7.9987" Rotation="4.8635" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
-        <Flag Index="HeightAbsolute" Value="1"/>
-    </ObjectDoodad>
-    <ObjectDoodad Id="1847911190" Position="109.5,222.5,7.9987" Rotation="3.4934" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="1439698674" Position="14.5,223.5,9.991" Rotation="4.8635" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="526257122" Position="190.5,51.5,7.9992" Rotation="3.5124" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
@@ -2110,11 +2042,12 @@
     <ObjectDoodad Id="860985358" Position="236.5,90.5,7.991" Scale="1,1,1" Type="PathingandSightBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="966208601" Position="55,149,7.999" Rotation="3.1196" Scale="1,1,1" Type="AvernusUltraliskShackled">
+    <ObjectDoodad Id="966208601" Position="55,149,7.9995" Rotation="3.1196" Scale="1,1,1" Name="UltraliskEnCage" Type="AvernusUltraliskShackled">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="357423457" Position="22.5,156.5,7.999" Rotation="0.531" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="357423457" Position="15.861,159.576,7.9836" Rotation="0.531" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
+        <Flag Index="ForcePlacement" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1951509718" Position="91.5,47.5,7.9987" Rotation="5.2363" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
@@ -2125,13 +2058,16 @@
     <ObjectDoodad Id="1879134943" Position="119.5,84.5,7.999" Rotation="0.9106" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
+    <ObjectDoodad Id="813439934" Position="77.5,146.5,7.9985" Rotation="1.3332" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
     <ObjectDoodad Id="553658880" Position="115.5,85.5,7.9987" Rotation="4.0078" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1727989019" Position="200.5,95.5,7.9992" Rotation="4.3913" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1850139697" Position="18.5,218.5,7.9987" Rotation="1.4782" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="1850139697" Position="18.5,218.5,7.9992" Rotation="1.4782" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1904644007" Position="189.5,57.5,7.9992" Rotation="2.5383" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
@@ -2141,17 +2077,19 @@
         <Flag Index="HeightOffset" Value="1"/>
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="695270483" Position="13.5,222.5,7.9987" Rotation="1.3964" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="695270483" Position="17.4172,219.0341,8.0173" Rotation="1.3964" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
+        <Flag Index="ForcePlacement" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="66874610" Position="66.5,245.5,7.9987" Rotation="1.5085" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="66874610" Position="107.5,252.5,7.9992" Rotation="1.5085" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="979104004" Position="87.6362,194.711,7.9992" Rotation="4.0024" Scale="1,1,1" Type="Elsecaro_Mengsk_Statue">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="667489409" Position="24.5,156.5,7.999" Rotation="1.8801" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="667489409" Position="17.861,159.576,7.9995" Rotation="1.8801" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
+        <Flag Index="ForcePlacement" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1124537510" Position="198.5,96.5,7.9992" Rotation="4.6147" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
@@ -2159,16 +2097,14 @@
     <ObjectDoodad Id="1280521877" Position="194.5,68.5,7.9992" Rotation="0.953" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="2089575787" Position="130.5,249.5,7.9987" Rotation="0.2512" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="2089575787" Position="143.66,239.8974,7.9992" Rotation="0.2512" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
+        <Flag Index="ForcePlacement" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="356386189" Variation="1" Position="162.1645,94.515,7.9992" Rotation="5.6596" Scale="0.9335,0.9335,0.9335" Type="RockVolcanicGiant">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1503651435" Position="62.5,209.5,7.9995" Rotation="0.634" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
-        <Flag Index="HeightAbsolute" Value="1"/>
-    </ObjectDoodad>
-    <ObjectDoodad Id="725985629" Position="115.5,221.5,7.9987" Rotation="3.2407" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="948987238" Position="115.5,78.5,7.9987" Rotation="1.3942" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
@@ -2177,10 +2113,7 @@
     <ObjectDoodad Id="128325730" Position="177.5,5.5,7.9992" Scale="1,1,1" Type="PathingandSightBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="546843115" Position="55.5,179.5,7.9987" Rotation="0.7443" Scale="1,1,1" Type="Garage">
-        <Flag Index="HeightAbsolute" Value="1"/>
-    </ObjectDoodad>
-    <ObjectDoodad Id="2007902130" Position="132.933,203.1437,9.9965" Scale="1,1,1" Type="SnowRefinery_Terran_Pipes">
+    <ObjectDoodad Id="546843115" Position="86.5,254.5,7.9992" Rotation="0.7443" Scale="1,1,1" Type="Garage">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1218628041" Variation="2" Position="210.9924,71.3925,7.9992" Rotation="6.2145" Scale="1,1,1" Type="ScientistCorpseGory">
@@ -2196,9 +2129,6 @@
     <ObjectDoodad Id="626681673" Position="29.5,126.5,7.999" Rotation="1.959" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1643259833" Position="33.5,176.5,7.9987" Rotation="0.1813" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
-        <Flag Index="HeightAbsolute" Value="1"/>
-    </ObjectDoodad>
     <ObjectDoodad Id="2114816433" Position="82.5,119.5,11.999" Rotation="5.2636" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
@@ -2211,7 +2141,7 @@
     <ObjectDoodad Id="209608207" Position="181.5,75.5,7.9992" Rotation="1.727" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="858815174" Position="121.5,158.5,7.999" Rotation="2.813" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="858815174" Position="121.5,158.5,7.9995" Rotation="2.813" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1145201620" Position="85.3618,188.537,7.9995" Rotation="2.4587" Scale="1,1,1" Type="PipesSmallShort">
@@ -2238,7 +2168,7 @@
     <ObjectDoodad Id="1414237462" Position="83.5,118.5,11.999" Rotation="0.9765" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="194938004" Position="68.5,243.5,7.9987" Rotation="5.2734" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="194938004" Position="109.5,250.5,7.9992" Rotation="5.2734" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="2081827228" Position="52.5,131.5,11.999" Rotation="5.5625" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
@@ -2256,7 +2186,7 @@
     <ObjectDoodad Id="891203115" Position="83.5,119.5,11.999" Rotation="3.0422" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="34644653" Position="115.5,224.5,7.9987" Rotation="4.5405" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="718515164" Position="76.5,147.5,7.9985" Rotation="6.2597" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1918605290" Position="69.5,23.5,7.999" Rotation="6.062" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
@@ -2289,7 +2219,7 @@
     <ObjectDoodad Id="6135563" Position="15.5,101.5,7.9987" Rotation="3.5283" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1163484044" Variation="1" Position="71.5,248.5,7.9987" Rotation="1.5993" Scale="1,1,1" Type="BraxisAlphaBarrels">
+    <ObjectDoodad Id="1163484044" Variation="1" Position="112.5,255.5,7.9987" Rotation="1.5993" Scale="1,1,1" Type="BraxisAlphaBarrels">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="824216316" Position="81.5,118.5,11.999" Rotation="3.3156" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
@@ -2305,14 +2235,15 @@
     <ObjectDoodad Id="1653897943" Position="68.5,23.5,7.999" Rotation="5.0117" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="982476527" Position="132.5,248.5,7.9987" Rotation="2.7863" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="982476527" Position="145.66,238.8974,7.9992" Rotation="2.7863" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
+        <Flag Index="ForcePlacement" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="779898314" Position="190.5,75.5,7.9995" Rotation="4.1633" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightOffset" Value="1"/>
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="767152152" Variation="1" Position="3.5,221.5,7.9987" Rotation="2.5095" Scale="1,1,1" Type="BraxisAlphaBarrels">
+    <ObjectDoodad Id="767152152" Variation="1" Position="3.5,221.5,7.9992" Rotation="2.5095" Scale="1,1,1" Type="BraxisAlphaBarrels">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="40842232" Position="186.5,99.5,7.9992" Rotation="3.9982" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
@@ -2327,8 +2258,9 @@
     <ObjectDoodad Id="1326245768" Position="197.7368,206.5524,7.9995" Rotation="4.7478" Scale="1,1,1" Type="XelNaga_Cavern_Wall_Statue">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="731863589" Position="148.5,176.5,7.999" Rotation="4.2214" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="731863589" Position="146.1206,161.7355,7.988" Rotation="4.043" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
+        <Flag Index="ForcePlacement" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="272146798" Position="117.5,75.5,7.9987" Rotation="2.9887" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
@@ -2342,7 +2274,7 @@
     <ObjectDoodad Id="923781471" Position="114.5,81.5,7.9987" Rotation="5.9667" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="666085408" Position="67.5,242.5,7.9987" Rotation="5.673" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="666085408" Position="108.5,249.5,7.9992" Rotation="5.673" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="525990269" Position="254.5,96.5,7.9987" Rotation="0.8647" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
@@ -2355,9 +2287,6 @@
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1533091224" Position="80.5,115.5,11.999" Rotation="5.4555" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
-        <Flag Index="HeightAbsolute" Value="1"/>
-    </ObjectDoodad>
-    <ObjectDoodad Id="1656948642" Position="111.5,222.5,7.9987" Rotation="0.5327" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1180723096" Position="249.5,94.5,7.9987" Rotation="2.7617" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
@@ -2378,7 +2307,7 @@
     <ObjectDoodad Id="2078931761" Position="180.5,73.5,7.9992" Rotation="4.363" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1034079019" Position="62.5,243.5,7.9987" Rotation="0.4084" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="1034079019" Position="103.5,250.5,7.9992" Rotation="0.4084" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1072291542" Position="86.4592,187.3547,7.9995" Rotation="3.3354" Scale="1,1,1" Type="PipesSmallShort">
@@ -2400,7 +2329,7 @@
     <ObjectDoodad Id="2073231798" Position="74.5,218.5,7.9995" Rotation="4.2155" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="162521807" Position="64.5,246.5,7.9987" Rotation="4.2431" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="162521807" Position="105.5,253.5,7.9992" Rotation="4.2431" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="206325336" Position="253.5,96.5,7.9987" Rotation="5.6477" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
@@ -2424,10 +2353,10 @@
     <ObjectDoodad Id="1245749265" Position="50.5,130.5,11.999" Rotation="2.2512" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="989849407" Position="125.5,159.5,7.999" Rotation="4.9072" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="989849407" Position="125.5,159.5,7.9995" Rotation="4.9072" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1170979681" Position="127.5,162.5,7.9987" Rotation="4.369" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="1170979681" Position="127.5,162.5,7.9992" Rotation="4.369" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1471242537" Position="116.5,74.5,7.9987" Rotation="1.7307" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
@@ -2442,7 +2371,7 @@
     <ObjectDoodad Id="2100122215" Position="179.5,6.5,7.9992" Scale="1,1,1" Type="PathingandSightBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="123346816" Position="15.5,222.5,7.9987" Rotation="1.463" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="123346816" Position="15.5,222.5,9.996" Rotation="1.463" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="311428904" Position="96.5,121.5,7.999" Rotation="4.483" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
@@ -2457,6 +2386,9 @@
     <ObjectDoodad Id="1254352956" Variation="1" Position="51.242,130.8718,11.999" Rotation="4.8364" Scale="1,1,1" Type="Aiur_Pyramid_Tower_Medium_Abandoned">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
+    <ObjectDoodad Id="699467062" Position="83.5,148.5,7.9985" Rotation="1.9736" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
     <ObjectDoodad Id="635949217" Position="115.5,82.5,7.9987" Rotation="0.0705" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
@@ -2466,11 +2398,12 @@
     <ObjectDoodad Id="475901060" Position="237.5,90.5,8.0014" Scale="1,1,1" Type="PathingandSightBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="363737369" Position="18.5,222.5,7.9987" Rotation="2.1406" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="363737369" Position="18.5,222.5,10.019" Rotation="2.1406" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1020264991" Position="147.403,175.568,7.9995" Rotation="4.709" Scale="1,1,1" Type="UmojanLabZergCratesOpen">
+    <ObjectDoodad Id="1020264991" Position="145.0236,160.8037,8" Rotation="3.671" Scale="1,1,1" Type="UmojanLabZergCratesOpen">
         <Flag Index="HeightAbsolute" Value="1"/>
+        <Flag Index="ForcePlacement" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1425767582" Position="66.5,25.5,7.9995" Rotation="0.745" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightOffset" Value="1"/>
@@ -2483,6 +2416,9 @@
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1679548883" Position="86.5,195.5,7.9992" Rotation="4.3742" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="573420467" Position="84.5,146.5,7.9477" Rotation="0.6367" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="865857977" Position="153.5,68.5,7.9992" Scale="1,1,1" Type="PathingandSightBlocker1x1Doodad">
@@ -2504,22 +2440,23 @@
     <ObjectDoodad Id="1410615021" Position="89.5,194.5,7.9992" Rotation="3.6123" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1427925086" Position="16.5,249.5,7.9987" Rotation="3.0815" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="1427925086" Position="38.8901,243.3493,7.999" Rotation="0.7517" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
+        <Flag Index="ForcePlacement" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1127783363" Position="126.5,161.5,7.9987" Rotation="1.131" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="1127783363" Position="126.5,161.5,7.9992" Rotation="1.131" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1249520227" Position="95.9272,120.8872,7.999" Rotation="2.5754" Scale="1,1,1" Type="Aiur_CityBuilding_Spire">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1973178862" Variation="2" Position="70.5,246.5,7.9987" Rotation="2.94" Scale="1,1,1" Type="BraxisAlphaBarrels">
+    <ObjectDoodad Id="1973178862" Variation="2" Position="111.5,253.5,7.9987" Rotation="2.94" Scale="1,1,1" Type="BraxisAlphaBarrels">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1232599000" Variation="1" Position="205.5,62.5,7.9992" Scale="1,1,1" Type="NewFolsomSandbags">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="798684301" Position="69.5,245.5,7.9987" Rotation="5.3947" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="798684301" Position="110.5,252.5,7.999" Rotation="5.3947" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1618494760" Position="31.8427,77.8244,10.0063" Scale="1,1,1" Type="MeinhoffCurtain">
@@ -2559,9 +2496,6 @@
     <ObjectDoodad Id="2117750151" Variation="5" Position="205.5,59.5,7.9992" Scale="1,1,1" Type="NewFolsomSandbags">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1250352349" Position="117.5,225.5,7.9987" Rotation="5.2888" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
-        <Flag Index="HeightAbsolute" Value="1"/>
-    </ObjectDoodad>
     <ObjectDoodad Id="386818870" Position="236.5,86.5,7.9992" Scale="1,1,1" Type="PathingandSightBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
@@ -2569,7 +2503,7 @@
         <Flag Index="HeightOffset" Value="1"/>
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1991460669" Position="63.5,243.5,7.9987" Rotation="5.0195" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="1991460669" Position="104.5,250.5,7.9992" Rotation="5.0195" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="597450517" Position="208.7368,247.1022,7.9995" Rotation="3.153" Scale="1,1,1" Type="XelNaga_Cavern_Wall_Statue">
@@ -2578,8 +2512,9 @@
     <ObjectDoodad Id="1825122698" Position="249.5,93.5,7.9987" Rotation="4.8806" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="348962671" Position="130.5,248.5,7.9987" Rotation="5.2116" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="348962671" Position="143.66,238.8974,7.9992" Rotation="5.2116" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
+        <Flag Index="ForcePlacement" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="821191991" Position="81.5,119.5,11.999" Rotation="1.0222" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
@@ -2587,14 +2522,12 @@
     <ObjectDoodad Id="705202804" Position="182.5,73.5,7.9992" Rotation="5.4172" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="2096803960" Position="32.5,176.5,7.9987" Rotation="4.75" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
-        <Flag Index="HeightAbsolute" Value="1"/>
-    </ObjectDoodad>
     <ObjectDoodad Id="1599670252" Position="161.5,94.5,7.9992" Scale="1,1,1" Type="PathingandSightBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1492515319" Position="131.5,247.5,7.9987" Rotation="4.1428" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="1492515319" Position="144.66,237.8974,7.9992" Rotation="4.1428" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
+        <Flag Index="ForcePlacement" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="179620977" Position="89.5,49.5,7.9987" Rotation="5.78" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
@@ -2605,7 +2538,7 @@
     <ObjectDoodad Id="181808278" Position="194.5,67.5,7.9992" Rotation="0.292" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="606239948" Position="127.5,161.5,7.9987" Rotation="4.5512" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="606239948" Position="127.5,161.5,7.9992" Rotation="4.5512" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1284260189" Position="248.2368,211.5524,7.9995" Rotation="1.548" Scale="1,1,1" Type="XelNaga_Cavern_Wall_Statue">
@@ -2622,9 +2555,6 @@
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1803801167" Position="120.5,83.5,7.999" Rotation="5.0671" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
-        <Flag Index="HeightAbsolute" Value="1"/>
-    </ObjectDoodad>
-    <ObjectDoodad Id="1052364156" Position="115.5,226.5,7.9987" Rotation="5.194" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1150040519" Position="85.5,52.5,7.9987" Rotation="5.3537" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
@@ -2655,9 +2585,6 @@
         <Flag Index="HeightOffset" Value="1"/>
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1935243526" Position="110.5,224.5,7.9987" Rotation="3.0524" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
-        <Flag Index="HeightAbsolute" Value="1"/>
-    </ObjectDoodad>
     <ObjectDoodad Id="815862221" Position="90.5,53.5,7.9987" Rotation="2.2392" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
@@ -2679,8 +2606,9 @@
     <ObjectDoodad Id="1795282754" Position="193.5,50.5,7.9992" Rotation="3.6452" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="723904860" Variation="1" Position="13.0097,218.46,9.9997" Rotation="2.368" Scale="1,1,1" Type="BattleStation_CommandCenter">
+    <ObjectDoodad Id="723904860" Variation="1" Position="16.927,214.9941,11.999" Rotation="2.368" Scale="1,1,1" Type="BattleStation_CommandCenter">
         <Flag Index="HeightAbsolute" Value="1"/>
+        <Flag Index="ForcePlacement" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="2084429238" Position="235.5,88.5,7.9992" Scale="1,1,1" Type="PathingandSightBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
@@ -2698,9 +2626,6 @@
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1275521844" Position="190.5,67.5,7.9992" Rotation="2.8752" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
-        <Flag Index="HeightAbsolute" Value="1"/>
-    </ObjectDoodad>
-    <ObjectDoodad Id="1511968091" Position="109.5,226.5,7.9987" Rotation="0.9458" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1728605358" Position="249.5,95.5,7.9987" Rotation="3.9597" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
@@ -2742,7 +2667,7 @@
     <ObjectDoodad Id="161794478" Position="46.5,64.5,7.9987" Scale="1,1,1" Type="LoSBlockerColumn">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="737096535" Variation="3" Position="125.33,160.1315,7.9987" Rotation="4.0815" Scale="1,1,1" Type="BattleStation_CommandCenter">
+    <ObjectDoodad Id="737096535" Variation="3" Position="125.33,160.1315,7.9992" Rotation="4.0815" Scale="1,1,1" Type="BattleStation_CommandCenter">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="98780555" Position="87.5,53.5,7.9987" Rotation="1.5485" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
@@ -2751,16 +2676,10 @@
     <ObjectDoodad Id="797452625" Position="197.2368,233.5524,7.9995" Rotation="4.7478" Scale="1,1,1" Type="XelNaga_Cavern_Wall_Statue">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1026911439" Position="116.5,222.5,7.9987" Rotation="5.2304" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
-        <Flag Index="HeightAbsolute" Value="1"/>
-    </ObjectDoodad>
-    <ObjectDoodad Id="1355331774" Position="113.5,226.5,7.9987" Rotation="3.8742" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
-        <Flag Index="HeightAbsolute" Value="1"/>
-    </ObjectDoodad>
     <ObjectDoodad Id="1361677457" Position="50.5,132.5,11.999" Rotation="2.6125" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1313674659" Position="69.5,246.5,7.9987" Rotation="2.3171" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="1313674659" Position="110.5,253.5,7.999" Rotation="2.3171" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1561642771" Position="253.5,94.5,7.9987" Rotation="4.2282" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
@@ -2785,8 +2704,9 @@
     <ObjectDoodad Id="536886108" Position="116.5,81.5,7.999" Rotation="2.5773" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="402428683" Position="24.5,155.5,7.999" Rotation="4.9948" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="402428683" Position="17.861,158.576,7.9995" Rotation="4.9948" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
+        <Flag Index="ForcePlacement" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="796600173" Position="74.518,218.1113,7.9995" Rotation="4.8703" Scale="1,1,1" Type="PipesSmallShort">
         <Flag Index="HeightAbsolute" Value="1"/>
@@ -2803,6 +2723,9 @@
     <ObjectDoodad Id="1449342468" Position="200.2404,236.7121,7.9995" Rotation="1.6076" Scale="1,1,1" Type="Tarsonis_BuildingWall_Concrete_Straight">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
+    <ObjectDoodad Id="852868818" Position="79.5,146.5,7.9985" Rotation="2.062" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
     <ObjectDoodad Id="1568338187" Position="197.2368,218.5524,7.9995" Rotation="4.7478" Scale="1,1,1" Type="XelNaga_Cavern_Wall_Statue">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
@@ -2812,7 +2735,7 @@
     <ObjectDoodad Id="248300729" Position="161.5,93.5,7.9992" Scale="1,1,1" Type="PathingandSightBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="632889189" Position="123.5,160.5,7.9987" Rotation="5.8354" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="632889189" Position="123.5,160.5,7.9992" Rotation="5.8354" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="482101783" Position="180.5,68.5,7.9992" Rotation="6.0961" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
@@ -2859,7 +2782,7 @@
     <ObjectDoodad Id="414566171" Position="16.5,105.5,7.999" Rotation="3.2734" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="555099357" Variation="1" Position="71.5,244.5,7.9987" Rotation="3.0063" Scale="1,1,1" Type="BraxisAlphaBarrels">
+    <ObjectDoodad Id="555099357" Variation="1" Position="112.5,251.5,7.9987" Rotation="3.0063" Scale="1,1,1" Type="BraxisAlphaBarrels">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1961040513" Position="236.5,87.5,7.9992" Scale="1,1,1" Type="PathingandSightBlocker1x1Doodad">
@@ -2876,7 +2799,7 @@
         <Flag Index="HeightAbsolute" Value="1"/>
         <Flag Index="NoDoodadFootprint" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1136678498" Position="70.5,248.5,7.9987" Rotation="2.1271" Scale="1,1,1" Type="BraxisAlphaBarrels">
+    <ObjectDoodad Id="1136678498" Position="111.5,255.5,7.9987" Rotation="2.1271" Scale="1,1,1" Type="BraxisAlphaBarrels">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="151721010" Position="163.5,92.5,7.9992" Scale="1,1,1" Type="PathingandSightBlocker1x1Doodad">
@@ -2937,9 +2860,6 @@
     <ObjectDoodad Id="764644154" Position="198.5,75.5,7.9992" Rotation="2.429" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1569041018" Position="112.5,224.5,7.9987" Rotation="1.7973" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
-        <Flag Index="HeightAbsolute" Value="1"/>
-    </ObjectDoodad>
     <ObjectDoodad Id="571097467" Position="87.5,46.5,7.9987" Rotation="0.286" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
@@ -2947,22 +2867,25 @@
         <Flag Index="HeightAbsolute" Value="1"/>
         <Flag Index="NoDoodadFootprint" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1809866444" Position="19.5,221.5,7.9987" Rotation="0.1267" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="1809866444" Position="19.5,221.5,8.0043" Rotation="0.1267" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="78792228" Position="218.2368,199.0524,7.9995" Rotation="0.0083" Scale="1,1,1" Type="XelNaga_Cavern_Wall_Statue">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="815734437" Position="122.5,159.5,7.999" Rotation="2.2897" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="815734437" Position="122.5,159.5,7.9995" Rotation="2.2897" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1121035171" Position="123.5,161.5,7.9987" Rotation="2.171" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="135840733" Position="83.5,147.5,7.9985" Rotation="4.6503" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1273565460" Variation="2" Position="114,224.5,7.9987" Scale="1,1,1" Type="TerranButcherPropLarge">
+    <ObjectDoodad Id="1121035171" Position="123.5,161.5,7.9992" Rotation="2.171" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="486470399" Position="49.5,130.5,11.999" Rotation="3.9694" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="605085774" Position="76.5,146.5,7.9985" Rotation="5.6364" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1498830453" Position="95.5,119.5,7.999" Rotation="0.0541" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
@@ -2975,7 +2898,7 @@
         <Flag Index="HeightOffset" Value="1"/>
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="666197835" Position="127.5,163.5,7.9987" Rotation="3.8591" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="666197835" Position="127.5,163.5,7.9992" Rotation="3.8591" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="40237736" Position="238.5,87.5,7.9992" Scale="1,1,1" Type="PathingandSightBlocker1x1Doodad">
@@ -2990,7 +2913,7 @@
     <ObjectDoodad Id="393942027" Position="116.5,86.5,7.999" Rotation="3.1611" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1630025337" Position="124.5,157.5,7.999" Rotation="6.047" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="1630025337" Position="124.5,157.5,7.9995" Rotation="6.047" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="493288062" Position="56.5,64.5,7.9987" Rotation="3.0288" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
@@ -3005,16 +2928,13 @@
     <ObjectDoodad Id="1021525202" Position="13.5,76.5,10.001" Scale="1,1,1" Type="MeinhoffCurtain">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="634604532" Position="114.5,223.5,7.9987" Rotation="4.1557" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="45699479" Position="43,149,7.999" Rotation="3.1403" Scale="1,1,1" Name="UltraliskEnCage" Type="AvernusUltraliskShackledEmpty">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="45699479" Position="43,149,7.999" Rotation="3.1403" Scale="1,1,1" Type="AvernusUltraliskShackledEmpty">
+    <ObjectDoodad Id="1364948416" Position="127.5,159.5,7.9995" Rotation="2.1362" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1364948416" Position="127.5,159.5,7.999" Rotation="2.1362" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
-        <Flag Index="HeightAbsolute" Value="1"/>
-    </ObjectDoodad>
-    <ObjectDoodad Id="575345331" Position="124.5,163.5,7.9987" Rotation="2.1755" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="575345331" Position="124.5,163.5,7.9992" Rotation="2.1755" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1870074709" Position="57.5,63.5,7.9987" Rotation="5.1342" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
@@ -3026,7 +2946,7 @@
     <ObjectDoodad Id="948250029" Position="234.5,89.5,7.9992" Scale="1,1,1" Type="PathingandSightBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="126746542" Position="64.5,242.5,7.9987" Rotation="1.3825" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="126746542" Position="105.5,249.5,7.9992" Rotation="1.3825" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="2098023221" Position="88.5,47.5,7.9987" Rotation="0.1245" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
@@ -3038,7 +2958,7 @@
     <ObjectDoodad Id="1347860052" Position="113.5,83.5,7.9987" Rotation="0.4572" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1936211419" Position="18.5,221.5,7.9987" Rotation="1.3054" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="1936211419" Position="18.5,221.5,10.0214" Rotation="1.3054" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="2027347074" Position="198.5,95.5,7.9992" Rotation="2.9895" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
@@ -3053,7 +2973,7 @@
     <ObjectDoodad Id="290842878" Position="197.2368,215.5524,7.9995" Rotation="4.7478" Scale="1,1,1" Type="XelNaga_Cavern_Wall_Statue">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="954357534" Position="127.5,160.5,7.9987" Rotation="6.2683" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="954357534" Position="127.5,160.5,7.9992" Rotation="6.2683" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1271422994" Position="57.5,64.5,7.9987" Rotation="4.7121" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
@@ -3065,8 +2985,12 @@
     <ObjectDoodad Id="1840607474" Variation="1" Position="204.7197,58.0234,7.9987" Rotation="3.0144" Scale="0.9301,0.9301,0.9301" Type="SharpRidges" Pitch="3.887" Roll="1.5444">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="887782439" Position="17.5,247.5,7.9987" Rotation="5.4624" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="2104446009" Position="74.5,146.5,7.9985" Rotation="1.4736" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="887782439" Position="39.8901,241.3493,7.9992" Rotation="0.939" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+        <Flag Index="HeightAbsolute" Value="1"/>
+        <Flag Index="ForcePlacement" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="2064343573" Position="189.5,56.5,7.9992" Rotation="4.1083" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
@@ -3077,7 +3001,7 @@
     <ObjectDoodad Id="551646685" Position="227.5,121.5,7.9992" Scale="1,1,1" Type="PathingandSightBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1294547961" Position="3.5,220.5,7.9987" Rotation="5.0405" Scale="1,1,1" Type="BraxisAlphaBarrels">
+    <ObjectDoodad Id="1294547961" Position="3.5,220.5,7.9992" Rotation="5.0405" Scale="1,1,1" Type="BraxisAlphaBarrels">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="490757791" Position="89.5,195.5,7.9992" Rotation="3.6022" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
@@ -3089,13 +3013,10 @@
     <ObjectDoodad Id="1897164092" Position="57.5,60.5,7.9987" Rotation="3.2827" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="696103938" Position="128.5,162.5,7.9987" Rotation="2.9233" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="696103938" Position="128.5,162.5,7.9992" Rotation="2.9233" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1019065974" Position="15.5,224.5,7.9987" Rotation="5.0932" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
-        <Flag Index="HeightAbsolute" Value="1"/>
-    </ObjectDoodad>
-    <ObjectDoodad Id="1636216433" Position="113.5,223.5,7.9987" Rotation="5.5952" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="1019065974" Position="15.5,224.5,9.9992" Rotation="5.0932" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1648462504" Position="183.5,99.5,7.9992" Rotation="5.1674" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
@@ -3104,7 +3025,7 @@
     <ObjectDoodad Id="912656258" Position="49.5,128.5,11.999" Rotation="6.2453" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="846402709" Position="2.5,222.5,8.0212" Rotation="1.0192" Scale="1,1,1" Type="BraxisAlphaBarrels">
+    <ObjectDoodad Id="846402709" Position="2.5,222.5,8.0217" Rotation="1.0192" Scale="1,1,1" Type="BraxisAlphaBarrels">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1993533061" Position="95.5,123.5,7.999" Rotation="2.18" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
@@ -3119,22 +3040,26 @@
     <ObjectDoodad Id="750233823" Position="184.5,56.5,7.9992" Rotation="0.3813" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="2129870378" Position="65.5,243.5,7.9987" Rotation="4.3144" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="2129870378" Position="106.5,250.5,7.9992" Rotation="4.3144" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="487590018" Position="191.5,57.5,7.9992" Rotation="2.2563" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="163404971" Position="38.138,223.157,9.9934" Rotation="0.9558" Scale="1,1,1" Type="BattleStation_CliffPlatform">
+    <ObjectDoodad Id="163404971" Position="41.4497,252.2346,9.551" Rotation="0.9558" Scale="1,1,1" Type="BattleStation_CliffPlatform">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1489517400" Position="83.5,117.5,11.999" Rotation="6.1958" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="555032265" Position="16.5,247.5,7.9987" Rotation="5.8142" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="555032265" Position="38.8901,241.3493,7.999" Rotation="1.078" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
+        <Flag Index="ForcePlacement" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="724544028" Position="94.5,122.5,7.999" Rotation="0.2524" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="123435790" Position="81.5,147.5,7.9985" Rotation="5.101" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1771724133" Position="155.138,69.7922,7.9992" Rotation="5.7614" Scale="0.83,0.83,0.83" Type="RockVolcanicGiant">
@@ -3155,7 +3080,7 @@
     <ObjectDoodad Id="173515627" Position="191.5,50.5,7.9992" Rotation="6.0178" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="2015285148" Position="64.5,244.5,7.9987" Rotation="3.128" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="2015285148" Position="105.5,251.5,7.9992" Rotation="3.128" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1040124686" Position="114.5,77.5,7.9987" Rotation="0.206" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
@@ -3179,16 +3104,13 @@
     <ObjectDoodad Id="896498282" Position="117.5,252.5,7.9987" Rotation="2.621" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1035197969" Position="110.5,222.5,7.9987" Rotation="4.2055" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
-        <Flag Index="HeightAbsolute" Value="1"/>
-    </ObjectDoodad>
     <ObjectDoodad Id="992331861" Position="63.5,209.5,7.9995" Rotation="0.634" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1977803011" Position="51,149,7.999" Rotation="3.1193" Scale="1,1,1" Type="AvernusUltraliskShackled">
+    <ObjectDoodad Id="1977803011" Position="51,149,7.999" Rotation="3.1193" Scale="1,1,1" Name="UltraliskEnCage" Type="AvernusUltraliskShackled">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="134678728" Position="67.5,243.5,7.9987" Rotation="6.0927" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="134678728" Position="108.5,250.5,7.9992" Rotation="6.0927" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="969626845" Position="57.5,65.5,7.9987" Rotation="5.69" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
@@ -3197,11 +3119,12 @@
     <ObjectDoodad Id="1140153749" Position="183.5,59.5,7.9992" Rotation="0.5998" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1713590031" Position="62.5,245.5,7.9987" Rotation="0.4448" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="1713590031" Position="103.5,252.5,7.9992" Rotation="0.4448" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="408783785" Position="13.5,224.5,7.9987" Rotation="5.6005" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="408783785" Position="17.4172,221.0341,10.0144" Rotation="5.6005" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
+        <Flag Index="ForcePlacement" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1124892584" Position="88.5,53.5,7.9987" Rotation="5.9443" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
@@ -3228,10 +3151,7 @@
     <ObjectDoodad Id="337650702" Position="35.1223,11.6743,9.9958" Scale="1,1,1" Type="Purifier_Protoss_Turret_Med">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1995681278" Position="126.5,157.5,7.999" Rotation="4.3398" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
-        <Flag Index="HeightAbsolute" Value="1"/>
-    </ObjectDoodad>
-    <ObjectDoodad Id="2009134265" Position="111.5,226.5,7.9987" Rotation="6.2324" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="1995681278" Position="126.5,157.5,7.9995" Rotation="4.3398" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1195177903" Position="50.5,128.5,11.999" Rotation="4.236" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
@@ -3240,7 +3160,7 @@
     <ObjectDoodad Id="1567714132" Position="238.7341,244.184,7.9995" Rotation="0.0346" Scale="1,1,1" Type="Tarsonis_BuildingWall_Concrete_Straight">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="231534107" Position="16.5,225.5,7.9987" Rotation="4.7907" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="231534107" Position="16.5,225.5,9.9992" Rotation="4.7907" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1594235909" Position="116.5,85.5,7.999" Rotation="0.3176" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
@@ -3291,9 +3211,6 @@
     <ObjectDoodad Id="2002200743" Position="195.5,52.5,7.9992" Rotation="2.951" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="64544310" Position="124.5,208.5,9.9963" Rotation="5.723" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
-        <Flag Index="HeightAbsolute" Value="1"/>
-    </ObjectDoodad>
     <ObjectDoodad Id="228053442" Position="52.5,130.5,11.999" Rotation="6.09" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
@@ -3301,9 +3218,6 @@
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="2114533737" Position="97.4042,196.4104,7.9995" Rotation="0.9013" Scale="1,1,1" Type="PipesSmallShort">
-        <Flag Index="HeightAbsolute" Value="1"/>
-    </ObjectDoodad>
-    <ObjectDoodad Id="1121974953" Position="117.5,223.5,7.9987" Rotation="2.3842" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1888002161" Position="31.5,128.5,7.999" Rotation="1.8937" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
@@ -3324,16 +3238,19 @@
     <ObjectDoodad Id="692962297" Position="203.5,96.5,7.9992" Rotation="4.8371" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="383072078" Position="63.5,246.5,7.9987" Rotation="5.6164" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="383072078" Position="104.5,253.5,7.9992" Rotation="5.6164" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="2064942555" Position="68.5,245.5,7.9987" Rotation="4.4755" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="2064942555" Position="109.5,252.5,7.9992" Rotation="4.4755" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1623144466" Position="7.5,73.5,9.9975" Scale="1,1,1" Type="MeinhoffCurtain">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1771936283" Position="118.5,76.5,7.9987" Rotation="3.8974" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="1794282991" Position="75.5,146.5,7.9985" Rotation="1.0585" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="826657357" Position="78.5,14.5,7.9992" Rotation="4.088" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
@@ -3345,13 +3262,13 @@
     <ObjectDoodad Id="627371516" Position="87.5,193.5,7.9992" Rotation="5.518" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="795697759" Position="31.5,179.5,7.9987" Rotation="2.6938" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="1273217881" Position="74.5,147.5,7.9985" Rotation="4.8356" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="18008167" Position="55.5,64.5,7.9987" Rotation="4.6811" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1767114866" Position="126.5,162.5,7.9987" Rotation="5.9465" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="1767114866" Position="126.5,162.5,7.9992" Rotation="5.9465" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1083464493" Position="65.887,196.72,7.9995" Rotation="2.3103" Scale="1,1,1" Type="RooftopEntrance">
@@ -3371,9 +3288,6 @@
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="326987228" Position="11.5,101.5,7.9987" Rotation="2.0241" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
-        <Flag Index="HeightAbsolute" Value="1"/>
-    </ObjectDoodad>
-    <ObjectDoodad Id="267973333" Position="114.5,222.5,7.9987" Rotation="5.996" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1812885531" Position="119.5,78.5,7.999" Rotation="0.9831" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
@@ -3400,26 +3314,17 @@
     <ObjectDoodad Id="1238414008" Position="235.7368,247.0524,7.9995" Rotation="3.153" Scale="1,1,1" Type="XelNaga_Cavern_Wall_Statue">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1494734756" Position="16.5,222.5,7.9987" Rotation="2.1181" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="1494734756" Position="16.5,222.5,9.9992" Rotation="2.1181" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="341139684" Variation="1" Position="208.3381,71.0175,7.9992" Rotation="0.1318" Scale="1,1,1" Type="ScientistCorpseGory">
         <Flag Index="HeightAbsolute" Value="1"/>
         <Flag Index="NoDoodadFootprint" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1224228646" Position="18.5,220.5,7.9987" Rotation="3.0368" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="1224228646" Position="18.5,220.5,7.9965" Rotation="3.0368" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1593651450" Position="229.7368,247.0524,7.9995" Rotation="3.153" Scale="1,1,1" Type="XelNaga_Cavern_Wall_Statue">
-        <Flag Index="HeightAbsolute" Value="1"/>
-    </ObjectDoodad>
-    <ObjectDoodad Id="775660604" Position="112.5,223.5,7.9987" Rotation="4.0751" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
-        <Flag Index="HeightAbsolute" Value="1"/>
-    </ObjectDoodad>
-    <ObjectDoodad Id="1698698057" Position="116.5,223.5,7.9987" Rotation="0.5727" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
-        <Flag Index="HeightAbsolute" Value="1"/>
-    </ObjectDoodad>
-    <ObjectDoodad Id="1855827506" Position="117.5,222.5,7.9987" Rotation="1.4846" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1240387530" Position="202.5,99.5,7.9992" Rotation="1.3132" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
@@ -3468,7 +3373,7 @@
     <ObjectDoodad Id="317667987" Position="191.5,75.5,7.9992" Rotation="3.5131" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="2011492506" Position="69.5,248.5,7.9987" Rotation="6.0354" Scale="1,1,1" Type="BraxisAlphaBarrels">
+    <ObjectDoodad Id="2011492506" Position="110.5,255.5,7.999" Rotation="6.0354" Scale="1,1,1" Type="BraxisAlphaBarrels">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="561506297" Position="95.5,121.5,7.999" Rotation="2.9045" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
@@ -3477,13 +3382,13 @@
     <ObjectDoodad Id="57109309" Position="57.5,59.5,7.9987" Rotation="5.485" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="2130065656" Position="17.5,223.5,7.9987" Rotation="1.0256" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="2130065656" Position="17.5,223.5,9.9992" Rotation="1.0256" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1989289338" Position="29.5,123.5,7.999" Rotation="1.7463" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="84144558" Position="62.5,244.5,7.9987" Rotation="6.145" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="84144558" Position="103.5,251.5,7.9992" Rotation="6.145" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="696235588" Position="58.5,64.5,7.9987" Rotation="5.134" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
@@ -3510,8 +3415,9 @@
     <ObjectDoodad Id="1357977988" Position="184.5,73.5,7.9992" Rotation="4.4306" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="762908988" Position="133.5,249.5,7.9987" Rotation="4.497" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="762908988" Position="146.66,239.8974,8.5556" Rotation="4.497" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
+        <Flag Index="ForcePlacement" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="580870530" Variation="1" Position="203.5,74,7.9992" Scale="1,1,1" Type="Aiur_Temple_GiantWalls_Long">
         <Flag Index="HeightAbsolute" Value="1"/>
@@ -3519,8 +3425,9 @@
     <ObjectDoodad Id="604699798" Position="68.5,24.5,7.999" Rotation="4.8586" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1717701071" Position="16.5,248.5,7.9987" Rotation="3.8874" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="1717701071" Position="38.8901,242.3493,7.999" Rotation="0.894" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
+        <Flag Index="ForcePlacement" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1054481029" Position="119.5,82.5,7.999" Rotation="4.5468" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
@@ -3537,7 +3444,7 @@
     <ObjectDoodad Id="1090593656" Position="253.5,92.5,7.9987" Rotation="0.0983" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="190868385" Variation="2" Position="69.5,247.5,7.9987" Rotation="0.9194" Scale="1,1,1" Type="BraxisAlphaBarrels">
+    <ObjectDoodad Id="190868385" Variation="2" Position="110.5,254.5,7.999" Rotation="0.9194" Scale="1,1,1" Type="BraxisAlphaBarrels">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1812766805" Position="40.5,64.5,7.9987" Scale="1,1,1" Type="LoSBlockerColumn">
@@ -3570,8 +3477,9 @@
     <ObjectDoodad Id="721123455" Position="178.5,2.5,7.9992" Scale="1,1,1" Type="PathingandSightBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1082179644" Position="148.5,175.5,8.0214" Rotation="4.9062" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="1082179644" Position="146.1206,160.7355,8.0051" Rotation="3.871" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
+        <Flag Index="ForcePlacement" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="2052966867" Position="12.5,101.5,7.9987" Rotation="4.3242" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
@@ -3579,7 +3487,7 @@
     <ObjectDoodad Id="1743832495" Position="55.5,60.5,7.9987" Rotation="6.1396" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="2089981241" Position="124.5,156.5,7.999" Rotation="2.7456" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="2089981241" Position="124.5,156.5,7.9995" Rotation="2.7456" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="287728693" Position="13.5,102.5,7.9987" Rotation="1.106" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
@@ -3594,8 +3502,9 @@
     <ObjectDoodad Id="1583531605" Position="87.5,219.5,7.9995" Rotation="0.634" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="2133174076" Variation="1" Position="23.2651,155.999,8.0202" Rotation="1.5954" Scale="1,1,1" Type="UmojanLabZergCratesOpen">
+    <ObjectDoodad Id="2133174076" Variation="1" Position="16.6262,159.075,8.039" Rotation="1.5954" Scale="1,1,1" Type="UmojanLabZergCratesOpen">
         <Flag Index="HeightAbsolute" Value="1"/>
+        <Flag Index="ForcePlacement" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="466891149" Position="93.5,207.5,7.9992" Rotation="4.8" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
@@ -3612,7 +3521,7 @@
     <ObjectDoodad Id="277721190" Position="81.5,122.5,11.999" Rotation="4.305" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="713587372" Position="125.5,163.5,7.9987" Rotation="3.8696" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="713587372" Position="125.5,163.5,7.9992" Rotation="3.8696" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="2130669146" Position="85.5,51.5,7.9987" Rotation="2.877" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
@@ -3621,7 +3530,7 @@
     <ObjectDoodad Id="452411844" Position="157.5,69.5,7.9992" Scale="1,1,1" Type="PathingandSightBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1412178913" Position="16.5,221.5,7.9987" Rotation="6.0788" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="1412178913" Position="16.5,221.5,10.0173" Rotation="6.0788" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="538829319" Variation="1" Position="188.5,74,7.9992" Scale="1,1,1" Type="Aiur_Temple_GiantWalls_Long">
@@ -3663,10 +3572,7 @@
     <ObjectDoodad Id="1086604085" Position="192.5,73.5,7.9992" Rotation="3.4716" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1982365241" Position="110.5,234.5,10.0114" Rotation="2.6848" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
-        <Flag Index="HeightAbsolute" Value="1"/>
-    </ObjectDoodad>
-    <ObjectDoodad Id="1715919908" Position="124.5,159.5,7.999" Rotation="4.3251" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
+    <ObjectDoodad Id="1715919908" Position="124.5,159.5,7.9995" Rotation="4.3251" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1168190365" Position="182.5,97.5,7.9992" Rotation="0.5305" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
@@ -3712,9 +3618,6 @@
     <ObjectDoodad Id="1471080067" Position="17.5,100.5,7.9987" Rotation="1.9645" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1165602241" Position="116.4116,224.6691,7.9987" Scale="1,1,1" Type="TerranButcherPropLarge">
-        <Flag Index="HeightAbsolute" Value="1"/>
-    </ObjectDoodad>
     <ObjectDoodad Id="591781022" Position="200.5,73.5,7.9992" Rotation="6.1694" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
@@ -3727,73 +3630,86 @@
     <ObjectDoodad Id="928070926" Position="228.5,122.5,7.9992" Scale="1,1,1" Type="PathingandSightBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="752036199" Position="115.5,223.5,7.9987" Rotation="4.6018" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
-        <Flag Index="HeightAbsolute" Value="1"/>
-    </ObjectDoodad>
     <ObjectDoodad Id="1017668378" Position="193.5,51.5,7.9992" Rotation="1.0917" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1634233043" Position="195.5,75.5,7.9992" Rotation="1.2458" Scale="1,1,1" Type="PathingBlocker1x1Doodad">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="1420771111" Position="71.5,247.5,7.9987" Rotation="3.0654" Scale="1,1,1" Type="BraxisAlphaBarrels">
+    <ObjectDoodad Id="1420771111" Position="112.5,254.5,7.9987" Rotation="3.0654" Scale="1,1,1" Type="BraxisAlphaBarrels">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectPoint Id="1207591446" Position="5.44,7.7897,0" Scale="1,1,1" Type="Normal" Name="Protoss_SpawnPoint" Color="0,0,0,0"/>
     <ObjectPoint Id="1107925159" Position="192.3098,54.91,0" Scale="1,1,1" Type="Normal" Name="Zerg_SpawnPoint" Color="255,128,64,0"/>
     <ObjectPoint Id="1975042423" Position="80.1198,201.5898,0" Scale="1,1,1" Type="Normal" Name="Terran_SpawnPoint" Color="255,255,0,0"/>
-    <ObjectUnit Id="468732476" Position="68,191,0" Rotation="2.356" Scale="1,1,1" UnitType="XelNaga_Caverns_DoorNE"/>
-    <ObjectUnit Id="1335406331" Position="200.5795,97.3061,0" Rotation="0.3698" Scale="1,1,1" UnitType="AbathurLavaWorm"/>
-    <ObjectUnit Id="1948323155" Variation="4" Position="18.5,44.5,0" Rotation="5.4147" Scale="1,1,1" UnitType="UnbuildableRocksSmallUnit"/>
+    <ObjectUnit Id="1444929338" Position="78.5,147.5,0" Rotation="5.4975" Scale="1,1,1" UnitType="NukeSiloNova">
+        <Flag Index="ForcePlacement" Value="1"/>
+    </ObjectUnit>
     <ObjectUnit Id="54733832" Variation="1" Position="61.5,31.5,0" Rotation="2.356" Scale="1,1,1" UnitType="Purifier_DoorSmallNE"/>
     <ObjectUnit Id="1339174057" Variation="3" Position="17.5,35.5,0" Rotation="4.4765" Scale="1,1,1" UnitType="UnbuildableRocksSmallUnit"/>
     <ObjectUnit Id="837935082" Variation="2" Position="21.5,31.5,0" Rotation="3.3913" Scale="1,1,1" UnitType="UnbuildableRocksSmallUnit"/>
-    <ObjectUnit Id="439555339" Position="77,12,0" Rotation="5.4665" Scale="1,1,1" UnitType="UnbuildableRocksDestructible"/>
-    <ObjectUnit Id="2103950557" Position="185.3725,97.3398,0" Rotation="0.2531" Scale="1,1,1" UnitType="AbathurLavaWorm"/>
     <ObjectUnit Id="286039701" Position="29,26.5,0" Rotation="3.1413" Scale="1,1,1" UnitType="Purifier_DoorNLowered"/>
-    <ObjectUnit Id="399948598" Position="39,26.5,0" Rotation="3.1413" Scale="1,1,1" UnitType="Purifier_DoorN"/>
-    <ObjectUnit Id="1325557168" Position="62,203,0" Rotation="1.5705" Scale="1,1,1" UnitType="XelNaga_Caverns_DoorEOpened"/>
-    <ObjectUnit Id="651233697" Position="80,187,0" Rotation="3.1413" Scale="1,1,1" UnitType="XelNaga_Caverns_DoorNOpened"/>
-    <ObjectUnit Id="597215872" Position="98,203,0" Rotation="4.7121" Scale="1,1,1" UnitType="XelNaga_Caverns_DoorWOpened"/>
     <ObjectUnit Id="706134000" Position="13.5,37.5,0" Rotation="2.356" Scale="1,1,1" UnitType="Purifier_DoorNE"/>
     <ObjectUnit Id="1716634536" Position="5,40.5,0" Rotation="3.1413" Scale="1,1,1" UnitType="Purifier_DoorNLowered"/>
-    <ObjectUnit Id="933942362" Position="81,219,0" Scale="1,1,1" UnitType="XelNaga_Caverns_DoorSOpened"/>
+    <ObjectUnit Id="1246149498" Variation="1" Position="77,162,0" Rotation="0.7851" Scale="1,1,1" UnitType="DefenseWallNE">
+        <Flag Index="ForcePlacement" Value="1"/>
+    </ObjectUnit>
     <ObjectUnit Id="1696044841" Position="27.5,40.5,0" Rotation="1.5705" Scale="1,1,1" UnitType="AiurTempleStoneGateStraightVerticalLF">
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
-    <ObjectUnit Id="956973039" Position="17.5,42.5,0" Rotation="3.6174" Scale="1,1,1" UnitType="UnbuildableRocksSmallUnit"/>
+    <ObjectUnit Id="1634630852" Position="75,163,0" Rotation="1.5705" Scale="1,1,1" UnitType="DefenseWallN"/>
     <ObjectUnit Id="9245785" Variation="2" Position="17.5,36.5,0" Rotation="3.0136" Scale="1,1,1" UnitType="UnbuildableRocksSmallUnit"/>
-    <ObjectUnit Id="1017418828" Position="80,185,0" Scale="1,1,1" UnitType="DestructibleRockEx12x6Horizontal"/>
     <ObjectUnit Id="364655964" Position="92,214,0" Rotation="5.4975" Scale="1,1,1" UnitType="XelNaga_Caverns_DoorSW"/>
     <ObjectUnit Id="11232937" Position="47.5,23.5,0" Rotation="2.356" Scale="1,1,1" UnitType="Purifier_DoorNE"/>
-    <ObjectUnit Id="450791454" Position="17.5,40.5,0" Rotation="3.9428" Scale="1,1,1" UnitType="UnbuildableRocksSmallUnit"/>
     <ObjectUnit Id="428219612" Position="205,67,0" Rotation="5.0634" Scale="1,1,1" UnitType="AiurRockDebris4x4"/>
-    <ObjectUnit Id="1023315452" Variation="1" Position="26,55.5,0" Rotation="3.1413" Scale="1,1,1" UnitType="Purifier_DoorSmallN"/>
-    <ObjectUnit Id="1653281342" Position="20.5,30.5,0" Rotation="2.356" Scale="1,1,1" UnitType="Purifier_DoorNE"/>
-    <ObjectUnit Id="782724234" Position="68,215,0" Rotation="0.7851" Scale="1,1,1" UnitType="XelNaga_Caverns_DoorSE"/>
     <ObjectUnit Id="725734735" Position="78.5,8.5,0" Rotation="5.1323" Scale="1,1,1" UnitType="CollapsiblePurifierTowerDebris"/>
     <ObjectUnit Id="888570977" Position="51.5,5,0" Rotation="1.5705" Scale="1,1,1" UnitType="Purifier_DoorSmallELowered"/>
-    <ObjectUnit Id="905588544" Position="23.5,45.5,0" Scale="1,1,1" UnitType="AiurTempleStoneGateStraightHorizontalBF">
-        <Flag Index="ForcePlacement" Value="1"/>
-    </ObjectUnit>
-    <ObjectUnit Id="254929076" Position="205,71,0" Rotation="2.9841" Scale="1,1,1" UnitType="AiurRockDebris4x4"/>
-    <ObjectUnit Id="153888255" Position="78.5,3.5,0" Rotation="5.1323" Scale="1,1,1" UnitType="CollapsiblePurifierTowerDebris"/>
     <ObjectUnit Id="40233932" Position="23,40,-8" Scale="1,1,1" UnitType="PurifierCoreMatrix">
         <Flag Index="HeightOffset" Value="1"/>
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
-    <ObjectUnit Id="835025683" Position="182,62,0" Rotation="5.0632" Scale="1,1,1" UnitType="AiurRockDebris4x4"/>
     <ObjectUnit Id="983712314" Variation="1" Position="17.5,39.5,0" Rotation="0.3615" Scale="1,1,1" UnitType="UnbuildableRocksSmallUnit"/>
     <ObjectUnit Id="779496060" Position="51.5,15,0" Rotation="1.5705" Scale="1,1,1" UnitType="Purifier_DoorE"/>
     <ObjectUnit Id="1922575024" Variation="1" Position="73.5,19.5,0" Rotation="2.356" Scale="1,1,1" UnitType="Purifier_DoorSmallNE"/>
-    <ObjectUnit Id="490169950" Variation="4" Position="17.5,38.5,0" Rotation="1.059" Scale="1,1,1" UnitType="UnbuildableRocksSmallUnit"/>
-    <ObjectUnit Id="1959127095" Position="92,191,0" Rotation="3.9267" Scale="1,1,1" UnitType="XelNaga_Caverns_DoorNW"/>
-    <ObjectUnit Id="1656190051" Position="23,34,0" Rotation="2.356" Scale="1,1,1" UnitType="FenixAltarOfPsiStormsBrokenStage2">
-        <Flag Index="ForcePlacement" Value="1"/>
+    <ObjectUnit Id="1959127095" Position="92,191,0" Rotation="3.9267" Scale="1,1,1" UnitType="XelNaga_Caverns_DoorNW">
+        <AIFlag Index="IsUseable" Value="0"/>
     </ObjectUnit>
     <ObjectUnit Id="352775436" Variation="1" Position="17.5,37.5,0" Rotation="0.251" Scale="1,1,1" UnitType="UnbuildableRocksSmallUnit"/>
     <ObjectUnit Id="800425252" Variation="3" Position="17.5,41.5,0" Rotation="5.1567" Scale="1,1,1" UnitType="UnbuildableRocksSmallUnit"/>
-    <ObjectUnit Id="917963782" Position="49,40,0" Scale="1,1,1" UnitType="PurifierCellBlock8x8C"/>
     <ObjectUnit Id="1942429919" Variation="5" Position="17.5,43.5,0" Rotation="1.036" Scale="1,1,1" UnitType="UnbuildableRocksSmallUnit"/>
+    <ObjectUnit Id="468732476" Position="68,191,0" Rotation="2.356" Scale="1,1,1" UnitType="XelNaga_Caverns_DoorNE"/>
+    <ObjectUnit Id="1335406331" Position="200.5795,97.3061,0" Rotation="0.3698" Scale="1,1,1" UnitType="AbathurLavaWorm"/>
+    <ObjectUnit Id="1948323155" Variation="4" Position="18.5,44.5,0" Rotation="5.4147" Scale="1,1,1" UnitType="UnbuildableRocksSmallUnit"/>
+    <ObjectUnit Id="439555339" Position="77,12,0" Rotation="5.4665" Scale="1,1,1" UnitType="UnbuildableRocksDestructible"/>
+    <ObjectUnit Id="2103950557" Position="185.3725,97.3398,0" Rotation="0.2531" Scale="1,1,1" UnitType="AbathurLavaWorm"/>
+    <ObjectUnit Id="399948598" Position="39,26.5,0" Rotation="3.1413" Scale="1,1,1" UnitType="Purifier_DoorN"/>
+    <ObjectUnit Id="1325557168" Position="62,203,0" Rotation="1.5705" Scale="1,1,1" UnitType="XelNaga_Caverns_DoorEOpened"/>
+    <ObjectUnit Id="651233697" Position="80,187,0" Rotation="3.1413" Scale="1,1,1" UnitType="XelNaga_Caverns_DoorNOpened"/>
+    <ObjectUnit Id="597215872" Position="98,203,0" Rotation="4.7121" Scale="1,1,1" UnitType="XelNaga_Caverns_DoorWOpened"/>
+    <ObjectUnit Id="933942362" Position="81,219,0" Scale="1,1,1" UnitType="XelNaga_Caverns_DoorSOpened"/>
+    <ObjectUnit Id="956973039" Position="17.5,42.5,0" Rotation="3.6174" Scale="1,1,1" UnitType="UnbuildableRocksSmallUnit"/>
+    <ObjectUnit Id="1017418828" Position="80,185,0" Scale="1,1,1" UnitType="DestructibleRockEx12x6Horizontal"/>
+    <ObjectUnit Id="667496770" Position="84,163,0" Rotation="1.5705" Scale="1,1,1" UnitType="DefenseWallN"/>
+    <ObjectUnit Id="450791454" Position="17.5,40.5,0" Rotation="3.9428" Scale="1,1,1" UnitType="UnbuildableRocksSmallUnit"/>
+    <ObjectUnit Id="1023315452" Variation="1" Position="26,55.5,0" Rotation="3.1413" Scale="1,1,1" UnitType="Purifier_DoorSmallN"/>
+    <ObjectUnit Id="1653281342" Position="20.5,30.5,0" Rotation="2.356" Scale="1,1,1" UnitType="Purifier_DoorNE"/>
+    <ObjectUnit Id="782724234" Position="68,215,0" Rotation="0.7851" Scale="1,1,1" UnitType="XelNaga_Caverns_DoorSE"/>
+    <ObjectUnit Id="905588544" Position="23.5,45.5,0" Scale="1,1,1" UnitType="AiurTempleStoneGateStraightHorizontalBF">
+        <Flag Index="ForcePlacement" Value="1"/>
+    </ObjectUnit>
+    <ObjectUnit Id="1195553986" Variation="2" Position="81,162,0" Rotation="2.356" Scale="1,1,1" UnitType="DefenseWallNW">
+        <Flag Index="ForcePlacement" Value="1"/>
+    </ObjectUnit>
+    <ObjectUnit Id="254929076" Position="205,71,0" Rotation="2.9841" Scale="1,1,1" UnitType="AiurRockDebris4x4"/>
+    <ObjectUnit Id="153888255" Position="78.5,3.5,0" Rotation="5.1323" Scale="1,1,1" UnitType="CollapsiblePurifierTowerDebris"/>
+    <ObjectUnit Id="835025683" Position="182,62,0" Rotation="5.0632" Scale="1,1,1" UnitType="AiurRockDebris4x4"/>
+    <ObjectUnit Id="490169950" Variation="4" Position="17.5,38.5,0" Rotation="1.059" Scale="1,1,1" UnitType="UnbuildableRocksSmallUnit"/>
+    <ObjectUnit Id="1656190051" Position="23,34,0" Rotation="2.356" Scale="1,1,1" UnitType="FenixAltarOfPsiStormsBrokenStage2">
+        <Flag Index="ForcePlacement" Value="1"/>
+    </ObjectUnit>
+    <ObjectUnit Id="917963782" Position="49,40,0" Scale="1,1,1" UnitType="PurifierCellBlock8x8C"/>
+    <ObjectUnit Id="1095582157" Position="88.2514,158.9226,0" Rotation="3.0937" Scale="1,1,1" UnitType="ColonistVehicleUnit01">
+        <Flag Index="ForcePlacement" Value="1"/>
+    </ObjectUnit>
     <ObjectUnit Id="375161614" Position="80,12,0" Rotation="5.4667" Scale="1,1,1" UnitType="UnbuildableRocksDestructible"/>
 </PlacedObjects>

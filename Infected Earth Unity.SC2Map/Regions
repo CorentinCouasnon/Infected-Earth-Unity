@@ -4,7 +4,7 @@
         <name value="Terran_SpawnRegion1"/>
         <color value="255,255,0,0"/>
         <shape type="circle">
-            <center value="144.518,248.7426"/>
+            <center value="152.3566,248.6596"/>
             <radius value="6"/>
         </shape>
     </region>
@@ -12,7 +12,7 @@
         <name value="Terran_SpawnRegion2"/>
         <color value="255,255,0,0"/>
         <shape type="circle">
-            <center value="144.092,161.2797"/>
+            <center value="153.719,152.287"/>
             <radius value="6"/>
         </shape>
     </region>
@@ -28,7 +28,7 @@
         <name value="Terran_SpawnRegion3"/>
         <color value="255,255,0,0"/>
         <shape type="circle">
-            <center value="8.0612,160.281"/>
+            <center value="6.917,152.7006"/>
             <radius value="6"/>
         </shape>
     </region>
