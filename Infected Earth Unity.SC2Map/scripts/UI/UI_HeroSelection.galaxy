@@ -7,8 +7,7 @@ bool UI_HeroSelection_OnHeroSelected(bool testConds, bool runActions)
     int control = EventDialogControl();
     int i;
 
-    // TODO : Remove magic number
-    for(i = 0; i < 3; i += 1)
+    for (i = 0; i < c_heroCount; i += 1)
     {
         if (heroSelection_chooseHeroButtons[i] == control)
         {
@@ -31,8 +30,7 @@ void UI_HeroSelection_Init()
 
     heroSelectedTrigger = TriggerCreate("UI_HeroSelection_OnHeroSelected");
 
-    // TODO : Remove magic number
-    for(i = 0; i < 3; i += 1)
+    for (i = 0; i < c_heroCount; i += 1)
     {
         heroSelection_chooseHeroButtons[i] = DialogControlHookup(heroSelection_frame, c_triggerControlTypeButton, "ChooseHero" + IntToString(i + 1));
         TriggerAddEventDialogControl(heroSelectedTrigger, c_playerAny, heroSelection_chooseHeroButtons[i], c_triggerControlEventTypeClick);
