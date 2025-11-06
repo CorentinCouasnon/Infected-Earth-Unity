@@ -101,8 +101,16 @@ bool Player_OnAbilityUsed(bool testConds, bool runActions)
     return true;
 }
 
+void Player_SetStartingRessources()
+{
+    // TODO : Loop through all players
+    PlayerModifyPropertyFixed(1, c_playerPropMinerals, c_playerPropOperAdd, c_playerStartingMinerals);
+}
+
 void Player_Init()
 {
+    Player_SetStartingRessources();
+
     TriggerAddEventUnitDied(TriggerCreate("Player_OnUnitDeath"), null);
     TriggerAddEventUnitAbility(TriggerCreate("Player_OnAbilityUsed"), null, null, c_abilEffectStageChannel, false);
 }
