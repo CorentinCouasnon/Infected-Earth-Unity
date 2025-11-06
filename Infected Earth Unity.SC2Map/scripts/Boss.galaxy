@@ -1,0 +1,51 @@
+void Boss_Spawn()
+{
+    unit newUnit;
+    libNtve_gf_CreateUnitsWithDefaultFacing(1, "Drone", 0, 15, RegionRandomPoint(Region_GetRandomSpawnRegion(c_Part_Terran)));
+    newUnit = UnitLastCreated();
+    gv_bossesAlive += 1;
+    UnitGroupAdd(gv_bossesGroup, newUnit);
+    UI_Boss_Spawn(newUnit);
+}
+
+void Boss_OnNewWave()
+{
+    if (gv_currentWave % 5 == 0)
+    {
+        Boss_Spawn();
+    }
+}
+
+bool Boss_UnitDied(bool testConds, bool runActions)
+{
+    unit deadUnit = EventUnit();
+
+    if (UnitGroupHasUnit(gv_bossesGroup, deadUnit))
+    {
+        gv_bossesAlive -= 1;
+        UnitGroupRemove(gv_bossesGroup, deadUnit);
+        UI_Boss_Remove();
+    }
+
+    return true;
+}
+
+bool Boss_GroupAttack(bool testConds, bool runActions)
+{
+    // TODO : Make bosses focus all players
+    if (gv_playersData[0].heroUnit == null)
+    {
+        return true;
+    }
+
+    UnitGroupIssueOrder(gv_bossesGroup, OrderTargetingUnit(AbilityCommand("attack", 0), gv_playersData[0].heroUnit), c_orderQueueReplace);
+    return true;
+}
+
+void Boss_Init()
+{
+    gv_bossesGroup = UnitGroupEmpty();
+
+    TriggerAddEventTimePeriodic(TriggerCreate("Boss_GroupAttack"), 0.025, c_timeGame);
+    TriggerAddEventUnitDied(TriggerCreate("Boss_UnitDied"), null);
+}

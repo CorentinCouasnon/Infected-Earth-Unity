@@ -1,14 +1,17 @@
 // Constants
 
 const int c_minimumTickTime = 0;
+const int c_timeBetweenWaveInSeconds = 180;
 
 const int c_terranSpawnRegionCount = 4;
 const int c_protossSpawnRegionCount = 4;
 const int c_zergSpawnRegionCount = 6;
 
-const int c_maximumEnemyCount = 300;
+const int c_maximumEnemyCount = 500;
 
 const int c_maximumUnitTypePerWave = 20;
+
+const int c_waveCountToWin = 10;
 
 // Global variables
 
@@ -19,13 +22,34 @@ struct PlayerData {
 
 PlayerData[6] gv_playersData;
 
+timer gv_nextWaveTimer;
 int gv_currentWave;
 int gv_enemiesAlive;
 unitgroup gv_enemiesGroup;
+int gv_bossesAlive;
+unitgroup gv_bossesGroup;
 
+
+int gv_skippedFrameCount;
+int gv_framesToSkipCount;
+string[2000] gv_tmpEnemySpawnQueue;
+int gv_tmpEnemySpawnQueueCount;
 string[2000] gv_enemySpawnQueue;
 int gv_enemySpawnQueueCount;
 
 region[4] gv_terranSpawnRegions;
 region[4] gv_protossSpawnRegions;
 region[6] gv_zergSpawnRegions;
+
+// Flags
+
+bool f_isWaveInProgress;
+bool f_isWaveTimerElapsed;
+
+// Enums
+
+// parts
+const int c_Part_None       = -1;
+const int c_Part_Terran     = 0;
+const int c_Part_Protoss    = 1;
+const int c_Part_Zerg       = 2;

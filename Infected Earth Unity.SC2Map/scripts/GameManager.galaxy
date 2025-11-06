@@ -1,5 +1,49 @@
-void GameManager_InitPart(int part)
+void GameManager_OnWaveCompleted()
 {
+
+}
+
+void GameManager_StartNewWave()
+{
+    gv_currentWave += 1;
+
+    if (gv_currentWave == c_waveCountToWin) 
+    {
+        GameOver(1, c_gameOverVictory, true, true);
+        UIDisplayMessage(PlayerGroupAll(), c_messageAreaChat, StringToText("Victoire ! Vague " + IntToString(c_waveCountToWin) + " atteinte !"));
+        return;
+    } 
+    else 
+    {
+        UIDisplayMessage(PlayerGroupAll(), c_messageAreaChat, StringToText("Début de la vague " + IntToString(gv_currentWave) + "..."));
+    }
+
+    Boss_OnNewWave();
+    Wave_OnNewWave();
+    Wave_StartTimer();
+}
+
+bool GameManager_CheckWaveStatus(bool testConds, bool runActions)
+{
+    if (f_isWaveInProgress && !f_isWaveTimerElapsed)
+    {
+        return true;
+    }
+
+    if (gv_currentWave != 0)
+    {
+        GameManager_OnWaveCompleted();
+    }
+
+    GameManager_StartNewWave();
+
+    return true;
+}
+
+void GameManager_StartPart(int part)
+{
+    // TODO : TP le héros du joueur si il en a un dans la nouvelle zone (il en a pas au début pour la partie terran, la fonction s'execute avant)
+
     if (part == c_Part_Terran)
     {
         CameraSetBounds(PlayerGroupAll(), RegionFromName("Terran_All"), true);
@@ -12,4 +56,11 @@ void GameManager_InitPart(int part)
     {
         CameraSetBounds(PlayerGroupAll(), RegionFromName("Zerg_All"), true);
     }
+}
+
+void GameManager_Init()
+{
+    GameManager_StartPart(c_Part_Terran);
+
+    TriggerAddEventTimePeriodic(TriggerCreate("GameManager_CheckWaveStatus"), c_minimumTickTime, c_timeGame);
 }

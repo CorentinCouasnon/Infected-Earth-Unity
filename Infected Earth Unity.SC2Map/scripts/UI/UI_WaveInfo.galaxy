@@ -1,10 +1,12 @@
 static int waveInfo_frame;
 static int waveInfo_waveLabel;
+static int waveInfo_timerLabel;
 static int waveInfo_enemiesCountLabel;
 
 void UI_WaveInfo_Update()
 {
     DialogControlSetPropertyAsText(waveInfo_waveLabel, c_triggerControlPropertyText, PlayerGroupAll(), StringToText("Wave " + IntToString(gv_currentWave)));
+    DialogControlSetPropertyAsText(waveInfo_timerLabel, c_triggerControlPropertyText, PlayerGroupAll(), StringToText("New wave in : " + Utility_TimeFormat(FixedToInt(TimerGetRemaining(gv_nextWaveTimer)))));
     DialogControlSetPropertyAsText(waveInfo_enemiesCountLabel, c_triggerControlPropertyText, PlayerGroupAll(), StringToText("Enemies remaining : " + IntToString(gv_enemiesAlive)));
 }
 
@@ -12,5 +14,6 @@ void UI_WaveInfo_Init()
 {
     waveInfo_frame = DialogControlHookupStandard(c_triggerControlTypePanel, "UIContainer/WaveInfoPanel");
     waveInfo_waveLabel = DialogControlHookup(waveInfo_frame, c_triggerControlTypeLabel, "Wave");
+    waveInfo_timerLabel = DialogControlHookup(waveInfo_frame, c_triggerControlTypeLabel, "Timer");
     waveInfo_enemiesCountLabel = DialogControlHookup(waveInfo_frame, c_triggerControlTypeLabel, "Enemies");
 }

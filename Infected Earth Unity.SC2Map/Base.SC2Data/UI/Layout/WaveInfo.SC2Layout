@@ -4,7 +4,7 @@
 	<Frame type="Frame" name="GameUI/UIContainer" file="GameUI">
 		<Frame type="Frame" name="WaveInfoPanel">
 			<Anchor side="Top" relative="$parent" pos="Mid" offset="-150"/>
-			<Anchor side="Left" relative="$parent" pos="Min" offset="0"/>
+			<Anchor side="Left" relative="$parent" pos="Min" offset="10"/>
 			
 			<Height val="150"/>
 			<Width val="300"/>
@@ -18,13 +18,23 @@
 
 
 			<Frame type="Label" name="Wave">
-				<Anchor side="Top" relative="$parent" pos="Min" offset="45"/>
+				<Anchor side="Top" relative="$parent" pos="Min" offset="30"/>
 				<Anchor side="Left" relative="$parent" pos="Mid" offset="0"/>
 				<Anchor side="Right" relative="$parent" pos="Mid" offset="0"/>
 				
 				<Style val="Regular"/>
 				<Width val="250"/>
 				<Text val="Vague 0"/>
+			</Frame>
+
+			<Frame type="Label" name="Timer">
+				<Anchor side="Top" relative="$parent" pos="Min" offset="60"/>
+				<Anchor side="Left" relative="$parent" pos="Mid" offset="0"/>
+				<Anchor side="Right" relative="$parent" pos="Mid" offset="0"/>
+				
+				<Style val="Regular"/>
+				<Width val="250"/>
+				<Text val="New wave in : 0:00"/>
 			</Frame>
 
             <Frame type="Label" name="Enemies">

@@ -17,9 +17,9 @@ void Debug_ShowMessage(string message)
     UIDisplayMessage(PlayerGroupAll(), c_messageAreaChat, StringToText(message));
 }
 
-void Debug_ShowMessageInt(int number)
+void Debug_ShowMessageInt(string name, int number)
 {
-    UIDisplayMessage(PlayerGroupAll(), c_messageAreaChat, IntToText(number));
+    UIDisplayMessage(PlayerGroupAll(), c_messageAreaChat, StringToText(name + IntToString(number)));
 }
 
 void Debug_ShowMessageBool(string name, bool value)

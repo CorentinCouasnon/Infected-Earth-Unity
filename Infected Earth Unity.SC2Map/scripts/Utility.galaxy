@@ -1,4 +1,5 @@
-bool Utility_IsNumber (string input) {
+bool Utility_IsNumber (string input) 
+{
     int length = StringLength(input);
     int currentPosition;
     string currentCharacter = "";
@@ -48,6 +49,45 @@ bool Utility_IsNumber (string input) {
     return true;
 }
 
-bool Utility_IsInt(fixed input) {
+bool Utility_IsInt(fixed input) 
+{
     return Round(input) == input;
+}
+
+string Utility_TimeFormat(int time) 
+{
+    text t;
+
+    if (time >= 3600)
+    {
+        t = TextTimeFormat(StringToText("<hour/>:<min2/>:<sec2/>"), time);
+    }
+    else
+    {
+        if (time >= 600)
+        {
+            t = TextTimeFormat(StringToText("<min2/>:<sec2/>"), time);
+        }
+        else
+        {
+            t = TextTimeFormat(StringToText("<min/>:<sec2/>"), time);
+        }
+    }
+
+    return TextToString(t);
+}
+
+void Utility_ShuffleArray(int size)
+{
+    int i = size - 1;
+    int j;
+    string temp;
+
+    while (i > 0) {
+        j = RandomInt(0, i);
+        temp = gv_enemySpawnQueue[i];
+        gv_enemySpawnQueue[i] = gv_enemySpawnQueue[j];
+        gv_enemySpawnQueue[j] = temp;
+        i -= 1;
+    }
 }
