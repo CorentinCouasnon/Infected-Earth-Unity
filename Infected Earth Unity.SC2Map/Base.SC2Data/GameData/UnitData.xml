@@ -3130,6 +3130,7 @@
         <AbilArray Link="move13"/>
         <AbilArray Link="D8Charge2"/>
         <AbilArray Link="ReaperSpiderMines"/>
+        <AbilArray Link="ReaperFlyMorph"/>
         <BehaviorArray Link="ReaperJump2"/>
         <BehaviorArray Link="AllUnitBehaviorController"/>
         <WeaponArray Link="P38ScytheGuassPistol"/>
