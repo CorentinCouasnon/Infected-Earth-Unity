@@ -1,11 +1,21 @@
-void UI_CreateTextTag(text inText, color inColor, point position, playergroup group, fixed offset, fixed duration)
+static int UI_DelayedTextTagDestroyer_ParamTextTag;
+static fixed UI_DelayedTextTagDestroyer_ParamDuration;
+static trigger UI_DelayedTextTagDestroyer_Trigger;
+
+void UI_DelayedTextTagCreate(text inText, color inColor, point position, playergroup group, fixed offset, fixed duration)
 {
-    int textTag;
-    textTag = TextTagCreate(TextWithColor(inText, inColor), 18, position, offset, true, false, group);
-    TextTagSetVelocity(textTag, 1.0, 90.0);
-    TextTagSetTime(textTag, c_textTagTimeDuration, duration);
-    Wait(duration, c_timeReal);
-    TextTagDestroy(textTag);
+    UI_DelayedTextTagDestroyer_ParamTextTag = TextTagCreate(TextWithColor(inText, inColor), 18, position, offset, true, false, group);
+    UI_DelayedTextTagDestroyer_ParamDuration = duration + 0.5;
+    TextTagSetVelocity(UI_DelayedTextTagDestroyer_ParamTextTag, 1.0, 90.0);
+    TextTagSetTime(UI_DelayedTextTagDestroyer_ParamTextTag, c_textTagTimeDuration, duration);
+    TriggerExecute(UI_DelayedTextTagDestroyer_Trigger, false, false);
+}
+
+bool UI_DelayedTextTagDestroyer(bool testCond, bool runActions)
+{
+    Wait(UI_DelayedTextTagDestroyer_ParamDuration, c_timeGame);
+    TextTagDestroy(UI_DelayedTextTagDestroyer_ParamTextTag);
+    return true;
 }
 
 bool UI_Update(bool testConds, bool runActions)
@@ -23,4 +33,5 @@ void UI_Init()
     UI_Boss_Init();
 
     TriggerAddEventTimePeriodic(TriggerCreate("UI_Update"), c_minimumTickTime, c_timeGame);
+    UI_DelayedTextTagDestroyer_Trigger = TriggerCreate("UI_DelayedTextTagDestroyer");
 }

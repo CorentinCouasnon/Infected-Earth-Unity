@@ -1,5 +1,7 @@
 // Constants
 
+const int c_heroCount = 3;
+
 const int c_minimumTickTime = 0;
 const int c_timeBetweenWaveInSeconds = 180;
 

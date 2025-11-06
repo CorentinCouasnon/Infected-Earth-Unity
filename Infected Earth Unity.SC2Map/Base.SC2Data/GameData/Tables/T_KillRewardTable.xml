@@ -16,7 +16,37 @@
             <Int Int="5">
                 <Field Id="ressourceCount"/>
             </Int>
-            <Unit Unit="Zergling">
+            <Int Int="1">
+                <Field Id="ressourceCount" Index="1"/>
+            </Int>
+            <Unit Unit="Marine22">
+                <Field Id="unit"/>
+            </Unit>
+        </Instances>
+        <Instances Id="2">
+            <Int Int="10">
+                <Field Id="ressourceCount"/>
+            </Int>
+            <Unit Unit="ReaperChien">
+                <Field Id="unit"/>
+            </Unit>
+        </Instances>
+        <Instances Id="3">
+            <Int Int="20">
+                <Field Id="ressourceCount"/>
+            </Int>
+            <Unit Unit="HellionChien">
+                <Field Id="unit"/>
+            </Unit>
+        </Instances>
+        <Instances Id="4">
+            <Int Int="60">
+                <Field Id="ressourceCount"/>
+            </Int>
+            <Int Int="1">
+                <Field Id="ressourceCount" Index="1"/>
+            </Int>
+            <Unit Unit="HellbatChien">
                 <Field Id="unit"/>
             </Unit>
         </Instances>
