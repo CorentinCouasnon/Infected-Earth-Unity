@@ -52,21 +52,34 @@
         </Fields>
         <Instances Id="[Default]"/>
         <Instances Id="1">
-            <Int Int="5">
+            <Int Int="10">
                 <Field Id="ressourceCount"/>
-            </Int>
-            <Int Int="1">
-                <Field Id="ressourceCount" Index="1"/>
             </Int>
             <Unit Unit="Marine22">
                 <Field Id="unit"/>
             </Unit>
         </Instances>
+        <Instances Id="6">
+            <Int Int="15">
+                <Field Id="ressourceCount"/>
+            </Int>
+            <Unit Unit="MarauderChien">
+                <Field Id="unit"/>
+            </Unit>
+        </Instances>
         <Instances Id="2">
-            <Int Int="10">
+            <Int Int="15">
                 <Field Id="ressourceCount"/>
             </Int>
             <Unit Unit="ReaperChien">
+                <Field Id="unit"/>
+            </Unit>
+        </Instances>
+        <Instances Id="8">
+            <Int Int="15">
+                <Field Id="ressourceCount"/>
+            </Int>
+            <Unit Unit="PredatorChien">
                 <Field Id="unit"/>
             </Unit>
         </Instances>
@@ -78,12 +91,25 @@
                 <Field Id="unit"/>
             </Unit>
         </Instances>
-        <Instances Id="4">
-            <Int Int="60">
+        <Instances Id="5">
+            <Int Int="20">
                 <Field Id="ressourceCount"/>
             </Int>
-            <Int Int="1">
-                <Field Id="ressourceCount" Index="1"/>
+            <Unit Unit="Cyclone">
+                <Field Id="unit"/>
+            </Unit>
+        </Instances>
+        <Instances Id="7">
+            <Int Int="25">
+                <Field Id="ressourceCount"/>
+            </Int>
+            <Unit Unit="VikingChien">
+                <Field Id="unit"/>
+            </Unit>
+        </Instances>
+        <Instances Id="4">
+            <Int Int="50">
+                <Field Id="ressourceCount"/>
             </Int>
             <Unit Unit="HellbatChien">
                 <Field Id="unit"/>
