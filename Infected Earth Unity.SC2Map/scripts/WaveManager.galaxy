@@ -36,7 +36,6 @@ void Wave_OnNewWave() {
     int j;
     string u;
     int count;
-    int total;
     int randomInt;
     string tmp;
 
@@ -84,7 +83,7 @@ void Wave_OnNewWave() {
         return;    
     }
 
-    gv_framesToSkipCount = FloorI(960 / gv_enemySpawnQueueCount);
+    gv_framesToSkipCount = FloorI((16 * c_waveSpawnPeriodInSeconds) / gv_enemySpawnQueueCount);
     gv_skippedFrameCount = gv_framesToSkipCount;
 }
 
