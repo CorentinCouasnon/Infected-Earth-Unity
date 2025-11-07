@@ -3,7 +3,8 @@
 const int c_heroCount = 3;
 
 const int c_minimumTickTime = 0;
-const int c_timeBetweenWaveInSeconds = 180; // Modifiable
+const int c_timeBetweenWaveInSeconds = 75; // Modifiable
+const int c_waveSpawnPeriodInSeconds = 35; // Modifiable
 
 const int c_terranSpawnRegionCount = 4;
 const int c_protossSpawnRegionCount = 4;
