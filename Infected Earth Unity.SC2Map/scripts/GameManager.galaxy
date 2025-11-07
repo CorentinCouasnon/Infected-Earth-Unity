@@ -1,8 +1,3 @@
-void GameManager_OnWaveCompleted()
-{
-
-}
-
 void GameManager_StartNewWave()
 {
     gv_currentWave += 1;
@@ -30,32 +25,87 @@ bool GameManager_CheckWaveStatus(bool testConds, bool runActions)
         return true;
     }
 
-    if (gv_currentWave != 0)
+    if (gv_currentWave == c_terranLastWave || gv_currentWave == c_protossLastWave || gv_currentWave == c_zergLastWave)
     {
-        GameManager_OnWaveCompleted();
+        if (!f_sendWaveFlag)
+        {
+            return true;
+        }
     }
 
     GameManager_StartNewWave();
+    f_sendWaveFlag = false;
 
     return true;
 }
 
 void GameManager_StartPart(int part)
 {
-    // TODO : TP le héros du joueur si il en a un dans la nouvelle zone (il en a pas au début pour la partie terran, la fonction s'execute avant)
+    gv_currentPart = part;
 
     if (part == c_Part_Terran)
     {
+        Player_TeleportToPoint(PointFromName("Terran_SpawnPoint"));
         CameraSetBounds(PlayerGroupAll(), RegionFromName("Terran_All"), true);
     } 
     else if (part == c_Part_Protoss)
     {
+        Player_TeleportToPoint(PointFromName("Protoss_SpawnPoint"));
         CameraSetBounds(PlayerGroupAll(), RegionFromName("Protoss_All"), true);
     }
     else
     {
+        Player_TeleportToPoint(PointFromName("Zerg_SpawnPoint"));
         CameraSetBounds(PlayerGroupAll(), RegionFromName("Zerg_All"), true);
     }
+
+    f_sendWaveFlag = true;
+}
+
+bool GameManager_OnUnitDeath(bool testConds, bool runActions)
+{
+    if (gv_currentWave != c_terranLastWave && gv_currentWave != c_protossLastWave && gv_currentWave != c_zergLastWave)
+    {
+        return true;
+    }
+
+    if (gv_enemiesAlive > 0)
+    {
+        return true;
+    }
+
+    if (gv_currentPart == c_Part_Terran)
+    {
+        Player_SpawnEscapeShip(PointFromName("Terran_SpawnPoint"));
+    } 
+    else if (gv_currentPart == c_Part_Protoss)
+    {
+        Player_SpawnEscapeShip(PointFromName("Protoss_SpawnPoint"));
+    }
+    else
+    {
+        Player_SpawnEscapeShip(PointFromName("Zerg_SpawnPoint"));
+    }
+
+    return true;
+}
+
+bool GameManager_OnEscapeAbilityUsed(bool testConds, bool runActions)
+{
+    if (gv_currentPart == c_Part_Terran)
+    {
+        GameManager_StartPart(c_Part_Protoss);
+    } 
+    else if (gv_currentPart == c_Part_Protoss)
+    {
+        GameManager_StartPart(c_Part_Zerg);
+    }
+    else
+    {
+        GameManager_StartPart(c_Part_Terran);
+    }
+
+    return true;
 }
 
 void GameManager_Init()
@@ -63,4 +113,6 @@ void GameManager_Init()
     GameManager_StartPart(c_Part_Terran);
 
     TriggerAddEventTimePeriodic(TriggerCreate("GameManager_CheckWaveStatus"), c_minimumTickTime, c_timeGame);
+    TriggerAddEventUnitDied(TriggerCreate("GameManager_OnUnitDeath"), null);
+    TriggerAddEventUnitAbility(TriggerCreate("GameManager_OnEscapeAbilityUsed"), null, AbilityCommand("EscapeShipGoToNextPart", 0), c_abilEffectStageChannel, false);
 }

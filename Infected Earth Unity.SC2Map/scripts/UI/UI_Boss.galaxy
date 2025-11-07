@@ -18,7 +18,11 @@ void UI_Boss_SetIcon(int bossIndex, string bossType)
 
 void UI_Boss_SetName(int bossIndex, string bossType)
 {
-    libNtve_gf_SetDialogItemText(boss_bossesUI[bossIndex].nameControl, StringToText(bossType), PlayerGroupAll());
+    string name = CatalogFieldValueGet(c_gameCatalogUnit, bossType, "Name", c_playerAny);
+
+    Debug_ShowMessage("Name : " + name);
+
+    libNtve_gf_SetDialogItemText(boss_bossesUI[bossIndex].nameControl, StringExternal(name), PlayerGroupAll());
 }
 
 void UI_Boss_SetHealth(int bossIndex, unit boss)

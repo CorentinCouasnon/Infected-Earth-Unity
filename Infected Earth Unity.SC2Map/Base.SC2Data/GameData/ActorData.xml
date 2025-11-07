@@ -2903,6 +2903,16 @@
         <Host Subject="_Selectable"/>
         <HostSiteOps Ops="SOpAttachCenter"/>
     </CActorModel>
+    <CActorModel id="HyperionHyperjumpLaunch33" parent="ModelAnimationStyleOneShot">
+        <EditorCategories value=""/>
+        <On Terms="Behavior.HyperionHyperjumpTeleportOut.On" Send="Create"/>
+        <On Terms="Behavior.HyperionVoidCoopTimedLifeExpire.On" Send="Create"/>
+        <On Terms="ActorCreation" Target="_Unit" Send="SetOpacity"/>
+        <On Terms="ActorCreation" Target="_Unit" Send="Create Spell_HyperionJumpOut"/>
+        <Host Subject="_Selectable"/>
+        <HostSiteOps Ops="SOpAttachCenter"/>
+        <Model value="HyperionHyperjumpLaunch3"/>
+    </CActorModel>
     <CActorModel id="HyperionHyperjumpLaunch4" parent="ModelAnimationStyleOneShot">
         <EditorCategories value=""/>
         <On Terms="Behavior.HyperionHyperjumpTeleportOut.On" Send="Create"/>
@@ -4564,6 +4574,98 @@
         <On Terms="Abil.StimpackDeRaynor.SourceCastStart" Send="Create"/>
         <Sound value="Marine_Stimpack3"/>
     </CActorSound>
+    <CActorUnit id="Medivac2" parent="GenericUnitStandard" unitName="EscapeShip">
+        <Aliases value="_UnitLarge"/>
+        <Macros value="MedivacTransportAnim"/>
+        <Macros value="TerrainSquibAnimations"/>
+        <Macros value="PhysicsDeathsSwarmAir"/>
+        <Macros value="PhysicsDeathsVoidAir"/>
+        <On Terms="Abil.MedivacHeal.SourceChannelStart" Send="$Spell PlayForever"/>
+        <On Terms="Abil.MedivacHeal.SourceChannelStop" Send="AnimClear Spell"/>
+        <On Terms="AbilTransport.MedivacTransport.TransportLoad; AbilTransport Thor" Send="Create ThorTransit"/>
+        <On Terms="Signal.*.ThorTransit" Send="RefSetFromMsg ::actor.Thor ::Sender"/>
+        <On Terms="AbilTransport.MedivacTransport.PassengerKilled; AbilTransport Thor" Target="::actor.Thor" Send="Signal Dead"/>
+        <On Terms="UnitDeath" Target="::actor.Thor" Send="Signal Dead"/>
+        <On Terms="UnitHeightUpdate.*.Land" Send="Create Medivac_Land"/>
+        <On Terms="Behavior.MedivacSpeedBoost.On" Send="AnimPlay Turbo Spell,B"/>
+        <On Terms="Behavior.MedivacSpeedBoost.On" Send="StatusSet Turbo 1"/>
+        <On Terms="Behavior.MedivacSpeedBoost.Off" Send="StatusSet Turbo 0"/>
+        <On Terms="UnitMovementUpdate.*.Walk; IsStatus Turbo 1" Send="Create Medivac_MovementAfterburner"/>
+        <On Terms="AbilTransport.MedivacTransport.TransportLoad; AbilTransport ThorAP" Send="Create ThorTransit"/>
+        <On Terms="AbilTransport.MedivacTransport.PassengerKilled; AbilTransport ThorAP" Target="::actor.Thor" Send="Signal Dead"/>
+        <On Terms="ActorCreation; ValidateUnit MedivacUpgrade" Send="ModelSwap MedivacUpgrade"/>
+        <On Terms="Abil.MedivacDoubleBeamHeal.SourceChannelStart" Send="$Spell PlayForever"/>
+        <On Terms="Abil.MedivacDoubleBeamHeal.SourceChannelStop" Send="AnimClear Spell"/>
+        <On Terms="UnitDeathCustomize; ValidateUnit HaveVoidShade" Send="DeathCustomize Shadow"/>
+        <On Terms="UnitDeathCustomize; ValidateUnit HaveTerrazineShadow" Send="DeathCustomize Shadow"/>
+        <HostSiteOps Ops="SOpBankerMedivac"/>
+        <Model value="Medivac2"/>
+        <ModelFlags index="OutlineEmitter" value="1"/>
+        <Baselines index="Walk" BlendIn="1.500000" BlendOut="2.000000"/>
+        <BuildModel value="Medivac2"/>
+        <DeathArray index="Normal" ModelLink="MedivacDeath" SoundLink="Medivac_Explode2"/>
+        <DeathCustoms index="4" ModelLink="Invisible31" Name="Vortex"/>
+        <DeathCustoms>
+            <ActorModel value="MedivacDeathRagdoll"/>
+            <ModelLink value="MedivacDeathRagdoll"/>
+            <Name value="RagdollBasic"/>
+            <PhysicsMatchKeysOrdered value="BasicAir,Basic"/>
+            <BodySquibs Name="Basic" Model="TerranSquibDeathRagdoll"/>
+        </DeathCustoms>
+        <DeathCustoms Name="RagdollNuke" InheritsFrom="RagdollBasic">
+            <BodySquibs Name="Fire"/>
+        </DeathCustoms>
+        <DeathCustoms Name="RagdollFire" InheritsFrom="RagdollBasic">
+            <BodySquibs Name="Fire"/>
+        </DeathCustoms>
+        <DeathCustoms Name="RagdollAcid" InheritsFrom="RagdollBasic">
+            <BodySquibs Name="Acid"/>
+        </DeathCustoms>
+        <DeathCustoms Name="RagdollOverkillDPRH" InheritsFrom="RagdollBasic"/>
+        <DeathCustoms Name="RagdollOverkillDOI" InheritsFrom="RagdollBasic"/>
+        <DeathCustoms Name="RagdollMidair" InheritsFrom="RagdollBasic"/>
+        <DeathCustoms>
+            <ModelLink value="DeathVoidShadowMedium"/>
+            <SoundLink value="ShadowUnit_DeathFX"/>
+            <VoiceLink value="ShadowUnit_DeathVox"/>
+            <Name value="Shadow"/>
+        </DeathCustoms>
+        <DeathActorModel value="UnitDeathModelWithDeathMotionFlier"/>
+        <PhysicsMatchKeysOrdered value="BasicAir,Basic"/>
+        <PlacementModel value="Medivac2"/>
+        <PortraitModel value="MedivacPortrait2"/>
+        <TerrainSquibs>
+            <MovementDistance value="0.150000,0.150000"/>
+            <IdlePeriod value="0.250000,0.500000"/>
+            <RangeDown value="5.000000"/>
+            <RangeDownFade value="1.000000"/>
+            <AttachQuery Methods="AMFilterCenter"/>
+            <Visuals TerrainPhysicsMaterial="Water" ActorModel="TerrainSquibHarnessContinuous" ModelLink="WaterRippleMassive15"/>
+        </TerrainSquibs>
+        <AbilSoundArray AbilCmd="MedivacHeal,Execute" Sound="Medivac_HealVO2"/>
+        <AbilSoundArray AbilCmd="MedivacTransport,Load" Sound="Medivac_LoadVO2"/>
+        <AbilSoundArray AbilCmd="MedivacTransport,UnloadAt" Sound="Medivac_UnloadVO2"/>
+        <BarOffset value="50"/>
+        <BarWidth value="80"/>
+        <GroupIcon>
+            <Image value="Assets\Textures\Wireframe-Terran-Medivac.dds"/>
+        </GroupIcon>
+        <HeroIcon value="Assets\Textures\btn-unit-terran-medivac.dds"/>
+        <HighlightTooltip value="Unit/Name/Medivac2"/>
+        <LifeArmorIcon value="Assets\Textures\btn-upgrade-terran-shipplatinglevel0.dds"/>
+        <NameOffset value="50"/>
+        <SoundArray index="Ready" value="Medivac_Ready2"/>
+        <SoundArray index="Help" value="Medivac_Help2"/>
+        <SoundArray index="What" value="Medivac_What2"/>
+        <SoundArray index="Yes" value="Medivac_Yes2"/>
+        <SoundArray index="Attack" value="Medivac_Attack2"/>
+        <SoundArray index="Pissed" value="Medivac_Pissed2"/>
+        <SoundArray index="Movement" value="Medivac_Movement2"/>
+        <UnitIcon value="Assets\Textures\btn-unit-terran-medivac.dds"/>
+        <Wireframe>
+            <Image value="Assets\Textures\Wireframe-Terran-Medivac.dds"/>
+        </Wireframe>
+    </CActorUnit>
     <CActorUnit id="Predator2" parent="GenericUnitStandard" unitName="PredatorChien">
         <Aliases value="_UnitMedium"/>
         <Macros value="UnloadDropAnim"/>

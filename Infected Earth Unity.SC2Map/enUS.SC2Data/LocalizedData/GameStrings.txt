@@ -14,6 +14,7 @@ Abil/Name/EngineeringBayResearch22=Research (Engineering Bay)
 Abil/Name/EngineeringBayResearch3=Research (Engineering Bay)
 Abil/Name/EngineeringBayResearch4=Research (Engineering Bay)
 Abil/Name/EngineeringBayResearch5=Research (Engineering Bay)
+Abil/Name/EscapeShipGoToNextPart=EscapeShipGoToNextPart
 Abil/Name/Explode2=Explode
 Abil/Name/FighterMode2=Fighter Mode
 Abil/Name/GrenadeStarfoulah=Grenade Starfoulah
@@ -349,6 +350,7 @@ Button/Name/CycloneLockOnAir2=Lock On Air
 Button/Name/CycloneLockOnAir3=Lock On Air
 Button/Name/D8Charge2=G-4 Cluster Bombs
 Button/Name/D8Charge3=G-4 Cluster Bombs
+Button/Name/EscapeToNextPartButton=EscapeToNextPartButton
 Button/Name/Explode2=Explode
 Button/Name/FighterMode2=Fighter Mode
 Button/Name/GroovedSpines2=Grooved Spines
@@ -582,6 +584,8 @@ Button/Tooltip/CycloneLockOnAir3=Allows the Cyclone's weapon and Lock On ability
 Button/Tooltip/D8Charge2=Timed explosive that does heavy area damage.
 Button/Tooltip/D8Charge3=Timed explosive that does heavy area damage.
 Button/Tooltip/EngineeringBay2=Contains upgrades for Terran infantry and structures. <n/><n/><c val="ffff8a">Enables:</c><n/>- Missile Turrets from SCVs<n/>- Sensor Towers from SCVs<n/>- Planetary Fortresses from Command Centers
+Button/Tooltip/EscapeShip=Air transport. Heals nearby biological units.
+Button/Tooltip/EscapeToNextPartButton=Go to next part.
 Button/Tooltip/Explode2=The Baneling detonates where it is standing, damaging nearby enemy units and structures.
 Button/Tooltip/FighterMode2=Transforms the Viking to Fighter Mode. In this mode Vikings fly, but they can only attack air targets.
 Button/Tooltip/GhostChien=Sniper. Can use Snipe, EMP Round, and be upgraded to use Cloak. Can call down Tactical Nukes built at the Ghost Academy.<n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c>
@@ -1264,6 +1268,7 @@ Unit/Name/D8Charge3=G-4 Charge
 Unit/Name/D8ChargeWeapon2=D8 Charge
 Unit/Name/D8ChargeWeapon3=D8 Charge
 Unit/Name/EngineeringBay2=Engineering Bay
+Unit/Name/EscapeShip=EscapeShip
 Unit/Name/GhostChien=GhostChien
 Unit/Name/HellbatChien=HellbatChien
 Unit/Name/Hellion2=Hellion
@@ -1663,6 +1668,8 @@ Upgrade/Name/ZerglingArmorShred2=Shredding Claws
 Upgrade/Name/hydraliskspeed2=Muscular Augments
 Upgrade/Name/zerglingattackspeed2=Adrenal Glands
 Upgrade/Name/zerglingmovementspeed2=Metabolic Boost
+UserData/BossRewardTable/1_rewardMsg=Braveau pour avoir tué <c val="FF0000">B</c><c val="AA0000">o</c><c val="550000">b</c>. Récompenses : 300 <img path="Assets\Textures\icon-mineral.dds"/> et 50 <img path="Assets\Textures\icon-gas-terran.dds"/>.
+UserData/BossRewardTable/2_rewardMsg=Braveau pour avoir tué <c val="FF0000">C</c><c val="CC0000">h</c><c val="990000">i</c><c val="660000">o</c><c val="330000">t</c>. Récompenses : 500 <img path="Assets\Textures\icon-mineral.dds"/> et 100 <img path="Assets\Textures\icon-gas-terran.dds"/>.
 Weapon/Name/AcidSaliva2=RoachSalive
 Weapon/Name/C10CanisterRifle=GhostArme
 Weapon/Name/Claws3=Claws

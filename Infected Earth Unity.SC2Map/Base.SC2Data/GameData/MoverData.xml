@@ -330,6 +330,10 @@
             <YawPitchRoll value="MAX"/>
         </MotionPhases>
     </CMoverMissile>
+    <CMoverFlock id="Fly2">
+        <HeightMap value="Air"/>
+        <PathMode value="Flying"/>
+    </CMoverFlock>
     <CMoverAvoid id="Ground10">
         <PlacementArray index="Prevent">
             <Bits index="GroundNoSpawn" value="1"/>

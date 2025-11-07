@@ -1734,6 +1734,18 @@
     <CModel id="MarineRaynorDeath2" parent="UnitDeath">
         <Model value="Assets\Units\Terran\MarineRaynorDeath\MarineRaynorDeath.m3"/>
     </CModel>
+    <CModel id="MedicHealModel2" parent="OneShotSpellFX">
+        <Model value="Assets\Effects\Terran\MedicHeal\MedicHeal.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="Medivac2" parent="MedivacBase">
+        <Model value="Assets\Units\Terran\MedivacEX1\MedivacEX1.m3"/>
+    </CModel>
+    <CModel id="MedivacPortrait2" parent="MedivacPortraitBase">
+        <Model value="Assets\Portraits\Terran\MedivacPortrait\MedivacPortrait.m3"/>
+        <Image value="Assets\Textures\MedivacPortrait_Static.dds"/>
+        <Lighting value="MedivacPortrait"/>
+    </CModel>
     <CModel id="MendBuff2" parent="PersistentSpellFX">
         <Model value="Assets\Effects\Zerg\MendBuff\MendBuff.m3"/>
         <EditorCategories value="Race:Terran"/>

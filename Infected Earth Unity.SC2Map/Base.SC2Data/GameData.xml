@@ -2,4 +2,5 @@
 <Includes>
     <Catalog path="GameData/Tables/T_WaveTable.xml"/>
     <Catalog path="GameData/Tables/T_KillRewardTable.xml"/>
+    <Catalog path="GameData/Tables/T_BossTable.xml"/>
 </Includes>

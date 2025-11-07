@@ -3,6 +3,7 @@ void Chat_Init()
     TriggerAddEventChatMessage(TriggerCreate("Chat_SetZoom"), c_playerAny, "-zoom", false);
     TriggerAddEventChatMessage(TriggerCreate("Chat_AddRessources"), c_playerAny, "-ressources", false);
     TriggerAddEventChatMessage(TriggerCreate("Chat_UnlockCam"), c_playerAny, "-unlockcam", false);
+    TriggerAddEventChatMessage(TriggerCreate("Chat_SkipWave"), c_playerAny, "-skipwave", false);
 }
 
 bool Chat_SetZoom(bool testConds, bool runActions)
@@ -34,6 +35,35 @@ bool Chat_AddRessources(bool testConds, bool runActions)
 bool Chat_UnlockCam(bool testConds, bool runActions)
 {
     CameraSetBounds(PlayerGroupSingle(EventPlayer()), RegionEntireMap(), true);
+
+    return true;
+}
+
+bool Chat_SkipWave(bool testConds, bool runActions)
+{
+    string param = StringWord(EventChatMessage(false), 2);
+    int tmpInt;
+    unit tmpUnit;
+
+    f_skipWaveFlag = true;
+
+    gv_enemySpawnQueueCount = 0;
+
+    tmpInt = UnitGroupCount(gv_enemiesGroup, c_unitCountAlive);
+    while (true) 
+    {
+        tmpInt -= 1;
+        tmpUnit = UnitGroupUnitFromEnd(gv_enemiesGroup, tmpInt);
+        if (tmpUnit == null) { break; }
+        UnitKill(tmpUnit);
+    }
+
+    if (Utility_IsNumber(param))
+    {
+        gv_currentWave = StringToInt(param) - 1;
+    }
+
+    f_skipWaveFlag = false;
 
     return true;
 }

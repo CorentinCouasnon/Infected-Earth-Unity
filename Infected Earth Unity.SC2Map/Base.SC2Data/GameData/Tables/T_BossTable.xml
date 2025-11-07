@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CUser id="BossTable">
+        <Fields Id="unit" Type="Unit" EditorColumn="1"/>
+        <Fields Id="wave" Type="Int" EditorColumn="1"/>
+        <Instances Id="[Default]"/>
+        <Instances Id="1">
+            <Int Int="15">
+                <Field Id="wave"/>
+            </Int>
+            <Unit Unit="SCV">
+                <Field Id="unit"/>
+            </Unit>
+        </Instances>
+        <Instances Id="2">
+            <Int Int="30">
+                <Field Id="wave"/>
+            </Int>
+            <Unit Unit="Predator">
+                <Field Id="unit"/>
+            </Unit>
+        </Instances>
+    </CUser>
+</Catalog>

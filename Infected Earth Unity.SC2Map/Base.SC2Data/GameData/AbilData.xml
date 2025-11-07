@@ -524,6 +524,14 @@
             <Button DefaultButtonFace="ResearchFortifiedBunker" State="Restricted" Requirements="LearnFortifiedBunker"/>
         </InfoArray>
     </CAbilResearch>
+    <CAbilEffectInstant id="EscapeShipGoToNextPart">
+        <OrderArray index="0" Model="Assets\UI\Cursors\WayPointConfirm_Void\WayPointConfirm_Void.m3"/>
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="EscapeToNextPartButton">
+            <Flags index="AllowMinimap" value="0"/>
+            <Flags index="ShowInGlossary" value="0"/>
+        </CmdButtonArray>
+    </CAbilEffectInstant>
     <CAbilMorph id="FighterMode2">
         <AbilSetId value="FighterMode"/>
         <EditorCategories value="Race:Terran,AbilityorEffectType:Units"/>

@@ -1,7 +1,7 @@
-void Boss_Spawn()
+void Boss_Spawn(string boss)
 {
     unit newUnit;
-    libNtve_gf_CreateUnitsWithDefaultFacing(1, "Drone", 0, 15, RegionRandomPoint(Region_GetRandomSpawnRegion(c_Part_Terran)));
+    libNtve_gf_CreateUnitsWithDefaultFacing(1, boss, 0, 15, RegionRandomPoint(Region_GetRandomSpawnRegion(gv_currentPart)));
     newUnit = UnitLastCreated();
     gv_bossesAlive += 1;
     UnitGroupAdd(gv_bossesGroup, newUnit);
@@ -10,9 +10,61 @@ void Boss_Spawn()
 
 void Boss_OnNewWave()
 {
-    if (gv_currentWave % 5 == 0)
+    int arrayCount;
+    int i;
+    int bossSpawnWave;
+
+    // Récupère le nombre d'instances dans le tableau BossTable
+    arrayCount = UserDataInstanceCount("BossTable");
+
+    // Parcourt la table pour trouver l'unité correspondante
+    for (i = 1; i <= arrayCount; i += 1)
     {
-        Boss_Spawn();
+        bossSpawnWave = UserDataGetInt("BossTable", IntToString(i), "wave", 1);
+
+        if (gv_currentWave == bossSpawnWave)
+        {
+            Boss_Spawn(UserDataGetUnit("BossTable", IntToString(i), "unit", 1));
+        }
+    }
+}
+
+void Boss_GiveReward()
+{
+    int mineralReward;
+    int vespeneReward;
+    int arrayCount;
+    int i;
+    unit killedUnit = EventUnit();
+    string instanceUnit;
+    int tmpPlayer;
+
+    // Récupère le nombre d'instances dans le tableau KillRewardTable
+    arrayCount = UserDataInstanceCount("BossRewardTable");
+
+    // Parcourt la table pour trouver l'unité correspondante
+    for (i = 1; i <= arrayCount; i += 1)
+    {
+        instanceUnit = UserDataGetUnit("BossRewardTable", IntToString(i), "unit", 1);
+
+        if (UnitGetType(killedUnit) == instanceUnit)
+        {
+            mineralReward = UserDataGetInt("BossRewardTable", IntToString(i), "ressourceCount", 1);
+            vespeneReward = UserDataGetInt("BossRewardTable", IntToString(i), "ressourceCount", 2);
+
+            tmpPlayer = -1;
+            while (true) 
+            {
+                tmpPlayer = PlayerGroupNextPlayer(PlayerGroupActive(), tmpPlayer);
+                if (tmpPlayer < 0) { break; }
+
+                PlayerModifyPropertyFixed(tmpPlayer, c_playerPropMinerals, c_playerPropOperAdd, mineralReward);
+                PlayerModifyPropertyFixed(tmpPlayer, c_playerPropVespene, c_playerPropOperAdd, vespeneReward);
+            }
+
+            UIDisplayMessage(PlayerGroupAll(), c_messageAreaChat, UserDataGetText("BossRewardTable", IntToString(i), "rewardMsg", 1));
+            break;
+        }
     }
 }
 
@@ -22,6 +74,7 @@ bool Boss_UnitDied(bool testConds, bool runActions)
 
     if (UnitGroupHasUnit(gv_bossesGroup, deadUnit))
     {
+        Boss_GiveReward();
         gv_bossesAlive -= 1;
         UnitGroupRemove(gv_bossesGroup, deadUnit);
         UI_Boss_Remove();
