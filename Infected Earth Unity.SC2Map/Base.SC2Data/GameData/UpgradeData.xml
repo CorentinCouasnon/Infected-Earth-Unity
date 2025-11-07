@@ -150,9 +150,9 @@
     </CUpgrade>
     <CUpgrade default="1" id="ZergGroundArmors2" parent="ZergGroundArmors">
         <Name value="Upgrade/Name/ZergGroundArmors2"/>
-        <EffectArray index="4" Reference="Unit,Zergling2,LifeArmorLevel" Value="1"/>
-        <EffectArray index="5" Reference="Unit,Zergling2,LifeArmor" Value="1"/>
-        <AffectedUnitArray index="15" value="Zergling2"/>
+        <EffectArray index="4" Reference="Unit,Zerglingatorus,LifeArmorLevel" Value="1"/>
+        <EffectArray index="5" Reference="Unit,Zerglingatorus,LifeArmor" Value="1"/>
+        <AffectedUnitArray index="15" value="Zerglingatorus"/>
     </CUpgrade>
     <CUpgrade default="1" id="ZergGroundArmors22" parent="ZergGroundArmors2">
         <Name value="Upgrade/Name/ZergGroundArmors22"/>
@@ -192,7 +192,7 @@
     </CUpgrade>
     <CUpgrade default="1" id="ZergMeleeWeapons2" parent="ZergMeleeWeapons">
         <Name value="Upgrade/Name/ZergMeleeWeapons2"/>
-        <AffectedUnitArray index="5" value="Zergling2"/>
+        <AffectedUnitArray index="5" value="Zerglingatorus"/>
     </CUpgrade>
     <CUpgrade id="AS">
         <EffectArray Reference="Abil,RaynorUpgrades,InfoArray[Research6].Resource[Minerals]" Value="25"/>
@@ -613,7 +613,7 @@
         <Race value="Zerg"/>
         <ScoreResult value="BuildOrder"/>
         <EditorCategories value="Race:Zerg,UpgradeType:Talents"/>
-        <AffectedUnitArray value="Zergling2"/>
+        <AffectedUnitArray value="Zerglingatorus"/>
         <AffectedUnitArray value="ZerglingBurrowed"/>
         <AffectedUnitArray value="Queen"/>
         <AffectedUnitArray value="QueenBurrowed"/>
@@ -638,7 +638,7 @@
         <Race value="Zerg"/>
         <ScoreResult value="BuildOrder"/>
         <EditorCategories value="Race:Zerg,UpgradeType:Talents"/>
-        <AffectedUnitArray value="Zergling2"/>
+        <AffectedUnitArray value="Zerglingatorus"/>
         <AffectedUnitArray value="ZerglingBurrowed"/>
         <AffectedUnitArray value="Queen"/>
         <AffectedUnitArray value="QueenBurrowed"/>
@@ -663,7 +663,7 @@
         <Race value="Zerg"/>
         <ScoreResult value="BuildOrder"/>
         <EditorCategories value="Race:Zerg,UpgradeType:Talents"/>
-        <AffectedUnitArray value="Zergling2"/>
+        <AffectedUnitArray value="Zerglingatorus"/>
         <AffectedUnitArray value="ZerglingBurrowed"/>
         <AffectedUnitArray value="Queen"/>
         <AffectedUnitArray value="QueenBurrowed"/>
@@ -688,7 +688,7 @@
         <Race value="Zerg"/>
         <ScoreResult value="BuildOrder"/>
         <EditorCategories value="Race:Zerg,UpgradeType:Talents"/>
-        <AffectedUnitArray value="Zergling2"/>
+        <AffectedUnitArray value="Zerglingatorus"/>
         <AffectedUnitArray value="ZerglingBurrowed"/>
         <AffectedUnitArray value="Queen"/>
         <AffectedUnitArray value="QueenBurrowed"/>
@@ -3447,11 +3447,11 @@
     </CUpgrade>
     <CUpgrade id="HotSMetabolicBoost2">
         <Flags index="UpgradeCheat" value="0"/>
-        <EffectArray Reference="Unit,Zergling2,Speed" Value="1.746000"/>
+        <EffectArray Reference="Unit,Zerglingatorus,Speed" Value="1.746000"/>
         <EffectArray Reference="Unit,HotSRaptor,Speed" Value="1.746000"/>
         <EffectArray Reference="Unit,HotSSwarmling,Speed" Value="1.746000"/>
         <AffectedUnitArray value="ZerglingBurrowed"/>
-        <AffectedUnitArray value="Zergling2"/>
+        <AffectedUnitArray value="Zerglingatorus"/>
         <AffectedUnitArray value="HotSRaptorBurrowed"/>
         <AffectedUnitArray value="HotSRaptor"/>
         <AffectedUnitArray value="HotSSwarmlingBurrowed"/>
@@ -3530,13 +3530,13 @@
     </CUpgrade>
     <CUpgrade id="HotSZerglingHealth2">
         <Icon value="Assets\Textures\btn-upgrade-zerg-hardenedcarapace.dds"/>
-        <EffectArray Reference="Unit,Zergling2,LifeMax" Value="10"/>
+        <EffectArray Reference="Unit,Zerglingatorus,LifeMax" Value="10"/>
         <EffectArray Reference="Unit,HotSSwarmling,LifeMax" Value="10"/>
         <EffectArray Reference="Unit,HotSRaptor,LifeMax" Value="10"/>
         <EffectArray Reference="Unit,ZerglingBurrowed,LifeMax" Value="10"/>
         <EffectArray Reference="Unit,HotSRaptorBurrowed,LifeMax" Value="10"/>
         <EffectArray Reference="Unit,HotSSwarmlingBurrowed,LifeMax" Value="10"/>
-        <EffectArray Reference="Unit,Zergling2,LifeStart" Value="10"/>
+        <EffectArray Reference="Unit,Zerglingatorus,LifeStart" Value="10"/>
         <EffectArray Reference="Unit,HotSSwarmling,LifeStart" Value="10"/>
         <EffectArray Reference="Unit,HotSRaptor,LifeStart" Value="10"/>
         <EffectArray Reference="Unit,ZerglingBurrowed,LifeStart" Value="10"/>
@@ -3545,8 +3545,8 @@
         <EditorCategories value="Race:Zerg,UpgradeType:Talents"/>
     </CUpgrade>
     <CUpgrade id="HotSZerglingRespawn2">
-        <EffectArray Operation="Subtract" Reference="Unit,Zergling2,LifeMax" Value="0"/>
-        <EffectArray Operation="Subtract" Reference="Unit,Zergling2,LifeStart" Value="0"/>
+        <EffectArray Operation="Subtract" Reference="Unit,Zerglingatorus,LifeMax" Value="0"/>
+        <EffectArray Operation="Subtract" Reference="Unit,Zerglingatorus,LifeStart" Value="0"/>
         <EffectArray Operation="Subtract" Reference="Unit,HotSRaptor,LifeMax" Value="0"/>
         <EffectArray Operation="Subtract" Reference="Unit,HotSRaptor,LifeStart" Value="0"/>
         <EffectArray Operation="Subtract" Reference="Unit,HotSSwarmling,LifeMax" Value="0"/>
@@ -3562,7 +3562,7 @@
     <CUpgrade id="HotsAcceleratedMorph2">
         <Flags index="UpgradeCheat" value="0"/>
         <EditorCategories value="Race:Zerg,UpgradeType:Talents"/>
-        <AffectedUnitArray value="Zergling2"/>
+        <AffectedUnitArray value="Zerglingatorus"/>
         <AffectedUnitArray value="ZerglingBurrowed"/>
         <AffectedUnitArray value="HotSRaptor"/>
         <AffectedUnitArray value="HotSRaptorBurrowed"/>
@@ -3617,7 +3617,7 @@
         <EffectArray Operation="Set" Reference="Unit,UltraliskCavern,Description" Value="Button/Tooltip/ACKerriganUltraliskCavern"/>
         <EffectArray Operation="Set" Reference="Unit,Lair,Description" Value="Button/Tooltip/ACKerriganLair"/>
         <EffectArray Operation="Set" Reference="Unit,Hive,Description" Value="Button/Tooltip/ACKerriganHive"/>
-        <EffectArray Operation="Set" Reference="Unit,Zergling2,Description" Value="Button/Tooltip/ZerglingACKerrigan"/>
+        <EffectArray Operation="Set" Reference="Unit,Zerglingatorus,Description" Value="Button/Tooltip/ZerglingACKerrigan"/>
         <EffectArray Operation="Set" Reference="Unit,HotSRaptor,Description" Value="Button/Tooltip/HotSRaptorACKerrigan"/>
         <EffectArray Operation="Set" Reference="Button,Zergling,Tooltip" Value="Button/Tooltip/ZerglingACKerrigan"/>
         <EffectArray Operation="Set" Reference="Button,MorphToRaptor,Tooltip" Value="Button/Tooltip/MorphToRaptorACKerrigan"/>
@@ -3775,7 +3775,7 @@
         <Icon value="Assets\Textures\btn-upgrade-zerg-enduringcorruption.dds"/>
         <Race value="Zerg"/>
         <EditorCategories value="Race:Zerg,UpgradeType:Talents"/>
-        <AffectedUnitArray value="Zergling2"/>
+        <AffectedUnitArray value="Zerglingatorus"/>
     </CUpgrade>
     <CUpgrade id="OrganicCarapace2">
         <Flags index="UpgradeCheat" value="0"/>
@@ -17833,8 +17833,8 @@
     <CUpgrade id="ZergGroundArmorsLevel12" parent="ZergGroundArmors">
         <Name value="Upgrade/Name/ZergGroundArmorsLevel12"/>
         <Icon value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level1.dds"/>
-        <EffectArray index="4" Reference="Unit,Zergling2,LifeArmorLevel" Value="1"/>
-        <EffectArray index="5" Reference="Unit,Zergling2,LifeArmor" Value="1"/>
+        <EffectArray index="4" Reference="Unit,Zerglingatorus,LifeArmorLevel" Value="1"/>
+        <EffectArray index="5" Reference="Unit,Zerglingatorus,LifeArmor" Value="1"/>
         <EffectArray index="34" Reference="Unit,InfestorTerran,LifeArmor" Value="0"/>
         <EffectArray index="35" Reference="Unit,InfestorTerranBurrowed,LifeArmor" Value="0"/>
         <EffectArray index="36" Reference="Unit,InfestorTerran,LifeArmorLevel" Value="0"/>
@@ -18041,7 +18041,7 @@
         <EffectArray Operation="Set" Reference="Actor,Hunterling,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level1.dds"/>
         <EffectArray Operation="Set" Reference="Actor,Kaboomer,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level1.dds"/>
         <EffectArray Operation="Set" Reference="Actor,Stank,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level1.dds"/>
-        <AffectedUnitArray index="15" value="Zergling2"/>
+        <AffectedUnitArray index="15" value="Zerglingatorus"/>
         <AffectedUnitArray value="LocustMP"/>
         <AffectedUnitArray value="SwarmHostBurrowedMP"/>
         <AffectedUnitArray value="SwarmHostMP"/>
@@ -18117,8 +18117,8 @@
     <CUpgrade id="ZergGroundArmorsLevel122" parent="ZergGroundArmors">
         <Name value="Upgrade/Name/ZergGroundArmorsLevel122"/>
         <Icon value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level1.dds"/>
-        <EffectArray index="4" Reference="Unit,Zergling2,LifeArmorLevel" Value="1"/>
-        <EffectArray index="5" Reference="Unit,Zergling2,LifeArmor" Value="1"/>
+        <EffectArray index="4" Reference="Unit,Zerglingatorus,LifeArmorLevel" Value="1"/>
+        <EffectArray index="5" Reference="Unit,Zerglingatorus,LifeArmor" Value="1"/>
         <EffectArray index="16" Reference="Unit,Roach2,LifeArmorLevel" Value="1"/>
         <EffectArray index="17" Reference="Unit,Roach2,LifeArmor" Value="1"/>
         <EffectArray index="34" Reference="Unit,InfestorTerran,LifeArmor" Value="0"/>
@@ -18328,7 +18328,7 @@
         <EffectArray Operation="Set" Reference="Actor,Kaboomer,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level1.dds"/>
         <EffectArray Operation="Set" Reference="Actor,Stank,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level1.dds"/>
         <AffectedUnitArray index="11" value="Roach2"/>
-        <AffectedUnitArray index="15" value="Zergling2"/>
+        <AffectedUnitArray index="15" value="Zerglingatorus"/>
         <AffectedUnitArray value="LocustMP"/>
         <AffectedUnitArray value="SwarmHostBurrowedMP"/>
         <AffectedUnitArray value="SwarmHostMP"/>
@@ -18404,8 +18404,8 @@
     <CUpgrade id="ZergGroundArmorsLevel1222" parent="ZergGroundArmors">
         <Name value="Upgrade/Name/ZergGroundArmorsLevel1222"/>
         <Icon value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level1.dds"/>
-        <EffectArray index="4" Reference="Unit,Zergling2,LifeArmorLevel" Value="1"/>
-        <EffectArray index="5" Reference="Unit,Zergling2,LifeArmor" Value="1"/>
+        <EffectArray index="4" Reference="Unit,Zerglingatorus,LifeArmorLevel" Value="1"/>
+        <EffectArray index="5" Reference="Unit,Zerglingatorus,LifeArmor" Value="1"/>
         <EffectArray index="8" Reference="Unit,Hydralisk2,LifeArmorLevel" Value="1"/>
         <EffectArray index="9" Reference="Unit,Hydralisk2,LifeArmor" Value="1"/>
         <EffectArray index="16" Reference="Unit,Roach2,LifeArmorLevel" Value="1"/>
@@ -18618,7 +18618,7 @@
         <EffectArray Operation="Set" Reference="Actor,Stank,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level1.dds"/>
         <AffectedUnitArray index="5" value="Hydralisk2"/>
         <AffectedUnitArray index="11" value="Roach2"/>
-        <AffectedUnitArray index="15" value="Zergling2"/>
+        <AffectedUnitArray index="15" value="Zerglingatorus"/>
         <AffectedUnitArray value="LocustMP"/>
         <AffectedUnitArray value="SwarmHostBurrowedMP"/>
         <AffectedUnitArray value="SwarmHostMP"/>
@@ -18694,8 +18694,8 @@
     <CUpgrade id="ZergGroundArmorsLevel123" parent="ZergGroundArmors">
         <Name value="Upgrade/Name/ZergGroundArmorsLevel123"/>
         <Icon value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level1.dds"/>
-        <EffectArray index="4" Reference="Unit,Zergling2,LifeArmorLevel" Value="1"/>
-        <EffectArray index="5" Reference="Unit,Zergling2,LifeArmor" Value="1"/>
+        <EffectArray index="4" Reference="Unit,Zerglingatorus,LifeArmorLevel" Value="1"/>
+        <EffectArray index="5" Reference="Unit,Zerglingatorus,LifeArmor" Value="1"/>
         <EffectArray index="8" Reference="Unit,Hydralisk2,LifeArmorLevel" Value="1"/>
         <EffectArray index="9" Reference="Unit,Hydralisk2,LifeArmor" Value="1"/>
         <EffectArray index="34" Reference="Unit,InfestorTerran,LifeArmor" Value="0"/>
@@ -18905,7 +18905,7 @@
         <EffectArray Operation="Set" Reference="Actor,Kaboomer,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level1.dds"/>
         <EffectArray Operation="Set" Reference="Actor,Stank,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level1.dds"/>
         <AffectedUnitArray index="5" value="Hydralisk2"/>
-        <AffectedUnitArray index="15" value="Zergling2"/>
+        <AffectedUnitArray index="15" value="Zerglingatorus"/>
         <AffectedUnitArray value="LocustMP"/>
         <AffectedUnitArray value="SwarmHostBurrowedMP"/>
         <AffectedUnitArray value="SwarmHostMP"/>
@@ -19836,8 +19836,8 @@
     <CUpgrade id="ZergGroundArmorsLevel22" parent="ZergGroundArmors">
         <Name value="Upgrade/Name/ZergGroundArmorsLevel22"/>
         <Icon value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level2.dds"/>
-        <EffectArray index="4" Reference="Unit,Zergling2,LifeArmorLevel" Value="1"/>
-        <EffectArray index="5" Reference="Unit,Zergling2,LifeArmor" Value="1"/>
+        <EffectArray index="4" Reference="Unit,Zerglingatorus,LifeArmorLevel" Value="1"/>
+        <EffectArray index="5" Reference="Unit,Zerglingatorus,LifeArmor" Value="1"/>
         <EffectArray index="34" Reference="Unit,InfestorTerran,LifeArmor" Value="0"/>
         <EffectArray index="35" Reference="Unit,InfestorTerranBurrowed,LifeArmor" Value="0"/>
         <EffectArray index="36" Reference="Unit,InfestorTerran,LifeArmorLevel" Value="0"/>
@@ -20044,7 +20044,7 @@
         <EffectArray Operation="Set" Reference="Actor,Hunterling,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level2.dds"/>
         <EffectArray Operation="Set" Reference="Actor,Kaboomer,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level2.dds"/>
         <EffectArray Operation="Set" Reference="Actor,Stank,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level2.dds"/>
-        <AffectedUnitArray index="15" value="Zergling2"/>
+        <AffectedUnitArray index="15" value="Zerglingatorus"/>
         <AffectedUnitArray value="LocustMP"/>
         <AffectedUnitArray value="SwarmHostBurrowedMP"/>
         <AffectedUnitArray value="SwarmHostMP"/>
@@ -20120,8 +20120,8 @@
     <CUpgrade id="ZergGroundArmorsLevel222" parent="ZergGroundArmors">
         <Name value="Upgrade/Name/ZergGroundArmorsLevel222"/>
         <Icon value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level2.dds"/>
-        <EffectArray index="4" Reference="Unit,Zergling2,LifeArmorLevel" Value="1"/>
-        <EffectArray index="5" Reference="Unit,Zergling2,LifeArmor" Value="1"/>
+        <EffectArray index="4" Reference="Unit,Zerglingatorus,LifeArmorLevel" Value="1"/>
+        <EffectArray index="5" Reference="Unit,Zerglingatorus,LifeArmor" Value="1"/>
         <EffectArray index="16" Reference="Unit,Roach2,LifeArmorLevel" Value="1"/>
         <EffectArray index="17" Reference="Unit,Roach2,LifeArmor" Value="1"/>
         <EffectArray index="34" Reference="Unit,InfestorTerran,LifeArmor" Value="0"/>
@@ -20331,7 +20331,7 @@
         <EffectArray Operation="Set" Reference="Actor,Kaboomer,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level2.dds"/>
         <EffectArray Operation="Set" Reference="Actor,Stank,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level2.dds"/>
         <AffectedUnitArray index="11" value="Roach2"/>
-        <AffectedUnitArray index="15" value="Zergling2"/>
+        <AffectedUnitArray index="15" value="Zerglingatorus"/>
         <AffectedUnitArray value="LocustMP"/>
         <AffectedUnitArray value="SwarmHostBurrowedMP"/>
         <AffectedUnitArray value="SwarmHostMP"/>
@@ -20407,8 +20407,8 @@
     <CUpgrade id="ZergGroundArmorsLevel2222" parent="ZergGroundArmors">
         <Name value="Upgrade/Name/ZergGroundArmorsLevel2222"/>
         <Icon value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level2.dds"/>
-        <EffectArray index="4" Reference="Unit,Zergling2,LifeArmorLevel" Value="1"/>
-        <EffectArray index="5" Reference="Unit,Zergling2,LifeArmor" Value="1"/>
+        <EffectArray index="4" Reference="Unit,Zerglingatorus,LifeArmorLevel" Value="1"/>
+        <EffectArray index="5" Reference="Unit,Zerglingatorus,LifeArmor" Value="1"/>
         <EffectArray index="8" Reference="Unit,Hydralisk2,LifeArmorLevel" Value="1"/>
         <EffectArray index="9" Reference="Unit,Hydralisk2,LifeArmor" Value="1"/>
         <EffectArray index="16" Reference="Unit,Roach2,LifeArmorLevel" Value="1"/>
@@ -20621,7 +20621,7 @@
         <EffectArray Operation="Set" Reference="Actor,Stank,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level2.dds"/>
         <AffectedUnitArray index="5" value="Hydralisk2"/>
         <AffectedUnitArray index="11" value="Roach2"/>
-        <AffectedUnitArray index="15" value="Zergling2"/>
+        <AffectedUnitArray index="15" value="Zerglingatorus"/>
         <AffectedUnitArray value="LocustMP"/>
         <AffectedUnitArray value="SwarmHostBurrowedMP"/>
         <AffectedUnitArray value="SwarmHostMP"/>
@@ -20697,8 +20697,8 @@
     <CUpgrade id="ZergGroundArmorsLevel223" parent="ZergGroundArmors">
         <Name value="Upgrade/Name/ZergGroundArmorsLevel223"/>
         <Icon value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level2.dds"/>
-        <EffectArray index="4" Reference="Unit,Zergling2,LifeArmorLevel" Value="1"/>
-        <EffectArray index="5" Reference="Unit,Zergling2,LifeArmor" Value="1"/>
+        <EffectArray index="4" Reference="Unit,Zerglingatorus,LifeArmorLevel" Value="1"/>
+        <EffectArray index="5" Reference="Unit,Zerglingatorus,LifeArmor" Value="1"/>
         <EffectArray index="8" Reference="Unit,Hydralisk2,LifeArmorLevel" Value="1"/>
         <EffectArray index="9" Reference="Unit,Hydralisk2,LifeArmor" Value="1"/>
         <EffectArray index="34" Reference="Unit,InfestorTerran,LifeArmor" Value="0"/>
@@ -20908,7 +20908,7 @@
         <EffectArray Operation="Set" Reference="Actor,Kaboomer,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level2.dds"/>
         <EffectArray Operation="Set" Reference="Actor,Stank,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level2.dds"/>
         <AffectedUnitArray index="5" value="Hydralisk2"/>
-        <AffectedUnitArray index="15" value="Zergling2"/>
+        <AffectedUnitArray index="15" value="Zerglingatorus"/>
         <AffectedUnitArray value="LocustMP"/>
         <AffectedUnitArray value="SwarmHostBurrowedMP"/>
         <AffectedUnitArray value="SwarmHostMP"/>
@@ -21839,8 +21839,8 @@
     <CUpgrade id="ZergGroundArmorsLevel32" parent="ZergGroundArmors">
         <Name value="Upgrade/Name/ZergGroundArmorsLevel32"/>
         <Icon value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level3.dds"/>
-        <EffectArray index="4" Reference="Unit,Zergling2,LifeArmorLevel" Value="1"/>
-        <EffectArray index="5" Reference="Unit,Zergling2,LifeArmor" Value="1"/>
+        <EffectArray index="4" Reference="Unit,Zerglingatorus,LifeArmorLevel" Value="1"/>
+        <EffectArray index="5" Reference="Unit,Zerglingatorus,LifeArmor" Value="1"/>
         <EffectArray index="34" Reference="Unit,InfestorTerran,LifeArmor" Value="0"/>
         <EffectArray index="35" Reference="Unit,InfestorTerranBurrowed,LifeArmor" Value="0"/>
         <EffectArray index="36" Reference="Unit,InfestorTerran,LifeArmorLevel" Value="0"/>
@@ -22047,7 +22047,7 @@
         <EffectArray Operation="Set" Reference="Actor,Hunterling,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level3.dds"/>
         <EffectArray Operation="Set" Reference="Actor,Kaboomer,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level3.dds"/>
         <EffectArray Operation="Set" Reference="Actor,Stank,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level3.dds"/>
-        <AffectedUnitArray index="15" value="Zergling2"/>
+        <AffectedUnitArray index="15" value="Zerglingatorus"/>
         <AffectedUnitArray value="LocustMP"/>
         <AffectedUnitArray value="SwarmHostBurrowedMP"/>
         <AffectedUnitArray value="SwarmHostMP"/>
@@ -22123,8 +22123,8 @@
     <CUpgrade id="ZergGroundArmorsLevel322" parent="ZergGroundArmors">
         <Name value="Upgrade/Name/ZergGroundArmorsLevel322"/>
         <Icon value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level3.dds"/>
-        <EffectArray index="4" Reference="Unit,Zergling2,LifeArmorLevel" Value="1"/>
-        <EffectArray index="5" Reference="Unit,Zergling2,LifeArmor" Value="1"/>
+        <EffectArray index="4" Reference="Unit,Zerglingatorus,LifeArmorLevel" Value="1"/>
+        <EffectArray index="5" Reference="Unit,Zerglingatorus,LifeArmor" Value="1"/>
         <EffectArray index="16" Reference="Unit,Roach2,LifeArmorLevel" Value="1"/>
         <EffectArray index="17" Reference="Unit,Roach2,LifeArmor" Value="1"/>
         <EffectArray index="34" Reference="Unit,InfestorTerran,LifeArmor" Value="0"/>
@@ -22334,7 +22334,7 @@
         <EffectArray Operation="Set" Reference="Actor,Kaboomer,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level3.dds"/>
         <EffectArray Operation="Set" Reference="Actor,Stank,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level3.dds"/>
         <AffectedUnitArray index="11" value="Roach2"/>
-        <AffectedUnitArray index="15" value="Zergling2"/>
+        <AffectedUnitArray index="15" value="Zerglingatorus"/>
         <AffectedUnitArray value="LocustMP"/>
         <AffectedUnitArray value="SwarmHostBurrowedMP"/>
         <AffectedUnitArray value="SwarmHostMP"/>
@@ -22410,8 +22410,8 @@
     <CUpgrade id="ZergGroundArmorsLevel3222" parent="ZergGroundArmors">
         <Name value="Upgrade/Name/ZergGroundArmorsLevel3222"/>
         <Icon value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level3.dds"/>
-        <EffectArray index="4" Reference="Unit,Zergling2,LifeArmorLevel" Value="1"/>
-        <EffectArray index="5" Reference="Unit,Zergling2,LifeArmor" Value="1"/>
+        <EffectArray index="4" Reference="Unit,Zerglingatorus,LifeArmorLevel" Value="1"/>
+        <EffectArray index="5" Reference="Unit,Zerglingatorus,LifeArmor" Value="1"/>
         <EffectArray index="8" Reference="Unit,Hydralisk2,LifeArmorLevel" Value="1"/>
         <EffectArray index="9" Reference="Unit,Hydralisk2,LifeArmor" Value="1"/>
         <EffectArray index="16" Reference="Unit,Roach2,LifeArmorLevel" Value="1"/>
@@ -22624,7 +22624,7 @@
         <EffectArray Operation="Set" Reference="Actor,Stank,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level3.dds"/>
         <AffectedUnitArray index="5" value="Hydralisk2"/>
         <AffectedUnitArray index="11" value="Roach2"/>
-        <AffectedUnitArray index="15" value="Zergling2"/>
+        <AffectedUnitArray index="15" value="Zerglingatorus"/>
         <AffectedUnitArray value="LocustMP"/>
         <AffectedUnitArray value="SwarmHostBurrowedMP"/>
         <AffectedUnitArray value="SwarmHostMP"/>
@@ -22700,8 +22700,8 @@
     <CUpgrade id="ZergGroundArmorsLevel323" parent="ZergGroundArmors">
         <Name value="Upgrade/Name/ZergGroundArmorsLevel323"/>
         <Icon value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level3.dds"/>
-        <EffectArray index="4" Reference="Unit,Zergling2,LifeArmorLevel" Value="1"/>
-        <EffectArray index="5" Reference="Unit,Zergling2,LifeArmor" Value="1"/>
+        <EffectArray index="4" Reference="Unit,Zerglingatorus,LifeArmorLevel" Value="1"/>
+        <EffectArray index="5" Reference="Unit,Zerglingatorus,LifeArmor" Value="1"/>
         <EffectArray index="8" Reference="Unit,Hydralisk2,LifeArmorLevel" Value="1"/>
         <EffectArray index="9" Reference="Unit,Hydralisk2,LifeArmor" Value="1"/>
         <EffectArray index="34" Reference="Unit,InfestorTerran,LifeArmor" Value="0"/>
@@ -22911,7 +22911,7 @@
         <EffectArray Operation="Set" Reference="Actor,Kaboomer,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level3.dds"/>
         <EffectArray Operation="Set" Reference="Actor,Stank,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level3.dds"/>
         <AffectedUnitArray index="5" value="Hydralisk2"/>
-        <AffectedUnitArray index="15" value="Zergling2"/>
+        <AffectedUnitArray index="15" value="Zerglingatorus"/>
         <AffectedUnitArray value="LocustMP"/>
         <AffectedUnitArray value="SwarmHostBurrowedMP"/>
         <AffectedUnitArray value="SwarmHostMP"/>
@@ -23897,7 +23897,7 @@
         <EffectArray Reference="Weapon,StankKaiserBlades,Level" Value="1"/>
         <EffectArray Reference="Effect,CleaveAttackDamage,Amount" Value="3"/>
         <EffectArray Operation="Subtract" Reference="Effect,BrutalizeDamage,Amount" Value="2"/>
-        <AffectedUnitArray index="5" value="Zergling2"/>
+        <AffectedUnitArray index="5" value="Zerglingatorus"/>
         <AffectedUnitArray value="LocustMP"/>
         <AffectedUnitArray value="Dehaka"/>
         <AffectedUnitArray value="DehakaBurrowed"/>
@@ -23984,7 +23984,7 @@
         <EffectArray Reference="Weapon,StankKaiserBlades,Level" Value="1"/>
         <EffectArray Reference="Effect,CleaveAttackDamage,Amount" Value="3"/>
         <EffectArray Operation="Subtract" Reference="Effect,BrutalizeDamage,Amount" Value="2"/>
-        <AffectedUnitArray index="5" value="Zergling2"/>
+        <AffectedUnitArray index="5" value="Zerglingatorus"/>
         <AffectedUnitArray value="LocustMP"/>
         <AffectedUnitArray value="Dehaka"/>
         <AffectedUnitArray value="DehakaBurrowed"/>
@@ -24071,7 +24071,7 @@
         <EffectArray Reference="Weapon,StankKaiserBlades,Level" Value="1"/>
         <EffectArray Reference="Effect,CleaveAttackDamage,Amount" Value="3"/>
         <EffectArray Operation="Subtract" Reference="Effect,BrutalizeDamage,Amount" Value="2"/>
-        <AffectedUnitArray index="5" value="Zergling2"/>
+        <AffectedUnitArray index="5" value="Zerglingatorus"/>
         <AffectedUnitArray value="LocustMP"/>
         <AffectedUnitArray value="Dehaka"/>
         <AffectedUnitArray value="DehakaBurrowed"/>
@@ -25424,7 +25424,7 @@
         <Race value="Zerg"/>
         <ScoreResult value="BuildOrder"/>
         <EditorCategories value="Race:Zerg,UpgradeType:Talents"/>
-        <AffectedUnitArray value="Zergling2"/>
+        <AffectedUnitArray value="Zerglingatorus"/>
         <AffectedUnitArray value="HotSRaptor"/>
         <AffectedUnitArray value="HotSSwarmling"/>
     </CUpgrade>
@@ -25461,7 +25461,7 @@
         <EffectArray Reference="Weapon,HotSRaptorClaws,RateMultiplier" Value="0.4"/>
         <EffectArray Reference="Weapon,HotSSwarmlingClaws,RateMultiplier" Value="0.4"/>
         <EditorCategories value="Race:Zerg,UpgradeType:Talents"/>
-        <AffectedUnitArray value="Zergling2"/>
+        <AffectedUnitArray value="Zerglingatorus"/>
         <AffectedUnitArray value="ZerglingBurrowed"/>
         <AffectedUnitArray value="HotSRaptor"/>
         <AffectedUnitArray value="HotSRaptorBurrowed"/>
@@ -25474,13 +25474,13 @@
         <Alert value="ResearchComplete"/>
         <Race value="Zerg"/>
         <ScoreResult value="BuildOrder"/>
-        <EffectArray Reference="Unit,Zergling2,Speed" Value="1.746000"/>
+        <EffectArray Reference="Unit,Zerglingatorus,Speed" Value="1.746000"/>
         <EffectArray Operation="Set" Reference="Actor,Zergling,Wireframe.Image[0]" Value="Assets\Textures\wireframe-zerg-zerglingupgrade.dds"/>
         <EffectArray Operation="Set" Reference="Actor,Zergling,GroupIcon.Image[0]" Value="Assets\Textures\wireframe-zerg-zerglingupgrade.dds"/>
         <EffectArray Reference="Unit,HotSRaptor,Speed" Value="1.746000"/>
         <EffectArray Reference="Unit,HotSSwarmling,Speed" Value="1.746000"/>
         <EditorCategories value="Race:Zerg,UpgradeType:Talents"/>
-        <AffectedUnitArray value="Zergling2"/>
+        <AffectedUnitArray value="Zerglingatorus"/>
         <AffectedUnitArray value="ZerglingBurrowed"/>
         <AffectedUnitArray value="HotSRaptor"/>
         <AffectedUnitArray value="HotSRaptorBurrowed"/>

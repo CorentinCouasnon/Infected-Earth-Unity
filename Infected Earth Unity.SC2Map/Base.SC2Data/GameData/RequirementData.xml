@@ -36,6 +36,10 @@
         <EditorCategories value="Race:Zerg,TechType:Upgrade"/>
         <NodeArray index="Show" Link="CountUpgradeHotSMetabolicBoostCompleteOnly"/>
     </CRequirement>
+    <CRequirement id="HaveHotSMetabolicBoost3">
+        <EditorCategories value="Race:Zerg,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="CountUpgradeHotSMetabolicBoostCompleteOnly"/>
+    </CRequirement>
     <CRequirement id="HaveHotSRoachDamage2">
         <EditorCategories value="Race:Zerg,TechType:Upgrade"/>
         <NodeArray index="Use" Link="CountUpgradeHotSRoachDamageCompleteOnly4076363195"/>
@@ -54,15 +58,45 @@
         <EditorCategories value="Race:Zerg,TechType:Upgrade"/>
         <NodeArray index="Show" Link="CountUpgradeHotSZerglingFrenzyCompleteOnly"/>
     </CRequirement>
+    <CRequirement id="HaveHotSZerglingFrenzy3">
+        <EditorCategories value="Race:Zerg,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="CountUpgradeHotSZerglingFrenzyCompleteOnly"/>
+    </CRequirement>
     <CRequirement id="HaveHotSZerglingHealth2">
         <EditorCategories value="Race:Zerg,TechType:Upgrade"/>
         <NodeArray index="Use" Link="CountUpgradeHotSZerglingHealthCompleteOnly2346380126"/>
         <NodeArray index="Show" Link="OrAndCountUpgradeKerriganCommanderCompleteOnlyLTE4CountUpgradeCommanderLevelCompleteOnlyAndCountUpgradeZagaraCommanderCompleteOnlyLTE6CountUpgradeCommanderLevelCompleteOnly"/>
     </CRequirement>
+    <CRequirement id="HaveHotSZerglingHealth3">
+        <EditorCategories value="Race:Zerg,TechType:Upgrade"/>
+        <NodeArray index="Use" Link="CountUpgradeHotSZerglingHealthCompleteOnly2346380126"/>
+        <NodeArray index="Show" Link="OrAndCountUpgradeKerriganCommanderCompleteOnlyLTE4CountUpgradeCommanderLevelCompleteOnlyAndCountUpgradeZagaraCommanderCompleteOnlyLTE6CountUpgradeCommanderLevelCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="HaveHotSZerglingHealth4">
+        <EditorCategories value="Race:Zerg,TechType:Upgrade"/>
+        <NodeArray index="Use" Link="CountUpgradeHotSZerglingHealthCompleteOnly2346380126"/>
+        <NodeArray index="Show" Link="OrAndCountUpgradeKerriganCommanderCompleteOnlyLTE4CountUpgradeCommanderLevelCompleteOnlyAndCountUpgradeZagaraCommanderCompleteOnlyLTE6CountUpgradeCommanderLevelCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="HaveMPAdrenalGlands2">
+        <EditorCategories value="Race:Zerg,TechType:Upgrade"/>
+        <NodeArray index="Use" Link="CountUpgradezerglingattackspeedCompleteOnly3499318896"/>
+    </CRequirement>
+    <CRequirement id="HaveMPMetabolicBoost2">
+        <EditorCategories value="Race:Zerg,TechType:Upgrade"/>
+        <NodeArray index="Use" Link="CountUpgradezerglingmovementspeedCompleteOnly3154718206"/>
+    </CRequirement>
+    <CRequirement id="HaveMasteryZagaraZerglingDodgeChance2">
+        <NodeArray index="Show" Link="CountUpgradeMasteryZagaraZerglingDodgeChanceCompleteOnly"/>
+    </CRequirement>
     <CRequirement id="HaveShieldWall2">
         <EditorCategories value="Race:Terran,TechType:Ability"/>
         <NodeArray index="Use" Link="CountUpgradeShieldWallCompleteOnly3612790349"/>
         <NodeArray index="Show" Link="CountUpgradeRaynorCommanderCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="HaveZerglingArmorShred2">
+        <EditorCategories value="Race:Zerg,TechType:Upgrade"/>
+        <NodeArray index="Use" Link="CountUpgradeZerglingArmorShredCompleteOnly4266628015"/>
+        <NodeArray index="Show" Link="OrAndCountUpgradeKerriganCommanderCompleteOnlyLTE4CountUpgradeCommanderLevelCompleteOnlyAndCountUpgradeZagaraCommanderCompleteOnlyLTE6CountUpgradeCommanderLevelCompleteOnly"/>
     </CRequirement>
     <CRequirement id="PhobusClassWeaponSystemsResearched2">
         <EditorCategories value="Race:Terran"/>
