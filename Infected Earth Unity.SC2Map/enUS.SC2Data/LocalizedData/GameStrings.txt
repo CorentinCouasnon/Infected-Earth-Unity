@@ -1502,6 +1502,8 @@ Upgrade/Name/ZerglingArmorShred2=Shredding Claws
 Upgrade/Name/hydraliskspeed2=Muscular Augments
 Upgrade/Name/zerglingattackspeed2=Adrenal Glands
 Upgrade/Name/zerglingmovementspeed2=Metabolic Boost
+UserData/BossRewardTable/1_rewardMsg=Braveau pour avoir tué <c val="FF0000">B</c><c val="AA0000">o</c><c val="550000">b</c>. Récompenses : 300 <img path="Assets\Textures\icon-mineral.dds"/> et 50 <img path="Assets\Textures\icon-gas-terran.dds"/>.
+UserData/BossRewardTable/2_rewardMsg=Braveau pour avoir tué <c val="FF0000">C</c><c val="CC0000">h</c><c val="990000">i</c><c val="660000">o</c><c val="330000">t</c>. Récompenses : 500 <img path="Assets\Textures\icon-mineral.dds"/> et 100 <img path="Assets\Textures\icon-gas-terran.dds"/>.
 Weapon/Name/AcidSaliva2=RoachSalive
 Weapon/Name/C10CanisterRifle=GhostArme
 Weapon/Name/Claws3=Claws

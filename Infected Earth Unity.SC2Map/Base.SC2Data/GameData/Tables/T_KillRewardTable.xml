@@ -1,5 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Catalog>
+    <CUser id="BossRewardTable">
+        <Fields Id="unit" Type="Unit" EditorColumn="1"/>
+        <Fields>
+            <Id value="ressourceCount"/>
+            <Type value="Int"/>
+            <Count value="10"/>
+            <EditorColumn value="1"/>
+        </Fields>
+        <Fields Id="rewardMsg" Type="Text" EditorColumn="1"/>
+        <Instances Id="[Default]"/>
+        <Instances Id="1">
+            <Int Int="300">
+                <Field Id="ressourceCount"/>
+            </Int>
+            <Int Int="50">
+                <Field Id="ressourceCount" Index="1"/>
+            </Int>
+            <Text Text="UserData/BossRewardTable/1_rewardMsg">
+                <Field Id="rewardMsg"/>
+            </Text>
+            <Unit Unit="SCV">
+                <Field Id="unit"/>
+            </Unit>
+        </Instances>
+        <Instances Id="2">
+            <Int Int="500">
+                <Field Id="ressourceCount"/>
+            </Int>
+            <Int Int="100">
+                <Field Id="ressourceCount" Index="1"/>
+            </Int>
+            <Text Text="UserData/BossRewardTable/2_rewardMsg">
+                <Field Id="rewardMsg"/>
+            </Text>
+            <Unit Unit="Predator">
+                <Field Id="unit"/>
+            </Unit>
+        </Instances>
+    </CUser>
     <!--Table indiquant les récompenses accordés par les différentes unités.-->
     <!--Le champ ressourceCount est un tableau de 10 éléments et il représente les éléments suivants dans l'ordre : -->
     <!--Minerai, Vespene, Xp (Pas encore défini), Talent point (Pas encore défini), Kill value (Pas encore défini), Rank point (Pas encore défini)-->

@@ -13,9 +13,13 @@ const int c_maximumEnemyCount = 500; // Modifiable
 
 const int c_maximumUnitTypePerWave = 20;
 
-const int c_waveCountToWin = 10; // Modifiable
+const int c_waveCountToWin = 180; // Modifiable
+const int c_terranLastWave = 60; // Modifiable
+const int c_protossLastWave = 120; // Modifiable
+const int c_zergLastWave = 120; // Modifiable
 
 const int c_playerStartingMinerals = 250; // Modifiable
+const int c_playerStartingVespene = 0; // Modifiable
 
 // Global variables
 
@@ -33,7 +37,6 @@ unitgroup gv_enemiesGroup;
 int gv_bossesAlive;
 unitgroup gv_bossesGroup;
 
-
 int gv_skippedFrameCount;
 int gv_framesToSkipCount;
 string[2000] gv_tmpEnemySpawnQueue;
@@ -45,10 +48,16 @@ region[4] gv_terranSpawnRegions;
 region[4] gv_protossSpawnRegions;
 region[6] gv_zergSpawnRegions;
 
+int gv_currentPart;
+
 // Flags
 
 bool f_isWaveInProgress;
 bool f_isWaveTimerElapsed;
+
+bool f_skipWaveFlag;
+
+bool f_sendWaveFlag;
 
 // Enums
 
