@@ -121,6 +121,7 @@ void Player_TeleportToPoint(point p)
         }
         
         UnitSetPosition(gv_playersData[tmpPlayer - 1].heroUnit, p, false);
+        Camera_FocusOnUnit(tmpPlayer, gv_playersData[tmpPlayer - 1].heroUnit);
     }
 }
 
@@ -137,8 +138,21 @@ void Player_SetStartingRessources()
     }
 }
 
+void Player_SetAlliances()
+{
+    int i;
+    int player;
+
+    for (i = 1; i <= PlayerGroupCount(PlayerGroupActive()); i += 1)
+    {
+        player = PlayerGroupPlayer(PlayerGroupActive(), i);
+        libNtve_gf_SetAlliance(player, 7, libNtve_ge_AllianceSetting_AllyWithSharedVisionAndControl);
+    }
+}
+
 void Player_Init()
 {
+    Player_SetAlliances();
     Player_SetStartingRessources();
 
     TriggerAddEventUnitDied(TriggerCreate("Player_OnUnitDeath"), null);

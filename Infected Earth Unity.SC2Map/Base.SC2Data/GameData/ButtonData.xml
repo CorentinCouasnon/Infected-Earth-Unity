@@ -322,6 +322,9 @@
         <EditorCategories value="Race:Terran"/>
         <TintRacially value="1"/>
     </CButton>
+    <CButton id="EscapeToNextPartButton">
+        <Icon value="Assets\Textures\btn-upgrade-terran-medivacemergencythrusters.dds"/>
+    </CButton>
     <CButton id="Explode2">
         <TooltipAppender Validator="HaveMasteryZagaraBanelingDamageandIsNotBanelingSpawnCombine" Text="Button/Tooltip/MasteryZagaraBanelingDamageAppend"/>
         <Icon value="Assets\Textures\btn-ability-zerg-explode-color.dds"/>

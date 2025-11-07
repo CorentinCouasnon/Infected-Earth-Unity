@@ -1245,6 +1245,14 @@
         <SelectionRadius value="0.000000"/>
         <ShadowRadius value="0.000000"/>
     </CModel>
+    <CModel id="Invisible31" Race="Neutral">
+        <Model value="Assets\Units\Test\InvisibleUnit\InvisibleUnit.m3"/>
+        <EditorCategories value="Race:Neutral"/>
+        <Flags index="TeenSafe" value="1"/>
+        <Radius value="-1.000000"/>
+        <SelectionRadius value="0.000000"/>
+        <ShadowRadius value="0.000000"/>
+    </CModel>
     <CModel id="Invisible4" Race="Neutral">
         <Model value="Assets\Units\Test\InvisibleUnit\InvisibleUnit.m3"/>
         <EditorCategories value="Race:Neutral"/>
@@ -1587,6 +1595,18 @@
     </CModel>
     <CModel id="MarineRaynorDeath2" parent="UnitDeath">
         <Model value="Assets\Units\Terran\MarineRaynorDeath\MarineRaynorDeath.m3"/>
+    </CModel>
+    <CModel id="MedicHealModel2" parent="OneShotSpellFX">
+        <Model value="Assets\Effects\Terran\MedicHeal\MedicHeal.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="Medivac2" parent="MedivacBase">
+        <Model value="Assets\Units\Terran\MedivacEX1\MedivacEX1.m3"/>
+    </CModel>
+    <CModel id="MedivacPortrait2" parent="MedivacPortraitBase">
+        <Model value="Assets\Portraits\Terran\MedivacPortrait\MedivacPortrait.m3"/>
+        <Image value="Assets\Textures\MedivacPortrait_Static.dds"/>
+        <Lighting value="MedivacPortrait"/>
     </CModel>
     <CModel id="MendBuff2" parent="PersistentSpellFX">
         <Model value="Assets\Effects\Zerg\MendBuff\MendBuff.m3"/>

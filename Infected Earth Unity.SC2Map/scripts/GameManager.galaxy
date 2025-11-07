@@ -31,11 +31,10 @@ bool GameManager_CheckWaveStatus(bool testConds, bool runActions)
         {
             return true;
         }
-
-        f_sendWaveFlag = false;
     }
 
     GameManager_StartNewWave();
+    f_sendWaveFlag = false;
 
     return true;
 }
@@ -91,10 +90,29 @@ bool GameManager_OnUnitDeath(bool testConds, bool runActions)
     return true;
 }
 
+bool GameManager_OnEscapeAbilityUsed(bool testConds, bool runActions)
+{
+    if (gv_currentPart == c_Part_Terran)
+    {
+        GameManager_StartPart(c_Part_Protoss);
+    } 
+    else if (gv_currentPart == c_Part_Protoss)
+    {
+        GameManager_StartPart(c_Part_Zerg);
+    }
+    else
+    {
+        GameManager_StartPart(c_Part_Terran);
+    }
+
+    return true;
+}
+
 void GameManager_Init()
 {
     GameManager_StartPart(c_Part_Terran);
 
     TriggerAddEventTimePeriodic(TriggerCreate("GameManager_CheckWaveStatus"), c_minimumTickTime, c_timeGame);
-    TriggerAddEventUnitDied(TriggerCreate("Wave_OnUnitDeath"), null);
+    TriggerAddEventUnitDied(TriggerCreate("GameManager_OnUnitDeath"), null);
+    TriggerAddEventUnitAbility(TriggerCreate("GameManager_OnEscapeAbilityUsed"), null, AbilityCommand("EscapeShipGoToNextPart", 0), c_abilEffectStageChannel, false);
 }

@@ -16,7 +16,7 @@ const int c_maximumUnitTypePerWave = 20;
 const int c_waveCountToWin = 180; // Modifiable
 const int c_terranLastWave = 60; // Modifiable
 const int c_protossLastWave = 120; // Modifiable
-const int c_zergLastWave = 120; // Modifiable
+const int c_zergLastWave = 180; // Modifiable
 
 const int c_playerStartingMinerals = 250; // Modifiable
 const int c_playerStartingVespene = 0; // Modifiable

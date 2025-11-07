@@ -2556,6 +2556,145 @@
         <AssetArray File="LocalizedData\Sounds\TerranUnitVO\Marine\Marine_Yes22.ogg" FacialAnim="Marine_Yes22"/>
         <Volume value="-1.000000,-1.000000"/>
     </CSound>
+    <CSound id="Medivac_Attack2" parent="TerranAck">
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\Medivac\Medivac_Attack00.ogg" FacialAnim="Medivac_Attack00"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\Medivac\Medivac_Attack01.ogg" FacialAnim="Medivac_Attack01"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\Medivac\Medivac_Attack02.ogg" FacialAnim="Medivac_Attack02"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\Medivac\Medivac_Attack03.ogg" FacialAnim="Medivac_Attack03"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\Medivac\Medivac_Attack04.ogg" FacialAnim="Medivac_Attack04"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\Medivac\Medivac_Attack05.ogg" FacialAnim="Medivac_Attack05"/>
+        <Flags index="Download" value="0"/>
+        <Volume value="-2.000000,-2.000000"/>
+    </CSound>
+    <CSound id="Medivac_Explode2" parent="Combat">
+        <EditorCategories value="Race:Terran"/>
+        <AssetArray File="Assets\Sounds\Terran\SharedEffects\Explosions\Terran_ExplosionMedium0.wav" Pitch="-3.000000,3.000000"/>
+        <AssetArray File="Assets\Sounds\Terran\SharedEffects\Explosions\Terran_ExplosionMedium1.wav" Pitch="-3.000000,3.000000"/>
+        <AssetArray File="Assets\Sounds\Terran\SharedEffects\Explosions\Terran_ExplosionMedium2.wav" Pitch="-3.000000,3.000000"/>
+        <AssetArray File="Assets\Sounds\Terran\SharedEffects\Explosions\Terran_ExplosionMedium3.wav" Pitch="-3.000000,3.000000"/>
+        <AssetArray File="Assets\Sounds\Terran\SharedEffects\Explosions\Terran_ExplosionMedium4.wav" Pitch="-3.000000,3.000000"/>
+        <AssetArray File="Assets\Sounds\Terran\SharedEffects\Explosions\Terran_ExplosionMedium5.wav" Pitch="-3.000000,3.000000"/>
+        <AssetArray File="Assets\Sounds\Terran\SharedEffects\Explosions\Terran_ExplosionMedium6.wav" Pitch="-3.000000,3.000000"/>
+        <AssetArray File="Assets\Sounds\Terran\SharedEffects\Explosions\Terran_ExplosionMedium7.wav" Pitch="-3.000000,3.000000"/>
+        <AssetArray File="Assets\Sounds\Terran\SharedEffects\Explosions\Terran_ExplosionMedium8.wav" Pitch="-3.000000,3.000000"/>
+        <AssetArray File="Assets\Sounds\Terran\SharedEffects\Explosions\Terran_ExplosionMedium9.wav" Pitch="-3.000000,3.000000"/>
+        <DupeDestroyCount value="5"/>
+    </CSound>
+    <CSound id="Medivac_HealLoop2" parent="Spell">
+        <EditorCategories value="Race:Terran"/>
+        <AssetArray File="Assets\Sounds\Terran\Medivac\Medivac_HealLoop.wav" LoopCount="-1"/>
+        <DupeDestroyCount value="4"/>
+        <Pitch value="-1.820000,1.640000"/>
+        <Volume value="-9.000000,-9.000000"/>
+    </CSound>
+    <CSound id="Medivac_HealVO2" parent="TerranAck">
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\Medivac\Medivac_Heal00.ogg" FacialAnim="Medivac_Heal00"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\Medivac\Medivac_Heal01.ogg" FacialAnim="Medivac_Heal01"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\Medivac\Medivac_Heal02.ogg" FacialAnim="Medivac_Heal02"/>
+        <Volume value="-2.000000,-2.000000"/>
+    </CSound>
+    <CSound id="Medivac_Help2" parent="Alert">
+        <EditorCategories value="Race:Terran"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\Medivac\Medivac_Help00.ogg" FacialAnim="Medivac_Help00"/>
+        <Mode value="3DWorld"/>
+        <Volume value="-2.000000,-2.000000"/>
+    </CSound>
+    <CSound id="Medivac_IgniteAfterburners22" parent="Spell">
+        <EditorCategories value="Race:Terran"/>
+        <AssetArray File="Assets\Sounds\VoidSeeker_PsytrousOxideMovement0.wav" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\VoidSeeker_PsytrousOxideMovement1.wav" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\VoidSeeker_PsytrousOxideMovement2.wav" FacialGroup=""/>
+        <DupeHistoryCount value="3"/>
+        <DupeMuteCount value="2"/>
+        <Pitch value="6.000000,7.000000"/>
+        <ResourcePriority value="64"/>
+        <Volume value="-19.000000,-19.000000"/>
+    </CSound>
+    <CSound id="Medivac_IgniteAfterburners3" parent="Spell">
+        <EditorCategories value="Race:Terran"/>
+        <AssetArray File="Assets\Sounds\Medivac_AfterburnerOn_01.wav" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\Medivac_AfterburnerOn_02.wav" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\Medivac_AfterburnerOn_03.wav" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\Medivac_AfterburnerOn_04.wav" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\Medivac_AfterburnerOn_05.wav" FacialGroup=""/>
+        <DupeHistoryCount value="5"/>
+        <DupeMuteCount value="3"/>
+        <Pitch value="-2.000000,2.000000"/>
+        <Volume value="-9.000000,-9.000000"/>
+    </CSound>
+    <CSound id="Medivac_LoadVO2" parent="TerranAck">
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\Medivac\Medivac_Load00.ogg" FacialAnim="Medivac_Load00"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\Medivac\Medivac_Load01.ogg" FacialAnim="Medivac_Load01"/>
+        <Volume value="-2.000000,-2.000000"/>
+    </CSound>
+    <CSound id="Medivac_Movement2" parent="Movement">
+        <EditorCategories value="Race:Terran"/>
+        <AssetArray File="Assets\Sounds\Terran\Medivac\Medivac_Movement0.wav"/>
+        <AssetArray File="Assets\Sounds\Terran\Medivac\Medivac_Movement1.wav"/>
+        <AssetArray File="Assets\Sounds\Terran\Medivac\Medivac_Movement2.wav"/>
+        <AssetArray File="Assets\Sounds\Terran\Medivac\Medivac_Movement3.wav"/>
+        <AssetArray File="Assets\Sounds\Terran\Medivac\Medivac_Movement4.wav"/>
+        <AssetArray File="Assets\Sounds\Terran\Medivac\Medivac_Movement5.wav"/>
+        <DupeDestroyCount value="4"/>
+        <Pitch value="-1.000000,1.000000"/>
+        <SustainFade/>
+        <SustainFade Time="400" Volume="-96.000000"/>
+        <Volume value="-10.480000,-9.160000"/>
+        <VolumeRolloffFadeBlend value="Logarithmic"/>
+    </CSound>
+    <CSound id="Medivac_Pissed2" parent="TerranAck">
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\Medivac\Medivac_Pissed00.ogg" FacialAnim="Medivac_Pissed00"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\Medivac\Medivac_Pissed01.ogg" FacialAnim="Medivac_Pissed01"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\Medivac\Medivac_Pissed02.ogg" FacialAnim="Medivac_Pissed02"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\Medivac\Medivac_Pissed03.ogg" FacialAnim="Medivac_Pissed03"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\Medivac\Medivac_Pissed04.ogg" FacialAnim="Medivac_Pissed04"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\Medivac\Medivac_Pissed05.ogg" FacialAnim="Medivac_Pissed05"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\Medivac\Medivac_Pissed06.ogg" FacialAnim="Medivac_Pissed06"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\Medivac\Medivac_Pissed07.ogg" FacialAnim="Medivac_Pissed07"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\Medivac\Medivac_Pissed08.ogg" FacialAnim="Medivac_Pissed08"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\Medivac\Medivac_Pissed09.ogg" FacialAnim="Medivac_Pissed09"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\Medivac\Medivac_Pissed10.ogg" FacialAnim="Medivac_Pissed10"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\Medivac\Medivac_Pissed11.ogg" FacialAnim="Medivac_Pissed11"/>
+        <Flags index="Download" value="0"/>
+        <Select value="Sequential"/>
+        <Volume value="-2.000000,-2.000000"/>
+    </CSound>
+    <CSound id="Medivac_Ready2" parent="Ready">
+        <EditorCategories value="Race:Terran"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\Medivac\Medivac_Ready00.ogg" FacialAnim="Medivac_Ready00"/>
+        <Volume value="-2.000000,-2.000000"/>
+    </CSound>
+    <CSound id="Medivac_UnloadVO2" parent="TerranAck">
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\Medivac\Medivac_UnLoad00.ogg" FacialAnim="Medivac_UnLoad00"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\Medivac\Medivac_UnLoad01.ogg" FacialAnim="Medivac_UnLoad01"/>
+        <Volume value="-2.000000,-2.000000"/>
+    </CSound>
+    <CSound id="Medivac_What2" parent="TerranAck">
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\Medivac\Medivac_What00.ogg" FacialAnim="Medivac_What00"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\Medivac\Medivac_What01.ogg" FacialAnim="Medivac_What01"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\Medivac\Medivac_What02.ogg" FacialAnim="Medivac_What02"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\Medivac\Medivac_What03.ogg" FacialAnim="Medivac_What03"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\Medivac\Medivac_What04.ogg" FacialAnim="Medivac_What04"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\Medivac\Medivac_What05.ogg" FacialAnim="Medivac_What05"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\Medivac\Medivac_What06.ogg" FacialAnim="Medivac_What06"/>
+        <Volume value="-2.000000,-2.000000"/>
+    </CSound>
+    <CSound id="Medivac_Yes2" parent="TerranAck">
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\Medivac\Medivac_Yes00.ogg" FacialAnim="Medivac_Yes00"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\Medivac\Medivac_Yes01.ogg" FacialAnim="Medivac_Yes01"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\Medivac\Medivac_Yes02.ogg" FacialAnim="Medivac_Yes02"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\Medivac\Medivac_Yes03.ogg" FacialAnim="Medivac_Yes03"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\Medivac\Medivac_Yes04.ogg" FacialAnim="Medivac_Yes04"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\Medivac\Medivac_Yes05.ogg" FacialAnim="Medivac_Yes05"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\Medivac\Medivac_Yes06.ogg" FacialAnim="Medivac_Yes06"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\Medivac\Medivac_Yes07.ogg" FacialAnim="Medivac_Yes07"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\Medivac\Medivac_Yes08.ogg" FacialAnim="Medivac_Yes08"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\Medivac\Medivac_Yes09.ogg" FacialAnim="Medivac_Yes09"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\Medivac\Medivac_Yes10.ogg" FacialAnim="Medivac_Yes10"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\Medivac\Medivac_Yes11.ogg" FacialAnim="Medivac_Yes11"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\Medivac\Medivac_Yes12.ogg" FacialAnim="Medivac_Yes12"/>
+        <Volume value="-2.000000,-2.000000"/>
+    </CSound>
     <CSound id="Predator_Attack2" parent="Voice">
         <EditorCategories value="Race:Terran"/>
         <AssetArray File="Assets\Sounds\Terran\Predator\Predator_Attack0.ogg"/>
