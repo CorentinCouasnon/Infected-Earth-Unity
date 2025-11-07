@@ -507,7 +507,8 @@
     </CEffectDamage>
     <CEffectDamage id="Claws22" parent="DU_WEAP">
         <EditorCategories value="Race:Zerg"/>
-        <Amount value="40"/>
+        <Amount value="45"/>
+        <AreaArray Radius="1" Bonus="10"/>
     </CEffectDamage>
     <CEffectDamage id="Claws3" parent="DU_WEAP">
         <EditorCategories value="Race:Zerg"/>
@@ -2162,7 +2163,7 @@
         <BehaviorLink value="Precursor"/>
     </CEffectRemoveBehavior>
     <CEffectDamage id="RetributionFieldDamage">
-        <Amount value="30"/>
+        <Amount value="45"/>
     </CEffectDamage>
     <CEffectDamage id="RetributionFieldDamage2">
         <EditorCategories value="Race:Terran"/>
@@ -2686,7 +2687,7 @@
         <AmmoUnit value="TossGrenadeWeapon2"/>
     </CEffectLaunchMissile>
     <CEffectDamage id="TwinGatlingCannons">
-        <Amount value="60"/>
+        <Amount value="40"/>
     </CEffectDamage>
     <CEffectDamage id="TwinGatlingCannons2" parent="DU_WEAP">
         <EditorCategories value="Race:Terran"/>

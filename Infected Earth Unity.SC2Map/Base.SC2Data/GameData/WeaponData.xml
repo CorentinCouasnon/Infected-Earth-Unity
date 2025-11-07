@@ -17,35 +17,6 @@
         <DamagePoint value="0"/>
         <Backswing value="0.1"/>
     </CWeaponLegacy>
-    <CWeaponLegacy id="Claws2">
-        <EditorCategories value="Race:Zerg"/>
-        <Options index="Melee" value="1"/>
-        <Icon value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level0.dds"/>
-        <TargetFilters value="Ground,Visible;Missile,Stasis,Dead,Hidden,Invulnerable"/>
-        <Range value="0.1"/>
-        <Period value="0.696"/>
-        <Effect value="HotSZerglingClaws2"/>
-    </CWeaponLegacy>
-    <CWeaponLegacy id="Claws4">
-        <EditorCategories value="Race:Zerg"/>
-        <Options index="Melee" value="1"/>
-        <Icon value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level0.dds"/>
-        <DisplayEffect value="Claws3"/>
-        <TargetFilters value="Ground,Visible;Missile,Stasis,Dead,Hidden,Invulnerable"/>
-        <Range value="0.1"/>
-        <Period value="0.696"/>
-        <Effect value="HotSZerglingClaws3"/>
-    </CWeaponLegacy>
-    <CWeaponLegacy id="Claws5">
-        <EditorCategories value="Race:Zerg"/>
-        <Options index="Melee" value="1"/>
-        <Icon value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level0.dds"/>
-        <DisplayEffect value="Claws4"/>
-        <TargetFilters value="Ground,Visible;Missile,Stasis,Dead,Hidden,Invulnerable"/>
-        <Range value="0.1"/>
-        <Period value="0.696"/>
-        <Effect value="HotSZerglingClaws4"/>
-    </CWeaponLegacy>
     <CWeaponLegacy id="GriffesDeLings">
         <EditorCategories value="Race:Zerg"/>
         <Options index="Melee" value="1"/>
@@ -58,16 +29,6 @@
         <DamagePoint value="0"/>
         <Backswing value="0"/>
     </CWeaponLegacy>
-    <CWeaponLegacy id="Claws3">
-        <EditorCategories value="Race:Zerg"/>
-        <Options index="Melee" value="1"/>
-        <Icon value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level0.dds"/>
-        <DisplayEffect value="Claws2"/>
-        <TargetFilters value="Ground,Visible;Missile,Stasis,Dead,Hidden,Invulnerable"/>
-        <Range value="0.1"/>
-        <Period value="0.696"/>
-        <Effect value="HotSZerglingClaws2"/>
-    </CWeaponLegacy>
     <CWeaponLegacy id="FusildeRaynor">
         <EditorCategories value="Race:Terran"/>
         <Icon value="Assets\Textures\btn-upgrade-terran-infantryweaponslevel0.dds"/>
@@ -79,6 +40,27 @@
         <DamagePoint value="17"/>
         <Backswing value="0.1"/>
         <Effect value="RaynorGaussRifleDamage2"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="Predator">
+        <Period value="0.8"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="TwinGatlingCannon">
+        <Range value="8"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="TyphoonMissilePod">
+        <Period value="0.8"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="ZergligatosorusClaws">
+        <EditorCategories value="Race:Zerg"/>
+        <Options index="Melee" value="1"/>
+        <Icon value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level0.dds"/>
+        <DisplayEffect value="Claws22"/>
+        <TargetFilters value="Ground,Visible;Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <Range value="0.2"/>
+        <Period value="0.6"/>
+        <DamagePoint value="0"/>
+        <Backswing value="0"/>
+        <Effect value="HotSZerglingClaws22"/>
     </CWeaponLegacy>
     <CWeaponLegacy id="GuassRifle4">
         <EditorCategories value="Race:Terran"/>

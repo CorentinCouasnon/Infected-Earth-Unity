@@ -518,7 +518,7 @@
         <Name value="Upgrade/BaseDmgUpgrade"/>
         <EffectArray Reference="Weapon,FusildeRaynor,Level" Value="1"/>
         <EffectArray Reference="Effect,RaynorGaussRifleDamage2,Amount" Value="5"/>
-        <EffectArray Reference="Abil,RaynorUpgrades,InfoArray[Research1].Resource[Minerals]" Value="5"/>
+        <EffectArray Reference="Abil,RaynorUpgrades,InfoArray[Research1].Resource[Minerals]" Value="10"/>
         <EffectArray Reference="Abil,ZeratulUpgrades,InfoArray[Research1].Resource[Minerals]" Value="10"/>
         <EffectArray Reference="Effect,ZealotAiurWeapon2,Amount" Value="5"/>
         <EffectArray Reference="Weapon,ZeratulSwords,Level" Value="1"/>
@@ -527,7 +527,7 @@
     <CUpgrade id="BaseHealthUpgrade">
         <Name value="Upgrade/BaseHealthUpgrade"/>
         <EffectArray Reference="Unit,JimRaynorIEUHero,LifeMax" Value="40"/>
-        <EffectArray Reference="Abil,RaynorUpgrades,InfoArray[Research2].Resource[Minerals]" Value="5"/>
+        <EffectArray Reference="Abil,RaynorUpgrades,InfoArray[Research2].Resource[Minerals]" Value="15"/>
         <MaxLevel value="50"/>
     </CUpgrade>
     <CUpgrade id="BaseArmorUpgrade">
@@ -17740,7 +17740,7 @@
     </CUpgrade>
     <CUpgrade id="Vision">
         <EffectArray Reference="Abil,RaynorUpgrades,InfoArray[Research5].Resource[Minerals]" Value="50"/>
-        <EffectArray Reference="Unit,JimRaynorIEUHero,Sight" Value="3"/>
+        <EffectArray Reference="Unit,JimRaynorIEUHero,Sight" Value="0.7"/>
         <MaxLevel value="50"/>
     </CUpgrade>
     <CUpgrade id="ZeratulArmorsLevel12" parent="ZeratulArmors">

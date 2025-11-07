@@ -39,7 +39,6 @@
 <Actor id="BraxisAlphaBarrels" Variations="0,1,2"/>
 <Actor id="AvernusUltraliskShackled"/>
 <Actor id="AvernusUltraliskShackledEmpty"/>
-<Actor id="Garage" Variations="0"/>
 <Actor id="NewFolsomSandbags" Variations="0,1,2,3,4,5,6"/>
 <Actor id="RockVolcanicGiant" Variations="0,1,2,5"/>
 <Actor id="RooftopEntrance"/>
