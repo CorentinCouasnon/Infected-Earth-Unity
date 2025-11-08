@@ -104,4 +104,7 @@
     <CRequirementCountUpgrade id="UpgradeZergling2QueuedOrBetter">
         <Count Link="Zerglingatorus"/>
     </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="UpgradeZergling3QueuedOrBetter">
+        <Count Link="Zerglingatosorus"/>
+    </CRequirementCountUpgrade>
 </Catalog>

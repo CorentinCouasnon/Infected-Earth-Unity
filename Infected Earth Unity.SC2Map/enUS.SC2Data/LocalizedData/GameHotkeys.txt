@@ -187,4 +187,5 @@ Button/Hotkey/ZeratulBlink2=B
 Button/Hotkey/ZeratulBlink3=B
 Button/Hotkey/ZeratulStun2=Q
 Button/Hotkey/ZeratulStun3=Q
+Button/Hotkey/ZerglingJumpButton=C
 HP=Z

@@ -3625,6 +3625,7 @@
     <ObjectUnit Id="1444929338" Position="78.5,147.5,0" Rotation="5.4975" Scale="1,1,1" UnitType="NukeSiloNova">
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
+    <ObjectUnit Id="1470800287" Position="86.8103,207.1328,0" Rotation="1.6572" Scale="1,1,1" UnitType="Marine22"/>
     <ObjectUnit Id="286039701" Position="29,26.5,0" Rotation="3.1413" Scale="1,1,1" UnitType="Purifier_DoorNLowered"/>
     <ObjectUnit Id="1716634536" Position="5,40.5,0" Rotation="3.1413" Scale="1,1,1" UnitType="Purifier_DoorNLowered"/>
     <ObjectUnit Id="706134000" Position="13.5,37.5,0" Rotation="2.356" Scale="1,1,1" UnitType="Purifier_DoorNE"/>
@@ -3651,9 +3652,11 @@
         <AIFlag Index="IsUseable" Value="0"/>
     </ObjectUnit>
     <ObjectUnit Id="1922575024" Variation="1" Position="73.5,19.5,0" Rotation="2.356" Scale="1,1,1" UnitType="Purifier_DoorSmallNE"/>
+    <ObjectUnit Id="1652499181" Position="85.5974,208.4152,0" Rotation="2.6315" Scale="1,1,1" UnitType="Marine22"/>
     <ObjectUnit Id="800425252" Variation="3" Position="17.5,41.5,0" Rotation="5.1567" Scale="1,1,1" UnitType="UnbuildableRocksSmallUnit"/>
     <ObjectUnit Id="352775436" Variation="1" Position="17.5,37.5,0" Rotation="0.251" Scale="1,1,1" UnitType="UnbuildableRocksSmallUnit"/>
     <ObjectUnit Id="1942429919" Variation="5" Position="17.5,43.5,0" Rotation="1.036" Scale="1,1,1" UnitType="UnbuildableRocksSmallUnit"/>
+    <ObjectUnit Id="1402835575" Position="81.15,205.0097,0" Rotation="3.075" Scale="1,1,1" UnitType="Zerglingatosorus" Player="1"/>
     <ObjectUnit Id="468732476" Position="68,191,0" Rotation="2.356" Scale="1,1,1" UnitType="XelNaga_Caverns_DoorNE"/>
     <ObjectUnit Id="1335406331" Position="200.5795,97.3061,0" Rotation="0.3698" Scale="1,1,1" UnitType="AbathurLavaWorm"/>
     <ObjectUnit Id="1948323155" Variation="4" Position="18.5,44.5,0" Rotation="5.4147" Scale="1,1,1" UnitType="UnbuildableRocksSmallUnit"/>
@@ -3663,6 +3666,7 @@
     <ObjectUnit Id="399948598" Position="39,26.5,0" Rotation="3.1413" Scale="1,1,1" UnitType="Purifier_DoorN"/>
     <ObjectUnit Id="651233697" Position="80,187,0" Rotation="3.1413" Scale="1,1,1" UnitType="XelNaga_Caverns_DoorNOpened"/>
     <ObjectUnit Id="597215872" Position="98,203,0" Rotation="4.7121" Scale="1,1,1" UnitType="XelNaga_Caverns_DoorWOpened"/>
+    <ObjectUnit Id="1510771761" Position="86.2023,207.8112,0" Rotation="4.4521" Scale="1,1,1" UnitType="Marine22"/>
     <ObjectUnit Id="933942362" Position="81,219,0" Scale="1,1,1" UnitType="XelNaga_Caverns_DoorSOpened"/>
     <ObjectUnit Id="956973039" Position="17.5,42.5,0" Rotation="3.6174" Scale="1,1,1" UnitType="UnbuildableRocksSmallUnit"/>
     <ObjectUnit Id="1017418828" Position="80,185,0" Scale="1,1,1" UnitType="DestructibleRockEx12x6Horizontal"/>
@@ -3671,6 +3675,7 @@
     <ObjectUnit Id="1653281342" Position="20.5,30.5,0" Rotation="2.356" Scale="1,1,1" UnitType="Purifier_DoorNE"/>
     <ObjectUnit Id="1023315452" Variation="1" Position="26,55.5,0" Rotation="3.1413" Scale="1,1,1" UnitType="Purifier_DoorSmallN"/>
     <ObjectUnit Id="782724234" Position="68,215,0" Rotation="0.7851" Scale="1,1,1" UnitType="XelNaga_Caverns_DoorSE"/>
+    <ObjectUnit Id="1773150346" Position="87.552,206.584,0" Rotation="5.1357" Scale="1,1,1" UnitType="Marine22"/>
     <ObjectUnit Id="905588544" Position="23.5,45.5,0" Scale="1,1,1" UnitType="AiurTempleStoneGateStraightHorizontalBF">
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>

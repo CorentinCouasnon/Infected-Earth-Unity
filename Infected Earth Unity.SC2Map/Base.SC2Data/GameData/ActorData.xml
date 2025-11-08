@@ -7588,7 +7588,7 @@
         <PlacementModel value="Zergling2"/>
         <HighlightTooltip value="Unit/Name/Zergling2"/>
     </CActorUnit>
-    <CActorUnit id="Zergling3" parent="GenericBurrowerStandard" unitName="Zergling3">
+    <CActorUnit id="Zergling3" parent="GenericBurrowerStandard" unitName="Zerglingatosorus">
         <Aliases value="_UnitSmall"/>
         <Macros value="ZergBurrowStandardAnimMacro"/>
         <Macros value="ZergSmallBurrowEffects"/>
@@ -7610,7 +7610,7 @@
         <On Terms="UnitDeathCustomize; ValidateUnit ZerglingUpgradedDeathByEviscerate" Send="DeathCustomize UpgradedEviscerate"/>
         <On Terms="UnitDeathCustomize; ValidateUnit ZerglingUpgraded" Send="DeathCustomize Upgrade"/>
         <On Terms="UnitMovementUpdate.*.Walk; AnimPlaying Birth" Send="AnimClear Birth"/>
-        <On Terms="UnitBirth.Zergling3" Send="TerrainSquibActivateGroup RippleStandard"/>
+        <On Terms="UnitBirth.Zerglingatosorus" Send="TerrainSquibActivateGroup RippleStandard"/>
         <On Terms="AbilMorph.*.Finish; MorphTo Zergling; MorphFrom ZerglingBurrowed" Send="TerrainSquibActivateGroup RippleStandard"/>
         <On Terms="AbilMorph.*.Finish; MorphTo ZerglingBurrowed; MorphFrom Zergling" Send="TerrainSquibDeactivate"/>
         <On Terms="UnitHeightUpdate.*.Land" Send="Create Zergling_Land"/>
@@ -7707,6 +7707,10 @@
             <Image value="Assets\Textures\Wireframe-Zerg-Zergling.dds"/>
         </Wireframe>
         <WireframeShieldColor value="255,0,128,0"/>
+        <Model value="Zergling3"/>
+        <BuildModel value="Zergling3"/>
+        <PlacementModel value="Zergling3"/>
+        <HighlightTooltip value="Unit/Name/Zergling3"/>
     </CActorUnit>
     <CActorUnit id="Zergling4" parent="GenericBurrowerStandard" unitName="Zerglingatorus">
         <Aliases value="_UnitSmall"/>
@@ -8355,7 +8359,7 @@
         <On Terms="UnitDeath.ZerglingBurrowed; PassChance 25.000000" Send="Create"/>
     </CActorSound>
     <CActorSound id="Zergling_Death3" parent="SoundOneShot">
-        <On Terms="UnitDeath.Zergling3; PassChance 25.000000" Send="Create"/>
+        <On Terms="UnitDeath.Zerglingatosorus; PassChance 25.000000" Send="Create"/>
         <On Terms="UnitDeath.ZerglingBurrowed; PassChance 25.000000" Send="Create"/>
     </CActorSound>
     <CActorSound id="Zergling_Death4" parent="SoundOneShot">

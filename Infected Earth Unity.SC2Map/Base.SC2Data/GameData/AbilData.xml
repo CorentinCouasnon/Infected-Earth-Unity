@@ -143,78 +143,6 @@
             </SectionArray>
         </InfoArray>
     </CAbilMorph>
-    <CAbilMorph id="BurrowZerglingDown2">
-        <AbilSetId value="BrwD"/>
-        <EditorCategories value="Race:Zerg,AbilityorEffectType:MorphsandBurrows"/>
-        <CmdButtonArray index="Execute" DefaultButtonFace="BurrowDown">
-            <Flags index="ToSelection" value="1"/>
-        </CmdButtonArray>
-        <CmdButtonArray index="Cancel" DefaultButtonFace="Cancel"/>
-        <ActorKey value="BurrowDown"/>
-        <Flags index="Interruptible" value="1"/>
-        <Flags index="IgnoreFacing" value="1"/>
-        <Flags index="IgnorePlacement" value="0"/>
-        <Flags index="SuppressMovement" value="1"/>
-        <InfoArray Unit="ZerglingStim" RandomDelayMax="0.3703">
-            <SectionArray index="Actor">
-                <DurationArray index="Duration" value="1.333"/>
-            </SectionArray>
-            <SectionArray index="Collide">
-                <DurationArray index="Delay" value="0.5556"/>
-            </SectionArray>
-            <SectionArray index="Stats">
-                <DurationArray index="Delay" value="1"/>
-            </SectionArray>
-        </InfoArray>
-    </CAbilMorph>
-    <CAbilMorph id="BurrowZerglingDown3">
-        <AbilSetId value="BrwD"/>
-        <EditorCategories value="Race:Zerg,AbilityorEffectType:MorphsandBurrows"/>
-        <CmdButtonArray index="Execute" DefaultButtonFace="BurrowDown">
-            <Flags index="ToSelection" value="1"/>
-        </CmdButtonArray>
-        <CmdButtonArray index="Cancel" DefaultButtonFace="Cancel"/>
-        <ActorKey value="BurrowDown"/>
-        <Flags index="Interruptible" value="1"/>
-        <Flags index="IgnoreFacing" value="1"/>
-        <Flags index="IgnorePlacement" value="0"/>
-        <Flags index="SuppressMovement" value="1"/>
-        <InfoArray Unit="ZerglingChien" RandomDelayMax="0.3703">
-            <SectionArray index="Actor">
-                <DurationArray index="Duration" value="1.333"/>
-            </SectionArray>
-            <SectionArray index="Collide">
-                <DurationArray index="Delay" value="0.5556"/>
-            </SectionArray>
-            <SectionArray index="Stats">
-                <DurationArray index="Delay" value="1"/>
-            </SectionArray>
-        </InfoArray>
-    </CAbilMorph>
-    <CAbilMorph id="BurrowZerglingDown4">
-        <AbilSetId value="BrwD"/>
-        <EditorCategories value="Race:Zerg,AbilityorEffectType:MorphsandBurrows"/>
-        <CmdButtonArray index="Execute" DefaultButtonFace="BurrowDown">
-            <Flags index="ToSelection" value="1"/>
-        </CmdButtonArray>
-        <CmdButtonArray index="Cancel" DefaultButtonFace="Cancel"/>
-        <ActorKey value="BurrowDown"/>
-        <Flags index="Interruptible" value="1"/>
-        <Flags index="IgnoreFacing" value="1"/>
-        <Flags index="IgnorePlacement" value="0"/>
-        <Flags index="SuppressMovement" value="1"/>
-        <InfoArray Unit="ZerglingBurrowed4" RandomDelayMax="0.3703">
-            <SectionArray index="Actor">
-                <DurationArray index="Duration" value="1.333"/>
-            </SectionArray>
-            <SectionArray index="Collide">
-                <DurationArray index="Delay" value="0.5556"/>
-            </SectionArray>
-            <SectionArray index="Stats">
-                <DurationArray index="Delay" value="1"/>
-            </SectionArray>
-        </InfoArray>
-    </CAbilMorph>
     <CAbilMorph id="BurrowZerglingDown5">
         <AbilSetId value="BrwD"/>
         <EditorCategories value="Race:Zerg,AbilityorEffectType:MorphsandBurrows"/>
@@ -640,6 +568,19 @@
     <CAbilBehavior id="GhostCloak">
         <Flags index="AutoCastOn" value="1"/>
     </CAbilBehavior>
+    <CAbilAugment id="SautTestZerglingatosorus">
+        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
+        <StateBehavior value="ZerglingJumpBehavior"/>
+        <DataCollection value="HotSRaptorCharge"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="ZerglingJumpButton"/>
+        <AbilCmd value="attack,Execute"/>
+        <TargetType value="UnitOrPoint"/>
+        <Cost>
+            <Cooldown Link="HotSRaptorChargeHotSRaptorCharge2HotSRaptorChargeSautTestZerglingatosorus" Location="Unit" TimeUse="2"/>
+        </Cost>
+        <Effect value="HotSRaptorLeap"/>
+        <AutoCastValidatorArray value="CasterNotHoldingPosition"/>
+    </CAbilAugment>
     <CAbilEffectTarget id="KD8Charge4">
         <Alignment value="Negative"/>
         <EditorCategories value="Race:Terran,AbilityorEffectType:Units"/>
@@ -830,142 +771,6 @@
             </SectionArray>
         </InfoArray>
     </CAbilMorph>
-    <CAbilTrain id="MorphZerglingToBaneling4">
-        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
-        <RefundFraction>
-            <Resource index="Minerals" value="-0.75"/>
-            <Resource index="Vespene" value="-0.75"/>
-            <Resource index="Terrazine" value="-0.75"/>
-            <Resource index="Custom" value="-0.75"/>
-        </RefundFraction>
-        <Activity value="UI/Morphing"/>
-        <ActorKey value="BanelingAspect"/>
-        <Flags index="KillOnFinish" value="1"/>
-        <Flags index="Select" value="1"/>
-        <MorphUnit value="BanelingCocoon4"/>
-        <InfoArray index="Train1" Time="10" Alert="MorphComplete_Zerg">
-            <Button DefaultButtonFace="Baneling" Requirements="CoopBasicBaneling">
-                <Flags index="ShowInGlossary" value="1"/>
-            </Button>
-            <Unit value="Baneling5"/>
-            <Flags index="IgnorePlacement" value="1"/>
-        </InfoArray>
-        <Alert value="MorphComplete_Zerg"/>
-    </CAbilTrain>
-    <CAbilTrain id="MorphZerglingToBaneling5">
-        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
-        <RefundFraction>
-            <Resource index="Minerals" value="-0.75"/>
-            <Resource index="Vespene" value="-0.75"/>
-            <Resource index="Terrazine" value="-0.75"/>
-            <Resource index="Custom" value="-0.75"/>
-        </RefundFraction>
-        <Activity value="UI/Morphing"/>
-        <ActorKey value="BanelingAspect"/>
-        <Flags index="KillOnFinish" value="1"/>
-        <Flags index="Select" value="1"/>
-        <MorphUnit value="BanelingCocoon5"/>
-        <InfoArray index="Train1" Time="10" Alert="MorphComplete_Zerg">
-            <Button DefaultButtonFace="Baneling" Requirements="CoopBasicBaneling">
-                <Flags index="ShowInGlossary" value="1"/>
-            </Button>
-            <Unit value="Baneling6"/>
-            <Flags index="IgnorePlacement" value="1"/>
-        </InfoArray>
-        <Alert value="MorphComplete_Zerg"/>
-    </CAbilTrain>
-    <CAbilTrain id="MorphZerglingToHunter3">
-        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
-        <RefundFraction>
-            <Resource index="Minerals" value="-0.75"/>
-            <Resource index="Vespene" value="-0.75"/>
-            <Resource index="Terrazine" value="-0.75"/>
-            <Resource index="Custom" value="-0.75"/>
-        </RefundFraction>
-        <Activity value="UI/Morphing"/>
-        <ActorKey value="BanelingAspect"/>
-        <Flags index="KillOnFinish" value="1"/>
-        <Flags index="Select" value="1"/>
-        <MorphUnit value="BanelingCocoon4"/>
-        <InfoArray index="Train1" Time="10" Alert="MorphComplete_Zerg">
-            <Charge Link="Abil/MorphZerglingToBaneling"/>
-            <Cooldown Link="Abil/MorphZerglingToBaneling"/>
-            <Button DefaultButtonFace="MorphtoHunter" Requirements="CoopHunterRequirements">
-                <Flags index="ShowInGlossary" value="1"/>
-            </Button>
-            <Unit value="HotSHunter4"/>
-        </InfoArray>
-        <Alert value="MorphComplete_Zerg"/>
-    </CAbilTrain>
-    <CAbilTrain id="MorphZerglingToHunter4">
-        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
-        <RefundFraction>
-            <Resource index="Minerals" value="-0.75"/>
-            <Resource index="Vespene" value="-0.75"/>
-            <Resource index="Terrazine" value="-0.75"/>
-            <Resource index="Custom" value="-0.75"/>
-        </RefundFraction>
-        <Activity value="UI/Morphing"/>
-        <ActorKey value="BanelingAspect"/>
-        <Flags index="KillOnFinish" value="1"/>
-        <Flags index="Select" value="1"/>
-        <MorphUnit value="BanelingCocoon5"/>
-        <InfoArray index="Train1" Time="10" Alert="MorphComplete_Zerg">
-            <Charge Link="Abil/MorphZerglingToBaneling"/>
-            <Cooldown Link="Abil/MorphZerglingToBaneling"/>
-            <Button DefaultButtonFace="MorphtoHunter" Requirements="CoopHunterRequirements">
-                <Flags index="ShowInGlossary" value="1"/>
-            </Button>
-            <Unit value="HotSHunter5"/>
-        </InfoArray>
-        <Alert value="MorphComplete_Zerg"/>
-    </CAbilTrain>
-    <CAbilTrain id="MorphZerglingToSplitterling3">
-        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
-        <RefundFraction>
-            <Resource index="Minerals" value="-0.75"/>
-            <Resource index="Vespene" value="-0.75"/>
-            <Resource index="Terrazine" value="-0.75"/>
-            <Resource index="Custom" value="-0.75"/>
-        </RefundFraction>
-        <Activity value="UI/Morphing"/>
-        <ActorKey value="BanelingAspect"/>
-        <Flags index="KillOnFinish" value="1"/>
-        <Flags index="Select" value="1"/>
-        <MorphUnit value="BanelingCocoon4"/>
-        <InfoArray index="Train1" Time="10" Alert="MorphComplete_Zerg">
-            <Charge Link="Abil/MorphZerglingToBaneling"/>
-            <Cooldown Link="Abil/MorphZerglingToBaneling"/>
-            <Button DefaultButtonFace="MorphtoSplitterling" Requirements="CoopSplitterlingRequirements">
-                <Flags index="ShowInGlossary" value="1"/>
-            </Button>
-            <Unit value="HotSSplitterlingBig4"/>
-        </InfoArray>
-        <Alert value="MorphComplete_Zerg"/>
-    </CAbilTrain>
-    <CAbilTrain id="MorphZerglingToSplitterling4">
-        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
-        <RefundFraction>
-            <Resource index="Minerals" value="-0.75"/>
-            <Resource index="Vespene" value="-0.75"/>
-            <Resource index="Terrazine" value="-0.75"/>
-            <Resource index="Custom" value="-0.75"/>
-        </RefundFraction>
-        <Activity value="UI/Morphing"/>
-        <ActorKey value="BanelingAspect"/>
-        <Flags index="KillOnFinish" value="1"/>
-        <Flags index="Select" value="1"/>
-        <MorphUnit value="BanelingCocoon5"/>
-        <InfoArray index="Train1" Time="10" Alert="MorphComplete_Zerg">
-            <Charge Link="Abil/MorphZerglingToBaneling"/>
-            <Cooldown Link="Abil/MorphZerglingToBaneling"/>
-            <Button DefaultButtonFace="MorphtoSplitterling" Requirements="CoopSplitterlingRequirements">
-                <Flags index="ShowInGlossary" value="1"/>
-            </Button>
-            <Unit value="HotSSplitterlingBig5"/>
-        </InfoArray>
-        <Alert value="MorphComplete_Zerg"/>
-    </CAbilTrain>
     <CAbilEffectInstant id="Spell2Zeratul">
         <EditorCategories value="AbilityorEffectType:Units"/>
         <Effect index="0" value="GuardianShieldPersistent2"/>
@@ -1620,96 +1425,6 @@
         </Cost>
         <CmdButtonArray index="Execute" DefaultButtonFace="Explode2"/>
     </CAbilEffectInstant>
-    <CAbilTrain id="MorphZerglingToBaneling2">
-        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
-        <RefundFraction>
-            <Resource index="Minerals" value="-0.75"/>
-            <Resource index="Vespene" value="-0.75"/>
-            <Resource index="Terrazine" value="-0.75"/>
-            <Resource index="Custom" value="-0.75"/>
-        </RefundFraction>
-        <Activity value="UI/Morphing"/>
-        <ActorKey value="BanelingAspect"/>
-        <Flags index="KillOnFinish" value="1"/>
-        <Flags index="Select" value="1"/>
-        <MorphUnit value="BanelingCocoon2"/>
-        <InfoArray index="Train1" Time="10" Alert="MorphComplete_Zerg">
-            <Button DefaultButtonFace="Baneling" Requirements="CoopBasicBaneling">
-                <Flags index="ShowInGlossary" value="1"/>
-            </Button>
-            <Unit value="Baneling2"/>
-            <Flags index="IgnorePlacement" value="1"/>
-        </InfoArray>
-        <Alert value="MorphComplete_Zerg"/>
-    </CAbilTrain>
-    <CAbilTrain id="MorphZerglingToBaneling3">
-        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
-        <RefundFraction>
-            <Resource index="Minerals" value="-0.75"/>
-            <Resource index="Vespene" value="-0.75"/>
-            <Resource index="Terrazine" value="-0.75"/>
-            <Resource index="Custom" value="-0.75"/>
-        </RefundFraction>
-        <Activity value="UI/Morphing"/>
-        <ActorKey value="BanelingAspect"/>
-        <Flags index="KillOnFinish" value="1"/>
-        <Flags index="Select" value="1"/>
-        <MorphUnit value="BanelingCocoon3"/>
-        <InfoArray index="Train1" Time="10" Alert="MorphComplete_Zerg">
-            <Button DefaultButtonFace="Baneling" Requirements="CoopBasicBaneling">
-                <Flags index="ShowInGlossary" value="1"/>
-            </Button>
-            <Unit value="Baneling4"/>
-            <Flags index="IgnorePlacement" value="1"/>
-        </InfoArray>
-        <Alert value="MorphComplete_Zerg"/>
-    </CAbilTrain>
-    <CAbilTrain id="MorphZerglingToHunter2">
-        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
-        <RefundFraction>
-            <Resource index="Minerals" value="-0.75"/>
-            <Resource index="Vespene" value="-0.75"/>
-            <Resource index="Terrazine" value="-0.75"/>
-            <Resource index="Custom" value="-0.75"/>
-        </RefundFraction>
-        <Activity value="UI/Morphing"/>
-        <ActorKey value="BanelingAspect"/>
-        <Flags index="KillOnFinish" value="1"/>
-        <Flags index="Select" value="1"/>
-        <MorphUnit value="BanelingCocoon3"/>
-        <InfoArray index="Train1" Time="10" Alert="MorphComplete_Zerg">
-            <Charge Link="Abil/MorphZerglingToBaneling"/>
-            <Cooldown Link="Abil/MorphZerglingToBaneling"/>
-            <Button DefaultButtonFace="MorphtoHunter" Requirements="CoopHunterRequirements">
-                <Flags index="ShowInGlossary" value="1"/>
-            </Button>
-            <Unit value="HotSHunter3"/>
-        </InfoArray>
-        <Alert value="MorphComplete_Zerg"/>
-    </CAbilTrain>
-    <CAbilTrain id="MorphZerglingToSplitterling2">
-        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
-        <RefundFraction>
-            <Resource index="Minerals" value="-0.75"/>
-            <Resource index="Vespene" value="-0.75"/>
-            <Resource index="Terrazine" value="-0.75"/>
-            <Resource index="Custom" value="-0.75"/>
-        </RefundFraction>
-        <Activity value="UI/Morphing"/>
-        <ActorKey value="BanelingAspect"/>
-        <Flags index="KillOnFinish" value="1"/>
-        <Flags index="Select" value="1"/>
-        <MorphUnit value="BanelingCocoon3"/>
-        <InfoArray index="Train1" Time="10" Alert="MorphComplete_Zerg">
-            <Charge Link="Abil/MorphZerglingToBaneling"/>
-            <Cooldown Link="Abil/MorphZerglingToBaneling"/>
-            <Button DefaultButtonFace="MorphtoSplitterling" Requirements="CoopSplitterlingRequirements">
-                <Flags index="ShowInGlossary" value="1"/>
-            </Button>
-            <Unit value="HotSSplitterlingBig3"/>
-        </InfoArray>
-        <Alert value="MorphComplete_Zerg"/>
-    </CAbilTrain>
     <CAbilRally id="RallyZeratulTopBar2">
         <EditorCategories value="Race:Protoss,AbilityorEffectType:Structures"/>
         <InfoArray index="0" AllowSetFilters="-;Player,Ally,Neutral,Enemy"/>

@@ -2,9 +2,6 @@
 Abil/Name/BurrowHydraliskDown2=Burrow (Hydralisk)
 Abil/Name/BurrowRavagerDown2=Burrow
 Abil/Name/BurrowRoachDown2=Burrow (Roach)
-Abil/Name/BurrowZerglingDown2=Burrow (Zergling)
-Abil/Name/BurrowZerglingDown3=Burrow (Zergling)
-Abil/Name/BurrowZerglingDown4=Burrow (Zergling)
 Abil/Name/BurrowZerglingDown5=Burrow (Zergling)
 Abil/Name/D8Charge2=G-4 Charge
 Abil/Name/D8Charge3=G-4 Charge
@@ -28,19 +25,10 @@ Abil/Name/LockOnCancel2=Lock On Cancel
 Abil/Name/LockOnCancel3=Lock On Cancel
 Abil/Name/MorphToHellion2=Morph To Hellion
 Abil/Name/MorphToHellionTank2=Morph To Hellbat
-Abil/Name/MorphZerglingToBaneling2=Morph (Zergling -> Baneling)
-Abil/Name/MorphZerglingToBaneling3=Morph (Zergling -> Baneling)
-Abil/Name/MorphZerglingToBaneling4=Morph (Zergling -> Baneling)
-Abil/Name/MorphZerglingToBaneling5=Morph (Zergling -> Baneling)
-Abil/Name/MorphZerglingToHunter2=Morph (Zergling -> Hunter)
-Abil/Name/MorphZerglingToHunter3=Morph (Zergling -> Hunter)
-Abil/Name/MorphZerglingToHunter4=Morph (Zergling -> Hunter)
-Abil/Name/MorphZerglingToSplitterling2=Morph (Zergling -> Splitterling)
-Abil/Name/MorphZerglingToSplitterling3=Morph (Zergling -> Splitterling)
-Abil/Name/MorphZerglingToSplitterling4=Morph (Zergling -> Splitterling)
 Abil/Name/RallyZeratulTopBar2=Rally
 Abil/Name/RaynorUpgrades=Raynor Upgrades
 Abil/Name/SIEngineeringBayResearch2=Infested Engineering Bay Research
+Abil/Name/SautTestZerglingatosorus=SautTestZerglingatosorus
 Abil/Name/SpawningPoolResearch2=Research (Spawning Pool)
 Abil/Name/SpawningPoolResearch3=Research (Spawning Pool)
 Abil/Name/Spell2Zeratul=Spell2Zeratul
@@ -223,14 +211,7 @@ Behavior/Name/ZeratulDarkTemplarRetreatCooldown2=Recently Retreated
 Behavior/Name/ZeratulDarkTemplarRetreatCooldown3=Recently Retreated
 Behavior/Name/ZeratulDarkTemplarStasis2=Back to the Shadows
 Behavior/Name/ZeratulDarkTemplarStasis3=Back to the Shadows
-Behavior/Name/ZerglingArmorShredTarget2=Armor Negated
-Behavior/Name/ZerglingArmorShredTarget22=Armor Negated
-Behavior/Name/ZerglingArmorShredTarget3=Armor Negated
-Behavior/Name/ZerglingArmorShredTarget4=Armor Negated
-Behavior/Name/ZerglingSunder2=Sundered
-Behavior/Name/ZerglingSunder22=Sundered
-Behavior/Name/ZerglingSunder3=Sundered
-Behavior/Name/ZerglingSunder4=Sundered
+Behavior/Name/ZerglingJumpBehavior=ZerglingJumpBehavior
 Behavior/Tooltip/AlarakLightningStrikes2=Alarak's next Deadly Charge also deals <d ref="Effect,AlarakLightningStrikesDamage,Amount"/> damage to <d ref="Effect,AlarakLightningStrikesSearch,AreaArray[0].MaxCount"/> enemy units near the primary target.
 Behavior/Tooltip/AlarakLightningStrikes3=Alarak's next Deadly Charge also deals <d ref="Effect,AlarakLightningStrikesDamage,Amount"/> damage to <d ref="Effect,AlarakLightningStrikesSearch,AreaArray[0].MaxCount"/> enemy units near the primary target.
 Behavior/Tooltip/AlarakLightningStrikes4=Alarak's next Deadly Charge also deals <d ref="Effect,AlarakLightningStrikesDamage,Amount"/> damage to <d ref="Effect,AlarakLightningStrikesSearch,AreaArray[0].MaxCount"/> enemy units near the primary target.
@@ -288,14 +269,6 @@ Behavior/Tooltip/ZeratulDarkTemplarRetreatCooldown2=This unit has recently retre
 Behavior/Tooltip/ZeratulDarkTemplarRetreatCooldown3=This unit has recently retreated to the Void and cannot use Back to the Shadows.
 Behavior/Tooltip/ZeratulDarkTemplarStasis2=This unit has retreated to the Void and is regenerating health and shields.
 Behavior/Tooltip/ZeratulDarkTemplarStasis3=This unit has retreated to the Void and is regenerating health and shields.
-Behavior/Tooltip/ZerglingArmorShredTarget2=This unit's armor has been reduced to 0.
-Behavior/Tooltip/ZerglingArmorShredTarget22=This unit's armor has been reduced to 0.
-Behavior/Tooltip/ZerglingArmorShredTarget3=This unit's armor has been reduced to 0.
-Behavior/Tooltip/ZerglingArmorShredTarget4=This unit's armor has been reduced to 0.
-Behavior/Tooltip/ZerglingSunder2=This unit receives extra damage from ranged attacks.
-Behavior/Tooltip/ZerglingSunder22=This unit receives extra damage from ranged attacks.
-Behavior/Tooltip/ZerglingSunder3=This unit receives extra damage from ranged attacks.
-Behavior/Tooltip/ZerglingSunder4=This unit receives extra damage from ranged attacks.
 Button/ChargeText/ZeratulBlink2SingleCharge=     
 Button/ChargeText/ZeratulBlink3SingleCharge=     
 Button/Name/AS=Attack Speed
@@ -526,6 +499,7 @@ Button/Name/ZeratulBlink2=Blink
 Button/Name/ZeratulBlink3=Blink
 Button/Name/ZeratulStun2=Void Prison
 Button/Name/ZeratulStun3=Void Prison
+Button/Name/ZerglingJumpButton=ZerglingJumpButton
 Button/Tooltip/AS=Reduce the time between attacks by 0.1 for each upgrades
 Button/Tooltip/AcquireMove2=Orders selected units to move to the target area or follow the target unit. Scan-moving units will not engage enemies.
 Button/Tooltip/AncillaryCarapaceHydralisk2=Hydralisk gains +20 maximum life.
@@ -605,8 +579,6 @@ Button/Tooltip/HotSHunter4=Suicide unit. Deals damage over a small area upon dea
 Button/Tooltip/HotSHunter5=Suicide unit. Deals damage over a small area upon death. Launches toward enemy at range 6.<n/><n/><c val="ffff8a">Can attack ground units.</c>
 Button/Tooltip/HotSMetabolicBoost2=Movement speed increased by 60%.
 Button/Tooltip/HotSMetabolicBoost3=Movement speed increased by 60%.
-Button/Tooltip/HotSRaptor2=Fast melee unit. Leaps over obstacles and onto targets from range. Deals increased damage. Can morph into a Baneling.<n/><n/><c val="FFFF8A">Can attack ground units.</c>
-Button/Tooltip/HotSRaptor3=Fast melee unit. Leaps over obstacles and onto targets from range. Deals increased damage. Can morph into a Baneling.<n/><n/><c val="FFFF8A">Can attack ground units.</c>
 Button/Tooltip/HotSRedundantMembranes2=Zergling gains +10 maximum life.
 Button/Tooltip/HotSRedundantMembranes3=Zergling gains +10 maximum life.
 Button/Tooltip/HotSRoachDamage2=Roach gains +<d ref="Upgrade,HotSRoachDamage,EffectArray[0].Value / Effect,AcidSalivaU"/> damage vs. light units.
@@ -616,8 +588,6 @@ Button/Tooltip/HotSSplitterlingBig3=Suicide unit. Deals damage over a small area
 Button/Tooltip/HotSSplitterlingBig4=Suicide unit. Deals damage over a small area upon death. Splits into smaller units as it dies. <n/><n/><c val="ffff8a">Can attack ground units.</c>
 Button/Tooltip/HotSSplitterlingBig5=Suicide unit. Deals damage over a small area upon death. Splits into smaller units as it dies. <n/><n/><c val="ffff8a">Can attack ground units.</c>
 Button/Tooltip/HotSSplitterlingMedium2=Suicide unit. Deals damage over a small area upon death. <n/><n/><c val="ffff8a">Can attack ground units.</c>
-Button/Tooltip/HotSSwarmling2=Fast melee unit. Spawns in groups of three. Morphs almost instantly. Can morph into a Baneling.<n/><n/><c val="FFFF8A">Can attack ground units.</c>
-Button/Tooltip/HotSSwarmling3=Fast melee unit. Spawns in groups of three. Morphs almost instantly. Can morph into a Baneling.<n/><n/><c val="FFFF8A">Can attack ground units.</c>
 Button/Tooltip/HotSZerglingFrenzy2=Attack speed increased by 40%.
 Button/Tooltip/HotSZerglingFrenzy3=Attack speed increased by 40%.
 Button/Tooltip/HydraliskFrenzy2=Attack speed increased by 50% for <d ref="Behavior,HydraliskFrenzy,Duration"/> seconds.
@@ -816,6 +786,8 @@ Button/Tooltip/ZeratulBlink3VoidBlinkAppend=<n/><n/><c val="FFFF8A">Void Blink:<
 Button/Tooltip/ZeratulStun2=Imprisons the enemy in psionic energy, stunning it and suppressing its ability to detect for <d ref="Behavior,ZeratulStun,Duration"/> seconds.<n/><n/><c val="ffff8a">Can imprison ground and air units.</c>
 Button/Tooltip/ZeratulStun3=Imprisons the enemy in psionic energy, stunning it and suppressing its ability to detect for <d ref="Behavior,ZeratulStun,Duration"/> seconds.<n/><n/><c val="ffff8a">Can imprison ground and air units.</c>
 Button/Tooltip/Zergling2=Fast melee creature. Can morph into a Baneling.<n/><n/><c val="FFFF8A">Can attack ground units.</c>
+Button/Tooltip/ZerglingJumpButton=ZerglingJumping
+Button/Tooltip/Zerglingatosorus=Fast melee creature. Can morph into a Baneling.<n/><n/><c val="FFFF8A">Can attack ground units.</c>
 DocInfo/DescLong=Completely devoid of any description whatsoever.
 DocInfo/DescShort=Any
 DocInfo/Name=Just Another StarCraft II Map
@@ -856,10 +828,6 @@ Effect/Name/Charge2=Charge (Apply Buff)
 Effect/Name/Charge3=Charge (Apply Buff)
 Effect/Name/Charge4=Charge (Apply Buff)
 Effect/Name/Charge5=Charge (Apply Buff)
-Effect/Name/Claws2=Claws (Damage)
-Effect/Name/Claws22=Claws (Damage)
-Effect/Name/Claws3=Claws (Damage)
-Effect/Name/Claws4=Claws (Damage)
 Effect/Name/CommanderPrestigeVorazunEmergencyRecallFullHeal2=CommanderPrestigeVorazunEmergencyRecallFullHeal
 Effect/Name/CommanderPrestigeVorazunEmergencyRecallFullHeal3=CommanderPrestigeVorazunEmergencyRecallFullHeal
 Effect/Name/CommanderPrestigeVorazunEmergencyRecallFullHeal4=CommanderPrestigeVorazunEmergencyRecallFullHeal
@@ -959,10 +927,6 @@ Effect/Name/HeroDetectorRadar2=Hero Detector Radar
 Effect/Name/HeroDetectorRadar3=Hero Detector Radar
 Effect/Name/HeroDetectorRadarDetected2=Hero Detector Radar Detected
 Effect/Name/HeroDetectorRadarDetected3=Hero Detector Radar Detected
-Effect/Name/HotSZerglingClaws2=Hot SZergling Claws
-Effect/Name/HotSZerglingClaws22=Hot SZergling Claws
-Effect/Name/HotSZerglingClaws3=Hot SZergling Claws
-Effect/Name/HotSZerglingClaws4=Hot SZergling Claws
 Effect/Name/HydraliskFrenzyApplyBehavior2=Hydralisk Frenzy Apply Behavior
 Effect/Name/HydraliskMeleeSet2=Hydralisk Melee Set
 Effect/Name/HyperionVoidCoopTimedLifeExpireAB2=Hyperion Timed Life Expire AB
@@ -1170,22 +1134,7 @@ Effect/Name/ZeratulStunApplyBehavior2=Stun (Apply Behavior)
 Effect/Name/ZeratulStunApplyBehavior3=Stun (Apply Behavior)
 Effect/Name/ZeratulVoidPrisonSearch2=ZeratulVoidPrisonSearch
 Effect/Name/ZeratulVoidPrisonSearch3=ZeratulVoidPrisonSearch
-Effect/Name/ZerglingArmorShredTargetAB2=Shredding Claws Target AB
-Effect/Name/ZerglingArmorShredTargetAB22=Shredding Claws Target AB
-Effect/Name/ZerglingArmorShredTargetAB3=Shredding Claws Target AB
-Effect/Name/ZerglingArmorShredTargetAB4=Shredding Claws Target AB
-Effect/Name/ZerglingFrenzy2=Zergling Frenzy
-Effect/Name/ZerglingFrenzy22=Zergling Frenzy
-Effect/Name/ZerglingFrenzy3=Zergling Frenzy
-Effect/Name/ZerglingFrenzy4=Zergling Frenzy
-Effect/Name/ZerglingRangeReapply2=Zergling Range Reapply
-Effect/Name/ZerglingRangeReapply22=Zergling Range Reapply
-Effect/Name/ZerglingRangeReapply3=Zergling Range Reapply
-Effect/Name/ZerglingRangeReapply4=Zergling Range Reapply
-Effect/Name/ZerglingSunder2=Zergling Sunder
-Effect/Name/ZerglingSunder22=Zergling Sunder
-Effect/Name/ZerglingSunder3=Zergling Sunder
-Effect/Name/ZerglingSunder4=Zergling Sunder
+Effect/Name/ZerglingJumpDamage=ZerglingJumpDamage
 Je n'arrive pas à changer le texte que l'on voit en jeu quand on place la souris sur le sort du stim=Je n'arrive pas à changer le texte que l'on voit en jeu quand on place la souris sur le sort du stim
 MapInfo/Player00/Name=Neutral
 MapInfo/Player01/Name=Player 1
@@ -1279,15 +1228,11 @@ Unit/Name/HotSHunter2=Baneling
 Unit/Name/HotSHunter3=Baneling
 Unit/Name/HotSHunter4=Baneling
 Unit/Name/HotSHunter5=Baneling
-Unit/Name/HotSRaptor2=Zergling
-Unit/Name/HotSRaptor3=Zergling
 Unit/Name/HotSSplitterlingBig2=Baneling
 Unit/Name/HotSSplitterlingBig3=Baneling
 Unit/Name/HotSSplitterlingBig4=Baneling
 Unit/Name/HotSSplitterlingBig5=Baneling
 Unit/Name/HotSSplitterlingMedium2=Baneling Spawn
-Unit/Name/HotSSwarmling2=Zergling
-Unit/Name/HotSSwarmling3=Zergling
 Unit/Name/Hydralisk=HydraliskChien
 Unit/Name/Hydralisk2=Hydralisk
 Unit/Name/JimRaynorIEUHero=Jim Raynor IEU Hero
@@ -1352,20 +1297,15 @@ Unit/Name/ZealotPurifier5=Sentinel
 Unit/Name/Zeratul2=Zeratul
 Unit/Name/Zeratul3=Zeratul
 Unit/Name/ZeratulSummonZealot2=Zealot
-Unit/Name/Zergling=Zerglingatosorus
 Unit/Name/Zergling2=ZerglingChien
-Unit/Name/Zergling3=Zergling
 Unit/Name/Zergling5=ZerglingStim
+Unit/Name/Zerglingatosorus=Zerglingatosorus
 UnitKillRank/Zeratul2=Dark Prelate
 UnitKillRank/Zeratul3=Dark Prelate
 UnitSubtitle/HotSHunter2=Hunter Strain
 UnitSubtitle/HotSHunter3=Hunter Strain
 UnitSubtitle/HotSHunter4=Hunter Strain
 UnitSubtitle/HotSHunter5=Hunter Strain
-UnitSubtitle/HotSRaptor2=Raptor Strain
-UnitSubtitle/HotSRaptor3=Raptor Strain
-UnitSubtitle/HotSSwarmling2=Swarmling Strain
-UnitSubtitle/HotSSwarmling3=Swarmling Strain
 Upgrade/BaseArmorUpgrade=Base Armor Upgrade
 Upgrade/BaseDmgUpgrade=Base DmgUpgrade
 Upgrade/BaseHealthUpgrade=40 HP
