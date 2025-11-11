@@ -2557,7 +2557,7 @@
         <LifeMax value="135"/>
         <LifeArmorName value="Unit/LifeArmorName/TerranInfantryArmor"/>
         <Mover value="Ground162"/>
-        <Speed value="2.5"/>
+        <Speed value="2.1015"/>
         <Acceleration value="1000"/>
         <LateralAcceleration value="46.0625"/>
         <StationaryTurningRate value="999.8437"/>
@@ -3613,7 +3613,7 @@
         <LifeMax value="150"/>
         <LifeRegenDelay value="10"/>
         <LifeRegenRate value="2"/>
-        <Speed value="3"/>
+        <Speed value="2.5"/>
         <DamageDealtXP value="1"/>
         <DamageTakenXP value="1"/>
         <KillXP value="20"/>

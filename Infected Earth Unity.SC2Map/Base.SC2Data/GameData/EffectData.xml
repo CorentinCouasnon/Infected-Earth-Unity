@@ -1926,7 +1926,7 @@
         <EffectArray value="OnDeathVorazunRecallOnDeathRecentlyRecalledAB5"/>
     </CEffectSet>
     <CEffectDamage id="P38ScytheGuassPistol">
-        <Amount value="10"/>
+        <Amount value="8"/>
     </CEffectDamage>
     <CEffectDamage id="P38ScytheGuassPistol2" parent="DU_WEAP">
         <ValidatorArray value="NotInvulnerable"/>
